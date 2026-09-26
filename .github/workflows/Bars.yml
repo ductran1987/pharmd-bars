@@ -1,0 +1,43 @@
+name: Fetch ES/NQ bars
+
+on:
+  schedule:
+    - cron: "15 22 * * 1-5"   # 3:15 PM PT weekdays (22:15 UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yfinance pandas
+      - name: Download bars
+        run: |
+          python - <<'EOF'
+          import yfinance as yf, pandas as pd, pathlib
+          pathlib.Path("bars").mkdir(exist_ok=True)
+          for sym, name in [("ES=F","ES"),("NQ=F","NQ")]:
+              df = yf.download(sym, period="7d", interval="5m",
+                               progress=False, auto_adjust=False)
+              if df.empty:
+                  raise SystemExit(f"no data for {sym}")
+              df.columns = [c[0] if isinstance(c, tuple) else c for c in df.columns]
+              df = df[["Open","High","Low","Close","Volume"]]
+              df.index = df.index.tz_convert("America/New_York")
+              df.index.name = "time"
+              df.to_csv(f"bars/{name}_5m.csv")
+              print(name, len(df), df.index[0], "->", df.index[-1])
+          EOF
+      - name: Commit
+        run: |
+          git config user.name "bars-bot"
+          git config user.email "bars-bot@users.noreply.github.com"
+          git add bars
+          git diff --cached --quiet || git commit -m "bars $(date -u +%F)"
+          git push
