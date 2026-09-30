@@ -2,8 +2,8 @@ name: Fetch ES/NQ bars
 
 on:
   schedule:
-    # every 30 min, 6:00 AM – 4:30 PM PT on weekdays (13:00–23:30 UTC)
-    - cron: "0,30 13-23 * * 1-5"
+    # every 30 min at :07/:37 (off-peak), 6 AM – 4:40 PM PT weekdays
+    - cron: "7,37 13-23 * * 1-5"
   workflow_dispatch:
 
 permissions:
