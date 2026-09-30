@@ -1,0 +1,455 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-30",
+ "status": "draft",
+ "notes": "",
+ "bias": "ES: bulls have a LBAF of the 7718-25 weekly level and today's low to work with but can't fumble \u2014 no trade above the open again today is objectively bearish. NQ: inside day, box trades (sustained break of today's high/low, LAAF/LBAF). ADP, GDP, PCE premarket.",
+ "wildcard": "ADP, GDP and PCE all premarket \u2014 plenty of catalyst for a decisive move either way. He wants a true gap-up-and-go if buyers are serious; a fresh LBAF is only 'okay' because the low is poor. YM tell: 51730-51757 tonight \u2014 strength above helps confirm an ES rally, persistent weakness below drags ES.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Overnight swept 7725/26 into the 7718-25 weekly level, failed to continue, rallied ~60 \u2014 the LBAF from yesterday's plan, and extremely clean. Cash was the opposite: opened right at 58-59 (where he was already skeptical), sold straight through weekly 49-52, took out yesterday's low and the box bottom, reached the low 7710s. Sellers found no traction below 7718-25 \u2014 last week's ETH low 7707.25 was never reached, the OG 7706-12 level held \u2014 and the afternoon repaired the breakdown, reclaimed 7725/26 and closed back inside the balance. That long was as annoying as possible to catch. Today had A-period singles above 7747. Yet another day with no trade above the open after the first moments.",
+   "pivot": "7749-7752 (arguably 7745) is where shorts live \u2014 no interest above today's open. 7718-25 (to 7715) is the floor bulls must defend. New honorable mention 7735-37. YM 51730-51757 tonight as the tell.",
+   "higher": "A-period singles above 7747 sit just under 7749-52, so he'd look for shorts again in 49-52 incl. a LAAF, monitoring continuation through 35-37 toward 7718-25. A LAAF of today's high needs back below 7749-52 (7745) to work down the range. Buyers need today's RTH and ETH high with continuation to retake short timeframes \u2014 then 7749-52 can flip to support and open the 7780s.",
+   "lower": "Buyers can defend 7718-25 (maybe 7715 for a stick save) or LBAF today's low and still be 'okay'. Any meaningful break \u2014 including last week's ETH low 7707.25 \u2014 is bearish: short-biased, monitoring levels lower, 7644-48 still the major target.",
+   "levels": [
+    {
+     "p": [
+      7789,
+      7791
+     ],
+     "label": "daily \u00b7 7780s if 49-52 flips",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7774,
+      7775
+     ],
+     "label": "daily",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7770.75
+     ],
+     "label": "today's ETH high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7758.5
+     ],
+     "label": "today's RTH high (9:30 bar) \u00b7 58-59",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7749,
+      7752
+     ],
+     "label": "PIVOT \u00b7 shorts incl LAAF \u00b7 A-period singles above 7747",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7745
+     ],
+     "label": "arguable 49-52 line",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7735,
+      7737
+     ],
+     "label": "honorable mention",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7725.25
+     ],
+     "label": "Mon/Thu lows 25/26",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7718,
+      7725
+     ],
+     "label": "weekly \u00b7 defend (to 7715)",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7712.25
+     ],
+     "label": "today's low \u00b7 LBAF watch",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7707.25
+     ],
+     "label": "last wk ETH low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7706,
+      7712
+     ],
+     "label": "OG level \u00b7 held",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7696,
+      7699
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7678,
+      7681
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7644,
+      7648
+     ],
+     "label": "major target",
+     "kind": "down"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Inside day on an RTH basis \u2014 nothing objectively changed. Overnight low held 369-391 again (30372.25), aligned with ES's LBAF. Ferocious overnight rally, then sellers stepped in heavy at the open; all the action below the open and almost all capped below 638-669. But sellers couldn't even reach 469-493 during cash; 500-530 was supportive. 530-555 could matter again \u2014 without the weekly 469-493 he'd use 540-555 for a LBAF.",
+   "pivot": "30638-30669 caps it; 530-555 (and 500-530) is the demand zone protecting today's low; 469-493 weekly just below.",
+   "higher": "Buyers need to sustain above 638-669 to attempt today's high; failing that invites weakness toward 569 or today's low. Above today's RTH high \u2192 yesterday's RTH high 759 (not far); watch for a LAAF of 759, especially if it also LAAFs today's high \u2014 638-669 must hold from above in that case or it's back to today's low.",
+   "lower": "638-669 keeps capping (or after an excursion higher) \u2192 569 expected; wary of first-pass effect since 520-580 is well-bid, strongest 530-545. LBAF of today's low with weekly 469-493 just below; continuation through 469-493 almost certainly sees 369-391. Relative equal lows 357 (Mon RTH) and 372 (today ETH) sit in Monday's A-period singles \u2014 a LBAF there can give relief but bulls need today's low and probably 555 back. Persistent weakness below 369-391 \u2192 269-293, then last Monday's open/low 222 / 216.5.",
+   "levels": [
+    {
+     "p": [
+      30769,
+      30781
+     ],
+     "label": "daily",
+     "kind": "up"
+    },
+    {
+     "p": [
+      30759.25
+     ],
+     "label": "Mon RTH high \u00b7 LAAF watch",
+     "kind": "up"
+    },
+    {
+     "p": [
+      30725.5
+     ],
+     "label": "today's high \u00b7 box top",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30638,
+      30669
+     ],
+     "label": "PIVOT \u00b7 cap",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      30569
+     ],
+     "label": "expected if 638-669 caps",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30530,
+      30555
+     ],
+     "label": "demand \u00b7 LBAF zone (540-555)",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30504.5
+     ],
+     "label": "today's low \u00b7 box bottom",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30469,
+      30493
+     ],
+     "label": "weekly",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      30369,
+      30391
+     ],
+     "label": "held again ON \u00b7 rel. equal lows 357/372",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30356.75
+     ],
+     "label": "Mon RTH low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30269,
+      30293
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30216.5,
+      30222
+     ],
+     "label": "last Mon low/open",
+     "kind": "down"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "True gap up that holds today's high",
+   "dir": "long",
+   "tag": "B/B-",
+   "gate": "true gap up (premarket data) that holds above today's high 7758.5 / ETH high 7770.75",
+   "tgt": "7774-75 \u2192 7789-91 \u2192 7780s",
+   "stop": "back below today's high; 7749-52 lost",
+   "quote": "Long a true gap up which holds today's high. B/B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7758.5,
+     7770.75
+    ],
+    "tgt": [
+     [
+      7774,
+      7775
+     ],
+     [
+      7789,
+      7791
+     ]
+    ],
+    "stop": [
+     7749
+    ]
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 7718-7725 / LBAF of today's low",
+   "dir": "long",
+   "tag": "B-",
+   "gate": "hold of 7718-25 (as low as 7715 for a stick save) or LBAF of today's low 7712.25 \u2014 needs 7725+ to be any good",
+   "tgt": "7735-37 \u2192 7749-52",
+   "stop": "meaningful break incl. last week's ETH low 7707.25",
+   "quote": "Long a hold of 7718-7725 (maybe as low as 7715 for a stick save of today's low) or long a LBAF of todays low, knowing it needs at least 7725+ to be any good. B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7712.25,
+     7725
+    ],
+    "tgt": [
+     [
+      7735,
+      7737
+     ],
+     [
+      7749,
+      7752
+     ]
+    ],
+    "stop": [
+     7707.25
+    ]
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Fail / LAAF of 7749-7752",
+   "dir": "short",
+   "tag": "B/B-",
+   "gate": "fail or LAAF of 49-52 (arguably 7745) \u2014 can come from a LAAF of today's high too; A-period singles above 7747",
+   "tgt": "7735-37 \u2192 7718-25",
+   "stop": "today's RTH & ETH high taken with continuation",
+   "quote": "Short a fail/LAAF of 7749-7752 remains valid until it stops working. This can come from a LAAF of today's high as well. B/B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7745,
+     7752
+    ],
+    "tgt": [
+     [
+      7735,
+      7737
+     ],
+     [
+      7718,
+      7725
+     ]
+    ],
+    "stop": [
+     7770.75
+    ]
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "True gap up that holds today's high",
+   "dir": "long",
+   "tag": "B/B-",
+   "gate": "true gap up that holds above today's high 30725.5",
+   "tgt": "Mon high 30759 \u2192 30769-781 \u2192 827-846",
+   "stop": "back below today's high; 638-669 lost",
+   "quote": "Long a true gap up which holds today's high. B/B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30725.5
+    ],
+    "tgt": [
+     30759.25,
+     [
+      30769,
+      30781
+     ],
+     [
+      30827,
+      30846
+     ]
+    ],
+    "stop": [
+     30669
+    ]
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of today's high (or Monday's) \u2192 downtrend below 638-669",
+   "dir": "short",
+   "tag": "B-",
+   "gate": "LAAF of today's high 30725.5 (possibly Monday's 30759) that finds a downtrend below 638-669",
+   "tgt": "569 \u2192 530-555 \u2192 today's low",
+   "stop": "sustained above 638-669 / today's high reclaimed",
+   "quote": "Short a LAAF of today's high (possibly even Monday's high) that finds a downtrend below 638-669. B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30725.5,
+     30759.25
+    ],
+    "tgt": [
+     30569,
+     [
+      30530,
+      30555
+     ],
+     30504.5
+    ],
+    "stop": [
+     30781
+    ]
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Persistent weakness below 638-669",
+   "dir": "short",
+   "tag": "B-",
+   "gate": "persistent weakness below 30638-30669 (keeps working until it doesn't)",
+   "tgt": "569 \u2192 530-555 \u2192 today's low 30504.5",
+   "stop": "sustained above 638-669",
+   "quote": "We can continue to short persistent weakness below 638-669 in general until it stops working. B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30638,
+     30669
+    ],
+    "tgt": [
+     30569,
+     [
+      30530,
+      30555
+     ],
+     30504.5
+    ],
+    "stop": [
+     30700
+    ]
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "B/B+",
+   "gate": "LBAF of today's low 30504.5, weekly 469-493 just below",
+   "tgt": "530-555 \u2192 638-669",
+   "stop": "continuation through 469-493 (\u2192 369-391)",
+   "quote": "Long a LBAF of today's low. B/B+",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30469,
+     30504.5
+    ],
+    "tgt": [
+     [
+      30530,
+      30555
+     ],
+     [
+      30638,
+      30669
+     ]
+    ],
+    "stop": [
+     30391
+    ]
+   }
+  }
+ ]
+}

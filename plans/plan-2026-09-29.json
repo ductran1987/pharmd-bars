@@ -1,0 +1,441 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-29",
+ "status": "draft",
+ "notes": "",
+ "bias": "ES: still inside the weekly box (now a 6-day balance); 7749-52 is first order of business, clarity in weakness below it. NQ: balance above last Monday's open/low still building \u2014 not a daily downtrend until that's taken out with continuation. Subjective tilt: sellers absorbed massive buy-side tape bombs today, first time in a long while.",
+ "wildcard": "Headline-driven tape (Iran). Premarket rally rolled over and then some; treat news spikes as things sellers may fade.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Today's low 7726 fell three ticks from last week's Thursday RTH low 7725.25 \u2014 the box is now a 6-day balance and sets up clean box trades. Unusual double distribution: consolidated above 58-59 through the IB, nuked on the IB breakdown to the low of day, built a lower distribution, then news bombs ripped it into the upper distribution and new highs \u2014 where buyers ran into a brick wall of selling. Closed back in the lower distribution. Subjectively: multiple massive buy-side tape bombs all met with responsive selling; he hasn't seen sellers do that in a long time.",
+   "pivot": "7749-7752 is first order of business \u2014 clarity in weakness below it. 7749-52 to 7758-59 is indeterminate. He's cautious above 58-59 given the selling in the 7780s.",
+   "higher": "Firm base back above 58-59 \u2192 7774-75 (today's IB high and VAH); very much on watch for a LAAF there, which flips back to the lower scenario. Buyers need today's high and 7789-91 to attempt the Sunday night high and Friday's 5pm close; 7815-22 not far above, then the box top.",
+   "lower": "Can't reclaim 7749-52 (incl. failed reclaim, from 58-59 or from between) \u2192 today's low and the bottom of the box. There: LBAF of the multi-day balance vs. breakdown with continuation. Traction below last week's ETH low 7707.25 (the 7706-7712 range has been important) raises confidence in downside continuation; 7644-48 is the major target if selling persists.",
+   "levels": [
+    {
+     "p": [
+      7815,
+      7822
+     ],
+     "label": "weekly \u00b7 then box top",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7792.25
+     ],
+     "label": "Sun night high \u00b7 Fri 5pm close",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7789,
+      7791
+     ],
+     "label": "daily",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7786.25
+     ],
+     "label": "today's high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7774,
+      7775
+     ],
+     "label": "IB high / VAH \u00b7 LAAF watch",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7758,
+      7759
+     ],
+     "label": "strength above \u00b7 indeterminate below",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7749,
+      7752
+     ],
+     "label": "PIVOT \u00b7 first order of business",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7726
+     ],
+     "label": "today's low (last wk low 7725.25)",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7718,
+      7725
+     ],
+     "label": "box bottom \u00b7 LBAF = long",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7707.25
+     ],
+     "label": "last wk ETH low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7706,
+      7712
+     ],
+     "label": "traction below = continuation",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7696,
+      7699
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7678,
+      7681
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7644,
+      7648
+     ],
+     "label": "major target",
+     "kind": "down"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "The news rally barely left a wick above today's open. Without the weekly levels he'd call today's edges 669-684 and 500-530. The balance above last Monday's open/low is still building; he won't call the daily timeframe a downtrend until that's taken out with continuation, and is drawing that prospective box now.",
+   "pivot": "Responsive sellers expected in 30638-669 or just above; responsive buyers as 30493 is approached (as high as the 530s).",
+   "higher": "Fail/LAAF of 638-669 resolves back to the 530s and 469-493. Bulls need today's high with continuation to negate today's weakness and find 827-846; if so, 951-969 probably trades too.",
+   "lower": "469-493 holds (perhaps as high as 530), incl. LBAF \u2192 638-669 back in play. Weakness below 469-493 \u2192 today's low and probably last Monday's open/low 30222 / 30216.5, which he'll treat as a prospective range low (RTH bull gap below). A LBAF there is high-risk but valid; sellers more likely to get traction on a break after it holds first.",
+   "levels": [
+    {
+     "p": [
+      30827,
+      30846
+     ],
+     "label": "if today's high taken w/ continuation",
+     "kind": "up"
+    },
+    {
+     "p": [
+      30769,
+      30781
+     ],
+     "label": "daily",
+     "kind": "up"
+    },
+    {
+     "p": [
+      30759.25
+     ],
+     "label": "today's high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30718
+     ],
+     "label": "today's open (news rally barely above)",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30669,
+      30684
+     ],
+     "label": "today's upper edge",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30638,
+      30669
+     ],
+     "label": "PIVOT \u00b7 responsive sellers",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      30500,
+      30530
+     ],
+     "label": "today's lower edge",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30469,
+      30493
+     ],
+     "label": "PIVOT \u00b7 responsive buyers",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      30369,
+      30391
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30356.75
+     ],
+     "label": "today's low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30269,
+      30293
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30216.5,
+      30222
+     ],
+     "label": "last Mon low/open \u00b7 prospective range low",
+     "kind": "down"
+    },
+    {
+     "p": [
+      29932,
+      29969
+     ],
+     "label": "RTH bull gap",
+     "kind": "down"
+    },
+    {
+     "p": [
+      29845,
+      29852
+     ],
+     "label": "new daily",
+     "kind": "down"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of 7725-7726 (today's + last week's lows)",
+   "dir": "long",
+   "tag": "A/A-",
+   "gate": "LBAF of the 7725/7726 lows \u2014 holds 7718-25 or sweeps a bit lower first",
+   "tgt": "7749-52 \u2192 7758-59 \u2192 7774-75",
+   "stop": "clean breakdown with continuation; traction below ETH low 7707.25",
+   "quote": "Long a LBAF of today and last week's RTH lows (7725-7726) is an A/A-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7718,
+     7726
+    ],
+    "tgt": [
+     [
+      7749,
+      7752
+     ],
+     [
+      7758,
+      7759
+     ],
+     [
+      7774,
+      7775
+     ]
+    ],
+    "stop": [
+     7707.25
+    ]
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Failed reclaim of 7749-7752",
+   "dir": "short",
+   "tag": "B-",
+   "gate": "failed reclaim of 49-52, from 58-59 or from the indeterminate area between",
+   "tgt": "today's low 7726 / bottom of the box",
+   "stop": "firm base above 7758-59",
+   "quote": "Short a failed reclaim of 7749-7752 is a B-.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7749,
+     7752
+    ],
+    "tgt": [
+     7726,
+     [
+      7718,
+      7725
+     ]
+    ],
+    "stop": [
+     7759
+    ]
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LAAF of 7774-7775",
+   "dir": "short",
+   "tag": "B-",
+   "gate": "LAAF of 74-75 (today's IB high / VAH) \u2014 sellers were very responsive in the 80s",
+   "tgt": "7758-59 \u2192 7749-52 \u2192 today's low",
+   "stop": "today's high 7786.25 and 7789-91 taken out",
+   "quote": "Short a LAAF of 7774-7775 is a B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7774,
+     7775
+    ],
+    "tgt": [
+     [
+      7758,
+      7759
+     ],
+     [
+      7749,
+      7752
+     ]
+    ],
+    "stop": [
+     7786.25
+    ]
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Breakdown of the box with continuation",
+   "dir": "short",
+   "tag": "implied \u2014 commentary, not graded",
+   "gate": "clean breakdown of 7725/7726 with continuation; confidence up with traction below ETH low 7707.25",
+   "tgt": "7706-12 \u2192 7696-99 \u2192 7678-81 \u2192 7644-48 major",
+   "stop": "LBAF back above 7718-25",
+   "quote": "A LBAF of these 7725/7726 lows whether it holds 7718-7725 or sweeps a bit lower first, is a long. A clean breakdown with continuation is a short.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7718,
+     7726
+    ],
+    "tgt": [
+     [
+      7706,
+      7712
+     ],
+     [
+      7696,
+      7699
+     ],
+     [
+      7678,
+      7681
+     ],
+     [
+      7644,
+      7648
+     ]
+    ],
+    "stop": [
+     7730
+    ]
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold / LBAF of 30469-30493",
+   "dir": "long",
+   "tag": "B/B-",
+   "gate": "hold or LBAF of 469-493; watching as high as the 530s for responsive buyers",
+   "tgt": "30638-30669",
+   "stop": "weakness below 469-493 (\u2192 today's low, then 30222/30216.5)",
+   "quote": "Long a hold or LBAF of 469-493 is a B/B-. As mentioned above, I'll be watching as high as the 530s",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30469,
+     30530
+    ],
+    "tgt": [
+     [
+      30638,
+      30669
+     ]
+    ],
+    "stop": [
+     30356.75
+    ]
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail / LAAF of 30638-30669",
+   "dir": "short",
+   "tag": "B-/B-",
+   "gate": "fail or LAAF of 638-669 (responsive sellers there or just above, to 684)",
+   "tgt": "530s \u2192 30469-30493",
+   "stop": "today's high 30759.25 taken with continuation",
+   "quote": "Short a fail/LAAF of 638-669 is a B-B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30638,
+     30684
+    ],
+    "tgt": [
+     30530,
+     [
+      30469,
+      30493
+     ]
+    ],
+    "stop": [
+     30759.25
+    ]
+   }
+  }
+ ]
+}

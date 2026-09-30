@@ -1,0 +1,441 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-28",
+ "status": "draft",
+ "notes": "",
+ "bias": "ES long-biased above weekly 7815-7822; two-way 7749-52 \u2194 7815-22 otherwise. NQ: 30827-846 is the line; sustained break of last week's high \u2192 favor longs and hold runners.",
+ "wildcard": "Weekend + news risk (Friday's rip was an Iran-deal headline). He'd have had very high confidence 7791-94 trades before Friday's high without it.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Early consolidation 7749-52 to 7789-91, then an Iran-deal headline ripped it (muted vs. the range) into a double distribution up. IB high 7793.75. Small spike into the close: base 7811, high 7814.75. The afternoon leg (11:45 low \u2192 3:40) acted like a P-profile even though the full day wasn't one \u2014 P trades are a breakdown short if the body (91-94) is offered, or a LAAF short (Friday's failed spike was effectively that) targeting 91-94. Upside continuation negates the P-breakdown.",
+   "pivot": "Weekly 7815-7822 is the line \u2014 long-biased above it. 7789-7791 (arguably to 7794) is the first area below. 7749-52 is the floor of the two-way range.",
+   "higher": "Watch for a LAAF of Friday's high including a failed reclaim of 7815-22; 7826-27 could trigger that. Firm base above 7826-27 \u2192 7839-41 (prior ATH 7838.5, where the 9/23 selloff started) \u2192 7846-49 last week's high, major target. Any rejection from above Friday's high must flip 7815-22 back to resistance before sellers have control.",
+   "lower": "Can't get through 7815-22 \u2192 7789-91 first. Hold/LBAF there \u2192 7801, 7808, spike 7811/14.75. Lost and offered \u2192 7772 (last week's VPOC), 7765, 7758-59, Friday's low; losing 7779-81 makes those far more likely. Expect a first-pass bid on the initial trip below 91. Hold/LBAF of 7749-52 is fine for buyers.",
+   "levels": [
+    {
+     "p": [
+      7846,
+      7849
+     ],
+     "label": "last wk high \u00b7 major",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7839,
+      7841
+     ],
+     "label": "minor \u00b7 prior ATH 7838.5",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7826,
+      7827
+     ],
+     "label": "daily \u00b7 failed-reclaim trigger",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7815,
+      7822
+     ],
+     "label": "WEEKLY \u00b7 long above",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7814.75
+     ],
+     "label": "Fri high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7811
+     ],
+     "label": "spike base",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7808
+     ],
+     "label": "target",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7801
+     ],
+     "label": "target",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7793.75
+     ],
+     "label": "Fri IB high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7789,
+      7791
+     ],
+     "label": "PIVOT \u00b7 P body to 94",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7779,
+      7781
+     ],
+     "label": "daily \u00b7 lose = downside on",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7772
+     ],
+     "label": "last wk VPOC",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7765
+     ],
+     "label": "target",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7758,
+      7759
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7752.75
+     ],
+     "label": "Fri low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7749,
+      7752
+     ],
+     "label": "floor \u00b7 hold/LBAF ok",
+     "kind": "down"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Structurally the same as ES, no spike into the close. 30827-846 and 30951-969 capture Friday's upper distribution. Friday's IB high 30926.5 belongs on the chart.",
+   "pivot": "30827-30846 (LBAF ok). 30951-30969 caps the upside until accepted.",
+   "higher": "LAAF of Friday's high / 951-969 resolves back to 827-846. Strength above 951-969 \u2192 Wednesday's 31013 \u2192 weekly 31056-069 (last week's RTH high); ETH high 31094.75. On a sustained break of last week's highs he fully favors longs and holding runners until a prior day low is taken out. Any failure from above Friday's high must flip 951-969 to resistance; watch Friday's IB high for a stick save (same on a true gap up).",
+   "lower": "827-846 holds \u2192 IB high and 951-969 back in play. Expect a first-pass bid below 827-846. 769-781 daily may produce a reactive bid; if it flips to resistance \u2192 Friday's low and 638-669. LBAF of Friday's low, or LBAF of 638-669 that reclaims Friday's low, can be a strong buy impulse \u2014 769-781 then 827-846 on the way up; reclaiming 827-846 after that likely means you bought low of week.",
+   "levels": [
+    {
+     "p": [
+      31094.75
+     ],
+     "label": "last wk ETH high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      31056,
+      31069
+     ],
+     "label": "weekly \u00b7 last wk RTH high",
+     "kind": "up"
+    },
+    {
+     "p": [
+      31013
+     ],
+     "label": "Wed high",
+     "kind": "up"
+    },
+    {
+     "p": [
+      30951,
+      30969
+     ],
+     "label": "upper cap \u00b7 LAAF risk",
+     "kind": "up"
+    },
+    {
+     "p": [
+      30951.5
+     ],
+     "label": "Fri high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30926.5
+     ],
+     "label": "Fri IB high \u00b7 stick save",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30827,
+      30846
+     ],
+     "label": "PIVOT",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      30769,
+      30781
+     ],
+     "label": "daily \u00b7 reactive bid",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30684
+     ],
+     "label": "Fri low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30638,
+      30669
+     ],
+     "label": "key reclaim",
+     "kind": "down"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold / LBAF of 30827-30846",
+   "dir": "long",
+   "tag": "A-/B+",
+   "gate": "hold or LBAF of 30827-30846 (expect a first-pass bid below it)",
+   "tgt": "Fri IB high 30926.5 \u2192 30951-30969",
+   "stop": "827-846 flips to resistance (then 769-781)",
+   "quote": "Long a hold or LBAF of 827-846 is an A-/B+",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30827,
+     30846
+    ],
+    "tgt": [
+     30926.5,
+     [
+      30951,
+      30969
+     ]
+    ],
+    "stop": [
+     30781
+    ]
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "A-/B+",
+   "gate": "LBAF of Friday's low 30684 \u2014 or a LBAF of 638-669 that reclaims Friday's low",
+   "tgt": "30769-30781 \u2192 30827-30846 (reclaim = likely bought low of week)",
+   "stop": "acceptance below 30638-30669",
+   "quote": "Long a LBAF of Friday's low is an A-/B+",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30684
+    ],
+    "tgt": [
+     [
+      30769,
+      30781
+     ],
+     [
+      30827,
+      30846
+     ]
+    ],
+    "stop": [
+     30638
+    ]
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "B/B-",
+   "gate": "LAAF of Friday's high 30951.5 / the 951-969 range",
+   "tgt": "30827-30846 (watch IB high 926.5 for a stick save first); monitor for continuation",
+   "stop": "strength above 30951-30969 (\u2192 31013)",
+   "quote": "Short a LAAF of Friday's high is a B/B- mostly targeting 827-846. Monitor for continuation from there.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30951,
+     30969
+    ],
+    "tgt": [
+     30926.5,
+     [
+      30827,
+      30846
+     ]
+    ],
+    "stop": [
+     31013
+    ]
+   }
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold / LBAF of 7789-7791",
+   "dir": "long",
+   "tag": "B/B+",
+   "gate": "hold or LBAF of 7789-7791 (up to 7794); expect a first-pass bid on the first trip below",
+   "tgt": "7801 \u2192 7808 \u2192 spike 7811 / 7814.75",
+   "stop": "7789-91 lost and offered; 7779-81 lost confirms",
+   "quote": "Long a hold or LBAF of 7789-7791 is a B/B+",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7789,
+     7791
+    ],
+    "tgt": [
+     7801,
+     7808,
+     [
+      7811,
+      7814.75
+     ]
+    ],
+    "stop": [
+     7779
+    ]
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "B/B-",
+   "gate": "LAAF of Friday's high 7814.75, incl. a failed reclaim of weekly 7815-7822 (7826-27 may trigger it)",
+   "tgt": "7794 / 7789-7791 (body of the P)",
+   "stop": "firm base above 7826-7827",
+   "quote": "Short a LAAF of Friday's high is a B/B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7814.75,
+     7822
+    ],
+    "tgt": [
+     [
+      7789,
+      7794
+     ]
+    ],
+    "stop": [
+     7827
+    ]
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "B/B+",
+   "gate": "LBAF of Friday's low 7752.75 (the 7749-7752 area)",
+   "tgt": "7758-59 \u2192 7765 \u2192 7772 \u2192 7779-81 \u2192 7789-91",
+   "stop": "traction below 7749-7752 (weekly plan)",
+   "quote": "Long a LBAF of Friday's low is a B/B+",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7749,
+     7752.75
+    ],
+    "tgt": [
+     [
+      7758,
+      7759
+     ],
+     7765,
+     7772,
+     [
+      7779,
+      7781
+     ]
+    ],
+    "stop": [
+     7748
+    ]
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Persistent weakness below 7789-7791",
+   "dir": "short",
+   "tag": "conditional \u2014 only if NQ < 827-846 or YM < 51969",
+   "gate": "7789-7791 lost and offered, with NQ below 30827-30846 or YM below 51969",
+   "tgt": "7779-81 \u2192 7772 \u2192 7765 \u2192 7758-59 \u2192 Friday's low",
+   "stop": "reclaim of 7789-7791",
+   "quote": "I'm more willing to take a short on persistent weakness below 7789-7791 if either NQ is below 827-846 or YM is below 51969.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7789,
+     7791
+    ],
+    "tgt": [
+     [
+      7779,
+      7781
+     ],
+     7772,
+     7765,
+     [
+      7758,
+      7759
+     ],
+     7752.75
+    ],
+    "stop": [
+     7794
+    ]
+   }
+  }
+ ]
+}
