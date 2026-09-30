@@ -1,0 +1,422 @@
+{
+ "source": "pharmdks",
+ "date": "2026-10-01",
+ "status": "draft",
+ "notes": "",
+ "bias": "ES: short-biased until 7718-25 flips back to support; 7749-52 is the backside \u2014 fail there is his top trade (B/B+), firm reclaim means a squeeze. But: a liquidation break with no structure above means an initial rally is possible; 'range low until broken.' NQ: relatively strong \u2014 638-669 held after hours; 769-781 is the line.",
+ "wildcard": "YM filled an open June contract-roll gap at today's low; YM, ES and NQ all hit key locations after hours \u2014 'an interesting night.' He got bearish in the Discord on enormous size in the tape after the rally, the first in a long while. Weekly profile: ES is balanced \u2014 sellers must build a fresh distribution lower and NOT return above 7718-25 (27) or it reverts higher.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Premarket back-test of 7718-25 held after Tuesday's LBAF \u2192 reclaimed and held 7749-52 at the open \u2192 ~60 handles to the 7780s where he'd flagged Monday's sellers. Enormous size hit the tape; ES and NQ both LAAF'd the IB high, ES far weaker (non-tech and bonds hammered). Lost 7749-52 \u2192 violent liquidation to new lows, RTH low 7709.25 at 15:55 \u2014 the premarket low he'd joked would trade by 9 PM traded by 4. After hours swept last week's ETH low: 7705.5. Wild, but technical.",
+   "pivot": "7718-7725 (arguably 27) is range low until broken. 7749-7752 is the only backside structure above \u2014 spike base 7747.25, multiple lows right at the weekly level. Nothing in between but honorable mentions 7730 / 7737.5 / 7741-43.",
+   "higher": "Firm reclaim of 7718-25 (27) \u2192 retrace attempt; be long on the way up but ES can roll right back over until 7749-52 is firmly reclaimed \u2014 he'll join the session downtrend below 49-52. Firmly above 49-52 \u2192 squeeze likely (weak longs were rinsed, no structure above); 7763-64 added as seller defense; above 63-64 today's high 7782 comes in.",
+   "lower": "Sellers have NOT yet defended 7718-25 from below despite brief excursions. If they do, and break cleanly through the AH low 7705.5 \u2192 range break, short-biased, follow weekly levels down (7706-09 new daily \u2192 7696-99 \u2192 7678-81 \u2192 7666-69 \u2192 7644-48 major). Below 7749-52 anything is a continuation short, mindful that liquidation moves retrace fast on upside initiation off 7718-25.",
+   "levels": [
+    {
+     "p": [
+      7782
+     ],
+     "label": "today's high \u00b7 real sellers 7770s-80",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7763,
+      7764
+     ],
+     "label": "seller defense (new daily)",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7749,
+      7752
+     ],
+     "label": "PIVOT \u00b7 backside \u00b7 spike base 7747.25",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7741,
+      7743
+     ],
+     "label": "hm",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7737.5
+     ],
+     "label": "hm",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7730
+     ],
+     "label": "hm",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7718,
+      7727
+     ],
+     "label": "RANGE LOW until broken (18-25, arguably 27)",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7709.25
+     ],
+     "label": "today's RTH low (15:55)",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7706,
+      7709
+     ],
+     "label": "new daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7705.5
+     ],
+     "label": "AH low \u00b7 swept last wk ETH low 7707.25",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7696,
+      7699
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7678,
+      7681
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7666,
+      7669
+     ],
+     "label": "monitor LBAF",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7644,
+      7648
+     ],
+     "label": "major",
+     "kind": "down"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Weekly open 30870 roughly capped it; sellers filled 827-846 with volume (re-distribution candidate, but 638-669 must be lost for that to look probable). LAAF of the IB high like ES but much less weakness. Tiny spike into the close, base 683, RTH low 680.75 \u2014 a 2-handle spike only. After hours came down to 636.5, the bottom of the weekly level, and held.",
+   "pivot": "30638-30669 held after hours \u2014 respect it as support until proven otherwise; NQ remains strong relative to everything. 769-781 is the tell: if 827-846 was distribution, sellers won't allow it to be reclaimed.",
+   "higher": "Sellers can't get through 638-669 (or even today's RTH low 680.75) \u2192 back to 769-781. Reclaim 769-781 \u2192 retest 827-846, then 870 and today's high 30906; 951-969 weekly above. (Asia doesn't count.)",
+   "lower": "Through 638-669 \u2192 592 on the way to 469-493, which annoyingly never traded overnight or Tuesday; a downtrend below 638-669 should get it there. Below that 369-391, then last Monday's open/low 30222 / 30216.5 \u2014 still range low until proven otherwise.",
+   "levels": [
+    {
+     "p": [
+      30951,
+      30969
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      30906
+     ],
+     "label": "today's high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30870
+     ],
+     "label": "weekly open \u00b7 capped",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30827,
+      30846
+     ],
+     "label": "filled w/ volume \u00b7 distribution?",
+     "kind": "up"
+    },
+    {
+     "p": [
+      30769,
+      30781
+     ],
+     "label": "PIVOT \u00b7 the tell",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      30683
+     ],
+     "label": "spike base \u00b7 RTH low 680.75",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30638,
+      30669
+     ],
+     "label": "KEY \u00b7 held AH (636.5)",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      30592
+     ],
+     "label": "target",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30469,
+      30493
+     ],
+     "label": "weekly \u00b7 never traded",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30369,
+      30391
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30216.5,
+      30222
+     ],
+     "label": "last Mon low/open \u00b7 range low",
+     "kind": "down"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail / failed reclaim of 7749-7752",
+   "dir": "short",
+   "tag": "B/B+",
+   "gate": "fail or failed reclaim of 49-52 (spike base 7747.25) \u2014 the only backside structure above",
+   "tgt": "7741-43 \u2192 7737.5 \u2192 7730 \u2192 7718-25 \u2192 AH low 7705.5",
+   "stop": "firmly above 7749-52 (\u2192 squeeze to 7763-64)",
+   "quote": "Short a fail or failed reclaim of 7749-7752 is a B/B+",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7747.25,
+     7752
+    ],
+    "tgt": [
+     [
+      7741,
+      7743
+     ],
+     7737.5,
+     7730,
+     [
+      7718,
+      7725
+     ]
+    ],
+    "stop": [
+     7764
+    ]
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Retrace long \u2014 session uptrend firmly above 7718-7725",
+   "dir": "long",
+   "tag": "B- (tight leash)",
+   "gate": "join a session uptrend firmly above 7718-25 (arguably 27); can roll over until 49-52 is firmly reclaimed",
+   "tgt": "7730 \u2192 7737.5 \u2192 7741-43 \u2192 7749-52 (squeeze above \u2192 7763-64 \u2192 7782)",
+   "stop": "back below 7718; sellers defending 18-25 from below",
+   "quote": "Retrace longs joining a session uptrend firmly above 7718-7725 (arguably 27). I would have a tight leash on this and can't rate it higher than a B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7718,
+     7727
+    ],
+    "tgt": [
+     7730,
+     7737.5,
+     [
+      7741,
+      7743
+     ],
+     [
+      7749,
+      7752
+     ]
+    ],
+    "stop": [
+     7709.25
+    ]
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Breakdown below 7718-7725 / 7706",
+   "dir": "short",
+   "tag": "implied \u2014 not graded",
+   "gate": "sellers defend 18-25 from below and break cleanly through the AH low 7705.5 (esp. below 7706)",
+   "tgt": "7696-99 \u2192 7678-81 \u2192 7666-69 \u2192 7644-48 major",
+   "stop": "back above 7718-25 (7727)",
+   "quote": "Breakdown shorts below 7718-7725, especially 7706 are implied.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7705.5,
+     7718
+    ],
+    "tgt": [
+     [
+      7696,
+      7699
+     ],
+     [
+      7678,
+      7681
+     ],
+     [
+      7666,
+      7669
+     ],
+     [
+      7644,
+      7648
+     ]
+    ],
+    "stop": [
+     7727
+    ]
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail / failed reclaim of 30769-30781",
+   "dir": "short",
+   "tag": "B-",
+   "gate": "fail or failed reclaim of 769-781 (if 827-846 was distribution, sellers won't allow the reclaim)",
+   "tgt": "30638-30669 \u2192 today's low 680.75",
+   "stop": "769-781 reclaimed (\u2192 827-846, 870)",
+   "quote": "Short a fail/failed reclaim of 769-781 is a B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30769,
+     30781
+    ],
+    "tgt": [
+     [
+      30638,
+      30669
+     ]
+    ],
+    "stop": [
+     30846
+    ]
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Persistent strength above 638-669 / no seller traction below today's low",
+   "dir": "long",
+   "tag": "B-",
+   "gate": "persistent strength above 638-669; sellers unable to gain traction below today's low 680.75",
+   "tgt": "30769-30781, monitor from there (\u2192 827-846)",
+   "stop": "638-669 lost",
+   "quote": "Long persistent strength above 638-691, inability from sellers to gain traction below today's low. Targeting 769-791 and monitor from there. B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30636.5,
+     30683
+    ],
+    "tgt": [
+     [
+      30769,
+      30781
+     ],
+     [
+      30827,
+      30846
+     ]
+    ],
+    "stop": [
+     30592
+    ]
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Breakdown below 638-669",
+   "dir": "short",
+   "tag": "implied \u2014 cautious; he'd prefer ES for this",
+   "gate": "downtrend below 638-669 \u2014 only if NQ shows clear relative weakness, otherwise take the breakdown on ES",
+   "tgt": "30592 \u2192 30469-30493 \u2192 30369-30391",
+   "stop": "back above 638-669",
+   "quote": "A breakdown short below 638-691 is implied. I would just be cautious unless NQ is showing clear relative strength. I might prefer a breakdown short on ES otherwise",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30636.5,
+     30669
+    ],
+    "tgt": [
+     30592,
+     [
+      30469,
+      30493
+     ],
+     [
+      30369,
+      30391
+     ]
+    ],
+    "stop": [
+     30700
+    ]
+   }
+  }
+ ]
+}

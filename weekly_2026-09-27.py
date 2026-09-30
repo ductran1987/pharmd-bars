@@ -1,10 +1,11 @@
 """Weekly chart spec for the week of 9/27 (letter dated 9/26). Run: python weekly_2026-09-27.py"""
 import charts, pandas as pd
 tz = "America/New_York"
-ES, NQ = charts.load("ES"), charts.load("NQ")
-s = pd.Timestamp("2026-09-18 09:30", tz=tz); e = pd.Timestamp("2026-09-29 16:15", tz=tz)
+ES, NQ = charts.load_1h("ES"), charts.load_1h("NQ")   # hourly: 60 days, so the whole week stays on the chart
+ES5, NQ5 = charts.load("ES"), charts.load("NQ")          # 5-min for the profiles
+s = pd.Timestamp("2026-09-18 09:30", tz=tz); e = pd.Timestamp("2026-09-30 18:05", tz=tz)
 wk = ("last wk", pd.Timestamp("2026-09-20 18:00", tz=tz), pd.Timestamp("2026-09-25 16:00", tz=tz))
-mon = ("Mon-Tue", pd.Timestamp("2026-09-27 18:00", tz=tz), e)
+mon = ("Mon-Wed", pd.Timestamp("2026-09-27 18:00", tz=tz), e)
 
 es_lv = [
  {"p":[7917,7920],"label":"key target (as low as 7911)","kind":"up","strong":True},
@@ -23,14 +24,15 @@ es_lv = [
  {"p":[7648.75],"label":"prior ATH · top of multi-wk box","kind":"ref"},
  {"p":[7644,7648],"label":"monitor LBAF · FOMC low below","kind":"down","strong":True}]
 es_marks = [
- {"t":pd.Timestamp("2026-09-21 09:30",tz=tz),"y":7760.5,"label":"Mon open 7760.5 — gapped above prior wk high, ATH by Mon","dy":-40},
- {"t":pd.Timestamp("2026-09-22 11:00",tz=tz),"y":7848.5,"label":"Tue high 7848.5 = wk high","dy":22,"dx":-30},
- {"t":pd.Timestamp("2026-09-24 10:30",tz=tz),"y":7725.25,"label":"Wed→Thu selloff; held prior wk high (ETH wick only)","dy":-35},
- {"t":pd.Timestamp("2026-09-25 15:30",tz=tz),"y":7814.75,"label":"Fri: back-test of 7815-22 from below","dy":30,"dx":-70},
- {"t":pd.Timestamp("2026-09-28 10:55",tz=tz),"y":7726.0,"label":"MON: Iran deal rebuffed, oil +4%, 10y 5.2% → lost 89-91 & 49-52; low 7726 = Thu low to the tick","dy":-42,"dx":-215},
- {"t":pd.Timestamp("2026-09-29 13:00",tz=tz),"y":7712.25,"label":"TUE: ON LBAF of 7718-25 +60 → cash opened 58-59, sold to 7712, held OG 7706-12, closed in box","dy":-60,"dx":-245}]
+ {"t":pd.Timestamp("2026-09-21 09:30",tz=tz),"y":7760.5,"label":"Mon open 7760.5 — gapped above prior wk high, ATH by Mon","dy":-40,"dx":3},
+ {"t":pd.Timestamp("2026-09-22 11:00",tz=tz),"y":7848.5,"label":"Tue high 7848.5 = wk high","dy":22,"dx":-15},
+ {"t":pd.Timestamp("2026-09-24 10:30",tz=tz),"y":7725.25,"label":"Wed→Thu selloff; held prior wk high (ETH wick only)","dy":-22,"dx":3},
+ {"t":pd.Timestamp("2026-09-25 15:30",tz=tz),"y":7814.75,"label":"Fri: back-test of 7815-22 from below","dy":30,"dx":-35},
+ {"t":pd.Timestamp("2026-09-28 10:55",tz=tz),"y":7726.0,"label":"MON: lost 89-91 & 49-52; low 7726 = Thu low to the tick","dy":-38,"dx":-100},
+ {"t":pd.Timestamp("2026-09-29 13:00",tz=tz),"y":7712.25,"label":"TUE: ON LBAF of 18-25 +60; cash sold to 7712, held 7706-12","dy":-52,"dx":-150},
+ {"t":pd.Timestamp("2026-09-30 15:55",tz=tz),"y":7709.25,"label":"WED: 49-52 → 7782 → LAAF IB high → liquidation 7709; AH 7705.5","dy":-70,"dx":-60}]
 charts.weekly("ES", es_lv, ES, s, e, "charts/2026-W40_ES_weekly.png",
-              "ES weekly  ·  9/18 – Tue 9/29  ·  week of 9/27 plan", profile_ranges=[wk, mon], marks=es_marks)
+              "ES weekly  ·  9/18 – Wed 9/30 (+AH)  ·  week of 9/27 plan", profile_ranges=[wk, mon], marks=es_marks, d5prof=ES5)
 
 nq_lv = [
  {"p":[32369],"label":"first breakout target (conservative)","kind":"up"},
@@ -53,12 +55,13 @@ nq_lv = [
  {"p":[30040,30069],"label":"","kind":"down"},
  {"p":[29932,29969],"label":"gap fill 29937.75","kind":"down","strong":True}]
 nq_marks = [
- {"t":pd.Timestamp("2026-09-21 09:30",tz=tz),"y":30221.5,"label":"Mon open 30221.5 — SMH/MAGS confirmed, off to the races","dy":-120},
- {"t":pd.Timestamp("2026-09-22 14:00",tz=tz),"y":31065.5,"label":"Tue: new ATH 31065.5 (QQQ ATH taken overnight) → LAAF","dy":90,"dx":8},
- {"t":pd.Timestamp("2026-09-24 09:30",tz=tz),"y":30493.25,"label":"Thu low — never reached Mon open","dy":-110},
- {"t":pd.Timestamp("2026-09-25 14:00",tz=tz),"y":30951.5,"label":"Fri high = back-test of box top from below","dy":110,"dx":-80},
- {"t":pd.Timestamp("2026-09-28 10:45",tz=tz),"y":30356.75,"label":"MON: through 638-669 AND Thu low → 30357 in 369-391, bounced to ~560","dy":-100,"dx":-330},
- {"t":pd.Timestamp("2026-09-29 12:45",tz=tz),"y":30504.5,"label":"TUE: inside day; ON low held 369-391 again; capped below 638-669, 500-530 bid","dy":-235,"dx":-150}]
+ {"t":pd.Timestamp("2026-09-21 09:30",tz=tz),"y":30221.5,"label":"Mon open 30221.5 — SMH/MAGS confirmed, off to the races","dy":-120,"dx":3},
+ {"t":pd.Timestamp("2026-09-22 14:00",tz=tz),"y":31065.5,"label":"Tue: new ATH 31065.5 (QQQ ATH overnight) → LAAF","dy":90,"dx":3},
+ {"t":pd.Timestamp("2026-09-24 09:30",tz=tz),"y":30493.25,"label":"Thu low — never reached Mon open","dy":-110,"dx":3},
+ {"t":pd.Timestamp("2026-09-25 14:00",tz=tz),"y":30951.5,"label":"Fri high = back-test of box top from below","dy":110,"dx":-40},
+ {"t":pd.Timestamp("2026-09-28 10:45",tz=tz),"y":30356.75,"label":"MON: through 638-669 & Thu low → 30357, bounced ~560","dy":-100,"dx":-70},
+ {"t":pd.Timestamp("2026-09-29 12:45",tz=tz),"y":30504.5,"label":"TUE: inside day; ON held 369-391; capped <638-669","dy":-210,"dx":-100},
+ {"t":pd.Timestamp("2026-09-30 11:50",tz=tz),"y":30906,"label":"WED: to 30906 (wk open 870 capped) → 827-846 filled → 680; AH 636.5 held","dy":170,"dx":-150}]
 charts.weekly("NQ", nq_lv, NQ, s, e, "charts/2026-W40_NQ_weekly.png",
-              "NQ weekly  ·  9/18 – Tue 9/29  ·  week of 9/27 plan", profile_ranges=[wk, mon], marks=nq_marks)
+              "NQ weekly  ·  9/18 – Wed 9/30 (+AH)  ·  week of 9/27 plan", profile_ranges=[wk, mon], marks=nq_marks, d5prof=NQ5)
 print("ok")

@@ -24,6 +24,12 @@ def load(sym):
     return d
 
 
+def load_1h(sym):
+    d = pd.read_csv(f"bars/{sym}_1h.csv")
+    d["time"] = pd.to_datetime(d["time"], utc=True).dt.tz_convert("America/New_York")
+    return d
+
+
 def window(d, plan_date, with_overnight=False):
     pd_ = pd.Timestamp(plan_date, tz="America/New_York")
     ref = pd_ - pd.Timedelta(days=1)
@@ -247,7 +253,7 @@ def main_roadmaps(plan_path, outdir):
 
 
 # ---------- weekly chart: multi-day candles, weekly ladder, week profile ----------
-def weekly(sym, levels, d5, start, end, out, title, profile_ranges=None, marks=None):
+def weekly(sym, levels, d5, start, end, out, title, profile_ranges=None, marks=None, d5prof=None):
     """levels: [{p, label, kind, strong?}]; marks: [{t: timestamp, y, label}] point annotations."""
     w = d5[(d5.time >= start) & (d5.time <= end)].set_index("time")
     bars = w.resample("30min").agg({"Open":"first","High":"max","Low":"min","Close":"last","Volume":"sum"}).dropna().reset_index()
@@ -267,8 +273,10 @@ def weekly(sym, levels, d5, start, end, out, title, profile_ranges=None, marks=N
         ax.plot([i, i], [r.Low, r.High], color=c, lw=0.6, zorder=2)
         ax.add_patch(Rectangle((i - 0.35, min(r.Open, r.Close)), 0.7, max(abs(r.Close - r.Open), 0.01), color=c, lw=0, zorder=3))
     # day labels at each RTH open
+    seen = set()
     for i, t in enumerate(bars.time):
-        if t.hour == 9 and t.minute == 30:
+        if rth[i] and t.date() not in seen:
+            seen.add(t.date())
             ax.text(i, ax.get_ylim()[0], t.strftime("%a %-m/%-d"), fontsize=7, color=MUTE, ha="left", va="bottom")
     col = {"up": LONG, "down": SHORT, "pivot": PIVOT, "ref": MUTE}
     labels = []
@@ -287,7 +295,9 @@ def weekly(sym, levels, d5, start, end, out, title, profile_ranges=None, marks=N
         step = 1.0 if sym == "ES" else 5.0
         colw = n * 0.13; gapw = n * 0.03; x0 = n + 1.5
         for label, ps, pe in profile_ranges:
-            edges, vol, poc, valo, vahi = profile(d5, ps, pe, step)
+            src = d5prof if d5prof is not None else d5
+            if src.time.iloc[0] > ps: src = d5     # 5-min history doesn't reach back that far; fall back to the candle source
+            edges, vol, poc, valo, vahi = profile(src, ps, pe, step)
             plo.append(edges[0]); phi.append(edges[-1]); scale = colw / vol.max()
             for i in range(len(vol)):
                 inva = valo <= edges[i] < vahi
