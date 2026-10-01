@@ -3,9 +3,9 @@ import charts, pandas as pd
 tz = "America/New_York"
 ES, NQ = charts.load_1h("ES"), charts.load_1h("NQ")   # hourly: 60 days, so the whole week stays on the chart
 ES5, NQ5 = charts.load("ES"), charts.load("NQ")          # 5-min for the profiles
-s = pd.Timestamp("2026-09-18 09:30", tz=tz); e = pd.Timestamp("2026-09-30 18:05", tz=tz)
+s = pd.Timestamp("2026-09-18 09:30", tz=tz); e = pd.Timestamp("2026-10-01 16:15", tz=tz)
 wk = ("last wk", pd.Timestamp("2026-09-20 18:00", tz=tz), pd.Timestamp("2026-09-25 16:00", tz=tz))
-mon = ("Mon-Wed", pd.Timestamp("2026-09-27 18:00", tz=tz), e)
+mon = ("Mon-Thu", pd.Timestamp("2026-09-27 18:00", tz=tz), e)
 
 es_lv = [
  {"p":[7917,7920],"label":"key target (as low as 7911)","kind":"up","strong":True},
@@ -30,9 +30,10 @@ es_marks = [
  {"t":pd.Timestamp("2026-09-25 15:30",tz=tz),"y":7814.75,"label":"Fri: back-test of 7815-22 from below","dy":30,"dx":-35},
  {"t":pd.Timestamp("2026-09-28 10:55",tz=tz),"y":7726.0,"label":"MON: lost 89-91 & 49-52; low 7726 = Thu low to the tick","dy":-38,"dx":-100},
  {"t":pd.Timestamp("2026-09-29 13:00",tz=tz),"y":7712.25,"label":"TUE: ON LBAF of 18-25 +60; cash sold to 7712, held 7706-12","dy":-52,"dx":-150},
- {"t":pd.Timestamp("2026-09-30 15:55",tz=tz),"y":7709.25,"label":"WED: 49-52 → 7782 → LAAF IB high → liquidation 7709; AH 7705.5","dy":-70,"dx":-60}]
+ {"t":pd.Timestamp("2026-09-30 15:55",tz=tz),"y":7709.25,"label":"WED: 49-52 → 7782 → LAAF IB high → liquidation 7709; AH 7705.5","dy":-70,"dx":-60},
+ {"t":pd.Timestamp("2026-10-01 11:10",tz=tz),"y":7672.75,"label":"THU: ON squeeze to 7767 (above 49-52) → cash flush to 7673 thru 7678-81 → LBAF, closed 7726 at range low","dy":-22,"dx":-150}]
 charts.weekly("ES", es_lv, ES, s, e, "charts/2026-W40_ES_weekly.png",
-              "ES weekly  ·  9/18 – Wed 9/30 (+AH)  ·  week of 9/27 plan", profile_ranges=[wk, mon], marks=es_marks, d5prof=ES5)
+              "ES weekly  ·  9/18 – Thu 10/1  ·  week of 9/27 plan", profile_ranges=[wk, mon], marks=es_marks, d5prof=ES5)
 
 nq_lv = [
  {"p":[32369],"label":"first breakout target (conservative)","kind":"up"},
@@ -61,7 +62,8 @@ nq_marks = [
  {"t":pd.Timestamp("2026-09-25 14:00",tz=tz),"y":30951.5,"label":"Fri high = back-test of box top from below","dy":110,"dx":-40},
  {"t":pd.Timestamp("2026-09-28 10:45",tz=tz),"y":30356.75,"label":"MON: through 638-669 & Thu low → 30357, bounced ~560","dy":-100,"dx":-70},
  {"t":pd.Timestamp("2026-09-29 12:45",tz=tz),"y":30504.5,"label":"TUE: inside day; ON held 369-391; capped <638-669","dy":-210,"dx":-100},
- {"t":pd.Timestamp("2026-09-30 11:50",tz=tz),"y":30906,"label":"WED: to 30906 (wk open 870 capped) → 827-846 filled → 680; AH 636.5 held","dy":170,"dx":-150}]
+ {"t":pd.Timestamp("2026-09-30 11:50",tz=tz),"y":30906,"label":"WED: to 30906 (wk open 870 capped) → 827-846 filled → 680; AH 636.5 held","dy":170,"dx":-150},
+ {"t":pd.Timestamp("2026-10-01 02:10",tz=tz),"y":31151.5,"label":"THU: Asia to 31151 — above the 31094.75 breakout line ('Asia doesn't count') → cash LAAF to 30529 → closed 774","dy":120,"dx":-80}]
 charts.weekly("NQ", nq_lv, NQ, s, e, "charts/2026-W40_NQ_weekly.png",
-              "NQ weekly  ·  9/18 – Wed 9/30 (+AH)  ·  week of 9/27 plan", profile_ranges=[wk, mon], marks=nq_marks, d5prof=NQ5)
+              "NQ weekly  ·  9/18 – Thu 10/1  ·  week of 9/27 plan", profile_ranges=[wk, mon], marks=nq_marks, d5prof=NQ5)
 print("ok")

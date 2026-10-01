@@ -1,0 +1,452 @@
+{
+ "source": "pharmdks",
+ "date": "2026-10-02",
+ "status": "draft",
+ "notes": "",
+ "bias": "NFP decides it \u2014 no reason to predict, be prepared to react. ES closed right at 7726 inside this week's value: a good reaction lifts it to the 7780s, a bad one that sticks rejects the range and closes the week as a double distribution down. NQ is still in its RTH range; the Asia ATH 'means very little' without a cash-session break. Don't assume every dip gets bought like today's.",
+ "wildcard": "NFP premarket. 8/31 analog: nearly identical setup (value gapping lower, spike up into close) \u2192 9/1 gapped down and went, then rallied into the close for a swing low. Difference: on 8/31 ES hadn't reclaimed the prior balance. 'Asia gonna Asia' \u2014 last night never bid 7749-52 from above, it squeezed through and nuked back. The KOSPI-close reversal (30-60 min before) has worked a ton in both directions.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Every trade on both sides: overnight long off 7718-25 (the liquidation retrace he expected), liquidation-break short back below 7749-52, LBAF long at the overnight low, premarket short at 49-52 offered from below (KOSPI-close reversal), join-short below 7706-09, and the safest long \u2014 a LBAF of the IB low 7682.25, aligned with a key SPX area. New low of week 7672.75 took out the 9/18 low. Then he'd written sellers must NOT return above 7718-25 \u2014 so it closed RIGHT at 7726 (lol). Value nearly gapped lower vs. overnight, which had gapped lower vs. Wednesday's cash \u2014 yet it spiked UP into the close.",
+   "pivot": "7718-7725 is the obvious hold for bulls \u2014 'don't be surprised if it isn't that easy.' 7706-7709 is the bare-minimum reclaim. 7749-7752 sits just above today's high and is the key level above.",
+   "higher": "Firm base above 7749-52 \u2192 7780s, with caution on a first pass into the 60s. Last night squeezed through 49-52 and nuked back; a proper bid from above is what's missing. Today's high 7741.25 taken with continuation is part of the bull case.",
+   "lower": "7706-09 holds \u2192 bulls 'okay' as long as 18-25 is reclaimed and today's high is taken with continuation. Below 7706-09 risks today's low and new lows \u2014 but there's demand in and just below 7696-99 (and the 82-86 range) that could react on first touch and trigger a reclaim. Persistent weakness below 7706-09 \u2192 today's low \u2192 very likely new lows.",
+   "levels": [
+    {
+     "p": [
+      7789,
+      7791
+     ],
+     "label": "daily \u00b7 7780s target",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7767.75
+     ],
+     "label": "ON high (Asia squeeze)",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7763,
+      7764
+     ],
+     "label": "daily \u00b7 cautious 60s",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7749,
+      7752
+     ],
+     "label": "KEY \u00b7 firm base = 7780s",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7741.25
+     ],
+     "label": "today's high (15:50)",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7718,
+      7727
+     ],
+     "label": "HOLD for bulls (18-25, arg 27)",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7706,
+      7709
+     ],
+     "label": "bare-minimum reclaim",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7696,
+      7699
+     ],
+     "label": "weekly \u00b7 demand, first-touch",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7682,
+      7686
+     ],
+     "label": "stick-save range \u00b7 IB low 7682.25",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7672.75
+     ],
+     "label": "today's low = low of week (took out 9/18)",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7666,
+      7669
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7644,
+      7648
+     ],
+     "label": "major",
+     "kind": "down"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Asia ripped it to a new all-time high (31151.5) and it failed spectacularly \u2014 on a cash basis it didn't even take out Wednesday's high. Still in the same RTH range. Potential LAAF of the 5-month balance is noted but 'means very little' until a multi-day range breaks down or value builds lower; the 2-week composite is a clean balanced profile. Re-distribution in 827-846 and just above is still possible (buyers had no luck there in the Euro and cash sessions). A lower edge is forming at 500-530 (relative equal lows 504.5 / 529.25); upper edges 860-870 (870 Sunday open as proxy) and 951-969. New daily 705-734 separates today's upper and lower distributions.",
+   "pivot": "30705-30734 (new) is tonight's line. 638-669 below it; 827-846 above. Lower edge 500-530, upper edges 860-870 and 951-969.",
+   "higher": "705-734 holds (LBAF ok) \u2192 827-846, potentially today's high. Beware a failed break of the minor upper edge: a LAAF of today's high that fails back below 827-846 has bigger-picture potential for 500-530. Proper time and volume above 951-969 in RTH (not Asia) opens a breakout of the multi-month range; can't be confident in upside until last night's 31151.5 is taken with continuation.",
+   "lower": "First pass below 705-734 \u2192 watch for a LBAF, or a hold/LBAF of 638-669. Only when 638-669 is firmly flipped to resistance is today's low in play. The lower edge 500-530 is on LBAF watch \u2014 maybe 469-493 finally trades and triggers it; such a LBAF has bigger-picture potential for 827-846 up to the 870s.",
+   "levels": [
+    {
+     "p": [
+      31151.5
+     ],
+     "label": "ON high = ATH (Asia) \u00b7 must be taken w/ continuation",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      31094.75
+     ],
+     "label": "last wk ETH high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30951,
+      30969
+     ],
+     "label": "upper edge \u00b7 RTH time+volume above = breakout",
+     "kind": "up"
+    },
+    {
+     "p": [
+      30883.5
+     ],
+     "label": "today's high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30860,
+      30870
+     ],
+     "label": "minor upper edge (870 Sun open)",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30827,
+      30846
+     ],
+     "label": "re-distribution?",
+     "kind": "up"
+    },
+    {
+     "p": [
+      30705,
+      30734
+     ],
+     "label": "PIVOT (new daily) \u00b7 separates today's distributions",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      30638,
+      30669
+     ],
+     "label": "KEY",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      30560.75
+     ],
+     "label": "today's IB low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30529.25
+     ],
+     "label": "today's low \u00b7 rel. equal w/ Tue 504.5",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30500,
+      30530
+     ],
+     "label": "lower edge \u00b7 LBAF watch",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30469,
+      30493
+     ],
+     "label": "weekly \u00b7 still untouched",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30369,
+      30391
+     ],
+     "label": "",
+     "kind": "down"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of today's low (ideally sweeping Tuesday's 504.5)",
+   "dir": "long",
+   "tag": "A/A-",
+   "gate": "LBAF of 30529.25, ideally taking out Tuesday's 30504.5 too; 469-493 under it",
+   "tgt": "705-734 \u2192 827-846 \u2192 870s",
+   "stop": "persistent weakness below 500-530 (\u2192 469-493)",
+   "quote": "Long a LBAF of today's low which ideally takes out Tuesday's 504.5 low as well. A/A-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30469,
+     30530
+    ],
+    "tgt": [
+     [
+      30705,
+      30734
+     ],
+     [
+      30827,
+      30846
+     ],
+     30870
+    ],
+    "stop": [
+     30391
+    ]
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of today's high that flips 827-846 to resistance",
+   "dir": "short",
+   "tag": "B+/A-",
+   "gate": "LAAF of 30883.5 (failed break of the 860-870 minor upper edge) with 827-846 flipped back to firm resistance",
+   "tgt": "705-734 \u2192 638-669 \u2192 500-530",
+   "stop": "time + volume built above 951-969 in RTH",
+   "quote": "Short a LAAF of today's high which sees 827-846 flipped back to firm resistance. B+/A-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30846,
+     30883.5
+    ],
+    "tgt": [
+     [
+      30705,
+      30734
+     ],
+     [
+      30638,
+      30669
+     ],
+     [
+      30500,
+      30530
+     ]
+    ],
+    "stop": [
+     30969
+    ]
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold / LBAF of 705-734",
+   "dir": "long",
+   "tag": "B/B-",
+   "gate": "hold or LBAF of 30705-30734",
+   "tgt": "827-846 \u2192 today's high 883.5",
+   "stop": "638-669 firmly flipped to resistance",
+   "quote": "Long a hold or LBAF of 705-734 B/B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30705,
+     30734
+    ],
+    "tgt": [
+     [
+      30827,
+      30846
+     ],
+     30883.5
+    ],
+    "stop": [
+     30638
+    ]
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Hold / LBAF of 638-669",
+   "dir": "long",
+   "tag": "C+/B-",
+   "gate": "hold or LBAF of 638-669 \u2014 rated lower because 705-734 must also be reclaimed",
+   "tgt": "705-734 \u2192 827-846",
+   "stop": "638-669 firmly flipped \u2192 today's low",
+   "quote": "Long a hold or LBAF of 638-669 is a C+/B- rated lower because of the requirement for 705-734 to reclaim.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30638,
+     30669
+    ],
+    "tgt": [
+     [
+      30705,
+      30734
+     ],
+     [
+      30827,
+      30846
+     ]
+    ],
+    "stop": [
+     30560.75
+    ]
+   }
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold / LBAF of 7706-7709",
+   "dir": "long",
+   "tag": "B/B+",
+   "gate": "hold or LBAF of 7706-09 \u2014 needs 18-25 (27) reclaimed to be any good",
+   "tgt": "7718-25 \u2192 today's high 7741 \u2192 7749-52",
+   "stop": "persistent weakness below 7706-09 (7696-99 demand cleared)",
+   "quote": "Long a hold or LBAF of 7706-7709 is a B/B+ and would be higher if it didn't also need to reclaim 18-25 to be any good (arguably 27).",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7706,
+     7709
+    ],
+    "tgt": [
+     [
+      7718,
+      7725
+     ],
+     7741.25,
+     [
+      7749,
+      7752
+     ]
+    ],
+    "stop": [
+     7696
+    ]
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold / LBAF of 7718-7725",
+   "dir": "long",
+   "tag": "C+/B-",
+   "gate": "hold or LBAF of 18-25 \u2014 could rally all night again off the reclaim, but he's less optimistic given how value developed",
+   "tgt": "today's high 7741 \u2192 7749-52 \u2192 7780s",
+   "stop": "loses 7706-09",
+   "quote": "Long a hold or LBAF of 7718-7725 is fine as it could do similar to what last night did from here. I'm slightly less optimistic about it given the way value developed today but it remains valid. I simply can't rate it higher than a C+/B- while acutely aware that we could just rally all night again because of its reclaim.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7718,
+     7725
+    ],
+    "tgt": [
+     7741.25,
+     [
+      7749,
+      7752
+     ],
+     7780
+    ],
+    "stop": [
+     7706
+    ]
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Persistent weakness below 7706-7709",
+   "dir": "short",
+   "tag": "C+/B-",
+   "gate": "persistent weakness below 7706-09 \u2014 needs the 7696-99 demand cleared first",
+   "tgt": "7682-86 \u2192 today's low 7672.75 \u2192 new lows \u2192 7666-69 \u2192 7644-48",
+   "stop": "reclaim of 7706-09",
+   "quote": "Short persistent weakness below 7706-7709 is a C+/B- because I really need to see at least the 7696-7699 demand cleared first.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7696,
+     7709
+    ],
+    "tgt": [
+     [
+      7682,
+      7686
+     ],
+     7672.75,
+     [
+      7666,
+      7669
+     ],
+     [
+      7644,
+      7648
+     ]
+    ],
+    "stop": [
+     7718
+    ]
+   }
+  }
+ ]
+}
