@@ -312,18 +312,19 @@ def swings(bars, k=3):
     return hi, lo
 
 
-def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
+def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3, tf="30min"):
     """Per-trade chart with structure: ETH candles (15m, last N sessions incl. overnight) + swing points + profiles + stop column."""
     e1, v1, poc1, va1lo, va1hi = A["p1"]; e2, v2, poc2, va2lo, va2hi = A["p2"]; e3, v3, poc3, va3lo, va3hi = A["p3"]; step = A["step"]
     s = t["stop_pts"]; c = LONG if t["dir"] == "long" else SHORT
     end = pd.Timestamp(plan_date, tz=tz) - pd.Timedelta(hours=7)
     start = (end - pd.Timedelta(days=sessions + 1)).replace(hour=18, minute=0)
     w = d5[(d5.time >= start) & (d5.time <= end)].set_index("time")
-    bars = w.resample("15min").agg({"Open":"first","High":"max","Low":"min","Close":"last","Volume":"sum"}).dropna().reset_index()
+    bars = w.resample(tf).agg({"Open":"first","High":"max","Low":"min","Close":"last","Volume":"sum"}).dropna().reset_index()
     n = len(bars)
     rth = [(9*60+30 <= x.hour*60+x.minute < 16*60) for x in bars.time]
     # y-range: the trade's levels plus the bulk of the last two sessions (ETH) so earlier action doesn't clip
-    ys = [t["entry"], s["structural"], s["atr"], s["recommended"]] + ([s["lvn"]] if s.get("lvn") is not None else []) + list(t["tgts"]) + list(t["gate_pts"])
+    ys = [t["entry"], s["recommended"]] + [o["stop"] for o in (t.get("options") or [])] + list(t["tgts"]) + list(t["gate_pts"])
+    if not t.get("options"): ys += [s["structural"], s["atr"]] + ([s["lvn"]] if s.get("lvn") is not None else [])
     recent = bars.iloc[-int(n * 2 / (sessions + 1)):] if sessions > 1 else bars
     lo = min(min(ys), recent.Low.quantile(0.03)); hi = max(max(ys), recent.High.quantile(0.97))
     pad = (hi - lo) * 0.07 + step * 2
@@ -350,14 +351,17 @@ def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
         if hm == 9 * 60 + 30:
             axc.axvline(i - 0.5, color="#b9bfc6", lw=0.8, ls=(0, (2, 2)), zorder=1)
             axc.text(i, hi - step * 0.4, x.strftime("%a %-m/%-d"), fontsize=7.2, color=MUTE, va="top", ha="left")
-    # swings: mark the ones within the window and near the trade
-    sh, sl = swings(bars, k=6)
+    # swings (15m, as used for the swing candidate) mapped onto the drawn bars
+    b15 = w.resample("15min").agg({"Open":"first","High":"max","Low":"min","Close":"last"}).dropna().reset_index()
+    sh, sl = swings(b15, k=6)
+    pos = lambda i: int(bars.index[bars.time <= b15.time[i]][-1])
+    sh = [(pos(i), y) for i, y in sh]; sl = [(pos(i), y) for i, y in sl]
     rel = sl if t["dir"] == "long" else sh
     band = (s["recommended"] - step * 6, t["entry"] + step * 6) if t["dir"] == "long" else (t["entry"] - step * 6, s["recommended"] + step * 6)
     done = []
     for i, y in rel:
         if band[0] <= y <= band[1]:
-            if any(abs(i - i0) <= 8 and abs(y - y0) <= step * 1.5 for i0, y0 in done): continue   # one label per cluster
+            if any(abs(i - i0) <= 5 and abs(y - y0) <= step * 1.5 for i0, y0 in done): continue   # one label per cluster
             done.append((i, y))
             axc.plot(i, y, marker="v" if t["dir"] == "long" else "^", color=c, ms=4.5, zorder=5)
             axc.annotate(f"{y:g}", (i, y), xytext=(0, -8 if t["dir"] == "long" else 8), textcoords="offset points", ha="center", va="top" if t["dir"] == "long" else "bottom", fontsize=6.3, color=c)
@@ -377,7 +381,8 @@ def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
     axc.set_xticks([]); axc.tick_params(axis="y", labelsize=7.5, colors=MUTE)
     for sp in ("top", "right", "bottom"): axc.spines[sp].set_visible(False)
     axc.spines["left"].set_color(GRID); axc.grid(axis="y", color=GRID, lw=0.5, zorder=0)
-    axc.set_title(f"{sym}  {t['short']}  ·  {t['dir']}  ·  ETH 15m, last {sessions} sessions (overnight shaded)", loc="left", fontsize=9.5, color=INK, fontweight="bold", pad=8)
+    axc.set_title(f"{sym}  {t['dir']}  ·  {t['short'][:48]}", loc="left", fontsize=9.5, color=INK, fontweight="bold", pad=16)
+    axc.text(0.0, 1.005, f"ETH {tf.replace('min', 'm')} · last {sessions} sessions · overnight shaded · 15m swings marked", transform=axc.transAxes, fontsize=6.8, color=MUTE, va="bottom", ha="left")
     # ---- profiles + stop column ----
     colw = 1.0
     def bars_(edges, vol, x0, valo, vahi, poc, label, stepp):
@@ -428,7 +433,7 @@ def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
     axp.set_xlim(-0.05, x + wdt + 1.6); axp.set_xticks([])
     for sp in ("top", "right", "bottom", "left"): axp.spines[sp].set_visible(False)
     axp.grid(axis="y", color=GRID, lw=0.5, zorder=0); axp.tick_params(axis="y", length=0)
-    axp.set_title("R: " + " / ".join(f"{v}" for v in t["rr"]) + "   ·   volume & stop candidates", loc="left", fontsize=9, color=INK, fontweight="bold", pad=8)
+    axp.set_title("R " + " / ".join(f"{v}" for v in t["rr"]) + "  ·  profiles & stop ladder", loc="left", fontsize=9, color=INK, fontweight="bold", pad=8)
     fig.subplots_adjust(left=0.045, right=0.99, top=0.92, bottom=0.03)
     fig.savefig(out, facecolor="white"); plt.close(fig)
 
