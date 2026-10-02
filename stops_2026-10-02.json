@@ -14,6 +14,12 @@
     7704.0,
     7792.0
    ],
+   "poc3": 7689.0,
+   "va3": [
+    7648.0,
+    7776.0
+   ],
+   "p3_src": "5m",
    "lvn1": [
     [
      7690.5,
@@ -47,11 +53,11 @@
     ],
     [
      7756.5,
-     0.6423968085530396
+     0.6618785061988778
     ],
     [
-     7764.5,
-     0.9188913349501356
+     7763.5,
+     0.937486781300591
     ]
    ],
    "lvn2": [
@@ -76,6 +82,58 @@
     [
      7767.0,
      1.0
+    ]
+   ],
+   "lvn3": [
+    [
+     7617.0,
+     0.21299847731602106
+    ],
+    [
+     7629.0,
+     0.10206968193745622
+    ],
+    [
+     7793.0,
+     0.24841610437838543
+    ],
+    [
+     7813.0,
+     0.09131756909520611
+    ]
+   ],
+   "hvn3": [
+    [
+     7655.0,
+     0.7948019463492113
+    ],
+    [
+     7677.0,
+     0.844628960224302
+    ],
+    [
+     7691.0,
+     1.0
+    ],
+    [
+     7705.0,
+     0.7977394943422875
+    ],
+    [
+     7719.0,
+     0.8080210011923683
+    ],
+    [
+     7731.0,
+     0.8335589530494479
+    ],
+    [
+     7743.0,
+     0.736493623461965
+    ],
+    [
+     7769.0,
+     0.9583105064377344
     ]
    ],
    "lvn_zones1": [
@@ -145,6 +203,40 @@
      "void_lo": false,
      "void_hi": true
     }
+   ],
+   "lvn_zones3": [
+    {
+     "lo": 7574.0,
+     "hi": 7596.0,
+     "min_p": 7575.0,
+     "min_r": 0.0042171955433418845,
+     "void_lo": true,
+     "void_hi": false
+    },
+    {
+     "lo": 7612.0,
+     "hi": 7644.0,
+     "min_p": 7629.0,
+     "min_r": 0.10206968193745622,
+     "void_lo": false,
+     "void_hi": false
+    },
+    {
+     "lo": 7782.0,
+     "hi": 7830.0,
+     "min_p": 7813.0,
+     "min_r": 0.09131756909520611,
+     "void_lo": false,
+     "void_hi": false
+    },
+    {
+     "lo": 7840.0,
+     "hi": 7850.0,
+     "min_p": 7849.0,
+     "min_r": 0.017634750343305954,
+     "void_lo": false,
+     "void_hi": true
+    }
    ]
   },
   "NQ": {
@@ -152,7 +244,7 @@
    "atr15": 76.14,
    "poc1": 30632.5,
    "va1": [
-    30545.0,
+    30550.0,
     30835.0
    ],
    "poc2": 30785.0,
@@ -160,6 +252,12 @@
     30530.0,
     30900.0
    ],
+   "poc3": 29455.0,
+   "va3": [
+    28820.0,
+    30680.0
+   ],
+   "p3_src": "5m",
    "lvn1": [
     [
      30417.5,
@@ -260,6 +358,114 @@
      0.6703355261562832
     ]
    ],
+   "lvn3": [
+    [
+     28955.0,
+     0.042712848179042195
+    ],
+    [
+     29045.0,
+     0.09916337895886641
+    ],
+    [
+     29095.0,
+     0.17057858332303225
+    ],
+    [
+     29195.0,
+     0.18917048331756794
+    ],
+    [
+     29315.0,
+     0.16585635488454548
+    ],
+    [
+     29645.0,
+     0.25418743017408907
+    ],
+    [
+     29695.0,
+     0.24872020142873597
+    ],
+    [
+     29805.0,
+     0.09997848104465824
+    ],
+    [
+     29865.0,
+     0.05633566997837845
+    ],
+    [
+     29905.0,
+     0.06327126017572343
+    ],
+    [
+     30005.0,
+     0.014447480794852167
+    ],
+    [
+     30055.0,
+     0.008128273766461972
+    ],
+    [
+     30135.0,
+     0.018053516747815395
+    ],
+    [
+     30175.0,
+     0.005636371426063242
+    ],
+    [
+     30285.0,
+     0.014939660868214872
+    ],
+    [
+     30325.0,
+     0.013809514405429593
+    ],
+    [
+     30455.0,
+     0.13691107937963992
+    ],
+    [
+     31005.0,
+     0.13648170436665638
+    ],
+    [
+     31095.0,
+     0.009990351033773813
+    ]
+   ],
+   "hvn3": [
+    [
+     29455.0,
+     1.0
+    ],
+    [
+     29515.0,
+     0.729468168870457
+    ],
+    [
+     29575.0,
+     0.6137590556328071
+    ],
+    [
+     29735.0,
+     0.6298980689062198
+    ],
+    [
+     30615.0,
+     0.920551574372135
+    ],
+    [
+     30685.0,
+     0.7505632551066287
+    ],
+    [
+     30755.0,
+     0.9075152552925844
+    ]
+   ],
    "lvn_zones1": [
     {
      "lo": 30355.0,
@@ -295,6 +501,48 @@
      "void_lo": false,
      "void_hi": true
     }
+   ],
+   "lvn_zones3": [
+    {
+     "lo": 28810.0,
+     "hi": 29220.0,
+     "min_p": 28815.0,
+     "min_r": 0.0016686136427394732,
+     "void_lo": true,
+     "void_hi": false
+    },
+    {
+     "lo": 29280.0,
+     "hi": 29370.0,
+     "min_p": 29315.0,
+     "min_r": 0.16585635488454548,
+     "void_lo": false,
+     "void_hi": false
+    },
+    {
+     "lo": 29620.0,
+     "hi": 29710.0,
+     "min_p": 29695.0,
+     "min_r": 0.24872020142873597,
+     "void_lo": false,
+     "void_hi": false
+    },
+    {
+     "lo": 29760.0,
+     "hi": 30520.0,
+     "min_p": 30175.0,
+     "min_r": 0.005636371426063242,
+     "void_lo": false,
+     "void_hi": false
+    },
+    {
+     "lo": 30940.0,
+     "hi": 31160.0,
+     "min_p": 31155.0,
+     "min_r": 0.001840585252560869,
+     "void_lo": false,
+     "void_hi": true
+    }
    ]
   }
  },
@@ -309,23 +557,110 @@
     30469,
     30530
    ],
+   "options": [
+    {
+     "key": "tight",
+     "label": "1 tick past 30469",
+     "stop": 30468.75,
+     "risk": 61.25,
+     "risk_atr": 0.8,
+     "rr": [
+      2.9,
+      4.8,
+      5.6
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 4,
+     "contracts": 0,
+     "under_r": false
+    },
+    {
+     "key": "structural",
+     "label": "30469 + 0.1 ATR5 buffer",
+     "stop": 30464.5,
+     "risk": 65.5,
+     "risk_atr": 0.86,
+     "rr": [
+      2.7,
+      4.5,
+      5.2
+     ],
+     "over_cap": false,
+     "recommended": true,
+     "micros": 3,
+     "contracts": 0,
+     "under_r": false
+    },
+    {
+     "key": "atr",
+     "label": "1 \u00d7 ATR15",
+     "stop": 30453.75,
+     "risk": 76.25,
+     "risk_atr": 1.0,
+     "rr": [
+      2.3,
+      3.9,
+      4.5
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 3,
+     "contracts": 0,
+     "under_r": false
+    },
+    {
+     "key": "swing",
+     "label": "15m swing low 30430",
+     "stop": 30429.75,
+     "risk": 100.25,
+     "risk_atr": 1.32,
+     "rr": [
+      1.7,
+      3.0,
+      3.4
+     ],
+     "over_cap": true,
+     "recommended": false,
+     "micros": 2,
+     "contracts": 0,
+     "under_r": false
+    },
+    {
+     "key": "next_level",
+     "label": "next plan level 30391",
+     "stop": 30390.75,
+     "risk": 139.25,
+     "risk_atr": 1.83,
+     "rr": [
+      1.3,
+      2.1,
+      2.4
+     ],
+     "over_cap": true,
+     "recommended": false,
+     "micros": 1,
+     "contracts": 0,
+     "under_r": false
+    }
+   ],
    "structure_level": 30469,
    "grade": "A/A-",
    "stop_pts": {
     "structural": 30464.5,
-    "lvn": null,
+    "lvn": 29759.75,
     "atr": 30453.75,
     "recommended": 30464.5
    },
    "lvn_zone": {
-    "lo": 30355.0,
-    "hi": 30545.0,
-    "min_p": 30357.5,
+    "lo": 29760.0,
+    "hi": 30520.0,
+    "min_p": 30175.0,
     "min_r": 0.01,
-    "src": "1-wk",
-    "void": true
+    "src": "20-day",
+    "void": false
    },
-   "basis": "structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased)",
+   "basis": "structural (LVN far edge 29759.8 would be 10.12 ATR \u2014 over cap)",
    "buffer_atr5": 0.1,
    "atr15": 76.14,
    "atr5": 42.64,
@@ -350,7 +685,7 @@
    "risk_per_micro_usd": 131.0,
    "skip": false,
    "skip_reason": null,
-   "why": "Entry assumed 30530 (top of the gate). Invalidation level 30469, buffered 4.5 pts under it \u2192 structural 30464.5. Beyond the entry the 1-wk profile is a void from 30355 to 30545 \u2014 no far edge to lean on, so the stop stays with structure. Recommended 30464.5 on structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased): 65.5 pts = 0.86 \u00d7 ATR15.",
+   "why": "Entry assumed 30530 (top of the gate). Invalidation level 30469, buffered 4.5 pts under it \u2192 structural 30464.5. Thin volume (20-day profile) runs 29760\u201330520, thinnest at 30175 (1% of peak); the LVN candidate is one tick past its far edge, 29759.8, not its minimum. Recommended 30464.5 on structural (LVN far edge 29759.8 would be 10.12 ATR \u2014 over cap): 65.5 pts = 0.86 \u00d7 ATR15.",
    "caveat": "persistent weakness below 500-530 (\u2192 469-493)",
    "chart_file": "charts/stops_2026-10-02_nq1.png"
   },
@@ -363,6 +698,93 @@
    "gate_pts": [
     30846,
     30883.5
+   ],
+   "options": [
+    {
+     "key": "tight",
+     "label": "1 tick past 30883.5",
+     "stop": 30883.75,
+     "risk": 37.75,
+     "risk_atr": 0.5,
+     "rr": [
+      3.0,
+      4.7,
+      8.4
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 6,
+     "contracts": 0,
+     "under_r": false
+    },
+    {
+     "key": "structural",
+     "label": "30883.5 + 0.1 ATR5 buffer",
+     "stop": 30888.0,
+     "risk": 42.0,
+     "risk_atr": 0.55,
+     "rr": [
+      2.7,
+      4.2,
+      7.5
+     ],
+     "over_cap": false,
+     "recommended": true,
+     "micros": 5,
+     "contracts": 0,
+     "under_r": false
+    },
+    {
+     "key": "swing",
+     "label": "15m swing high 30894.8",
+     "stop": 30895.0,
+     "risk": 49.0,
+     "risk_atr": 0.64,
+     "rr": [
+      2.3,
+      3.6,
+      6.4
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 5,
+     "contracts": 0,
+     "under_r": false
+    },
+    {
+     "key": "atr",
+     "label": "1 \u00d7 ATR15",
+     "stop": 30922.25,
+     "risk": 76.25,
+     "risk_atr": 1.0,
+     "rr": [
+      1.5,
+      2.3,
+      4.1
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 3,
+     "contracts": 0,
+     "under_r": false
+    },
+    {
+     "key": "next_level",
+     "label": "next plan level 30951",
+     "stop": 30951.25,
+     "risk": 105.25,
+     "risk_atr": 1.38,
+     "rr": [
+      1.1,
+      1.7,
+      3.0
+     ],
+     "over_cap": true,
+     "recommended": false,
+     "micros": 2,
+     "contracts": 0,
+     "under_r": false
+    }
    ],
    "structure_level": 30883.5,
    "grade": "B+/A-",
@@ -419,23 +841,89 @@
     30705,
     30734
    ],
+   "options": [
+    {
+     "key": "atr",
+     "label": "1 \u00d7 ATR15",
+     "stop": 30657.75,
+     "risk": 76.25,
+     "risk_atr": 1.0,
+     "rr": [
+      1.2,
+      2.0
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 3,
+     "contracts": 0,
+     "under_r": false
+    },
+    {
+     "key": "tight",
+     "label": "1 tick past 30638",
+     "stop": 30637.75,
+     "risk": 96.25,
+     "risk_atr": 1.26,
+     "rr": [
+      1.0,
+      1.6
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 2,
+     "contracts": 0,
+     "under_r": false
+    },
+    {
+     "key": "swing",
+     "label": "15m swing low 30636.5",
+     "stop": 30636.25,
+     "risk": 97.75,
+     "risk_atr": 1.28,
+     "rr": [
+      1.0,
+      1.5
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 2,
+     "contracts": 0,
+     "under_r": false
+    },
+    {
+     "key": "structural",
+     "label": "30638 + 0.1 ATR5 buffer",
+     "stop": 30633.5,
+     "risk": 100.5,
+     "risk_atr": 1.32,
+     "rr": [
+      0.9,
+      1.5
+     ],
+     "over_cap": true,
+     "recommended": true,
+     "micros": 2,
+     "contracts": 0,
+     "under_r": true
+    }
+   ],
    "structure_level": 30638,
    "grade": "B/B-",
    "stop_pts": {
     "structural": 30633.5,
-    "lvn": null,
+    "lvn": 29759.75,
     "atr": 30657.75,
     "recommended": 30633.5
    },
    "lvn_zone": {
-    "lo": 30355.0,
-    "hi": 30545.0,
-    "min_p": 30357.5,
+    "lo": 29760.0,
+    "hi": 30520.0,
+    "min_p": 30175.0,
     "min_r": 0.01,
-    "src": "1-wk",
-    "void": true
+    "src": "20-day",
+    "void": false
    },
-   "basis": "structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased)",
+   "basis": "structural (LVN far edge 29759.8 would be 12.80 ATR \u2014 over cap)",
    "buffer_atr5": 0.1,
    "atr15": 76.14,
    "atr5": 42.64,
@@ -458,7 +946,7 @@
    "risk_per_micro_usd": 201.0,
    "skip": true,
    "skip_reason": "under 1R to the first target",
-   "why": "Entry assumed 30734 (top of the gate). Invalidation level 30638, buffered 4.5 pts under it \u2192 structural 30633.5. Beyond the entry the 1-wk profile is a void from 30355 to 30545 \u2014 no far edge to lean on, so the stop stays with structure. Recommended 30633.5 on structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased): 100.5 pts = 1.32 \u00d7 ATR15 \u2014 wider than the 1.3 ATR cap; structure demands it.",
+   "why": "Entry assumed 30734 (top of the gate). Invalidation level 30638, buffered 4.5 pts under it \u2192 structural 30633.5. Thin volume (20-day profile) runs 29760\u201330520, thinnest at 30175 (1% of peak); the LVN candidate is one tick past its far edge, 29759.8, not its minimum. Recommended 30633.5 on structural (LVN far edge 29759.8 would be 12.80 ATR \u2014 over cap): 100.5 pts = 1.32 \u00d7 ATR15 \u2014 wider than the 1.3 ATR cap; structure demands it.",
    "caveat": "638-669 firmly flipped to resistance",
    "chart_file": "charts/stops_2026-10-02_nq3.png"
   },
@@ -472,23 +960,105 @@
     30638,
     30669
    ],
+   "options": [
+    {
+     "key": "swing",
+     "label": "15m swing low 30636.5",
+     "stop": 30636.25,
+     "risk": 32.75,
+     "risk_atr": 0.43,
+     "rr": [
+      1.1,
+      4.8
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 7,
+     "contracts": 0,
+     "under_r": false
+    },
+    {
+     "key": "atr",
+     "label": "1 \u00d7 ATR15",
+     "stop": 30592.75,
+     "risk": 76.25,
+     "risk_atr": 1.0,
+     "rr": [
+      0.5,
+      2.1
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 3,
+     "contracts": 0,
+     "under_r": true
+    },
+    {
+     "key": "tight",
+     "label": "1 tick past 30560.8",
+     "stop": 30560.5,
+     "risk": 108.5,
+     "risk_atr": 1.43,
+     "rr": [
+      0.3,
+      1.5
+     ],
+     "over_cap": true,
+     "recommended": false,
+     "micros": 2,
+     "contracts": 0,
+     "under_r": true
+    },
+    {
+     "key": "structural",
+     "label": "30560.8 + 0.1 ATR5 buffer",
+     "stop": 30556.25,
+     "risk": 112.75,
+     "risk_atr": 1.48,
+     "rr": [
+      0.3,
+      1.4
+     ],
+     "over_cap": true,
+     "recommended": true,
+     "micros": 2,
+     "contracts": 0,
+     "under_r": true
+    },
+    {
+     "key": "next_level",
+     "label": "next plan level 30530",
+     "stop": 30529.75,
+     "risk": 139.25,
+     "risk_atr": 1.83,
+     "rr": [
+      0.3,
+      1.1
+     ],
+     "over_cap": true,
+     "recommended": false,
+     "micros": 1,
+     "contracts": 0,
+     "under_r": true
+    }
+   ],
    "structure_level": 30560.75,
    "grade": "C+/B-",
    "stop_pts": {
     "structural": 30556.25,
-    "lvn": null,
+    "lvn": 29759.75,
     "atr": 30592.75,
     "recommended": 30556.25
    },
    "lvn_zone": {
-    "lo": 30355.0,
-    "hi": 30545.0,
-    "min_p": 30357.5,
+    "lo": 29760.0,
+    "hi": 30520.0,
+    "min_p": 30175.0,
     "min_r": 0.01,
-    "src": "1-wk",
-    "void": true
+    "src": "20-day",
+    "void": false
    },
-   "basis": "structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased)",
+   "basis": "structural (LVN far edge 29759.8 would be 11.94 ATR \u2014 over cap)",
    "buffer_atr5": 0.1,
    "atr15": 76.14,
    "atr5": 42.64,
@@ -511,7 +1081,7 @@
    "risk_per_micro_usd": 225.5,
    "skip": true,
    "skip_reason": "under 1R to the first target",
-   "why": "Entry assumed 30669 (top of the gate). Invalidation level 30560.8, buffered 4.5 pts under it \u2192 structural 30556.2. Beyond the entry the 1-wk profile is a void from 30355 to 30545 \u2014 no far edge to lean on, so the stop stays with structure. Recommended 30556.2 on structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased): 112.75 pts = 1.48 \u00d7 ATR15 \u2014 wider than the 1.3 ATR cap; structure demands it.",
+   "why": "Entry assumed 30669 (top of the gate). Invalidation level 30560.8, buffered 4.5 pts under it \u2192 structural 30556.2. Thin volume (20-day profile) runs 29760\u201330520, thinnest at 30175 (1% of peak); the LVN candidate is one tick past its far edge, 29759.8, not its minimum. Recommended 30556.2 on structural (LVN far edge 29759.8 would be 11.94 ATR \u2014 over cap): 112.75 pts = 1.48 \u00d7 ATR15 \u2014 wider than the 1.3 ATR cap; structure demands it.",
    "caveat": "638-669 firmly flipped \u2192 today's low",
    "chart_file": "charts/stops_2026-10-02_nq4.png"
   },
@@ -524,6 +1094,93 @@
    "gate_pts": [
     7706,
     7709
+   ],
+   "options": [
+    {
+     "key": "swing",
+     "label": "15m swing low 7705.5",
+     "stop": 7705.25,
+     "risk": 3.75,
+     "risk_atr": 0.26,
+     "rr": [
+      2.4,
+      8.6,
+      10.7
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 26,
+     "contracts": 2,
+     "under_r": false
+    },
+    {
+     "key": "tight",
+     "label": "1 tick past 7696",
+     "stop": 7695.75,
+     "risk": 13.25,
+     "risk_atr": 0.93,
+     "rr": [
+      0.7,
+      2.4,
+      3.0
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 7,
+     "contracts": 0,
+     "under_r": true
+    },
+    {
+     "key": "structural",
+     "label": "7696 + 0.1 ATR5 buffer",
+     "stop": 7695.0,
+     "risk": 14.0,
+     "risk_atr": 0.98,
+     "rr": [
+      0.6,
+      2.3,
+      2.9
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 7,
+     "contracts": 0,
+     "under_r": true
+    },
+    {
+     "key": "lvn_2-wk",
+     "label": "2-wk LVN far edge (7694\u20137708)",
+     "stop": 7693.75,
+     "risk": 15.25,
+     "risk_atr": 1.07,
+     "rr": [
+      0.6,
+      2.1,
+      2.6
+     ],
+     "over_cap": false,
+     "recommended": true,
+     "micros": 6,
+     "contracts": 0,
+     "under_r": true
+    },
+    {
+     "key": "next_level",
+     "label": "next plan level 7686",
+     "stop": 7685.75,
+     "risk": 23.25,
+     "risk_atr": 1.63,
+     "rr": [
+      0.4,
+      1.4,
+      1.7
+     ],
+     "over_cap": true,
+     "recommended": false,
+     "micros": 4,
+     "contracts": 0,
+     "under_r": true
+    }
    ],
    "structure_level": 7696,
    "grade": "B/B+",
@@ -580,6 +1237,93 @@
     7718,
     7725
    ],
+   "options": [
+    {
+     "key": "swing",
+     "label": "15m swing low 7716",
+     "stop": 7715.75,
+     "risk": 9.25,
+     "risk_atr": 0.65,
+     "rr": [
+      1.8,
+      2.6,
+      5.9
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 10,
+     "contracts": 1,
+     "under_r": false
+    },
+    {
+     "key": "atr",
+     "label": "1 \u00d7 ATR15",
+     "stop": 7710.5,
+     "risk": 14.5,
+     "risk_atr": 1.01,
+     "rr": [
+      1.1,
+      1.7,
+      3.8
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 6,
+     "contracts": 0,
+     "under_r": false
+    },
+    {
+     "key": "tight",
+     "label": "1 tick past 7706",
+     "stop": 7705.75,
+     "risk": 19.25,
+     "risk_atr": 1.35,
+     "rr": [
+      0.8,
+      1.2,
+      2.9
+     ],
+     "over_cap": true,
+     "recommended": false,
+     "micros": 5,
+     "contracts": 0,
+     "under_r": true
+    },
+    {
+     "key": "structural",
+     "label": "7706 + 0.1 ATR5 buffer",
+     "stop": 7705.0,
+     "risk": 20.0,
+     "risk_atr": 1.4,
+     "rr": [
+      0.8,
+      1.2,
+      2.8
+     ],
+     "over_cap": true,
+     "recommended": true,
+     "micros": 5,
+     "contracts": 0,
+     "under_r": true
+    },
+    {
+     "key": "next_level",
+     "label": "next plan level 7699",
+     "stop": 7698.75,
+     "risk": 26.25,
+     "risk_atr": 1.84,
+     "rr": [
+      0.6,
+      0.9,
+      2.1
+     ],
+     "over_cap": true,
+     "recommended": false,
+     "micros": 3,
+     "contracts": 0,
+     "under_r": true
+    }
+   ],
    "structure_level": 7706,
    "grade": "C+/B-",
    "stop_pts": {
@@ -634,6 +1378,98 @@
    "gate_pts": [
     7696,
     7709
+   ],
+   "options": [
+    {
+     "key": "lvn_2-wk",
+     "label": "2-wk LVN far edge (7694\u20137708)",
+     "stop": 7708.25,
+     "risk": 12.25,
+     "risk_atr": 0.86,
+     "rr": [
+      0.8,
+      1.9,
+      2.2,
+      3.9
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 8,
+     "contracts": 0,
+     "under_r": true
+    },
+    {
+     "key": "tight",
+     "label": "1 tick past 7709",
+     "stop": 7709.25,
+     "risk": 13.25,
+     "risk_atr": 0.93,
+     "rr": [
+      0.8,
+      1.8,
+      2.0,
+      3.6
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 7,
+     "contracts": 0,
+     "under_r": true
+    },
+    {
+     "key": "structural",
+     "label": "7709 + 0.1 ATR5 buffer",
+     "stop": 7710.0,
+     "risk": 14.0,
+     "risk_atr": 0.98,
+     "rr": [
+      0.7,
+      1.7,
+      1.9,
+      3.4
+     ],
+     "over_cap": false,
+     "recommended": true,
+     "micros": 7,
+     "contracts": 0,
+     "under_r": true
+    },
+    {
+     "key": "lvn_1-wk",
+     "label": "1-wk LVN far edge (7672\u20137714)",
+     "stop": 7714.25,
+     "risk": 18.25,
+     "risk_atr": 1.28,
+     "rr": [
+      0.5,
+      1.3,
+      1.5,
+      2.6
+     ],
+     "over_cap": false,
+     "recommended": false,
+     "micros": 5,
+     "contracts": 0,
+     "under_r": true
+    },
+    {
+     "key": "next_level",
+     "label": "next plan level 7718",
+     "stop": 7718.25,
+     "risk": 22.25,
+     "risk_atr": 1.56,
+     "rr": [
+      0.4,
+      1.0,
+      1.2,
+      2.2
+     ],
+     "over_cap": true,
+     "recommended": false,
+     "micros": 4,
+     "contracts": 0,
+     "under_r": true
+    }
    ],
    "structure_level": 7709,
    "grade": "C+/B-",

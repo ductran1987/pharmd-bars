@@ -74,12 +74,22 @@ def analyze(sym, plan_date):
     end = pd.Timestamp(plan_date, tz=tz) - pd.Timedelta(hours=7)   # 5pm the day before
     w1 = (end - pd.Timedelta(days=7)).replace(hour=18, minute=0)
     w2 = (end - pd.Timedelta(days=14)).replace(hour=18, minute=0)
+    w3 = (end - pd.Timedelta(days=28)).replace(hour=18, minute=0)   # ~20 sessions
     e1, v1, poc1, va1lo, va1hi = charts.profile(d5, w1, end, step)
     e2, v2, poc2, va2lo, va2hi = charts.profile(d1, w2, end, step * 2)
-    lv1, hv1 = nodes(e1, v1, step); lv2, hv2 = nodes(e2, v2, step * 2)
+    # 20-session composite: 5m when the file reaches back that far, else 1h
+    src3 = d5 if d5.time.min() <= w3 + pd.Timedelta(days=2) else d1
+    e3, v3, poc3, va3lo, va3hi = charts.profile(src3, w3, end, step * 2)
+    lv1, hv1 = nodes(e1, v1, step); lv2, hv2 = nodes(e2, v2, step * 2); lv3, hv3 = nodes(e3, v3, step * 2)
     a5, a15 = atr(d5, end=end)
-    return dict(step=step, p1=(e1, v1, poc1, va1lo, va1hi), p2=(e2, v2, poc2, va2lo, va2hi),
-                lvn1=lv1, hvn1=hv1, lvn2=lv2, hvn2=hv2, atr5=a5, atr15=a15, w1=w1, w2=w2, end=end)
+    # 15m swings over the last 3 ETH sessions (for the swing candidate)
+    st = (end - pd.Timedelta(days=4)).replace(hour=18, minute=0)
+    b15 = d5[(d5.time >= st) & (d5.time <= end)].set_index("time").resample("15min").agg({"Open":"first","High":"max","Low":"min","Close":"last"}).dropna().reset_index()
+    sh, sl = swings(b15, k=6)
+    return dict(step=step, p1=(e1, v1, poc1, va1lo, va1hi), p2=(e2, v2, poc2, va2lo, va2hi), p3=(e3, v3, poc3, va3lo, va3hi),
+                p3_src="5m" if src3 is d5 else "1h", lvn1=lv1, hvn1=hv1, lvn2=lv2, hvn2=hv2, lvn3=lv3, hvn3=hv3,
+                swing_hi=[y for _, y in sh], swing_lo=[y for _, y in sl],
+                atr5=a5, atr15=a15, w1=w1, w2=w2, w3=w3, end=end)
 
 
 TICK = 0.25
@@ -105,7 +115,7 @@ BUFFER_ATR5 = 0.1    # structural buffer past the level, in 5m ATRs (~1 pt ES / 
 RISK_USD = 500.0     # fixed $ risk per trade; sized in micros (MES/MNQ), full contracts shown when >=1 fits
 
 
-def candidates(sym, A, pt, risk_usd=None, atr_mult=1.0, buffer_atr5=None, level=None):
+def candidates(sym, A, pt, risk_usd=None, atr_mult=1.0, buffer_atr5=None, level=None, plan_levels=()):
     """Build the three stop candidates + recommendation for one plan trade `pt` (plans/plan-*.json entry).
     Entry assumption: long = top of gate, short = bottom of gate (the hold/LBAF fires from inside the gate).
     structural = his invalidation level, buffered past it by ½ ATR5.
@@ -119,10 +129,11 @@ def candidates(sym, A, pt, risk_usd=None, atr_mult=1.0, buffer_atr5=None, level=
     level = level if level is not None else pt.get("stop_level", L["stop"][0])   # trade-specific invalidation; plan's levels.stop is often the bigger-picture failure
     b = BUFFER_ATR5 if buffer_atr5 is None else buffer_atr5
     structural = _tick(level + sgn * b * A["atr5"], d)
-    z1 = lvn_zones(*A["p1"][:2], step, thr=LVN_THR); z2 = lvn_zones(*A["p2"][:2], step * 2, thr=LVN_THR)
-    c1, zz1 = lvn_candidate(z1, entry, d); c2, zz2 = lvn_candidate(z2, entry, d)
-    opts = [(c, z, src) for c, z, src in ((c1, zz1, "1-wk"), (c2, zz2, "2-wk")) if c is not None]
-    voids = [(z, src) for z, src in ((zz1, "1-wk"), (zz2, "2-wk")) if z is not None and (z["void_lo"] if d == "long" else z["void_hi"])]
+    z1 = lvn_zones(*A["p1"][:2], step, thr=LVN_THR); z2 = lvn_zones(*A["p2"][:2], step * 2, thr=LVN_THR); z3 = lvn_zones(*A["p3"][:2], step * 2, thr=LVN_THR)
+    c1, zz1 = lvn_candidate(z1, entry, d); c2, zz2 = lvn_candidate(z2, entry, d); c3, zz3 = lvn_candidate(z3, entry, d)
+    prof = ((c1, zz1, "1-wk"), (c2, zz2, "2-wk"), (c3, zz3, "20-day"))
+    opts = [(c, z, src) for c, z, src in prof if c is not None]
+    voids = [(z, src) for c, z, src in prof if z is not None and (z["void_lo"] if d == "long" else z["void_hi"])]
     if opts:   # a bounded zone: stop one tick past its far edge
         lvn_edge, zone, zsrc = min(opts, key=lambda o: abs(o[0] - entry)); void = False
         lvn = _tick(lvn_edge + sgn * TICK, d)
@@ -146,7 +157,34 @@ def candidates(sym, A, pt, risk_usd=None, atr_mult=1.0, buffer_atr5=None, level=
         if isinstance(t, (list, tuple)): tg.append(min(t) if d == "long" else max(t))
         else: tg.append(t)
     rr = [round(abs(t - entry) / risk, 1) for t in tg]
-    out = dict(instrument=sym, id=pt["id"], short=pt["name"], dir=d, entry=float(entry), gate_pts=gate,
+    # ---- ladder: every defensible stop, nearest first; the trader picks ----
+    ladder = [("tight", f"1 tick past {level:g}", _tick(level + sgn * TICK, d)),
+              ("structural", f"{level:g} + {b:g} ATR5 buffer", structural)]
+    for c_, z_, src_ in opts:
+        ladder.append((f"lvn_{src_}", f"{src_} LVN far edge ({z_['lo']:g}–{z_['hi']:g})", _tick(c_ + sgn * TICK, d)))
+    far_gate = gate[0] if d == "long" else gate[-1]
+    sw = [y for y in (A["swing_lo"] if d == "long" else A["swing_hi"]) if beyond(y, far_gate)]   # a swing inside the gate is the gate
+    if sw:
+        y = max(sw) if d == "long" else min(sw)   # nearest swing beyond the entry
+        ladder.append(("swing", f"15m swing {'low' if d == 'long' else 'high'} {y:g}", _tick(y + sgn * TICK, d)))
+    ladder.append(("atr", f"{atr_mult:g} × ATR15", atr_c))
+    nxt = [p for p in plan_levels if beyond(p, level)]
+    if nxt:
+        y = max(nxt) if d == "long" else min(nxt)
+        ladder.append(("next_level", f"next plan level {y:g}", _tick(y + sgn * TICK, d)))
+    options, seen = [], []
+    for key, lab, y in sorted(ladder, key=lambda o: abs(o[2] - entry)):
+        if any(abs(y - y0) <= TICK * 2 for y0 in seen): continue   # same spot twice: keep the first (nearer) label
+        seen.append(y); rk = abs(entry - y)
+        if rk < 0.2 * A["atr15"] or rk > 2.0 * A["atr15"]: continue
+        o = dict(key=key, label=lab, stop=y, risk=round(rk, 2), risk_atr=round(rk / A["atr15"], 2),
+                 rr=[round(abs(t - entry) / rk, 1) for t in tg], over_cap=bool(rk > ATR_CAP * A["atr15"]),
+                 recommended=bool(abs(y - rec) <= TICK * 2))
+        if risk_usd:
+            o["micros"] = int(risk_usd // (rk * MICRO_VALUE[sym])); o["contracts"] = int(risk_usd // (rk * PT_VALUE[sym]))
+            o["under_r"] = bool(o["rr"][0] < MIN_R_FIRST)
+        options.append(o)
+    out = dict(instrument=sym, id=pt["id"], short=pt["name"], dir=d, entry=float(entry), gate_pts=gate, options=options,
                structure_level=level, grade=pt.get("tag", ""),
                stop_pts=dict(structural=structural, lvn=lvn, atr=atr_c, recommended=rec),
                lvn_zone=(dict(lo=zone["lo"], hi=zone["hi"], min_p=zone["min_p"], min_r=round(zone["min_r"], 2), src=zsrc, void=bool(void)) if zone else None),
@@ -276,7 +314,7 @@ def swings(bars, k=3):
 
 def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
     """Per-trade chart with structure: ETH candles (15m, last N sessions incl. overnight) + swing points + profiles + stop column."""
-    e1, v1, poc1, va1lo, va1hi = A["p1"]; e2, v2, poc2, va2lo, va2hi = A["p2"]; step = A["step"]
+    e1, v1, poc1, va1lo, va1hi = A["p1"]; e2, v2, poc2, va2lo, va2hi = A["p2"]; e3, v3, poc3, va3lo, va3hi = A["p3"]; step = A["step"]
     s = t["stop_pts"]; c = LONG if t["dir"] == "long" else SHORT
     end = pd.Timestamp(plan_date, tz=tz) - pd.Timedelta(hours=7)
     start = (end - pd.Timedelta(days=sessions + 1)).replace(hour=18, minute=0)
@@ -290,7 +328,7 @@ def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
     lo = min(min(ys), recent.Low.quantile(0.03)); hi = max(max(ys), recent.High.quantile(0.97))
     pad = (hi - lo) * 0.07 + step * 2
     lo, hi = lo - pad, hi + pad
-    fig, (axc, axp) = plt.subplots(1, 2, figsize=(13.6, 6.2), dpi=170, gridspec_kw=dict(width_ratios=[2.9, 1.5], wspace=0.03), sharey=True)
+    fig, (axc, axp) = plt.subplots(1, 2, figsize=(14.4, 6.2), dpi=170, gridspec_kw=dict(width_ratios=[2.7, 1.9], wspace=0.03), sharey=True)
     fig.patch.set_facecolor("white")
     # ---- candles ----
     i = 0
@@ -355,13 +393,16 @@ def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
         axp.text(x0 + colw / 2, hi - step * 0.3, label, ha="center", va="top", fontsize=7.5, color=MUTE)
     bars_(e1, v1, 0.0, va1lo, va1hi, poc1, "1-wk", step)
     bars_(e2, v2, 1.12, va2lo, va2hi, poc2, "2-wk", step * 2)
+    bars_(e3, v3, 2.24, va3lo, va3hi, poc3, f"20-day ({A.get('p3_src','1h')})", step * 2)
+    for p, r in A["lvn3"]:
+        if lo <= p <= hi: axp.plot([2.24, 2.24 + colw], [p, p], color=LVN_C, lw=1.0, ls=":", zorder=5)
     for p, r in A["lvn1"]:
         if lo <= p <= hi: axp.plot([0, colw], [p, p], color=LVN_C, lw=1.0, ls=":", zorder=5); axp.text(0.02, p + step * 0.3, f"LVN {p:g}", fontsize=6, color=LVN_C, va="bottom")
     for p, r in A["lvn2"]:
         if lo <= p <= hi: axp.plot([1.12, 1.12 + colw], [p, p], color=LVN_C, lw=1.0, ls=":", zorder=5)
     for p, r in A["hvn1"]:
         if lo <= p <= hi: axp.text(0.02, p + step * 0.3, f"HVN {p:g}", fontsize=6, color=HVN_C, va="bottom")
-    x = 2.45; wdt = 1.5
+    x = 3.75; wdt = 1.5
     axp.add_patch(plt.Rectangle((x, min(g)), wdt, max(max(g) - min(g), step * 0.6), color=c, alpha=0.18, lw=0, zorder=3))
     axp.plot([x, x + wdt], [t["entry"]] * 2, color=c, lw=1.2, zorder=4); axp.text(x + wdt + 0.05, t["entry"], f"entry {t['entry']:g}", fontsize=7, color=c, va="center", fontweight="bold")
     for tg in t["tgts"]:
@@ -371,12 +412,14 @@ def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
         zlo, zhi = max(z["lo"], lo), min(z["hi"], hi)
         for ax_ in (axc, axp): ax_.axhspan(zlo, zhi, color=LVN_C, alpha=0.06, lw=0, zorder=0)
         axp.text(x, zhi - step * 0.2, f"{z['src']} LVN zone {z['lo']:g}–{z['hi']:g}" + (" (void)" if z.get("void") else ""), fontsize=5.8, color=LVN_C, va="top")
-    cands = [("structural", s["structural"]), ("LVN edge" if s.get("lvn") is not None else "LVN: void", s.get("lvn")), (f"{t['atr_mult']}×ATR", s["atr"])]
-    for i, (lab, y) in enumerate(cands):
-        if y is None:
-            axp.text(x + (i + 0.5) * wdt / 3, t["entry"], lab, fontsize=5.8, color=LVN_C, ha="center", va="bottom" if t["dir"] == "short" else "top", alpha=0.8); continue
-        axp.plot([x + i * wdt / 3, x + (i + 1) * wdt / 3], [y] * 2, color=STOP_C, lw=1.0, ls=":", zorder=4)
-        axp.text(x + (i + 0.5) * wdt / 3, y + (step * 0.6 if t["dir"] == "short" else -step * 0.6), lab, fontsize=5.8, color=STOP_C, ha="center", va="bottom" if t["dir"] == "short" else "top")
+    opts_ = t.get("options") or []
+    short_lab = {"tight": "tight", "structural": "struct", "swing": "swing", "atr": "ATR", "next_level": "next lvl"}
+    for o in opts_:
+        y = o["stop"]
+        if not (lo <= y <= hi): continue
+        axp.plot([x, x + wdt], [y] * 2, color=STOP_C, lw=0.9, ls=":", zorder=4, alpha=0.9)
+        lab = short_lab.get(o["key"], o["key"].replace("lvn_", "LVN "))
+        axp.text(x - 0.04, y, f"{lab} {y:g}", fontsize=5.8, color=STOP_C, ha="right", va="center", alpha=0.95)
     r_ = s["recommended"]
     axp.plot([x, x + wdt], [r_] * 2, color=STOP_C, lw=2.4, zorder=6)
     sz = f"\n{t['micros']} micro{'s' if t['micros'] != 1 else ''} @ ${t['risk_usd']:g}" if t.get("micros") is not None else ""
@@ -415,13 +458,15 @@ def build(plan_path, levels_path=None, risk_usd=RISK_USD, chart_dir="charts"):
     for s in syms:
         a = A[s]
         inst[s] = dict(atr5=round(a["atr5"], 2), atr15=round(a["atr15"], 2), poc1=a["p1"][2], va1=[a["p1"][3], a["p1"][4]], poc2=a["p2"][2], va2=[a["p2"][3], a["p2"][4]],
-                       lvn1=a["lvn1"], hvn1=a["hvn1"], lvn2=a["lvn2"], hvn2=a["hvn2"],
-                       lvn_zones1=lvn_zones(*a["p1"][:2], a["step"]), lvn_zones2=lvn_zones(*a["p2"][:2], a["step"] * 2))
+                       poc3=a["p3"][2], va3=[a["p3"][3], a["p3"][4]], p3_src=a["p3_src"],
+                       lvn1=a["lvn1"], hvn1=a["hvn1"], lvn2=a["lvn2"], hvn2=a["hvn2"], lvn3=a["lvn3"], hvn3=a["hvn3"],
+                       lvn_zones1=lvn_zones(*a["p1"][:2], a["step"]), lvn_zones2=lvn_zones(*a["p2"][:2], a["step"] * 2), lvn_zones3=lvn_zones(*a["p3"][:2], a["step"] * 2))
+    plan_levels = {b["instrument"]: sorted({float(p) for lv in b.get("levels", []) for p in lv["p"]}) for b in plan.get("brief", [])}
     trades = []
     pathlib.Path(chart_dir).mkdir(exist_ok=True)
     for pt in plan["trades"]:
         s = pt["instrument"]
-        c = candidates(s, A[s], pt, risk_usd=risk_usd, level=over.get(pt["id"]))
+        c = candidates(s, A[s], pt, risk_usd=risk_usd, level=over.get(pt["id"]), plan_levels=plan_levels.get(s, ()))
         c["why"] = why_text(c); c["caveat"] = pt.get("stop", "")
         c["chart_file"] = f"{chart_dir}/stops_{date}_{pt['id']}.png"
         draw_trade2(s, A[s], c, c["chart_file"], charts.load(s), date)
