@@ -145,3 +145,111 @@ def draw_trade(sym, A, t, out):
     ax.set_title(f"{sym}  {t['short']}  ·  {t['dir']}  ·  R: " + " / ".join(f"{v}" for v in t["rr"]), loc="left", fontsize=9.5, color=INK, fontweight="bold", pad=8)
     fig.subplots_adjust(left=0.14, right=0.98, top=0.92, bottom=0.04)
     fig.savefig(out, facecolor="white"); plt.close(fig)
+
+
+def swings(bars, k=3):
+    """Fractal swing highs/lows on the given bars (k bars each side)."""
+    hi, lo = [], []
+    H, L = bars.High.values, bars.Low.values
+    for i in range(k, len(bars) - k):
+        if H[i] == H[i-k:i+k+1].max(): hi.append((i, float(H[i])))
+        if L[i] == L[i-k:i+k+1].min(): lo.append((i, float(L[i])))
+    return hi, lo
+
+
+def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
+    """Per-trade chart with structure: candles (15m, last N sessions) + swing points + profiles + stop column."""
+    e1, v1, poc1, va1lo, va1hi = A["p1"]; e2, v2, poc2, va2lo, va2hi = A["p2"]; step = A["step"]
+    s = t["stop_pts"]; c = LONG if t["dir"] == "long" else SHORT
+    end = pd.Timestamp(plan_date, tz=tz) - pd.Timedelta(hours=7)
+    start = (end - pd.Timedelta(days=sessions + 1)).replace(hour=18, minute=0)
+    w = d5[(d5.time >= start) & (d5.time <= end)].set_index("time")
+    bars = w.resample("15min").agg({"Open":"first","High":"max","Low":"min","Close":"last","Volume":"sum"}).dropna().reset_index()
+    n = len(bars)
+    ys = [t["entry"], s["structural"], s["lvn"], s["atr"], s["recommended"]] + list(t["tgts"]) + list(t["gate_pts"])
+    pad = (max(ys) - min(ys)) * 0.15 + step * 2
+    lo, hi = min(ys) - pad, max(ys) + pad
+    fig, (axc, axp) = plt.subplots(1, 2, figsize=(10.4, 5.4), dpi=170, gridspec_kw=dict(width_ratios=[2.1, 1.9], wspace=0.04), sharey=True)
+    fig.patch.set_facecolor("white")
+    # ---- candles ----
+    rth = [(9*60+30 <= x.hour*60+x.minute < 16*60) for x in bars.time]
+    i = 0
+    while i < n:
+        if not rth[i]:
+            j = i
+            while j < n and not rth[j]: j += 1
+            axc.axvspan(i - 0.5, j - 0.5, color="#f3f4f2", zorder=0); i = j
+        else: i += 1
+    for i, r in bars.iterrows():
+        cc = charts.UP if r.Close >= r.Open else charts.DOWN
+        axc.plot([i, i], [r.Low, r.High], color=cc, lw=0.6, zorder=2)
+        axc.add_patch(plt.Rectangle((i - 0.35, min(r.Open, r.Close)), 0.7, max(abs(r.Close - r.Open), step * 0.1), color=cc, lw=0, zorder=3))
+    seen = set()
+    for i, x in enumerate(bars.time):
+        if rth[i] and x.date() not in seen:
+            seen.add(x.date()); axc.text(i, lo + step * 0.3, x.strftime("%a %-m/%-d"), fontsize=6.5, color=MUTE, va="bottom")
+    # swings: mark the ones within the window and near the trade
+    sh, sl = swings(bars, k=6)
+    rel = sl if t["dir"] == "long" else sh
+    band = (s["recommended"] - step * 6, t["entry"] + step * 6) if t["dir"] == "long" else (t["entry"] - step * 6, s["recommended"] + step * 6)
+    for i, y in rel:
+        if band[0] <= y <= band[1]:
+            axc.plot(i, y, marker="v" if t["dir"] == "long" else "^", color=c, ms=4, zorder=5)
+            axc.annotate(f"{y:g}", (i, y), xytext=(0, -8 if t["dir"] == "long" else 8), textcoords="offset points", ha="center", va="top" if t["dir"] == "long" else "bottom", fontsize=5.8, color=c)
+    # gate / entry / stop / targets across the candles
+    g = t["gate_pts"]
+    axc.axhspan(min(g), max(g) if max(g) > min(g) else min(g) + step * 0.6, color=c, alpha=0.12, lw=0, zorder=1)
+    axc.axhline(t["entry"], color=c, lw=1.0, zorder=4)
+    axc.axhline(s["recommended"], color=STOP_C, lw=2.0, zorder=5)
+    for tg in t["tgts"]: axc.axhline(tg, color=PIVOT, lw=0.8, ls="--", zorder=1)
+    # structural reference line(s) the stop hides behind
+    for k_, (lab, y) in enumerate(t.get("structure", [])):
+        if lo <= y <= hi:
+            axc.axhline(y, color=INK, lw=0.8, ls=(0, (4, 2)), zorder=4)
+            axc.text(0.3 + k_ * n * 0.34, y, lab, fontsize=6.5, color=INK, va="bottom" if t["dir"] == "long" else "top", bbox=dict(boxstyle="round,pad=0.15", fc="white", ec="none", alpha=0.85), zorder=7)
+    axc.text(n - 0.5, s["recommended"], f" stop {s['recommended']:g}", fontsize=6.8, color=STOP_C, va="bottom" if t["dir"] == "long" else "top", ha="right", fontweight="bold", zorder=7)
+    axc.set_xlim(-0.5, n + 0.5); axc.set_ylim(lo, hi)
+    axc.set_xticks([]); axc.tick_params(axis="y", labelsize=7, colors=MUTE)
+    for sp in ("top", "right", "bottom"): axc.spines[sp].set_visible(False)
+    axc.spines["left"].set_color(GRID); axc.grid(axis="y", color=GRID, lw=0.5, zorder=0)
+    axc.set_title(f"{sym}  {t['short']}  ·  {t['dir']}  ·  structure (15m, last {sessions} sessions)", loc="left", fontsize=9, color=INK, fontweight="bold", pad=8)
+    # ---- profiles + stop column ----
+    colw = 1.0
+    def bars_(edges, vol, x0, valo, vahi, poc, label, stepp):
+        m = (edges[:-1] >= lo - stepp) & (edges[:-1] <= hi)
+        if not m.any(): return
+        sc = colw / max(vol[m].max(), 1e-9)
+        for i in np.where(m)[0]:
+            inva = valo <= edges[i] < vahi
+            axp.barh(edges[i], vol[i] * sc, height=stepp, left=x0, align="edge", color="#8b96a3" if inva else "#c9ced4", alpha=0.75 if inva else 0.5, lw=0, zorder=2)
+        if lo <= poc <= hi:
+            axp.plot([x0, x0 + colw], [poc, poc], color="#b7791f", lw=1.4, zorder=4)
+            axp.text(x0 + 0.02, poc + stepp * 0.5, f"POC {poc:g}", fontsize=6.3, color="#b7791f", fontweight="bold", va="bottom")
+        axp.text(x0 + colw / 2, hi - step * 0.3, label, ha="center", va="top", fontsize=7.5, color=MUTE)
+    bars_(e1, v1, 0.0, va1lo, va1hi, poc1, "1-wk", step)
+    bars_(e2, v2, 1.12, va2lo, va2hi, poc2, "2-wk", step * 2)
+    for p, r in A["lvn1"]:
+        if lo <= p <= hi: axp.plot([0, colw], [p, p], color=LVN_C, lw=1.0, ls=":", zorder=5); axp.text(0.02, p + step * 0.3, f"LVN {p:g}", fontsize=6, color=LVN_C, va="bottom")
+    for p, r in A["lvn2"]:
+        if lo <= p <= hi: axp.plot([1.12, 1.12 + colw], [p, p], color=LVN_C, lw=1.0, ls=":", zorder=5)
+    for p, r in A["hvn1"]:
+        if lo <= p <= hi: axp.text(0.02, p + step * 0.3, f"HVN {p:g}", fontsize=6, color=HVN_C, va="bottom")
+    x = 2.45; wdt = 1.5
+    axp.add_patch(plt.Rectangle((x, min(g)), wdt, max(max(g) - min(g), step * 0.6), color=c, alpha=0.18, lw=0, zorder=3))
+    axp.plot([x, x + wdt], [t["entry"]] * 2, color=c, lw=1.2, zorder=4); axp.text(x + wdt + 0.05, t["entry"], f"entry {t['entry']:g}", fontsize=7, color=c, va="center", fontweight="bold")
+    for tg in t["tgts"]:
+        axp.plot([x, x + wdt], [tg] * 2, color=PIVOT, lw=0.9, ls="--", zorder=4); axp.text(x + wdt + 0.05, tg, f"tgt {tg:g}", fontsize=7, color=PIVOT, va="center")
+    cands = [("structural", s["structural"]), ("LVN", s["lvn"]), (f"{t['atr_mult']}×ATR", s["atr"])]
+    for i, (lab, y) in enumerate(cands):
+        axp.plot([x + i * wdt / 3, x + (i + 1) * wdt / 3], [y] * 2, color=STOP_C, lw=1.0, ls=":", zorder=4)
+        axp.text(x + (i + 0.5) * wdt / 3, y + (step * 0.6 if t["dir"] == "short" else -step * 0.6), lab, fontsize=5.8, color=STOP_C, ha="center", va="bottom" if t["dir"] == "short" else "top")
+    r_ = s["recommended"]
+    axp.plot([x, x + wdt], [r_] * 2, color=STOP_C, lw=2.4, zorder=6)
+    axp.text(x + wdt + 0.05, r_, f"STOP {r_:g}\n{t['risk']:g} pts · {t['risk']/t['atr15']:.2f} ATR", fontsize=7, color=STOP_C, va="center", fontweight="bold")
+    axp.annotate("", xy=(x + wdt / 2, t["tgts"][0]), xytext=(x + wdt / 2, t["entry"]), arrowprops=dict(arrowstyle="-|>", color=c, lw=1.1, ls="--"), zorder=4)
+    axp.set_xlim(-0.05, x + wdt + 1.6); axp.set_xticks([])
+    for sp in ("top", "right", "bottom", "left"): axp.spines[sp].set_visible(False)
+    axp.grid(axis="y", color=GRID, lw=0.5, zorder=0); axp.tick_params(axis="y", length=0)
+    axp.set_title("R: " + " / ".join(f"{v}" for v in t["rr"]) + "   ·   volume & stop candidates", loc="left", fontsize=9, color=INK, fontweight="bold", pad=8)
+    fig.subplots_adjust(left=0.06, right=0.99, top=0.91, bottom=0.04)
+    fig.savefig(out, facecolor="white"); plt.close(fig)
