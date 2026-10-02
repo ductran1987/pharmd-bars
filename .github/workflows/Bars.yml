@@ -23,8 +23,9 @@ jobs:
           python - <<'EOF'
           import yfinance as yf, pandas as pd, pathlib, time
           pathlib.Path("bars").mkdir(exist_ok=True)
-          jobs = [("ES=F","ES","5m","7d"),("NQ=F","NQ","5m","7d"),
-                  ("ES=F","ES","1h","60d"),("NQ=F","NQ","1h","60d")]
+          # 5m: yfinance serves up to 60d; merge into the existing CSV so history keeps accumulating past that
+          jobs = [("ES=F","ES","5m","60d"),("NQ=F","NQ","5m","60d"),
+                  ("ES=F","ES","1h","730d"),("NQ=F","NQ","1h","730d")]
           for sym, name, iv, per in jobs:
               df = pd.DataFrame()
               for attempt in range(4):
@@ -38,7 +39,13 @@ jobs:
               df = df[["Open","High","Low","Close","Volume"]]
               df.index = df.index.tz_convert("America/New_York")
               df.index.name = "time"
-              df.to_csv(f"bars/{name}_{iv}.csv")
+              out = pathlib.Path(f"bars/{name}_{iv}.csv")
+              if out.exists():
+                  old = pd.read_csv(out, index_col="time", parse_dates=True)
+                  old.index = pd.to_datetime(old.index, utc=True).tz_convert("America/New_York")
+                  df = pd.concat([old[~old.index.isin(df.index)], df]).sort_index()
+                  df = df[~df.index.duplicated(keep="last")]
+              df.to_csv(out)
               print(name, iv, len(df), df.index[0], "->", df.index[-1])
           EOF
       - name: Commit
