@@ -92,3 +92,56 @@ def draw(sym, A, trades, out, title):
     ax.text(0, lo + step, f"ATR(14): 5m {A['atr5']:.1f} · 15m {A['atr15']:.1f}   LVN = volume < 35% of peak · HVN = > 60%", fontsize=6.8, color=MUTE, va="bottom")
     fig.subplots_adjust(left=0.12, right=0.98, top=0.93, bottom=0.05)
     fig.savefig(out, facecolor="white"); plt.close(fig)
+
+
+def draw_trade(sym, A, t, out):
+    """One chart per trade: profiles zoomed to the trade, entry, three stop candidates, recommended, targets."""
+    e1, v1, poc1, va1lo, va1hi = A["p1"]; e2, v2, poc2, va2lo, va2hi = A["p2"]; step = A["step"]
+    s = t["stop_pts"]; c = LONG if t["dir"] == "long" else SHORT
+    ys = [t["entry"], s["structural"], s["lvn"], s["atr"], s["recommended"]] + list(t["tgts"]) + list(t["gate_pts"])
+    pad = (max(ys) - min(ys)) * 0.12 + step * 2
+    lo, hi = min(ys) - pad, max(ys) + pad
+    fig, ax = plt.subplots(figsize=(7.6, 5.2), dpi=170); fig.patch.set_facecolor("white")
+    colw = 1.0
+    def bars(edges, vol, x0, valo, vahi, poc, label, stepp):
+        m = (edges[:-1] >= lo - stepp) & (edges[:-1] <= hi)
+        if not m.any(): return
+        sc = colw / max(vol[m].max(), 1e-9)
+        for i in np.where(m)[0]:
+            inva = valo <= edges[i] < vahi
+            ax.barh(edges[i], vol[i] * sc, height=stepp, left=x0, align="edge", color="#8b96a3" if inva else "#c9ced4", alpha=0.75 if inva else 0.5, lw=0, zorder=2)
+        if lo <= poc <= hi:
+            ax.plot([x0, x0 + colw], [poc, poc], color="#b7791f", lw=1.4, zorder=4)
+            ax.text(x0 + 0.02, poc + stepp * 0.5, f"POC {poc:g}", fontsize=6.3, color="#b7791f", fontweight="bold", va="bottom")
+        ax.text(x0 + colw / 2, hi - step * 0.3, label, ha="center", va="top", fontsize=7.5, color=MUTE)
+    bars(e1, v1, 0.0, va1lo, va1hi, poc1, "1-wk", step)
+    bars(e2, v2, 1.12, va2lo, va2hi, poc2, "2-wk", step * 2)
+    for p, r in A["lvn1"]:
+        if lo <= p <= hi: ax.plot([0, colw], [p, p], color=LVN_C, lw=1.0, ls=":", zorder=5); ax.text(-0.03, p, f"LVN {p:g}", fontsize=6.5, color=LVN_C, va="center", ha="right")
+    for p, r in A["lvn2"]:
+        if lo <= p <= hi: ax.plot([1.12, 1.12 + colw], [p, p], color=LVN_C, lw=1.0, ls=":", zorder=5)
+    for p, r in A["hvn1"]:
+        if lo <= p <= hi: ax.text(-0.03, p, f"HVN {p:g}", fontsize=6.5, color=HVN_C, va="center", ha="right")
+    # trade column
+    x = 2.5; w = 1.6
+    g = t["gate_pts"]
+    ax.add_patch(plt.Rectangle((x, min(g)), w, max(max(g) - min(g), step * 0.6), color=c, alpha=0.18, lw=0, zorder=3))
+    ax.text(x + w + 0.05, (min(g) + max(g)) / 2, "gate", fontsize=7, color=c, va="center")
+    ax.plot([x, x + w], [t["entry"]] * 2, color=c, lw=1.2, zorder=4); ax.text(x + w + 0.05, t["entry"], f"entry {t['entry']:g}", fontsize=7, color=c, va="center", fontweight="bold")
+    for tg in t["tgts"]:
+        ax.plot([x, x + w], [tg] * 2, color=PIVOT, lw=0.9, ls="--", zorder=4); ax.text(x + w + 0.05, tg, f"tgt {tg:g}", fontsize=7, color=PIVOT, va="center")
+    cands = [("structural", s["structural"]), ("LVN", s["lvn"]), (f"{t['atr_mult']}×ATR", s["atr"])]
+    for i, (lab, y) in enumerate(cands):
+        ax.plot([x + i * w / 3, x + (i + 1) * w / 3], [y] * 2, color=STOP_C, lw=1.0, ls=":", zorder=4)
+        ax.text(x + (i + 0.5) * w / 3, y + (step * 0.6 if t["dir"] == "short" else -step * 0.6), lab, fontsize=6, color=STOP_C, ha="center", va="bottom" if t["dir"] == "short" else "top")
+    r = s["recommended"]
+    ax.plot([x, x + w], [r] * 2, color=STOP_C, lw=2.4, zorder=6)
+    ax.text(x + w + 0.05, r, f"STOP {r:g}  ({t['risk']:g} pts · {t['risk']/t['atr15']:.2f} ATR)", fontsize=7.5, color=STOP_C, va="center", fontweight="bold")
+    ax.annotate("", xy=(x + w / 2, t["tgts"][0]), xytext=(x + w / 2, t["entry"]), arrowprops=dict(arrowstyle="-|>", color=c, lw=1.1, ls="--"), zorder=4)
+    ax.set_xlim(-0.9, x + w + 1.9); ax.set_ylim(lo, hi)
+    ax.set_xticks([]); ax.tick_params(axis="y", labelsize=7, colors=MUTE)
+    for sp in ("top", "right", "bottom"): ax.spines[sp].set_visible(False)
+    ax.spines["left"].set_color(GRID); ax.grid(axis="y", color=GRID, lw=0.5, zorder=0)
+    ax.set_title(f"{sym}  {t['short']}  ·  {t['dir']}  ·  R: " + " / ".join(f"{v}" for v in t["rr"]), loc="left", fontsize=9.5, color=INK, fontweight="bold", pad=8)
+    fig.subplots_adjust(left=0.14, right=0.98, top=0.92, bottom=0.04)
+    fig.savefig(out, facecolor="white"); plt.close(fig)
