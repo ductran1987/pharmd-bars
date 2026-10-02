@@ -47,11 +47,11 @@
     ],
     [
      7756.5,
-     0.6618785061988778
+     0.6423968085530396
     ],
     [
-     7763.5,
-     0.937486781300591
+     7764.5,
+     0.9188913349501356
     ]
    ],
    "lvn2": [
@@ -77,6 +77,74 @@
      7767.0,
      1.0
     ]
+   ],
+   "lvn_zones1": [
+    {
+     "lo": 7672.0,
+     "hi": 7714.0,
+     "min_p": 7672.5,
+     "min_r": 0.005407245741615264,
+     "void_lo": true,
+     "void_hi": false
+    },
+    {
+     "lo": 7780.0,
+     "hi": 7798.0,
+     "min_p": 7792.5,
+     "min_r": 0.11991812476604082,
+     "void_lo": false,
+     "void_hi": false
+    },
+    {
+     "lo": 7805.0,
+     "hi": 7815.0,
+     "min_p": 7814.5,
+     "min_r": 0.022406967841267722,
+     "void_lo": false,
+     "void_hi": true
+    }
+   ],
+   "lvn_zones2": [
+    {
+     "lo": 7672.0,
+     "hi": 7688.0,
+     "min_p": 7673.0,
+     "min_r": 0.036905354746267,
+     "void_lo": true,
+     "void_hi": false
+    },
+    {
+     "lo": 7694.0,
+     "hi": 7708.0,
+     "min_p": 7701.0,
+     "min_r": 0.22881906371618932,
+     "void_lo": false,
+     "void_hi": false
+    },
+    {
+     "lo": 7786.0,
+     "hi": 7802.0,
+     "min_p": 7791.0,
+     "min_r": 0.3096614195147028,
+     "void_lo": false,
+     "void_hi": false
+    },
+    {
+     "lo": 7804.0,
+     "hi": 7828.0,
+     "min_p": 7817.0,
+     "min_r": 0.08352531705904823,
+     "void_lo": false,
+     "void_hi": false
+    },
+    {
+     "lo": 7842.0,
+     "hi": 7850.0,
+     "min_p": 7849.0,
+     "min_r": 0.046091118146168855,
+     "void_lo": false,
+     "void_hi": true
+    }
    ]
   },
   "NQ": {
@@ -84,7 +152,7 @@
    "atr15": 76.14,
    "poc1": 30632.5,
    "va1": [
-    30550.0,
+    30545.0,
     30835.0
    ],
    "poc2": 30785.0,
@@ -171,7 +239,7 @@
     ],
     [
      30965.0,
-     0.2322245435750689
+     0.23497123799746877
     ],
     [
      31115.0,
@@ -191,231 +259,435 @@
      30885.0,
      0.6703355261562832
     ]
+   ],
+   "lvn_zones1": [
+    {
+     "lo": 30355.0,
+     "hi": 30545.0,
+     "min_p": 30357.5,
+     "min_r": 0.008993417726002071,
+     "void_lo": true,
+     "void_hi": false
+    },
+    {
+     "lo": 30915.0,
+     "hi": 31155.0,
+     "min_p": 31152.5,
+     "min_r": 0.0024698674452388477,
+     "void_lo": false,
+     "void_hi": true
+    }
+   ],
+   "lvn_zones2": [
+    {
+     "lo": 29640.0,
+     "hi": 30510.0,
+     "min_p": 29645.0,
+     "min_r": 0.006074259238273918,
+     "void_lo": true,
+     "void_hi": false
+    },
+    {
+     "lo": 30940.0,
+     "hi": 31160.0,
+     "min_p": 31155.0,
+     "min_r": 0.0037490719156826565,
+     "void_lo": false,
+     "void_hi": true
+    }
    ]
   }
  },
  "trades": [
   {
+   "instrument": "NQ",
+   "id": "nq1",
+   "short": "LBAF of today's low (ideally sweeping Tuesday's 504.5)",
+   "dir": "long",
+   "entry": 30530.0,
+   "gate_pts": [
+    30469,
+    30530
+   ],
+   "structure_level": 30469,
+   "grade": "A/A-",
+   "stop_pts": {
+    "structural": 30464.5,
+    "lvn": null,
+    "atr": 30453.75,
+    "recommended": 30464.5
+   },
+   "lvn_zone": {
+    "lo": 30355.0,
+    "hi": 30545.0,
+    "min_p": 30357.5,
+    "min_r": 0.01,
+    "src": "1-wk",
+    "void": true
+   },
+   "basis": "structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased)",
+   "buffer_atr5": 0.1,
+   "atr15": 76.14,
+   "atr5": 42.64,
+   "atr_mult": 1.0,
+   "risk": 65.5,
+   "risk_atr": 0.86,
+   "tgts": [
+    30705,
+    30827,
+    30870
+   ],
+   "rr": [
+    2.7,
+    4.5,
+    5.2
+   ],
+   "wide": false,
+   "risk_usd": 500.0,
+   "contracts": 0,
+   "micros": 3,
+   "risk_per_contract_usd": 1310.0,
+   "risk_per_micro_usd": 131.0,
+   "skip": false,
+   "skip_reason": null,
+   "why": "Entry assumed 30530 (top of the gate). Invalidation level 30469, buffered 4.5 pts under it \u2192 structural 30464.5. Beyond the entry the 1-wk profile is a void from 30355 to 30545 \u2014 no far edge to lean on, so the stop stays with structure. Recommended 30464.5 on structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased): 65.5 pts = 0.86 \u00d7 ATR15.",
+   "caveat": "persistent weakness below 500-530 (\u2192 469-493)",
+   "chart_file": "charts/stops_2026-10-02_nq1.png"
+  },
+  {
+   "instrument": "NQ",
+   "id": "nq2",
+   "short": "LAAF of today's high that flips 827-846 to resistance",
+   "dir": "short",
+   "entry": 30846.0,
+   "gate_pts": [
+    30846,
+    30883.5
+   ],
+   "structure_level": 30883.5,
+   "grade": "B+/A-",
+   "stop_pts": {
+    "structural": 30888.0,
+    "lvn": null,
+    "atr": 30922.25,
+    "recommended": 30888.0
+   },
+   "lvn_zone": {
+    "lo": 30915.0,
+    "hi": 31155.0,
+    "min_p": 31152.5,
+    "min_r": 0.0,
+    "src": "1-wk",
+    "void": true
+   },
+   "basis": "structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased)",
+   "buffer_atr5": 0.1,
+   "atr15": 76.14,
+   "atr5": 42.64,
+   "atr_mult": 1.0,
+   "risk": 42.0,
+   "risk_atr": 0.55,
+   "tgts": [
+    30734,
+    30669,
+    30530
+   ],
+   "rr": [
+    2.7,
+    4.2,
+    7.5
+   ],
+   "wide": false,
+   "risk_usd": 500.0,
+   "contracts": 0,
+   "micros": 5,
+   "risk_per_contract_usd": 840.0,
+   "risk_per_micro_usd": 84.0,
+   "skip": false,
+   "skip_reason": null,
+   "why": "Entry assumed 30846 (bottom of the gate). Invalidation level 30883.5, buffered 4.5 pts above it \u2192 structural 30888. Beyond the entry the 1-wk profile is a void from 30915 to 31155 \u2014 no far edge to lean on, so the stop stays with structure. Recommended 30888 on structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased): 42 pts = 0.55 \u00d7 ATR15.",
+   "caveat": "time + volume built above 951-969 in RTH",
+   "chart_file": "charts/stops_2026-10-02_nq2.png"
+  },
+  {
+   "instrument": "NQ",
+   "id": "nq3",
+   "short": "Hold / LBAF of 705-734",
+   "dir": "long",
+   "entry": 30734.0,
+   "gate_pts": [
+    30705,
+    30734
+   ],
+   "structure_level": 30638,
+   "grade": "B/B-",
+   "stop_pts": {
+    "structural": 30633.5,
+    "lvn": null,
+    "atr": 30657.75,
+    "recommended": 30633.5
+   },
+   "lvn_zone": {
+    "lo": 30355.0,
+    "hi": 30545.0,
+    "min_p": 30357.5,
+    "min_r": 0.01,
+    "src": "1-wk",
+    "void": true
+   },
+   "basis": "structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased)",
+   "buffer_atr5": 0.1,
+   "atr15": 76.14,
+   "atr5": 42.64,
+   "atr_mult": 1.0,
+   "risk": 100.5,
+   "risk_atr": 1.32,
+   "tgts": [
+    30827,
+    30883.5
+   ],
+   "rr": [
+    0.9,
+    1.5
+   ],
+   "wide": true,
+   "risk_usd": 500.0,
+   "contracts": 0,
+   "micros": 2,
+   "risk_per_contract_usd": 2010.0,
+   "risk_per_micro_usd": 201.0,
+   "skip": true,
+   "skip_reason": "under 1R to the first target",
+   "why": "Entry assumed 30734 (top of the gate). Invalidation level 30638, buffered 4.5 pts under it \u2192 structural 30633.5. Beyond the entry the 1-wk profile is a void from 30355 to 30545 \u2014 no far edge to lean on, so the stop stays with structure. Recommended 30633.5 on structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased): 100.5 pts = 1.32 \u00d7 ATR15 \u2014 wider than the 1.3 ATR cap; structure demands it.",
+   "caveat": "638-669 firmly flipped to resistance",
+   "chart_file": "charts/stops_2026-10-02_nq3.png"
+  },
+  {
+   "instrument": "NQ",
+   "id": "nq4",
+   "short": "Hold / LBAF of 638-669",
+   "dir": "long",
+   "entry": 30669.0,
+   "gate_pts": [
+    30638,
+    30669
+   ],
+   "structure_level": 30560.75,
+   "grade": "C+/B-",
+   "stop_pts": {
+    "structural": 30556.25,
+    "lvn": null,
+    "atr": 30592.75,
+    "recommended": 30556.25
+   },
+   "lvn_zone": {
+    "lo": 30355.0,
+    "hi": 30545.0,
+    "min_p": 30357.5,
+    "min_r": 0.01,
+    "src": "1-wk",
+    "void": true
+   },
+   "basis": "structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased)",
+   "buffer_atr5": 0.1,
+   "atr15": 76.14,
+   "atr5": 42.64,
+   "atr_mult": 1.0,
+   "risk": 112.75,
+   "risk_atr": 1.48,
+   "tgts": [
+    30705,
+    30827
+   ],
+   "rr": [
+    0.3,
+    1.4
+   ],
+   "wide": true,
+   "risk_usd": 500.0,
+   "contracts": 0,
+   "micros": 2,
+   "risk_per_contract_usd": 2255.0,
+   "risk_per_micro_usd": 225.5,
+   "skip": true,
+   "skip_reason": "under 1R to the first target",
+   "why": "Entry assumed 30669 (top of the gate). Invalidation level 30560.8, buffered 4.5 pts under it \u2192 structural 30556.2. Beyond the entry the 1-wk profile is a void from 30355 to 30545 \u2014 no far edge to lean on, so the stop stays with structure. Recommended 30556.2 on structural (thin volume beyond the entry is a void that runs off the profile \u2014 not chased): 112.75 pts = 1.48 \u00d7 ATR15 \u2014 wider than the 1.3 ATR cap; structure demands it.",
+   "caveat": "638-669 firmly flipped \u2192 today's low",
+   "chart_file": "charts/stops_2026-10-02_nq4.png"
+  },
+  {
    "instrument": "ES",
    "id": "es1",
-   "short": "7706-09 long",
+   "short": "Hold / LBAF of 7706-7709",
    "dir": "long",
    "entry": 7709.0,
    "gate_pts": [
     7706,
     7709
    ],
+   "structure_level": 7696,
+   "grade": "B/B+",
    "stop_pts": {
-    "structural": 7695.75,
-    "lvn": 7690.25,
-    "atr": 7694.75,
-    "recommended": 7695.75
+    "structural": 7695.0,
+    "lvn": 7693.75,
+    "atr": 7694.5,
+    "recommended": 7693.75
    },
-   "atr15": 14.3,
+   "lvn_zone": {
+    "lo": 7694.0,
+    "hi": 7708.0,
+    "min_p": 7701.0,
+    "min_r": 0.23,
+    "src": "2-wk",
+    "void": false
+   },
+   "basis": "LVN far edge",
+   "buffer_atr5": 0.1,
+   "atr15": 14.29,
+   "atr5": 8.22,
    "atr_mult": 1.0,
-   "risk": 13.25,
+   "risk": 15.25,
+   "risk_atr": 1.07,
    "tgts": [
-    7721.5,
+    7718,
     7741.25,
-    7750.5
+    7749
    ],
    "rr": [
-    0.9,
-    2.4,
-    3.1
+    0.6,
+    2.1,
+    2.6
    ],
-   "why": "Entry on the hold/LBAF, ~7709. His invalidation is 'persistent weakness below 06-09 with the 7696-99 demand cleared' \u2014 so the stop goes under that demand, 7695.75. The week's thinnest zone is 7708.5 (14% of peak), which is INSIDE the gate, so the entry itself sits in thin air; the next thin spot is 7690.5. 7695.75 = 13 pts \u2248 0.8 ATR15 \u2014 enough to survive a probe of 96-99 without eating the whole LVN.",
-   "caveat": "If 7696-99 gets tested and bid, consider trailing to 7700 once 7718 trades. Note his caveat: this long isn't 'any good' until 18-25 reclaims \u2014 size for that."
+   "wide": false,
+   "risk_usd": 500.0,
+   "contracts": 0,
+   "micros": 6,
+   "risk_per_contract_usd": 762.5,
+   "risk_per_micro_usd": 76.25,
+   "skip": true,
+   "skip_reason": "under 1R to the first target",
+   "why": "Entry assumed 7709 (top of the gate). Invalidation level 7696, buffered 1 pts under it \u2192 structural 7695. Thin volume (2-wk profile) runs 7694\u20137708, thinnest at 7701 (23% of peak); the LVN candidate is one tick past its far edge, 7693.75, not its minimum. Recommended 7693.75 on LVN far edge: 15.25 pts = 1.07 \u00d7 ATR15.",
+   "caveat": "persistent weakness below 7706-09 (7696-99 demand cleared)",
+   "chart_file": "charts/stops_2026-10-02_es1.png"
   },
   {
    "instrument": "ES",
    "id": "es2",
-   "short": "7718-25 long",
+   "short": "Hold / LBAF of 7718-7725",
    "dir": "long",
-   "entry": 7721.0,
+   "entry": 7725.0,
    "gate_pts": [
     7718,
     7725
    ],
+   "structure_level": 7706,
+   "grade": "C+/B-",
    "stop_pts": {
-    "structural": 7705.5,
-    "lvn": 7708.25,
-    "atr": 7706.75,
-    "recommended": 7705.25
+    "structural": 7705.0,
+    "lvn": 7693.75,
+    "atr": 7710.5,
+    "recommended": 7705.0
    },
-   "atr15": 14.3,
+   "lvn_zone": {
+    "lo": 7694.0,
+    "hi": 7708.0,
+    "min_p": 7701.0,
+    "min_r": 0.23,
+    "src": "2-wk",
+    "void": false
+   },
+   "basis": "structural (LVN far edge 7693.75 would be 2.19 ATR \u2014 over cap)",
+   "buffer_atr5": 0.1,
+   "atr15": 14.29,
+   "atr5": 8.22,
    "atr_mult": 1.0,
-   "risk": 15.75,
+   "risk": 20.0,
+   "risk_atr": 1.4,
    "tgts": [
     7741.25,
-    7750.5,
+    7749,
     7780
    ],
    "rr": [
-    1.3,
-    1.9,
-    3.7
+    0.8,
+    1.2,
+    2.8
    ],
-   "why": "Entry in the weekly level ~7721. 7718-25 is a HIGH-volume node (7720.5 / 7728.5 peaks) \u2014 a stop inside it is in the noise. Below it the profile thins fast: LVN 7708.5, then his 7706-09 daily level, then Wednesday's AH low 7705.5. Stop 7705.25 sits under all three: 16 pts \u2248 0.9 ATR15.",
-   "caveat": "His C+/B- grade: 'less optimistic given how value developed.' The tighter 7708.25 (just under the LVN) saves 3 pts but gets clipped by any test of 06-09."
+   "wide": true,
+   "risk_usd": 500.0,
+   "contracts": 0,
+   "micros": 5,
+   "risk_per_contract_usd": 1000.0,
+   "risk_per_micro_usd": 100.0,
+   "skip": true,
+   "skip_reason": "under 1R to the first target",
+   "why": "Entry assumed 7725 (top of the gate). Invalidation level 7706, buffered 1 pts under it \u2192 structural 7705. Thin volume (2-wk profile) runs 7694\u20137708, thinnest at 7701 (23% of peak); the LVN candidate is one tick past its far edge, 7693.75, not its minimum. Recommended 7705 on structural (LVN far edge 7693.75 would be 2.19 ATR \u2014 over cap): 20 pts = 1.40 \u00d7 ATR15 \u2014 wider than the 1.3 ATR cap; structure demands it.",
+   "caveat": "loses 7706-09",
+   "chart_file": "charts/stops_2026-10-02_es2.png"
   },
   {
    "instrument": "ES",
    "id": "es3",
-   "short": "<7706-09 short",
+   "short": "Persistent weakness below 7706-7709",
    "dir": "short",
-   "entry": 7695.0,
+   "entry": 7696.0,
    "gate_pts": [
     7696,
     7709
    ],
+   "structure_level": 7709,
+   "grade": "C+/B-",
    "stop_pts": {
-    "structural": 7709.75,
-    "lvn": 7709.0,
-    "atr": 7705.75,
-    "recommended": 7710.25
+    "structural": 7710.0,
+    "lvn": 7708.25,
+    "atr": 7710.5,
+    "recommended": 7710.0
    },
-   "atr15": 14.3,
-   "atr_mult": 0.75,
-   "risk": 15.25,
+   "lvn_zone": {
+    "lo": 7694.0,
+    "hi": 7708.0,
+    "min_p": 7701.0,
+    "min_r": 0.23,
+    "src": "2-wk",
+    "void": false
+   },
+   "basis": "structural (LVN sits inside it)",
+   "buffer_atr5": 0.1,
+   "atr15": 14.29,
+   "atr5": 8.22,
+   "atr_mult": 1.0,
+   "risk": 14.0,
+   "risk_atr": 0.98,
    "tgts": [
-    7684.0,
+    7686,
     7672.75,
-    7667.5,
-    7646.0
+    7669,
+    7648
    ],
    "rr": [
     0.7,
-    1.5,
-    1.8,
-    3.2
+    1.7,
+    1.9,
+    3.4
    ],
-   "why": "He wants 7696-99 cleared first, so realistic entry ~7695. Reclaim of 7706-09 is his invalidation; the LVN at 7708.5 means a reclaim through there is a real reclaim, not noise. 7710.25 clears both: 15 pts \u2248 0.9 ATR15.",
-   "caveat": "First target 7682-86 is only ~0.7R \u2014 this short pays on today's low 7672.75 (1.5R) and 7666-69 (1.8R). C+/B- for a reason."
-  },
-  {
-   "instrument": "NQ",
-   "id": "nq1",
-   "short": "LBAF today's low",
-   "dir": "long",
-   "entry": 30535.0,
-   "gate_pts": [
-    30469,
-    30530
-   ],
-   "stop_pts": {
-    "structural": 30462.5,
-    "lvn": 30460.0,
-    "atr": 30474.0,
-    "recommended": 30460.0
-   },
-   "atr15": 76.1,
-   "atr_mult": 0.8,
-   "risk": 75.0,
-   "tgts": [
-    30720.0,
-    30836.5,
-    30870.0
-   ],
-   "rr": [
-    2.5,
-    4.0,
-    4.5
-   ],
-   "why": "Entry after the LBAF reclaims ~30535. The 500-530 lower edge is a thin area; below it sit TWO low-volume nodes at 30492.5 (1-wk) and 30465 (2-wk), bracketing his untouched 469-493 weekly level. Stop 30460 is under the level and under both LVNs: 75 pts \u2248 0.8 ATR15. If 469-493 trades and holds that's the LBAF he's hoping for; if it doesn't hold, the trade is wrong.",
-   "caveat": "A/A- grade, and the profile agrees: volume drops to <20% of peak below 30500. Best R on the board: 2.4R to 705-734, 4R to 827-846."
-  },
-  {
-   "instrument": "NQ",
-   "id": "nq2",
-   "short": "LAAF today's high",
-   "dir": "short",
-   "entry": 30840.0,
-   "gate_pts": [
-    30827,
-    30883.5
-   ],
-   "stop_pts": {
-    "structural": 30890.0,
-    "lvn": 30962.5,
-    "atr": 30882.0,
-    "recommended": 30891.0
-   },
-   "atr15": 76.1,
-   "atr_mult": 0.55,
-   "risk": 51.0,
-   "tgts": [
-    30720.0,
-    30653.5,
-    30515.0
-   ],
-   "rr": [
-    2.4,
-    3.7,
-    6.4
-   ],
-   "why": "Entry on the fail back below 827-846, ~30840. Invalidation is today's high 30883.5 being taken. Above it the 1-wk profile is nearly empty until 951-969 (LVN 30962.5 at 3% of peak) \u2014 meaning once 883.5 goes there's nothing to stop it, so there's no point in a wide stop. 30891 = 51 pts \u2248 0.55 ATR15.",
-   "caveat": "Tight by ATR, but structurally right: the thin air above 883.5 is the reason to be out, not to give it room. B+/A-."
-  },
-  {
-   "instrument": "NQ",
-   "id": "nq3",
-   "short": "705-734 long",
-   "dir": "long",
-   "entry": 30715.0,
-   "gate_pts": [
-    30705,
-    30734
-   ],
-   "stop_pts": {
-    "structural": 30632.5,
-    "lvn": 30612.5,
-    "atr": 30631.25,
-    "recommended": 30612.5
-   },
-   "atr15": 76.1,
-   "atr_mult": 1.1,
-   "risk": 102.5,
-   "tgts": [
-    30836.5,
-    30883.5
-   ],
-   "rr": [
-    1.2,
-    1.6
-   ],
-   "why": "Entry near the low end, ~30715. Invalidation: 638-669 'firmly flipped to resistance'. 638-669 is the week's biggest volume node (30627.5 = 100%) \u2014 a stop inside it is a coin flip. The profile only thins below ~30610. Stop 30612.5 is under the node: 103 pts \u2248 1.1 ATR15.",
-   "caveat": "Wide stop with 1.2R to 827-846 \u2014 the weakest R on the board. Only take it from the low end of 705-734; from 30734 it's under 1R."
-  },
-  {
-   "instrument": "NQ",
-   "id": "nq4",
-   "short": "638-669 long",
-   "dir": "long",
-   "entry": 30650.0,
-   "gate_pts": [
-    30638,
-    30669
-   ],
-   "stop_pts": {
-    "structural": 30560.0,
-    "lvn": 30557.5,
-    "atr": 30573.75,
-    "recommended": 30557.5
-   },
-   "atr15": 76.1,
-   "atr_mult": 1.0,
-   "risk": 92.5,
-   "tgts": [
-    30720.0,
-    30836.5
-   ],
-   "rr": [
-    0.8,
-    2.0
-   ],
-   "why": "Entry in the node ~30650. He needs 705-734 reclaimed for this to work and rates it C+/B-. Below the node the next structure is today's IB low 30560.75; the LVN at 30492.5 is too far for a C-grade trade. Stop 30557.5 under the IB low: 93 pts \u2248 1.0 ATR15.",
-   "caveat": "0.75R to the first target \u2014 this one's only worth it if you hold for 827-846 (2R)."
+   "wide": false,
+   "risk_usd": 500.0,
+   "contracts": 0,
+   "micros": 7,
+   "risk_per_contract_usd": 700.0,
+   "risk_per_micro_usd": 70.0,
+   "skip": true,
+   "skip_reason": "under 1R to the first target",
+   "why": "Entry assumed 7696 (bottom of the gate). Invalidation level 7709, buffered 1 pts above it \u2192 structural 7710. Thin volume (2-wk profile) runs 7694\u20137708, thinnest at 7701 (23% of peak); the LVN candidate is one tick past its far edge, 7708.25, not its minimum. Recommended 7710 on structural (LVN sits inside it): 14 pts = 0.98 \u00d7 ATR15.",
+   "caveat": "reclaim of 7706-09",
+   "chart_file": "charts/stops_2026-10-02_es3.png"
   }
- ]
+ ],
+ "params": {
+  "buffer_atr5": 0.1,
+  "atr_cap": 1.3,
+  "lvn_thr": 0.35,
+  "min_r_first": 1.0,
+  "risk_usd": 500.0
+ }
 }

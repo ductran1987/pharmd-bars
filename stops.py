@@ -22,7 +22,43 @@ def nodes(edges, vol, step, smooth=3):
     return lv, hv
 
 
-def atr(d5, sessions_back=3):
+def lvn_zones(edges, vol, step, smooth=3, thr=0.35):
+    """Contiguous low-volume zones (smoothed volume < thr × peak).
+    Each zone: dict(lo, hi, min_p, min_r, void_lo, void_hi) — lo/hi are the price edges where volume
+    climbs back above threshold; void_* flags a zone that runs off the end of the profile (no volume beyond)."""
+    v = np.convolve(vol, np.ones(smooth) / smooth, mode="same"); mx = v.max()
+    below = v < thr * mx
+    zones, i, n = [], 0, len(v)
+    while i < n:
+        if not below[i]: i += 1; continue
+        j = i
+        while j < n and below[j]: j += 1
+        k = i + int(np.argmin(v[i:j]))
+        zones.append(dict(lo=float(edges[i]), hi=float(edges[j]), min_p=float(edges[k] + step / 2),
+                          min_r=float(v[k] / mx), void_lo=(i == 0), void_hi=(j == n)))
+        i = j
+    return zones
+
+
+def lvn_candidate(zones, entry, direction):
+    """Nearest LVN zone past the entry, in the stop direction. Returns (far_edge, zone) or (None, None).
+    Far edge = where volume climbs back above threshold on the side away from the entry.
+    If the zone is a void (runs off the profile), the far edge is undefined -> (None, zone) so the caller can say so."""
+    if direction == "long":
+        cands = [z for z in zones if z["hi"] <= entry or z["lo"] < entry <= z["hi"]]
+        if not cands: return None, None
+        z = max(cands, key=lambda z: z["hi"])
+        return (None if z["void_lo"] else z["lo"]), z
+    else:
+        cands = [z for z in zones if z["lo"] >= entry or z["lo"] <= entry < z["hi"]]
+        if not cands: return None, None
+        z = min(cands, key=lambda z: z["lo"])
+        return (None if z["void_hi"] else z["hi"]), z
+
+
+def atr(d5, sessions_back=3, end=None):
+    """ATR(14) on 5m and 15m RTH bars over the last `sessions_back` sessions ending at `end` (ref-session rule: nothing after the prior close)."""
+    if end is not None: d5 = d5[d5.time <= end]
     r = d5[d5.time >= d5.time.iloc[-1].normalize() - pd.Timedelta(days=sessions_back + 2)]
     m = r.time.dt.hour * 60 + r.time.dt.minute; r = r[(m >= 570) & (m < 960)]
     def _atr(df, n=14):
@@ -41,9 +77,90 @@ def analyze(sym, plan_date):
     e1, v1, poc1, va1lo, va1hi = charts.profile(d5, w1, end, step)
     e2, v2, poc2, va2lo, va2hi = charts.profile(d1, w2, end, step * 2)
     lv1, hv1 = nodes(e1, v1, step); lv2, hv2 = nodes(e2, v2, step * 2)
-    a5, a15 = atr(d5)
+    a5, a15 = atr(d5, end=end)
     return dict(step=step, p1=(e1, v1, poc1, va1lo, va1hi), p2=(e2, v2, poc2, va2lo, va2hi),
                 lvn1=lv1, hvn1=hv1, lvn2=lv2, hvn2=hv2, atr5=a5, atr15=a15, w1=w1, w2=w2, end=end)
+
+
+TICK = 0.25
+PT_VALUE = {"ES": 50.0, "NQ": 20.0}
+MICRO_VALUE = {"ES": 5.0, "NQ": 2.0}     # MES / MNQ
+MIN_R_FIRST = 1.0    # grey out trades under this R to the first target
+ATR_CAP = 1.3        # recommendation never exceeds this × ATR15 unless structure itself demands it
+LVN_THR = 0.35
+
+
+def _tick(x, direction, away=True):
+    """Round to tick, in the direction that widens (away=True) the stop."""
+    f = np.floor if (direction == "long") == away else np.ceil
+    return float(f(x / TICK) * TICK)
+
+
+def _flat(tgts):
+    """Plan targets may be [lo,hi] ranges: first target = nearer edge, in trade direction handled by caller."""
+    return [t if isinstance(t, (int, float)) else list(t) for t in tgts]
+
+
+BUFFER_ATR5 = 0.1    # structural buffer past the level, in 5m ATRs (~1 pt ES / ~4 NQ; to be replaced by MAE percentiles once logged)
+RISK_USD = 500.0     # fixed $ risk per trade; sized in micros (MES/MNQ), full contracts shown when >=1 fits
+
+
+def candidates(sym, A, pt, risk_usd=None, atr_mult=1.0, buffer_atr5=None, level=None):
+    """Build the three stop candidates + recommendation for one plan trade `pt` (plans/plan-*.json entry).
+    Entry assumption: long = top of gate, short = bottom of gate (the hold/LBAF fires from inside the gate).
+    structural = his invalidation level, buffered past it by ½ ATR5.
+    lvn        = far edge of the nearest sub-35% zone beyond the entry (1-wk 5m and 2-wk 1h profiles; nearer wins).
+    atr        = entry ∓ atr_mult × ATR15.
+    recommended: structural is the floor; an LVN beyond it pushes the stop to one tick past the zone's far edge
+                 if that stays within ATR_CAP × ATR15; a void zone (profile ends) never pulls the stop into it."""
+    d = pt["dir"]; L = pt["levels"]; step = A["step"]
+    gate = sorted(L["gate"]); entry = gate[-1] if d == "long" else gate[0]
+    sgn = -1 if d == "long" else 1
+    level = level if level is not None else pt.get("stop_level", L["stop"][0])   # trade-specific invalidation; plan's levels.stop is often the bigger-picture failure
+    b = BUFFER_ATR5 if buffer_atr5 is None else buffer_atr5
+    structural = _tick(level + sgn * b * A["atr5"], d)
+    z1 = lvn_zones(*A["p1"][:2], step, thr=LVN_THR); z2 = lvn_zones(*A["p2"][:2], step * 2, thr=LVN_THR)
+    c1, zz1 = lvn_candidate(z1, entry, d); c2, zz2 = lvn_candidate(z2, entry, d)
+    opts = [(c, z, src) for c, z, src in ((c1, zz1, "1-wk"), (c2, zz2, "2-wk")) if c is not None]
+    voids = [(z, src) for z, src in ((zz1, "1-wk"), (zz2, "2-wk")) if z is not None and (z["void_lo"] if d == "long" else z["void_hi"])]
+    if opts:   # a bounded zone: stop one tick past its far edge
+        lvn_edge, zone, zsrc = min(opts, key=lambda o: abs(o[0] - entry)); void = False
+        lvn = _tick(lvn_edge + sgn * TICK, d)
+    elif voids:   # only a void beyond the entry: no far edge to use
+        zone, zsrc = voids[0]; lvn, void = None, True
+    else:
+        lvn, zone, zsrc, void = None, None, None, False
+    atr_c = _tick(entry + sgn * atr_mult * A["atr15"], d)
+    cap = entry + sgn * ATR_CAP * A["atr15"]
+    beyond = lambda a, b: (a < b) if d == "long" else (a > b)   # a is further from entry than b
+    rec, basis = structural, "structural"
+    if void: basis = "structural (thin volume beyond the entry is a void that runs off the profile — not chased)"
+    elif lvn is not None and beyond(lvn, structural):
+        if beyond(lvn, cap): basis = f"structural (LVN far edge {lvn:g} would be {abs(lvn-entry)/A['atr15']:.2f} ATR — over cap)"
+        else: rec, basis = lvn, "LVN far edge"
+    elif lvn is not None: basis = "structural (LVN sits inside it)"
+    risk = abs(entry - rec)
+    # targets: nearer edge of each range in trade direction
+    tg = []
+    for t in L["tgt"]:
+        if isinstance(t, (list, tuple)): tg.append(min(t) if d == "long" else max(t))
+        else: tg.append(t)
+    rr = [round(abs(t - entry) / risk, 1) for t in tg]
+    out = dict(instrument=sym, id=pt["id"], short=pt["name"], dir=d, entry=float(entry), gate_pts=gate,
+               structure_level=level, grade=pt.get("tag", ""),
+               stop_pts=dict(structural=structural, lvn=lvn, atr=atr_c, recommended=rec),
+               lvn_zone=(dict(lo=zone["lo"], hi=zone["hi"], min_p=zone["min_p"], min_r=round(zone["min_r"], 2), src=zsrc, void=bool(void)) if zone else None),
+               basis=basis, buffer_atr5=b, atr15=round(A["atr15"], 2), atr5=round(A["atr5"], 2), atr_mult=atr_mult,
+               risk=round(risk, 2), risk_atr=round(risk / A["atr15"], 2), tgts=tg, rr=rr,
+               wide=bool(risk > ATR_CAP * A["atr15"]))
+    if risk_usd:
+        n = int(risk_usd // (risk * PT_VALUE[sym])); m = int(risk_usd // (risk * MICRO_VALUE[sym]))
+        reason = None
+        if rr[0] < MIN_R_FIRST: reason = f"under {MIN_R_FIRST:g}R to the first target"
+        elif n < 1 and m < 1: reason = "even one micro risks more than the budget"
+        out.update(risk_usd=risk_usd, contracts=n, micros=m, risk_per_contract_usd=round(risk * PT_VALUE[sym], 2),
+                   risk_per_micro_usd=round(risk * MICRO_VALUE[sym], 2), skip=reason is not None, skip_reason=reason)
+    return out
 
 
 def draw(sym, A, trades, out, title):
@@ -166,7 +283,7 @@ def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
     w = d5[(d5.time >= start) & (d5.time <= end)].set_index("time")
     bars = w.resample("15min").agg({"Open":"first","High":"max","Low":"min","Close":"last","Volume":"sum"}).dropna().reset_index()
     n = len(bars)
-    ys = [t["entry"], s["structural"], s["lvn"], s["atr"], s["recommended"]] + list(t["tgts"]) + list(t["gate_pts"])
+    ys = [t["entry"], s["structural"], s["atr"], s["recommended"]] + ([s["lvn"]] if s.get("lvn") is not None else []) + list(t["tgts"]) + list(t["gate_pts"])
     pad = (max(ys) - min(ys)) * 0.15 + step * 2
     lo, hi = min(ys) - pad, max(ys) + pad
     fig, (axc, axp) = plt.subplots(1, 2, figsize=(10.4, 5.4), dpi=170, gridspec_kw=dict(width_ratios=[2.1, 1.9], wspace=0.04), sharey=True)
@@ -239,13 +356,21 @@ def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
     axp.plot([x, x + wdt], [t["entry"]] * 2, color=c, lw=1.2, zorder=4); axp.text(x + wdt + 0.05, t["entry"], f"entry {t['entry']:g}", fontsize=7, color=c, va="center", fontweight="bold")
     for tg in t["tgts"]:
         axp.plot([x, x + wdt], [tg] * 2, color=PIVOT, lw=0.9, ls="--", zorder=4); axp.text(x + wdt + 0.05, tg, f"tgt {tg:g}", fontsize=7, color=PIVOT, va="center")
-    cands = [("structural", s["structural"]), ("LVN", s["lvn"]), (f"{t['atr_mult']}×ATR", s["atr"])]
+    z = t.get("lvn_zone")
+    if z:   # the thin zone the LVN candidate comes from: its full extent, far edge emphasised
+        zlo, zhi = max(z["lo"], lo), min(z["hi"], hi)
+        for ax_ in (axc, axp): ax_.axhspan(zlo, zhi, color=LVN_C, alpha=0.06, lw=0, zorder=0)
+        axp.text(x, zhi - step * 0.2, f"{z['src']} LVN zone {z['lo']:g}–{z['hi']:g}" + (" (void)" if z.get("void") else ""), fontsize=5.8, color=LVN_C, va="top")
+    cands = [("structural", s["structural"]), ("LVN edge" if s.get("lvn") is not None else "LVN: void", s.get("lvn")), (f"{t['atr_mult']}×ATR", s["atr"])]
     for i, (lab, y) in enumerate(cands):
+        if y is None:
+            axp.text(x + (i + 0.5) * wdt / 3, t["entry"], lab, fontsize=5.8, color=LVN_C, ha="center", va="bottom" if t["dir"] == "short" else "top", alpha=0.8); continue
         axp.plot([x + i * wdt / 3, x + (i + 1) * wdt / 3], [y] * 2, color=STOP_C, lw=1.0, ls=":", zorder=4)
         axp.text(x + (i + 0.5) * wdt / 3, y + (step * 0.6 if t["dir"] == "short" else -step * 0.6), lab, fontsize=5.8, color=STOP_C, ha="center", va="bottom" if t["dir"] == "short" else "top")
     r_ = s["recommended"]
     axp.plot([x, x + wdt], [r_] * 2, color=STOP_C, lw=2.4, zorder=6)
-    axp.text(x + wdt + 0.05, r_, f"STOP {r_:g}\n{t['risk']:g} pts · {t['risk']/t['atr15']:.2f} ATR", fontsize=7, color=STOP_C, va="center", fontweight="bold")
+    sz = f"\n{t['micros']} micro{'s' if t['micros'] != 1 else ''} @ ${t['risk_usd']:g}" if t.get("micros") is not None else ""
+    axp.text(x + wdt + 0.05, r_, f"STOP {r_:g}\n{t['risk']:g} pts · {t['risk']/t['atr15']:.2f} ATR" + sz, fontsize=7, color=STOP_C, va="center", fontweight="bold")
     axp.annotate("", xy=(x + wdt / 2, t["tgts"][0]), xytext=(x + wdt / 2, t["entry"]), arrowprops=dict(arrowstyle="-|>", color=c, lw=1.1, ls="--"), zorder=4)
     axp.set_xlim(-0.05, x + wdt + 1.6); axp.set_xticks([])
     for sp in ("top", "right", "bottom", "left"): axp.spines[sp].set_visible(False)
@@ -253,3 +378,53 @@ def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
     axp.set_title("R: " + " / ".join(f"{v}" for v in t["rr"]) + "   ·   volume & stop candidates", loc="left", fontsize=9, color=INK, fontweight="bold", pad=8)
     fig.subplots_adjust(left=0.06, right=0.99, top=0.91, bottom=0.04)
     fig.savefig(out, facecolor="white"); plt.close(fig)
+
+
+def why_text(c):
+    s = c["stop_pts"]; d = c["dir"]; past = "under" if d == "long" else "above"
+    w = [f"Entry assumed {c['entry']:g} ({'top' if d == 'long' else 'bottom'} of the gate). Invalidation level {c['structure_level']:g}, buffered {abs(s['structural'] - c['structure_level']):g} pts {past} it → structural {s['structural']:g}."]
+    z = c.get("lvn_zone")
+    if z and s.get("lvn") is not None:
+        w.append(f"Thin volume ({z['src']} profile) runs {z['lo']:g}–{z['hi']:g}, thinnest at {z['min_p']:g} ({z['min_r']:.0%} of peak); the LVN candidate is one tick past its far edge, {s['lvn']:g}, not its minimum.")
+    elif z:
+        w.append(f"Beyond the entry the {z['src']} profile is a void from {z['lo']:g} to {z['hi']:g} — no far edge to lean on, so the stop stays with structure.")
+    else:
+        w.append("No sub-35% zone beyond the entry on either profile.")
+    w.append(f"Recommended {s['recommended']:g} on {c['basis']}: {c['risk']:g} pts = {c['risk_atr']:.2f} × ATR15" + (" — wider than the 1.3 ATR cap; structure demands it" if c.get("wide") else "") + ".")
+    return " ".join(w)
+
+
+def build(plan_path, levels_path=None, risk_usd=RISK_USD, chart_dir="charts"):
+    """Full stop doc for one plan: instruments block + per-trade candidates/sizing + charts.
+    levels_path: optional JSON {trade_id: invalidation level} overriding plans' levels.stop (which is often the bigger-picture failure)."""
+    plan = json.load(open(plan_path)); date = plan["date"]
+    over = json.load(open(levels_path)) if levels_path and pathlib.Path(levels_path).exists() else {}
+    syms = sorted({t["instrument"] for t in plan["trades"]})
+    A = {s: analyze(s, date) for s in syms}
+    inst = {}
+    for s in syms:
+        a = A[s]
+        inst[s] = dict(atr5=round(a["atr5"], 2), atr15=round(a["atr15"], 2), poc1=a["p1"][2], va1=[a["p1"][3], a["p1"][4]], poc2=a["p2"][2], va2=[a["p2"][3], a["p2"][4]],
+                       lvn1=a["lvn1"], hvn1=a["hvn1"], lvn2=a["lvn2"], hvn2=a["hvn2"],
+                       lvn_zones1=lvn_zones(*a["p1"][:2], a["step"]), lvn_zones2=lvn_zones(*a["p2"][:2], a["step"] * 2))
+    trades = []
+    pathlib.Path(chart_dir).mkdir(exist_ok=True)
+    for pt in plan["trades"]:
+        s = pt["instrument"]
+        c = candidates(s, A[s], pt, risk_usd=risk_usd, level=over.get(pt["id"]))
+        c["why"] = why_text(c); c["caveat"] = pt.get("stop", "")
+        c["chart_file"] = f"{chart_dir}/stops_{date}_{pt['id']}.png"
+        draw_trade2(s, A[s], c, c["chart_file"], charts.load(s), date)
+        trades.append(c)
+    doc = dict(date=date, instruments=inst, trades=trades, params=dict(buffer_atr5=BUFFER_ATR5, atr_cap=ATR_CAP, lvn_thr=LVN_THR, min_r_first=MIN_R_FIRST, risk_usd=risk_usd))
+    out = f"stops_{date}.json"; json.dump(doc, open(out, "w"), indent=1, default=float)
+    return doc, out
+
+
+if __name__ == "__main__":
+    plan_path = sys.argv[1]
+    lv = sys.argv[2] if len(sys.argv) > 2 else plan_path.replace("plan-", "stop-levels-")
+    doc, out = build(plan_path, lv)
+    for t in doc["trades"]:
+        print(f"{t['id']:4} {t['dir']:5} stop {t['stop_pts']['recommended']:g} ({t['risk']:g} pts, {t['risk_atr']} ATR) R {t['rr']} {t.get('micros')} micro skip={t.get('skip')} {t.get('skip_reason') or ''}")
+    print("wrote", out)
