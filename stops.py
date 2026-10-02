@@ -275,7 +275,7 @@ def swings(bars, k=3):
 
 
 def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
-    """Per-trade chart with structure: candles (15m, last N sessions) + swing points + profiles + stop column."""
+    """Per-trade chart with structure: ETH candles (15m, last N sessions incl. overnight) + swing points + profiles + stop column."""
     e1, v1, poc1, va1lo, va1hi = A["p1"]; e2, v2, poc2, va2lo, va2hi = A["p2"]; step = A["step"]
     s = t["stop_pts"]; c = LONG if t["dir"] == "long" else SHORT
     end = pd.Timestamp(plan_date, tz=tz) - pd.Timedelta(hours=7)
@@ -283,36 +283,46 @@ def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
     w = d5[(d5.time >= start) & (d5.time <= end)].set_index("time")
     bars = w.resample("15min").agg({"Open":"first","High":"max","Low":"min","Close":"last","Volume":"sum"}).dropna().reset_index()
     n = len(bars)
+    rth = [(9*60+30 <= x.hour*60+x.minute < 16*60) for x in bars.time]
+    # y-range: the trade's levels plus the bulk of the last two sessions (ETH) so earlier action doesn't clip
     ys = [t["entry"], s["structural"], s["atr"], s["recommended"]] + ([s["lvn"]] if s.get("lvn") is not None else []) + list(t["tgts"]) + list(t["gate_pts"])
-    pad = (max(ys) - min(ys)) * 0.15 + step * 2
-    lo, hi = min(ys) - pad, max(ys) + pad
-    fig, (axc, axp) = plt.subplots(1, 2, figsize=(10.4, 5.4), dpi=170, gridspec_kw=dict(width_ratios=[2.1, 1.9], wspace=0.04), sharey=True)
+    recent = bars.iloc[-int(n * 2 / (sessions + 1)):] if sessions > 1 else bars
+    lo = min(min(ys), recent.Low.quantile(0.03)); hi = max(max(ys), recent.High.quantile(0.97))
+    pad = (hi - lo) * 0.07 + step * 2
+    lo, hi = lo - pad, hi + pad
+    fig, (axc, axp) = plt.subplots(1, 2, figsize=(13.6, 6.2), dpi=170, gridspec_kw=dict(width_ratios=[2.9, 1.5], wspace=0.03), sharey=True)
     fig.patch.set_facecolor("white")
     # ---- candles ----
-    rth = [(9*60+30 <= x.hour*60+x.minute < 16*60) for x in bars.time]
     i = 0
-    while i < n:
+    while i < n:   # shade overnight
         if not rth[i]:
             j = i
             while j < n and not rth[j]: j += 1
-            axc.axvspan(i - 0.5, j - 0.5, color="#f3f4f2", zorder=0); i = j
+            axc.axvspan(i - 0.5, j - 0.5, color="#eef0ee", zorder=0); i = j
         else: i += 1
+    bw = 0.64
     for i, r in bars.iterrows():
         cc = charts.UP if r.Close >= r.Open else charts.DOWN
-        axc.plot([i, i], [r.Low, r.High], color=cc, lw=0.6, zorder=2)
-        axc.add_patch(plt.Rectangle((i - 0.35, min(r.Open, r.Close)), 0.7, max(abs(r.Close - r.Open), step * 0.1), color=cc, lw=0, zorder=3))
-    seen = set()
+        axc.plot([i, i], [r.Low, r.High], color=cc, lw=0.9, zorder=2, solid_capstyle="butt")
+        axc.add_patch(plt.Rectangle((i - bw / 2, min(r.Open, r.Close)), bw, max(abs(r.Close - r.Open), step * 0.15), color=cc, lw=0, zorder=3))
+    # session dividers: ETH open (18:00) solid, RTH open (9:30) dotted; date label at the RTH open
     for i, x in enumerate(bars.time):
-        if rth[i] and x.date() not in seen:
-            seen.add(x.date()); axc.text(i, lo + step * 0.3, x.strftime("%a %-m/%-d"), fontsize=6.5, color=MUTE, va="bottom")
+        hm = x.hour * 60 + x.minute
+        if hm == 18 * 60: axc.axvline(i - 0.5, color="#b9bfc6", lw=0.9, zorder=1)
+        if hm == 9 * 60 + 30:
+            axc.axvline(i - 0.5, color="#b9bfc6", lw=0.8, ls=(0, (2, 2)), zorder=1)
+            axc.text(i, hi - step * 0.4, x.strftime("%a %-m/%-d"), fontsize=7.2, color=MUTE, va="top", ha="left")
     # swings: mark the ones within the window and near the trade
     sh, sl = swings(bars, k=6)
     rel = sl if t["dir"] == "long" else sh
     band = (s["recommended"] - step * 6, t["entry"] + step * 6) if t["dir"] == "long" else (t["entry"] - step * 6, s["recommended"] + step * 6)
+    done = []
     for i, y in rel:
         if band[0] <= y <= band[1]:
-            axc.plot(i, y, marker="v" if t["dir"] == "long" else "^", color=c, ms=4, zorder=5)
-            axc.annotate(f"{y:g}", (i, y), xytext=(0, -8 if t["dir"] == "long" else 8), textcoords="offset points", ha="center", va="top" if t["dir"] == "long" else "bottom", fontsize=5.8, color=c)
+            if any(abs(i - i0) <= 8 and abs(y - y0) <= step * 1.5 for i0, y0 in done): continue   # one label per cluster
+            done.append((i, y))
+            axc.plot(i, y, marker="v" if t["dir"] == "long" else "^", color=c, ms=4.5, zorder=5)
+            axc.annotate(f"{y:g}", (i, y), xytext=(0, -8 if t["dir"] == "long" else 8), textcoords="offset points", ha="center", va="top" if t["dir"] == "long" else "bottom", fontsize=6.3, color=c)
     # gate / entry / stop / targets across the candles
     g = t["gate_pts"]
     axc.axhspan(min(g), max(g) if max(g) > min(g) else min(g) + step * 0.6, color=c, alpha=0.12, lw=0, zorder=1)
@@ -324,12 +334,12 @@ def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
         if lo <= y <= hi:
             axc.axhline(y, color=INK, lw=0.8, ls=(0, (4, 2)), zorder=4)
             axc.text(0.3 + k_ * n * 0.34, y, lab, fontsize=6.5, color=INK, va="bottom" if t["dir"] == "long" else "top", bbox=dict(boxstyle="round,pad=0.15", fc="white", ec="none", alpha=0.85), zorder=7)
-    axc.text(n - 0.5, s["recommended"], f" stop {s['recommended']:g}", fontsize=6.8, color=STOP_C, va="bottom" if t["dir"] == "long" else "top", ha="right", fontweight="bold", zorder=7)
-    axc.set_xlim(-0.5, n + 0.5); axc.set_ylim(lo, hi)
-    axc.set_xticks([]); axc.tick_params(axis="y", labelsize=7, colors=MUTE)
+    axc.text(n - 0.5, s["recommended"], f" stop {s['recommended']:g}", fontsize=7, color=STOP_C, va="bottom" if t["dir"] == "long" else "top", ha="right", fontweight="bold", zorder=7)
+    axc.set_xlim(-0.8, n + 0.3); axc.set_ylim(lo, hi)
+    axc.set_xticks([]); axc.tick_params(axis="y", labelsize=7.5, colors=MUTE)
     for sp in ("top", "right", "bottom"): axc.spines[sp].set_visible(False)
     axc.spines["left"].set_color(GRID); axc.grid(axis="y", color=GRID, lw=0.5, zorder=0)
-    axc.set_title(f"{sym}  {t['short']}  ·  {t['dir']}  ·  structure (15m, last {sessions} sessions)", loc="left", fontsize=9, color=INK, fontweight="bold", pad=8)
+    axc.set_title(f"{sym}  {t['short']}  ·  {t['dir']}  ·  ETH 15m, last {sessions} sessions (overnight shaded)", loc="left", fontsize=9.5, color=INK, fontweight="bold", pad=8)
     # ---- profiles + stop column ----
     colw = 1.0
     def bars_(edges, vol, x0, valo, vahi, poc, label, stepp):
@@ -376,7 +386,7 @@ def draw_trade2(sym, A, t, out, d5, plan_date, sessions=3):
     for sp in ("top", "right", "bottom", "left"): axp.spines[sp].set_visible(False)
     axp.grid(axis="y", color=GRID, lw=0.5, zorder=0); axp.tick_params(axis="y", length=0)
     axp.set_title("R: " + " / ".join(f"{v}" for v in t["rr"]) + "   ·   volume & stop candidates", loc="left", fontsize=9, color=INK, fontweight="bold", pad=8)
-    fig.subplots_adjust(left=0.06, right=0.99, top=0.91, bottom=0.04)
+    fig.subplots_adjust(left=0.045, right=0.99, top=0.92, bottom=0.03)
     fig.savefig(out, facecolor="white"); plt.close(fig)
 
 
