@@ -1,0 +1,529 @@
+{
+ "source": "pharmdks",
+ "date": "2026-10-05",
+ "status": "draft",
+ "notes": "",
+ "bias": "He's on vacation Mon–Thu: this is the only daily plan until (maybe) Friday, no premarket update. 'Wild things tend to happen when I'm on vacation' — be prepared for volatility either direction. Both ES and NQ had a failed opening drive higher Friday after a huge NFP rip; 'perhaps we can forgive bulls their fatigue.' NQ matters most this week: a sustained break above Friday's high is a breakout until proven otherwise; anything else risks a false breakout. Big-picture warning: bonds got stuffed on a soft NFP, credit spreads and the MOVE index are moving — he is heavily cash / hedged.",
+ "wildcard": "No premarket update this week — the overnight does its own thing with no one re-drawing the map. ES: a LAAF of Friday's high at 7815-22 followed by a loss of 80-84 makes a bearish engulfing of Friday's range 'reasonably likely.' NQ: a reaction in the 595-635 demand range that then reclaims Friday's low 'sounds a lot like a Pharm-is-on-vacation move.' Both have a bullish RTH gap from Thursday to Friday (ES 7741.25-7754, NQ 30906-30988) that is supportive on first test.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Failed opening drive higher, then balance between 7763-65 and 7780-84, leaving a failed distribution above 7790-91. That was after a 140-handle rip from Thursday's low to Friday's high (7810.25), so bulls get a pass on fatigue. Buyers notably struggled with 7780-84, which is September's VAH. Closed 7779. Two-way chop between 63-65 and 80-84 is the base case.",
+   "pivot": "7780-7784 is the line (September VAH). 7763-65 is the floor of Friday's balance; 7790-94 is what bulls must firmly reclaim above. Friday's low 7754 sits on the 7747-54 weekly level with the Thu→Fri RTH gap (7741.25-54) under it.",
+   "higher": "Be cautious of failed reclaims of 7780-84 until 7790-94 is firmly reclaimed. Above 90-94, Friday's high 7810.25 should go for a test of 7815-22. If 7815-22 triggers a LAAF of Friday's high → 90-91 then 80-84 from above; back below 80-84 after that and a bearish engulfing of Friday's range becomes reasonably likely. Sustaining above 7815-22 (comfort above the 26-27 daily) → 7846-49, where it's continuation vs. LAAF.",
+   "lower": "LBAF of 63-65 → 80-84 (Friday's IB low 7773.5 is the honorable mention between). Absent that, Friday's low 7754 is in play — monitor for a LBAF of it, which targets 73.5 and 80-84 if 63-65 is reclaimed. 7740-41 (Thursday's spike) is the gap-fill reversal spot to reclaim Friday's low. Below that his lean is another liquidation break to 7706-12, with 7723-26 possibly slowing it. Below 7706-12 → 7678-81 and Thursday's low 7672.75; 7696-99 is a daily level in case the demand there triggers a reclaim of 7706-12.",
+   "levels": [
+    {
+     "p": [
+      7846,
+      7849
+     ],
+     "label": "ATH range · continuation vs LAAF",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7839,
+      7841
+     ],
+     "label": "daily",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7826,
+      7827
+     ],
+     "label": "daily · comfort above",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7815,
+      7822
+     ],
+     "label": "weekly · LAAF watch",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7810.25
+     ],
+     "label": "Fri high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7790,
+      7794
+     ],
+     "label": "firm reclaim needed",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7784.5
+     ],
+     "label": "after-bell high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7780,
+      7784
+     ],
+     "label": "KEY · Sept VAH",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7773.5
+     ],
+     "label": "Fri IB low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7763,
+      7765
+     ],
+     "label": "Fri floor · LBAF (65.5)",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7754
+     ],
+     "label": "Fri low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7747,
+      7754
+     ],
+     "label": "weekly · massive all last week",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7740,
+      7741.25
+     ],
+     "label": "Thu spike · gap-fill rev.",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7723,
+      7726
+     ],
+     "label": "may slow a liquidation",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7706,
+      7712
+     ],
+     "label": "liquidation-break target",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7696,
+      7699
+     ],
+     "label": "daily · demand",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7678,
+      7681
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7672.75
+     ],
+     "label": "Thu low = low of week",
+     "kind": "ref"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Clear bearish build off a failed opening drive higher — but sellers didn't even reach 30951-69, let alone Thursday's high. Two new ATHs late in the week (Fri high 31282.5) while the week overlapped value lower. Afternoon balance between the 31125-43 weekly level and the low of day 30988. Closed 31070, right at the September high. 31056-69 sits in the middle of Friday's primary distribution but is too important to leave off.",
+   "pivot": "31125-31143 above, Friday's low 30988 below with the critical 30951-69 right under it. The Wed/Thu highs cluster at 30869-30906 = the bullish RTH gap fill.",
+   "higher": "Cautious of a LAAF of 125-143 (up to ~156) that resolves to Friday's low or at least 056-069. A firm reclaim → 199-204; above that Friday's high in the 31269-88 range. Barring a fresh LAAF of Friday's high that gets back below 125-143, bulls are in control. Longs only with continuation above Friday's high; weekly first target 31527-45.",
+   "lower": "Monitor for a LBAF of Friday's low with 951-969 right there. Otherwise 869-906 can give a gap-fill reversal, which needs to reclaim Friday's low to see 056-069 and 125-143. If 869-906 doesn't hold, a liquidation break is possible (less certain than ES): 669-681 daily, then the whole 595-635 demand range (last week's VPOC 30625) — any reaction there needs Friday's low reclaimed. Thursday's low in 504-546 otherwise.",
+   "levels": [
+    {
+     "p": [
+      31527,
+      31545
+     ],
+     "label": "weekly first breakout target",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      31282.5
+     ],
+     "label": "Fri high = ATH",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      31269,
+      31288
+     ],
+     "label": "continuation above = longs only",
+     "kind": "up"
+    },
+    {
+     "p": [
+      31199,
+      31204
+     ],
+     "label": "daily · reclaim target",
+     "kind": "up"
+    },
+    {
+     "p": [
+      31125,
+      31156
+     ],
+     "label": "KEY · LAAF watch to 156",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      31056,
+      31069
+     ],
+     "label": "mid-distribution",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      30988
+     ],
+     "label": "Fri low · LBAF watch",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30951,
+      30969
+     ],
+     "label": "KEY · June RTH ATH back-test",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      30869,
+      30906
+     ],
+     "label": "Wed/Thu highs · gap fill",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      30706,
+      30725
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30669,
+      30681
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30595,
+      30635
+     ],
+     "label": "demand · VPOC 30625",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      30504,
+      30546
+     ],
+     "label": "Thu low 30529 · LBAF monitor",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "A/A-",
+   "gate": "LBAF of 30988 with 951-969 right underneath",
+   "tgt": "056-069 → 125-143 → 199-204",
+   "stop": "persistent weakness below 951-969 → 869-906 next",
+   "quote": "Long a LBAF of Friday's low is an A/A-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30951,
+     30990
+    ],
+    "tgt": [
+     [
+      31056,
+      31069
+     ],
+     [
+      31125,
+      31143
+     ],
+     [
+      31199,
+      31204
+     ]
+    ],
+    "stop": [
+     30906
+    ]
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail / LAAF of 31125-31143",
+   "dir": "short",
+   "tag": "B+/A-",
+   "gate": "fail or LAAF of 125-143, up to ~156",
+   "tgt": "056-069 → Friday's low 30988",
+   "stop": "firm reclaim of 125-143 → 199-204",
+   "quote": "Short a fail/LAAF of 125-143 is a B+/A-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     31125,
+     31156
+    ],
+    "tgt": [
+     [
+      31056,
+      31069
+     ],
+     30988
+    ],
+    "stop": [
+     31204
+    ]
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Gap-fill reversal at 869-906 (implied)",
+   "dir": "long",
+   "tag": "implied",
+   "gate": "reaction at 30869-30906, the Thu→Fri RTH gap; supportive on first test",
+   "tgt": "Friday's low 30988 (required reclaim) → 056-069 → 125-143",
+   "stop": "869-906 doesn't hold → liquidation break risk",
+   "quote": "Otherwise we would then look to 869-906 to possibly provide a gap fill reversal which would need to reclaim Friday's low to see 056-069 and 125-143.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30869,
+     30906
+    ],
+    "tgt": [
+     30988,
+     [
+      31056,
+      31069
+     ]
+    ],
+    "stop": [
+     30846
+    ]
+   }
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Persistent weakness below 80-84 / LAAF of 7784.5",
+   "dir": "short",
+   "tag": "B/B-",
+   "gate": "persistent weakness below 7780-84; even better a quick LAAF of the 7784.5 after-bell high",
+   "tgt": "IB low 7773.5 → 63-65 → Friday's low 7754",
+   "stop": "firm reclaim of 7790-94",
+   "quote": "Short any persistent weakness below 80-84 inclusive (and perhaps even better) a quick LAAF of the 84.5 high from after the bell. B/B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7780,
+     7784.5
+    ],
+    "tgt": [
+     7773.5,
+     [
+      7763,
+      7765
+     ],
+     7754
+    ],
+    "stop": [
+     7794
+    ]
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of 63-65 (at least the 65.5 pullback low)",
+   "dir": "long",
+   "tag": "B/B-",
+   "gate": "LBAF of 7763-65, at minimum of the 7765.5 low from 1:25",
+   "tgt": "IB low 7773.5 → 80-84",
+   "stop": "no LBAF → Friday's low 7754 in play",
+   "quote": "Long a LBAF of 63-65 (at least the 65.5 pullback low from 1:25) is a B/B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7763,
+     7766
+    ],
+    "tgt": [
+     7773.5,
+     [
+      7780,
+      7784
+     ]
+    ],
+    "stop": [
+     7754
+    ]
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "B",
+   "gate": "LBAF of 7754 (on the 7747-54 weekly)",
+   "tgt": "63-65 → 73.5 → 80-84 if 63-65 reclaimed",
+   "stop": "below 7740-41 → liquidation break toward 7706-12",
+   "quote": "Long a LBAF of Friday's low is a B",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7747,
+     7754
+    ],
+    "tgt": [
+     [
+      7763,
+      7765
+     ],
+     7773.5,
+     [
+      7780,
+      7784
+     ]
+    ],
+    "stop": [
+     7740
+    ]
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "B-",
+   "gate": "LAAF of 7810.25 into 7815-22",
+   "tgt": "90-91 → 80-84 from above; bearish engulfing likely if 80-84 breaks",
+   "stop": "sustaining above 7815-22 / comfort above 26-27",
+   "quote": "Short a LAAF of Friday's high is a B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7810.25,
+     7822
+    ],
+    "tgt": [
+     [
+      7790,
+      7791
+     ],
+     [
+      7780,
+      7784
+     ]
+    ],
+    "stop": [
+     7827
+    ]
+   }
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Gap-fill reversal at 7740-41 (implied)",
+   "dir": "long",
+   "tag": "implied",
+   "gate": "reaction at 7740-7741.25 (Thursday's spike base/high), the Thu→Fri RTH gap",
+   "tgt": "reclaim Friday's low 7754 → 63-65",
+   "stop": "below 7740 → liquidation break to 7706-12",
+   "quote": "I went ahead and added 7740-7741 as a daily level representing Thursday's spike where we can monitor for a gap fill reversal to reclaim Friday's low as well.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7740,
+     7741.25
+    ],
+    "tgt": [
+     7754,
+     [
+      7763,
+      7765
+     ]
+    ],
+    "stop": [
+     7726
+    ]
+   }
+  }
+ ]
+}
