@@ -22,6 +22,17 @@ Baseline (the rule set from the Oct 3 stop-placement chat)
   Within a bar the stop is checked before the target (conservative).  Targets on the wrong side of the entry are ignored.
   Graded = tag starting with A/B/C ("implied - not graded" is ungraded).
 
+Corrections applied to every run (not in the original 24-day backtest):
+  * a plan can only trade after its letter was published (plans/post_times.json, Substack post time; about half the
+    letters go out after 18:00 ET, when the old session window already started);
+  * the bar labelled 16:00 (16:00-16:05) is excluded, so "flat at 16:00" is the 15:55 bar's close;
+  * break trades whose session opened entirely beyond the zone are dropped (run_trade would enter at an untraded price);
+  * a stop in a bar that opens through it fills at the open; after breakeven a bar hitting both BE stop and target
+    counts as the stop; drawdown is measured from starting equity.
+Fill realism: the specified edge fill is NOT executable (the signal is a 5m close beyond the edge, so that price is gone).
+The report re-runs everything with three executable fills: market at the confirming close, a limit back at the edge
+(retest), and a resting stop order one tick through the edge (no close confirmation; fills at the open on gaps).
+
 Legacy check: `legacy=True` reproduces backtest_pnl.py exactly on the original 24 plan days (continuous bars, slip once,
 wrong-side targets not filtered, any non-empty tag counts as graded) -> must print $16,892.71.
 """
@@ -96,15 +107,15 @@ def run_trade_stop(bars, pt, kind):
     into the zone (no close confirmation).  Fade long: armed when a bar trades at/below the zone top; fills on the first
     LATER bar trading >= top + 1 tick.  Break long: armed when price reaches the zone; fills >= zone top + 1 tick.
     Shorts mirrored.  Sweep extreme = extreme from the arming bar through the bar before the fill (break: zone far side).
-    Returns dict(e, far, j) or None; e is the fill price (edge +/- 1 tick)."""
+    Returns dict(e, far, j) or None; e is the fill price (edge +/- 1 tick, or the bar's open if it gapped through)."""
     d = pt["dir"]; gate = sorted(pt["levels"]["gate"]); H, Lo = bars.High.values, bars.Low.values
     up = d == "long"
     if kind == "fade":
         edge = gate[-1] if up else gate[0]
         armed = np.flatnonzero(Lo <= edge) if up else np.flatnonzero(H >= edge)
-    else:
+    else:   # break: price must have been on the near side of the far edge (long: low <= zone top)
         edge = gate[-1] if up else gate[0]
-        armed = np.flatnonzero(H >= gate[0]) if up else np.flatnonzero(Lo <= gate[-1])
+        armed = np.flatnonzero(Lo <= gate[-1]) if up else np.flatnonzero(H >= gate[0])
     if not len(armed): return None
     i_t = armed[0]
     fill = np.flatnonzero(H[i_t + 1:] >= edge + TICK) if up else np.flatnonzero(Lo[i_t + 1:] <= edge - TICK)
@@ -112,15 +123,39 @@ def run_trade_stop(bars, pt, kind):
     j = i_t + 1 + fill[0]
     if kind == "fade": far = Lo[i_t:j].min() if up else H[i_t:j].max()
     else: far = gate[0] if up else gate[-1]
-    return dict(e=float(edge + TICK if up else edge - TICK), far=float(far), j=int(j))
+    O = bars.Open.values
+    px = max(edge + TICK, O[j]) if up else min(edge - TICK, O[j])   # a bar that opens through the stop price fills at its open
+    return dict(e=float(px), far=float(far), j=int(j))
 
 
-def build_setups(legacy=False):
-    """One dict per triggered trade (graded and ungraded), plus counts of untriggered / dropped."""
+POST_TIMES = json.load(open("plans/post_times.json")) if __import__("os").path.exists("plans/post_times.json") else {}
+
+
+def _tg(pt):
+    d = pt["dir"]
+    return [(min(x) if d == "long" else max(x)) if isinstance(x, (list, tuple)) else x for x in pt["levels"]["tgt"]]
+
+
+def _break_armed_ok(bars, pt, i0):
+    """Break trades: price must actually have been on the near side of the zone's far edge at or before the entry
+    bar (long: some low <= zone top; short: some high >= zone bottom).  run_trade's 'price has been at the zone'
+    test also fires when the session opens entirely beyond the zone, which books an entry at a price that never traded."""
+    g = sorted(pt["levels"]["gate"])
+    if pt["dir"] == "long": return bool((bars.Low.values[:i0 + 1] <= g[-1]).any())
+    return bool((bars.High.values[:i0 + 1] >= g[0]).any())
+
+
+def build_setups(legacy=False, variants=("post", "free")):
+    """Triggered trades per variant.  'post': session bars start at the letter's publish time (plans/post_times.json)
+    if that is after 18:00 the evening before — nothing can be traded before the plan exists.  'free': the old
+    18:00 session start.  Both end at 15:55 (the 16:00-labelled bar is 16:00-16:05, after the cash close).
+    legacy=True: backtest_pnl.py conventions exactly (continuous bars, 18:00-16:00 incl. the 16:00 bar)."""
     files = sorted(glob.glob("plans/plan-*.json"))
     cmap = None if legacy else contract_map.build()
     cont = {s: charts.load(s) for s in ("ES", "NQ")} if legacy else None
-    setups, info = [], dict(trades=0, triggered=0, untriggered=0, unresolved=0, days=0, skipped_days=0)
+    if legacy: variants = ("legacy",)
+    out = {v: [] for v in variants}
+    info = dict(trades=0, triggered=0, untriggered=0, unresolved=0, days=0, skipped_days=0, phantom_break=0, pre_publication=0)
     for f in files:
         date = json.load(open(f))["date"]
         if legacy:
@@ -132,56 +167,74 @@ def build_setups(legacy=False):
             C = {s: cmap[date][s]["contract"] for s in ("ES", "NQ")}
             p, trades = plan_refs.load_plan(f, bars_for=lambda s: contracts.load(s, C[s]), skip=set())
         info["days"] += 1; info["unresolved"] += len(p["_dropped"])
+        post = pd.Timestamp(POST_TIMES[date]["posted_et"], tz=tz) if (not legacy and date in POST_TIMES) else None
         cache = {}
         for pt in trades:
             s = pt["instrument"]; info["trades"] += 1
             if s not in cache:
                 if legacy:
                     d5 = cont[s]; a = stops.atr(d5, end=pd.Timestamp(date, tz=tz) - pd.Timedelta(hours=7)); ac = "continuous"
+                    cache[s] = (d5, {"legacy": backtest.session(d5, date)}, a, ac)
                 else:
                     d5 = contracts.load(s, C[s]); r = atr_for(s, C[s], date)
-                    if r is None: cache[s] = None; continue
-                    a = r[:2]; ac = r[2]
-                cache[s] = (d5, backtest.session(d5, date), a, ac)
+                    if r is None: cache[s] = None
+                    else:
+                        full = backtest.session(d5, date)
+                        full = full[full.time < pd.Timestamp(date, tz=tz).replace(hour=16)].reset_index(drop=True)
+                        sess = {"free": full}
+                        sess["post"] = full[full.time >= post].reset_index(drop=True) if post is not None else full
+                        cache[s] = (d5, sess, r[:2], r[2])
             if cache[s] is None: info["unresolved"] += 1; continue
-            d5, bars, (a5, a15), atr_src = cache[s]
-            if len(bars) == 0: info["unresolved"] += 1; continue
-            r = backtest.run_trade(bars, pt)
-            rs = None if legacy else run_trade_stop(bars, pt, r.get("kind") or pt.get("kind") or "fade")
-            se = None
-            if rs is not None:
-                jj = rs["j"]; Hs, Ls = bars.High.values[jj:].astype(float).copy(), bars.Low.values[jj:].astype(float).copy()
-                if pt["dir"] == "long": Hs[0] = rs["e"]       # fill bar: no target credit; its extreme still counts against the stop
-                else: Ls[0] = rs["e"]
-                se = dict(e=rs["e"], far=rs["far"], entry_time=str(bars.time[jj]), H=Hs, L=Ls, C=bars.Close.values[jj:].astype(float))
-            if not r["triggered"]:
-                info["untriggered"] += 1
-                if se is None: continue
-                tag = pt.get("tag", "") or ""; d = pt["dir"]
-                tg = [(min(x) if d == "long" else max(x)) if isinstance(x, (list, tuple)) else x for x in pt["levels"]["tgt"]]
-                setups.append(dict(date=date, id=pt["id"], sym=s, dir=d, kind=r.get("kind"), tag=tag, grade=grade(tag), graded=bool(grade(tag)),
-                                   close_trig=False, e=se["e"], eclose=se["e"], far=se["far"], gate=sorted(pt["levels"]["gate"]), tg=tg,
-                                   zones=plan_zones(p, s), atr5=a5, atr15=a15, live5=a5, atr_src=atr_src, entry_time=se["entry_time"],
-                                   contract=C[s], H=np.array([]), L=np.array([]), C=np.array([]), se=se))
-                continue
-            info["triggered"] += 1
-            i0 = bars.index[bars.time == pd.Timestamp(r["entry_time"])][0]
-            after = bars.loc[i0 + 1:]
-            # live ATR5: ATR(14) of the 14 five-minute bars up to and including the entry bar (any session)
-            hist = d5[d5.time <= pd.Timestamp(r["entry_time"])].tail(15)
-            tr = np.maximum(hist.High - hist.Low, np.maximum((hist.High - hist.Close.shift()).abs(), (hist.Low - hist.Close.shift()).abs()))
-            live5 = float(tr.iloc[1:].mean())
-            d = pt["dir"]
-            tg = [(min(x) if d == "long" else max(x)) if isinstance(x, (list, tuple)) else x for x in pt["levels"]["tgt"]]
-            tag = pt.get("tag", "") or ""
-            setups.append(dict(date=date, id=pt["id"], sym=s, dir=d, kind=r["kind"], tag=tag,
-                               grade=("X" if tag else "") if legacy else grade(tag), graded=bool(tag) if legacy else bool(grade(tag)),
-                               e=r["entry"], eclose=float(bars.Close[i0]), far=r["far"], gate=sorted(pt["levels"]["gate"]), tg=tg, zones=plan_zones(p, s),
-                               atr5=a5, atr15=a15, live5=live5, atr_src=atr_src, entry_time=r["entry_time"],
-                               contract="cont" if legacy else C[s], close_trig=True, se=se,
-                               H=after.High.values.astype(float), L=after.Low.values.astype(float), C=after.Close.values.astype(float)))
-    setups.sort(key=lambda t: (t["date"], t["entry_time"]))
-    return setups, info
+            d5, sess, (a5, a15), atr_src = cache[s]
+            tag = pt.get("tag", "") or ""; d = pt["dir"]
+            base = dict(date=date, id=pt["id"], sym=s, dir=d, tag=tag,
+                        grade=("X" if tag else "") if legacy else grade(tag), graded=bool(tag) if legacy else bool(grade(tag)),
+                        gate=sorted(pt["levels"]["gate"]), tg=_tg(pt), zones=plan_zones(p, s), atr5=a5, atr15=a15,
+                        atr_src=atr_src, contract="cont" if legacy else C[s])
+            trig_any = False
+            for v in variants:
+                bars = sess[v]
+                if len(bars) == 0: continue
+                try: r = backtest.run_trade(bars, pt)
+                except ValueError:      # entry on the session's last bar (run_trade's long branch can't compute MFE): nothing to trade
+                    r = dict(triggered=False, kind=pt.get("kind"))
+                kind = r.get("kind") or pt.get("kind") or "fade"
+                ok = r["triggered"]
+                if ok and not legacy:
+                    i0 = int(bars.index[bars.time == pd.Timestamp(r["entry_time"])][0])
+                    if kind == "break" and not _break_armed_ok(bars, pt, i0):
+                        ok = False
+                        if v == "post": info["phantom_break"] += 1
+                se = None
+                if not legacy:
+                    rs = run_trade_stop(bars, pt, kind)
+                    if rs is not None:
+                        jj = rs["j"]; Hs = bars.High.values[jj:].astype(float).copy(); Ls = bars.Low.values[jj:].astype(float).copy()
+                        Os = bars.Open.values[jj:].astype(float).copy(); Os[0] = rs["e"]
+                        if d == "long": Hs[0] = rs["e"]       # fill bar: no target credit; its extreme still counts against the stop
+                        else: Ls[0] = rs["e"]
+                        se = dict(e=rs["e"], far=rs["far"], entry_time=str(bars.time[jj]), H=Hs, L=Ls, O=Os, C=bars.Close.values[jj:].astype(float))
+                if not ok:
+                    if se is None: continue
+                    out[v].append(dict(base, kind=kind, close_trig=False, e=se["e"], eclose=se["e"], far=se["far"], live5=a5,
+                                       entry_time=se["entry_time"], H=np.array([]), L=np.array([]), O=np.array([]), C=np.array([]), se=se))
+                    continue
+                trig_any = True
+                if legacy: i0 = int(bars.index[bars.time == pd.Timestamp(r["entry_time"])][0])
+                after = bars.loc[i0 + 1:]
+                hist = d5[d5.time <= pd.Timestamp(r["entry_time"])].tail(15)   # live ATR5: 14 bars up to the entry bar
+                tr = np.maximum(hist.High - hist.Low, np.maximum((hist.High - hist.Close.shift()).abs(), (hist.Low - hist.Close.shift()).abs()))
+                out[v].append(dict(base, kind=r["kind"], close_trig=True, e=r["entry"], eclose=float(bars.Close[i0]), far=r["far"],
+                                   live5=float(tr.iloc[1:].mean()), entry_time=r["entry_time"], se=se,
+                                   H=after.High.values.astype(float), L=after.Low.values.astype(float),
+                                   O=after.Open.values.astype(float), C=after.Close.values.astype(float)))
+            if not legacy and "post" in variants and "free" in variants:
+                fr = [t for t in out["free"] if t["date"] == date and t["id"] == pt["id"] and t["close_trig"]]
+                po = [t for t in out["post"] if t["date"] == date and t["id"] == pt["id"] and t["close_trig"]]
+                if fr and (not po or po[0]["entry_time"] != fr[0]["entry_time"]): info["pre_publication"] += 1
+            info["triggered" if trig_any else "untriggered"] += 1
+    for v in out: out[v].sort(key=lambda t: (t["date"], t["entry_time"]))
+    return (out["legacy"], info) if legacy else (out, info)
 
 
 # ---------------------------------------------------------------- stops / targets / simulation
@@ -226,13 +279,16 @@ def _first(mask, start=0):
 
 
 def simulate_one(t, stp, rk, n, tgt, be, partial, legacy=False):
-    """Exit of one trade -> (pnl $, exit type, pts on the main leg)."""
+    """Exit of one trade -> (pnl $, exit type, pts on the main leg).  Bars are those after the entry bar (or, for
+    retest / stop-entry fills, starting with the fill bar).  Within a bar the stop is checked before the target.
+    A stop (or BE stop) in a bar that OPENS through it fills at the open (not in legacy mode)."""
     up = t["dir"] == "long"; sg = 1 if up else -1; e = t["e"]
     H, L, C = t["H"], t["L"], t["C"]
     if len(C) == 0:
         pts = -SLIP; return pts * MICRO[t["sym"]] * n - COMM * n, "close", pts
     fav = (H - e) * sg if up else (e - L)
     adv = (L - e) * sg if up else (e - H)
+    O = t.get("O"); opx = None if (legacy or O is None or len(O) != len(C)) else (O - e) * sg
     T = (tgt - e) * sg if tgt is not None else None
     if legacy and T is not None and T <= 0: T_hit = np.ones(len(C), bool)       # backtest_pnl: wrong-side target fills at once
     else: T_hit = fav >= T if T is not None else np.zeros(len(C), bool)
@@ -241,9 +297,10 @@ def simulate_one(t, stp, rk, n, tgt, be, partial, legacy=False):
     i_s = _first(s0); i_t = _first(T_hit)
     trig_R = partial if partial else be
     i_b = _first(fav >= trig_R * rk) if trig_R is not None else 10 ** 9
-    k1 = int(n // 2) if partial else 0
-    if trig_R is None or i_b >= min(i_s, i_t) or (partial and k1 == 0):
-        if i_s <= i_t and i_s < 10 ** 9: pts, how = -rk - stop_slip, "stop"
+    k1 = int(n // 2) if partial else 0          # 1 micro can't be halved: it just gets the breakeven at the partial level
+    if trig_R is None or i_b >= min(i_s, i_t):
+        if i_s <= i_t and i_s < 10 ** 9:
+            pts, how = (-rk if opx is None else min(-rk, opx[i_s])) - stop_slip, "stop"
         elif i_t < 10 ** 9: pts, how = abs(T), "target"
         else: pts, how = (C[-1] - e) * sg, "close"
         pts -= ent_slip
@@ -251,11 +308,12 @@ def simulate_one(t, stp, rk, n, tgt, be, partial, legacy=False):
     # trigger hit at bar i_b, before stop and target: move stop to entry + 1 tick from the next bar (and bank half if partial)
     s1 = adv <= TICK
     j_s = _first(s1, i_b + 1); j_t = i_t
-    if j_s < j_t: pts, how = TICK - stop_slip, "be"
+    if j_s <= j_t and j_s < 10 ** 9:            # same bar hits the BE stop and the target: the stop wins (conservative)
+        pts, how = (TICK if opx is None else min(TICK, opx[j_s])) - stop_slip, "be"
     elif j_t < 10 ** 9: pts, how = abs(T), "target"
     else: pts, how = (C[-1] - e) * sg, "close"
     pts -= ent_slip
-    if partial:
+    if partial and k1 > 0:
         part_pts = partial * rk - ent_slip
         pnl = (part_pts * k1 + pts * (n - k1)) * MICRO[t["sym"]] - COMM * n
         return pnl, how + "+half", pts
@@ -265,19 +323,26 @@ def simulate_one(t, stp, rk, n, tgt, be, partial, legacy=False):
 def run_cell(setups, stop, be, tgt, partial=None, atr="prior", legacy=False, fill="edge"):
     rows = []
     for t in setups:
-        if fill == "stop_entry":
+        if fill in ("stop_entry", "stop_entry_opt"):
             if t.get("se") is None: continue
-            t = dict(t, e=t["se"]["e"], far=t["se"]["far"], H=t["se"]["H"], L=t["se"]["L"], C=t["se"]["C"], entry_time=t["se"]["entry_time"])
+            se = t["se"]; far, H, L = se["far"], se["H"], se["L"]
+            if fill == "stop_entry_opt":   # optimistic intrabar order: the fill bar's adverse extreme came BEFORE the fill
+                up = t["dir"] == "long"; H, L = H.copy(), L.copy()
+                if t["kind"] == "fade": far = min(far, L[0]) if up else max(far, H[0])
+                if up: L[0] = se["e"]
+                else: H[0] = se["e"]
+            t = dict(t, e=se["e"], far=far, H=H, L=L, O=se["O"], C=se["C"], entry_time=se["entry_time"])
         elif not t.get("close_trig", True): continue
         if fill == "retest":
             # limit order at the zone edge placed after the confirming close; fills only if price comes back to the edge
             up = t["dir"] == "long"
             hit = np.flatnonzero(t["L"] <= t["e"]) if up else np.flatnonzero(t["H"] >= t["e"])
             if not len(hit): continue
-            j = hit[0]; H, L = t["H"][j:].copy(), t["L"][j:].copy()
+            j = hit[0]; H, L, O = t["H"][j:].copy(), t["L"][j:].copy(), t["O"][j:].copy()
             if up: H[0] = t["e"]          # no target credit in the fill bar; its low still counts against the stop
             else: L[0] = t["e"]
-            t = dict(t, H=H, L=L, C=t["C"][j:])
+            O[0] = t["e"]
+            t = dict(t, H=H, L=L, O=O, C=t["C"][j:])
         stp, rk, floor, fb = stop_for(t, stop, atr, "close" if fill == "close" else "edge")
         if fill == "close": t = dict(t, e=t["eclose"])
         n = int(RISK // ((rk + SLIP) * MICRO[t["sym"]]))
@@ -292,14 +357,15 @@ def run_cell(setups, stop, be, tgt, partial=None, atr="prior", legacy=False, fil
     return pd.DataFrame(rows)
 
 
-def metrics(d, sort=True):
+def metrics(d, sort=True, dd_from_zero=True):
     if len(d) == 0: return dict(n=0)
     if sort: d = d.sort_values(["date", "entry_time"])
     cum = d.pnl.cumsum()
+    peak = np.maximum(cum.cummax(), 0) if dd_from_zero else cum.cummax()   # drawdown measured from starting equity too
     w = d[d.pnl > 0].pnl.sum(); l = -d[d.pnl < 0].pnl.sum()
     top3 = d.pnl.nlargest(3).sum()
     return dict(n=len(d), win=(d.pnl > 0).mean(), avgR_cap3=d.R.clip(upper=3).mean(), avgR=d.R.mean(), medR=d.R.median(),
-                total=d.pnl.sum(), max_dd=(cum - cum.cummax()).min(), pf=w / l if l > 0 else np.inf,
+                total=d.pnl.sum(), max_dd=min(0.0, (cum - peak).min()), pf=w / l if l > 0 else np.inf,
                 es=d[d.sym == "ES"].pnl.sum(), nq=d[d.sym == "NQ"].pnl.sum(), n_es=int((d.sym == "ES").sum()),
                 n_nq=int((d.sym == "NQ").sum()), pct_floor=d.at_floor.mean(), worst=d.pnl.min(), total_ex_top3=d.pnl.sum() - top3)
 
@@ -338,11 +404,12 @@ def main():
     leg = run_cell(Lg, ("floor", 1.5), 1.0, "ge1.5", legacy=True)
     P("# PharmD management grid\n")
     P(f"**Reproduction check** (backtest_pnl.py conventions, original 24 plan days, continuous bars): "
-      f"{len(leg)} trades, total ${leg.pnl.sum():,.2f}, PF {metrics(leg)['pf']:.2f}, max DD ${metrics(leg, sort=False)['max_dd']:,.0f} "
+      f"{len(leg)} trades, total ${leg.pnl.sum():,.2f}, PF {metrics(leg)['pf']:.2f}, max DD ${metrics(leg, sort=False, dd_from_zero=False)['max_dd']:,.0f} "
       f"(expected $16,892.71 / 2.45 / -$1,896).\n")
 
     # 2. setups on per-contract bars
-    S, info = build_setups()
+    SS, info = build_setups()
+    S = SS["post"]; Sfree = SS["free"]
     G = [t for t in S if t["graded"]]; U = [t for t in S if not t["graded"]]
     Gc = [t for t in G if t["close_trig"]]
     # split so each half holds ~half the graded triggered trades
@@ -351,7 +418,10 @@ def main():
     H1 = [t for t in Gc if t["date"] <= split]; H2 = [t for t in Gc if t["date"] > split]
     P(f"**Data**: {info['days']} plan days with bars for both ES and NQ ({info['skipped_days']} letter days skipped for lack of one "
       f"instrument's contract bars), {info['trades']} resolved trades ({info['unresolved']} dropped: unresolvable refs / no bars), "
-      f"{info['triggered']} triggered on a 5m close, of which {len(Gc)} graded and {info['triggered'] - len(Gc)} ungraded. Range {S[0]['date']} -> {S[-1]['date']}.")
+      f"{len([t for t in S if t['close_trig']])} triggered on a 5m close after the letter was published, of which {len(Gc)} graded. "
+      f"Range {S[0]['date']} -> {S[-1]['date']}. Corrections vs. the original backtest: sessions start at the letter's publish time "
+      f"when that is after 18:00 ({info['pre_publication']} trades had triggered before their letter existed); the 16:00-16:05 bar is "
+      f"excluded; {info['phantom_break']} break trades whose session opened entirely beyond the zone (entry at a price that never traded) are dropped.")
     P(f"**Halves** (by time, equal graded-trade counts): H1 = {G[0]['date']} -> {split} ({len(H1)} trades), "
       f"H2 = after {split} -> {Gc[-1]['date']} ({len(H2)} trades).\n")
 
@@ -378,9 +448,14 @@ def main():
     bd = per[base]; bd.to_csv("backtest_grid_trades.csv", index=False)
     gb = lambda lab: grid[(grid.cell == base) & (grid.period == lab)].iloc[0].to_dict()
     P("## Baseline (floor 1.5xATR5 | BE 1R | first target >= 1.5R)\n")
+    P(f"{info['days']} plan days ≈ {info['days'] / 21:.1f} trading months → baseline ≈ ${gb('all')['total'] / (info['days'] / 21):,.0f}/month "
+      f"(the original 24-day window ran ≈ $17k/month).\n")
     P(md_table([mrow("all", gb("all")), mrow("H1 (in-sample)", gb("H1")), mrow("H2 (out-of-sample)", gb("H2"))], COLS))
     old = run_cell([t for t in G if LEGACY_DATES[0] <= t["date"] <= LEGACY_DATES[1]], ("floor", 1.5), 1.0, "ge1.5")
     P(f"Same rules on just the original 24-day window, per-contract bars and 2+2-tick slippage: {fmt(metrics(old))}\n")
+    Gf = [t for t in Sfree if t["graded"]]
+    fb_ = run_cell(Gf, ("floor", 1.5), 1.0, "ge1.5")
+    P(f"Without the publish-time correction (sessions from 18:00 as before): {fmt(metrics(fb_))}\n")
 
     # 4. selection on H1, report on H2
     h1 = grid[(grid.period == "H1") & (grid.n >= 30)].copy()
@@ -431,19 +506,45 @@ def main():
         dfc = run_cell(G, spec[0], spec[1], spec[2], spec[3], fill="close")
         dfr = run_cell(G, spec[0], spec[1], spec[2], spec[3], fill="retest")
         dfs = run_cell(G, spec[0], spec[1], spec[2], spec[3], fill="stop_entry")
+        dfo = run_cell(G, spec[0], spec[1], spec[2], spec[3], fill="stop_entry_opt")
         for lab, f_ in (("all", lambda d: d), ("H1", lambda d: d[d.date <= split]), ("H2", lambda d: d[d.date > split])):
-            m = metrics(f_(dfc)); mr = metrics(f_(dfr)); ms = metrics(f_(dfs)); edge = grid[(grid.cell == c) & (grid.period == lab)].iloc[0]
+            m = metrics(f_(dfc)); mr = metrics(f_(dfr)); ms = metrics(f_(dfs)); mo = metrics(f_(dfo)); edge = grid[(grid.cell == c) & (grid.period == lab)].iloc[0]
             fr.append(dict(cell=(c + (" (baseline)" if c == base else "")) if lab == "all" else "   ↳ " + lab,
                            edge=f"n {edge.n:.0f} · {edge.avgR_cap3:+.2f}R · ${edge.total:,.0f}",
                            close_fill=f"n {m['n']} · {m['avgR_cap3']:+.2f}R · ${m['total']:,.0f} · PF {m['pf']:.2f}",
                            retest_fill=f"n {mr['n']} · {mr['avgR_cap3']:+.2f}R · ${mr['total']:,.0f} · PF {mr['pf']:.2f}",
-                           stop_entry=f"n {ms['n']} · {ms['avgR_cap3']:+.2f}R · ${ms['total']:,.0f} · PF {ms['pf']:.2f}"))
-    P(md_table(fr, ["cell", "edge", "close_fill", "retest_fill", "stop_entry"]))
+                           stop_entry=f"n {ms['n']} · {ms['avgR_cap3']:+.2f}R · ${ms['total']:,.0f} · PF {ms['pf']:.2f}",
+                           stop_entry_optimistic=f"{mo['avgR_cap3']:+.2f}R · ${mo['total']:,.0f} · PF {mo['pf']:.2f}"))
+    P(md_table(fr, ["cell", "edge", "close_fill", "retest_fill", "stop_entry", "stop_entry_optimistic"]))
     gap = pd.Series([abs(t["eclose"] - t["e"]) / t["atr5"] for t in Gc])
     P(f"Confirming close beyond the edge: median {gap.median():.2f} ATR5, mean {gap.mean():.2f}, 75th pct {gap.quantile(.75):.2f}. "
       f"Retest = limit at the edge after the close, filled only if price returns to it that session; stop-entry = resting stop "
-      f"order 1 tick through the edge once price has traded into the zone (no close confirmation, so it also takes the failed reclaims) "
+      f"order 1 tick through the edge once price has traded into the zone (no close confirmation, so it also takes the failed reclaims; "
+      f"'conservative' counts the fill bar's adverse extreme against the stop, 'optimistic' assumes it came before the fill) "
       f"({len(run_cell(G, BASE['stop'], 1.0, 'ge1.5', fill='retest'))} of {len(Gc)} graded close-triggers fill).\n")
+
+    # 5c. does ANY management cell work with an executable fill?
+    P("## Full grid re-run with executable fills (selection on H1, report H2)\n")
+    frows = []
+    for fill in ("close", "stop_entry"):
+        for (s_, b_, tg_, p_) in cells:
+            d = run_cell(G, s_, b_, tg_, p_, fill=fill)
+            if len(d) == 0: continue
+            for lab, sub in (("all", d), ("H1", d[d.date <= split]), ("H2", d[d.date > split])):
+                m = metrics(sub); m.update(cell=cell_name(s_, b_, tg_, p_), period=lab, fill=fill); frows.append(m)
+    fg = pd.DataFrame(frows); fg.to_csv("backtest_grid_fills.csv", index=False)
+    for fill, label in (("close", "market at the confirming close"), ("stop_entry", "resting stop order 1 tick through the edge")):
+        f1 = fg[(fg.fill == fill) & (fg.period == "H1") & (fg.n >= 30)].sort_values("avgR_cap3", ascending=False).head(5)
+        f2 = fg[(fg.fill == fill) & (fg.period == "H2")].set_index("cell")
+        fa = fg[(fg.fill == fill) & (fg.period == "all")].set_index("cell")
+        rr = []
+        for _, r in f1.iterrows():
+            rr.append(mrow(r.cell + " — H1", r.to_dict())); rr.append(mrow("   ↳ H2", f2.loc[r.cell].to_dict()))
+        bb = fg[(fg.fill == fill) & (fg.cell == base)].set_index("period")
+        rr.append(mrow("BASELINE — H1", bb.loc["H1"].to_dict())); rr.append(mrow("   ↳ H2", bb.loc["H2"].to_dict()))
+        pos = int(((fa.avgR_cap3 > 0) & (fa.n >= 100)).sum())
+        P(f"**Fill = {label}** — {pos} of {len(fa)} cells have positive capped avg R over the whole sample.\n")
+        P(md_table(rr, COLS))
 
     # 6. slices of the baseline
     P("## Baseline slices\n")
