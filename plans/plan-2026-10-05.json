@@ -290,7 +290,7 @@
    "tag": "A/A-",
    "gate": "LBAF of 30988 with 951-969 right underneath",
    "tgt": "056-069 → 125-143 → 199-204",
-   "stop": "STOP 30945 (43 pts) · his fail 30906 (82 pts) · MNQ 5/11 vs 3/6 @ $500/$1k",
+   "stop": "persistent weakness below 951-969 → 869-906 next",
    "quote": "Long a LBAF of Friday's low is an A/A-",
    "unsure": false,
    "decision": null,
@@ -321,7 +321,22 @@
     ]
    },
    "chart": "/_blob/c10d2c572fd575e92bd79113d938e49c",
-   "chart_id": "c10d2c572fd575e92bd79113d938e49c"
+   "chart_id": "c10d2c572fd575e92bd79113d938e49c",
+   "risk": {
+    "stop": "30945",
+    "stop_pts": "43",
+    "his": "30906",
+    "his_pts": "82",
+    "mic": "MNQ",
+    "ours": [
+     5,
+     11
+    ],
+    "his_n": [
+     3,
+     6
+    ]
+   }
   },
   {
    "id": "nq2",
@@ -331,7 +346,7 @@
    "tag": "B+/A-",
    "gate": "fail or LAAF of 125-143, up to ~156",
    "tgt": "056-069 → Friday's low 30988",
-   "stop": "STOP 31168 (43 pts) · his fail 31204 (79 pts) · MNQ 5/11 vs 3/6 @ $500/$1k",
+   "stop": "firm reclaim of 125-143 → 199-204",
    "quote": "Short a fail/LAAF of 125-143 is a B+/A-",
    "unsure": false,
    "decision": null,
@@ -355,7 +370,22 @@
     ]
    },
    "chart": "/_blob/6a77114d72c24f33ac861676f48ec857",
-   "chart_id": "6a77114d72c24f33ac861676f48ec857"
+   "chart_id": "6a77114d72c24f33ac861676f48ec857",
+   "risk": {
+    "stop": "31168",
+    "stop_pts": "43",
+    "his": "31204",
+    "his_pts": "79",
+    "mic": "MNQ",
+    "ours": [
+     5,
+     11
+    ],
+    "his_n": [
+     3,
+     6
+    ]
+   }
   },
   {
    "id": "nq3",
@@ -365,7 +395,7 @@
    "tag": "implied",
    "gate": "reaction at 30869-30906, the Thu→Fri RTH gap; supportive on first test",
    "tgt": "Friday's low 30988 (required reclaim) → 056-069 → 125-143",
-   "stop": "STOP 30863 (43 pts) · his fail 30846 (60 pts) · MNQ 5/11 vs 4/8 @ $500/$1k",
+   "stop": "869-906 doesn't hold → liquidation break risk",
    "quote": "Otherwise we would then look to 869-906 to possibly provide a gap fill reversal which would need to reclaim Friday's low to see 056-069 and 125-143.",
    "unsure": true,
    "decision": null,
@@ -389,7 +419,22 @@
     ]
    },
    "chart": "/_blob/1fb7a1b3a81d16d2869f8ea28ffc6954",
-   "chart_id": "1fb7a1b3a81d16d2869f8ea28ffc6954"
+   "chart_id": "1fb7a1b3a81d16d2869f8ea28ffc6954",
+   "risk": {
+    "stop": "30863",
+    "stop_pts": "43",
+    "his": "30846",
+    "his_pts": "60",
+    "mic": "MNQ",
+    "ours": [
+     5,
+     11
+    ],
+    "his_n": [
+     4,
+     8
+    ]
+   }
   },
   {
    "id": "es1",
@@ -399,7 +444,7 @@
    "tag": "B/B-",
    "gate": "persistent weakness below 7780-84; even better a quick LAAF of the 7784.5 after-bell high",
    "tgt": "IB low 7773.5 → 63-65 → Friday's low 7754",
-   "stop": "STOP 7788.5 (8.5 pts) · his fail 7794 (14 pts) · MES 11/23 vs 7/14 @ $500/$1k",
+   "stop": "firm reclaim of 7790-94",
    "quote": "Short any persistent weakness below 80-84 inclusive (and perhaps even better) a quick LAAF of the 84.5 high from after the bell. B/B-",
    "unsure": false,
    "decision": null,
@@ -424,7 +469,22 @@
     ]
    },
    "chart": "/_blob/b92a03511fd31ff6f6240e5b35580a87",
-   "chart_id": "b92a03511fd31ff6f6240e5b35580a87"
+   "chart_id": "b92a03511fd31ff6f6240e5b35580a87",
+   "risk": {
+    "stop": "7788.5",
+    "stop_pts": "8.5",
+    "his": "7794",
+    "his_pts": "14",
+    "mic": "MES",
+    "ours": [
+     11,
+     23
+    ],
+    "his_n": [
+     7,
+     14
+    ]
+   }
   },
   {
    "id": "es2",
@@ -434,7 +494,7 @@
    "tag": "B/B-",
    "gate": "LBAF of 7763-65, at minimum of the 7765.5 low from 1:25",
    "tgt": "IB low 7773.5 → 80-84",
-   "stop": "STOP 7757 (8.5 pts) · his fail 7754 (11.5 pts) · MES 11/23 vs 8/17 @ $500/$1k",
+   "stop": "no LBAF → Friday's low 7754 in play",
    "quote": "Long a LBAF of 63-65 (at least the 65.5 pullback low from 1:25) is a B/B-",
    "unsure": false,
    "decision": null,
@@ -458,7 +518,22 @@
     ]
    },
    "chart": "/_blob/19a12d5eef6e2810199f2bc286dc2dc4",
-   "chart_id": "19a12d5eef6e2810199f2bc286dc2dc4"
+   "chart_id": "19a12d5eef6e2810199f2bc286dc2dc4",
+   "risk": {
+    "stop": "7757",
+    "stop_pts": "8.5",
+    "his": "7754",
+    "his_pts": "11.5",
+    "mic": "MES",
+    "ours": [
+     11,
+     23
+    ],
+    "his_n": [
+     8,
+     17
+    ]
+   }
   },
   {
    "id": "es3",
@@ -468,7 +543,7 @@
    "tag": "B",
    "gate": "LBAF of 7754 (on the 7747-54 weekly)",
    "tgt": "63-65 → 73.5 → 80-84 if 63-65 reclaimed",
-   "stop": "STOP 7745.5 (8.5 pts) · his fail 7740 (14 pts) · MES 11/23 vs 7/14 @ $500/$1k",
+   "stop": "below 7740-41 → liquidation break toward 7706-12",
    "quote": "Long a LBAF of Friday's low is a B",
    "unsure": false,
    "decision": null,
@@ -496,7 +571,22 @@
     ]
    },
    "chart": "/_blob/bf244c2c6108057b0078f357b61765e9",
-   "chart_id": "bf244c2c6108057b0078f357b61765e9"
+   "chart_id": "bf244c2c6108057b0078f357b61765e9",
+   "risk": {
+    "stop": "7745.5",
+    "stop_pts": "8.5",
+    "his": "7740",
+    "his_pts": "14",
+    "mic": "MES",
+    "ours": [
+     11,
+     23
+    ],
+    "his_n": [
+     7,
+     14
+    ]
+   }
   },
   {
    "id": "es4",
@@ -506,7 +596,7 @@
    "tag": "B-",
    "gate": "LAAF of 7810.25 into 7815-22",
    "tgt": "90-91 → 80-84 from above; bearish engulfing likely if 80-84 breaks",
-   "stop": "STOP 7818.75 (8.5 pts) · his fail 7827 (16.75 pts) · MES 11/23 vs 5/11 @ $500/$1k",
+   "stop": "sustaining above 7815-22 / comfort above 26-27",
    "quote": "Short a LAAF of Friday's high is a B-",
    "unsure": false,
    "decision": null,
@@ -533,7 +623,22 @@
     ]
    },
    "chart": "/_blob/40db6e21d7ba24e3ba31750cb752a931",
-   "chart_id": "40db6e21d7ba24e3ba31750cb752a931"
+   "chart_id": "40db6e21d7ba24e3ba31750cb752a931",
+   "risk": {
+    "stop": "7818.75",
+    "stop_pts": "8.5",
+    "his": "7827",
+    "his_pts": "16.75",
+    "mic": "MES",
+    "ours": [
+     11,
+     23
+    ],
+    "his_n": [
+     5,
+     11
+    ]
+   }
   },
   {
    "id": "es5",
@@ -543,7 +648,7 @@
    "tag": "implied",
    "gate": "reaction at 7740-7741.25 (Thursday's spike base/high), the Thu→Fri RTH gap",
    "tgt": "reclaim Friday's low 7754 → 63-65",
-   "stop": "STOP 7732.75 (8.5 pts) · his fail 7726 (15.25 pts) · MES 11/23 vs 6/13 @ $500/$1k",
+   "stop": "below 7740 → liquidation break to 7706-12",
    "quote": "I went ahead and added 7740-7741 as a daily level representing Thursday's spike where we can monitor for a gap fill reversal to reclaim Friday's low as well.",
    "unsure": true,
    "decision": null,
@@ -567,7 +672,22 @@
     ]
    },
    "chart": "/_blob/2a1bbf793027c221cf50c510bd8fc5fa",
-   "chart_id": "2a1bbf793027c221cf50c510bd8fc5fa"
+   "chart_id": "2a1bbf793027c221cf50c510bd8fc5fa",
+   "risk": {
+    "stop": "7732.75",
+    "stop_pts": "8.5",
+    "his": "7726",
+    "his_pts": "15.25",
+    "mic": "MES",
+    "ours": [
+     11,
+     23
+    ],
+    "his_n": [
+     6,
+     13
+    ]
+   }
   }
  ]
 }
