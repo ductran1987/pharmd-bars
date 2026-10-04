@@ -1,0 +1,227 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-15",
+ "status": "transcribed",
+ "ref_date_note": "Contract-roll night (TradingView rolls Sep->Dec after this letter; author says he is moving to ESZ only). Only one set of numbers given; they match the Z (Dec) contract levels used in the following days' letters (7719.75/7720.75 = the 7720-7721 Z level; NQ 604.5 Monday high referenced later as Z), so numbers are treated as Z (Dec). nq3 'LAAF of today's high +/- Friday's low (gap fill reversal)' gated as [29604.5, 29626] since both numbers are given. 'the 530s' honorable mention recorded as 29530-29539. 'Two way trading between 248.5 and today's high otherwise' skipped as generic (no trade/grade).",
+ "zones": {
+  "ES": [
+   [
+    7719.75,
+    7720.75
+   ],
+   [
+    7662.25,
+    7662.25
+   ],
+   [
+    7653,
+    7656
+   ],
+   [
+    7650.75,
+    7650.75
+   ],
+   [
+    7682,
+    7685
+   ],
+   [
+    7706,
+    7712
+   ],
+   [
+    7749,
+    7752
+   ]
+  ],
+  "NQ": [
+   [
+    29428.5,
+    29428.5
+   ],
+   [
+    29379,
+    29428
+   ],
+   [
+    29338,
+    29369
+   ],
+   [
+    29604.5,
+    29604.5
+   ],
+   [
+    29626,
+    29626
+   ],
+   [
+    29615,
+    29645
+   ],
+   [
+    29530,
+    29539
+   ],
+   [
+    29265,
+    29285
+   ],
+   [
+    29221,
+    29246
+   ],
+   [
+    29194,
+    29194
+   ],
+   [
+    29107.5,
+    29107.5
+   ],
+   [
+    28927,
+    28927
+   ],
+   [
+    29248.5,
+    29248.5
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of 29428.5",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "Long a LBAF of 428.5 on NQ is a B/B+",
+   "kind": "fade",
+   "gate": [
+    29428.5,
+    29428.5
+   ],
+   "tgt": [
+    [
+     29530,
+     29539
+    ],
+    29604.5,
+    29626
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold of 29338-29369",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "Long a hold of 338-369 is a B/B+",
+   "kind": "fade",
+   "gate": [
+    29338,
+    29369
+   ],
+   "tgt": [
+    29428.5,
+    [
+     29530,
+     29539
+    ],
+    29604.5
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LAAF of today's high (29604.5) / Friday's low (29626) gap-fill reversal",
+   "dir": "short",
+   "tag": "B/B+",
+   "quote": "Short a LAAF of today’s high +/- Friday’s low *gap fill reversal) is a B/B+",
+   "kind": "fade",
+   "gate": [
+    29604.5,
+    29626
+   ],
+   "tgt": [
+    [
+     29530,
+     29539
+    ],
+    29428.5
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold of 7682-7685",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a hold of 7682-7685 is a B/B-",
+   "kind": "fade",
+   "gate": [
+    7682,
+    7685
+   ],
+   "tgt": [
+    [
+     7706,
+     7712
+    ],
+    [
+     7719.75,
+     7720.75
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Persistent weakness below 7706-7712",
+   "dir": "short",
+   "tag": "B-/C+",
+   "quote": "Short persistent weakness below 7706-7712 looking for 7682-7685 is a B-/C+",
+   "kind": "break",
+   "gate": [
+    7706,
+    7712
+   ],
+   "tgt": [
+    [
+     7682,
+     7685
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LAAF of today's high (7719.75) / Friday's low (7720.75)",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "Short a LAAF of today’s high / Friday’s low is a B/B-",
+   "kind": "fade",
+   "gate": [
+    7719.75,
+    7720.75
+   ],
+   "tgt": [
+    [
+     7706,
+     7712
+    ],
+    [
+     7682,
+     7685
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,294 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-25",
+ "status": "transcribed",
+ "ref_date_note": "Z (Dec) contract. Letter says 'ES is less clean than NQ for sure'. ES today's high given as the 7783-7787 range -> es3 gated [7783,7787]; ES today's low not given numerically -> es2 target / es4 gate use RTH_LOW. NQ today's high 30827.5 given -> nq2 gated on number; NQ today's low not given -> nq3 gated RTH_LOW. 'targeting roughly 600' -> 30600. APBL given as 30622 (kept as level; the LBAF-of-APBL idea is commentary only, not in TRADES). Unfilled ES gap 7718.25-7725.25 kept as a zone. nq1 targets 30760, Tuesday's low 30763.5, then 808-823.",
+ "zones": {
+  "ES": [
+   [
+    7917,
+    7920
+   ],
+   [
+    7893,
+    7896
+   ],
+   [
+    7800,
+    7803
+   ],
+   [
+    7805.5,
+    7805.5
+   ],
+   [
+    7758,
+    7759
+   ],
+   [
+    7696,
+    7699
+   ],
+   [
+    7749,
+    7752
+   ],
+   [
+    7783,
+    7787
+   ],
+   [
+    7765,
+    7769
+   ],
+   [
+    7817,
+    7820
+   ],
+   [
+    7826,
+    7826
+   ],
+   [
+    7822,
+    7822
+   ],
+   [
+    7846,
+    7849
+   ],
+   [
+    7716,
+    7721
+   ],
+   [
+    7718.25,
+    7725.25
+   ]
+  ],
+  "NQ": [
+   [
+    31269,
+    31288
+   ],
+   [
+    31125,
+    31143
+   ],
+   [
+    31056,
+    31069
+   ],
+   [
+    30969,
+    30984
+   ],
+   [
+    30869,
+    30885
+   ],
+   [
+    30639,
+    30669
+   ],
+   [
+    30622,
+    30622
+   ],
+   [
+    30701,
+    30744
+   ],
+   [
+    30760,
+    30760
+   ],
+   [
+    30763.5,
+    30763.5
+   ],
+   [
+    30808,
+    30823
+   ],
+   [
+    30827.5,
+    30827.5
+   ],
+   [
+    30600,
+    30600
+   ],
+   [
+    30546,
+    30600
+   ],
+   [
+    30444,
+    30469
+   ],
+   [
+    30369,
+    30391
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 30639-30669",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "Long a hold or LBAF of 30639-30669 is an A/A-",
+   "kind": "fade",
+   "gate": [
+    30639,
+    30669
+   ],
+   "tgt": [
+    30760,
+    30763.5,
+    [
+     30808,
+     30823
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of today's high (30827.5)",
+   "dir": "short",
+   "tag": "B/B+",
+   "quote": "Short a LAAF of today’s high (technically includes a fail of 808-823 but better as a LAAF) targeting 639-669 is a B/B+. Monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    30827.5,
+    30827.5
+   ],
+   "tgt": [
+    [
+     30639,
+     30669
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a LBAF of today’s low targeting roughly 600 is a B/B-",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    30600
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of 7749-7752",
+   "dir": "long",
+   "tag": "C+/B-",
+   "quote": "Long a LBAF of 7749-7752 (kind of should be a LBAF and not a hold since it has now held twice). This is tricky because 58-59 needs to reclaim as well so I’ll rate it a C+/B-",
+   "kind": "fade",
+   "gate": [
+    7749,
+    7752
+   ],
+   "tgt": [
+    [
+     7758,
+     7759
+    ],
+    [
+     7765,
+     7769
+    ],
+    [
+     7783,
+     7787
+    ]
+   ],
+   "stop_hint": "58-59 needs to reclaim as well"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Persistent weakness below 7749-7752",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "For once I would actually rate a short on persistent weakness below 7749-7752 higher than the above as a B/B-. A clear session downtrend below there should resolve to today’s low.",
+   "kind": "break",
+   "gate": [
+    7749,
+    7752
+   ],
+   "tgt": [
+    "RTH_LOW",
+    [
+     7716,
+     7721
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LAAF of today's high (7783-7787)",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "Short a LAAF of today’s high targeting 65-69, 58-59, and 49-52 is a B-. Monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    7783,
+    7787
+   ],
+   "tgt": [
+    [
+     7765,
+     7769
+    ],
+    [
+     7758,
+     7759
+    ],
+    [
+     7749,
+     7752
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LBAF of today's low, ideally holding 7716-7721",
+   "dir": "long",
+   "tag": "B+/A-",
+   "quote": "Long a LBAF of today’s low, ideally holding 7716-7721 is a B+/A- with 49-52 as the first target. Monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     7749,
+     7752
+    ]
+   ],
+   "stop_hint": "ideally holding 7716-7721"
+  }
+ ]
+}

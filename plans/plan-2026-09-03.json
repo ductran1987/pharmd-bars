@@ -1,0 +1,282 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-03",
+ "status": "transcribed",
+ "ref_date_note": "P-profile day; today's high not given numerically on either index (RTH_HIGH). ES today's open 7650.5 and low 7643 given; NQ 11am low 29106.25 and open 29098.75 given. 'Lower high below' shorts classified as break trades.",
+ "zones": {
+  "ES": [
+   [
+    7800,
+    7800
+   ],
+   [
+    7670,
+    7673
+   ],
+   [
+    7603,
+    7606
+   ],
+   [
+    7677,
+    7680
+   ],
+   [
+    7649,
+    7656
+   ],
+   [
+    7657,
+    7660
+   ],
+   [
+    7686,
+    7687
+   ],
+   [
+    7706,
+    7712
+   ],
+   [
+    7650.5,
+    7650.5
+   ],
+   [
+    7643,
+    7643
+   ],
+   [
+    7618,
+    7625
+   ],
+   [
+    7635,
+    7638
+   ],
+   [
+    7633,
+    7633
+   ]
+  ],
+  "NQ": [
+   [
+    29623,
+    29636
+   ],
+   [
+    29290,
+    29300
+   ],
+   [
+    29120,
+    29130
+   ],
+   [
+    29106.25,
+    29106.25
+   ],
+   [
+    29098.75,
+    29098.75
+   ],
+   [
+    29203,
+    29241
+   ],
+   [
+    29225,
+    29225
+   ],
+   [
+    29230,
+    29230
+   ],
+   [
+    29138,
+    29155
+   ],
+   [
+    29318,
+    29355
+   ],
+   [
+    29338,
+    29369
+   ],
+   [
+    29038,
+    29069
+   ],
+   [
+    28944,
+    28969
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "Short a LAAF of today’s high is a B/B-, targeting 138-155 and 120-130. Monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    [
+     29138,
+     29155
+    ],
+    [
+     29120,
+     29130
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Lower high below 29120-29130",
+   "dir": "short",
+   "tag": "B-/C+",
+   "quote": "Short a lower high below 120-130 is risky so I can’t rate it higher than a B-/C+ but is valid.",
+   "kind": "break",
+   "gate": [
+    29120,
+    29130
+   ],
+   "tgt": [
+    29106.25,
+    29098.75,
+    [
+     29038,
+     29069
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of 29120-29130",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "Long a LBAF of 120-130 can also be tricky but is valid. B-",
+   "kind": "fade",
+   "gate": [
+    29120,
+    29130
+   ],
+   "tgt": [
+    [
+     29138,
+     29155
+    ],
+    "RTH_HIGH"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Hold of 29038-29069",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "Long a hold of 29038-29069, ideally in the upper portion of that range and potentially as high as today’s open. This is also a bit risky as it would need to reclaim 120-130 and 138-155. The potential reward is enormous but the risk of a complete P-breakdown will be prevalent. I’ll rate it a B- as well.",
+   "kind": "fade",
+   "gate": [
+    29038,
+    29069
+   ],
+   "tgt": [
+    [
+     29120,
+     29130
+    ],
+    [
+     29138,
+     29155
+    ]
+   ],
+   "stop_hint": "ideally in the upper portion of that range and potentially as high as today’s open. This is also a bit risky as it would need to reclaim 120-130 and 138-155."
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "Short a LAAF of today’s high is a B-",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    [
+     7677,
+     7680
+    ],
+    [
+     7670,
+     7673
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Lower high below 7670-7673",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "Short a lower high below 7670-7673 is a B/B-",
+   "kind": "break",
+   "gate": [
+    7670,
+    7673
+   ],
+   "tgt": [
+    [
+     7649,
+     7656
+    ],
+    7643
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold of 7649-7656",
+   "dir": "long",
+   "tag": "B",
+   "quote": "Long a hold of 7649-7656, ideally 53-54 holds at worst and potentially as high as 57-60. Like for NQ this is risky in the face of a P-breakdown but has significant upside potential if it turns out to be a higher low for a trip to 7706-7712 and potentially more. I’ll therefore rate it a B.",
+   "kind": "fade",
+   "gate": [
+    7649,
+    7656
+   ],
+   "tgt": [
+    [
+     7670,
+     7673
+    ],
+    [
+     7677,
+     7680
+    ],
+    [
+     7706,
+     7712
+    ]
+   ],
+   "stop_hint": "ideally 53-54 holds at worst and potentially as high as 57-60"
+  }
+ ]
+}

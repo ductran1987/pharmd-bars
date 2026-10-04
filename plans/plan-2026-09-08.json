@@ -1,0 +1,248 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-08",
+ "status": "transcribed",
+ "ref_date_note": "Letter sent Sunday 9/6 for the Labor Day week: futures trade Sunday night into a shortened holiday session Mon 9/7 and the plan covers through Tuesday 9/8's cash session; written off Friday 9/4's range, so 'Friday's low/high' = FRI_LOW/FRI_HIGH (9/4). ES ARH written as '7535.25' is an obvious typo for 7735.25 (recorded as 7735.25). NQ demand '430-737' taken as 29430-29437. es3 grade written 'A/-A-' recorded as 'A/A-'. Ungraded 'implied' NQ short of fail/LAAF of 544-554 included as nq4 with tag '' since it names a level. 'If we trade below 7706-7712 I don't care to look for longs' is not a trade and was skipped.",
+ "zones": {
+  "ES": [
+   [
+    7800,
+    7800
+   ],
+   [
+    7736,
+    7739
+   ],
+   [
+    7727,
+    7730
+   ],
+   [
+    7700,
+    7700
+   ],
+   [
+    7691,
+    7691
+   ],
+   [
+    7735,
+    7740
+   ],
+   [
+    7706,
+    7712
+   ],
+   [
+    7735.25,
+    7735.25
+   ],
+   [
+    7749,
+    7752
+   ]
+  ],
+  "NQ": [
+   [
+    29643,
+    29643
+   ],
+   [
+    29596,
+    29596
+   ],
+   [
+    29544,
+    29554
+   ],
+   [
+    29448,
+    29469
+   ],
+   [
+    29706,
+    29735
+   ],
+   [
+    29420,
+    29441
+   ],
+   [
+    29430,
+    29437
+   ],
+   [
+    29338,
+    29369
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "A",
+   "quote": "Long a LBAF of Friday’s low is a solid A.",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    [
+     29448,
+     29469
+    ],
+    [
+     29544,
+     29554
+    ],
+    29596
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Reactive bid in 29338-29369",
+   "dir": "long",
+   "tag": "B",
+   "quote": "While it is difficult to plan for a long ahead of time below a prior day low, I mentioned the 338-369 level in the weekly plan. I’m happy to get long if those pop sellers have turned into dip buyers and we get a reactive bid. Given it is below Friday’s low I don’t plan to just bid it directly, but am ready to react if indicated. I’ll rate it a B.",
+   "kind": "fade",
+   "gate": [
+    29338,
+    29369
+   ],
+   "tgt": [
+    [
+     29420,
+     29441
+    ],
+    [
+     29448,
+     29469
+    ]
+   ],
+   "stop_hint": "Given it is below Friday’s low I don’t plan to just bid it directly, but am ready to react if indicated."
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LAAF of 29596",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "Short a LAAF of 596 is a B-",
+   "kind": "fade",
+   "gate": [
+    29596,
+    29596
+   ],
+   "tgt": [
+    [
+     29544,
+     29554
+    ],
+    [
+     29448,
+     29469
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 29544-29554",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorting a fail/LAAF of 544-554 is implied in the commentary but I’m more likely to look to ES in this situation.",
+   "kind": "fade",
+   "gate": [
+    29544,
+    29554
+   ],
+   "tgt": [
+    [
+     29448,
+     29469
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7727-7730",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short a fail/LAAF of 7727-7730 is an A/A-",
+   "kind": "fade",
+   "gate": [
+    7727,
+    7730
+   ],
+   "tgt": [
+    [
+     7706,
+     7712
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7736-7739",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Short a fail/LAAF of 7736-7739 is a B+/A- and the only reason it isn’t higher is because it needs to turn into a LAAF of 27-30 for the trade to do much.",
+   "kind": "fade",
+   "gate": [
+    7736,
+    7739
+   ],
+   "tgt": [
+    [
+     7727,
+     7730
+    ],
+    [
+     7706,
+     7712
+    ]
+   ],
+   "stop_hint": "it needs to turn into a LAAF of 27-30 for the trade to do much"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "Long a LBAF of Friday’s low is an A/-A-",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    [
+     7727,
+     7730
+    ],
+    7735.25,
+    [
+     7736,
+     7739
+    ],
+    [
+     7749,
+     7752
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

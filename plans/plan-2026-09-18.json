@@ -1,0 +1,328 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-18",
+ "status": "transcribed",
+ "ref_date_note": "Post-FOMC overnight rally day. All numbers are Z (Dec) contract. Letter has a typo '7720-7751 level' read as 7720-7721. ES today's low not given numerically (held at 7682-7685) -> es1 gated RTH_LOW. NQ today's low given as 29605.75 -> nq5/nq6 gated on that number. Ungraded NQ breakdown short below today's low ('less likely ... but it is valid') included as nq6 with tag ''. 'roughly 30040s' recorded as [30040,30049]; 30069 kept separately. nq2 'persistent failures of 762.5' treated as fade.",
+ "zones": {
+  "ES": [
+   [
+    7733,
+    7734
+   ],
+   [
+    7720,
+    7721
+   ],
+   [
+    7696,
+    7699
+   ],
+   [
+    7669,
+    7669
+   ],
+   [
+    7603,
+    7606
+   ],
+   [
+    7682,
+    7685
+   ],
+   [
+    7749,
+    7752
+   ],
+   [
+    7706,
+    7712
+   ],
+   [
+    7722,
+    7722
+   ],
+   [
+    7713.5,
+    7713.5
+   ],
+   [
+    7653,
+    7656
+   ],
+   [
+    7648,
+    7648
+   ],
+   [
+    7661,
+    7661
+   ]
+  ],
+  "NQ": [
+   [
+    29762.5,
+    29762.5
+   ],
+   [
+    29689,
+    29698
+   ],
+   [
+    29200,
+    29221
+   ],
+   [
+    29800,
+    29820
+   ],
+   [
+    30040,
+    30049
+   ],
+   [
+    30069,
+    30069
+   ],
+   [
+    29793.25,
+    29793.25
+   ],
+   [
+    29753,
+    29753
+   ],
+   [
+    29737,
+    29737
+   ],
+   [
+    29615,
+    29645
+   ],
+   [
+    29605.75,
+    29605.75
+   ],
+   [
+    29604.5,
+    29604.5
+   ],
+   [
+    29469,
+    29469
+   ],
+   [
+    29550,
+    29550
+   ],
+   [
+    29338,
+    29369
+   ],
+   [
+    29932,
+    29969
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 29689-29698",
+   "dir": "long",
+   "tag": "A-/B+",
+   "quote": "Long a hold or LBAF of 689-698, targeting 737 is an A-/B+",
+   "kind": "fade",
+   "gate": [
+    29689,
+    29698
+   ],
+   "tgt": [
+    29737
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Persistent failures of 29762.5",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "Shorting persistent failures of 762.5 is a B/B-",
+   "kind": "fade",
+   "gate": [
+    29762.5,
+    29762.5
+   ],
+   "tgt": [
+    [
+     29689,
+     29698
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Weakness below 29689-29698",
+   "dir": "short",
+   "tag": "C+/B-",
+   "quote": "Shorting weakness below 689-698 is a C+/B-",
+   "kind": "break",
+   "gate": [
+    29689,
+    29698
+   ],
+   "tgt": [
+    [
+     29615,
+     29645
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Hold of 29615-29645",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a hold of 615-645 is a B/B-",
+   "kind": "fade",
+   "gate": [
+    29615,
+    29645
+   ],
+   "tgt": [
+    [
+     29689,
+     29698
+    ],
+    29737
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "LBAF of today's low (29605.75)",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a LBAF of today’s low is a B/B- but it really needs to be firm back above 615-645.",
+   "kind": "fade",
+   "gate": [
+    29605.75,
+    29605.75
+   ],
+   "tgt": [
+    [
+     29615,
+     29645
+    ],
+    [
+     29689,
+     29698
+    ]
+   ],
+   "stop_hint": "it really needs to be firm back above 615-645."
+  },
+  {
+   "id": "nq6",
+   "instrument": "NQ",
+   "name": "Breakdown short below today's low (29605.75)",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’m less likely to take a breakdown short below today’s low on NQ as compared to ES but it is valid.",
+   "kind": "break",
+   "gate": [
+    29605.75,
+    29605.75
+   ],
+   "tgt": [
+    29550,
+    29469,
+    [
+     29338,
+     29369
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "Long a LBAF of today’s low is a B/B+",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     7682,
+     7685
+    ],
+    [
+     7696,
+     7699
+    ],
+    [
+     7706,
+     7712
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Lower high below 7682-7685 and today's low",
+   "dir": "short",
+   "tag": "B/B+",
+   "quote": "Short a lower high below 7682-7685 and today’s low is a B/B+. I hate breakdown shorts but this simply has too much potential to puke to ignore it.",
+   "kind": "break",
+   "gate": [
+    7682,
+    7685
+   ],
+   "tgt": [
+    7669,
+    [
+     7653,
+     7656
+    ],
+    7648
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LAAF of 7722 premarket high",
+   "dir": "short",
+   "tag": "C+/B-",
+   "quote": "Short a LAAF of the 7722 premarket high is risky as 7706-7712 needs to flip back to resistance so I’ll rate it a C+/B-",
+   "kind": "fade",
+   "gate": [
+    7722,
+    7722
+   ],
+   "tgt": [
+    [
+     7706,
+     7712
+    ],
+    [
+     7696,
+     7699
+    ]
+   ],
+   "stop_hint": "risky as 7706-7712 needs to flip back to resistance"
+  }
+ ]
+}

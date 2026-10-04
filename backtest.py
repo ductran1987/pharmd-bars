@@ -8,7 +8,7 @@ reported alongside for comparison.
 """
 import json, sys, glob
 import numpy as np, pandas as pd
-import charts, stops
+import charts, stops, plan_refs
 tz = "America/New_York"
 
 
@@ -29,7 +29,7 @@ def run_trade(bars, pt):
     Breakout (persistent weakness/strength, breakdown): price is at the gate, then a 5m close through its far side
     -> entry at the far edge; level = the extreme of the bounce against the trade before the break."""
     d = pt["dir"]; L = pt["levels"]; gate = sorted(L["gate"]); sgn = 1 if d == "long" else -1
-    kind = "break" if BREAK.search(pt["name"] + " " + pt.get("gate", "")) else "fade"
+    kind = pt.get("kind") or ("break" if BREAK.search(pt["name"] + " " + str(pt.get("gate", ""))) else "fade")
     tg = [(min(t) if d == "long" else max(t)) if isinstance(t, (list, tuple)) else t for t in L["tgt"]]
     H, Lo, C = bars.High.values, bars.Low.values, bars.Close.values
     if kind == "fade":
@@ -70,65 +70,69 @@ def run_trade(bars, pt):
 def main(paths):
     rows = []
     for f in paths:
-        p = json.load(open(f)); date = p["date"]
+        p, trades = plan_refs.load_plan(f); date = p["date"]
         A = {}; D = {}
-        for pt in p["trades"]:
+        for pt in trades:
             s = pt["instrument"]
             if s not in A: A[s] = stops.analyze(s, date); D[s] = session(charts.load(s), date)
             r = run_trade(D[s], pt)
-            r.update(date=date, id=pt["id"], sym=s, dir=pt["dir"], name=pt["name"][:40], atr5=A[s]["atr5"], atr15=A[s]["atr15"])
+            r.update(date=date, id=pt["id"], sym=s, dir=pt["dir"], name=pt["name"][:40], tag=pt.get("tag", ""), graded=bool(pt.get("tag")), atr5=A[s]["atr5"], atr15=A[s]["atr15"])
             rows.append(r)
     df = pd.DataFrame(rows)
-    pd.set_option("display.width", 220); pd.set_option("display.max_columns", 30)
-    trig = df[df.triggered == True].copy(); trig["target_hit"] = trig.target_hit.astype(bool)
-    trig["mae_atr15"] = trig.mae / trig.atr15
-    trig["past_far_atr5"] = trig.past_far / trig.atr5
-    trig["past_far_atr15"] = trig.past_far / trig.atr15
-    print(f"{len(df)} trades, {len(trig)} triggered, {int(trig.target_hit.sum())} hit target 1 after triggering\n")
-    cols = ["date", "id", "dir", "kind", "entry", "far", "tx_level", "t1", "target_hit", "worst", "mae", "past_far", "past_far_atr5", "past_far_atr15", "mfe"]
-    print(trig[cols].round(2).to_string(index=False))
-    w = trig[trig.target_hit]
-    print("\n--- winners (target 1 hit): excursion PAST the structural level (fade: sweep extreme · break: zone far side) ---")
-    for q in (50, 75, 90, 100):
-        print(f"  p{q}: {np.percentile(w.past_far, q):6.2f} pts  = {np.percentile(w.past_far_atr5, q):.2f} ATR5 = {np.percentile(w.past_far_atr15, q):.2f} ATR15")
-    print(f"  winners that never went past the sweep extreme: {(w.past_far <= 0).sum()} / {len(w)}")
-    print("\n--- stop rules: winners kept / losers cut (loser = target 1 never hit) ---")
-    def floored(k):   # one tick past the sweep extreme, but never closer than k × ATR5 to the zone's edge
-        def f(r):
-            sgn = -1 if r.dir == "long" else 1
-            edge = r.entry   # fade: entry edge; break: far side already (level == entry edge's opposite) -> same floor from entry
-            tick = r.far + sgn * 0.25; fl = edge + sgn * k * r.atr5
-            return min(tick, fl) if r.dir == "long" else max(tick, fl)
-        return f
-    rules = [("tick past sweep extreme", lambda r: r.far + (-0.25 if r.dir == "long" else 0.25)),
-             ("sweep, floor 1.0 ATR5 from edge", floored(1.0)),
-             ("sweep, floor 1.5 ATR5 from edge", floored(1.5)),
-             ("sweep, floor 2.0 ATR5 from edge", floored(2.0)),
-             ("sweep − 0.1 ATR5", lambda r: r.far + (-1 if r.dir == "long" else 1) * 0.1 * r.atr5),
-             ("sweep − 0.25 ATR5", lambda r: r.far + (-1 if r.dir == "long" else 1) * 0.25 * r.atr5),
-             ("sweep − 0.5 ATR5", lambda r: r.far + (-1 if r.dir == "long" else 1) * 0.5 * r.atr5),
-             ("sweep − 0.25 ATR15", lambda r: r.far + (-1 if r.dir == "long" else 1) * 0.25 * r.atr15),
-             ("sweep − 0.5 ATR15", lambda r: r.far + (-1 if r.dir == "long" else 1) * 0.5 * r.atr15),
-             ("transcribed level − 0.1 ATR5", lambda r: r.tx_level + (-1 if r.dir == "long" else 1) * 0.1 * r.atr5),
-             ("entry − 1.0 ATR15", lambda r: r.entry + (-1 if r.dir == "long" else 1) * 1.0 * r.atr15),
-             ("entry − 1.5 ATR15", lambda r: r.entry + (-1 if r.dir == "long" else 1) * 1.5 * r.atr15)]
-    out = []
-    for name, fn in rules:
-        kept = cut = 0; risk = []; pnl = []
-        for _, r in trig.iterrows():
-            st = fn(r); rk = abs(r.entry - st)
-            if rk < 0.2 * r.atr15:   # same floor as the ladder: a stop inside the noise is widened to it
-                rk = 0.2 * r.atr15; st = r.entry + (-1 if r.dir == "long" else 1) * rk
-            stopped = (r.worst <= st) if r.dir == "long" else (r.worst >= st)
-            if r.target_hit:
-                kept += (not stopped); pnl.append(abs(r.t1 - r.entry) / rk if not stopped else -1.0)
-            else:
-                cut += stopped; pnl.append(-1.0 if stopped else -min(r.mae, rk) / rk)
-            risk.append(rk / r.atr15)
-        out.append((name, kept, int(trig.target_hit.sum()), cut, int((~trig.target_hit).sum()), np.median(risk), np.mean(pnl)))
-    print(f"  {'rule':32} {'winners kept':>14} {'losers stopped':>15} {'median risk (ATR15)':>20} {'avg R/trade (tgt1 only)':>24}")
-    for name, k, nw, c, nl, ar, pr in out:
-        print(f"  {name:32} {k:>6}/{nw:<7} {c:>7}/{nl:<7} {ar:>20.2f} {pr:>24.2f}")
+    def report(df, title, verbose=False):
+        print(f"\n===== {title} =====")
+        pd.set_option("display.width", 220); pd.set_option("display.max_columns", 30)
+        trig = df[df.triggered == True].copy(); trig["target_hit"] = trig.target_hit.astype(bool)
+        trig["mae_atr15"] = trig.mae / trig.atr15
+        trig["past_far_atr5"] = trig.past_far / trig.atr5
+        trig["past_far_atr15"] = trig.past_far / trig.atr15
+        print(f"{len(df)} trades, {len(trig)} triggered, {int(trig.target_hit.sum())} hit target 1 after triggering\n")
+        cols = ["date", "id", "dir", "kind", "entry", "far", "tx_level", "t1", "target_hit", "worst", "mae", "past_far", "past_far_atr5", "past_far_atr15", "mfe"]
+        if verbose: print(trig[cols].round(2).to_string(index=False))
+        w = trig[trig.target_hit]
+        print("\n--- winners (target 1 hit): excursion PAST the structural level (fade: sweep extreme · break: zone far side) ---")
+        for q in (50, 75, 90, 100):
+            print(f"  p{q}: {np.percentile(w.past_far, q):6.2f} pts  = {np.percentile(w.past_far_atr5, q):.2f} ATR5 = {np.percentile(w.past_far_atr15, q):.2f} ATR15")
+        print(f"  winners that never went past the sweep extreme: {(w.past_far <= 0).sum()} / {len(w)}")
+        print("\n--- stop rules: winners kept / losers cut (loser = target 1 never hit) ---")
+        def floored(k):   # one tick past the sweep extreme, but never closer than k × ATR5 to the zone's edge
+            def f(r):
+                sgn = -1 if r.dir == "long" else 1
+                edge = r.entry   # fade: entry edge; break: far side already (level == entry edge's opposite) -> same floor from entry
+                tick = r.far + sgn * 0.25; fl = edge + sgn * k * r.atr5
+                return min(tick, fl) if r.dir == "long" else max(tick, fl)
+            return f
+        rules = [("tick past sweep extreme", lambda r: r.far + (-0.25 if r.dir == "long" else 0.25)),
+                 ("sweep, floor 1.0 ATR5 from edge", floored(1.0)),
+                 ("sweep, floor 1.5 ATR5 from edge", floored(1.5)),
+                 ("sweep, floor 2.0 ATR5 from edge", floored(2.0)),
+                 ("sweep − 0.1 ATR5", lambda r: r.far + (-1 if r.dir == "long" else 1) * 0.1 * r.atr5),
+                 ("sweep − 0.25 ATR5", lambda r: r.far + (-1 if r.dir == "long" else 1) * 0.25 * r.atr5),
+                 ("sweep − 0.5 ATR5", lambda r: r.far + (-1 if r.dir == "long" else 1) * 0.5 * r.atr5),
+                 ("sweep − 0.25 ATR15", lambda r: r.far + (-1 if r.dir == "long" else 1) * 0.25 * r.atr15),
+                 ("sweep − 0.5 ATR15", lambda r: r.far + (-1 if r.dir == "long" else 1) * 0.5 * r.atr15),
+                 ("transcribed level − 0.1 ATR5", lambda r: r.tx_level + (-1 if r.dir == "long" else 1) * 0.1 * r.atr5),
+                 ("entry − 1.0 ATR15", lambda r: r.entry + (-1 if r.dir == "long" else 1) * 1.0 * r.atr15),
+                 ("entry − 1.5 ATR15", lambda r: r.entry + (-1 if r.dir == "long" else 1) * 1.5 * r.atr15)]
+        out = []
+        for name, fn in rules:
+            kept = cut = 0; risk = []; pnl = []
+            for _, r in trig.iterrows():
+                st = fn(r); rk = abs(r.entry - st)
+                if rk < 0.2 * r.atr15:   # same floor as the ladder: a stop inside the noise is widened to it
+                    rk = 0.2 * r.atr15; st = r.entry + (-1 if r.dir == "long" else 1) * rk
+                stopped = (r.worst <= st) if r.dir == "long" else (r.worst >= st)
+                if r.target_hit:
+                    kept += (not stopped); pnl.append(abs(r.t1 - r.entry) / rk if not stopped else -1.0)
+                else:
+                    cut += stopped; pnl.append(-1.0 if stopped else -min(r.mae, rk) / rk)
+                risk.append(rk / r.atr15)
+            out.append((name, kept, int(trig.target_hit.sum()), cut, int((~trig.target_hit).sum()), np.median(risk), np.mean(pnl)))
+        print(f"  {'rule':32} {'winners kept':>14} {'losers stopped':>15} {'median risk (ATR15)':>20} {'avg R/trade (tgt1 only)':>24}")
+        for name, k, nw, c, nl, ar, pr in out:
+            print(f"  {name:32} {k:>6}/{nw:<7} {c:>7}/{nl:<7} {ar:>20.2f} {pr:>24.2f}")
+    report(df, "ALL TRADES", verbose=True)
+    report(df[df.graded], "GRADED TRADES ONLY")
     df.to_csv("backtest_mae.csv", index=False)
     return df
 

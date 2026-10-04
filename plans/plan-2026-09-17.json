@@ -1,0 +1,340 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-17",
+ "status": "transcribed",
+ "ref_date_note": "Day after FOMC; contract-roll gaps filled. All numbers are Z (Dec) contract. es1 written as '7629-7632' in TRADES vs '7629-7633' everywhere else -- gated literally [7629,7632]. NQ 'fail or LAAF of 265-285, 302-312 or 338-369 ... B-, B+, and A- respectively' split into nq2/nq3/nq4 sharing one quote. Ungraded trades included with tag '': NQ downtrend below 200-221 (nq5), NQ session uptrend above 200-221 (nq6), ES session uptrend if 7615-7621 holds / 7629-7633 flips to support (es3, gated on 7629-7633). SPX targets (7400/7314) omitted; their ES equivalents 7469 and 7383 kept as zones. '7648/7649' VAL+June ATH recorded as [7648,7648.75].",
+ "zones": {
+  "ES": [
+   [
+    7720,
+    7721
+   ],
+   [
+    7603,
+    7606
+   ],
+   [
+    7682,
+    7685
+   ],
+   [
+    7648,
+    7648.75
+   ],
+   [
+    7653,
+    7656
+   ],
+   [
+    7669,
+    7669
+   ],
+   [
+    7643.5,
+    7643.5
+   ],
+   [
+    7638,
+    7641
+   ],
+   [
+    7661,
+    7661
+   ],
+   [
+    7634,
+    7669
+   ],
+   [
+    7629,
+    7633
+   ],
+   [
+    7615,
+    7621
+   ],
+   [
+    7469,
+    7469
+   ],
+   [
+    7383,
+    7383
+   ]
+  ],
+  "NQ": [
+   [
+    29302,
+    29312
+   ],
+   [
+    29200,
+    29221
+   ],
+   [
+    29038,
+    29069
+   ],
+   [
+    29338,
+    29369
+   ],
+   [
+    29304,
+    29373
+   ],
+   [
+    29373.25,
+    29373.25
+   ],
+   [
+    28944,
+    28969
+   ],
+   [
+    28369,
+    28369
+   ],
+   [
+    29265,
+    29285
+   ],
+   [
+    29483,
+    29508
+   ],
+   [
+    29424,
+    29428
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 29200-29221",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a hold or LBAF of 200-221 I can’t rate higher than a B/B- because of its proximity to upside levels of major importance, but it does keep the potential bullish sequence alive.",
+   "kind": "fade",
+   "gate": [
+    29200,
+    29221
+   ],
+   "tgt": [
+    [
+     29265,
+     29285
+    ],
+    [
+     29302,
+     29312
+    ],
+    [
+     29338,
+     29369
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 29265-29285",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "We can short a fail or LAAF of 265-285, 302-312 or 338-369. I like 338-369 the most but any are valid. I’ll rate these a B-, B+, and A- respectively for each spot",
+   "kind": "fade",
+   "gate": [
+    29265,
+    29285
+   ],
+   "tgt": [
+    [
+     29200,
+     29221
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 29302-29312",
+   "dir": "short",
+   "tag": "B+",
+   "quote": "We can short a fail or LAAF of 265-285, 302-312 or 338-369. I like 338-369 the most but any are valid. I’ll rate these a B-, B+, and A- respectively for each spot",
+   "kind": "fade",
+   "gate": [
+    29302,
+    29312
+   ],
+   "tgt": [
+    [
+     29265,
+     29285
+    ],
+    [
+     29200,
+     29221
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 29338-29369",
+   "dir": "short",
+   "tag": "A-",
+   "quote": "We can short a fail or LAAF of 265-285, 302-312 or 338-369. I like 338-369 the most but any are valid. I’ll rate these a B-, B+, and A- respectively for each spot",
+   "kind": "fade",
+   "gate": [
+    29338,
+    29369
+   ],
+   "tgt": [
+    [
+     29302,
+     29312
+    ],
+    [
+     29265,
+     29285
+    ],
+    [
+     29200,
+     29221
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Downtrend below 29200-29221",
+   "dir": "short",
+   "tag": "",
+   "quote": "I don’t love breakdown shorts but I’m willing to join a downtrend below 200-221 once cautious that it could be a LBAF (hence an active downtrend).",
+   "kind": "break",
+   "gate": [
+    29200,
+    29221
+   ],
+   "tgt": [
+    "RTH_LOW",
+    [
+     28944,
+     28969
+    ],
+    28369
+   ],
+   "stop_hint": "cautious that it could be a LBAF (hence an active downtrend)"
+  },
+  {
+   "id": "nq6",
+   "instrument": "NQ",
+   "name": "Session uptrend above 29200-29221",
+   "dir": "long",
+   "tag": "",
+   "quote": "I don’t love reclaim longs either but I’m willing to join a session uptrend above 200-221. There’s just a lot to get through overhead.",
+   "kind": "break",
+   "gate": [
+    29200,
+    29221
+   ],
+   "tgt": [
+    [
+     29265,
+     29285
+    ],
+    [
+     29302,
+     29312
+    ],
+    [
+     29338,
+     29369
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7629-7632",
+   "dir": "short",
+   "tag": "B/B+",
+   "quote": "Short a fail/LAAF of 7629-7632 is a B/B+",
+   "kind": "fade",
+   "gate": [
+    7629,
+    7632
+   ],
+   "tgt": [
+    [
+     7615,
+     7621
+    ],
+    [
+     7603,
+     7606
+    ],
+    "RTH_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Active downtrend below 7615-7621",
+   "dir": "short",
+   "tag": "C+/B-",
+   "quote": "Short an active downtrend below 7615-7621 is a C+/B-",
+   "kind": "break",
+   "gate": [
+    7615,
+    7621
+   ],
+   "tgt": [
+    [
+     7603,
+     7606
+    ],
+    "RTH_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Session uptrend above 7629-7633 (7615-7621 holds)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I don’t love reclaim longs but I’m willing to join a session uptrend if sellers can’t get through 7615-7621 and in particular if 7629-7633 has flipped to firm support.",
+   "kind": "break",
+   "gate": [
+    7629,
+    7633
+   ],
+   "tgt": [
+    [
+     7638,
+     7641
+    ],
+    7643.5,
+    [
+     7648,
+     7648.75
+    ],
+    [
+     7653,
+     7656
+    ],
+    7669
+   ],
+   "stop_hint": "if sellers can’t get through 7615-7621 and in particular if 7629-7633 has flipped to firm support"
+  }
+ ]
+}

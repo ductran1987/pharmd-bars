@@ -1,0 +1,301 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-01",
+ "status": "transcribed",
+ "ref_date_note": "First trading day of September. ES 'today's high' and 'today's low' not given numerically (RTH_HIGH/RTH_LOW); NQ spike base 29517 and high 29538 given, NQ today's low symbolic. Letter typo '7677-7780' read as 7677-7680. es3 'true gap up which holds' gated at 7706-7712 (commentary: open and hold above today's high / 7706-7712).",
+ "zones": {
+  "ES": [
+   [
+    7800,
+    7800
+   ],
+   [
+    7704.25,
+    7704.25
+   ],
+   [
+    7706,
+    7712
+   ],
+   [
+    7701,
+    7701
+   ],
+   [
+    7696,
+    7696
+   ],
+   [
+    7695,
+    7696
+   ],
+   [
+    7689,
+    7689
+   ],
+   [
+    7677,
+    7680
+   ],
+   [
+    7730,
+    7730
+   ],
+   [
+    7723.5,
+    7723.5
+   ],
+   [
+    7649,
+    7656
+   ]
+  ],
+  "NQ": [
+   [
+    29623,
+    29636
+   ],
+   [
+    29290,
+    29300
+   ],
+   [
+    29369,
+    29420
+   ],
+   [
+    29420,
+    29441
+   ],
+   [
+    29517,
+    29517
+   ],
+   [
+    29538,
+    29538
+   ],
+   [
+    29479,
+    29479
+   ],
+   [
+    29474,
+    29484
+   ],
+   [
+    29452,
+    29458
+   ],
+   [
+    29706,
+    29735
+   ],
+   [
+    29669,
+    29678
+   ],
+   [
+    29390,
+    29390
+   ],
+   [
+    29338,
+    29369
+   ],
+   [
+    29273.5,
+    29273.5
+   ],
+   [
+    29225,
+    29225
+   ],
+   [
+    29203,
+    29203
+   ],
+   [
+    29269,
+    29369
+   ],
+   [
+    29138,
+    29155
+   ],
+   [
+    29038,
+    29069
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail of today's spike 29517-29538",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "While far less clean than for ES, I’m willing to short persistent fails to bid today’s spike, inclusive of the base (517) and today’s 538 high. I’ll rate this a B-",
+   "kind": "fade",
+   "gate": [
+    29517,
+    29538
+   ],
+   "tgt": [
+    29479,
+    [
+     29452,
+     29458
+    ],
+    [
+     29420,
+     29441
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold of 29420-29441",
+   "dir": "long",
+   "tag": "B+",
+   "quote": "Long a hold of 420-441, possibly as high as 452-458 is a B+",
+   "kind": "fade",
+   "gate": [
+    29420,
+    29441
+   ],
+   "tgt": [
+    29538,
+    [
+     29623,
+     29636
+    ],
+    [
+     29706,
+     29735
+    ]
+   ],
+   "stop_hint": "possibly as high as 452-458"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "True gap up holding today's spike",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a true gap up which holds today’s spike from above feels a bit risky but given the potential for 706-735 I’ll still rate it a B/B-",
+   "kind": "break",
+   "gate": [
+    29517,
+    29538
+   ],
+   "tgt": [
+    [
+     29623,
+     29636
+    ],
+    [
+     29706,
+     29735
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a LBAF of today’s low is a tad risky as well but 338-369 is super key. In this scenario a reclaim of 390 becomes key and we have to be worried about 420-441 (potentially 452-458) from below so I can’t rate it higher than a B/B-",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    29390,
+    [
+     29420,
+     29441
+    ],
+    [
+     29452,
+     29458
+    ]
+   ],
+   "stop_hint": "a reclaim of 390 becomes key and we have to be worried about 420-441 (potentially 452-458) from below"
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail to find traction above 7706-7712 (LAAF of today's high / fail of 7704-7706)",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short any failure to find traction above 7706-7712 (best played as a LAAF of today’s high but can work as a fail of 7704 or 7706) is an A/A- setup",
+   "kind": "fade",
+   "gate": [
+    7706,
+    7712
+   ],
+   "tgt": [
+    [
+     7695,
+     7696
+    ],
+    [
+     7677,
+     7680
+    ],
+    "RTH_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of today's low reclaiming 7677-7680",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a LBAF of today’s low which reclaims 7677-7680 can work. I’m less interested about another hold of 7677-7680 but if participation remains low and we get the LBAF I’m open to it as a B/B- setup.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     7695,
+     7696
+    ],
+    "RTH_HIGH",
+    [
+     7706,
+     7712
+    ]
+   ],
+   "stop_hint": "which reclaims 7677-7680"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "True gap up which holds",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "Long a true gap up which holds is a B/B+",
+   "kind": "break",
+   "gate": [
+    7706,
+    7712
+   ],
+   "tgt": [
+    7723.5,
+    7730
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

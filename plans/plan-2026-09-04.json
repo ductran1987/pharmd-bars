@@ -1,0 +1,346 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-04",
+ "status": "transcribed",
+ "ref_date_note": "NFP Friday. nq1 'fail/LAAF of 538-544 or 560' gated as the combined span [29538,29560]. ES 'LBAF of 7746-7749 (A/A-) ... as a hold B/B-' split into es1 (LBAF) and es2 (hold) sharing one quote. Ungraded trades included with tag '': ES hold of 7706-7712, ES breakdown short below 7746-7749, NQ weakness short below 476 (he doesn't rate breakdown shorts). NQ 'mid 480s' demand recorded as 29480-29489.",
+ "zones": {
+  "ES": [
+   [
+    7800,
+    7800
+   ],
+   [
+    7726.5,
+    7730
+   ],
+   [
+    7670,
+    7673
+   ],
+   [
+    7603,
+    7606
+   ],
+   [
+    7706,
+    7712
+   ],
+   [
+    7726.5,
+    7747
+   ],
+   [
+    7746,
+    7749
+   ],
+   [
+    7762,
+    7766
+   ],
+   [
+    7771,
+    7779
+   ],
+   [
+    7782.5,
+    7782.5
+   ],
+   [
+    7783,
+    7787
+   ],
+   [
+    7691.25,
+    7700
+   ]
+  ],
+  "NQ": [
+   [
+    29623,
+    29636
+   ],
+   [
+    29560,
+    29560
+   ],
+   [
+    29538,
+    29544
+   ],
+   [
+    29200,
+    29240
+   ],
+   [
+    29120,
+    29130
+   ],
+   [
+    29338,
+    29369
+   ],
+   [
+    29375.5,
+    29476
+   ],
+   [
+    29420,
+    29441
+   ],
+   [
+    29503,
+    29503
+   ],
+   [
+    29476,
+    29476
+   ],
+   [
+    29480,
+    29489
+   ],
+   [
+    29529,
+    29529
+   ],
+   [
+    29706,
+    29735
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 29538-29544 or 29560",
+   "dir": "short",
+   "tag": "B",
+   "quote": "Short a fail/LAAF of 538-544 or 560. is a B",
+   "kind": "fade",
+   "gate": [
+    29538,
+    29560
+   ],
+   "tgt": [
+    29503,
+    29476
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold of 29420-29441",
+   "dir": "long",
+   "tag": "B+/A-",
+   "quote": "Long a hold of 420-441 is a B+/A-",
+   "kind": "fade",
+   "gate": [
+    29420,
+    29441
+   ],
+   "tgt": [
+    29476,
+    29503,
+    [
+     29538,
+     29544
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold of 29338-29369",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "Long a hold of 338-369 is an A/A-",
+   "kind": "fade",
+   "gate": [
+    29338,
+    29369
+   ],
+   "tgt": [
+    29375.5,
+    [
+     29420,
+     29441
+    ],
+    29476
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 29476",
+   "dir": "long",
+   "tag": "C+/B-",
+   "quote": "Long a hold or LBAF of 476 is a C+/B-",
+   "kind": "fade",
+   "gate": [
+    29476,
+    29476
+   ],
+   "tgt": [
+    29503,
+    29529,
+    [
+     29538,
+     29544
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Weakness below 29476 (singles fill)",
+   "dir": "short",
+   "tag": "",
+   "quote": "We can be short on weakness below 476 looking for a fill of the singles, joining a session downtrend to do so. I generally don’t bother rating breakdown short.",
+   "kind": "break",
+   "gate": [
+    29476,
+    29476
+   ],
+   "tgt": [
+    [
+     29420,
+     29441
+    ],
+    29375.5
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of 7746-7749",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "Long a LBAF of 7746-7749 (at least 47) is an A/A-. This can play as a hold of 7746-7749 but I would almost prefer a fresh LBAF. Rate it a B/B- as a hold",
+   "kind": "fade",
+   "gate": [
+    7746,
+    7749
+   ],
+   "tgt": [
+    [
+     7762,
+     7766
+    ],
+    [
+     7771,
+     7779
+    ],
+    7782.5,
+    [
+     7783,
+     7787
+    ]
+   ],
+   "stop_hint": "(at least 47)"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 7746-7749",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a LBAF of 7746-7749 (at least 47) is an A/A-. This can play as a hold of 7746-7749 but I would almost prefer a fresh LBAF. Rate it a B/B- as a hold",
+   "kind": "fade",
+   "gate": [
+    7746,
+    7749
+   ],
+   "tgt": [
+    [
+     7762,
+     7766
+    ],
+    [
+     7771,
+     7779
+    ],
+    7782.5,
+    [
+     7783,
+     7787
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7726.5-7730",
+   "dir": "long",
+   "tag": "B",
+   "quote": "Long a hold or LBAF of 7726.5-7730 is a B. It must reclaim 7746-7749 to be any good.",
+   "kind": "fade",
+   "gate": [
+    7726.5,
+    7730
+   ],
+   "tgt": [
+    [
+     7746,
+     7749
+    ],
+    [
+     7762,
+     7766
+    ]
+   ],
+   "stop_hint": "It must reclaim 7746-7749 to be any good."
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Hold of 7706-7712",
+   "dir": "long",
+   "tag": "",
+   "quote": "Longing a hold of 7706-7712 might work but it is risky until at least 7726.5-7730 is reclaimed",
+   "kind": "fade",
+   "gate": [
+    7706,
+    7712
+   ],
+   "tgt": [
+    [
+     7726.5,
+     7730
+    ],
+    [
+     7746,
+     7749
+    ]
+   ],
+   "stop_hint": "risky until at least 7726.5-7730 is reclaimed"
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Breakdown short below 7746-7749 (singles fill)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Breakdown shorts below 7746-7749 can work looking for a fill of the singles but you really need to know how to join a downtrend and need a tight leash on it in case it ends up a LBAF of 46-49",
+   "kind": "break",
+   "gate": [
+    7746,
+    7749
+   ],
+   "tgt": [
+    [
+     7726.5,
+     7730
+    ],
+    "RTH_LOW"
+   ],
+   "stop_hint": "need a tight leash on it in case it ends up a LBAF of 46-49"
+  }
+ ]
+}

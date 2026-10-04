@@ -1,0 +1,202 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-14",
+ "status": "transcribed",
+ "ref_date_note": "CONTRACT ROLL WEEK (Sep -> Dec). Letter sent Sun 9/13; he will trade ESU/NQU Monday until Z is fully liquid, and gives levels for BOTH contracts. Trades are identical for ES and NQ and symbolic, so gates/targets kept as FRI_HIGH/FRI_LOW/THU_HIGH (Fri = 9/11, Thu = 9/10) rather than picking a contract. Zones list the FRONT (U) contract numbers. U-contract refs: ESU Fri high 7682 (in 7682-7685), Fri low 7653.25 (7653-7656), Thu high 7620 (7615-7620), hon. mention 7665, LAAF caution 7694 +/-2, targets 7706-7712 (perhaps 7700, written '770'), 7629-7633, 7615-7621, 7604; NQU Fri high 29500 (29499.75 RTH / 29500.25 premarket, in 29483-29508), Fri low 29334, Thu high 29275 (29265-29285), Thu low 29057.5 (29038-29069), targets 29553-29569 / 29594, 29195-29208. Z-contract refs (NOT in zones): ESZ Fri high 7749.75 (written '7749.79', in 7749-7752), Fri low 7720.75, Thu high 7685.25 (7682-7685), hon. mention 7733, LAAF caution ~7755, targets 7765-7769 up, 7706-7712/7700 and 7682-7685 down, 7669 inside Thu range; NQZ Fri high 29792.25 (premarket 29794.5, below 29800-29820), Fri low 29626 (29615-29645), Thu high 29565 (29553-29569), Thu low 29352.5 (29338-29369), target 29932-29969 up, 29483-29508 down. Approx U->Z spread: ES ~+67, NQ ~+292. Gap-fill-reversal trades recorded as kind 'fade'.",
+ "zones": {
+  "ES": [
+   [
+    7682,
+    7685
+   ],
+   [
+    7653,
+    7656
+   ],
+   [
+    7615,
+    7620
+   ],
+   [
+    7665,
+    7665
+   ],
+   [
+    7694,
+    7694
+   ],
+   [
+    7706,
+    7712
+   ],
+   [
+    7700,
+    7700
+   ],
+   [
+    7629,
+    7633
+   ],
+   [
+    7615,
+    7621
+   ],
+   [
+    7604,
+    7604
+   ]
+  ],
+  "NQ": [
+   [
+    29195,
+    29208
+   ],
+   [
+    29483,
+    29508
+   ],
+   [
+    29500,
+    29500
+   ],
+   [
+    29334,
+    29334
+   ],
+   [
+    29338,
+    29369
+   ],
+   [
+    29275,
+    29275
+   ],
+   [
+    29265,
+    29285
+   ],
+   [
+    29057.5,
+    29057.5
+   ],
+   [
+    29038,
+    29069
+   ],
+   [
+    29553,
+    29569
+   ],
+   [
+    29594,
+    29594
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "A",
+   "quote": "Short a LAAF of Friday’s high - A rating",
+   "kind": "fade",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    "FRI_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "A",
+   "quote": "Long a LBAF of Friday’s low - A rating",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    "FRI_HIGH"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Gap fill reversal off Thursday's high",
+   "dir": "long",
+   "tag": "B+/A-",
+   "quote": "Long a gap fill reversal off Thursday’s high targeting Friday’s low with runners for continuation. B+/A- rating",
+   "kind": "fade",
+   "gate": [
+    "THU_HIGH",
+    "THU_HIGH"
+   ],
+   "tgt": [
+    "FRI_LOW",
+    "FRI_HIGH"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "A",
+   "quote": "Short a LAAF of Friday’s high - A rating",
+   "kind": "fade",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    "FRI_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "A",
+   "quote": "Long a LBAF of Friday’s low - A rating",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    "FRI_HIGH"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Gap fill reversal off Thursday's high",
+   "dir": "long",
+   "tag": "B+/A-",
+   "quote": "Long a gap fill reversal off Thursday’s high targeting Friday’s low with runners for continuation. B+/A- rating",
+   "kind": "fade",
+   "gate": [
+    "THU_HIGH",
+    "THU_HIGH"
+   ],
+   "tgt": [
+    "FRI_LOW",
+    "FRI_HIGH"
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

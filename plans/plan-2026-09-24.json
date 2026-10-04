@@ -1,0 +1,93 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-24",
+ "status": "transcribed",
+ "ref_date_note": "Z (Dec) contract. TRADES section reads 'Box is box. That is all. ... nothing else warrants planning' -> zero trades transcribed. Day after ES 3-day-box P-breakdown; bullish RTH gap below to Friday's high 7718.25 (7716-7721). Commentary ideas (ES LBAF of box low -> 7800-7803/7817-7820/7822; downside box break -> 7716-7721; NQ LBAF of today's low -> 30869-30885) are commentary only and not recorded as trades. 7800-7803 'could extend to 7805'. GC levels skipped.",
+ "zones": {
+  "ES": [
+   [
+    7917,
+    7920
+   ],
+   [
+    7893,
+    7896
+   ],
+   [
+    7800,
+    7803
+   ],
+   [
+    7805,
+    7805
+   ],
+   [
+    7758,
+    7759
+   ],
+   [
+    7696,
+    7699
+   ],
+   [
+    7817,
+    7820
+   ],
+   [
+    7822,
+    7822
+   ],
+   [
+    7827,
+    7827
+   ],
+   [
+    7840,
+    7841
+   ],
+   [
+    7716,
+    7721
+   ],
+   [
+    7718.25,
+    7718.25
+   ]
+  ],
+  "NQ": [
+   [
+    31269,
+    31288
+   ],
+   [
+    31125,
+    31143
+   ],
+   [
+    31056,
+    31069
+   ],
+   [
+    30969,
+    30984
+   ],
+   [
+    30869,
+    30885
+   ],
+   [
+    30634,
+    30646
+   ],
+   [
+    30616,
+    30616
+   ],
+   [
+    30546,
+    30600
+   ]
+  ]
+ },
+ "trades": []
+}

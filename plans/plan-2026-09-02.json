@@ -1,0 +1,364 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-02",
+ "status": "transcribed",
+ "ref_date_note": "Second bearish RTH gap day. ES today's high/low and yesterday's low not numeric (RTH_HIGH/RTH_LOW/PREV_RTH_LOW); NQ today's RTH high 29318 and yesterday's RTH low 29355 given. Joint sentence 'Short a LAAF of today's high/yesterday's low is valid for both ES and NQ' split into nq4 and es5 with tag '' (no grade); es5 gate is the gap [RTH_HIGH, PREV_RTH_LOW]. NQ 230-300 supply short has a very wide gate per the letter.",
+ "zones": {
+  "ES": [
+   [
+    7800,
+    7800
+   ],
+   [
+    7603,
+    7606
+   ],
+   [
+    7677,
+    7680
+   ],
+   [
+    7649,
+    7656
+   ],
+   [
+    7653,
+    7653
+   ],
+   [
+    7659,
+    7659
+   ],
+   [
+    7663,
+    7670
+   ],
+   [
+    7667.75,
+    7667.75
+   ],
+   [
+    7635,
+    7638
+   ],
+   [
+    7633,
+    7635
+   ],
+   [
+    7618,
+    7625
+   ],
+   [
+    7614,
+    7617
+   ],
+   [
+    7706,
+    7712
+   ],
+   [
+    7689,
+    7689
+   ],
+   [
+    7696,
+    7696
+   ]
+  ],
+  "NQ": [
+   [
+    29623,
+    29636
+   ],
+   [
+    29290,
+    29300
+   ],
+   [
+    29338,
+    29369
+   ],
+   [
+    29038,
+    29069
+   ],
+   [
+    29318,
+    29318
+   ],
+   [
+    29355,
+    29355
+   ],
+   [
+    29269,
+    29369
+   ],
+   [
+    29138,
+    29155
+   ],
+   [
+    29169,
+    29182
+   ],
+   [
+    29181.5,
+    29181.5
+   ],
+   [
+    29203,
+    29241
+   ],
+   [
+    29203,
+    29203
+   ],
+   [
+    29225,
+    29225
+   ],
+   [
+    29241,
+    29241
+   ],
+   [
+    29230,
+    29300
+   ],
+   [
+    29084,
+    29084
+   ],
+   [
+    28944,
+    28969
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold of 29038-29069",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a hold of 29038-29069 is a B/B- and would be rated lower if NQ weren’t showing some relative strength.",
+   "kind": "fade",
+   "gate": [
+    29038,
+    29069
+   ],
+   "tgt": [
+    [
+     29138,
+     29155
+    ],
+    [
+     29169,
+     29182
+    ],
+    29203
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 29169-29182",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "Short a fail or LAAF of 169-182 especially if we trade higher first. Its proximity to the 138-155 weekly level gets it an automatic downgrade due to potential difficulty in execution and management so I’ll give it a B-",
+   "kind": "fade",
+   "gate": [
+    29169,
+    29182
+   ],
+   "tgt": [
+    [
+     29138,
+     29155
+    ],
+    29084,
+    [
+     29038,
+     29069
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Sell at 29230-29300 supply",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "I’ll be looking to sell in the 230-300 range area of supply which is obviously an enormous range. I am likely to look for confluence with ES being at resistance to hopefully tighten up that range. Because a location is so poorly defined I can’t rate this higher than a B- but have to reiterate that sellers are in full control below today’s high.",
+   "kind": "fade",
+   "gate": [
+    29230,
+    29300
+   ],
+   "tgt": [
+    29203,
+    [
+     29169,
+     29182
+    ],
+    [
+     29138,
+     29155
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LAAF of today's high / yesterday's low (29318-29355 gap)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of today’s high/yesterday’s low is valid for both ES and NQ given the bearish RTH gaps and weekly levels just above.",
+   "kind": "fade",
+   "gate": [
+    29318,
+    29355
+   ],
+   "tgt": [
+    [
+     29230,
+     29300
+    ],
+    [
+     29203,
+     29241
+    ],
+    [
+     29169,
+     29182
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail to sustain above 7649-7656",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "Short any failure to sustain above 7649-7656. This is also a wide range and doesn’t have a huge ton of room to 35-38 so I can’t rate it higher than a B-. This can potentially play as a LAAF of 59 but ultimately 49-56 would need to be lost.",
+   "kind": "fade",
+   "gate": [
+    7649,
+    7656
+   ],
+   "tgt": [
+    [
+     7635,
+     7638
+    ]
+   ],
+   "stop_hint": "This can potentially play as a LAAF of 59 but ultimately 49-56 would need to be lost."
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Sell at 7663-7670 supply",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "Like for NQ, I’ll look to be a seller at supply in the 63-70 range. Again, can’t rate it higher than a B- ahead of time because it is such a wide range.",
+   "kind": "fade",
+   "gate": [
+    7663,
+    7670
+   ],
+   "tgt": [
+    7659,
+    [
+     7649,
+     7656
+    ],
+    [
+     7635,
+     7638
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7635-7638",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "Long a hold or LBAF of 7635-7638 is a B- as sellers are in control but it at least provides reasonably defined risk.",
+   "kind": "fade",
+   "gate": [
+    7635,
+    7638
+   ],
+   "tgt": [
+    [
+     7649,
+     7656
+    ],
+    7659,
+    [
+     7663,
+     7670
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "A LBAF of today’s low on ES looks easier to manage than for NQ to me so I’m willing to rate it as a B/B-. As mentioned above it would be a B- at best but the importance of the location across ES/SPX/SPY warrants an upgrade. Reminder that 35-38 must at minimum reclaim for it to be any good.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     7635,
+     7638
+    ],
+    [
+     7649,
+     7656
+    ]
+   ],
+   "stop_hint": "Reminder that 35-38 must at minimum reclaim for it to be any good."
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "LAAF of today's high / yesterday's low",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of today’s high/yesterday’s low is valid for both ES and NQ given the bearish RTH gaps and weekly levels just above.",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "PREV_RTH_LOW"
+   ],
+   "tgt": [
+    [
+     7663,
+     7670
+    ],
+    7659,
+    [
+     7649,
+     7656
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-11",
+ "status": "transcribed",
+ "ref_date_note": "CPI day. TRADES section is 'Fully implied by the commentary' with no explicit trades, so trades is empty per the TRADES-section-only rule. Commentary implies: ES short on LAAF of today's high or gap-fill reversal up to 7633-7636 that loses 7618-7621; NQ short on LAAF/gap-fill reversal from 338-369 back into today's range; bullish only above the 7620-7628.75 bearish RTH gap / 7633-7636. Contract roll mentioned: 'it probably does it on contract roll next week lol' (re a YM-style flush to 7541-7543 then rally). NQ recent weekly lows given: 28946.75, 28927.25 (ETH), 29002, 29057.5; 28944-28969 weekly level, 8/3 low 28313.",
+ "zones": {
+  "ES": [
+   [
+    7620,
+    7628.75
+   ],
+   [
+    7633,
+    7636
+   ],
+   [
+    7618,
+    7621
+   ],
+   [
+    7665,
+    7672
+   ],
+   [
+    7655,
+    7659
+   ],
+   [
+    7706,
+    7712
+   ],
+   [
+    7541,
+    7543
+   ]
+  ],
+  "NQ": [
+   [
+    29630,
+    29645
+   ],
+   [
+    29544,
+    29554
+   ],
+   [
+    29338,
+    29369
+   ],
+   [
+    29448,
+    29469
+   ],
+   [
+    29508,
+    29508
+   ],
+   [
+    28944,
+    28969
+   ],
+   [
+    28313,
+    28313
+   ],
+   [
+    28946.75,
+    28946.75
+   ],
+   [
+    28927.25,
+    28927.25
+   ],
+   [
+    29002,
+    29002
+   ],
+   [
+    29057.5,
+    29057.5
+   ]
+  ]
+ },
+ "trades": []
+}

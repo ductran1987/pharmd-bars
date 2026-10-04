@@ -1,0 +1,281 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-31",
+ "status": "transcribed",
+ "ref_date_note": "Letter sent Sunday 8/30 for Monday 8/31 (month end). NQ Friday's low not given numerically (FRI_LOW); ES Friday low 7711.75 given. Ungraded conditional trades (ES short at 7771-7779 supply, persistent-weakness shorts below 7706-7712 / 29338-29369) included with tag ''. nq1 target: no explicit target, Trading Lower names Friday's low / 420-441.",
+ "zones": {
+  "ES": [
+   [
+    7800,
+    7800
+   ],
+   [
+    7780,
+    7787
+   ],
+   [
+    7709,
+    7713
+   ],
+   [
+    7711.75,
+    7711.75
+   ],
+   [
+    7730,
+    7730
+   ],
+   [
+    7746,
+    7749
+   ],
+   [
+    7760,
+    7760
+   ],
+   [
+    7762,
+    7766
+   ],
+   [
+    7771,
+    7779
+   ],
+   [
+    7706,
+    7712
+   ],
+   [
+    7702.75,
+    7702.75
+   ],
+   [
+    7696.5,
+    7696.5
+   ],
+   [
+    7692,
+    7692
+   ],
+   [
+    7689,
+    7689
+   ],
+   [
+    7682,
+    7682
+   ],
+   [
+    7677,
+    7680
+   ]
+  ],
+  "NQ": [
+   [
+    29793,
+    29819
+   ],
+   [
+    29623,
+    29636
+   ],
+   [
+    29290,
+    29300
+   ],
+   [
+    29533.5,
+    29533.5
+   ],
+   [
+    29669,
+    29678
+   ],
+   [
+    29203,
+    29241
+   ],
+   [
+    29203,
+    29203
+   ],
+   [
+    29225,
+    29225
+   ],
+   [
+    29706,
+    29735
+   ],
+   [
+    29748,
+    29783
+   ],
+   [
+    29420,
+    29441
+   ],
+   [
+    29338,
+    29369
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LAAF of 29706-29735",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Short a fail/ LAAF of 706-735 is a B+/A- with of course a mental downgrade if we have an active long setup in play.",
+   "kind": "fade",
+   "gate": [
+    29706,
+    29735
+   ],
+   "tgt": [
+    "FRI_LOW",
+    [
+     29420,
+     29441
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "B+/A-",
+   "quote": "Long a LBAF of Friday’s low whether 420-441 holds or we get a LBAF or it as well is a B+/A- as well.",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    29533.5,
+    [
+     29623,
+     29636
+    ],
+    [
+     29706,
+     29735
+    ]
+   ],
+   "stop_hint": "whether 420-441 holds or we get a LBAF or it as well"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Persistent weakness below 29338-29369 (lower high short)",
+   "dir": "short",
+   "tag": "",
+   "quote": "I simply have to be short biased on any persistent action below 338-369. This might mean a short on a lower high below there.",
+   "kind": "break",
+   "gate": [
+    29338,
+    29369
+   ],
+   "tgt": [
+    [
+     29290,
+     29300
+    ],
+    29225,
+    29203
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low (7711.75)",
+   "dir": "long",
+   "tag": "B+/A-",
+   "quote": "Long a LBAF of Friday’s low is a B+/A-",
+   "kind": "fade",
+   "gate": [
+    7711.75,
+    7711.75
+   ],
+   "tgt": [
+    7730,
+    [
+     7746,
+     7749
+    ],
+    [
+     7762,
+     7766
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of 7746-7749",
+   "dir": "short",
+   "tag": "B/B+",
+   "quote": "Short a LAAF of 46-49 is a B/B+",
+   "kind": "fade",
+   "gate": [
+    7746,
+    7749
+   ],
+   "tgt": [
+    7730,
+    7711.75
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Short at 7771-7779 supply",
+   "dir": "short",
+   "tag": "",
+   "quote": "It is a little harder to take a short directly at supply (7771-7779 range) on ES than it is for the analogous supply on NQ but I’m open to doing so if NQ is providing some supportive action.",
+   "kind": "fade",
+   "gate": [
+    7771,
+    7779
+   ],
+   "tgt": [
+    [
+     7762,
+     7766
+    ],
+    [
+     7746,
+     7749
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Persistent weakness below 7706-7712 (lower high short)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Persistent weakness below 7706-7712 I have to be short biased. This might mean a short on a lower high below there.",
+   "kind": "break",
+   "gate": [
+    7706,
+    7712
+   ],
+   "tgt": [
+    [
+     7677,
+     7680
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-21",
+ "status": "transcribed",
+ "ref_date_note": "Monday after OPEX/contract-roll week; all numbers are Z (Dec) contract (only contract given). ES 'rotational trading between 7680-7683 and 7696-7699' skipped as generic. NQ: author says planned trades are difficult; ungraded 'join a session downtrend for a test of 845-852' included as nq1 (tag '', gated on Friday's spike base 29852, target 845-852) -- flagged as a judgment call. nq3 'LBAF of Friday's low that holds 615-645' gated FRI_LOW. 686-698 is the widened Friday 689-698 level.",
+ "zones": {
+  "ES": [
+   [
+    7696,
+    7699
+   ],
+   [
+    7716,
+    7721
+   ],
+   [
+    7715.75,
+    7715.75
+   ],
+   [
+    7680,
+    7683
+   ],
+   [
+    7729,
+    7729
+   ],
+   [
+    7739,
+    7739
+   ],
+   [
+    7741,
+    7745
+   ],
+   [
+    7749,
+    7752
+   ]
+  ],
+  "NQ": [
+   [
+    29845,
+    29852
+   ],
+   [
+    29765,
+    29773
+   ],
+   [
+    29686,
+    29698
+   ],
+   [
+    29852,
+    29852
+   ],
+   [
+    29993.25,
+    29993.25
+   ],
+   [
+    29937.75,
+    29937.75
+   ],
+   [
+    29966.75,
+    29966.75
+   ],
+   [
+    29932,
+    29969
+   ],
+   [
+    29800,
+    29820
+   ],
+   [
+    30040,
+    30069
+   ],
+   [
+    29736,
+    29736
+   ],
+   [
+    29615,
+    29645
+   ],
+   [
+    29689,
+    29698
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Persistent weakness below 7716-7721",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "Short persistent weakness back below 7716-7721 looking for 7696-7699 is a B/B-",
+   "kind": "break",
+   "gate": [
+    7716,
+    7721
+   ],
+   "tgt": [
+    [
+     7696,
+     7699
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Persistent strength above 7716-7721",
+   "dir": "long",
+   "tag": "C+",
+   "quote": "Longing persistent strength above 7716-7721 is implied by the daily and weekly commentary. It seems a bit optimistic to me but I’m okay rating it a C+",
+   "kind": "break",
+   "gate": [
+    7716,
+    7721
+   ],
+   "tgt": [
+    7729,
+    7739,
+    [
+     7741,
+     7745
+    ],
+    [
+     7749,
+     7752
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold of 7696-7699",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "Long a hold of 7696-7699 is a B-",
+   "kind": "fade",
+   "gate": [
+    7696,
+    7699
+   ],
+   "tgt": [
+    [
+     7716,
+     7721
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7680-7683",
+   "dir": "long",
+   "tag": "B",
+   "quote": "Long a hold or LBAF of 7680-7683 is a B",
+   "kind": "fade",
+   "gate": [
+    7680,
+    7683
+   ],
+   "tgt": [
+    [
+     7696,
+     7699
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Session downtrend below Friday's spike base (29852) for 29845-29852",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’m okay joining a session downtrend on the short side for a test of 845-852 and if it doesn’t hold then runners can be held.",
+   "kind": "break",
+   "gate": [
+    29852,
+    29852
+   ],
+   "tgt": [
+    [
+     29845,
+     29852
+    ],
+    [
+     29800,
+     29820
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 29686-29698",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a hold or LBAF of 686-698 is worth rating as a B/B-",
+   "kind": "fade",
+   "gate": [
+    29686,
+    29698
+   ],
+   "tgt": [
+    29736,
+    [
+     29765,
+     29773
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low holding 29615-29645",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "Long a LBAF of Friday’s low that holds 615-645 is a B/B+ but is risky until at least 686-698 is reclaimed and turns into the above",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    [
+     29686,
+     29698
+    ],
+    29736,
+    [
+     29765,
+     29773
+    ]
+   ],
+   "stop_hint": "that holds 615-645 ... is risky until at least 686-698 is reclaimed"
+  }
+ ]
+}

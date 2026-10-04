@@ -1,0 +1,323 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-23",
+ "status": "transcribed",
+ "ref_date_note": "Z (Dec) contract. GC trade skipped. ES today's RTH low 7822.25 and high 7848.5 given numerically -> es3/es4 gated on numbers. NQ today's high 31065.5 given; nq2 'LAAF of today's high and the QQQ ATH (~31077-31080)' gated as [31065.5,31080]. nq1 '31027 clears on the way' recorded as first target plus stop_hint. Ungraded 'breakout long is valid ... if sustaining a break to nATH' included as nq4 (tag '', gate 31056-31069). ES 'rotational trading between 7827 and 7840-7841 ... probably a B- with the longs rated a bit higher' split into es1 long / es2 short, both tagged 'B-'. Letter typo '7646-7649' in commentary read as 7846-7849 (not a TRADES item). Generic 'breakdown shorts and breakout longs are implied' skipped.",
+ "zones": {
+  "ES": [
+   [
+    7917,
+    7920
+   ],
+   [
+    7893,
+    7896
+   ],
+   [
+    7800,
+    7803
+   ],
+   [
+    7846,
+    7849
+   ],
+   [
+    7827,
+    7827
+   ],
+   [
+    7840,
+    7841
+   ],
+   [
+    7832,
+    7832
+   ],
+   [
+    7835,
+    7835
+   ],
+   [
+    7822.25,
+    7822.25
+   ],
+   [
+    7848.5,
+    7848.5
+   ],
+   [
+    7817,
+    7820
+   ],
+   [
+    7869,
+    7872
+   ],
+   [
+    7883,
+    7883
+   ],
+   [
+    7810.5,
+    7810.5
+   ],
+   [
+    7791,
+    7794
+   ],
+   [
+    7783,
+    7787
+   ],
+   [
+    7775,
+    7785
+   ],
+   [
+    7765,
+    7769
+   ]
+  ],
+  "NQ": [
+   [
+    31269,
+    31288
+   ],
+   [
+    31125,
+    31143
+   ],
+   [
+    31056,
+    31069
+   ],
+   [
+    30969,
+    30984
+   ],
+   [
+    30869,
+    30885
+   ],
+   [
+    31027,
+    31027
+   ],
+   [
+    31065.5,
+    31065.5
+   ],
+   [
+    31077,
+    31080
+   ],
+   [
+    30942,
+    30950
+   ],
+   [
+    30763.5,
+    30763.5
+   ],
+   [
+    30808,
+    30823
+   ],
+   [
+    30701,
+    30744
+   ],
+   [
+    30616,
+    30616
+   ],
+   [
+    30539.75,
+    30539.75
+   ],
+   [
+    30546,
+    30600
+   ],
+   [
+    30463.25,
+    30463.25
+   ],
+   [
+    30444,
+    30469
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 30969-30984",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a hold or LBAF of 30969-30984 is a B/B- and make sure 31027 clears on the way to 31056-31069.",
+   "kind": "fade",
+   "gate": [
+    30969,
+    30984
+   ],
+   "tgt": [
+    31027,
+    [
+     31056,
+     31069
+    ]
+   ],
+   "stop_hint": "make sure 31027 clears on the way to 31056-31069."
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of today's high (31065.5) and QQQ ATH (~31077-31080)",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "Short a LAAF of today’s high and the QQQ ATH can’t be rated higher than a B- given the prevailing trend but I would be remiss to not include it given the potential implications. Again, expectations on shorts must still be tempered until sellers prove something.",
+   "kind": "fade",
+   "gate": [
+    31065.5,
+    31080
+   ],
+   "tgt": [
+    [
+     30969,
+     30984
+    ],
+    [
+     30869,
+     30885
+    ]
+   ],
+   "stop_hint": "expectations on shorts must still be tempered until sellers prove something."
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 30869-30885",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "Long a hold or LBAF of 30869-30885 is an A/A-",
+   "kind": "fade",
+   "gate": [
+    30869,
+    30885
+   ],
+   "tgt": [
+    [
+     30969,
+     30984
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Breakout long through 31056-31069 to nATH",
+   "dir": "long",
+   "tag": "",
+   "quote": "A breakout long is valid and I think implied in the commentary if NQ/QQQ are sustaining a break to nATH.",
+   "kind": "break",
+   "gate": [
+    31056,
+    31069
+   ],
+   "tgt": [
+    [
+     31125,
+     31143
+    ],
+    [
+     31269,
+     31288
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7827 (rotation long)",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "Rotational trading between 7827 and 7840-7841 is implied in the commentary and those trades are probably a B- with the longs rated a bit higher than the shorts.",
+   "kind": "fade",
+   "gate": [
+    7827,
+    7827
+   ],
+   "tgt": [
+    [
+     7840,
+     7841
+    ]
+   ],
+   "stop_hint": "mindful of 32 and 35 in between"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7840-7841 (rotation short)",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "Rotational trading between 7827 and 7840-7841 is implied in the commentary and those trades are probably a B- with the longs rated a bit higher than the shorts.",
+   "kind": "fade",
+   "gate": [
+    7840,
+    7841
+   ],
+   "tgt": [
+    7827
+   ],
+   "stop_hint": "mindful of 32 and 35 in between"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of today's low (7822.25) holding 7817-7820",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a LBAF of today’s low which holds the 7817-7820 weekly level or otherwise. Be sure that 7827 is reclaimed but I’ll rate it a B/B-",
+   "kind": "fade",
+   "gate": [
+    7822.25,
+    7822.25
+   ],
+   "tgt": [
+    [
+     7840,
+     7841
+    ],
+    7848.5
+   ],
+   "stop_hint": "which holds the 7817-7820 weekly level or otherwise. Be sure that 7827 is reclaimed"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LAAF of today's high (7848.5)",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "Short a LAAF of today’s high is a B-. It would be higher except the prevailing trend has been so clearly higher.",
+   "kind": "fade",
+   "gate": [
+    7848.5,
+    7848.5
+   ],
+   "tgt": [
+    [
+     7840,
+     7841
+    ],
+    7827,
+    7822.25
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

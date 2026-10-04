@@ -1,0 +1,230 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-10",
+ "status": "transcribed",
+ "ref_date_note": "'Today' = Wed 9/9. He notes we are nearing the end of the ES contract (roll next week). ES abbreviations resolved in 76xx: 53.5-54.5 = 7653.5-7654.5 (today's ARH 7654.5), 37-38, 38-39, 65-72, 21.5/18.5 = last week's RTH/ETH lows 7621.5/7618.5. es1 gate is 7655-7659 with the LAAF-of-7654.5-ARH trigger in stop_hint. es3 'LBAF of last week's low' is ungraded ('has to rate poorly but is valid'), tag '', gated on the given numbers [7618.5, 7621.5]. NQ '516 +/- 10' recorded as single level 29516; '400-414' demand as 29400-29414; premarket low 29333. NQ 'reactive two-way trading' sentence skipped (no trade).",
+ "zones": {
+  "ES": [
+   [
+    7736,
+    7739
+   ],
+   [
+    7727,
+    7730
+   ],
+   [
+    7603,
+    7606
+   ],
+   [
+    7706,
+    7712
+   ],
+   [
+    7655,
+    7659
+   ],
+   [
+    7633,
+    7636
+   ],
+   [
+    7653.5,
+    7654.5
+   ],
+   [
+    7637,
+    7638
+   ],
+   [
+    7638,
+    7639
+   ],
+   [
+    7669,
+    7673
+   ],
+   [
+    7621.5,
+    7621.5
+   ],
+   [
+    7618.5,
+    7618.5
+   ],
+   [
+    7665,
+    7672
+   ],
+   [
+    7618,
+    7621
+   ]
+  ],
+  "NQ": [
+   [
+    29630,
+    29645
+   ],
+   [
+    29544,
+    29554
+   ],
+   [
+    29448,
+    29469
+   ],
+   [
+    29516,
+    29516
+   ],
+   [
+    29400,
+    29414
+   ],
+   [
+    29706,
+    29735
+   ],
+   [
+    29338,
+    29369
+   ],
+   [
+    29333,
+    29333
+   ],
+   [
+    29200,
+    29240
+   ],
+   [
+    29038,
+    29069
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "B+",
+   "quote": "Long a LBAF of today’s low is worth rating as a B+.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     29448,
+     29469
+    ],
+    [
+     29544,
+     29554
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail in 7655-7659 (LAAF of 7654.5 ARH)",
+   "dir": "short",
+   "tag": "A",
+   "quote": "Short a fail in the 7655-7659 range which triggers a LAAF of today’s 54.5 ARH is an A setup.",
+   "kind": "fade",
+   "gate": [
+    7655,
+    7659
+   ],
+   "tgt": [
+    [
+     7638,
+     7639
+    ],
+    [
+     7633,
+     7636
+    ]
+   ],
+   "stop_hint": "which triggers a LAAF of today’s 54.5 ARH"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 7633-7636 (protecting today's low)",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "I’m okay getting long if buyers protect today’s low by holding the 33-36 level given the high timeframe importance of this general area. I can’t rate it higher than a B/B- but it is valid.",
+   "kind": "fade",
+   "gate": [
+    7633,
+    7636
+   ],
+   "tgt": [
+    [
+     7653.5,
+     7654.5
+    ],
+    [
+     7655,
+     7659
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of last week's low (7618.5-7621.5)",
+   "dir": "long",
+   "tag": "",
+   "quote": "While hard to rate, I’ll reiterate we need to monitor for a LBAF of last week’s low. For a day trade there is quite a distance (given recent vol) before the bare minimum reclaim of 33-36 so it has to rate poorly but is valid.",
+   "kind": "fade",
+   "gate": [
+    7618.5,
+    7621.5
+   ],
+   "tgt": [
+    [
+     7633,
+     7636
+    ],
+    [
+     7665,
+     7672
+    ]
+   ],
+   "stop_hint": "quite a distance before the bare minimum reclaim of 33-36"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "B/B+",
+   "quote": "Short a LAAF of today’s high is a B/B+ given the bearish RTH gap. It would be rated higher but it would have a ton of sellers trapped below 55-59 to get back through.",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    [
+     7655,
+     7659
+    ],
+    [
+     7653.5,
+     7654.5
+    ]
+   ],
+   "stop_hint": "it would have a ton of sellers trapped below 55-59 to get back through"
+  }
+ ]
+}

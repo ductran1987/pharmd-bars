@@ -1,0 +1,295 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-09",
+ "status": "transcribed",
+ "ref_date_note": "'Today' in the letter = Tue 9/8 (first full cash session after Labor Day). ES spike base 7676.75 and today's low 7672.25 given explicitly. Commentary '7604 looks like a natural target below the weekly 7706-7712' and 'above 7699.75' are typos for 7704 and 7699.5 (recorded as such). nq1 reclaim long of 544-554 is conditional on ES rejecting its spike; recorded as kind 'break'. nq5 'persistent failures at 544-554 ... Not worth a rating' included with tag ''. es3 is the 'could be played as a LAAF 7699.5 with a lower rating' variant of es2, no explicit grade, tag '' sharing es2's quote.",
+ "zones": {
+  "ES": [
+   [
+    7736,
+    7739
+   ],
+   [
+    7727,
+    7730
+   ],
+   [
+    7649,
+    7649
+   ],
+   [
+    7669,
+    7673
+   ],
+   [
+    7676.75,
+    7676.75
+   ],
+   [
+    7672.25,
+    7672.25
+   ],
+   [
+    7685,
+    7685
+   ],
+   [
+    7699.5,
+    7699.5
+   ],
+   [
+    7704,
+    7704
+   ],
+   [
+    7680,
+    7680
+   ],
+   [
+    7706,
+    7712
+   ],
+   [
+    7655,
+    7659
+   ],
+   [
+    7692,
+    7692
+   ],
+   [
+    7653,
+    7653
+   ],
+   [
+    7643,
+    7643
+   ],
+   [
+    7633,
+    7636
+   ],
+   [
+    7618,
+    7621
+   ]
+  ],
+  "NQ": [
+   [
+    29630,
+    29645
+   ],
+   [
+    29544,
+    29554
+   ],
+   [
+    29525,
+    29544
+   ],
+   [
+    29706,
+    29735
+   ],
+   [
+    29448,
+    29469
+   ],
+   [
+    29376,
+    29376
+   ],
+   [
+    29338,
+    29369
+   ],
+   [
+    29569,
+    29569
+   ],
+   [
+    29765,
+    29765
+   ],
+   [
+    29608,
+    29608
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Reclaim long of 29544-29554 (if ES rejects spike)",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "If ES rejects its spike and NQ reclaims 544-554 then I’m open to a reclaim long with a B/B- rating (I hate reclaim longs and breakdown shorts).",
+   "kind": "break",
+   "gate": [
+    29544,
+    29554
+   ],
+   "tgt": [
+    29569,
+    [
+     29630,
+     29645
+    ]
+   ],
+   "stop_hint": "If ES rejects its spike"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "A LBAF of today’s low has to be valid given the BF and singles but needs back above 448-469 to have a fair chance at finding 544-554 and potentially more. B-",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     29448,
+     29469
+    ],
+    [
+     29544,
+     29554
+    ]
+   ],
+   "stop_hint": "needs back above 448-469 to have a fair chance"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Reactive bid in 29338-29369",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "As mentioned above, open to getting long if we see a reactive bid in/around the 338-369 range. I would keep longs from below today’s low tight until today’s low and 448-469 are reclaimed so I can’t rate it higher than a B-",
+   "kind": "fade",
+   "gate": [
+    29338,
+    29369
+   ],
+   "tgt": [
+    "RTH_LOW",
+    [
+     29448,
+     29469
+    ]
+   ],
+   "stop_hint": "I would keep longs from below today’s low tight until today’s low and 448-469 are reclaimed"
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LAAF of 29630-29645",
+   "dir": "short",
+   "tag": "C+/B-",
+   "quote": "Short a LAAF (I really prefer a LAAF here and would prefer reserving shorts for ES in general anyway) of 630-645 targeting 608, 569, and 544-554. Again, NQ has thus far been strong relative to ES/YM/RSP so I can’t rate it higher than a C+/B-",
+   "kind": "fade",
+   "gate": [
+    29630,
+    29645
+   ],
+   "tgt": [
+    29608,
+    29569,
+    [
+     29544,
+     29554
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Persistent failures at 29544-29554",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorting persistent failures at 544-554 is implied but like for last night I would rather look to ES. Sellers weren’t yet ready to firmly cap it as resistance Sunday night/last night and it ended up mostly support. I don’t have reason to believe they are ready to do so now but will keep an open mind. Not worth a rating still.",
+   "kind": "fade",
+   "gate": [
+    29544,
+    29554
+   ],
+   "tgt": [
+    [
+     29448,
+     29469
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold/LBAF of today's low and 7669-7673",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "Long a hold or LBAF of today’s low and the weekly 69-73 level. Again, any inability from sellers to find traction below today’s low and today’s 76.75 spike base can be a long. I’ll be wary of 7680 and 7685 from below (especially early in an overnight session for example with limited information available) but above 7685 I have more confidence in seeing 92 and probably 99.5. B/B+ because of the spike, otherwise would be rated lower.",
+   "kind": "fade",
+   "gate": [
+    7669,
+    7673
+   ],
+   "tgt": [
+    7680,
+    7685,
+    7692,
+    7699.5
+   ],
+   "stop_hint": "any inability from sellers to find traction below today’s low and today’s 76.75 spike base; I’ll be wary of 7680 and 7685 from below"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of 7704",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short a LAAF of 7704 is an A/A- and could be played as a LAAF 7699.5 with a lower rating. As a LAAF of 7704, we know that it would need to turn into a LAAF 7699.5 to be any good anyway.",
+   "kind": "fade",
+   "gate": [
+    7704,
+    7704
+   ],
+   "tgt": [
+    7699.5,
+    7692,
+    7685,
+    [
+     7669,
+     7673
+    ]
+   ],
+   "stop_hint": "it would need to turn into a LAAF 7699.5 to be any good"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LAAF of 7699.5",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of 7704 is an A/A- and could be played as a LAAF 7699.5 with a lower rating. As a LAAF of 7704, we know that it would need to turn into a LAAF 7699.5 to be any good anyway.",
+   "kind": "fade",
+   "gate": [
+    7699.5,
+    7699.5
+   ],
+   "tgt": [
+    7692,
+    7685,
+    [
+     7669,
+     7673
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

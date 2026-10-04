@@ -1,0 +1,224 @@
+{
+ "source": "pharmdks",
+ "date": "2026-09-22",
+ "status": "transcribed",
+ "ref_date_note": "Z (Dec) contract. Outlier lockout-rally day (weekly straddle nearly doubled Monday 9/21); letter says 'there are no setups' and gives no graded trades. Recorded the explicitly named ideas with tag '': continuation long above today's high on both indices (RTH_HIGH, no numeric high given; today's high sits inside the 7846-7849 weekly level) and the dip-join longs he 'likes the most' (NQ '616 area +/- 20' recorded as [30596,30636]; ES 7800-7803 and 7792). No Trading Higher/Lower sections, so targets taken from the additional weekly levels / fib checkpoints in commentary. Letter typo '7846-4879' read as 7846-7849. Tactical 'structure repair' shorts have no level and were skipped. NQ 31089 = QQQ ATH equivalent kept as a level.",
+ "zones": {
+  "ES": [
+   [
+    7917,
+    7920
+   ],
+   [
+    7893,
+    7896
+   ],
+   [
+    7800,
+    7803
+   ],
+   [
+    7817,
+    7820
+   ],
+   [
+    7846,
+    7849
+   ],
+   [
+    7813.25,
+    7813.25
+   ],
+   [
+    7792.25,
+    7792.25
+   ],
+   [
+    7791,
+    7791
+   ],
+   [
+    7844.75,
+    7844.75
+   ]
+  ],
+  "NQ": [
+   [
+    31269,
+    31288
+   ],
+   [
+    31125,
+    31143
+   ],
+   [
+    31056,
+    31069
+   ],
+   [
+    30808,
+    30823
+   ],
+   [
+    30813.5,
+    30813.5
+   ],
+   [
+    30634,
+    30646
+   ],
+   [
+    30616,
+    30616
+   ],
+   [
+    30596,
+    30636
+   ],
+   [
+    30539.75,
+    30539.75
+   ],
+   [
+    30546,
+    30600
+   ],
+   [
+    30463.25,
+    30463.25
+   ],
+   [
+    30444,
+    30469
+   ],
+   [
+    31089,
+    31089
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Continuation long above today's high",
+   "dir": "long",
+   "tag": "",
+   "quote": "Both indices are a long with continuation above today’s high.",
+   "kind": "break",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    [
+     31056,
+     31069
+    ],
+    31089,
+    [
+     31125,
+     31143
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Dip-join long at 30616 area +/- 20",
+   "dir": "long",
+   "tag": "",
+   "quote": "Join any session trend to the upside with longs. I like the idea of 616 area on NQ +/- 20 or so the most and for ES the 7800-7803 and 7792 areas.",
+   "kind": "fade",
+   "gate": [
+    30596,
+    30636
+   ],
+   "tgt": [
+    [
+     30634,
+     30646
+    ],
+    [
+     30808,
+     30823
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Continuation long above today's high",
+   "dir": "long",
+   "tag": "",
+   "quote": "Both indices are a long with continuation above today’s high.",
+   "kind": "break",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    [
+     7893,
+     7896
+    ],
+    [
+     7917,
+     7920
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Dip-join long at 7800-7803",
+   "dir": "long",
+   "tag": "",
+   "quote": "Join any session trend to the upside with longs. I like the idea of 616 area on NQ +/- 20 or so the most and for ES the 7800-7803 and 7792 areas.",
+   "kind": "fade",
+   "gate": [
+    7800,
+    7803
+   ],
+   "tgt": [
+    7813.25,
+    [
+     7817,
+     7820
+    ],
+    [
+     7846,
+     7849
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Dip-join long at 7792",
+   "dir": "long",
+   "tag": "",
+   "quote": "Join any session trend to the upside with longs. I like the idea of 616 area on NQ +/- 20 or so the most and for ES the 7800-7803 and 7792 areas.",
+   "kind": "fade",
+   "gate": [
+    7792,
+    7792
+   ],
+   "tgt": [
+    [
+     7800,
+     7803
+    ],
+    [
+     7817,
+     7820
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}
