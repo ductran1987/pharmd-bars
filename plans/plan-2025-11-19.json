@@ -1,0 +1,36 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-19",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1119",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Z5 (Dec 2025) contract; no roll mentioned. No TRADES section and no graded setups ('There is far less clarity in terms of setups into tomorrow') -> trades = []. Commentary ideas (ungraded, not promoted): ES join any session downtrend until buyers pause it; short reactions at 6645 or 6650-6653 (Oct VAL proxy) and at 6658.5-6662, monitoring for continuation through the levels; holding below 6629 and driving through today's low = bearish continuation; buyers may protect today's low near weekly 6606-6611 (manage shorts if the 12:30 6614.75 low is taken); if buyers hold 6618.5-6624 (protecting the 12:30 swing low) carefully join a session uptrend; holding above 6658.5-6662 opens today's high (explicitly NOT a reclaim long, trade management only); a quick LBAF of today's low may bring longs (needs real-time confirmation). NQ 'effectively the same': monitor today's VAL 24552, weekly 24643-24669 (captures Oct VAL), last week's low 24626, 24430-24459 could protect today's low; prefers joining a session downtrend short. Reference levels: ES Oct cash-hours low 6591.75, 6698.5 (prior plan's pivot); NQ Oct cash-hours low 24384.25.",
+ "zones": {
+  "ES": [
+   [6714.75, 6718.5],
+   [6698.5, 6698.5],
+   [6687.5, 6687.5],
+   [6658.5, 6662],
+   [6650, 6653],
+   [6645, 6645],
+   [6629, 6629],
+   [6618.5, 6624],
+   [6614.75, 6614.75],
+   [6606, 6611],
+   [6591.75, 6591.75]
+  ],
+  "NQ": [
+   [25069, 25069],
+   [24945, 24955],
+   [24911.5, 24911.5],
+   [24816, 24824],
+   [24643, 24669],
+   [24626, 24626],
+   [24552, 24552],
+   [24430, 24459],
+   [24384.25, 24384.25]
+  ]
+ },
+ "trades": []
+}

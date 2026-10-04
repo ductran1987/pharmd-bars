@@ -1,0 +1,143 @@
+{
+ "source": "pharmdks",
+ "date": "2025-12-10",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1210",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Wed 12/10/2025 FOMC day (posted Tue 12/9), subtitle 'Valhalla or Hellheim?'. Z (Dec) contract per batch, no roll mention. No TRADES section: only levels, commentary and a 'PRICE:' heading with ES:/NQ: Trading Lower / Trading Higher subsections, all ungraded ('I'll primarily focus on the big picture with a couple of trade ideas') -> trades = []. Commentary ideas only: ES range ~6823-6873 ('short on the way down, taking profit, and looking to flip long ... long on the way up into the top of range ... looking to flip short'); today's spike base 6847.25, today's low 6844.5. Trading Lower: holding below the spike -> take out relative equal lows 6836.25/6835.25, toward range low/last week's VAL (remain short, be ready to flip long); holding below 6835-6836 -> relative equal daily lows 6818/6820, possibly 6809.5-6812.5; 'dream scenario' take all daily lows, trap into 6791-6796, then reclaim long above 6812 (FOMC could even see 6750-6755 then a reclaim). Trading Higher: back above 6850.5-6853 -> 6857, 6861.5, 6864/65, 6866.5-6869; above 6866.5-6869 and 6872-6874 (absent a fresh LAAF) -> Monday's open 6885.75 (6880-6883 at least). NQ: liquidation risk below 25688, near-guaranteed holding below 25651-25669 (pivot); liquidation break -> 25639 (HVN/VPOC, today's 5-min OR high) then today's/yesterday's lows 25565/25560; continuation -> 25482-25502, 25450s, 25414-25430; LBAF of today's/yesterday's low -> 25639 and 25651-25669 retest (back above 25688 very bullish); holding 25651-25669 and reclaiming 25688 -> today's high; monitor LAAF/failed reclaim of 25761-25769 producing a LAAF of today's high (25700 and 25688 first targets); holding above 25761-25769 -> Monday's open, 25823-25836, Monday's high. ES '6820s' and '64/65' recorded as 6820 and 6864-6865; NQ '730 range'/'730s' kept as the listed 25733-25736 level only; '450s' recorded as [25450,25459].",
+ "zones": {
+  "ES": [
+   [
+    6928,
+    6930
+   ],
+   [
+    6872,
+    6874
+   ],
+   [
+    6835.25,
+    6836.25
+   ],
+   [
+    6866.5,
+    6869
+   ],
+   [
+    6823,
+    6873
+   ],
+   [
+    6809.5,
+    6812.5
+   ],
+   [
+    6791,
+    6796
+   ],
+   [
+    6847.25,
+    6847.25
+   ],
+   [
+    6844.5,
+    6844.5
+   ],
+   [
+    6850.5,
+    6853
+   ],
+   [
+    6818,
+    6818
+   ],
+   [
+    6820,
+    6820
+   ],
+   [
+    6812,
+    6812
+   ],
+   [
+    6750,
+    6755
+   ],
+   [
+    6857,
+    6857
+   ],
+   [
+    6861.5,
+    6861.5
+   ],
+   [
+    6864,
+    6865
+   ],
+   [
+    6880,
+    6883
+   ],
+   [
+    6885.75,
+    6885.75
+   ]
+  ],
+  "NQ": [
+   [
+    26015.5,
+    26031
+   ],
+   [
+    25823,
+    25836
+   ],
+   [
+    25733,
+    25736
+   ],
+   [
+    25688,
+    25688
+   ],
+   [
+    25639,
+    25639
+   ],
+   [
+    25560,
+    25565
+   ],
+   [
+    25761,
+    25769
+   ],
+   [
+    25651,
+    25669
+   ],
+   [
+    25482,
+    25502
+   ],
+   [
+    25450,
+    25459
+   ],
+   [
+    25414,
+    25430
+   ],
+   [
+    25700,
+    25700
+   ]
+  ]
+ },
+ "trades": []
+}

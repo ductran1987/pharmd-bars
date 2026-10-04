@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-10",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1010",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Brief letter (author out of town for a funeral); no TRADES section, levels left unchanged + macro commentary -> trades = []. Contract not stated; Z (Dec) assumed per batch (no roll mention). Commentary only: ES/SPX daily now a broader balance with today's high (RTH_HIGH of 10/9) the top and Thursday's low 6741.5 the bottom; big picture remains 6741.5 and 6802.75; 6792.25 could arguably be 6793. QQQ/NQ still a breakout unless negated by taking out today's low (RTH_LOW of 10/9). Expects 2-way trading, follow intra-session trends either way. No specific trade ideas with levels.",
+ "zones": {
+  "ES": [[6802.75, 6802.75], [6792.25, 6792.25], [6741.5, 6741.5]],
+  "NQ": [[25344.25, 25344.25], [25300, 25300], [25231, 25231]]
+ },
+ "trades": []
+}

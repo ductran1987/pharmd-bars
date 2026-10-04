@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-13",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-813",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Wed after CPI breakout to ATH; post dated Aug 12, 2025. U (Sep) contract, no roll mention. Letter has NO TRADES section and no graded trades - only levels + COMMENTARY - so trades=[] per the literal rule. Ungraded commentary ideas: 'up only' mode, no shorts beyond scalps; sustaining above today's spike/high 6467-6470 is all longs (prefer waiting for inventory correction on a true gap up); failure to sustain above spike expected to find 6454, except a quick sweep of equal lows 6460.75 that reverses higher (long); holding below 6460.75 -> 6451-6454; loss of 6451 -> 6440-6443; holding 6440-6444 keeps IB sellers trapped, can rotate back to 6451-6454 ('I like the idea of buying near 6440-6444 the most'); 6431-6435 allowance/trap spot for a failed breakout; holding back below 6431-6435 likely finds 6419-6422, but no failed-breakout assumption until today's low 6408.5 taken out with continuation. Recap typo 'got long 6292' (means 6392) - recap only. 6440-6443 and 6440-6444 both appear; kept 6440-6444. No NQ commentary beyond levels.",
+ "zones": {
+  "ES": [[6467, 6470], [6460.75, 6460.75], [6451, 6454], [6440, 6444], [6431, 6435], [6419, 6422], [6410, 6411.5], [6408.5, 6408.5], [6404, 6405], [6392, 6396]],
+  "NQ": [[23808.25, 23821.25], [23769, 23775], [23716, 23724], [23622, 23622]]
+ },
+ "trades": []
+}

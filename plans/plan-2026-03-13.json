@@ -1,0 +1,55 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-13",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-313",
+ "contract": {"ES": "ESH6", "NQ": "NQH6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Thu Mar 12, 2026 for Fri 3/13; H6 contract, no roll mention. TRADES section is ungraded -> all tags ''. Day after P-breakdown with spike down into close (crude-driven tape). The two generic paragraphs name levels so were transcribed per instrument: long on sellers' inability to get through today's spike base and low (ES 6675.25-6684.5 = es1, NQ 24542.75-24561 = nq1; gates span low..spike base; stop_hint carries the 'tight leash until 88-93 / 579-608 reclaimed'); breakdown short on persistent weakness below ES 6688-6693 (es2) / NQ 24579-24608 (nq2) - he adds 'Holding below the spike base and today's low is higher probability' (in stop_hint). Long targets/short break targets taken from Trading Higher/Lower commentary. NQ 'fail/LAAF of 750-769 or even 701' split into nq3 (24750-24769) and nq4 (24701); no target stated -> first lower commentary level (24700 for nq3; 24669 for nq4). ES 'LAAF of today's high / 6732-6736' (es3) gated on 6732-6736 (today's high not given numerically; read as the high's zone); its stated targets belong to the alternative 'LAAF of 6717' version (es4) and were applied to both, with 6717 prepended for es3. 6697 appears only in the trade line. ES 200-sma 'in the 6600-6620s' not added as a zone.",
+ "zones": {
+  "ES": [[6820, 6820], [6741, 6741], [6658, 6658], [6684.5, 6684.5], [6675.25, 6675.25], [6670, 6675], [6688, 6693], [6704, 6709], [6717, 6717], [6719, 6719], [6719, 6722], [6741, 6751], [6751.5, 6755], [6671.75, 6671.75], [6640, 6647], [6641, 6641], [6622, 6622], [6596, 6600], [6732, 6736], [6697, 6697]],
+  "NQ": [[25211, 25218], [25179, 25185], [25025, 25038], [24525, 24545], [24469, 24469], [24432, 24432], [24600, 24600], [24579, 24608], [25120, 25120], [25121, 25139], [24909, 24941], [24750, 24769], [24561, 24561], [24542.75, 24542.75], [24669, 24669], [24700, 24700], [24701, 24701], [24834.5, 24834.5], [24352, 24369], [24313, 24313], [24069, 24369]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Hold of today's spike base/low (24542.75-24561)", "dir": "long", "tag": "",
+   "quote": "Because ES and NQ are in an area which could prove to be a short term range low, I am open to longs on an inability from sellers to get through today’s spike base and low. A very tight leash would need to be kept on any long attempt until 579-608 NQ and 88-93 ES are reclaimed.",
+   "kind": "fade", "gate": [24542.75, 24561], "tgt": [[24579, 24608], 24669, 24700, [24750, 24769]], "stop_hint": "A very tight leash would need to be kept on any long attempt until 579-608 NQ and 88-93 ES are reclaimed."
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Persistent weakness below 24579-24608", "dir": "short", "tag": "",
+   "quote": "I’m willing to take a breakdown short on persistent weakness below 579-608 NQ and 88-93 ES in the absence of any firm rejections below today’s spike base an low. Holding below the spike base and today’s low is higher probability.",
+   "kind": "break", "gate": [24579, 24608], "tgt": [[24525, 24545], 24469, 24432, [24352, 24369], 24313], "stop_hint": "in the absence of any firm rejections below today’s spike base an low. Holding below the spike base and today’s low is higher probability."
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Fail/LAAF of 24750-24769", "dir": "short", "tag": "",
+   "quote": "Short NQ on a fail/LAAF of 750-769 or even 701.",
+   "kind": "fade", "gate": [24750, 24769], "tgt": [24700], "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "Fail/LAAF of 24701", "dir": "short", "tag": "",
+   "quote": "Short NQ on a fail/LAAF of 750-769 or even 701.",
+   "kind": "fade", "gate": [24701, 24701], "tgt": [24669], "stop_hint": ""
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Hold of today's spike base/low (6675.25-6684.5)", "dir": "long", "tag": "",
+   "quote": "Because ES and NQ are in an area which could prove to be a short term range low, I am open to longs on an inability from sellers to get through today’s spike base and low. A very tight leash would need to be kept on any long attempt until 579-608 NQ and 88-93 ES are reclaimed.",
+   "kind": "fade", "gate": [6675.25, 6684.5], "tgt": [[6688, 6693], [6704, 6709], 6717], "stop_hint": "A very tight leash would need to be kept on any long attempt until 579-608 NQ and 88-93 ES are reclaimed."
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Persistent weakness below 6688-6693", "dir": "short", "tag": "",
+   "quote": "I’m willing to take a breakdown short on persistent weakness below 579-608 NQ and 88-93 ES in the absence of any firm rejections below today’s spike base an low. Holding below the spike base and today’s low is higher probability.",
+   "kind": "break", "gate": [6688, 6693], "tgt": [[6670, 6675], 6658, [6640, 6647], 6622, [6596, 6600]], "stop_hint": "in the absence of any firm rejections below today’s spike base an low. Holding below the spike base and today’s low is higher probability."
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "LAAF of today's high / 6732-6736", "dir": "short", "tag": "",
+   "quote": "Short ES on a LAAF of of today’s high / 6732-6736. As sellers were very active in the 19-22 range this could potentially be played as a LAAF of 6717 targeting 6704-6709, 6697, and 88-93. Monitor for continuation from there.",
+   "kind": "fade", "gate": [6732, 6736], "tgt": [6717, [6704, 6709], 6697, [6688, 6693]], "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "LAAF of 6717", "dir": "short", "tag": "",
+   "quote": "Short ES on a LAAF of of today’s high / 6732-6736. As sellers were very active in the 19-22 range this could potentially be played as a LAAF of 6717 targeting 6704-6709, 6697, and 88-93. Monitor for continuation from there.",
+   "kind": "fade", "gate": [6717, 6717], "tgt": [[6704, 6709], 6697, [6688, 6693]], "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "source": "pharmdks",
+ "date": "2025-12-03",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-123",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Wed 12/3/2025 (posted Tue 12/2). Z (Dec 2025) contract per batch; no roll mention. No 'TRADES:' heading: the main plan is an image ('Here's the plan for tomorrow: [chart] That's pretty much it.') that is not readable as text. The commentary then gives an explicit list ('Really anything else on ES is diddling in the middle but one could consider' + 'For NQ:' list), all UNGRADED -> transcribed as trades with tag ''; judgment call that this list counts as the trades list. Elevated chance of an outside day (take out both 12/2 high and low), no directional signal, upward resolution favored while NQ holds its breakout. ES today's RTH low given as 6818 (es3 gated on number; 'far stronger' if relative equal lows at 6812 are taken out); es1 'LBAF of 6831 (or 24 really)' gated 6831 with 6824 noted in stop_hint. es4 = his all-week long on a hold of 6791-6796 (needs 6809.5-6812.5 reclaimed). ES 6841-6844 (weekly, developing VPOC) is 'more a target for failed excursions' -> used as first target for es1/es2, not as a trade. No targets stated anywhere -> nearest levels in the trade direction from this letter. NQ today's high not given numerically (implied just under 25686-25700) -> nq1 2nd target / nq5 gate RTH_HIGH. nq4 'valid but I am more hesitant to short NQ'; nq5 'not super excited about shorting it just yet'. NQ 25414.5 'monitor for LBAF' in levels list only (no trade).",
+ "zones": {
+  "ES": [[6873.5, 6873.5], [6857, 6864], [6853.5, 6853.5], [6841, 6844], [6831, 6831], [6824, 6824], [6818, 6818], [6812, 6812], [6809.5, 6812.5], [6791, 6796], [6785, 6785]],
+  "NQ": [[25686, 25700], [25647, 25647], [25542, 25547], [25496, 25502], [25438, 25452], [25414.5, 25414.5], [25331, 25331]]
+ },
+ "trades": [
+  {"id": "es1", "instrument": "ES", "name": "LBAF of 6831 (or 6824)", "dir": "long", "tag": "",
+   "quote": "Long a LBAF of 6831 (or 24 really)",
+   "kind": "fade", "gate": [6831, 6831], "tgt": [[6841, 6844], 6853.5], "stop_hint": "(or 24 really)"},
+  {"id": "es2", "instrument": "ES", "name": "LAAF of 6853.5", "dir": "short", "tag": "",
+   "quote": "Short a LAAF of 6853.5",
+   "kind": "fade", "gate": [6853.5, 6853.5], "tgt": [[6841, 6844], 6831], "stop_hint": ""},
+  {"id": "es3", "instrument": "ES", "name": "LBAF of today's low (6818)", "dir": "long", "tag": "",
+   "quote": "Long a LBAF of today’s low is effectively included in the above, though today’s RTH low was 6818 and it would be a far stronger trade if those pesky relative equal lows at 6812 are taken out.",
+   "kind": "fade", "gate": [6818, 6818], "tgt": [6824, 6831, [6841, 6844]], "stop_hint": "it would be a far stronger trade if those pesky relative equal lows at 6812 are taken out."},
+  {"id": "es4", "instrument": "ES", "name": "Hold of 6791-6796", "dir": "long", "tag": "",
+   "quote": "As indicated in the picture, I’m still open to 6791-6796 ending up as a multi-day balance low so longs on a hold of that range can be considered as has been in the plan all week. Even more clearly now, 6809.5-6812.5 would need to be reclaimed.",
+   "kind": "fade", "gate": [6791, 6796], "tgt": [[6809.5, 6812.5], 6818, 6831], "stop_hint": "Even more clearly now, 6809.5-6812.5 would need to be reclaimed."},
+  {"id": "nq1", "instrument": "NQ", "name": "LBAF of 25542-25547", "dir": "long", "tag": "",
+   "quote": "Long a LBAF of 542-547",
+   "kind": "fade", "gate": [25542, 25547], "tgt": [25647, "RTH_HIGH"], "stop_hint": ""},
+  {"id": "nq2", "instrument": "NQ", "name": "LBAF of 25496-25502", "dir": "long", "tag": "",
+   "quote": "Long a LBAF of 496-502",
+   "kind": "fade", "gate": [25496, 25502], "tgt": [[25542, 25547], 25647], "stop_hint": ""},
+  {"id": "nq3", "instrument": "NQ", "name": "Hold of 25438-25452", "dir": "long", "tag": "",
+   "quote": "Long a hold of 438-452",
+   "kind": "fade", "gate": [25438, 25452], "tgt": [[25496, 25502], [25542, 25547]], "stop_hint": ""},
+  {"id": "nq4", "instrument": "NQ", "name": "LAAF of 25647", "dir": "short", "tag": "",
+   "quote": "Short a LAAF of 25647 is valid but I am more hesitant to short NQ.",
+   "kind": "fade", "gate": [25647, 25647], "tgt": [[25542, 25547], [25496, 25502]], "stop_hint": ""},
+  {"id": "nq5", "instrument": "NQ", "name": "LAAF of today's high rejected by 25686-25700", "dir": "short", "tag": "",
+   "quote": "A LAAF of today’s high which gets rejected by perhaps the 686-700 level might produce a stronger move but still, given its relative strength I’m not super excited about shorting it just yet. I’m more likely to short ES on NQ weakness.",
+   "kind": "fade", "gate": ["RTH_HIGH", "RTH_HIGH"], "tgt": [25647, [25542, 25547]], "stop_hint": "which gets rejected by perhaps the 686-700 level"}
+ ]
+}

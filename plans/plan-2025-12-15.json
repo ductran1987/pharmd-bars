@@ -1,0 +1,201 @@
+{
+ "source": "pharmdks",
+ "date": "2025-12-15",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1215",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Roll week Z5->H6. This letter (posted Sat Dec 13) has no roll sentence and only one set of numbers, referencing Friday's (Z5) session; the next letter (12/16) says 'I'll be referencing the new March contract moving forward', so these numbers are Z5. ES TRADES line 'The major trades are the pictures drawn in the weekly plan ... Both are A+ setups' names no level -> skipped. es1 ungraded ES short on firm rejection of the single prints: gated on 6866.5-6869 per commentary ('call it a LAAF of 66.5-69'; singles start 6869.75), targets 'the above targets' 6850-6855, 6832, 6824-6828. nq1 breakdown short below Friday's low has no stated target and no lower level in commentary -> tgt []. nq2 grade taken from 'This is probably the best A+ setup I've seen in some time'; targets 315, 282-292, 237, Friday's low. nq3 grade conditional: A+ if ES is in a LBAF too, B+/A- if ES is holding Friday's low; 25150 = reclaim condition (stop_hint). nq4 ungraded session-downtrend short below 25369-25388, no target stated -> first lower level 25315. Commentary ideas (not trades): ES LBAF of Friday's low / fresh LBAF of 6809.5-6812.5 long targeting 6850-6855; caution/consider short as low as 6843.5-6846.75 if trading higher directly; sustaining above 6850-6855 -> 6866.5-6869 / singles 6869.75; above 6869 -> 6886 (6883-6886). NQ possible long between Friday's low and 25369-25388; possible sell responses at 25402-25410, 25415-25430, ~25454 (VALs). 25500/25750 mentioned as volume references only.",
+ "zones": {
+  "ES": [
+   [
+    6824,
+    6828
+   ],
+   [
+    6809.5,
+    6812.5
+   ],
+   [
+    6850,
+    6855
+   ],
+   [
+    6843.5,
+    6846.75
+   ],
+   [
+    6866.5,
+    6869
+   ],
+   [
+    6869.75,
+    6869.75
+   ],
+   [
+    6832,
+    6832
+   ],
+   [
+    6873,
+    6875
+   ],
+   [
+    6883,
+    6886
+   ]
+  ],
+  "NQ": [
+   [
+    25315,
+    25315
+   ],
+   [
+    25369,
+    25388
+   ],
+   [
+    25402,
+    25502
+   ],
+   [
+    25402,
+    25410
+   ],
+   [
+    25415,
+    25430
+   ],
+   [
+    25454,
+    25454
+   ],
+   [
+    25482,
+    25502
+   ],
+   [
+    25282,
+    25292
+   ],
+   [
+    25237,
+    25237
+   ],
+   [
+    25150,
+    25150
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Short downtrend below Friday's low",
+   "dir": "short",
+   "tag": "A+",
+   "quote": "Riding short a downtrend below Friday’s low ESPECIALLY if ES has also broken down is an A+ setup. I generally don’t care for breakdown shorts but with cooperation from ES this has potential for violence and I’m here for that.",
+   "kind": "break",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of 25369-25388 on rejection of Friday's B-period singles",
+   "dir": "short",
+   "tag": "A+",
+   "quote": "A strong rejection in Friday’s B-period singles triggering a LAAF of 369-388 is a dream setup. I would monitor 315 and the weekly 282-292 for continuation but expect 237 to print and have a very good chance of riding runners to and through Friday’s low. This is the best setup out there right now. It doesn’t mean that it will setup nor does it mean that it will reach all targets, but it has very good reason to do both. This is probably the best A+ setup I’ve seen in some time.",
+   "kind": "fade",
+   "gate": [
+    25369,
+    25388
+   ],
+   "tgt": [
+    25315,
+    [
+     25282,
+     25292
+    ],
+    25237,
+    "FRI_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "A+ (if ES in LBAF) / B+/A- (if ES holding Friday's low)",
+   "quote": "A LBAF of Friday’s low (especially once 150 is firmly reclaimed) is also a very decent setup if ES has done the same or is otherwise strong. It is hard for me to trust buyers here at all (has been quite a while since saying that) but because of all of the above factors (lack of volume build thus far, conflict with ES, potential range) I have to begrudgingly rate this an A+ if ES is in the midst of a LBAF as well and a B+/A- if ES is holding Friday’s low. Even just to Friday’s VPOC on NQ (237ish) would be around 100 handles so that is going to have my attention. This would have potential for 369-388 and an outside chance of 482-502 so even though reaching 502 would be rather low probability there is enough range for a green trade to be ensured and see what runners can do.",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    25237,
+    [
+     25369,
+     25388
+    ],
+    [
+     25482,
+     25502
+    ]
+   ],
+   "stop_hint": "especially once 150 is firmly reclaimed"
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Session downtrend below 25369-25388",
+   "dir": "short",
+   "tag": "",
+   "quote": "Aside from that I will happily be short in any session downtrend on NQ below 369-388.",
+   "kind": "break",
+   "gate": [
+    25369,
+    25388
+   ],
+   "tgt": [
+    25315
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Firm rejection of single prints (LAAF of 6866.5-6869)",
+   "dir": "short",
+   "tag": "",
+   "quote": "If we see a firm rejection of the single prints on ES I am more likely to look and see where NQ is at and consider shorting it instead, but it is a valid trade on ES with the above targets.",
+   "kind": "fade",
+   "gate": [
+    6866.5,
+    6869
+   ],
+   "tgt": [
+    [
+     6850,
+     6855
+    ],
+    6832,
+    [
+     6824,
+     6828
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

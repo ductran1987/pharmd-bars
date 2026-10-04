@@ -1,0 +1,30 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-14",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-814",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Thu, day after first breakout 'hangover' day; post dated Aug 13, 2025. U (Sep) contract, no roll mention. JUDGMENT CALL: no 'TRADES:' heading - the trade list sits under 'ES:' / 'NQ:' subheadings inside COMMENTARY, introduced by 'For tomorrow (and likely Friday) we simply react and take good day trades' and closed by 'In terms of rating these are all quite decent trade setups' - treated as the trades section; NO letter grades given, so every trade has tag ''. Favorites stated: 'I like the LBAF of today's low on ES the most for longs and probably the LAAF of 952-969 on NQ for shorts'. ES today's low given as the 6467-6470 range ('reclaim of today's low (6467-6470)') -> es2 gated [6467,6470] and es1 targets it, then the 6461 poor overnight low. NQ today's low given as 23886 -> nq2 gate / nq1 target. nq1 is the 'look above and fail (and can short it if seen)' of 23952-23969 (B-period singles 23973.25-24005 above); no stated target -> 'Holding below 952-969 can retest today's low' -> 23886. nq2 second target today's high 24068.5 from 'likely leads to today's high ultimately being taken out'. nq3 front-run long at 23808.25-23821.25 has no numeric target -> 23871-23874.5 then today's low 23886 (the reclaim it front-runs). Not promoted (no specific level in the sentence): 'I will still consider longs back within Tuesday's range at the areas of interest' - areas named earlier: 6451-6454 full back test, 6456.5-6458 partial back test, 6440-6444 trap spot, 6431-6435 must hold; holding above 6483-6486 gives bulls shot to negate 6502.5 excess high. Big-picture: sustained breakout -> mid 6500s/6600s, failure -> back test of 6160s (not zoned). SPX 6409 skipped. NQ weekly decision: close above 23886 bullish, below 23800/23769 bearish.",
+ "zones": {
+  "ES": [[6502.5, 6502.5], [6483, 6486], [6479.5, 6479.5], [6467, 6470], [6461, 6461], [6460.75, 6460.75], [6456.5, 6458], [6451, 6454], [6440, 6444], [6431, 6435], [6408.5, 6408.5], [6404, 6405]],
+  "NQ": [[24068.5, 24068.5], [23973.25, 24005], [23952, 23969], [23886, 23886], [23871, 23874.5], [23808.25, 23821.25], [23800, 23800], [23769, 23775], [23716, 23724], [23622, 23622]]
+ },
+ "trades": [
+  {"id": "es1", "instrument": "ES", "name": "Short trapped below 6483-6486 (lower highs/lower lows) toward today's poor low", "dir": "short", "tag": "",
+   "quote": "Based on the above I am okay with considering shorts toward today’s poor low if price is trapped below 6483-6486 and making lower highs and lower lows. The low is quite poor, as was the overnight low. Those would be my two primary targets.",
+   "kind": "break", "gate": [6483, 6486], "tgt": [[6467, 6470], 6461], "stop_hint": ""},
+  {"id": "es2", "instrument": "ES", "name": "LBAF of today's low (6467-6470)", "dir": "long", "tag": "",
+   "quote": "A LBAF of today’s low is a long targeting 6483-6486 with runners from there if there is continuation.",
+   "kind": "fade", "gate": [6467, 6470], "tgt": [[6483, 6486]], "stop_hint": ""},
+  {"id": "nq1", "instrument": "NQ", "name": "LAAF of 23952-23969", "dir": "short", "tag": "",
+   "quote": "We need to be quite cautious of a look above and fail (and can short it if seen) given the presence of the B period singles which run from 23973.25-24005.",
+   "kind": "fade", "gate": [23952, 23969], "tgt": [23886], "stop_hint": ""},
+  {"id": "nq2", "instrument": "NQ", "name": "LBAF of today's low (23886)", "dir": "long", "tag": "",
+   "quote": "A LBAF of today’s low is a long targeting 952-969. Absent downside continuation on a b-shaped profile at a location in which could very well be the bottom of an upper weekly distribution likely leads to today’s high ultimately being taken out. The 23871-23874.5 range would be the most likely candidate to produce a LBAF but it could come from anywhere",
+   "kind": "fade", "gate": [23886, 23886], "tgt": [[23952, 23969], 24068.5], "stop_hint": ""},
+  {"id": "nq3", "instrument": "NQ", "name": "Long 23808.25-23821.25 singles (front-run reclaim of today's low)", "dir": "long", "tag": "",
+   "quote": "If we see downside continuation on NQ deeper into Tuesday’s range then the 23808.25-23821.25 singles from Tuesday is probably the one spot I would take a crack at a long attempting to front-run a reclaim of today’s low.",
+   "kind": "fade", "gate": [23808.25, 23821.25], "tgt": [[23871, 23874.5], 23886], "stop_hint": ""}
+ ]
+}

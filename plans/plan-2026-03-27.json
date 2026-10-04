@@ -1,0 +1,485 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-27",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-327-c53",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Thu Mar 26, 2026 for Fri 3/27 (free post 'Crash Risk Just Doubled'); M6 contract, no roll mention. Weekly levels reposted in the letter are included in zones along with daily levels. TRADES ungraded ('my favorite are the following') -> all tags ''; he says reclaim longs / breakdown shorts are implied but not listed (skipped). ES today's low not stated explicitly (6-day range given as '6520.25-6704.275', likely today's low 6520.25 and a typo for the high) -> es1 target kept RTH_LOW. NQ today's low given as 23775 -> used numerically. es3 (long failure of sellers to get through today's low and 6513-6519) gated on 6513-6519; no target stated -> first higher level from ES commentary, 6539-6543 (6530 spike base also lies in between). es2 targets taken from Trading Higher ('failed reclaim/LAAF is a short broadly targeting 48.5-51.5 and today's low'). NQ 'failure to reclaim 24018-24030 or 24048-24069' split into nq2/nq3 sharing the quote; no target stated -> first lower level from NQ Trading Higher: 23971.25 (3/20 low) for nq2, 24018-24030 for nq3. nq4 is his lukewarm NQ long near today's low ('For me I would probably look to ES'), included ungraded, gated on today's low 23775, target first higher level 23804-23822. Yearly 6513-6600 level kept as a zone.",
+ "zones": {
+  "ES": [
+   [
+    6631,
+    6634.5
+   ],
+   [
+    6601,
+    6605
+   ],
+   [
+    6573,
+    6580
+   ],
+   [
+    6548.5,
+    6551.5
+   ],
+   [
+    6530,
+    6530
+   ],
+   [
+    6567,
+    6569
+   ],
+   [
+    6580,
+    6580
+   ],
+   [
+    6520.25,
+    6520.25
+   ],
+   [
+    6513,
+    6600
+   ],
+   [
+    6869,
+    6873
+   ],
+   [
+    6853,
+    6858
+   ],
+   [
+    6833,
+    6837
+   ],
+   [
+    6818,
+    6822
+   ],
+   [
+    6803.5,
+    6808.5
+   ],
+   [
+    6783,
+    6787
+   ],
+   [
+    6760,
+    6764
+   ],
+   [
+    6740,
+    6746
+   ],
+   [
+    6710,
+    6716
+   ],
+   [
+    6688,
+    6692
+   ],
+   [
+    6669,
+    6674
+   ],
+   [
+    6653,
+    6657
+   ],
+   [
+    6618,
+    6622
+   ],
+   [
+    6587,
+    6591
+   ],
+   [
+    6563,
+    6563
+   ],
+   [
+    6539,
+    6543
+   ],
+   [
+    6525,
+    6525
+   ],
+   [
+    6513,
+    6519
+   ],
+   [
+    6492,
+    6496
+   ],
+   [
+    6465,
+    6468
+   ],
+   [
+    6451,
+    6454
+   ],
+   [
+    6435,
+    6438
+   ],
+   [
+    6408,
+    6414
+   ],
+   [
+    6375,
+    6387
+   ],
+   [
+    6353,
+    6357
+   ],
+   [
+    6346,
+    6349
+   ],
+   [
+    6311,
+    6319
+   ]
+  ],
+  "NQ": [
+   [
+    24485,
+    24494
+   ],
+   [
+    24427,
+    24427
+   ],
+   [
+    24308,
+    24318
+   ],
+   [
+    24134,
+    24160
+   ],
+   [
+    24018,
+    24030
+   ],
+   [
+    23901,
+    23933
+   ],
+   [
+    23820.25,
+    23820.25
+   ],
+   [
+    23775,
+    23775
+   ],
+   [
+    23969,
+    23969
+   ],
+   [
+    23971.25,
+    23971.25
+   ],
+   [
+    24691.5,
+    24691.5
+   ],
+   [
+    25516,
+    25538
+   ],
+   [
+    25440,
+    25469
+   ],
+   [
+    25369,
+    25388
+   ],
+   [
+    25282,
+    25292
+   ],
+   [
+    25210,
+    25218
+   ],
+   [
+    25090,
+    25115.5
+   ],
+   [
+    24928,
+    24948
+   ],
+   [
+    24869,
+    24869
+   ],
+   [
+    24769,
+    24796
+   ],
+   [
+    24691,
+    24709
+   ],
+   [
+    24614,
+    24642
+   ],
+   [
+    24523,
+    24543
+   ],
+   [
+    24357,
+    24380
+   ],
+   [
+    24222,
+    24240
+   ],
+   [
+    24048,
+    24069
+   ],
+   [
+    23927.25,
+    23927.25
+   ],
+   [
+    23885,
+    23900
+   ],
+   [
+    23804,
+    23822
+   ],
+   [
+    23733,
+    23752
+   ],
+   [
+    23691,
+    23698
+   ],
+   [
+    23631,
+    23657
+   ],
+   [
+    23581,
+    23581
+   ],
+   [
+    23548,
+    23556
+   ],
+   [
+    23425,
+    23438
+   ],
+   [
+    23369,
+    23388
+   ],
+   [
+    23318,
+    23318
+   ],
+   [
+    23269,
+    23290
+   ],
+   [
+    23146,
+    23162
+   ],
+   [
+    23085,
+    23096
+   ],
+   [
+    23025,
+    23045
+   ],
+   [
+    22945,
+    22969
+   ],
+   [
+    22833,
+    22841
+   ],
+   [
+    22762,
+    22771
+   ],
+   [
+    22728,
+    22745
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Failed reclaim/LAAF of 23885-23900",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short any failure from buyers to reclaim 23885-23900 including a LAAF that fails in the 901-933 single prints. Target 804-822 then today’s low and the weekly 733-752.",
+   "kind": "fade",
+   "gate": [
+    23885,
+    23900
+   ],
+   "tgt": [
+    [
+     23804,
+     23822
+    ],
+    23775,
+    [
+     23733,
+     23752
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Failed reclaim of 24018-24030",
+   "dir": "short",
+   "tag": "",
+   "quote": "Aggressively short any kind of failure to reclaim 24018-24030 or 24048-24069. If it gets close, I tend to want to see the afterhours wick at least swept.",
+   "kind": "fade",
+   "gate": [
+    24018,
+    24030
+   ],
+   "tgt": [
+    23971.25
+   ],
+   "stop_hint": "If it gets close, I tend to want to see the afterhours wick at least swept."
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Failed reclaim of 24048-24069",
+   "dir": "short",
+   "tag": "",
+   "quote": "Aggressively short any kind of failure to reclaim 24018-24030 or 24048-24069. If it gets close, I tend to want to see the afterhours wick at least swept.",
+   "kind": "fade",
+   "gate": [
+    24048,
+    24069
+   ],
+   "tgt": [
+    [
+     24018,
+     24030
+    ]
+   ],
+   "stop_hint": "If it gets close, I tend to want to see the afterhours wick at least swept."
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Failed breakdown long at today's spike base and low (23775)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I am less willing to randomly take a long near today’s low compared to ES, but if following session trend and profile and sellers can’t get through today’s spike base (804-822) and low I can understand doing so. For me I would probably look to ES.",
+   "kind": "fade",
+   "gate": [
+    23775,
+    23775
+   ],
+   "tgt": [
+    [
+     23804,
+     23822
+    ]
+   ],
+   "stop_hint": "if following session trend and profile and sellers can’t get through today’s spike base (804-822) and low"
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Failed reclaim of 6548.5-6551.5",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short any failure from buyers to reclaim 6548.5-6551.5. We’ll need to be mindful of the weekly 39-43 level but I would expect a retest of at least 6530 if not today’s low.",
+   "kind": "fade",
+   "gate": [
+    6548.5,
+    6551.5
+   ],
+   "tgt": [
+    6530,
+    "RTH_LOW"
+   ],
+   "stop_hint": "We’ll need to be mindful of the weekly 39-43 level"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Failed reclaim/LAAF of 6573-6580",
+   "dir": "short",
+   "tag": "",
+   "quote": "Aggressively short any failure from buyers to reclaim 6573-6580, including a look above and fail (LAAF).",
+   "kind": "fade",
+   "gate": [
+    6573,
+    6580
+   ],
+   "tgt": [
+    [
+     6548.5,
+     6551.5
+    ],
+    "RTH_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Failed breakdown of today's low and 6513-6519",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’m willing to long any failure from sellers to get through today’s low and the 6513-6519 area. This is extremely tricky because sellers are in full control of both short and intermediate timeframes. However, this is 6-month range low AND 6-day range low so I must remain open to it. I would just keep a tight leash on it based on the above key areas.",
+   "kind": "fade",
+   "gate": [
+    6513,
+    6519
+   ],
+   "tgt": [
+    [
+     6539,
+     6543
+    ]
+   ],
+   "stop_hint": "I would just keep a tight leash on it based on the above key areas. ... For me to take a long, even though this is range low, I need to have the session trend and profile supporting me."
+  }
+ ]
+}

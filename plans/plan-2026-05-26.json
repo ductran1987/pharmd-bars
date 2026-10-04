@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-26",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-526",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Mon May 25, 2026 (Memorial Day; shortened holiday session), title 5/26 -> Tue 2026-05-26. M6 contract, no roll mention. Brief letter: no TRADES section and the NQ:/ES: commentary carries no grades -> trades = []. He says he'll be mostly off, likely no premarket update. Commentary ideas (ungraded, not promoted): NQ - true gap up that holds Friday's high (29749) = long, assume breakout sustained (prior ATH 29782); weekly 29711-29730 may support on a quick trap back into Friday's range that reclaims Friday's high and 29782 -> lean long while either holds; holding back below 29711-29730 -> initially biased short looking for 29635 and probably 29583-29600 (wary if cash opens near 30000 and drops 1% there); ETH gap from Friday 5pm close 29521; between 29711-29730 and Friday's low (FRI_LOW) initially biased short but flip long if sellers can't get through Friday's low. ES - weekly 7531-7533 ~ prior SPX ATH; true gap up holding Friday's 7524 high = long, chance to reclaim 7531-7533 and 7540 (prior ATH); 7509-7513 (perhaps up to 7515-7516) first trap spot for a 'false failed breakout'; back below 7509-7513 = first warning (bad if NQ also below 29711-29730); if NQ stays above 29711-29730 may allow a deeper trap to 7499-7502 that must reclaim 7509-7513 and Friday's high; below 7499-7502 look for Friday's RTH close 7490 and 5pm ETH close 7484 down to Friday's low in weekly 7476-7480.",
+ "zones": {
+  "ES": [[7540, 7540], [7499, 7502], [7531, 7533], [7524, 7524], [7509, 7513], [7515, 7516], [7490, 7490], [7484, 7484], [7476, 7480]],
+  "NQ": [[29782, 29782], [29635, 29635], [29317, 29338], [29749, 29749], [29711, 29730], [29583, 29600], [29521, 29521], [30000, 30000]]
+ },
+ "trades": []
+}

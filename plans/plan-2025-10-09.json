@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-09",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-109",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Brief letter (author out of town for a funeral); no TRADES section, only levels + commentary -> trades = []. Contract not stated; Z (Dec) assumed per batch (no roll mention). Commentary ideas only (not promoted): ES sustaining above 6802.75 (Tuesday premarket high; weekly 6798-6801 as proxy) = multi-day balance break up, broadly targets 6860s; a failed break invites weakness toward Thursday's low (THU_LOW, 6741.5 per prior letter); watch for a LBAF of the APBL 6792.25 (or 6790-6791 as key level), holding 6790-6792 allows retests of 6802.75; holding below 6790-6792 likely backfills B-period singles 6776.5-6784.5, bulls need to reclaim 6792.25 off it; holding below weekly 6776-6780 likely takes out today's low and sees weekly 6757-6760, failed breakout targeting 6741-6744. NQ: failed breakout if holding back below 25253-25269; spike base 25317.5 within weekly 25313-25325; below 25300 a rotation to 25253-25269 likely. '6860s' recorded as [6860,6869].",
+ "zones": {
+  "ES": [[6802.75, 6802.75], [6792.25, 6792.25], [6798, 6801], [6860, 6869], [6790, 6791], [6790, 6792], [6776.5, 6784.5], [6776, 6780], [6757, 6760], [6741, 6744]],
+  "NQ": [[25344.25, 25344.25], [25300, 25300], [25231, 25231], [25253, 25269], [25317.5, 25317.5], [25313, 25325]]
+ },
+ "trades": []
+}

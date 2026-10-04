@@ -1,0 +1,93 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-10",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-410-6ae",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "CPI day. M (Jun) contract, no roll mentioned. All four trades are ungraded (tag ''); letter ends 'Anything else to me is a reactive trade or covered in our standard trades.' ES single prints 6829.5-6848 kept as a zone. es1 target is 6848 only ('While mindful of 53-58 I would target 6848'; 6853-6858 noted as an obstacle, not a target). es2/nq2 have no stated target -> taken from commentary (ES: 6869-6873, today's high; NQ: 210-218 and today's spike 25265.75-25269.75). NQ today's spike given numerically (265.75-269.75) -> nq1 gated on the number. NQ weekly '090-116' read as 25090-25116 (letter also writes 25090-25116).",
+ "zones": {
+  "ES": [
+   [6848, 6848],
+   [6830, 6830],
+   [6792, 6794],
+   [6660, 6662],
+   [6618, 6622],
+   [6597, 6600],
+   [6560, 6560],
+   [6543, 6547],
+   [6803.5, 6808.5],
+   [6818, 6822],
+   [6829.5, 6848],
+   [6869, 6873],
+   [6853, 6858],
+   [6898, 6902],
+   [6894, 6894],
+   [6926, 6931]
+  ],
+  "NQ": [
+   [25145, 25145],
+   [25069, 25069],
+   [24597, 24611],
+   [24134, 24149],
+   [23869, 23875],
+   [23821, 23821],
+   [25111.5, 25145],
+   [25210, 25218],
+   [25090, 25116],
+   [25030, 25040],
+   [24928, 24948],
+   [25265.75, 25269.75]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Persistent failures at 6869-6873 incl. LAAF of today's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short persistent failures at 6869-6873 inclusive of a LAAF of today’s high which gets trapped back below 69-73. While mindful of 53-58 I would target 6848 and then monitor for a reaction within the singles to potentially cover and/or flip long if warranted.",
+   "kind": "fade",
+   "gate": [6869, 6873],
+   "tgt": [6848],
+   "stop_hint": "which gets trapped back below 69-73"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of 6848",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of 6848. Whether or not this plays out it is the best pure setup as it aligns with the current short term trend.",
+   "kind": "fade",
+   "gate": [6848, 6848],
+   "tgt": [[6869, 6873], "RTH_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Persistent failures above today's spike (25265.75-25269.75) incl. LAAF",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short persistent failures to sustain above today’s spike (265.75-269.75) inclusive of a LAAF. I would target 210-218 and 145. Monitor for a reaction within the singles to potentially cover and/or flip long if warranted.",
+   "kind": "fade",
+   "gate": [25265.75, 25269.75],
+   "tgt": [[25210, 25218], 25145],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of 25145",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of 25145",
+   "kind": "fade",
+   "gate": [25145, 25145],
+   "tgt": [[25210, 25218], [25265.75, 25269.75]],
+   "stop_hint": ""
+  }
+ ]
+}

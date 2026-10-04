@@ -1,0 +1,95 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-03",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-113",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Monday, posted Sun 11/2. Z (Dec) contract; no roll mention. FRI_HIGH/FRI_LOW = Fri 10/31. es1 graded separately: hold A-, LBAF A+ -> one trade, tag 'A- (hold) / A+ (LBAF)'; '77-80 range' clearance in stop_hint. es2 (LBAF of 6857) and es3 (LBAF of Friday's low) state no targets -> reuse es1's path (66-69, 77-80, 6891.25, 6895.5, 6900-6902.5) since he says 66-69/77-80 must reclaim; es3 adds 6857 first. es4 'LAAF 6895.5 and/or Friday's high' gated [6895.5,6895.5] (Friday's high is above 6895.5 per the text; FRI_HIGH not separately gated). nq1 'as low as 25035' read as typo for 26035 (later 'needs below 035'). nq2 LBAF of Friday's low 'turns into the above' -> nq1 targets prefixed by 25948-25969. nq3 targets 26096 as written (level list elsewhere 26095). Ungraded aside about covering NQ shorts / potential long at 'Monday's open and low' and 'the RTH gap' has no number and is 'too hard to rate' -> not a trade. 6852 (10/30 low) +/- 3 handles kept as zones 6852 and 6849-6855; 10/24 VAH 6839.25 kept as zone.",
+ "zones": {
+  "ES": [[6900, 6902.5], [6895.5, 6895.5], [6891.25, 6891.25], [6891, 6891], [6877, 6880], [6866, 6869], [6857, 6857], [6852, 6852], [6849, 6855], [6839.25, 6839.25], [6833, 6833], [6824, 6827]],
+  "NQ": [[26128, 26141], [26096, 26096], [26095, 26095], [26055, 26069], [26035, 26035], [25998, 25998], [25948, 25969], [25700, 25723]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES",
+   "name": "Hold or (better) LBAF of 6866-6869",
+   "dir": "long", "tag": "A- (hold) / A+ (LBAF)",
+   "quote": "Long a hold or (better) LBAF of 6866-6869. There is some demand sitting just below which I would expect to at least be initially reactive unless we gap through it on Sunday night. This would need to clear the 77-80 range to comfortably have range but if so would target 6891.25, 6895.5, and the weekly 6900-6902.5 range. Monitor for continuation from there. I see the hold as an A- and the LBAF as an A+. The LBAF could come from the below setup as well.",
+   "kind": "fade",
+   "gate": [6866, 6869],
+   "tgt": [6891.25, 6895.5, [6900, 6902.5]],
+   "stop_hint": "This would need to clear the 77-80 range to comfortably have range"
+  },
+  {
+   "id": "es2", "instrument": "ES",
+   "name": "LBAF of 6857 (Thursday's spike base)",
+   "dir": "long", "tag": "A/A-",
+   "quote": "Long a LBAF of 6857 which was Thursday’s spike base. There is demand just below here as well, call it 6852 (10/30 low of day) +/- 3 handles which protects Friday’s low. This would represent a deep retest of Friday’s low but expect buyers to be active on an initial test. This one is perhaps lower probability than the above as both 66-69 and 77-80 would need to reclaim, but obviously the R is higher. I’m therefore still willing to rate it an A/A-",
+   "kind": "fade",
+   "gate": [6857, 6857],
+   "tgt": [[6866, 6869], [6877, 6880], 6891.25, 6895.5, [6900, 6902.5]],
+   "stop_hint": "demand just below here as well, call it 6852 (10/30 low of day) +/- 3 handles which protects Friday’s low; both 66-69 and 77-80 would need to reclaim"
+  },
+  {
+   "id": "es3", "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long", "tag": "A+",
+   "quote": "Long a LBAF of Friday’s low. The gap to the 10/24 high was not properly filled, and that day’s VAH (6839.25) sits just below. Until sellers find traction down through this range, I will be looking for the LBAF of Friday’s low. This would be a LBAF of a daily low, a LBAF of a weekly low, and represent a gap fill reversal. It would still need to reclaim 66-69 minimum but if so, it has potential to produce a bullish engulfing week. Depending on what NQ is doing this could come from lower but I can’t plan on buying a dip in the middle of the 10/24 range without seeing it in real time. Keep in mind a strong rating doesn’t mean that it WILL happen, but it means the reward to risk and probability of producing extreme range is such that it can’t be ignored. This is an A+ setup and one of the best I’ve seen in some time while planning ahead of time.",
+   "kind": "fade",
+   "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [6857, [6866, 6869], [6877, 6880], 6891.25, 6895.5, [6900, 6902.5]],
+   "stop_hint": "It would still need to reclaim 66-69 minimum"
+  },
+  {
+   "id": "es4", "instrument": "ES",
+   "name": "LAAF of 6895.5 and/or Friday's high",
+   "dir": "short", "tag": "B/B+",
+   "quote": "Short a LAAF 6895.5 and/or Friday’s high. This could play as a LAAF of Friday’s high as well that then gets trapped back below 6895.5, or a LAAF of 95.5 which doesn’t clear Friday’s high. I am more likely to take this if we trade higher first from 66-69 as it is somewhat harder for me to want to short if sellers have already flopped. Once below 6891 this would target 77-80 and 66-69. Monitor for continuation from there. This is perhaps less clean than the longs but still a B/B+ rating.",
+   "kind": "fade",
+   "gate": [6895.5, 6895.5],
+   "tgt": [[6877, 6880], [6866, 6869]],
+   "stop_hint": "Once below 6891"
+  },
+  {
+   "id": "nq1", "instrument": "NQ",
+   "name": "Hold or LBAF of 25948-25969",
+   "dir": "long", "tag": "A/A-",
+   "quote": "Long a hold or LBAF of 25948-25969 targeting 26055-26069 but I would watch for a response as low as 25035 to start taking profit if indicated. If 055-069 is reclaimed I would target 26095 and 26128-26141, monitoring for continuation from there. This is an A/A- setup",
+   "kind": "fade",
+   "gate": [25948, 25969],
+   "tgt": [26035, [26055, 26069], 26095, [26128, 26141]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ",
+   "name": "LBAF of Friday's low",
+   "dir": "long", "tag": "B+/A-",
+   "quote": "Long a LBAF of Friday’s low. It will need to reclaim 948-969 but if so, it turns into the above. It therefore has a lower P but a higher R. I’ll rate it a B+/A-",
+   "kind": "fade",
+   "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [[25948, 25969], 26035, [26055, 26069], 26095, [26128, 26141]],
+   "stop_hint": "It will need to reclaim 948-969"
+  },
+  {
+   "id": "nq3", "instrument": "NQ",
+   "name": "Fail or LAAF of 26128-26141",
+   "dir": "short", "tag": "B",
+   "quote": "Short a fail or LAAF of 26128-26141. I’m more likely to take this is we trade higher first. I would target 26096 and 055-069. I’ll rate it a B.",
+   "kind": "fade",
+   "gate": [26128, 26141],
+   "tgt": [26096, [26055, 26069]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ",
+   "name": "Fail or LAAF of 26055-26069",
+   "dir": "short", "tag": "B-/B",
+   "quote": "Short a fail (or LAAF) of 26055-26069. This is one of those levels I could have tweaked a bit so know it really needs below 035 to target 25998 and 25948-25969 and monitor for continuation from there. B-/B",
+   "kind": "fade",
+   "gate": [26055, 26069],
+   "tgt": [25998, [25948, 25969]],
+   "stop_hint": "it really needs below 035"
+  }
+ ]
+}

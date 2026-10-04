@@ -1,0 +1,45 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-22",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-522-82b",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Thu May 21, 2026, title 5/22 -> Fri 2026-05-22. M6 contract, no roll mention. ES today's high given as 7486.75 (kept as level); ES/NQ today's lows not given -> es2/nq3 gated RTH_LOW. es2 and nq3 ('Long a LBAF of today's low . . . just in case') are in TRADES but ungraded -> tag ''; no target stated, so first level above the low from the Trading Lower commentary used (ES 7429 honorable mention; NQ 29266 = today's 5-min OR high) - both are approximate since the low itself is not given. es3/nq1 'persistent failures' (incl. LAAF) treated as fade; es3 has no stated target -> commentary 'Continued failures at 7482-7485 can come back to 65-68 ... and 55-58'; 'needs back below 76' kept as stop_hint. nq1/nq2 targets taken from NQ Trading Higher commentary (383-397 / 469-487). Not transcribed as trades (he says they cannot be rated ahead of time): ES longs at 7444 or on a LBAF of the 7438 APBL (need to reclaim 7455-7458); NQ long around 29341 or LBAF of 29288-29296 APBL. ES 7444 IB high 'arguably up to 46'. Commentary also: ES sustaining above 7482-7485 and today's 7486.75 high targets 7509-7513 then last week's high; NQ holding above 29469-29487 -> today's high and weekly 29583-29600, then 29711-29730 and last week's high.",
+ "zones": {
+  "ES": [[7455, 7458], [7444, 7444], [7444, 7446], [7438, 7438], [7389, 7391], [7482, 7485], [7486.75, 7486.75], [7509, 7513], [7476, 7476], [7465, 7468], [7429, 7429], [7398, 7403], [7422, 7424], [7410, 7410]],
+  "NQ": [[29383, 29397], [29341, 29341], [29288, 29296], [29114, 29135], [28859, 28880], [28700, 28726], [28605, 28623], [29469, 29487], [29464.5, 29464.5], [29210, 29234], [29583, 29600], [29711, 29730], [29266, 29266], [29069, 29090], [29100, 29100]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "Hold/LBAF of 7455-7458", "dir": "long", "tag": "B+",
+   "quote": "Long a hold or LBAF of 7455-7458 targeting 76 and 82-85. Monitor for continuation from there. I would normally rate this pretty highly perhaps an A/A- but so close to 82-85 with last week’s entire value already traversed, I’ll downgrade it to a B+.",
+   "kind": "fade", "gate": [7455, 7458], "tgt": [7476, [7482, 7485]], "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "LBAF of today's low", "dir": "long", "tag": "",
+   "quote": "Long a LBAF of today’s low . . . just in case.",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [7429], "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Persistent failures/LAAF at 7482-7485", "dir": "short", "tag": "B-",
+   "quote": "I’m open to shorting persistent failures at 7482-7485 (including a LAAF with or without taking today’s high), knowing that it needs back below 76 to be any good. I’m not super enthused about shorts, but this is an important enough location for me to consider it with a lower rating. B-",
+   "kind": "fade", "gate": [7482, 7485], "tgt": [[7465, 7468], [7455, 7458]], "stop_hint": "knowing that it needs back below 76 to be any good"
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Persistent failures/LAAF of 29469-29487", "dir": "short", "tag": "B-",
+   "quote": "Like for ES I’m open to shorting persistent failures inclusive of a LAAF of 469-487 with a B- rating.",
+   "kind": "fade", "gate": [29469, 29487], "tgt": [[29383, 29397]], "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Hold/LBAF of 29383-29397", "dir": "long", "tag": "B+",
+   "quote": "Long a hold or LBAF of 29383-29397 is a B+.",
+   "kind": "fade", "gate": [29383, 29397], "tgt": [[29469, 29487]], "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "LBAF of today's low", "dir": "long", "tag": "",
+   "quote": "Long a LBAF of today’s low . . .just in case.",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [29266], "stop_hint": ""
+  }
+ ]
+}

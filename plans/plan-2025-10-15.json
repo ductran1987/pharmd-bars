@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-15",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1015",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Posted Tue 10/14. No TRADES section, only levels + ungraded commentary -> trades = []. Contract not stated; Z (Dec) assumed per batch (no roll mention). Still inside Friday 10/10 mother bar; expects two-way trade. Commentary ideas only: best big-picture setup is a LBAF of FRI_LOW (cash hours; relative equal lows). ES: longs on dips that hold 6660-6662 or anywhere in 6636-6653 (B-period singles 6636.5-6653; weekly 6650-6653 and 6636-6640 should be aggressively bought); sell pops that fail to reclaim 6706 or a fresh LAAF of RTH_HIGH (10/14 high = PREV_RTH_HIGH for plan date) that triggers a downtrend; bulls need firm reclaim of 6706, rotation through weekly 6716-6719, then fill Friday singles and weekly 6741-6744 (holding above = game over for sellers, watch failed reclaim); 6657 and 6706 rough lower/upper edges of weekly profile. NQ: failures to reclaim 24841 (or 24825-24850 zone and weekly 24869-24875) can be shorts; longs if buyers defend 24640-24670 (or failed pushes just lower), weekly 24651-24669 in particular (B-period singles 24641.5-24670.25). SPX 6700 (blue box top) not recorded as a zone. NQ 3-digit abbreviations resolved to 24xxx from 24641.5/24841.",
+ "zones": {
+  "ES": [[6706, 6706], [6660, 6662], [6636.5, 6653], [6650, 6653], [6636, 6640], [6716, 6719], [6741, 6744], [6657, 6657]],
+  "NQ": [[24641.5, 24670.25], [24651, 24669], [24841, 24841], [24825, 24850], [24869, 24875], [24640, 24670]]
+ },
+ "trades": []
+}

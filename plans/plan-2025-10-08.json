@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-08",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-108",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Brief letter (author out of town for a funeral); no TRADES heading or list -> trades = []. Ambiguity: commentary ends with 'These are the big picture trades. Everything else is FAFO.' referring back to the commentary paragraph; not treated as a TRADES list. Contract not stated; Z (Dec) assumed per batch (no roll mention). Commentary ideas only (not promoted): ES Thursday's low 6741.5 is the key decision point; break to the downside with continuation -> 6720, 6712, likely 6690s, initial stretch 6680; a LBAF (of Thursday's low 6741.5) targets today's high (RTH_HIGH of 10/7) and new highs; holding today's low and Thursday's low favors higher. Same picture for NQ/QQQ. 10/7 D-period single prints ES 6766.25-6776.75, NQ 25092-25172.25: strong rejection in the singles -> retest of today's low; filling singles and basing above 6776-6780 ES / 25157-25169 NQ -> retest of today's high. '6690s' recorded as [6690,6699].",
+ "zones": {
+  "ES": [[6787.5, 6787.5], [6741.5, 6741.5], [6720, 6720], [6712, 6712], [6690, 6699], [6680, 6680], [6766.25, 6776.75], [6776, 6780]],
+  "NQ": [[25180, 25180], [25092, 25172.25], [25157, 25169]]
+ },
+ "trades": []
+}

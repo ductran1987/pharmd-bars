@@ -1,0 +1,325 @@
+{
+ "source": "pharmdks",
+ "date": "2025-12-08",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-128",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Mon 12/8/2025 (posted Sun 12/7), subtitle 'Some Solid (A) Potential Setups'. Z (Dec) contract per batch, no roll mention. ES Friday's low and high not given numerically -> FRI_LOW / FRI_HIGH. ES abbreviations resolved to 68xx (ARH 6890.5): 63-64 = 11/28 & 12/2 highs 6863-6864; 73 / 73-74 = Friday VAL 6873/6874; 88 = Friday VAH; 91-93, 80-83, 66.5-69, 50-53, IB-low example 56 (hypothetical, not a zone). es1 targets 80-83, 88, 91-93; 'Once back above 73' and 'be careful that 73 doesn't reject from below (take profit...)' put in stop_hint rather than as a target. es2 is conditional and he says 'it is too risky to plan a trade lower ahead of time' / 'If the session provides a good setup ... I'll consider it' (hold/LBAF of 6850-6853 targeting 66.5-69) - included ungraded because it names a level. es3 gate = ARH 6890.5 through 91-93 ('Any kind of LAAF of the ARH or 91-93'); 'could reasonably come from as high as 6898-6901 but I would need to see something compelling' kept in stop_hint. es4/es5 (Friday value probe: long hold/LBAF of 73-74, short fail/LAAF of 88) are ungraded and have no stated targets -> the other value edge / nearby levels (es4: 6880-6883, 6888; es5: 6880-6883, 6873-6874). es6 LAAF of Friday's high is 'valid' but ungraded; no target stated -> 91-93 then es3's targets 80-83, 73. NQ abbreviations resolved to 25xxx (25700/25823-25836 listed). nq2: 'mindful of 700-713' kept in stop_hint, targets 726 then 761-769. nq3 is the conditional 'if NQ tests 823-836 or so, sees a weakish sell side response, and then holds 761-769 from above I'll consider a long' - ungraded; no target given -> 823-836 then FRI_HIGH ('no clean path above 769 to Friday's high because of supply ... roughly 797-836'). Not transcribed: shorting NQ supply 797-836 ('I can't plan to short supply up there'); 'I also won't take a reclaim long of 761-769 outright'.",
+ "zones": {
+  "ES": [
+   [
+    6928,
+    6930
+   ],
+   [
+    6843,
+    6845
+   ],
+   [
+    6863,
+    6864
+   ],
+   [
+    6873,
+    6873
+   ],
+   [
+    6880,
+    6883
+   ],
+   [
+    6888,
+    6888
+   ],
+   [
+    6891,
+    6893
+   ],
+   [
+    6850,
+    6853
+   ],
+   [
+    6866.5,
+    6869
+   ],
+   [
+    6890.5,
+    6890.5
+   ],
+   [
+    6898,
+    6901
+   ],
+   [
+    6873,
+    6874
+   ]
+  ],
+  "NQ": [
+   [
+    26015.5,
+    26031
+   ],
+   [
+    25823,
+    25836
+   ],
+   [
+    25700,
+    25700
+   ],
+   [
+    25625,
+    25628
+   ],
+   [
+    25544,
+    25551
+   ],
+   [
+    25761,
+    25769
+   ],
+   [
+    25760.5,
+    25760.5
+   ],
+   [
+    25726,
+    25726
+   ],
+   [
+    25683,
+    25683
+   ],
+   [
+    25651,
+    25669
+   ],
+   [
+    25677.75,
+    25677.75
+   ],
+   [
+    25700,
+    25713
+   ],
+   [
+    25797,
+    25836
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "A",
+   "quote": "Given Friday’s poor low and the fact that the 11/28 and 12/2 highs sit in the 63-64 range, I see a LBAF of Friday’s low as a highly valid trade. Once back above 73 I would expect 80-83 to print with potential for 88 and 91-93. Monitor for continuation at each level and from there. This is a solid A setup, just be careful that 73 doesn’t reject from below (take profit, raise stop to even, whatever your risk preference).",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    [
+     6880,
+     6883
+    ],
+    6888,
+    [
+     6891,
+     6893
+    ]
+   ],
+   "stop_hint": "Once back above 73 ... just be careful that 73 doesn’t reject from below (take profit, raise stop to even, whatever your risk preference)."
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Conditional hold/LBAF of 6850-6853 (session-dependent)",
+   "dir": "long",
+   "tag": "",
+   "quote": "If the session provides a good setup (imagine for example the IB low at 56 and then a LBAF the IB low into 50-53) for doing so, then I’ll consider it given the fact that a hold of 50-53 has potential to retest 66.5-69",
+   "kind": "fade",
+   "gate": [
+    6850,
+    6853
+   ],
+   "tgt": [
+    [
+     6866.5,
+     6869
+    ]
+   ],
+   "stop_hint": "As mentioned in the weekly plan a LBAF could certainly come from lower, but it is too risky to plan a trade lower ahead of time."
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LAAF of ARH 6890.5 or 6891-6893",
+   "dir": "short",
+   "tag": "A",
+   "quote": "Any kind of LAAF of the ARH or 91-93 is a valid short targeting 80-83, 73, and 66.5-69. I’ll rate this a A as well.",
+   "kind": "fade",
+   "gate": [
+    6890.5,
+    6893
+   ],
+   "tgt": [
+    [
+     6880,
+     6883
+    ],
+    6873,
+    [
+     6866.5,
+     6869
+    ]
+   ],
+   "stop_hint": "has well-defined risk (the high which produces the LAAF). A LAAF of 91-93 could reasonably come from as high as 6898-6901 but I would need to see something compelling in the session to enter directly with a short."
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 6873-6874 (Friday VAL)",
+   "dir": "long",
+   "tag": "",
+   "quote": "So we can look for longs on a hold or LBAF of 73-74 and shorts on a fail or LAAF of 88.",
+   "kind": "fade",
+   "gate": [
+    6873,
+    6874
+   ],
+   "tgt": [
+    [
+     6880,
+     6883
+    ],
+    6888
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 6888 (Friday VAH)",
+   "dir": "short",
+   "tag": "",
+   "quote": "So we can look for longs on a hold or LBAF of 73-74 and shorts on a fail or LAAF of 88.",
+   "kind": "fade",
+   "gate": [
+    6888,
+    6888
+   ],
+   "tgt": [
+    [
+     6880,
+     6883
+    ],
+    [
+     6873,
+     6874
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es6",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "A LAAF of Friday’s high has potential to produce bearish results and is valid but anything like that requires a tight leash until 91-93 becomes firm resistance.",
+   "kind": "fade",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    [
+     6891,
+     6893
+    ],
+    [
+     6880,
+     6883
+    ],
+    6873
+   ],
+   "stop_hint": "requires a tight leash until 91-93 becomes firm resistance"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 25761-25769",
+   "dir": "short",
+   "tag": "A",
+   "quote": "Short a fail or LAAF of 761-769 is an A setup for the same reasons as ES. Friday’s ARH and VAH sit right at 760.5 so that adds some nice clean confluence. I would target 726, 700, 683, and 651-669 monitoring for continuation at each spot and beyond.",
+   "kind": "fade",
+   "gate": [
+    25761,
+    25769
+   ],
+   "tgt": [
+    25726,
+    25700,
+    25683,
+    [
+     25651,
+     25669
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 25651-25669",
+   "dir": "long",
+   "tag": "A",
+   "quote": "Long a hold or LBAF of 651-669 is also an A setup.",
+   "kind": "fade",
+   "gate": [
+    25651,
+    25669
+   ],
+   "tgt": [
+    25726,
+    [
+     25761,
+     25769
+    ]
+   ],
+   "stop_hint": "I would be mindful of 700-713 or so given the amount of dip buying seen there Friday"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold of 25761-25769 from above after test of 25823-25836",
+   "dir": "long",
+   "tag": "",
+   "quote": "I also won’t take a reclaim long of 761-769 outright, but if NQ tests 823-836 or so, sees a weakish sell side response, and then holds 761-769 from above I’ll consider a long.",
+   "kind": "fade",
+   "gate": [
+    25761,
+    25769
+   ],
+   "tgt": [
+    [
+     25823,
+     25836
+    ],
+    "FRI_HIGH"
+   ],
+   "stop_hint": "I also won’t take a reclaim long of 761-769 outright"
+  }
+ ]
+}

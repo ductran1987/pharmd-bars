@@ -1,0 +1,45 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-30",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-930",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Quarter-end / government shutdown risk. Z (Dec) contract, no roll mention (already rolled after Sep expiry). TRADES section with Shorts/Longs subsections; all six level-specific trades are graded. ES 16-19 vs weekly 19-21 alternative ('the choice is yours') - es1 uses 6716-6719 as written in the trade. NQ today's low stated as roughly 24800 ('24830 and 24800 (the today's low)') but LBAF trades say 'strength back over at least 24800', so today's low kept symbolic RTH_LOW for gates; nq1/nq2 targets list 24800 then RTH_LOW. nq1 'start to look for as early as 24870' (early afternoon rally high) is an entry note, not a gate; nq1 targets 'as listed above' = 844-856, 24830, 24800. Skipped: generic 'any failure from sellers to find traction below today's low is a long' (no grade; covered by es3/nq3), and the unplanned/unrated breakdown shorts and longs below today's low. ES 6671 (SPY Thursday high/Friday open equivalent) kept as level.",
+ "zones": {
+  "ES": [[6716, 6716], [6696.25, 6696.25], [6700, 6706], [6719, 6721], [6728.5, 6731.5], [6716, 6719], [6671, 6671], [6676, 6680], [6686, 6690], [6712, 6712]],
+  "NQ": [[24900, 24900], [24800, 24800], [24969, 24980], [24759, 24777], [24895, 24920], [24880, 24888], [24911, 24916], [24844, 24856], [24830, 24830], [24870, 24870]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "Failed reclaim of 6716-6719", "dir": "short", "tag": "B+",
+   "quote": "I’ll short a failed reclaim of ES 6716-6719 targeting 6706, today’s low, and lower. Based on today’s profile this would be an A+ setup if trend were bearish. However, since trend is at least neutral here and arguably still constructive on the 30 (and certainly higher frames) I have to downgrade it a to a B+.",
+   "kind": "fade", "gate": [6716, 6719], "tgt": [6706, "RTH_LOW"], "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Failure to reclaim 24880-24888", "dir": "short", "tag": "B+",
+   "quote": "I’ll short a failure to reclaim 24880-24888 on NQ which I’ll start to look for as early as 24870 which was today’s early afternoon rally high. Targets would be as listed above and I’ll rate this a B+ as well.",
+   "kind": "fade", "gate": [24880, 24888], "tgt": [[24844, 24856], 24830, 24800], "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Session downtrend below 24844-24856", "dir": "short", "tag": "B",
+   "quote": "I would expect weakness if NQ can’t reclaim the weekly 844-856 spot and would be willing to join a session downtrend targeting 24800 and today’s low. I’ll rate it a B.",
+   "kind": "break", "gate": [24844, 24856], "tgt": [24800, "RTH_LOW"], "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Hold of 6700-6706", "dir": "long", "tag": "B/B-",
+   "quote": "One can consider a hold of 6700-6706 if there is a nice reversal produced and some constructive price action to work against. I’m cautious if the session is in a downtrend and wouldn’t be looking to be first in but it targets 6712 and 6716-6719. I’ll rate this a B/B-",
+   "kind": "fade", "gate": [6700, 6706], "tgt": [6712, [6716, 6719]], "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "LBAF of today's low, strength back above 6706", "dir": "long", "tag": "B+",
+   "quote": "A LBAF of today’s low on ES that shows strength back above 6706 would make 6716 quite likely. Because of limited range it makes me want to front run a 6706 reclaim which is risky but again, if there is a constructive reversal and solid price action or session information to work with I’ll do so. I’ll rate this a B+",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [6716], "stop_hint": "shows strength back above 6706"
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "LBAF of today's low, strength back over 24800", "dir": "long", "tag": "B+/A-",
+   "quote": "A LBAF of today’s low on NQ that shows strength back over at least 24800 likely sees 844-856 with potential for 880-888. Similar to the above it can be tricky to navigate without a good read on price action and the session profile. I’ll rate it a B+/A- however as range is a little better than on ES.",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [[24844, 24856], [24880, 24888]], "stop_hint": "shows strength back over at least 24800"
+  }
+ ]
+}

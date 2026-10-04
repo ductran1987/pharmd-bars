@@ -1,0 +1,51 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-15",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-515-30c",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Fri 5/15 is monthly OPEX (letter: 'Tomorrow is OPEX'); no roll mention, numbers on M6 (June) contracts. All three trades are ungraded (tag ''). es1 has no stated target -> from 'Trading Within' commentary: rotation back toward 29-31 (7529-7531), then today's high given as 7540. es2 is a conditional ungraded idea from the TRADES section ('I won't plan to short a LAAF of 7529-7531 but if I were to see a nasty rejection around 33 and a session downtrend initiated I might ride short to 7509-7513') -> gated at 7533 as a fade. NQ '469-480 weekly level' (breakout level) read as 29469-29480; APBL 29595.25 held 583-600. NQ today's high not given numerically. 29910-29920 is an optional in-between level he suggests adding.",
+ "zones": {
+  "ES": [[7438, 7440], [7398, 7400], [7346, 7349], [7540, 7540], [7529, 7531], [7533, 7533], [7509, 7513], [7489, 7492], [7495, 7497]],
+  "NQ": [[29284, 29296], [29058, 29081], [28859, 28859], [29469, 29480], [29711, 29730], [29910, 29920], [29583, 29600], [29595.25, 29595.25]]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7509-7513",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 7509-7513",
+   "kind": "fade",
+   "gate": [7509, 7513],
+   "tgt": [[7529, 7531], 7540],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Nasty rejection around 7533 (LAAF of 7529-7531) with session downtrend",
+   "dir": "short",
+   "tag": "",
+   "quote": "I won’t plan to short a LAAF of 7529-7531 but if I were to see a nasty rejection around 33 and a session downtrend initiated I might ride short to 7509-7513 and monitor for continuation.",
+   "kind": "fade",
+   "gate": [7533, 7533],
+   "tgt": [[7509, 7513]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 29583-29600",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 583-600 targeting 711-730 and monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [29583, 29600],
+   "tgt": [[29711, 29730]],
+   "stop_hint": ""
+  }
+ ]
+}

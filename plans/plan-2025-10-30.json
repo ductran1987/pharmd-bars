@@ -1,0 +1,105 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-30",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1030",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Post-FOMC day, AAPL/AMZN earnings after the bell. Page dated Oct 29, 2025 (batch list said posted 10/30). Z (Dec) contract; no roll mention. TRADES section present but no grades -> all tags ''. ES level list says 6899-6903 while commentary/trades say 6899-6902; trades use 6899-6902. Targets not stated in the trade lines for es1-es4, nq2-nq5 -> taken from the PRICE commentary (es2 lists 6908-6911 'mindful' level before 6899-6902). es4 'defend just above it (say 87-90' -> gate 6887-6890 (ES today's low not given). nq1 targets given: 'start looking to cover by' 167, 'more into 128-141'. nq3 reclaim long above 200-213 treated as break (needs a higher low back above it); target first level up 26269-26283. nq4 'say 070-083' -> 26070-26083 (NQ today's low 26049.25). nq5 is the 'Outside of today’s range' long: 25969-25983 producing a LBAF of Tuesday's low, written as 26006 here (the 10/29 letter gave Tuesday's low as 26008.75); gated on 26006 as written, conditional 'if seen during RTH'. NQ today's high 26326.5 and pre-FOMC low 26203.25 recorded as zones.",
+ "zones": {
+  "ES": [[6952, 6952], [6945, 6945], [6937, 6937], [6934, 6937], [6928, 6930], [6919, 6922], [6908, 6911], [6899, 6903], [6899, 6902], [6887, 6890]],
+  "NQ": [[26531, 26545], [26469, 26483], [26404, 26420], [26333, 26347], [26326.5, 26326.5], [26269, 26283], [26200, 26213], [26203.25, 26203.25], [26167, 26167], [26128, 26141], [26070, 26083], [26055, 26069], [26049.25, 26049.25], [26006, 26006], [25969, 25983], [25946, 25954], [25918, 25918], [25876, 25876]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES",
+   "name": "Failed reclaim / failure to reclaim 6928-6930",
+   "dir": "short", "tag": "",
+   "quote": "Short a failed reclaim or failure to reclaim 6928-6930",
+   "kind": "fade",
+   "gate": [6928, 6930],
+   "tgt": [[6919, 6922]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES",
+   "name": "Failed reclaim / failure to reclaim 6919-6922",
+   "dir": "short", "tag": "",
+   "quote": "Short a failed reclaim or failure to reclaim 6919-6922",
+   "kind": "fade",
+   "gate": [6919, 6922],
+   "tgt": [[6908, 6911], [6899, 6902]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES",
+   "name": "Hold of 6899-6902",
+   "dir": "long", "tag": "",
+   "quote": "Long a hold of 6899-6902",
+   "kind": "fade",
+   "gate": [6899, 6902],
+   "tgt": [[6908, 6911], [6919, 6922]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES",
+   "name": "Buyers defend just above today's low (6887-6890)",
+   "dir": "long", "tag": "",
+   "quote": "I also expect that buyers may protect today’s low on a very deep retest on NQ and ES so I am open to carefully attempting a long on ES if buyers defend just above it (say 87-90",
+   "kind": "fade",
+   "gate": [6887, 6890],
+   "tgt": [[6899, 6902]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ",
+   "name": "Failed reclaim / failure to reclaim 26200-26213",
+   "dir": "short", "tag": "",
+   "quote": "Short a failed reclaim or failure to reclaim 26200-26213. We had used 167 as a level for today which I didn’t include for tomorrow but I would start looking to cover by there and certainly more into 128-141",
+   "kind": "fade",
+   "gate": [26200, 26213],
+   "tgt": [26167, [26128, 26141]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ",
+   "name": "Hold of 26128-26141",
+   "dir": "long", "tag": "",
+   "quote": "Long a hold of 128-141, cautious that it needs to reclaim 200-213 for strength.",
+   "kind": "fade",
+   "gate": [26128, 26141],
+   "tgt": [[26200, 26213]],
+   "stop_hint": "cautious that it needs to reclaim 200-213 for strength."
+  },
+  {
+   "id": "nq3", "instrument": "NQ",
+   "name": "Reclaim long above 26200-26213 (higher low)",
+   "dir": "long", "tag": "",
+   "quote": "I am willing to take a reclaim long above 200-213 but I would need compelling supportive session evidence and it would have to be some kind of higher low back above it as the risk of a failed reclaim is high given today’\\s inventory from RTH AND after hours on earnings.",
+   "kind": "break",
+   "gate": [26200, 26213],
+   "tgt": [[26269, 26283]],
+   "stop_hint": "it would have to be some kind of higher low back above it as the risk of a failed reclaim is high"
+  },
+  {
+   "id": "nq4", "instrument": "NQ",
+   "name": "Buyers defend just above today's low (26070-26083)",
+   "dir": "long", "tag": "",
+   "quote": "I also expect that buyers may protect today’s low on a very deep retest on NQ and ES so I am open to carefully attempting a long on NQ if buyers defend just above it (say 070-083)",
+   "kind": "fade",
+   "gate": [26070, 26083],
+   "tgt": [[26128, 26141]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5", "instrument": "NQ",
+   "name": "LBAF of Tuesday's 26006 low via 25969-25983",
+   "dir": "long", "tag": "",
+   "quote": "I would look for the 25969-25983 level to possibly produce a LBAF of Tuesday’s 26006 low the same as we planned to long it on Tuesday if seen during RTH (it was never tested during RTH).",
+   "kind": "fade",
+   "gate": [26006, 26006],
+   "tgt": [26049.25, [26055, 26069], [26128, 26141]],
+   "stop_hint": "25969-25983 level to possibly produce a LBAF"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-23",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-323",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "M (Jun) contract (post-roll, letter gives no contract note). Trades assume a relatively flat open (major gap risk; weekly plan for large gaps). es2/nq2 'if this cannot be reclaimed' (ETH close in/below the zone) treated as failed-reclaim fades. es3 and nq3 state no target and there is no Trading Higher commentary -> targets are the letter's next levels above, nearest first (es3: 6563, 6572-6575 HM, 6587-6591; nq3: 24115, 24158-24168 HM/160, 24222-24240). es4 target taken from its reclaim levels (39-43, 87-91). nq4 (LBAF of Friday's low) is ungraded and described as a reactive trade, kept with tag ''; target 24048-24069 from its 'bare minimum reclaim' wording; November low 23927.25. Honorable-mention levels 6572-6575 ES and 24158-24168 NQ added as zones.",
+ "zones": {
+  "ES": [[6618, 6622], [6587, 6591], [6572, 6575], [6575, 6575], [6563, 6563], [6539, 6543]],
+  "NQ": [[24357, 24380], [24222, 24240], [24158, 24168], [24160, 24160], [24115, 24115], [24048, 24069], [23927.25, 23927.25]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "Fail/LAAF of 6618-6622", "dir": "short", "tag": "A+",
+   "quote": "Short a fail/LAAF of 6618-6622. A+ setup targeting 6587-6591 and monitoring for continuation from there.",
+   "kind": "fade", "gate": [6618, 6622], "tgt": [[6587, 6591]], "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Failed reclaim of 6587-6591", "dir": "short", "tag": "B/B-",
+   "quote": "The ETH session closed right in the 6587-6591 range. If this cannot be reclaimed I am open to a short targeting 6575 (consider it an honorable mention level 72-75) and 6563. Monitor for continuation from there. B/B- setup",
+   "kind": "fade", "gate": [6587, 6591], "tgt": [6575, 6563], "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Hold/LBAF of 6539-6543", "dir": "long", "tag": "B",
+   "quote": "Long a hold or fresh LBAF of 6539-6543. In this case I would almost prefer it hold to take a long whereas many/most levels I prefer a sweep. B rated setup",
+   "kind": "fade", "gate": [6539, 6543], "tgt": [6563, [6572, 6575], [6587, 6591]], "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "LBAF of Friday's low", "dir": "long", "tag": "B-",
+   "quote": "Long a LBAF of Friday’s low. This is a bit risky and would need to reclaim 39-43 bare minimum (and really 87-91) but given the high time frame importance of this spot I would be remiss not to consider it. I’ll rate it a B- since sellers are in control but it has high time frame potential.",
+   "kind": "fade", "gate": ["FRI_LOW", "FRI_LOW"], "tgt": [[6539, 6543], [6587, 6591]],
+   "stop_hint": "would need to reclaim 39-43 bare minimum (and really 87-91)"
+  },
+  {
+   "id": "es5", "instrument": "ES", "name": "LAAF of Friday's high", "dir": "short", "tag": "C+/B-",
+   "quote": "LAAF of Friday’s high is a valid short targeting 6618-6622 but keep in mind it would bring the daily timeframe back into balance and could just end up producing a higher low long later on. I’ll rate this a C+/B-",
+   "kind": "fade", "gate": ["FRI_HIGH", "FRI_HIGH"], "tgt": [[6618, 6622]], "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Fail/LAAF of 24357-24380", "dir": "short", "tag": "A+",
+   "quote": "Short a fail/LAAF of 24357-24380 is an A+ setup targeting 222-240 and monitor for continuation from there.",
+   "kind": "fade", "gate": [24357, 24380], "tgt": [[24222, 24240]], "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Failed reclaim of 24222-24240", "dir": "short", "tag": "B/B-",
+   "quote": "The ETH session closed right below the 222-240 range. If this cannot be reclaimed, I am open to a short targeting 160 (consider it an honorable mention level 158-168), 115, and 048-069. Monitor for continuation from there. B/B- setup",
+   "kind": "fade", "gate": [24222, 24240], "tgt": [24160, 24115, [24048, 24069]], "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Hold/LBAF of 24048-24069", "dir": "long", "tag": "B",
+   "quote": "Long a hold or fresh LBAF of 048-069. In this case I would almost prefer it hold to take a long whereas many/most levels I prefer a sweep. B rated setup",
+   "kind": "fade", "gate": [24048, 24069], "tgt": [24115, [24158, 24168], [24222, 24240]], "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "LBAF of Friday's low", "dir": "long", "tag": "",
+   "quote": "A LBAF of Friday’s low is valid for NQ as well but I would prefer to see the 927.25 November low taken first and that is pretty far below 048-069 a bare minimum reclaim so this would have to be a reactive trade taken in real time with supportive session information.",
+   "kind": "fade", "gate": ["FRI_LOW", "FRI_LOW"], "tgt": [[24048, 24069]],
+   "stop_hint": "I would prefer to see the 927.25 November low taken first and that is pretty far below 048-069 a bare minimum reclaim"
+  },
+  {
+   "id": "nq5", "instrument": "NQ", "name": "LAAF of Friday's high", "dir": "short", "tag": "B/B-",
+   "quote": "LAAF of Friday’s high is a valid short targeting 357-380 but keep in mind it would bring the daily timeframe back into balance and could just end up producing a higher low long later on. I’ll rate this a tad higher than for ES at a B/B-",
+   "kind": "fade", "gate": ["FRI_HIGH", "FRI_HIGH"], "tgt": [[24357, 24380]], "stop_hint": ""
+  }
+ ]
+}

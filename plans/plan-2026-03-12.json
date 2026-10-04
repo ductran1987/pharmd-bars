@@ -1,0 +1,45 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-12",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-312-f27",
+ "contract": {"ES": "ESH6", "NQ": "NQH6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Wed Mar 11, 2026 for Thu 3/12; H6 contract, no roll mention. TRADES section is ungraded -> all tags ''. Weekly P-shaped profile day. ES today's low not given numerically -> es2 gated RTH_LOW. NQ today's low inferred as 24873.5: letter says today 'just barely swept yesterday's low' and names the two daily lows 873.5 and 892.25 (892.25 was the 3/10 low per the 3/11 plan) -> nq2 gated 24873.5. 'targeting ... a P-breakdown' / 'Targets outlined above' resolved from commentary: ES 6719 ('closer to 6719 as a first target'); NQ 24750-24769 then 24669 (24600 weekly rotation also mentioned, not added as a target). es2 note 'this could even come from lower such as filling the single prints to 41 (6741)'. nq3 text 'especially today and yesterday lows' kept in stop_hint. ES ARH 6784.5 and NQ ARH 25026.5 recorded as levels; 6801.5-6808.75 is last week's version of the yearly 6803-6812.5 level.",
+ "zones": {
+  "ES": [[6841.5, 6844], [6820, 6820], [6741, 6741], [6751.5, 6755], [6775, 6783], [6784.5, 6784.5], [6808, 6815], [6801.5, 6803.5], [6803.5, 6803.5], [6803, 6812.5], [6801.5, 6808.75], [6719, 6719]],
+  "NQ": [[25211, 25218], [25179, 25185], [25025, 25038], [24525, 24545], [24469, 24469], [24830, 24830], [24909, 24941], [24873.5, 24873.5], [24892.25, 24892.25], [25026.5, 25026.5], [24750, 24769], [24669, 24669], [24600, 24600], [25120, 25120]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "Fail/LAAF of 6775-6783", "dir": "short", "tag": "",
+   "quote": "Short a fail or LAAF of 6775-6783 targeting 51.5-55 and a P-breakdown.",
+   "kind": "fade", "gate": [6775, 6783], "tgt": [[6751.5, 6755], 6719], "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "LBAF of today's low reclaiming 6751.5-6755", "dir": "long", "tag": "",
+   "quote": "Long a LBAF of today’s low that reclaims 51.5-55 looking for 75-83. Be aware this could even from from lower such as filling the single prints to 41 and reversing hard. Much of this likely depends on NQ",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [[6775, 6783]], "stop_hint": "that reclaims 51.5-55"
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Breakdown short below 6751.5-6755", "dir": "short", "tag": "",
+   "quote": "Breakdown short below 51.5-55 is valid because of the P but always tricky as we need to be careful it isn’t a LBAF. Targets outlined above.",
+   "kind": "break", "gate": [6751.5, 6755], "tgt": [6719], "stop_hint": "always tricky as we need to be careful it isn’t a LBAF"
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Fail/LAAF of 25025-25038", "dir": "short", "tag": "",
+   "quote": "Short a fail or LAAF of 25025-25038 targeting 909-941 and the P breakdown.",
+   "kind": "fade", "gate": [25025, 25038], "tgt": [[24909, 24941], [24750, 24769], 24669], "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "LBAF of today's low (24873.5) reclaiming 24909-24941", "dir": "long", "tag": "",
+   "quote": "Long a LBAF of today’s low that reclaims at least 909 but really 909-941 looking for 25025-25038.",
+   "kind": "fade", "gate": [24873.5, 24873.5], "tgt": [[25025, 25038]], "stop_hint": "that reclaims at least 909 but really 909-941"
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Breakdown short if 24909-24941 flips to resistance", "dir": "short", "tag": "",
+   "quote": "Breakdown short if 909-941 flips to resistance (especially today and yesterday lows is valid because of the P but always tricky as we need to be careful it isn’t a LBAF. Targets outlined above.",
+   "kind": "break", "gate": [24909, 24941], "tgt": [[24750, 24769], 24669], "stop_hint": "especially today and yesterday lows; always tricky as we need to be careful it isn’t a LBAF"
+  }
+ ]
+}

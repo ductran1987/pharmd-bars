@@ -1,0 +1,87 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-05",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-55-df6",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "M (Jun) contract; no roll mention. Pivot day: ES 7239.5-7242, NQ 27802-27819. All TRADES UNGRADED (tag ''). nq1/nq2 'mindful of the weekly level in between' -> weekly 27724-27751 inserted as first target (nearest-first). Today's low not given numerically on either instrument -> RTH_LOW (letter says NQ low of day was in 27608-27623; ES low was below 7206-7211 after a LBAF into demand possibly down to 7197). nq3/es3 come from one sentence: 'Long a LBAF of today’s low on NQ is a better setup than the same for ES, but also valid' -> ES version included as es3; neither has a stated target -> first level up (NQ 27655-27669 then 27689-27701; ES 7206-7211). Implied trades (breakdown shorts, reclaim longs, longs below today's low) not promoted; commentary ideas: ES reclaim of 7239.5-7242 -> 7269-7274, ON high, 7288; ES below 7206-7211 -> 7177-7182 / 7183-7189 area, 7169, 7144.5-7147, 7115.5-7121; NQ hold above 27802-27819 -> 27898-27917; NQ LBAF of 27608-27623; 27842-27854 honorable mention for failed reclaim.",
+ "zones": {
+  "ES": [[7288, 7288], [7239.5, 7242], [7248, 7252], [7259, 7259], [7255.5, 7255.5], [7232, 7236], [7216, 7216], [7206, 7211], [7197, 7197], [7177, 7182], [7185.75, 7185.75], [7183, 7189], [7169, 7169], [7144.5, 7147], [7115.5, 7121], [7269, 7274]],
+  "NQ": [[27898, 27917], [27802, 27819], [27608, 27623], [27536, 27536], [27498, 27508], [27854, 27854], [27842, 27854], [27724, 27751], [27689, 27701], [27655, 27669], [27700, 27700], [27569, 27585]]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7239.5-7242",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of 7239.5-7242 on ES, targeting 7216, 7206-7211, then today’s low. Monitor for continuation at each spot.",
+   "kind": "fade",
+   "gate": [7239.5, 7242],
+   "tgt": [7216, [7206, 7211], "RTH_LOW"],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 27802-27819",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of 27802-27819 on NQ broadly targeting 689-701, mindful of the weekly level in between and monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [27802, 27819],
+   "tgt": [[27724, 27751], [27689, 27701]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 27689-27701",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 27689-27701 on NQ broadly targeting 802-819, mindful of the weekly level in between, and monitor for continuation from there as in the commentary.",
+   "kind": "fade",
+   "gate": [27689, 27701],
+   "tgt": [[27724, 27751], [27802, 27819]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 7206-7211",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold of 7206-7211 targeting 32-36 and 39.5-42. Monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [7206, 7211],
+   "tgt": [[7232, 7236], [7239.5, 7242]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of today’s low on NQ is a better setup than the same for ES, but also valid.",
+   "kind": "fade",
+   "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [[27655, 27669], [27689, 27701]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of today’s low on NQ is a better setup than the same for ES, but also valid.",
+   "kind": "fade",
+   "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [[7206, 7211]],
+   "stop_hint": ""
+  }
+ ]
+}

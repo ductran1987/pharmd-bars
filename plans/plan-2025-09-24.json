@@ -1,0 +1,303 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-24",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-924",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Day after a trend day down that negated Monday's trend day up. Z (Dec) contract per batch expectation; no roll mention. TRADES section is entirely ungraded -> all tags ''. 'today's low' (9/23 low = 2-day balance low) kept as RTH_LOW per convention. es1/nq1 second target 'the Sunday night overnight low' has no allowed REF and no number -> omitted from tgt (sequence: today's low, Sunday night ON low, then 6687-90 / 712-722). 'Holding below/above' 14-18 / 828-839 / 29-33 / 920-933 treated as kind=break (price closed inside 14-18 / 828-839). es2, nq2, es3, nq3, es4, nq4 have no stated target -> first commentary level in trade direction (es2: ES singles 6720.75-6731.25; nq2/nq3: NQ singles 24846-24866; es3: 6720.75; es4: 6729-6733; nq4: 24880-24895). es4 included from 'I’m willing to short NQ 920-933 more than I am ES 41.25-44.25' (ES short implied as weaker preference). Letter typo 'narrowed a tad to 880-995' read as 24880-24895 (matches daily level 24880-24895 and later '880-895'); original NQ singles 880 to 915 kept as [24880,24915]. Weekly RTH/ETH opens ES 6706/6716, NQ 24815.5/24850 recorded as levels. 6720.75 and 24856.25 are LAAF reference levels only.",
+ "zones": {
+  "ES": [
+   [
+    6706,
+    6706
+   ],
+   [
+    6716,
+    6716
+   ],
+   [
+    6741.25,
+    6744.25
+   ],
+   [
+    6743.5,
+    6744.5
+   ],
+   [
+    6720.75,
+    6720.75
+   ],
+   [
+    6729,
+    6732
+   ],
+   [
+    6729,
+    6733
+   ],
+   [
+    6714,
+    6718
+   ],
+   [
+    6687,
+    6690
+   ],
+   [
+    6720.75,
+    6731.25
+   ]
+  ],
+  "NQ": [
+   [
+    24815.5,
+    24815.5
+   ],
+   [
+    24850,
+    24850
+   ],
+   [
+    24880,
+    24895
+   ],
+   [
+    24856.25,
+    24856.25
+   ],
+   [
+    24969,
+    24983
+   ],
+   [
+    24920,
+    24933
+   ],
+   [
+    24828,
+    24839
+   ],
+   [
+    24712,
+    24722
+   ],
+   [
+    24790,
+    24800
+   ],
+   [
+    24846,
+    24866
+   ],
+   [
+    24880,
+    24915
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Holding below 6714-6718",
+   "dir": "short",
+   "tag": "",
+   "quote": "Holding below ES 14-18 or NQ 828-839 I’m willing to be short looking for a retest of today’s low and monitor for continuation. Next targets would be the Sunday night overnight low and then 6687-90 on ES and 712-722 on NQ.",
+   "kind": "break",
+   "gate": [
+    6714,
+    6718
+   ],
+   "tgt": [
+    "RTH_LOW",
+    [
+     6687,
+     6690
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Holding below 24828-24839",
+   "dir": "short",
+   "tag": "",
+   "quote": "Holding below ES 14-18 or NQ 828-839 I’m willing to be short looking for a retest of today’s low and monitor for continuation. Next targets would be the Sunday night overnight low and then 6687-90 on ES and 712-722 on NQ.",
+   "kind": "break",
+   "gate": [
+    24828,
+    24839
+   ],
+   "tgt": [
+    "RTH_LOW",
+    [
+     24712,
+     24722
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Holding above 6714-6718",
+   "dir": "long",
+   "tag": "",
+   "quote": "Holding above 14-18 ES or NQ 828-839 I’m okay being long especially if session information/trend is supportive of longs. I would proceed with caution in the single prints mentioned above.",
+   "kind": "break",
+   "gate": [
+    6714,
+    6718
+   ],
+   "tgt": [
+    [
+     6720.75,
+     6731.25
+    ]
+   ],
+   "stop_hint": "I would proceed with caution in the single prints mentioned above."
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Holding above 24828-24839",
+   "dir": "long",
+   "tag": "",
+   "quote": "Holding above 14-18 ES or NQ 828-839 I’m okay being long especially if session information/trend is supportive of longs. I would proceed with caution in the single prints mentioned above.",
+   "kind": "break",
+   "gate": [
+    24828,
+    24839
+   ],
+   "tgt": [
+    [
+     24846,
+     24866
+    ]
+   ],
+   "stop_hint": "I would proceed with caution in the single prints mentioned above."
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Short in 6729-6733 if sellers present",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’m willing to try a short in the 29-33 range on ES and 880-895 on NQ if sellers present.",
+   "kind": "fade",
+   "gate": [
+    6729,
+    6733
+   ],
+   "tgt": [
+    6720.75
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Short in 24880-24895 if sellers present",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’m willing to try a short in the 29-33 range on ES and 880-895 on NQ if sellers present.",
+   "kind": "fade",
+   "gate": [
+    24880,
+    24895
+   ],
+   "tgt": [
+    [
+     24846,
+     24866
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Short 24920-24933",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’m willing to short NQ 920-933 more than I am ES 41.25-44.25 but this may present as difficult if ES is above 29-33 (and it likely would be). Again, I would be extremely cautious on the short side if both indices are back above last week’s highs.",
+   "kind": "fade",
+   "gate": [
+    24920,
+    24933
+   ],
+   "tgt": [
+    [
+     24880,
+     24895
+    ]
+   ],
+   "stop_hint": "I would be extremely cautious on the short side if both indices are back above last week’s highs."
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Short 6741.25-6744.25",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’m willing to short NQ 920-933 more than I am ES 41.25-44.25 but this may present as difficult if ES is above 29-33 (and it likely would be). Again, I would be extremely cautious on the short side if both indices are back above last week’s highs.",
+   "kind": "fade",
+   "gate": [
+    6741.25,
+    6744.25
+   ],
+   "tgt": [
+    [
+     6729,
+     6733
+    ]
+   ],
+   "stop_hint": "this may present as difficult if ES is above 29-33 (and it likely would be)"
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Holding above 6729-6733 (reclaim long)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Holding above 29-33 I am willing to be long looking for a retest of 41.25-44.25 on ES. I am always cautious of reclaim longs so would proceed with caution but there would be a lot of trapped sellers from today if we see that high.",
+   "kind": "break",
+   "gate": [
+    6729,
+    6733
+   ],
+   "tgt": [
+    [
+     6741.25,
+     6744.25
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Holding above 24920-24933",
+   "dir": "long",
+   "tag": "",
+   "quote": "Similarly, holding above 920-933 looks reasonably clean to 969-983 for a careful long.",
+   "kind": "break",
+   "gate": [
+    24920,
+    24933
+   ],
+   "tgt": [
+    [
+     24969,
+     24983
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

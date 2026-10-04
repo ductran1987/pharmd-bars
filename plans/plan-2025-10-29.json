@@ -1,0 +1,95 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-29",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1029",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "FOMC day (Wed) with mega-cap earnings after the bell. Z (Dec) contract; no roll mention. No 'TRADES:' heading and no grades: the explicit list after 'In terms of trades:' is treated as the TRADES section, so all trades are ungraded (tag ''). He gives no targets in that list ('effectively reiterations of the above rotations'), so targets come from the ES/NQ rotation commentary: es1 6919.5-6921.5, es2 6934-6937, es3 6919.5-6921.5; nq1 uses the 200-213 <-> 095-103 rotation (26128-26141 / 26167 lie in between, noted as failed-reclaim caution, not used as targets); nq2 26200-26213. es3/nq3 are conditional 'If well before FOMC'. NQ hold level written 26055-26069 in the trade list but 26055-26067 (and 055-060) in commentary; trade uses 26055-26069 as written, others kept as zones. NQ today's low given as 26008.75 -> nq4 gated on the number; ES today's low not given -> es4 gated RTH_LOW, targets 6908-6911 then 6919.5-6921.5 (assumes the low sat above 6899-6901 since ES 'didn't even quite make it to its spike base'). '6969 SPX (around 7000 ES)' recorded as 7000 zone (approximate).",
+ "zones": {
+  "ES": [[6940, 6940], [6934, 6937], [6919.5, 6921.5], [6908, 6911], [6899, 6901], [6892.5, 6892.5], [6877, 6877], [6866, 6866], [7000, 7000]],
+  "NQ": [[26333, 26347], [26269, 26283], [26200, 26213], [26167, 26167], [26128, 26141], [26095, 26103], [26055, 26067], [26055, 26069], [26055, 26060], [26008.75, 26008.75], [25969, 25983], [25946, 25954], [25918, 25918], [25876, 25876]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES",
+   "name": "Failure to reclaim 6934-6937",
+   "dir": "short", "tag": "",
+   "quote": "I may attempt a short on ES on a failure to reclaim 6934-6937 or NQ 200-213",
+   "kind": "fade",
+   "gate": [6934, 6937],
+   "tgt": [[6919.5, 6921.5]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ",
+   "name": "Failure to reclaim 26200-26213",
+   "dir": "short", "tag": "",
+   "quote": "I may attempt a short on ES on a failure to reclaim 6934-6937 or NQ 200-213",
+   "kind": "fade",
+   "gate": [26200, 26213],
+   "tgt": [[26095, 26103]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES",
+   "name": "Hold of 6919.5-6921.5",
+   "dir": "long", "tag": "",
+   "quote": "Long ES on a hold 6919.5-6921.5 or NQ on a hold of 26095-26103",
+   "kind": "fade",
+   "gate": [6919.5, 6921.5],
+   "tgt": [[6934, 6937]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ",
+   "name": "Hold of 26095-26103",
+   "dir": "long", "tag": "",
+   "quote": "Long ES on a hold 6919.5-6921.5 or NQ on a hold of 26095-26103",
+   "kind": "fade",
+   "gate": [26095, 26103],
+   "tgt": [[26200, 26213]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES",
+   "name": "Hold of 6908-6911 (only if well before FOMC)",
+   "dir": "long", "tag": "",
+   "quote": "If well before FOMC I would consider a long on a hold of ES 6908-6911 or NQ 26055-26069",
+   "kind": "fade",
+   "gate": [6908, 6911],
+   "tgt": [[6919.5, 6921.5]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ",
+   "name": "Hold of 26055-26069 (only if well before FOMC)",
+   "dir": "long", "tag": "",
+   "quote": "If well before FOMC I would consider a long on a hold of ES 6908-6911 or NQ 26055-26069",
+   "kind": "fade",
+   "gate": [26055, 26069],
+   "tgt": [[26095, 26103]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ",
+   "name": "LBAF of today's low (26008.75)",
+   "dir": "long", "tag": "",
+   "quote": "I would also look for a long on a LBAF of today’s low on either NQ or ES. ES still has yesterday’s spike which was never tested and NQ still has an RTH gap between yesterday’s high and today’s low.",
+   "kind": "fade",
+   "gate": [26008.75, 26008.75],
+   "tgt": [[26055, 26067], [26095, 26103]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES",
+   "name": "LBAF of today's low",
+   "dir": "long", "tag": "",
+   "quote": "I would also look for a long on a LBAF of today’s low on either NQ or ES. ES still has yesterday’s spike which was never tested and NQ still has an RTH gap between yesterday’s high and today’s low.",
+   "kind": "fade",
+   "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [[6908, 6911], [6919.5, 6921.5]],
+   "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-12-04",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-124",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Thu 12/4/2025 (posted Wed 12/3; subtitle 'Breakout or Failed Breakout?'). Z (Dec 2025) contract per batch; no roll mention. Short early post: levels + ES commentary only, no TRADES section; he says he'll add NQ thoughts later that night but the published post contains no addition -> trades = []. Commentary ideas (ES, ungraded, not promoted to trades): trapped back below 6857-6864 should resolve to 6812 (a proper failed breakout should see 6812); holding 6857-6864 should take out today's (12/3) high and trend higher; allowance down to ~6853.5 for a 'false failed breakout'. Explicitly 'not an open invitation to short it'. NQ levels listed only (25414.5 'monitor for LBAF').",
+ "zones": {
+  "ES": [[6873.5, 6873.5], [6857, 6864], [6853.5, 6853.5], [6831, 6831], [6818, 6818], [6812, 6812], [6785, 6785]],
+  "NQ": [[25639, 25639], [25598, 25604], [25496, 25502], [25414.5, 25414.5], [25331, 25331]]
+ },
+ "trades": []
+}

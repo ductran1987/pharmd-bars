@@ -1,0 +1,39 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-10",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-910",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "PPI day (CPI Thu); NQ tagged Friday's high after hours on Oracle earnings. U (Sep) contract, no roll mention. Letter has NO TRADES section - levels + COMMENTARY only ('I’m not going to spend too much more time on detailed trade setups ahead of a binary catalyst') - so trades=[] per the literal rule. Ungraded commentary ideas: sustaining above NQ 23850-23861 / ES 6515-6516.5 can retest today's high; above today's high ES targets Friday's high 6542-6545 (then new highs), NQ once above 23902 (Friday's high) targets 23934 and 23960-23980; losing and holding below 23850-23861 / 6515-6516.5 has potential to trigger weakness; NQ 'reasonably rotational down to 23822 if it is holding below 23850'; Inception Box: a look above and fail of Friday's high targets yesterday's high, loss of yesterday's high has potential for yesterday's low; 'Break and sustain above Friday’s high on both NQ and ES is the cleanest look'; bearish only if holding below 6488 and 23700 (clean break below 6488-6490 ES / 23700-23724 NQ that doesn't return above 6497). Weekly VPOC 6505, VAL ~6497, 6502.5 kept as single levels. NQ 869-885 -> 23869-23885; '700-724' -> 23700-23724. Weekly NQ fix repeated: 23824-23841 should be 23804-23822.",
+ "zones": {
+  "ES": [
+   [6515, 6516.5],
+   [6508, 6508],
+   [6488, 6490.5],
+   [6459, 6461],
+   [6425, 6427.75],
+   [6418, 6418],
+   [6505, 6505],
+   [6497, 6497],
+   [6502.5, 6502.5],
+   [6488, 6490],
+   [6542, 6545]
+  ],
+  "NQ": [
+   [23804, 23822],
+   [23902, 23902],
+   [23850, 23861],
+   [23752, 23769],
+   [23669, 23680],
+   [23586, 23596],
+   [23454, 23462],
+   [23869, 23885],
+   [23700, 23724],
+   [23960, 23980],
+   [23934, 23934],
+   [23822, 23822]
+  ]
+ },
+ "trades": []
+}

@@ -1,0 +1,266 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-09",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-69",
+ "contract": {
+  "ES": "ESM5",
+  "NQ": "NQM5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Mon 6/9/2025, June M5 contracts, no roll mentioned. Letter says NQ setups may be cleaner than ES for Monday. ES Friday's low not given as a number (5984.5-5987.5 was 'widened ... to capture Friday's low') -> es1 gated FRI_LOW; NQ Friday's low given as 21722 -> nq3 gated on the number; Friday's high not given for NQ -> nq2 gated FRI_HIGH, nq1 last target FRI_HIGH. es1 states no target: used 6004-6008 (the retest level named in its paragraph; no Trading Higher section exists). nq2 extended 'bearish engulfing' levels 680-694 / 630-653 left out of tgt (stated as a possibility, not a target). Ungraded conditional ideas inside the Trades section included with tag '': es2 (long 72-75), nq3 (LBAF Fri low, 'valid as well' - the B+ was given to the ES version), nq4 (680-694 'if given a compelling reason'), nq5 (630-653), es3 (hold of 56-59; 5956-5959). Their targets are the next level up in the letter's levels (none stated). 'longs at 65' on ES only mentioned as less preferred, not transcribed. No breakdown shorts planned.",
+ "zones": {
+  "ES": [
+   [
+    5999,
+    5999
+   ],
+   [
+    5984.5,
+    5987.5
+   ],
+   [
+    5972,
+    5975
+   ],
+   [
+    5965,
+    5965
+   ],
+   [
+    5946,
+    5949
+   ],
+   [
+    6004,
+    6008
+   ],
+   [
+    5987.5,
+    5987.5
+   ],
+   [
+    5956,
+    5959
+   ],
+   [
+    5927,
+    5932
+   ],
+   [
+    5936,
+    5940
+   ]
+  ],
+  "NQ": [
+   [
+    21763,
+    21771
+   ],
+   [
+    21722,
+    21722
+   ],
+   [
+    21680,
+    21694
+   ],
+   [
+    21563,
+    21563
+   ],
+   [
+    21874,
+    21888
+   ],
+   [
+    21803,
+    21803
+   ],
+   [
+    21803,
+    21810
+   ],
+   [
+    21785,
+    21785
+   ],
+   [
+    21846,
+    21846
+   ],
+   [
+    21740,
+    21740
+   ],
+   [
+    21630,
+    21653
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 21763-21771",
+   "dir": "long",
+   "tag": "B+",
+   "quote": "Long NQ on a hold or (better) LBAF of 763-771. As long as 785 reclaims I generally expect to see 846 and then 874-888 come into play. I’ll get cautious if 785 rejects from below and take profit or be prepared to flatten but I’m targeting 803-810, 846, and Friday’s high. I can rate this a B+. It would be rated higher if range was a bit better and I didn’t have minor concerns about 785.",
+   "kind": "fade",
+   "gate": [
+    21763,
+    21771
+   ],
+   "tgt": [
+    [
+     21803,
+     21810
+    ],
+    21846,
+    "FRI_HIGH"
+   ],
+   "stop_hint": "I’ll get cautious if 785 rejects from below and take profit or be prepared to flatten"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "B+",
+   "quote": "Short NQ on a look above and fail of Friday’s high. If 846 holds from above, I’ll get cautious and consider profit takes and be prepared to flatten at breakeven. Otherwise, I’m targeting 803-810, 785, 763-771 and through there a bearish engulfing day becomes possible. I would make no assumptions about a bearish engulfing day given the strength of the recent trend, so I’ll plan to take profits judiciously. I’ll rate this as a B+ as well. It gets a bit of a downgrade because of the prevailing bullish trend but a bit of an upgrade given the (perhaps narrow) possibility that it triggers a bearish engulfing day down to 680-694 and possibly 630-653.",
+   "kind": "fade",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    [
+     21803,
+     21810
+    ],
+    21785,
+    [
+     21763,
+     21771
+    ]
+   ],
+   "stop_hint": "If 846 holds from above, I’ll get cautious and consider profit takes and be prepared to flatten at breakeven."
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "B+",
+   "quote": "Long ES on a LBAF of Friday’s low as this would be yet another hold of the prior 3-week balance high and we still have unfilled overnight single prints below Friday’s low. They were reactive twice on NQ Friday and once on ES. Perhaps they hold a second test for ES. I’ll rate this a B+ as well and the only reason it isn’t higher is because 6004-6008 could end up being heavy from below on a retest.",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    [
+     6004,
+     6008
+    ]
+   ],
+   "stop_hint": "6004-6008 could end up being heavy from below on a retest"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Long at 5972-5975 (last week's VWAP)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I may consider a long in the 72-75 directly as last week’s VWAP sits there and it would preserve the NFP candle if it holds.",
+   "kind": "fade",
+   "gate": [
+    5972,
+    5975
+   ],
+   "tgt": [
+    [
+     5984.5,
+     5987.5
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low (21722)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long NQ on a LBAF of Friday’s low is valid as well for similar reasons. Both 740 and 763-771 would need to quickly reclaim.",
+   "kind": "fade",
+   "gate": [
+    21722,
+    21722
+   ],
+   "tgt": [
+    21740,
+    [
+     21763,
+     21771
+    ]
+   ],
+   "stop_hint": "Both 740 and 763-771 would need to quickly reclaim."
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Long at 21680-21694 (front-run LBAF)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I might consider a long at 680-694 to try and front run a LBAF if given a compelling reason to do so.",
+   "kind": "fade",
+   "gate": [
+    21680,
+    21694
+   ],
+   "tgt": [
+    21722
+   ],
+   "stop_hint": "if given a compelling reason to do so"
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 21630-21653",
+   "dir": "long",
+   "tag": "",
+   "quote": "I like longs on NQ on a hold (or LBAF) of 630-653 better than I like longs at 65 or 56-59 on ES but I would consider an ES long on a hold of 56-59.",
+   "kind": "fade",
+   "gate": [
+    21630,
+    21653
+   ],
+   "tgt": [
+    [
+     21680,
+     21694
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold of 5956-5959",
+   "dir": "long",
+   "tag": "",
+   "quote": "I like longs on NQ on a hold (or LBAF) of 630-653 better than I like longs at 65 or 56-59 on ES but I would consider an ES long on a hold of 56-59.",
+   "kind": "fade",
+   "gate": [
+    5956,
+    5959
+   ],
+   "tgt": [
+    5965
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

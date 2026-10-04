@@ -1,0 +1,117 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-13",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-413",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Monday after weekend with 'major gap risk' on Sunday night; setups written assuming open near Friday's close or a smallish gap down, otherwise refer to weekly plan (Long LBAF of Friday's low 'could come from much lower' / overnight). M (Jun) contract, no roll mentioned. All trades ungraded (tag ''). es3 and nq4 are conditional longs on Wednesday's range holding (ES Wednesday's low given as 6780 -> number used; NQ Wednesday's low only said to sit in weekly '24956-25969' (typo, read as 24956-24969) -> WED_LOW). Not promoted to trades: ES 'demand just below 6830 ... could be reactive and trigger a test of 6837-6846'; ES 'watch 6803.5-6808.5 and 6790-6793 to hold' (folded into es3 stop_hint); NQ 'demand in the 25069 range ... 25032 range which can produce a reactive bid'. nq1 has no stated target -> FRI_LOW by analogy to es1 (no NQ Trading Lower commentary). nq2 'same caveat as above for ES' -> target NQ analog of ES (25302-25312). nq3 has no stated target -> FRI_LOW then 25302-25312 (Thursday singles still unfilled, so Friday's low sits above 25145). Weekly level 25369-25388 re-added.",
+ "zones": {
+  "ES": [
+   [6862, 6864],
+   [6803.5, 6808.5],
+   [6830, 6830],
+   [6710, 6716],
+   [6837, 6846],
+   [6878, 6883],
+   [6829.5, 6829.5],
+   [6790, 6793],
+   [6780, 6780]
+  ],
+  "NQ": [
+   [25369, 25388],
+   [25302, 25312],
+   [25069, 25069],
+   [25032, 25032],
+   [24597, 24611],
+   [25111, 25145],
+   [24956, 24969]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 6862-6864",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of 6862-6864 targeting Friday’s low and the major 6837-6846",
+   "kind": "fade",
+   "gate": [6862, 6864],
+   "tgt": ["FRI_LOW", [6837, 6846]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of Friday’s low. Keep in mind this could come from much lower. If you end up long overnight on some big gap down, monitor for continuation back into Friday’s range. If so then a trip to 6862-6864 is reasonable to expect and above there 6878-6883.",
+   "kind": "fade",
+   "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [[6862, 6864], [6878, 6883]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Wednesday's range holds/reclaimed (Wednesday's low 6780)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I would still watch 6803.5-6808.5 and 6790-6793 to hold, or of course we have the bull gap below 6780 (Wednesday’s low) so if Wednesday’s range broadly holds or is reclaimed it can be a long back up top at least 6830 if not 6837-6846.Monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [6780, 6780],
+   "tgt": [6830, [6837, 6846]],
+   "stop_hint": "I would still watch 6803.5-6808.5 and 6790-6793 to hold"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 25302-25312",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of 25302-25312",
+   "kind": "fade",
+   "gate": [25302, 25312],
+   "tgt": ["FRI_LOW"],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of Friday’s low with the same caveat as above for ES.",
+   "kind": "fade",
+   "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [[25302, 25312]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 25111-25145",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold (or LBAF but a hold is probably better in this case) of 25111-25145. This is obviously a large range but looking for a reactive bid to join within the singles is reasonable.",
+   "kind": "fade",
+   "gate": [25111, 25145],
+   "tgt": ["FRI_LOW", [25302, 25312]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Wednesday's range holds incl. LBAF of Wednesday's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "As for ES, if Wednesday’s range broadly holds, inclusive or a LBAF of Wednesday’s low (which sits in the weekly 24956-25969 range) then it can be bottom of a newly forming balance and target a retest of 25111-25145. Monitor for continuation from there.",
+   "kind": "fade",
+   "gate": ["WED_LOW", "WED_LOW"],
+   "tgt": [[25111, 25145]],
+   "stop_hint": ""
+  }
+ ]
+}

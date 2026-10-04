@@ -1,0 +1,111 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-23",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1023",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Day after P-shaped profile breakdown; 3-day internal balance formed (ES 6690.75-6789.75), CPI Friday, TSLA ER after hours; author warns of possible two-way inside-day mess. Contract not stated; Z (Dec) assumed per batch (no roll mention). No TRADES heading; the closing list 'If I had to pick the areas which interest me most it would be:' is treated as the trades list -> all 8 trades UNGRADED (tag ''). Typos resolved: NQ '24055.75 (Friday's high)' = 25055.75 (10/17 HOD in levels); ES '6714-6744' read as 6741-6744; es1 'near 6722.5 of 6716-6719' read as 'or' -> gate [6716,6722.5]; es2 '41-44 (47)' -> gate [6741,6747]; es3 list says '6763.25-6766.25' vs daily level 6763.25-6766.75 -> used the daily level, gate spans both zones [6757,6766.75]; nq4 gate spans 25137.5-25145 and 25157-25169. es2/es3/nq2/nq3/nq4 have no stated targets -> next levels from the commentary (es2 nearest 6733-6735 comes from the es1 target list). es4 target today's low kept symbolic RTH_LOW (the 3-day box low 6690.75 is probably today's low but not stated as such). Conditions 'after 6703 has been tagged' / 'after seeing at least 24912' put in stop_hint. SPX levels (6655.69, 6752.16, 6724) not recorded.",
+ "zones": {
+  "ES": [[6763.25, 6766.75], [6747, 6747], [6722.5, 6722.5], [6690.75, 6690.75], [6660, 6660], [6789.75, 6789.75], [6650, 6653], [6676, 6680], [6636, 6640], [6716, 6719], [6741, 6744], [6757, 6760], [6722, 6723], [6703, 6703], [6712, 6712], [6733, 6735]],
+  "NQ": [[25137.5, 25145], [25055.75, 25055.75], [24804, 24804], [24969, 24980], [25035, 25046], [24869, 24875], [25210, 25219], [25091, 25099], [25115, 25115], [25157, 25169], [25179.5, 25179.5], [24912, 24912]]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Long near 6722.5 or 6716-6719",
+   "dir": "long",
+   "tag": "",
+   "quote": "Longs on ES near 6722.5 of 6716-6719 looking for 6733-6735 and 6741-6744 and seeing what runners can do.",
+   "kind": "fade",
+   "gate": [6716, 6722.5],
+   "tgt": [[6733, 6735], [6741, 6744]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Failure to sustain above 6741-6744 (6747)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorts on ES on failures to sustain above 41-44 (47)",
+   "kind": "fade",
+   "gate": [6741, 6747],
+   "tgt": [[6733, 6735], 6722.5, [6716, 6719]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Short 6757-6760 or 6763.25-6766.75",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorts on ES in the 6757-6760 or 6763.25-6766.25 range (pretty much last line for sellers)",
+   "kind": "fade",
+   "gate": [6757, 6766.75],
+   "tgt": [6747, [6741, 6744]],
+   "stop_hint": "pretty much last line for sellers"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Lower high below 6716-6719",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorts on ES on a lower high below 6716-6719 especially after 6703 has been tagged and sellers continue to defend 16-19",
+   "kind": "break",
+   "gate": [6716, 6719],
+   "tgt": ["RTH_LOW"],
+   "stop_hint": "especially after 6703 has been tagged and sellers continue to defend 16-19"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Long 24969-24980 or LBAF",
+   "dir": "long",
+   "tag": "",
+   "quote": "Longs on NQ in the 969-980 range or on a LBAF, targeting 25035-25046 and 25055.75",
+   "kind": "fade",
+   "gate": [24969, 24980],
+   "tgt": [[25035, 25046], 25055.75],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Lower high below 24969-24980",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorts on NQ on a lower high below 24969-24980 after seeing at least 24912 or so",
+   "kind": "break",
+   "gate": [24969, 24980],
+   "tgt": [[24869, 24875]],
+   "stop_hint": "after seeing at least 24912 or so"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Sellers at 25091-25099",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorts on NQ if sellers present at 25091-25099",
+   "kind": "fade",
+   "gate": [25091, 25099],
+   "tgt": [25055.75, [25035, 25046]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Sellers at 25137.5-25145 or 25157-25169",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorts on NQ if sellers present in the 25137.5-25145 or 157-169 range",
+   "kind": "fade",
+   "gate": [25137.5, 25169],
+   "tgt": [25115, [25091, 25099]],
+   "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,329 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-10",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-310-19c",
+ "contract": {
+  "ES": "ESH6",
+  "NQ": "NQH6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Mon Mar 09, 2026 for Tue 3/10; H6 contract, no roll mention. TRADES section lists 'favorite' trades with no grades -> all tags ''. Targets not stated in the trade lines were taken from the matching commentary: nq2 (hold/LBAF 24750-24769) -> 24909-24941 ('bulls can be okay for a retest of 909-941'); nq3 (24579-24608) -> 24669-24700 then 24750-24769 (he is mindful of 669 and 700/701 above); nq4 (24525-24545) -> 24579-24608 reclaim then 24750-24769; es3 (6732-6736) -> 6775-6783 and 6808-6815 (mindful of 6751.5-6755 and 6741 single prints in between); es4 (6704-6709) -> 6732-6736 (mindful of 3/3 and 3/6 lows 6715.75/6718.75 and 6721). nq1 'Short below 909-941' read as a break (holding below) trade. es4 is explicitly 'risky... I'll consider it' (kept, ungraded). Text typo 'riky' kept verbatim. NQ '210-218' read literally as 25210-25218. ES spike base 6794 and NQ spike base 24960 are reference marks. Not transcribed as trades: NQ sustain above today's high -> 25121-25139 (ungraded commentary).",
+ "zones": {
+  "ES": [
+   [
+    6829,
+    6832
+   ],
+   [
+    6741,
+    6741
+   ],
+   [
+    6640,
+    6647
+   ],
+   [
+    6803,
+    6812
+   ],
+   [
+    6775,
+    6783
+   ],
+   [
+    6808,
+    6815
+   ],
+   [
+    6794,
+    6794
+   ],
+   [
+    6732,
+    6736
+   ],
+   [
+    6751.5,
+    6755
+   ],
+   [
+    6699,
+    6699
+   ],
+   [
+    6704,
+    6709
+   ],
+   [
+    6688,
+    6693
+   ],
+   [
+    6715.75,
+    6715.75
+   ],
+   [
+    6718.75,
+    6718.75
+   ],
+   [
+    6721,
+    6721
+   ],
+   [
+    6670,
+    6675
+   ],
+   [
+    6853,
+    6858
+   ],
+   [
+    6869,
+    6873
+   ]
+  ],
+  "NQ": [
+   [
+    24525,
+    24545
+   ],
+   [
+    24469,
+    24469
+   ],
+   [
+    24352,
+    24369
+   ],
+   [
+    24960,
+    24960
+   ],
+   [
+    24909,
+    24941
+   ],
+   [
+    25121,
+    25139
+   ],
+   [
+    25100,
+    25100
+   ],
+   [
+    25141.5,
+    25141.5
+   ],
+   [
+    25210,
+    25218
+   ],
+   [
+    25369,
+    25469
+   ],
+   [
+    25516,
+    25538
+   ],
+   [
+    24750,
+    24769
+   ],
+   [
+    24579,
+    24608
+   ],
+   [
+    24701,
+    24701
+   ],
+   [
+    24669,
+    24669
+   ],
+   [
+    24669,
+    24700
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Short below 24909-24941",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short below 909-941 (make sure it isn’t a LBAF) targeting 750-769.",
+   "kind": "break",
+   "gate": [
+    24909,
+    24941
+   ],
+   "tgt": [
+    [
+     24750,
+     24769
+    ]
+   ],
+   "stop_hint": "make sure it isn’t a LBAF"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 24750-24769",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 750-769. This could come from the 669-700 range. Entering directly (if given reason to do so) is riky until 750-769 is reclaimed but is not unreasonable.",
+   "kind": "fade",
+   "gate": [
+    24750,
+    24769
+   ],
+   "tgt": [
+    [
+     24909,
+     24941
+    ]
+   ],
+   "stop_hint": "This could come from the 669-700 range. Entering directly (if given reason to do so) is riky until 750-769 is reclaimed but is not unreasonable."
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 24579-24608",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 579-608",
+   "kind": "fade",
+   "gate": [
+    24579,
+    24608
+   ],
+   "tgt": [
+    [
+     24669,
+     24700
+    ],
+    [
+     24750,
+     24769
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 24525-24545",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 525-545.",
+   "kind": "fade",
+   "gate": [
+    24525,
+    24545
+   ],
+   "tgt": [
+    [
+     24579,
+     24608
+    ],
+    [
+     24750,
+     24769
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Persistent fails in 6808-6815",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short persistent fails in the 6808-6815 range targeting 75-83.",
+   "kind": "fade",
+   "gate": [
+    6808,
+    6815
+   ],
+   "tgt": [
+    [
+     6775,
+     6783
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Lower high back below 6775-6783",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a lower high back below 75-83 broadly targeting 6741 and 6732-6736.",
+   "kind": "break",
+   "gate": [
+    6775,
+    6783
+   ],
+   "tgt": [
+    6741,
+    [
+     6732,
+     6736
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold/quick LBAF of 6732-6736",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or quick LBAF of 6732-6736.",
+   "kind": "fade",
+   "gate": [
+    6732,
+    6736
+   ],
+   "tgt": [
+    [
+     6775,
+     6783
+    ],
+    [
+     6808,
+     6815
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 6704-6709 (risky)",
+   "dir": "long",
+   "tag": "",
+   "quote": "A long on hold or LBAF of 6704-6709 (possibly including a sweep of 6699 into the 6688-6693 level) is risky but if I have good reason to take it (perhaps aligning with an NQ long setup) I’ll consider it",
+   "kind": "fade",
+   "gate": [
+    6704,
+    6709
+   ],
+   "tgt": [
+    [
+     6732,
+     6736
+    ]
+   ],
+   "stop_hint": "possibly including a sweep of 6699 into the 6688-6693 level"
+  }
+ ]
+}

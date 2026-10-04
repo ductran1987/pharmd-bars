@@ -1,0 +1,67 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-07",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-77",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Mon 7/7/2025 (posted Sun 7/6). Letter has NO TRADES (or Shorts/Longs) section - only levels + commentary - so trades=[]. Commentary ideas NOT transcribed as trades: ES longs on a higher low above 6293-6296 / any session uptrend above 6273.75-6276.5 or above 6293-6296 until 6315-6317.5; maybe a short if 6315-6317.5/6320-6322 defended (says he isn't actively planning it); NQ longs in 22864-22882 / near 22848-22854. Contract U (Sep 2025): no roll mention, June expiry already past. NQ '950'/'930-950' resolved to 22950/22930-22950. 6273.75-6276.5 = 7/2 spike base/top (ETH low 6276.5).",
+ "zones": {
+  "ES": [
+   [
+    6338,
+    6338
+   ],
+   [
+    6320,
+    6322
+   ],
+   [
+    6315,
+    6317.5
+   ],
+   [
+    6300,
+    6302
+   ],
+   [
+    6293,
+    6296
+   ],
+   [
+    6273.75,
+    6276.5
+   ]
+  ],
+  "NQ": [
+   [
+    23004.5,
+    23027.5
+   ],
+   [
+    22980,
+    22980
+   ],
+   [
+    22930,
+    22950
+   ],
+   [
+    22882,
+    22882
+   ],
+   [
+    22864,
+    22869
+   ],
+   [
+    22848,
+    22854
+   ]
+  ]
+ },
+ "trades": []
+}

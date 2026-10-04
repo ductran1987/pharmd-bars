@@ -1,0 +1,65 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-31",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1031",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Month-end Friday after AMZN/AAPL earnings. Z (Dec) contract; no roll mention. 'Trades:' section present but no grades -> all tags ''. ES today's high given as 6913.75 -> es4 (6919-6922 producing a LAAF of today's high) gated on 6913.75 with 6919-6922 and 'back below 6908' in stop_hint; targets 6908-6911, 6900, 6885-6888 (not stated, from commentary). es1 targets not stated -> 6900 checkpoint, 6908-6911, today's high 6913.75, 6919-6922. es3 'active downtrend below 85-88' -> target 6863-6866 from 'HOLDING below 6885 risks a trip back to 6863-6866'. NQ today's high not given numerically; nq1 targets RTH_HIGH then 26200-26213 (order assumes today's high sits below 200-213, as the commentary implies). Text says 'I narrowed the daily 89-92 range to just 6900' (89-92 probably means the prior 6899-6902 range) - only 6900 kept as zone. 6880-6883 is a tolerated dip zone below 6885-6888, kept as zone.",
+ "zones": {
+  "ES": [[6952, 6952], [6928, 6930], [6919, 6922], [6913.75, 6913.75], [6908, 6911], [6900, 6900], [6885, 6888], [6880, 6883], [6863, 6866]],
+  "NQ": [[26200, 26213], [25969, 25983], [25946, 25946]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ",
+   "name": "Hold or LBAF of 25969-25983",
+   "dir": "long", "tag": "",
+   "quote": "I’ll look for longs on NQ in the 25969-25983 range or on a quick LBAF (even better than a hold).",
+   "kind": "fade",
+   "gate": [25969, 25983],
+   "tgt": ["RTH_HIGH", [26200, 26213]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1", "instrument": "ES",
+   "name": "Hold or LBAF of 6885-6888",
+   "dir": "long", "tag": "",
+   "quote": "I’ll look for longs on ES on a hold or LBAF of 6885-6888.",
+   "kind": "fade",
+   "gate": [6885, 6888],
+   "tgt": [6900, [6908, 6911], 6913.75, [6919, 6922]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES",
+   "name": "Active downtrend below 6908-6911",
+   "dir": "short", "tag": "",
+   "quote": "I’m willing to short an active downtrend below 6908-6911 on ES targeting 6885-6888 and certainly an active downtrend below 85-88.",
+   "kind": "break",
+   "gate": [6908, 6911],
+   "tgt": [[6885, 6888]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES",
+   "name": "Active downtrend below 6885-6888",
+   "dir": "short", "tag": "",
+   "quote": "I’m willing to short an active downtrend below 6908-6911 on ES targeting 6885-6888 and certainly an active downtrend below 85-88.",
+   "kind": "break",
+   "gate": [6885, 6888],
+   "tgt": [[6863, 6866]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES",
+   "name": "LAAF of today's high (6913.75) via 6919-6922",
+   "dir": "short", "tag": "",
+   "quote": "I’ll definitely be looking for 6919-6922 to potentially produce a LAAF of today’s high. It would need back below 6908 to have room but given it is a bit of a last line I’m willing to short it there if sellers present.",
+   "kind": "fade",
+   "gate": [6913.75, 6913.75],
+   "tgt": [[6908, 6911], 6900, [6885, 6888]],
+   "stop_hint": "6919-6922 to potentially produce a LAAF of today’s high. It would need back below 6908 to have room"
+  }
+ ]
+}

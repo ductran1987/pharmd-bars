@@ -1,0 +1,59 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-30",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-630",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Letter has NO 'TRADES:' section (levels + COMMENTARY with NQ: and ES: discussion, all ungraded) -> trades=[] per the TRADES-section rule; commentary ideas not transcribed: NQ reclaim/hold of 22760-22769 -> 22795 and Friday's high; NQ longs at hold/LBAF of 22685-22696 toward 760; NQ bid anywhere 648-685 long; LBAF of Friday's low (both); ES favored long hold/LBAF of 6198-6202; ES possible short on failure to reclaim 6230-6231 in a downtrend (tight leash). He says 6217/6208.5 are monitoring levels, not to be traded level to level. NQ 685-696 in commentary differs from the 22687-22694 weekly level (recorded as written). No contract statement and no roll mention; U5 per batch.",
+ "zones": {
+  "ES": [
+   [
+    6230,
+    6231
+   ],
+   [
+    6217,
+    6217
+   ],
+   [
+    6208.5,
+    6208.5
+   ],
+   [
+    6198,
+    6202
+   ]
+  ],
+  "NQ": [
+   [
+    22864,
+    22869
+   ],
+   [
+    22795,
+    22795
+   ],
+   [
+    22760,
+    22769
+   ],
+   [
+    22648,
+    22654
+   ],
+   [
+    22685,
+    22696
+   ],
+   [
+    22648,
+    22685
+   ]
+  ]
+ },
+ "trades": []
+}

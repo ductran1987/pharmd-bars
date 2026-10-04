@@ -1,0 +1,63 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-14",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-714",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Letter has no TRADES section (vacation-week letter: levels + commentary only), so trades=[]; commentary trade ideas were not transcribed. All numbers ESU5/NQU5 (September contract, no roll mentioned). Posted Sat 7/12/2025 for Mon 7/14. Commentary-only ideas: NQ LBAF of 22901-22909 (long) and LAAF of 23010-23020 (short), both ungraded. Commentary typo '22010-22020' read as 23010-23020 (not added separately). Historical 'Wednesday night NQ short at the 22060-22069 spot' (likely a typo for 23060-23069) omitted from zones. '978-982' -> 22978-22982.",
+ "zones": {
+  "ES": [
+   [
+    6338,
+    6338
+   ],
+   [
+    6282.5,
+    6284
+   ],
+   [
+    6292,
+    6294
+   ],
+   [
+    6310,
+    6314.5
+   ]
+  ],
+  "NQ": [
+   [
+    22978,
+    22982
+   ],
+   [
+    22901,
+    22909
+   ],
+   [
+    22863,
+    22863
+   ],
+   [
+    22920,
+    22930
+   ],
+   [
+    23010,
+    23020
+   ],
+   [
+    22920,
+    22920
+   ],
+   [
+    23020,
+    23020
+   ]
+  ]
+ },
+ "trades": []
+}

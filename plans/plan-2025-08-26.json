@@ -1,0 +1,69 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-26",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-826",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "U (Sep) contract, no roll mention. He says the setups are awkward and to be selective/wait for session info. Letter typo 'Holding above 6475-6477 should retest 6383-6386 including today's high' read as 6483-6486 (matches the level list). Both 6472-6474 (level list) and 6475-6477 (commentary rotational range) kept as zones. ES today's spike base 6463.75 / low 6453.25 / ON low 6460.75 kept as levels. Targets for es1/es2/es4 and all NQ trades except nq4 not stated -> taken from the ES Trading Higher/Lower commentary (64-66 -> 75-77 -> 83-86; below 51-53.25 -> 6431-6435) and next NQ levels. nq2 tag copied as written 'C+B-' (missing slash). nq1 'firm base built above 518-532' treated as break (persistent strength). nq3 'front run a loss of 485-499 ... if sellers defend' (trapped below 518-532) treated as a fade of 518-532. NQ today's low not given numerically -> nq5 gated RTH_LOW (it held just above 425-438). Inception-box commentary (hold above 6483-6486 -> Friday's high) not promoted to a trade.",
+ "zones": {
+  "ES": [[6483, 6486], [6475, 6477], [6472, 6474], [6464, 6466], [6463.75, 6463.75], [6460.75, 6460.75], [6451, 6453.25], [6453.25, 6453.25], [6431, 6435], [6402.5, 6402.5]],
+  "NQ": [[23612, 23622], [23518, 23532], [23485, 23499], [23425, 23438]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "Reclaim and hold of 6464-6466", "dir": "long", "tag": "B-",
+   "quote": "I’ll long a reclaim and hold of 6464-6466, cautious of a failed reclaim. Given I have moderate (but not high) confidence of seeing 75-77 and that’s only 10 handles . . . I’m not particularly enthused about that trade. I’ll still consider it as a B- setup because of the possibility that today was just a hangover day and if buyers show up tomorrow to reject the spike, it might be just what is needed to break today’s range to the upside",
+   "kind": "fade", "gate": [6464, 6466], "tgt": [[6475, 6477], [6483, 6486]],
+   "stop_hint": "cautious of a failed reclaim"
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Failed reclaim of 6464-6466", "dir": "short", "tag": "B-",
+   "quote": "I’ll short a failed reclaim of 6464-6466 but would be quite cautious in doing so given today’s sellers weren’t willing to initiate at the lows. This is somewhat lower probability but because of the potential to see a liquidation break below today’s low, I’ll also rate it a B-.",
+   "kind": "fade", "gate": [6464, 6466], "tgt": [[6451, 6453.25], [6431, 6435]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Failure in 6475-6477", "dir": "short", "tag": "C+/B-",
+   "quote": "I’m open to shorting a failure in the 6475-6477 range, looking for 6464-6466. I can’t rate this higher than a C+/B- as it would imply at least an initial rejection of today’s spike down. If it happens overnight or very early during RTH I am more willing to try it.",
+   "kind": "fade", "gate": [6475, 6477], "tgt": [[6464, 6466]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Long 6431-6435 area / quick LBAF", "dir": "long", "tag": "B/B-",
+   "quote": "I am still open to longs in the 6431-6435 area or on a quick LBAF from the weekly plan. Following a liquidation break I tend to like this the most but it would still represent some significant weakness, so I’ll rate it a B/B-.",
+   "kind": "fade", "gate": [6431, 6435], "tgt": [[6451, 6453.25], [6464, 6466]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Firm base above 23518-23532", "dir": "long", "tag": "B/B+",
+   "quote": "I’ll look for longs if a firm base is built above 518-532. B/B+",
+   "kind": "break", "gate": [23518, 23532], "tgt": [[23612, 23622]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Front-run reclaim of 23518-23532 from 23485-23499", "dir": "long", "tag": "C+B-",
+   "quote": "One could attempt to front-run a reclaim of 518-532 from 485-499 if it continues to hold (today’s afternoon pullback low was there) but this is a tight space to navigate so I’ll rate it a C+B-",
+   "kind": "fade", "gate": [23485, 23499], "tgt": [[23518, 23532], [23612, 23622]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Trapped below 23518-23532, front-run loss of 23485-23499", "dir": "short", "tag": "B-",
+   "quote": "Trapped below 518-532 has (again) potential to trigger some weakness so trying to front run a loss of 485-499 is not completely unreasonable if sellers defend. Like the above it is a tight space to navigate. I’ll rate it slightly higher and just call it a B- because of the potential for a deeper liquidation through Friday’s thin structure.",
+   "kind": "fade", "gate": [23518, 23532], "tgt": [[23485, 23499], [23425, 23438]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "Trapped below 23485-23499", "dir": "short", "tag": "B/B-",
+   "quote": "Trapped below 485-499 opens a retest of 425-438. With today’s additional volume that would be trapped above, the odds of a breakdown have increased. I’ll therefore rate it a B/B-",
+   "kind": "break", "gate": [23485, 23499], "tgt": [[23425, 23438]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5", "instrument": "NQ", "name": "LBAF of today's low", "dir": "long", "tag": "B-",
+   "quote": "I am open to a long as a LBAF of today’s low given the 425-438 spot sits below but know that 518-532 (and for sure 485-499) needs to ultimately reclaim off it. B-",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [[23485, 23499], [23518, 23532]],
+   "stop_hint": "know that 518-532 (and for sure 485-499) needs to ultimately reclaim off it."
+  }
+ ]
+}

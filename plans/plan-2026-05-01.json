@@ -1,0 +1,39 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-01",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-51-0e3",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "M (Jun) contract; no roll mention. Post-earnings, end-of-month day after a 'false failed breakout' squeeze. TRADES section names two UNGRADED longs in one sentence (tag ''): ES back test holding 7206-7211 incl. LBAF, and 'possibly' NQ back test holding 27486-27504; rest 'can be implied from the commentary'. No targets stated -> taken from commentary in trade direction: es1 7223 (prior ETH ATH) then 7234-7239; nq1 27542 (top of single prints 27491.5-27542) then 27569-27585. Commentary-only ideas NOT promoted to trades: ES hold above today's spike (7248 base / 7251.75 high) -> 7269-7274, 7280 (7258 SPX ext); ES LBAF of 7234-7239 / holding below 7234-7239 to fill singles; ES failure of 7206-7211/7197 demand -> 7177-7182 (possibly 7183-7187); NQ hold above spike (27608 base / 27623 high) -> 27724-27740; NQ LBAF of 27542; holding below 27542 fills singles; NQ LBAF of 27486-27504; LBAF of 27436; 27436 flipping resistance -> back test of 27332-27360. '77-82' in ES = 7177-7182; NQ 3-digit numbers resolved to 27xxx.",
+ "zones": {
+  "ES": [[7258, 7258], [7248, 7252], [7223, 7223], [7177, 7182], [7167, 7169], [7157, 7157], [7206, 7211], [7185.75, 7185.75], [7248, 7248], [7251.75, 7251.75], [7234, 7239], [7269, 7274], [7280, 7280], [7197, 7197], [7200.5, 7200.5], [7183, 7187]],
+  "NQ": [[27608, 27623], [27436, 27436], [27103, 27120], [27150, 27169], [27332, 27360], [27486, 27504], [27608, 27608], [27623, 27623], [27724, 27740], [27542, 27542], [27569, 27585], [27491.5, 27542], [27455, 27474], [27267, 27286]]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Back test which holds 7206-7211 (incl. LBAF)",
+   "dir": "long",
+   "tag": "",
+   "quote": "The only trades I’m interested in planning are longing a back test which holds 7206-7211 (inclusive of a LBAF) or possibly longing a back test that holds 486-504 on NQ.",
+   "kind": "fade",
+   "gate": [7206, 7211],
+   "tgt": [7223, [7234, 7239]],
+   "stop_hint": "If 7206-7211 or the demand just below it doesn’t hold then I would have major warning bells going off."
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Back test that holds 27486-27504",
+   "dir": "long",
+   "tag": "",
+   "quote": "The only trades I’m interested in planning are longing a back test which holds 7206-7211 (inclusive of a LBAF) or possibly longing a back test that holds 486-504 on NQ.",
+   "kind": "fade",
+   "gate": [27486, 27504],
+   "tgt": [27542, [27569, 27585]],
+   "stop_hint": ""
+  }
+ ]
+}

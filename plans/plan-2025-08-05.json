@@ -1,0 +1,84 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-05",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-85",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Tue; posted Mon Aug 4, 2025. U (Sep) contract, no roll mention. Trade list is the line 'In terms of trades: (Aside from the above rotations)'; both trades are ungraded and each is written for 'either/both' ES and NQ, so split into es/nq pairs. ES today's high given as 6358.5 (used as number); NQ today's high not given exactly, only that 23305-23311 'includes today's high' -> NQ gates use [23305,23311]. es1/nq1 true gap up: no target given -> Trading Higher commentary levels (ES 6366 top of weekly 6358.25-6366, 6374, 6395-6400; NQ 23357-23366, 23427.75-23438); he will be 'very cautious into the two NQ spots above us'. es2/nq2 shorts trapped below 6353.75 / 23305 via lower highs and lower lows (he says never a pure breakdown short) -> kind=break, targets = his implied rotation (ES 6342.5, 6329.5-6332.5, weekly 6311.5-6318.75 Friday's high; NQ 23285-23289, 23227-23235, 23188). Typos: '23237-23235' and '23227-22235' both read as 23227-23235. Commentary rotation ideas NOT promoted (he says they are effectively their own setups, LBAF/LAAF included): lose 6353.75 -> 6342.5; ES rotation 6353.75<->6342.5<->6332.5; lose/offer 6332.5 -> Friday's high / weekly 6311.5-6318.75; NQ 23357-23366 defended -> 23305-23311; lose/offer 23285 -> 23227-23235; rotation 23227-23235<->23285-23289; below 23227 fair potential to 23188 if 23227-23235 not reclaimed; holding above 6366 / basing above 6400 -> new highs. 23303 is the NQ spike base (not listed by him).",
+ "zones": {
+  "ES": [
+   [6400, 6400],
+   [6395, 6400],
+   [6374, 6374],
+   [6358.25, 6366],
+   [6358.5, 6358.5],
+   [6353.75, 6353.75],
+   [6342.5, 6342.5],
+   [6329.5, 6332.5],
+   [6311.5, 6318.75],
+   [6302, 6302]
+  ],
+  "NQ": [
+   [23427.75, 23438],
+   [23357, 23366],
+   [23305, 23311],
+   [23303, 23303],
+   [23285, 23289],
+   [23256, 23266],
+   [23227, 23235],
+   [23188, 23188],
+   [22983, 22983]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "True gap up above today's high (6358.5)",
+   "dir": "long",
+   "tag": "",
+   "quote": "A true gap up (above today’s high on either/both) and we follow the rules of a true gap up (see the starter kit). I will be very cautious into the two NQ spots above us.",
+   "kind": "break",
+   "gate": [6358.5, 6358.5],
+   "tgt": [6366, 6374, [6395, 6400]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "True gap up above today's high (23305-23311)",
+   "dir": "long",
+   "tag": "",
+   "quote": "A true gap up (above today’s high on either/both) and we follow the rules of a true gap up (see the starter kit). I will be very cautious into the two NQ spots above us.",
+   "kind": "break",
+   "gate": [23305, 23311],
+   "tgt": [[23357, 23366], [23427.75, 23438]],
+   "stop_hint": "I will be very cautious into the two NQ spots above us."
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Short trapped below 6353.75 (lower highs/lows)",
+   "dir": "short",
+   "tag": "",
+   "quote": "I will consider a short on either ES or NQ if they are trapped below 6353.75 and 23305 respectively. I’m never taking this as a pure breakdown short but lower highs and lower lows back below today’s high and spike base and I’m short for the rotational trade implied and giving sellers a chance for a turnaround Tuesday.",
+   "kind": "break",
+   "gate": [6353.75, 6353.75],
+   "tgt": [6342.5, [6329.5, 6332.5], [6311.5, 6318.75]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Short trapped below 23305 (lower highs/lows)",
+   "dir": "short",
+   "tag": "",
+   "quote": "I will consider a short on either ES or NQ if they are trapped below 6353.75 and 23305 respectively. I’m never taking this as a pure breakdown short but lower highs and lower lows back below today’s high and spike base and I’m short for the rotational trade implied and giving sellers a chance for a turnaround Tuesday.",
+   "kind": "break",
+   "gate": [23305, 23305],
+   "tgt": [[23285, 23289], [23227, 23235], 23188],
+   "stop_hint": ""
+  }
+ ]
+}

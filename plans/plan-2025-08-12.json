@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-12",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-812",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "CPI morning (Tue); post dated Aug 11, 2025. U (Sep) contract, no roll mention. Letter has NO TRADES section and no graded trades - only levels + COMMENTARY - so trades=[] per the literal rule. Ungraded commentary ideas: ES holding above 6392-6396 = spike rejected, longs monitor reclaims of 6404-6405 and 6410-6411.5; holding above 6410-6411.5 opens 6419-6422 (would hold deeply green long runners into CPI); ES holding below 6404-6405 (incl. rejection at 6410-6411.5 trapped below 6404-6405) brings 6392-6396 into play (possible short runners into the print); failure from sellers below 6375-6377 that reclaims 6392-6396 = 'monster trap' long to new highs / today's high; holding below 6375 almost certainly comes down to 6354-6357. NQ: back above 23648-23660 monitor 23681 and 23716-23724 for rejections; holding back above 23724 looks clean for 23769-23775; 23396-23407 capping upside = intermediate risk to bulls, 23542-23551 as proxy for reclaiming Friday's range. ES spike base 6396.25, NQ spike base 23650.75, NQ low of day 23587.5. 6431-6435 = top of ES balance range. '845 is an ETH ATH' read as 23845. SPX-only figures (6360, 6360-6409 box) skipped; 6383 ES (Friday's open) kept. 6240 relative equal daily lows kept.",
+ "zones": {
+  "ES": [[6431, 6435], [6419, 6422], [6410, 6411.5], [6408.5, 6408.5], [6404, 6405], [6396.25, 6396.25], [6392, 6396], [6386, 6388], [6383, 6383], [6379.5, 6379.5], [6375, 6377], [6354, 6357], [6240, 6240]],
+  "NQ": [[23845, 23845], [23804.5, 23804.5], [23769, 23775], [23716, 23724], [23681, 23681], [23650.75, 23650.75], [23648, 23660], [23586, 23600], [23587.5, 23587.5], [23542, 23551], [23396, 23407]]
+ },
+ "trades": []
+}

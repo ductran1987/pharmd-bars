@@ -1,0 +1,63 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-29",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-829",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "PCE day (Fri before Labor Day). U (Sep) contract, no roll mention. Closing spike bases ES 6520.5 / NQ 23800. 'Today's high' (8/28) not given numerically -> RTH_HIGH in nq2/nq3 targets; ES 'today's low' -> RTH_LOW in es5. Letter typo: 'short if 6486-6488 becomes resistance but know that this must find traction down through 6483-6486 or it was just a trap (and the long setup above)' read as 6496-6498 (6486-6488 is not a level anywhere, sits 2 pts from 83-86, and the commentary says 'Trapped below 6496-6498 ... likely liquidates to 6483-6486'; the 'long setup above' is the 6494-6502.5 long) - es5 gated 6496-6498, quote kept verbatim. es2 ('I personally probably won't try to long 6508.75, but it is reasonable to consider') included ungraded; the B/B+ belongs to es3 (failure of sellers through 6494-6502.5). es4 true gap up holding 6520-6524 has no stated target and no higher level -> tgt [] (validator 'no targets' warning is genuine). 'targeting roughly 742-752' -> [23742,23752]. He considered 742-762 instead of 752-769; both kept as zones. YM skipped.",
+ "zones": {
+  "ES": [[6520, 6524], [6520.5, 6520.5], [6513, 6514], [6508.75, 6508.75], [6502.5, 6502.5], [6494, 6502.5], [6496, 6498], [6494, 6494], [6483, 6486], [6464, 6466], [6451, 6453.25], [6431, 6435]],
+  "NQ": [[23869, 23885], [23824, 23841], [23800, 23804], [23800, 23800], [23752, 23769], [23742, 23762], [23752, 23752], [23742, 23752], [23700, 23724], [23677, 23683], [23648, 23660], [23586, 23600], [23548, 23556], [23485, 23499], [23425, 23438], [23342, 23369]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Failure to sustain above 23800-23804", "dir": "short", "tag": "B",
+   "quote": "Shorting a failure to sustain above 800-804 is fine, targeting roughly 742-752. I’ll rate this a B. It would usually be lower but the failed spike and volume into the highs was a pretty terrible look from buyers. Perhaps after the have liquidated the dip would get bought.",
+   "kind": "fade", "gate": [23800, 23804], "tgt": [[23742, 23752]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Hold of 23700-23724", "dir": "long", "tag": "B/B+",
+   "quote": "Longing a hold of the 700-724 range is fine and I would make sure that 752 doesn’t prove resistance which it may. Back above 752 after a hold of 700-724 opens a retest of today’s high so there is enough reward for me to rate it a B/B+",
+   "kind": "fade", "gate": [23700, 23724], "tgt": [23752, "RTH_HIGH"],
+   "stop_hint": "I would make sure that 752 doesn’t prove resistance which it may."
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Hold/LBAF of 23677-23683", "dir": "long", "tag": "B-",
+   "quote": "I’m “okay” looking for longs on a hold or LBAF of 677-683 but keep in the back of mind the potential for an intermediate time frame bearish setup being in play. I would broadly target 742-752, mindful of the 700-724 range. A reclaim and hold of 752 (and certainly 769) opens a retest of today’s high. I’ll rate this a B- as it carries perhaps slightly lower probability.",
+   "kind": "fade", "gate": [23677, 23683], "tgt": [[23742, 23752], "RTH_HIGH"],
+   "stop_hint": "mindful of the 700-724 range"
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Failure to sustain above 6520-6524", "dir": "short", "tag": "C+/B-",
+   "quote": "Like for NQ, shorting a failure to sustain above 6520-6524 is reasonable. It targets 6513-6514 with runners for continuation. This is rated far lower on ES due to limited range and the fact that it is so much stronger than NQ. C+/B-",
+   "kind": "fade", "gate": [6520, 6524], "tgt": [[6513, 6514]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Long 6508.75", "dir": "long", "tag": "",
+   "quote": "I personally probably won’t try to long 6508.75, but it is reasonable to consider.",
+   "kind": "fade", "gate": [6508.75, 6508.75], "tgt": [[6513, 6514], [6520, 6524]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Sellers fail to get through 6494-6502.5", "dir": "long", "tag": "B/B+",
+   "quote": "I will, however, monitor for any failure from sellers to get through 6494-6502.5 and look for a long. This is a wide range, but until/unless sellers find traction below there, there is no meaningful short in play. B/B+ as it is not well-defined, but bulls are currently in full control",
+   "kind": "fade", "gate": [6494, 6502.5], "tgt": [6508.75, [6513, 6514], [6520, 6524]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "True gap up holding 6520-6524", "dir": "long", "tag": "B-",
+   "quote": "A true gap up that holds 6520-6524 is a long. ES has been an extremely slow grind, so I don’t love this long much personally, but it is definitely a long. I’ll rate it a B-.",
+   "kind": "break", "gate": [6520, 6524], "tgt": [],
+   "stop_hint": "If we open on a true gap up, then the 6513-6514 spot becomes more important to hold."
+  },
+  {
+   "id": "es5", "instrument": "ES", "name": "6496-6498 becomes resistance (letter: 6486-6488)", "dir": "short", "tag": "C+/B-",
+   "quote": "I may actually consider a short if 6486-6488 becomes resistance but know that this must find traction down through 6483-6486 or it was just a trap (and the long setup above). C+/B-",
+   "kind": "fade", "gate": [6496, 6498], "tgt": [[6483, 6486], "RTH_LOW"],
+   "stop_hint": "this must find traction down through 6483-6486 or it was just a trap (and the long setup above)."
+  }
+ ]
+}

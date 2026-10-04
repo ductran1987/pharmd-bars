@@ -1,0 +1,215 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-27",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-427",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Sun Apr 26, 2026 for Mon 4/27; M6 contract, no roll mention. 'Friday' = Fri 4/24 -> FRI_HIGH/FRI_LOW (not given numerically). Grades: only the two primary longs are graded ('objectively an A+ setup'); all other trades tag ''. ES A+ paragraph names both a hold/LBAF of 7177-7182 and a hold of 7185.75 ('works the same') -> split into es1/es2 sharing the A+ (the grade sentence follows both). nq2 (hold/LBAF 27267-27286) has no stated target -> 27332-27360 ('turns into the above') then FRI_HIGH. nq3/es4 LAAF of Friday's high are ungraded, longs preferred. es3 text says 'A long or LBAF of 7167-7169' (read as hold or LBAF); no stated target -> 7177-7182 then FRI_HIGH. es5 = 'defend a lower high below 7177-7182 or 7185.75 then I'll consider joining the short side' (tight leash), gated 7177-7182, targets from text: 7167-7169, Friday's low, 7115.5-7121. Not trades: generic reactive shorts (no level), ES persistent weakness below 7177-7182/7167-7169 (he says setup 'just isn't amazing'), NQ trap-door setup (not specified). NQ Friday single prints 27267-27286, 27297-27307, 27332-27360; ES singles 7177-7182.75, 7167-7169 (incl. last week's VAH). Historic trap door 6492->6363 mentioned, not added.",
+ "zones": {
+  "ES": [
+   [
+    7185.75,
+    7185.75
+   ],
+   [
+    7177,
+    7182
+   ],
+   [
+    7177,
+    7182.75
+   ],
+   [
+    7167,
+    7169
+   ],
+   [
+    7115.5,
+    7121
+   ]
+  ],
+  "NQ": [
+   [
+    27267,
+    27286
+   ],
+   [
+    27297,
+    27307
+   ],
+   [
+    27332,
+    27360
+   ],
+   [
+    27150,
+    27169
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 27332-27360",
+   "dir": "long",
+   "tag": "A+",
+   "quote": "Long a hold or LBAF of 27332-27360 targeting Friday’s high and new highs. This is the “safest” long setup as it represents either a test and hold or a quick fill of only the upper most set of single prints which finds responsive buyers. It is objectively an A+ setup and should it not work we must raise our guard a bit for the next setups (yellow flag).",
+   "kind": "fade",
+   "gate": [
+    27332,
+    27360
+   ],
+   "tgt": [
+    "FRI_HIGH"
+   ],
+   "stop_hint": "should it not work we must raise our guard a bit for the next setups (yellow flag)"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 27267-27286",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 27267-27286. This is slightly riskier but has a higher overall potential R/R. If NQ reclaims 332-360 then it turns into the above.",
+   "kind": "fade",
+   "gate": [
+    27267,
+    27286
+   ],
+   "tgt": [
+    [
+     27332,
+     27360
+    ],
+    "FRI_HIGH"
+   ],
+   "stop_hint": "The risk would be a rejection from 332-360 (or a quick failed reclaim from below) which then trades back through 267-286."
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "A LAAF of Friday’s high could technically find 27332-27360 (monitor for continuation) but objectively longs are to be preferred until given a reason otherwise.",
+   "kind": "fade",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    [
+     27332,
+     27360
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7177-7182",
+   "dir": "long",
+   "tag": "A+",
+   "quote": "Long a hold or LBAF of 7177-7182 targeting Friday’s high and new highs. Keep in mind 7185.75 could hold and that works the same. Risk management around 77-82 after a LBAF is the tightest but any hold or LBAF of 77-82 or hold of 85.75 is objectively a long. This is also objectively an A+ setup and is somewhere between a yellow and red flag if it doesn’t work.",
+   "kind": "fade",
+   "gate": [
+    7177,
+    7182
+   ],
+   "tgt": [
+    "FRI_HIGH"
+   ],
+   "stop_hint": "Risk management around 77-82 after a LBAF is the tightest"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 7185.75",
+   "dir": "long",
+   "tag": "A+",
+   "quote": "Long a hold or LBAF of 7177-7182 targeting Friday’s high and new highs. Keep in mind 7185.75 could hold and that works the same. Risk management around 77-82 after a LBAF is the tightest but any hold or LBAF of 77-82 or hold of 85.75 is objectively a long. This is also objectively an A+ setup and is somewhere between a yellow and red flag if it doesn’t work.",
+   "kind": "fade",
+   "gate": [
+    7185.75,
+    7185.75
+   ],
+   "tgt": [
+    "FRI_HIGH"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7167-7169",
+   "dir": "long",
+   "tag": "",
+   "quote": "A long or LBAF of 7167-7169 is objectively a long as well but is perhaps riskier than the equivalent NQ setup.",
+   "kind": "fade",
+   "gate": [
+    7167,
+    7169
+   ],
+   "tgt": [
+    [
+     7177,
+     7182
+    ],
+    "FRI_HIGH"
+   ],
+   "stop_hint": "the risk is 7177-7182 or even 7185.75 rejecting from below and then driving back through 67-69 toward Friday’s low."
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "Like for NQ a LAAF of Friday’s high is a valid short targeting 7185.75 and 7177-7182.",
+   "kind": "fade",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    7185.75,
+    [
+     7177,
+     7182
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Lower high below 7177-7182 or 7185.75 (will consider)",
+   "dir": "short",
+   "tag": "",
+   "quote": "If sellers assert themselves and defend a lower high below 7177-7182 or 7185.75 then I’ll consider joining the short side and keep a tight leash on it because of the LAAF scenario.",
+   "kind": "break",
+   "gate": [
+    7177,
+    7182
+   ],
+   "tgt": [
+    [
+     7167,
+     7169
+    ],
+    "FRI_LOW",
+    [
+     7115.5,
+     7121
+    ]
+   ],
+   "stop_hint": "keep a tight leash on it because of the LAAF scenario"
+  }
+ ]
+}

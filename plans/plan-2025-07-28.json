@@ -1,0 +1,164 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-28",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-728",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "U (Sep) contract, no roll mention. Letter uses 'NQ Trades:' / 'ES Trades:' headers instead of TRADES:. Gap-up expected on China tariff extension + EU deal news. NQ 'B/B+ on a hold of 424.75-430 and an A if we get a LBAF' split into nq1 (hold, B/B+) and nq2 (LBAF, A); likewise short 'failure at 469-477 as a C and a LAAF as a C+/B-' split into nq3/nq4. nq1/nq2 target and nq3/nq4 target taken from the stated 23424.75-23430 <-> 23469-23477 rotation. nq5 (LBAF of 23384) has no stated target -> first level up 23424.75-23430. nq6 true-gap-up long holding Friday's high: no NQ level above Friday's high in the letter -> no targets. ES trades es1-es3 ('treat it as a LBAF of 6420.75, a hold of 6415.5-6418.25, or a LBAF of 6415.5-6418.25') and es4/es5 are ungraded (tag ''); es4 'just like NQ' (NQ version is A-/B+) but no grade written for ES. Friday's high kept symbolic (FRI_HIGH); letter implies it sits above 6420.75 (LAAF of it rotates down to 6420.75) so ES long targets use FRI_HIGH, and es4 targets 6448 (only listed ES level above). SPX 6400 references not transcribed (SPX, not ES). NQ zones also include the weekly levels from the free review of Friday (23340-23345, 23323.75-23328.5, 23363-23380, 23401, 23330.75) and Friday's close 23422.5. Generic 'LAAF of the IB high' remark skipped.",
+ "zones": {
+  "ES": [
+   [6448, 6448],
+   [6420.75, 6420.75],
+   [6410.25, 6410.75],
+   [6402.5, 6402.5],
+   [6416, 6420.75],
+   [6415.5, 6418.25]
+  ],
+  "NQ": [
+   [23340, 23345],
+   [23323.75, 23328.5],
+   [23363, 23380],
+   [23401, 23401],
+   [23330.75, 23330.75],
+   [23422.5, 23422.5],
+   [23424.75, 23430],
+   [23469, 23477],
+   [23384, 23384]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold of 23424.75-23430",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "I would rate the long as a B/B+ on a hold of 424.75-430 and an A if we get a LBAF.",
+   "kind": "fade",
+   "gate": [23424.75, 23430],
+   "tgt": [[23469, 23477]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of 23424.75-23430",
+   "dir": "long",
+   "tag": "A",
+   "quote": "I would rate the long as a B/B+ on a hold of 424.75-430 and an A if we get a LBAF.",
+   "kind": "fade",
+   "gate": [23424.75, 23430],
+   "tgt": [[23469, 23477]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Failure at 23469-23477",
+   "dir": "short",
+   "tag": "C",
+   "quote": "I would rate a short on a failure at 469-477 as a C and a LAAF as a C+/B-",
+   "kind": "fade",
+   "gate": [23469, 23477],
+   "tgt": [[23424.75, 23430]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LAAF of 23469-23477",
+   "dir": "short",
+   "tag": "C+/B-",
+   "quote": "I would rate a short on a failure at 469-477 as a C and a LAAF as a C+/B-",
+   "kind": "fade",
+   "gate": [23469, 23477],
+   "tgt": [[23424.75, 23430]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "LBAF of 23384",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "A LBAF of 23384 is a valid long. If this wouldn’t imply a potential failed breakout AND a news failure this would be an A+ setup. As it is I’m forced to downgrade it to a B/B- which still isn’t bad because of the fact that bearish setups haven’t produced bearish results for some time.",
+   "kind": "fade",
+   "gate": [23384, 23384],
+   "tgt": [[23424.75, 23430]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq6",
+   "instrument": "NQ",
+   "name": "True gap up that holds Friday's high",
+   "dir": "long",
+   "tag": "A-/B+",
+   "quote": "A long on a true gap up that holds Friday’s high is an A-/B+ and the only reason it isn’t rated higher is because we have seen so much rotation and dispersion recently that I’m cautious chasing rips.",
+   "kind": "break",
+   "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of 6420.75",
+   "dir": "long",
+   "tag": "",
+   "quote": "For Monday we can treat it as a LBAF of 6420.75, a hold of 6415.5-6418.25, or a LBAF of 6415.5-6418.25. In short, until/unless sellers find lower highs and lower lows below 15.5 they aren’t getting anywhere so I will be long against those spots.",
+   "kind": "fade",
+   "gate": [6420.75, 6420.75],
+   "tgt": ["FRI_HIGH"],
+   "stop_hint": "until/unless sellers find lower highs and lower lows below 15.5"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 6415.5-6418.25",
+   "dir": "long",
+   "tag": "",
+   "quote": "For Monday we can treat it as a LBAF of 6420.75, a hold of 6415.5-6418.25, or a LBAF of 6415.5-6418.25. In short, until/unless sellers find lower highs and lower lows below 15.5 they aren’t getting anywhere so I will be long against those spots.",
+   "kind": "fade",
+   "gate": [6415.5, 6418.25],
+   "tgt": [6420.75, "FRI_HIGH"],
+   "stop_hint": "until/unless sellers find lower highs and lower lows below 15.5"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of 6415.5-6418.25",
+   "dir": "long",
+   "tag": "",
+   "quote": "For Monday we can treat it as a LBAF of 6420.75, a hold of 6415.5-6418.25, or a LBAF of 6415.5-6418.25. In short, until/unless sellers find lower highs and lower lows below 15.5 they aren’t getting anywhere so I will be long against those spots.",
+   "kind": "fade",
+   "gate": [6415.5, 6418.25],
+   "tgt": [6420.75, "FRI_HIGH"],
+   "stop_hint": "until/unless sellers find lower highs and lower lows below 15.5"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "True gap up that holds Friday's high",
+   "dir": "long",
+   "tag": "",
+   "quote": "We can trade a true gap up that holds Friday’s high from above just like NQ. Gapping entirely above and holding SPX 6400 should provide some additional upside clearance.",
+   "kind": "break",
+   "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [6448],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "A LAAF of Friday’s high is perhaps a bit better on ES than NQ if looking for a short. It still isn’t great but given SPX 6400 sits above there it could offer a rotation back down to 6420.75.",
+   "kind": "fade",
+   "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [6420.75],
+   "stop_hint": ""
+  }
+ ]
+}

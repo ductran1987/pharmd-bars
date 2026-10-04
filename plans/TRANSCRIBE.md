@@ -49,3 +49,19 @@ the plan date is that M/D in 2026 (the letter is sent the evening before). Write
 - dir: long for Long/LBAF/hold/reclaim trades; short for Short/LAAF/fail/weakness trades.
 - Keep `quote` verbatim including the grade.
 - Do not invent trades, levels or grades. If something is ambiguous, pick the most literal reading and note it in `ref_date_note`.
+
+## Addendum (Oct 2026): Substack archive, contracts, edge cases
+These add to the rules above; nothing above changes.
+- **Source.** Letters before 2026-08-30 aren't in Gmail: open the post in Chrome (Claude in Chrome, signed in to
+  Substack) at `https://www.pharmdks.com/p/<slug>` and read it with `get_page_text`. Add `"url": "<post URL>"`.
+  The plan year is the post's year (2025 or 2026), not always 2026.
+- **Plan date.** The title's M/D. If that falls on a weekend/holiday or is clearly a typo (e.g. "8/2" posted Sun 8/2/2026
+  → Mon 8/3), use the next trading day and say so in `ref_date_note`. A two-day title ("6/19-6/20", "11/26, 11/28")
+  → the first trading day it covers; note the other.
+- **Contract.** Add `"contract": {"ES": "ESU6", "NQ": "NQU6"}` = the contract the numbers in this file are on
+  (root + H/M/U/Z + last digit of the year) and `"roll_note": "<his roll sentence(s) verbatim, else ''>"`.
+  He rolls early in expiry week (3rd Friday of Mar/Jun/Sep/Dec) and says so — read it, don't assume. If the letter
+  gives numbers for both contracts, transcribe the one he says he is trading; if he doesn't say, the new (back) month;
+  record which in `ref_date_note`. Symbolic refs (FRI_HIGH…) are resolved later from that contract's bars.
+- **No specific trades.** If the TRADES section only says trades are implied by the commentary, `"trades": []`.
+- `plans/validate.py plans/plan-<date>.json` checks the schema and price sanity; fix every ERROR.

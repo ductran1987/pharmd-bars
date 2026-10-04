@@ -1,0 +1,103 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-15",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-715",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Letter has no TRADES section (vacation-week letter: levels + commentary only), so trades=[]; commentary trade ideas were not transcribed. All numbers ESU5/NQU5 (September contract, no roll mentioned). CPI day (PPI next day). 6299.75 = 7/14 IB high, 6280.5 = 7/14 RTH low (kept as numbers). 'weakness below 99.75' -> 6299.75; 'below 975' -> 22975; weekly '920-930' -> 22920-22930. NQ range 22800-23100 and prior balance 22600-22900 recorded as edge levels; '23400s' recorded as [23400,23499].",
+ "zones": {
+  "ES": [
+   [
+    6338,
+    6338
+   ],
+   [
+    6299.75,
+    6299.75
+   ],
+   [
+    6287,
+    6287
+   ],
+   [
+    6280.5,
+    6280.5
+   ],
+   [
+    6260,
+    6262.5
+   ],
+   [
+    6292,
+    6294
+   ],
+   [
+    6260,
+    6260
+   ],
+   [
+    6330,
+    6330
+   ],
+   [
+    6246.25,
+    6246.25
+   ],
+   [
+    6314.5,
+    6314.5
+   ],
+   [
+    6274,
+    6276
+   ]
+  ],
+  "NQ": [
+   [
+    22975,
+    22992
+   ],
+   [
+    22901,
+    22909
+   ],
+   [
+    22800,
+    22800
+   ],
+   [
+    23100,
+    23100
+   ],
+   [
+    22600,
+    22600
+   ],
+   [
+    22900,
+    22900
+   ],
+   [
+    23400,
+    23499
+   ],
+   [
+    23055,
+    23060
+   ],
+   [
+    23010,
+    23020
+   ],
+   [
+    22920,
+    22930
+   ]
+  ]
+ },
+ "trades": []
+}

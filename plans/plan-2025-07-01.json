@@ -1,0 +1,87 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-01",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-71",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Letter has NO 'TRADES:' section (levels + ES-only COMMENTARY, ungraded) -> trades=[] per the TRADES-section rule; commentary ideas not transcribed: LBAF of today's low 6224.25 (possibly tagging Friday 5pm close 6220.75), reclaim 6230-6231 -> 6248.75 and today's high ('I will be actively looking for this trade'); short on failure to sustain above 6256.25 -> 6238-6239, then 6230-6231 and today's low ('path is not super clean'). Letter typo 'weekly 5251-5253 spot' read as 6251-6253 (the weekly level from 6/27). Friday's high 6239 and today's VPOC 6238 recorded. No contract statement and no roll mention; U5 per batch.",
+ "zones": {
+  "ES": [
+   [
+    6256.25,
+    6256.25
+   ],
+   [
+    6248.75,
+    6248.75
+   ],
+   [
+    6230,
+    6231
+   ],
+   [
+    6224.25,
+    6224.25
+   ],
+   [
+    6220.75,
+    6220.75
+   ],
+   [
+    6217,
+    6217
+   ],
+   [
+    6208.5,
+    6208.5
+   ],
+   [
+    6239,
+    6239
+   ],
+   [
+    6238,
+    6238
+   ],
+   [
+    6238,
+    6239
+   ],
+   [
+    6251,
+    6253
+   ]
+  ],
+  "NQ": [
+   [
+    22893.75,
+    22893.75
+   ],
+   [
+    22864,
+    22869
+   ],
+   [
+    22795,
+    22795
+   ],
+   [
+    22781,
+    22781
+   ],
+   [
+    22760,
+    22769
+   ],
+   [
+    22648,
+    22654
+   ]
+  ]
+ },
+ "trades": []
+}

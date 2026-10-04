@@ -1,0 +1,106 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-25",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1125",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Z5 (Dec 2025) contract; no roll mentioned. Day after a trend day up. TRADES section present but ungraded -> all tags ''. 'Today's spike': ES uses the full spike 6729.5-6731.75; NQ spike base 24968.5 but he says he'll stick with the weekly 24969-24977 -> NQ spike gate/target [24969,24977]. 'Failure to sustain above today's spike' treated as fade (fail of a level). es3 (hold/LBAF of 6697) has no stated target -> first level higher, 6709-6715; nq3 ('The same would be true for NQ 817-832') -> hold/LBAF of 24817-24832 with first level higher 24869-24882. 'Anything below there gets increasingly iffy' -> no trade. Commentary mentions '25012-25058 and 25069 for tomorrow' while the level list says 25012-25028 -> zone kept as 25012-25028 (25058 likely a typo). Friday's high 6677.25 given; ES singles 6689-6696.75; NQ singles 24817-24829.",
+ "zones": {
+  "ES": [
+   [6729.5, 6731.75],
+   [6709, 6715],
+   [6697, 6697],
+   [6689, 6696.75],
+   [6680, 6685],
+   [6677.25, 6677.25]
+  ],
+  "NQ": [
+   [25069, 25069],
+   [25028, 25069],
+   [25012, 25028],
+   [24969, 24977],
+   [24968.5, 24968.5],
+   [24902, 24902],
+   [24893, 24902],
+   [24869, 24882],
+   [24817, 24832],
+   [24817, 24829],
+   [24750, 24769]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Failure to sustain above today's spike (24969-24977)",
+   "dir": "short",
+   "tag": "",
+   "quote": "A failure to sustain above today’s spike is a valid short as it invites a test of 24893-24902 and 24869-24882.",
+   "kind": "fade",
+   "gate": [24969, 24977],
+   "tgt": [[24893, 24902], [24869, 24882]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Failure to sustain above today's spike (6729.5-6731.75)",
+   "dir": "short",
+   "tag": "",
+   "quote": "A failure to sustain above today’s spike is a valid short as it invites a test of 6709-6715 and possibly 6697 on ES.",
+   "kind": "fade",
+   "gate": [6729.5, 6731.75],
+   "tgt": [[6709, 6715], 6697],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold of 24869-24882",
+   "dir": "long",
+   "tag": "",
+   "quote": "A hold of 24869-24882 on NQ (especially once it reclaims 902) is a valid long back up toward today’s spike.",
+   "kind": "fade",
+   "gate": [24869, 24882],
+   "tgt": [[24969, 24977]],
+   "stop_hint": "especially once it reclaims 902"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 6709-6715",
+   "dir": "long",
+   "tag": "",
+   "quote": "A hold of 6709-6715 on ES is a valid long back up toward today’s spike.",
+   "kind": "fade",
+   "gate": [6709, 6715],
+   "tgt": [[6729.5, 6731.75]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 6697",
+   "dir": "long",
+   "tag": "",
+   "quote": "I kind of prefer a deeper test to get long, while wary that it could turn into a breakdown. Risk would at least be well-defined looking for a long on a hold or LBAF of 6697.",
+   "kind": "fade",
+   "gate": [6697, 6697],
+   "tgt": [[6709, 6715]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 24817-24832",
+   "dir": "long",
+   "tag": "",
+   "quote": "The same would be true for NQ 817-832.",
+   "kind": "fade",
+   "gate": [24817, 24832],
+   "tgt": [[24869, 24882]],
+   "stop_hint": ""
+  }
+ ]
+}

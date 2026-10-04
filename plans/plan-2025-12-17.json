@@ -1,0 +1,337 @@
+{
+ "source": "pharmdks",
+ "date": "2025-12-17",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1217",
+ "contract": {
+  "ES": "ESH6",
+  "NQ": "NQH6"
+ },
+ "roll_note": "While I’m now using the H contract (March) I keep an eye on the old Z contract as well | NOTE: The weekly plan covered analysis for both December and March contracts. Since so many use Tradingview and it has rolled I will use March levels (ESH2026 and NQH2026) moving forward.",
+ "ref_date_note": "H6 (March) levels per letter. All TRADES are ungraded (tag ''). '330s' recorded as [25330,25339]. NQ 'today's high in the 440-448' -> used [25440,25448] for nq3 target and nq5 gate. nq1 (failure to sustain above 25409) and nq2 (fresh failure / failed reclaim of 25369-25388 if 409 retest not offered) split from one paragraph. nq4 LBAF of today's low has no stated target ('turns into a stronger version of the above') -> 25218 then nq3's targets. es2 LAAF of today's high: ES high not given numerically (sits just below 6883-6886) -> RTH_HIGH; alternative LAAF of 6883-6886 itself (PM high 6889, prior VAH 6892) noted; targets via 'Once back through 66.5-69 it can turn into the above'. es5 conditional breakdown short below 6809.5-6812.5 has no ES target (only SPX 6752-6764 given) -> tgt []. Excluded from zones: NQZ 24817-24832 (old contract), SPX 6752-6764 and SPX 6800.",
+ "zones": {
+  "ES": [
+   [
+    6902.5,
+    6902.5
+   ],
+   [
+    6832.75,
+    6832.75
+   ],
+   [
+    6866.5,
+    6869
+   ],
+   [
+    6850,
+    6855
+   ],
+   [
+    6824,
+    6828
+   ],
+   [
+    6883,
+    6886
+   ],
+   [
+    6889,
+    6889
+   ],
+   [
+    6892,
+    6892
+   ],
+   [
+    6809.5,
+    6812.5
+   ]
+  ],
+  "NQ": [
+   [
+    25517,
+    25517
+   ],
+   [
+    25440,
+    25448
+   ],
+   [
+    25409,
+    25409
+   ],
+   [
+    25345,
+    25345
+   ],
+   [
+    25218,
+    25218
+   ],
+   [
+    25330,
+    25339
+   ],
+   [
+    25369,
+    25388
+   ],
+   [
+    25282,
+    25292
+   ],
+   [
+    25118,
+    25134
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Failure to sustain above 25409 spike base",
+   "dir": "short",
+   "tag": "",
+   "quote": "Inability to sustain above the 25409 spike base invites retests of 25345 and really 25330s. Naturally the weekly 369-388 spot sits in between.",
+   "kind": "fade",
+   "gate": [
+    25409,
+    25409
+   ],
+   "tgt": [
+    [
+     25369,
+     25388
+    ],
+    25345,
+    [
+     25330,
+     25339
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fresh failure / failed reclaim of 25369-25388",
+   "dir": "short",
+   "tag": "",
+   "quote": "One could therefore play it as a fresh failure at 369-388 or a failed reclaim of 369-388 if a retest of 409 isn’t offered. If it can’t even get through 369-388 then I think a trip to 282-292 is warranted with potential for 218 (monitor for continuation to and through today’s low).",
+   "kind": "fade",
+   "gate": [
+    25369,
+    25388
+   ],
+   "tgt": [
+    25345,
+    [
+     25330,
+     25339
+    ],
+    [
+     25282,
+     25292
+    ],
+    25218,
+    "RTH_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 25218 that can't get to today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’m willing to long a hold (or better) LBAF of 25218 that can’t get to today’s low. This is iffy as it is so close to today’s low but if buyers defend it they defend it.",
+   "kind": "fade",
+   "gate": [
+    25218,
+    25218
+   ],
+   "tgt": [
+    [
+     25282,
+     25292
+    ],
+    [
+     25330,
+     25339
+    ],
+    25345,
+    [
+     25369,
+     25388
+    ],
+    25409,
+    [
+     25440,
+     25448
+    ]
+   ],
+   "stop_hint": "that can’t get to today’s low"
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LBAF of today's low, possibly holding 25118-25134",
+   "dir": "long",
+   "tag": "",
+   "quote": "I do think NQ can afford a LBAF of today’s low, possibly even holding the weekly 118-134 spot. If indices are to be strong I would prefer NQ retain some relative strength but I’m open to longs especially if buyers show a willingness to reclaim and defend dips back above 218 as it turns into a stronger version of the above.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    25218,
+    [
+     25282,
+     25292
+    ],
+    [
+     25330,
+     25339
+    ],
+    25345,
+    [
+     25369,
+     25388
+    ]
+   ],
+   "stop_hint": "possibly even holding the weekly 118-134 spot; especially if buyers show a willingness to reclaim and defend dips back above 218"
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Inability to sustain above today's high (25440-25448)",
+   "dir": "short",
+   "tag": "",
+   "quote": "While taking out today’s high in the 440-448 would bring the daily timeframe into balance, an inability to sustain above it invites weakness. It does look to me like a reasonably clear upper edge forming there. Once back below 409, 369-388, and 345, this has bearish engulfing potential.",
+   "kind": "fade",
+   "gate": [
+    25440,
+    25448
+   ],
+   "tgt": [
+    25409,
+    [
+     25369,
+     25388
+    ],
+    25345
+   ],
+   "stop_hint": "This would be one instance, however, where I would watch very closely if 369-388 holds from above."
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Failed reclaim of 6866.5-6869",
+   "dir": "short",
+   "tag": "",
+   "quote": "Any inability to reclaim 66.5-69 is a valid short targeting 50-55 and 32.75, today’s IB low and roughly VAL. Monitor for continuation to and through 24-28 and today’s low.",
+   "kind": "fade",
+   "gate": [
+    6866.5,
+    6869
+   ],
+   "tgt": [
+    [
+     6850,
+     6855
+    ],
+    6832.75,
+    [
+     6824,
+     6828
+    ],
+    "RTH_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of today's high (or of 6883-6886)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Given today’s high sits just below the weekly 6883-6886 spot, a LAAF of today’s high looks reasonably valid. This could even include a LAAF of 6883-6886 itself as today’s premarket high and yesterday’s VAH sit at 89 and 92 respectively. Once back through 66.5-69 it can turn into the above but we need to be mindful of 66.5-69 holding as it would represent a range reclaim and could be part of a big long playing out.",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    [
+     6866.5,
+     6869
+    ],
+    [
+     6850,
+     6855
+    ],
+    6832.75
+   ],
+   "stop_hint": "we need to be mindful of 66.5-69 holding as it would represent a range reclaim"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold of 6824-6828",
+   "dir": "long",
+   "tag": "",
+   "quote": "A hold of 6824-6828 (especially once it triggers a reclaim of 6832.75) has room right back to 6850-6855 and might be the safest long for those intending to express that bias.",
+   "kind": "fade",
+   "gate": [
+    6824,
+    6828
+   ],
+   "tgt": [
+    [
+     6850,
+     6855
+    ]
+   ],
+   "stop_hint": "especially once it triggers a reclaim of 6832.75"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "As mentioned above I’ll allow for a LBAF of today’s low given 6809.5-6812.5 and the bottom of the SPX 52-64 range sitting just below today’s low. It would be a continuation of framing lower but given some of the potential clues of temporary balance, this can at least produce a nice trade especially once back above 24-28 and 32.75. I would definitely be cautious and consider getting flat a long attempt if 24-28 or 32.75 is offered from below.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     6824,
+     6828
+    ],
+    6832.75
+   ],
+   "stop_hint": "I would definitely be cautious and consider getting flat a long attempt if 24-28 or 32.75 is offered from below."
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Breakdown short below 6809.5-6812.5",
+   "dir": "short",
+   "tag": "",
+   "quote": "I rarely take breakdown shorts, but if we see sellers finding traction and building volume below 24-28 with a weakish response at 6809.5-6812.5 I will at least be prepared to consider a breakdown short especially if there is trend continuation below 6809.5.",
+   "kind": "break",
+   "gate": [
+    6809.5,
+    6812.5
+   ],
+   "tgt": [],
+   "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,266 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-11",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1111",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Post dated Mon 11/10 (subtitle 'One Last Potential Bearish Sequence'); 11/11 Veterans Day (equities open). Contract not stated, Z (Dec) per batch, no roll mention. ES spike base 6864.75 / today's high 6865.75 given; es1 gated on his '6865-6866'. es2 target: no target stated -> 6849 then today's high 6865.75 ('reclaims of the above levels toward today's high'); commentary says 'As long as 6838 holds' - likely typo for 6836, kept 6838 as zone only. nq1 'analogous trade on NQ if 25666 holds but I like it slightly less' -> ungraded (tag ''), targets 25686-25700, 25728, RTH_HIGH. nq2 'NQ in the 600 range (bottom of 607-629 range) or 570' B/B+ gated on the weekly 25607-25629 (alternative entry 25570 inside weekly 25566-25586 noted in name); targets 25666, 25686-25700, 25728 (not stated, from commentary). es4/nq3 LBAF of today's low 'on either' (ungraded); today's low not given numerically -> RTH_LOW (ES low appears near 6797-6800, NQ near 25469-25485); targets from commentary. Last line 'I could see ES 6797-6800 and NQ 469-485 bidding again' is an observation, not transcribed as a trade. Bearish sequence (commentary): ES loses 6797-6800 and 6786-6790 with continuation, NQ loses 25566-25586 then today's low; negated by 30-min higher low vs Friday's low reclaiming those. '480s-490s' recorded as [25480,25499].",
+ "zones": {
+  "ES": [
+   [
+    6892,
+    6893
+   ],
+   [
+    6873,
+    6873
+   ],
+   [
+    6865,
+    6865
+   ],
+   [
+    6849,
+    6849
+   ],
+   [
+    6836,
+    6836
+   ],
+   [
+    6838,
+    6838
+   ],
+   [
+    6864.75,
+    6864.75
+   ],
+   [
+    6865.75,
+    6865.75
+   ],
+   [
+    6858,
+    6869
+   ],
+   [
+    6880,
+    6883
+   ],
+   [
+    6841,
+    6844
+   ],
+   [
+    6821,
+    6824
+   ],
+   [
+    6797,
+    6800
+   ],
+   [
+    6786,
+    6790
+   ]
+  ],
+  "NQ": [
+   [
+    25853,
+    25863
+   ],
+   [
+    25728,
+    25728
+   ],
+   [
+    25666,
+    25666
+   ],
+   [
+    25686,
+    25700
+   ],
+   [
+    25890,
+    25909
+   ],
+   [
+    25607,
+    25629
+   ],
+   [
+    25600,
+    25600
+   ],
+   [
+    25566,
+    25586
+   ],
+   [
+    25570,
+    25570
+   ],
+   [
+    25480,
+    25499
+   ],
+   [
+    25469,
+    25485
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Failure to sustain above 6865-6866 (today's high spike)",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "I would prefer to be short ES on a failure to sustain above 6865-6866 as compared to NQ, at least initially. This trade offers extremely well-defined risk and while lower probability does have a reasonably high potential for reward. Because of this, even given lower probability, I can still rate it a B+/A-.",
+   "kind": "fade",
+   "gate": [
+    6865,
+    6866
+   ],
+   "tgt": [
+    6849,
+    [
+     6841,
+     6844
+    ],
+    6836
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 6836 (today's IB high)",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "While I would be cautious of the above being in play, I would consider a long on ES if 6836 holds as a B/B- setup.",
+   "kind": "fade",
+   "gate": [
+    6836,
+    6836
+   ],
+   "tgt": [
+    6849,
+    6865.75
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold of 25666 (today's IB high)",
+   "dir": "long",
+   "tag": "",
+   "quote": "One can consider the analogous trade on NQ if 25666 holds but I like it slightly less",
+   "kind": "fade",
+   "gate": [
+    25666,
+    25666
+   ],
+   "tgt": [
+    [
+     25686,
+     25700
+    ],
+    25728,
+    "RTH_HIGH"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 6821-6824",
+   "dir": "long",
+   "tag": "A-",
+   "quote": "I like the idea of getting long on a hold or LBAF of 6821-6824 a bit better, first targeting 6836 and monitoring for continuation. This offers a higher reward than the above and is more likely to be supportive, so I’ll rate it an A-",
+   "kind": "fade",
+   "gate": [
+    6821,
+    6824
+   ],
+   "tgt": [
+    6836
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Responsive long at bottom of 25607-25629 (~25600) or 25570",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "The above might correspond with NQ in the 600 range (bottom of 607-629 range) or 570 and I’m okay with a long on NQ if buyers are responsive. I like it less than the above so I’ll rate it a B/B+",
+   "kind": "fade",
+   "gate": [
+    25607,
+    25629
+   ],
+   "tgt": [
+    25666,
+    [
+     25686,
+     25700
+    ],
+    25728
+   ],
+   "stop_hint": "if buyers are responsive"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’m okay with a long on a LBAF of today’s low on either, but would want to see an immediate and ferocious buy side response to convince me that the bearish sequence isn’t triggering.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     6821,
+     6824
+    ],
+    6836
+   ],
+   "stop_hint": "would want to see an immediate and ferocious buy side response to convince me that the bearish sequence isn’t triggering."
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’m okay with a long on a LBAF of today’s low on either, but would want to see an immediate and ferocious buy side response to convince me that the bearish sequence isn’t triggering.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     25566,
+     25586
+    ],
+    [
+     25607,
+     25629
+    ]
+   ],
+   "stop_hint": "would want to see an immediate and ferocious buy side response to convince me that the bearish sequence isn’t triggering."
+  }
+ ]
+}

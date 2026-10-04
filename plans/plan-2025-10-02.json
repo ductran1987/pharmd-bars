@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-02",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-102",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Day after a trend-up day (compared to 9/22). Z (Dec) contract, no roll mention. Letter has NO TRADES section and states 'I simply can't plan trades ahead of time other than the commentary above', so trades=[]. No new daily levels (sticks with weekly levels); zones = listed single prints + weekly/commentary levels. Ungraded commentary ideas (not promoted): ES holding above 6760.5 (ideally 6762.5) opens a retest of today's high / new highs, cautious below the 6769-6775 extension; possible LBAF from minor demand 6751-6755 after losing 6756.75 ('iffy'); singles 6747.5-6751.25 supportive on first touch; long at 6741-6744 the 'safest area to attempt a long if we trade lower' (singles 6735.75-6738 just below, quick trap/reclaim allowed); losing 6741-6744 absent a trap -> weekly 6728.5-6731.5 becomes a must hold. NQ holding above 24990-25000.75 and the 9/23 high 25009.75 keeps today's high in play; pullback ideally holds 24969-24980 / singles 24957.75-24964.25 and 24948.75-24952.25; likely longs at singles 24920.75-24928.75 / weekly 24911-24916; then 24880-24888 must hold or a quick peek into B-period singles 24841.5-24874.75 for a reclaim; loss of 24844-24856 'a bit of a disaster'. Last week's ES high 6756.75 (= the '56.75' level).",
+ "zones": {
+  "ES": [[6756.5, 6760.5], [6747.5, 6751.25], [6735.75, 6738], [6741, 6744], [6756.75, 6756.75], [6760.5, 6762.5], [6769, 6775], [6751, 6755], [6728.5, 6731.5], [6719, 6721], [6700, 6706]],
+  "NQ": [[24990, 25000.75], [24957.75, 24964.25], [24948.75, 24952.25], [24920.75, 24928.75], [24841.5, 24874.75], [24969, 24980], [24911, 24916], [24880, 24888], [24844, 24856], [25009.75, 25009.75]]
+ },
+ "trades": []
+}

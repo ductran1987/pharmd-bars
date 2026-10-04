@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-07",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-107",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Brief letter (author out of town for a funeral); no TRADES section, only levels + commentary -> trades = []. Contract not stated; Z (Dec) assumed per batch (no roll mention). Commentary ideas only (not promoted): ES inside day; taking out the inside-day low (absent a LBAF) targets FRI_LOW with potential for THU_LOW; watch for a back test higher after ending OTFU; break of today's inside-day high (near FRI_HIGH) -> monitor continuation vs a LAAF, LAAF targets 6787.5. NQ 3-day balance: break up with continuation = up only; break down (take out FRI_LOW) with continuation = trap door risk; monitor LBAF of FRI_LOW for a big long. Daily levels added: ES 6787.5, NQ 25180.",
+ "zones": {
+  "ES": [[6787.5, 6787.5]],
+  "NQ": [[25180, 25180]]
+ },
+ "trades": []
+}

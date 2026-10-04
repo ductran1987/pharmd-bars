@@ -1,0 +1,57 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-27",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-827",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "NVDA earnings day (after close); he warns of traps on NVDA day. U (Sep) contract, no roll mention. Section heading is 'TRADES:' (preceded by PRICE: commentary). Letter typos: 'Holding below 458-499' read as 485-499; ES 'Failing back below 75-77 risks a retest of 84-86' read as 64-66 (next sentence talks about 64-66 on a loss of 75-77) - not used as a gate. Ungraded ideas inside TRADES included with tag '': es3 ('one could consider shorting' a fail of 75-77; targets 68.5 higher low then 64-66 per commentary, he won't assume 64-66 until 68.5 is taken out) and nq2 (short a loss of 579 after trading higher -> 548-556). Excluded: NQ LAAF of Friday's 650 / Monday's 616 high failing back below 612-622 - he says it is 'too hard to plan and rate ahead of time', only something to watch if long. Targets for es3/es4/nq1/nq3 not stated -> from PRICE commentary. 507-515 is a level he considered but did not add (kept as zone for reference); 463-467.25 minor; NQ today's RTH low 23427, Fri high 23650, Mon high 23616, today's high 23600, afternoon selloff low 23480 kept as single levels. Weekly bearish-scenario zones 700-724 / 752-769 kept.",
+ "zones": {
+  "ES": [[6496, 6498], [6483, 6486], [6475, 6477], [6468.5, 6468.5], [6464, 6466], [6451, 6453.25], [6444.5, 6444.5], [6431, 6435], [6402.5, 6402.5]],
+  "NQ": [[23752, 23769], [23700, 23724], [23648, 23660], [23650, 23650], [23616, 23616], [23612, 23622], [23600, 23600], [23579, 23579], [23548, 23556], [23507, 23515], [23485, 23499], [23480, 23480], [23463, 23467.25], [23425, 23438], [23427, 23427], [23342, 23369]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "True gap up above 6483-6486", "dir": "long", "tag": "B/B-",
+   "quote": "If we open on a true gap up above 83-86 on ES I will be long looking for a 96-98 test. I’m not a huge fan of cashing gap ups but as long as 83-86 holds from above it is valid. B/B-",
+   "kind": "break", "gate": [6483, 6486], "tgt": [[6496, 6498]],
+   "stop_hint": "as long as 83-86 holds from above it is valid."
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Hold of 6475-6477", "dir": "long", "tag": "B/B+",
+   "quote": "If we trade lower and hold 75-77 I’ll look for a long targeting an 83-86 retest. Given the potential to see 6496-6498 and new highs I’ll rate this one a bit higher as a B/B+",
+   "kind": "fade", "gate": [6475, 6477], "tgt": [[6483, 6486], [6496, 6498]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Fail back below 6475-6477", "dir": "short", "tag": "",
+   "quote": "Failing back below 75-77 would be a poor look (and one could consider shorting it)",
+   "kind": "fade", "gate": [6475, 6477], "tgt": [6468.5, [6464, 6466]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Hold/LBAF of 6464-6466", "dir": "long", "tag": "B/B+",
+   "quote": "Based on all the selling below 64-66 today, I would expect it to be quite supportive. Failing back below 75-77 would be a poor look (and one could consider shorting it) but I’ll still long a hold or LBAF as a B/B+ setup.",
+   "kind": "fade", "gate": [6464, 6466], "tgt": [[6475, 6477], [6483, 6486]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Hold/LBAF of 23548-23556", "dir": "long", "tag": "B/B+",
+   "quote": "For NQ I like the idea of longing a hold (or LBAF) of 548-556 the most and I’ll rate that a B/B+.",
+   "kind": "fade", "gate": [23548, 23556], "tgt": [[23612, 23622], [23648, 23660], [23700, 23724]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Loss of 23579 after trading higher", "dir": "short", "tag": "",
+   "quote": "One can consider shorting a loss of 579 after trading higher to get the 548-556 test.",
+   "kind": "fade", "gate": [23579, 23579], "tgt": [[23548, 23556]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Holding below 23548-23556", "dir": "short", "tag": "B-",
+   "quote": "Holding below 548-556 I’m willing to short as a B- setup, especially after the end of day move.",
+   "kind": "break", "gate": [23548, 23556], "tgt": [[23485, 23499], [23425, 23438]],
+   "stop_hint": ""
+  }
+ ]
+}

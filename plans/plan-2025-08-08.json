@@ -1,0 +1,36 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-08",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-88",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Fri; posted Thu Aug 7, 2025 (inside week, 5-6 week balance). U (Sep) contract, no roll mention. Letter has NO trades heading - only levels + COMMENTARY with Trading Higher / Trading Lower, no grades; he says 'I plan to be fully reactive which makes planning specific trades somewhat difficult' - so trades=[] per the literal rule. Key areas: ES 6354.5-6358 on a dip, NQ weekly 23424.75-23438 (buy dips if NQ above it, may sell rips if below). Commentary ideas (not promoted): fail to sustain above 6374-6377 -> short targeting 6354.5-6358, mindful of 6364; above 6374-6377 long in a session uptrend with caution / short in a session downtrend; longs in the 6354.5-6358 area; quick LBAF of 6354.5-6358 long; holding below 6354.5-6358 -> retest of 6338-6340 and today's low 6334.5; holding below today's low (caution a LBAF) likely sees 6325.75, then 8/5 low 6315.5 / weekly range, near bottom of week's range so out of most shorts. Typos: 'cautious ... buying dips above 6477' almost certainly 6377 (not used); weekly range written '6311.5-6315.75' here (earlier letters 6311.5-6318.75) - recorded as written. Today's ES low 6334.5 from the recap; weekly 6358-6366 removed by him, 6395-6400 kept from recap.",
+ "zones": {
+  "ES": [
+   [6414.5, 6414.5],
+   [6395, 6400],
+   [6386, 6388],
+   [6374, 6377],
+   [6364, 6364],
+   [6354.5, 6358],
+   [6338, 6340],
+   [6334.5, 6334.5],
+   [6325.75, 6325.75],
+   [6315.5, 6315.5],
+   [6311.5, 6315.75],
+   [6302, 6302],
+   [6280, 6280]
+  ],
+  "NQ": [
+   [23671, 23671],
+   [23424.75, 23438],
+   [23397.25, 23397.25],
+   [23331, 23346],
+   [23329, 23329],
+   [23285, 23298],
+   [23223, 23237]
+  ]
+ },
+ "trades": []
+}

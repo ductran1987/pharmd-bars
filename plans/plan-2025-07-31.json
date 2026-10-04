@@ -1,0 +1,31 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-31",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-731",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Day after FOMC + META/MSFT earnings; job cuts, jobless claims, PCE, PMI in the morning. U (Sep) contract, no roll mention. Letter has NO TRADES section and no graded trades - levels + COMMENTARY only - so trades=[] per the literal rule. The only setup he names: 'I don’t see a clean “setup” on NQ or ES other than a true gap up that holds (ideally over 6440 ES and 23650s NQ)' (ungraded; 'As long as a true gap up is sustained, it is a long'). Other ungraded commentary ideas: 6421-6422 trap spot that must re-break immediately; back below 6415.5 -> weakness to 6400-6402.25 or at least 6405 (he prefers shorting YM/RTY instead); NQ failing back below today's RTH high range 23586-23600 'suspect'. Today's ES low 6366.75 (LBAF trigger / technical stop for prior longs). Box top '6437-6440 spot call it'. 23650s recorded as [23650,23659].",
+ "zones": {
+  "ES": [
+   [6429, 6431],
+   [6421, 6422],
+   [6400, 6402.25],
+   [6437, 6440],
+   [6440, 6440],
+   [6415.5, 6415.5],
+   [6405, 6405],
+   [6386, 6386],
+   [6374, 6374],
+   [6369, 6373],
+   [6366.75, 6366.75]
+  ],
+  "NQ": [
+   [23885, 23903],
+   [23650, 23659],
+   [23586, 23600],
+   [23450.75, 23450.75]
+  ]
+ },
+ "trades": []
+}

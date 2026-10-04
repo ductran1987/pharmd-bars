@@ -1,0 +1,30 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-24",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-724",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "U (Sep 2025) contract, no roll mention. 'Minimal plan' written while traveling: no TRADES section, no grades, and no sentence framed as a long/short -> trades=[]. Commentary scenarios NOT transcribed as trades (flag for review): holding above today's cash-hours high 6399.25 and spike base 6393.75 (esp. on a true gap up) 'we go higher and target the 6420s and maybe 6450s'; if spike base lost, a hold of 6386 'can retest the spike base and today's high'; loss of 6386 can retest 6369-6373 (6374 Monday's high), below there today's low. '6420s'/'6450s' recorded as [6420,6429]/[6450,6459]. NQ has levels only.",
+ "zones": {
+  "ES": [
+   [6393.75, 6393.75],
+   [6386, 6386],
+   [6399.25, 6399.25],
+   [6353.5, 6357],
+   [6398, 6403],
+   [6374, 6374],
+   [6369, 6373],
+   [6420, 6429],
+   [6450, 6459],
+   [6335.5, 6335.5]
+  ],
+  "NQ": [
+   [23323.75, 23328.5],
+   [23256.25, 23263.75],
+   [23134, 23142],
+   [23108, 23112]
+  ]
+ },
+ "trades": []
+}

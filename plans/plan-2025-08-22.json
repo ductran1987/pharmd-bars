@@ -1,0 +1,87 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-22",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-822",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Jackson Hole (Powell speech) day. ESU5/NQU5, no roll mention. Letter has NO TRADES heading/list (levels + COMMENTARY only; 'Here is a visual of the trades' refers to an image) -> trades=[]. Commentary 'Inception Box' ideas (ES): LBAF of today's (8/21) low -> today's high, potential Wednesday's high; LAAF of today's high -> today's low; break of Wednesday's high with continuation -> 6451, likely 6460; break of Wednesday's low with continuation -> 6319-6322, 6311; LBAF of Wednesday's low and today's low -> today's high, Wednesday's high; LAAF of Wednesday's high -> today's high, today's low, Wednesday's low. Also: long a dip into 6375-6383 while session in/flips to uptrend -> 6388, 6396, runners; short if session flips to downtrend near today's high (6408.5-6412.25 incl. today's high) -> 6396, 6388, 6383. 8/21 low 6370.25, 8/20 low 6362.75. No NQ trade ideas beyond the inception-box logic.",
+ "zones": {
+  "ES": [
+   [
+    6422.75,
+    6424.25
+   ],
+   [
+    6408.5,
+    6412.25
+   ],
+   [
+    6408.5,
+    6411
+   ],
+   [
+    6370.25,
+    6370.25
+   ],
+   [
+    6362.75,
+    6362.75
+   ],
+   [
+    6375,
+    6383
+   ],
+   [
+    6388,
+    6388
+   ],
+   [
+    6396,
+    6396
+   ],
+   [
+    6451,
+    6451
+   ],
+   [
+    6460,
+    6460
+   ],
+   [
+    6319,
+    6322
+   ],
+   [
+    6311,
+    6311
+   ]
+  ],
+  "NQ": [
+   [
+    23622,
+    23622
+   ],
+   [
+    23515,
+    23515
+   ],
+   [
+    23485,
+    23499
+   ],
+   [
+    23348.25,
+    23369
+   ],
+   [
+    23150,
+    23165
+   ]
+  ]
+ },
+ "trades": []
+}

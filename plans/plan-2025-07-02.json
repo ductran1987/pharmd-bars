@@ -1,0 +1,142 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-02",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-72",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "No 'TRADES:' header; es1/es2 taken from the ES subsection's explicit list 'The major trades therefore are:' - both UNGRADED (tag ''). Neither states a target -> used his 'failed break from range can be faded to the center and potentially the other side' with the effective range 6233-6234 / 6253 and extreme range 6224.25-6227.5 / 6261.5-6265.5 (center not given numerically). es2 quote says '6224.25-6227.7' - not a valid ES tick, read as 6227.5 (listed level and Tuesday's cash low). Commentary says 'I'm using 34-35 for tomorrow' while the level list and later text say 6233-6234 (6233-6234 used; 6234-6235 recorded as a zone). SPX 6220 (cash extension) skipped. NOT transcribed (NQ commentary outside the 'major trades' list, ungraded): short failures/failed reclaim of 22760-22781 -> today's low; LBAF of Friday's/today's lows long; clean break of today's and yesterday's low short toward 'low to mid 22500s'. NQ 22570 'could potentially trigger a LBAF of today's low'. Recap prints from the 7/1 session (6260 fill, 6261.5 HOD, 6245/6242 targets, 6240) not recorded as zones. No contract statement and no roll mention; U5 per batch.",
+ "zones": {
+  "ES": [
+   [
+    6261.5,
+    6265.5
+   ],
+   [
+    6233,
+    6234
+   ],
+   [
+    6224.25,
+    6227.5
+   ],
+   [
+    6224.25,
+    6224.25
+   ],
+   [
+    6220.75,
+    6220.75
+   ],
+   [
+    6217,
+    6217
+   ],
+   [
+    6208.5,
+    6208.5
+   ],
+   [
+    6266,
+    6269
+   ],
+   [
+    6253,
+    6253
+   ],
+   [
+    6230,
+    6230
+   ],
+   [
+    6234,
+    6235
+   ],
+   [
+    6230,
+    6231
+   ]
+  ],
+  "NQ": [
+   [
+    22864,
+    22869
+   ],
+   [
+    22760,
+    22781
+   ],
+   [
+    22648,
+    22654
+   ],
+   [
+    22570,
+    22570
+   ],
+   [
+    22781,
+    22781
+   ],
+   [
+    22815,
+    22825.5
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of 6261.5-6265.5 (Monday/Tuesday highs)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of 6261.5-6265.5 (we have the weekly 6266-6269 sitting just above as is SPX 6220 which is a key extension of mine.",
+   "kind": "fade",
+   "gate": [
+    6261.5,
+    6265.5
+   ],
+   "tgt": [
+    6253,
+    [
+     6233,
+     6234
+    ],
+    [
+     6224.25,
+     6227.5
+    ]
+   ],
+   "stop_hint": "we have the weekly 6266-6269 sitting just above"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of 6224.25-6227.5 (Monday/Tuesday lows)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of 6224.25-6227.7 (we still have the Friday 5pm close that has yet to be traded)",
+   "kind": "fade",
+   "gate": [
+    6224.25,
+    6227.5
+   ],
+   "tgt": [
+    [
+     6233,
+     6234
+    ],
+    6253,
+    [
+     6261.5,
+     6265.5
+    ]
+   ],
+   "stop_hint": "we still have the Friday 5pm close that has yet to be traded"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-04",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-94",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Thu 9/4/2025 (posted Wed 9/3). Challenger/ADP/jobless claims premarket, PMI/ISM after open. U (Sep 2025) contract, no roll mention. Letter has NO Trades section and no grades - levels + COMMENTARY only ('I will primarily focus on those trades') - so trades=[] per the literal rule. Commentary ideas (box rules on the 9/3 range, edges 6425-6427.75 and 6460-6464.25): break and sustain above today's high -> 6496-6502, mindful of gap-fill reversal at 6474-6476 or any LAAF; break and sustain below today's low -> 6380, mindful of LBAF; LAAF of today's high -> today's low and LBAF of today's low -> today's high, both via internal edges ~6438 (6435-6438) and ~6455; open down / LAAF of high: below ~6455 rotation to 6438; failure to get through 6438 -> longs to 6455; LBAF of low must reclaim 6438 for 6455 (outside day up likely); LAAF of high must lose 6455 for 6438 (outside day down). Favors failed breaks; outside day likely. NQ played the same way with internal edges 23469-23473.5 and 23369-23375; NQ 9/3 high 23525.25, low 23318.25. ES closed 6458.5; low of night 6425.5.",
+ "zones": {
+  "ES": [
+   [
+    6513,
+    6514
+   ],
+   [
+    6496,
+    6502
+   ],
+   [
+    6474,
+    6476
+   ],
+   [
+    6460,
+    6464.25
+   ],
+   [
+    6460,
+    6462
+   ],
+   [
+    6458.5,
+    6458.5
+   ],
+   [
+    6455.5,
+    6455.5
+   ],
+   [
+    6455,
+    6455
+   ],
+   [
+    6435,
+    6438
+   ],
+   [
+    6438,
+    6438
+   ],
+   [
+    6425,
+    6427.75
+   ],
+   [
+    6425.5,
+    6425.5
+   ],
+   [
+    6380,
+    6380
+   ]
+  ],
+  "NQ": [
+   [
+    23800,
+    23804
+   ],
+   [
+    23548,
+    23556
+   ],
+   [
+    23525.25,
+    23525.25
+   ],
+   [
+    23469,
+    23473.5
+   ],
+   [
+    23369,
+    23375
+   ],
+   [
+    23318.25,
+    23318.25
+   ],
+   [
+    23252,
+    23271
+   ]
+  ]
+ },
+ "trades": []
+}

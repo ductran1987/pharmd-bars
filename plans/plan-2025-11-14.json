@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-14",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1114",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Fri plan, post dated Thu 11/13 (short plan, author under the weather). Contract not stated; Z (Dec) per batch, no roll mention. No TRADES section and no grades: 'PRICE:' has only ungraded ES/NQ Trading Lower/Higher commentary (no Longs/Shorts lists) -> trades = []. Context: swing longs not safe until back above today's high on both; ES single prints 6777.5-6780.75 used as an 'early pivot' (not traded long-above/short-below); ES low is poor (double bottom). Commentary ideas only: ES - if 6741-6744 triggers a LBAF of today's low, rotation back toward 6777.5-6780.75, mindful of 6755.5, 6759 and weekly 6769-6772 (tight leash on longs); below 6777.5-6780.75 targets today's low or at least 6759/6755.5; below today's low and 6741-6744 targets 6731-6733; below 6731-6733 sees 6716-6720 (likely 6715-6716); above 6777.5-6780.75 potential 6797-6800 and 6809.5-6812.5, mindful of 6786-6790 and Monday's 6792.75 low triggering a failed reclaim; failure/failed reclaim of 6809.5-6812.5 back to 6777.5-6780.75. NQ - gauge vs 25173-25198; above it likely finds weekly 25282-25292, 'I will likely be looking for shorts there' (cautious with longs as low as ~25260); above 25282-25292 potential 25416-25426 (mindful of 25369-25388); if weekly 24957-24969 produces a strong reaction reclaiming today's low, consider a long on a higher low back above 25016-25030. NQ 3-digit abbreviations resolved to 25xxx (25173-25198 given in full); ES '15-16' -> [6715,6716].",
+ "zones": {
+  "ES": [[6892, 6893], [6852, 6852], [6777.5, 6780.75], [6755.5, 6755.5], [6697.5, 6697.5], [6691, 6691], [6741, 6744], [6731, 6733], [6759, 6759], [6769, 6772], [6716, 6720], [6715, 6716], [6797, 6800], [6809.5, 6812.5], [6786, 6790], [6792.75, 6792.75]],
+  "NQ": [[25853, 25863], [25728, 25728], [25416, 25426], [25016, 25030], [24957, 24969], [25173, 25198], [25282, 25292], [25260, 25260], [25369, 25388]]
+ },
+ "trades": []
+}

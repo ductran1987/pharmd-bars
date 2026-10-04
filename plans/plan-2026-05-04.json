@@ -1,0 +1,123 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-04",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-54",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "M (Jun) contract; no roll mention. Monday after Friday ES excess high + spike down/afterhours bleed. All trades UNGRADED (tag ''), listed under TRADES: ES:/NQ: as 'I'll consider...' ideas. Friday's spike '55.5-59' = Friday RTH low 7255.5 to spike base 7259 -> es1 gate [7255.5,7259]. es2 (fail/LAAF of 7288) has no stated target -> 7269-7274 from Trading Higher ('failure above 7288 ... come back to 69-74'). es4 = 'The same technically applies below 32-36' (breakdown short, ultra tight leash); no target stated -> 7223 then 7206-7211 from commentary. es5 = 'Longs trading lower inclusive of 32-36 or a LBAF are covered in the weekly plan and are valid' (target 7248-7252 = Thursday spike, first level up). nq1 no target -> 27816 (first level up). nq2 'reclaims and holds 816 ... join a session uptrend' treated as break. nq3 'If 816 fails to reclaim ... short' treated as fade (failed reclaim). nq4 'look for longs if strength is found off Friday's open/low' after a P-breakdown: gated FRI_LOW (Friday's open has no REF; letter says Friday's low sits inside 27608-27623), target 27655-27669. Not promoted (reminders, no explicit trade): ES back test of 7206-7211 incl. LBAF 'can be highly reactive and produce a meaningful low'; NQ 27498-27508 monitor for LBAF; NQ 27440-27469 up to 27476 'particularly reactive'. Weekly NQ 27898-27917 re-added. Weekly 724-751 per this letter (5/1 letter wrote 724-740).",
+ "zones": {
+  "ES": [[7288, 7288], [7259, 7259], [7248, 7252], [7223, 7223], [7255.5, 7255.5], [7269, 7274], [7280, 7280], [7232, 7236], [7206, 7211]],
+  "NQ": [[27898, 27917], [27854, 27854], [27816, 27816], [27608, 27623], [27536, 27536], [27498, 27508], [27724, 27751], [27655, 27669], [27569, 27585], [27542, 27542], [27440, 27469], [27476, 27476]]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Friday's spike (7255.5-7259) flips back to support",
+   "dir": "long",
+   "tag": "",
+   "quote": "If Friday’s spike (55.5-59) flips back to support, I’ll consider a long to 7269-7274 and 7288 mindful of the supply around 7280.",
+   "kind": "fade",
+   "gate": [7255.5, 7259],
+   "tgt": [[7269, 7274], 7288],
+   "stop_hint": "mindful of the supply around 7280"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7288",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’ll consider a short on a fail/LAAF of 7288 given Friday’s excess but I’ll personally keep shorts smaller and on a tight leash (quicker profit takes and tighter stops) until this tape has clearly flipped to selling rips.",
+   "kind": "fade",
+   "gate": [7288, 7288],
+   "tgt": [[7269, 7274]],
+   "stop_hint": "keep shorts smaller and on a tight leash (quicker profit takes and tighter stops)"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Active session downtrend below 7248-7252",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’ll consider joining an active session downtrend below 48-52 looking for a test of 32-36 where it may be appropriate to look for longs.",
+   "kind": "break",
+   "gate": [7248, 7252],
+   "tgt": [[7232, 7236]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Session downtrend below 7232-7236",
+   "dir": "short",
+   "tag": "",
+   "quote": "The same technically applies below 32-36 but the risk of getting my face ripped off means an ultra tight leash.",
+   "kind": "break",
+   "gate": [7232, 7236],
+   "tgt": [7223, [7206, 7211]],
+   "stop_hint": "the risk of getting my face ripped off means an ultra tight leash."
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Long at 7232-7236 incl. LBAF",
+   "dir": "long",
+   "tag": "",
+   "quote": "Longs trading lower inclusive of 32-36 or a LBAF are covered in the weekly plan and are valid.",
+   "kind": "fade",
+   "gate": [7232, 7236],
+   "tgt": [[7248, 7252]],
+   "stop_hint": "If there is traction and persistent weakness below 32-36 then I’ll have to be patient with longs"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 27724-27751",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 724-751",
+   "kind": "fade",
+   "gate": [27724, 27751],
+   "tgt": [27816],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Reclaim and hold 27816, session uptrend",
+   "dir": "long",
+   "tag": "",
+   "quote": "If NQ reclaims and holds 816 then I’ll be looking to join a session uptrend with a long generally targeting 898-917, mindful of 854.",
+   "kind": "break",
+   "gate": [27816, 27816],
+   "tgt": [27854, [27898, 27917]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Failed reclaim of 27816",
+   "dir": "short",
+   "tag": "",
+   "quote": "If 816 fails to reclaim and there is some highly supportive session information (an active downtrend for example) then I’ll consider joining the short side looking for 724-751 and the potential P-breakdown. Again, I’m keeping a tight leash on any short attempts here and on NQ in particular if it remains the strongest index.",
+   "kind": "fade",
+   "gate": [27816, 27816],
+   "tgt": [[27724, 27751]],
+   "stop_hint": "I’m keeping a tight leash on any short attempts here"
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Strength off Friday's open/low after P-breakdown",
+   "dir": "long",
+   "tag": "",
+   "quote": "If we do get an obvious P-breakdown in play this can act a bit like a “structure repair mission” for filling singles and I start looking for longs if strength is found off Friday’s open/low.",
+   "kind": "fade",
+   "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [[27655, 27669]],
+   "stop_hint": "If there is traction back into Thursday’s range (below 608-623) then I have to be more selective looking for longs"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-01",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-61",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Mon 6/1/2026 (posted Sat 5/30), June M6 contracts, no roll mentioned. Letter says it has far more interest in NQ than ES. ES Friday's high given as 'in the 7610-7613' -> es2 gated [7610,7613]; NQ Friday's low only described as inside 242-269 ('242-269 which includes Friday's low'), not given as a number -> nq3 gated FRI_LOW. es1 '91 is firmly reclaimed' treated as a condition (stop_hint), targets 7598 then 7604-7605. es2/es3 targets from Trading Higher (LAAF of Friday's high opens 7598, 7591, 7585-7587); es2 requires lower highs/lows back below 7604-7605. nq1/nq2/nq3 targets from NQ commentary (no targets in the trade lines except nq3's 339-348 reclaim). Long hold/LBAF of 7569-7572 explicitly excluded as a setup by the letter (not transcribed). 'Honorable mention' 7558-7560 and 7555/7557 kept as zones.",
+ "zones": {
+  "ES": [[7604,7605],[7585,7587],[7540,7540],[7499,7502],[7610,7613],[7598,7598],[7591,7591],[7631,7634],[7623,7623],[7569,7572],[7549,7552],[7558,7560],[7555,7555],[7557,7557]],
+  "NQ": [[30339,30348],[30053,30069],[30448,30469],[30395,30406],[30379,30379],[30242,30269]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "Hold/LBAF of 7585-7587", "dir": "long", "tag": "B/B+",
+   "quote": "Long a hold or LBAF of 7585-7587. Once 91 is firmly reclaimed and held, 7604-7605 becomes likely with 7598 a natural profit take. I’ll rate this a B/B+",
+   "kind": "fade", "gate": [7585,7587], "tgt": [7598,[7604,7605]],
+   "stop_hint": "Once 91 is firmly reclaimed and held"
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "LAAF of Friday's high (7610-7613) back below 7604-7605", "dir": "short", "tag": "C",
+   "quote": "I’ll consider joining the shorts side on a LAAF of Friday’s high that finds lower highs and lower lows back below 7604-7605. I can’t rate this much higher than a C.",
+   "kind": "fade", "gate": [7610,7613], "tgt": [7598,7591,[7585,7587]],
+   "stop_hint": "finds lower highs and lower lows back below 7604-7605"
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "LAAF of 7604-7605 (without taking Friday's high)", "dir": "short", "tag": "C-",
+   "quote": "Taking it as a straight LAAF of 7604-7605 (without taking Friday’s high) is valid but give it a C-. I would more likely be looking to NQ.",
+   "kind": "fade", "gate": [7604,7605], "tgt": [7598,7591,[7585,7587]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Fail/LAAF of 30448-30469", "dir": "short", "tag": "B+",
+   "quote": "Short a fail/LAAF of 448-469. Even with bullish context I can rate this a B+ given the potential range and how clean the rotation looks.",
+   "kind": "fade", "gate": [30448,30469], "tgt": [[30395,30406],30379,[30339,30348]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Hold/LBAF of 30339-30348", "dir": "long", "tag": "A/A-",
+   "quote": "Long a hold/LBAF of 339-348 is an A/A-",
+   "kind": "fade", "gate": [30339,30348], "tgt": [30379,[30395,30406],[30448,30469]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "LBAF of Friday's low (inside 30242-30269)", "dir": "long", "tag": "A/A-",
+   "quote": "For NQ I will plan and rate a LBAF of Friday’s low since it sits right at the weekly level and I do have more confidence in buyers controlling the area below 242-269. Remember this needs to reclaim 339-348 for an outsized move but that potential along with the ease in managing risk make this an A/A- setup as well.",
+   "kind": "fade", "gate": ["FRI_LOW","FRI_LOW"], "tgt": [[30339,30348],[30448,30469]],
+   "stop_hint": "this needs to reclaim 339-348 for an outsized move"
+  }
+ ]
+}

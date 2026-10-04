@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-14",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1014",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Ultra-short note (flight diverted), posted Mon 10/13 after an inside day. ES/NQ level sections render empty in page text (likely images). No TRADES section, only ungraded commentary -> trades = []. Contract not stated; Z (Dec) assumed per batch (no roll mention). Commentary only ('today' = Mon 10/13 = PREV_RTH for the plan date): sustaining above PREV_RTH_HIGH generally expect ES 6741-6744; break and sustain below PREV_RTH_LOW -> test of 6618.5-6624; NQ targets 25127 on sustained upside break, 24512 on sustained downside break; always monitor for a failed break of the inside day and take it the other way (box trades). Notes a break of an inside day targets the high/low of the preceding day (Friday 10/10 mother bar), may stay inside that range a few days.",
+ "zones": {
+  "ES": [[6741, 6744], [6618.5, 6624]],
+  "NQ": [[25127, 25127], [24512, 24512]]
+ },
+ "trades": []
+}

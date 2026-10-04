@@ -1,0 +1,252 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-21",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-821",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "ESU5/NQU5, no roll mention. Trades from the 'Trades:' section (ES graded, NQ ungraded). ES/NQ 'today's high' not given numerically -> RTH_HIGH. es1 'lower high below 6408.5-6411' treated as break (as in prior examples). es2 stop_hint 'holds 75-83' = 6375-6383. es3 (6392-6396 higher low vs 6385.5) no stated target -> 6408.5-6411 (commentary). es4 LAAF of today's high (= rejection of 6431-6435), no stated target -> 6408.5-6411. nq1 lower high below 23285-23298 -> commentary 23220 then 23150-23165. nq2 hold/quick LBAF of 23150-23165 -> 23220 then 23285-23298. nq3 'failed reclaim of today's high/yesterday's low' gated RTH_HIGH (he equates it with yesterday's low = PREV_RTH_LOW, the 23425-23438 area); targets afternoon rally high 23369 then 23285-23298. Letter typo '23425-23428' (vs 23425-23438) kept as written in zones. 6424.25 afternoon rally high and 6430.75 open rejection kept as levels.",
+ "zones": {
+  "ES": [
+   [
+    6408.5,
+    6411
+   ],
+   [
+    6362.75,
+    6362.75
+   ],
+   [
+    6431,
+    6435
+   ],
+   [
+    6430.75,
+    6430.75
+   ],
+   [
+    6424.25,
+    6424.25
+   ],
+   [
+    6375,
+    6383
+   ],
+   [
+    6387.5,
+    6387.5
+   ],
+   [
+    6392,
+    6396
+   ],
+   [
+    6385.5,
+    6385.5
+   ],
+   [
+    6385,
+    6387.5
+   ],
+   [
+    6354,
+    6357
+   ],
+   [
+    6311,
+    6320
+   ]
+  ],
+  "NQ": [
+   [
+    23622,
+    23622
+   ],
+   [
+    23515,
+    23515
+   ],
+   [
+    23485,
+    23499
+   ],
+   [
+    23150,
+    23165
+   ],
+   [
+    23425,
+    23438
+   ],
+   [
+    23425,
+    23428
+   ],
+   [
+    23023,
+    23046
+   ],
+   [
+    23285,
+    23298
+   ],
+   [
+    23369,
+    23369
+   ],
+   [
+    23220,
+    23220
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Lower high below 6408.5-6411",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short a lower high below 6408.5-6411 looking for 6392-6396 and 6387.5. I would be on relatively thin runners by then unless the NQ seller has clearly returned. This is an A/A- setup.",
+   "kind": "break",
+   "gate": [
+    6408.5,
+    6411
+   ],
+   "tgt": [
+    [
+     6392,
+     6396
+    ],
+    6387.5
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF (quick sweep) of 6385.5 swing low holding 6375-6383",
+   "dir": "long",
+   "tag": "B+/A-",
+   "quote": "I’ll look for longs if we get a quick sweep of the 6385.5 swing low that holds 75-83 and sees a strong bid return. I’ll target 6408.5-6411 with runners for continuation. This is a B+/A- setup",
+   "kind": "fade",
+   "gate": [
+    6385.5,
+    6385.5
+   ],
+   "tgt": [
+    [
+     6408.5,
+     6411
+    ]
+   ],
+   "stop_hint": "that holds 75-83 and sees a strong bid return"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Higher low in 6392-6396",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "I may look for longs in the 6392-6396 range as a higher low relative to the 85.5 low. I’m not looking to bid this directly but if there is supportive session information then I’ll look for an entry. An example of this might be the IB low setting in or just above that range and I work against the IB low or on a LBAF. I’ll rate this a B/B+ and higher if there is supportive session information in my favor.",
+   "kind": "fade",
+   "gate": [
+    6392,
+    6396
+   ],
+   "tgt": [
+    [
+     6408.5,
+     6411
+    ]
+   ],
+   "stop_hint": "I’m not looking to bid this directly"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LAAF of today's high (rejection of 6431-6435)",
+   "dir": "short",
+   "tag": "B",
+   "quote": "I’ll consider a short on a LAAF of today’s high as it would represent a rejection of 6431-6435. I believe that stronger sellers would not allow this (and frankly wouldn’t have allowed ES to even rally this far) so I would be rather cautious with this and keep it tight until 6408.5-6411 is lost and offered. I still have to rate this a B setup because of the importance of 6431-6435 but I would keep an extremely tight leash on it.",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    [
+     6408.5,
+     6411
+    ]
+   ],
+   "stop_hint": "keep it tight until 6408.5-6411 is lost and offered ... I would keep an extremely tight leash on it."
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Lower high below 23285-23298",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’ll consider a short on a lower high below 285-298. I’m a bit cautious given the two short time frame higher lows leading into it but if the session is in a downtrend I will take it.",
+   "kind": "break",
+   "gate": [
+    23285,
+    23298
+   ],
+   "tgt": [
+    23220,
+    [
+     23150,
+     23165
+    ]
+   ],
+   "stop_hint": "if the session is in a downtrend I will take it."
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold or quick LBAF of 23150-23165",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’ll long a hold of 150-165 or a quick LBAF.",
+   "kind": "fade",
+   "gate": [
+    23150,
+    23165
+   ],
+   "tgt": [
+    23220,
+    [
+     23285,
+     23298
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Failed reclaim of today's high/yesterday's low",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’ll consider a short on any failed reclaim of today’s high/yesterday’s low.",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    23369,
+    [
+     23285,
+     23298
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

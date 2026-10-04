@@ -1,0 +1,142 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-11",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-511",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "M (Jun) contract, no roll mentioned. Monday plan (posted Sun 5/10); refers heavily to the weekly plan. TRADES section has no letter grades -> all tags ''. es1 combines 'LBAF of 7405-7408 is the best long setup' and 'A hold of 7405-7408 is fine as well'; no explicit target, used 7412 then 7422 from 'the 7405-7408 reclaim (arguably 7412) ... (or at least 7422 test)'. es2 'LBAF of Friday's low ... or a proper test of 83-85' -> 83-85 read as 7383-7385; targets 7405-7408 reclaim, 7412, 7422 (inferred from same paragraph). nq1 gate is 29256 down to 29218-29238 -> [29218,29256]. nq3 (LBAF of 29126, Friday's VAL) and nq4 (LBAF of 29073, from weekly plan) have no stated target -> next level up used (29166-29186 / 29126). nq5 'monitor for 28800-28817 (inclusive of a LBAF) to trigger a LBAF of Friday's low' gated FRI_LOW; targets 28945-28975 then 29073 inferred. Not promoted to trades: ES breakout longs / breakdown shorts ('implied ... isn't worth planning'); NQ firm downtrend below 29073 -> Friday's open and low via 28945-28975; NQ persistent weakness below 29218-29238 -> 29073 ('not super keen on breakdown shorts in a bull trend').",
+ "zones": {
+  "ES": [
+   [7396, 7399],
+   [7346, 7349],
+   [7405, 7408],
+   [7412, 7412],
+   [7410, 7412],
+   [7422, 7422],
+   [7383, 7384],
+   [7383, 7385]
+  ],
+  "NQ": [
+   [29166, 29186],
+   [29126, 29126],
+   [29256, 29256],
+   [29218, 29238],
+   [29286, 29286],
+   [29317, 29341],
+   [29073, 29073],
+   [28945, 28975],
+   [28800, 28817]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF/hold of 7405-7408",
+   "dir": "long",
+   "tag": "",
+   "quote": "In terms of a “setup” a LBAF of 7405-7408 is the best long setup. A hold of 7405-7408 is fine as well but I do tend to expect that a LBAF would produce a stronger response (bulls haven’t really been lacking in strength though, have they?).",
+   "kind": "fade",
+   "gate": [7405, 7408],
+   "tgt": [7412, 7422],
+   "stop_hint": "A LBAF of 7405-7408 doesn’t need to come all the way to 7396-7399 but there is some demand there from Friday and it includes Wednesday’s high."
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "A LBAF of Friday’s low has to be kept back of mind all day, whether from a quick LBAF or a proper test of 83-85, etc.",
+   "kind": "fade",
+   "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [[7405, 7408], 7412, 7422],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "As mentioned in the weekly plan, a LAAF of Friday’s high is a valid short and is always a valid potential short. We just need to ask ourselves how interested we are in shorts just yet. For me that means smaller size, tighter stops, and quicker profit takes if I take it at all. Once back below 7422, a move to 7410-7412 seems reasonable with 7405-7408 the major target. Monitor for continuation from there.",
+   "kind": "fade",
+   "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [[7410, 7412], [7405, 7408]],
+   "stop_hint": "smaller size, tighter stops, and quicker profit takes if I take it at all"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Responsive buying 29256 down to 29218-29238",
+   "dir": "long",
+   "tag": "",
+   "quote": "If trend is going to continue directly then NQ will most likely find buyers by 29256 down to 29218-29238 so, I’ll monitor for responsive buying to join the long side. This is the safest long and targets 286, 317-341, and then monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [29218, 29256],
+   "tgt": [29286, [29317, 29341]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Long in 29166-29186",
+   "dir": "long",
+   "tag": "",
+   "quote": "There was a fair amount of selling in the 166-186 range on Friday which included the IB high and sellers’ (rather pathetic) attempts at triggering a LAAF the IB high. Given broad bullish context I’m willing to look for longs in this situation as well and just know that it needs to reclaim 218-238 and 256 to find a rotation back to 286, 317-341 and monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [29166, 29186],
+   "tgt": [[29218, 29238], 29256, 29286, [29317, 29341]],
+   "stop_hint": "it needs to reclaim 218-238 and 256"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of 29126 (Friday's VAL)",
+   "dir": "long",
+   "tag": "",
+   "quote": "As NQ approaches 29126 and just below, I start to look for a defense from bulls higher than Friday’s A-period singles below 29073. There is some minor demand just below 126 which was roughly Friday’s VAL. During an active daily trend (OTFU), buying a LBAF of a prior day VAL is generally an absolute gift until the trend phase is negated.",
+   "kind": "fade",
+   "gate": [29126, 29126],
+   "tgt": [[29166, 29186]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LBAF of 29073",
+   "dir": "long",
+   "tag": "",
+   "quote": "We know from the weekly plan that we’re monitoring for a LBAF of 29073 as well.",
+   "kind": "fade",
+   "gate": [29073, 29073],
+   "tgt": [29126],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low (via 28800-28817)",
+   "dir": "long",
+   "tag": "",
+   "quote": "We also know to monitor for 28800-28817 (inclusive of a LBAF) to trigger a LBAF of Friday’s low from the weekly commentary.",
+   "kind": "fade",
+   "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [[28945, 28975], 29073],
+   "stop_hint": "monitor for 28800-28817 (inclusive of a LBAF)"
+  },
+  {
+   "id": "nq6",
+   "instrument": "NQ",
+   "name": "Failure to sustain above 29317-29341",
+   "dir": "short",
+   "tag": "",
+   "quote": "A failure to sustain above 29317-29341 invites a trip to 286, 256, and potentially 218-238 and is therefore a valid short but again, shorts for me are rentals at best right now so that means smaller size, tighter stops, and quicker profit takes if I take them at all.",
+   "kind": "fade",
+   "gate": [29317, 29341],
+   "tgt": [29286, 29256, [29218, 29238]],
+   "stop_hint": "smaller size, tighter stops, and quicker profit takes if I take them at all"
+  }
+ ]
+}

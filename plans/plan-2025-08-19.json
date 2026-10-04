@@ -1,0 +1,178 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-19",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-819",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "ESU5/NQU5, no roll mention. No 'TRADES:' heading: trades taken from the explicit list line 'I will add just a couple of additional trade considerations below:' (NQ: subsection, then 'That leads into the ES additional trade ideas:'). All ungraded (tag ''). He says the weekly plan and the 8/18 plan carry forward (8/18 trades not re-added here). 'today's low' NQ = 23719 (8/18 LOD), ES = 6457.25; NQ 'today's high' given only as inside 23824-23831, ES 'today's high' inside 6475-6477 -> ranges used. nq1: 'Building volume above today's high targets ... 869-885' kept as nq1's continuation target, not a separate trade. nq2 (fail to sustain above 23824-23831) and nq3 (one more push below today's low = LBAF of 23719) have no stated targets -> nearest levels from the same section: 785 / 745. es1 LAAF of 6475-6477: target is his 'proper 6451-6454 test'; 6457.25 (today's low, monitor LBAF) inserted first as the nearest level. Skipped as non-specific: 'short ES against my NQ long runners if indicated'; 'long at one of the lower levels ... unless it comes closer to 6420s'. ON highs 23881.75 / 6484.25 kept as levels.",
+ "zones": {
+  "ES": [
+   [
+    6475,
+    6477
+   ],
+   [
+    6457.25,
+    6457.25
+   ],
+   [
+    6440,
+    6443
+   ],
+   [
+    6484.25,
+    6484.25
+   ],
+   [
+    6483,
+    6486
+   ],
+   [
+    6470,
+    6470
+   ],
+   [
+    6451,
+    6454
+   ]
+  ],
+  "NQ": [
+   [
+    23934,
+    23934
+   ],
+   [
+    23911,
+    23911
+   ],
+   [
+    23824,
+    23831
+   ],
+   [
+    23719,
+    23719
+   ],
+   [
+    23683,
+    23683
+   ],
+   [
+    23622,
+    23622
+   ],
+   [
+    23881.75,
+    23881.75
+   ],
+   [
+    23816,
+    23816
+   ],
+   [
+    23869,
+    23885
+   ],
+   [
+    23745,
+    23745
+   ],
+   [
+    23785,
+    23785
+   ],
+   [
+    23700,
+    23724
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of 23745 holding today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "If NQ is imply going to rally direct, I would like to see dips near 23745 aggressively bought. Any kind of LBAF of this spot that holds today’s low targets 785 with potential for another crack at today’s high. Building volume above today’s high targets the major weekly 869-885 spot.",
+   "kind": "fade",
+   "gate": [
+    23745,
+    23745
+   ],
+   "tgt": [
+    23785,
+    [
+     23824,
+     23831
+    ],
+    [
+     23869,
+     23885
+    ]
+   ],
+   "stop_hint": "that holds today’s low"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail to sustain above 23824-23831 (incl. today's high)",
+   "dir": "short",
+   "tag": "",
+   "quote": "If NQ trades higher (especially first) and fails to sustain above 23824-23831 (includes today’s high) then I will consider a short (especially because I still hold long runners).",
+   "kind": "fade",
+   "gate": [
+    23824,
+    23831
+   ],
+   "tgt": [
+    23785,
+    23745
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of today's low (23719)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’ll reiterate that one more push below today’s low on NQ is still a long with serious potential. I believe sellers need to cap 23700-23724 as UPside to trigger a fresh liquidation.",
+   "kind": "fade",
+   "gate": [
+    23719,
+    23719
+   ],
+   "tgt": [
+    23745,
+    23785
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of 6475-6477 (incl. today's high)",
+   "dir": "short",
+   "tag": "",
+   "quote": "A LAAF of 6475-6477 (inclusive of today’s high, the overnight breakdown level, and Friday’s VPOC) could very likely trigger a bearish engulfing day on ES, especially if the 6470 seller pops back in the tape. I think if ES tests higher first and fails in this manner (particularly during RTH), then my NQ long runners are at risk and ES will be under pressure to hold a proper 6451-6454 test.",
+   "kind": "fade",
+   "gate": [
+    6475,
+    6477
+   ],
+   "tgt": [
+    6457.25,
+    [
+     6451,
+     6454
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

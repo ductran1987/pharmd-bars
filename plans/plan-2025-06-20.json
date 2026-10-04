@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-20",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-619",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "Reminder From Monday: Great news on the levels and treatment of levels with respect to contract roll. The weekly levels can be used as they are on ES1. From that perspective this is probably the cleanest roll I’ve seen as they were respected perfectly without any need for adjustment.",
+ "ref_date_note": "Title '6/19-6/20'; 6/19/2025 was the Juneteenth cash holiday (shortened futures session) -> plan date Fri 2025-06-20; letter says the plan serves Wed night through Friday's close. Roll week M5->U5: letter says he already rolled (levels 'used as they are on ES1', refers to 'the old ESM2025 contract') -> numbers are U5. Letter has NO 'TRADES:' section (only COMMENTARY, ES-only, ungraded ideas such as shorts on a fail/LAAF of 6050-6053.5, longs on a failure below 6029.75-6032, longs on hold/LBAF of 5999-6003) -> trades=[] per the TRADES-section rule. NQ level written '22134-21140*' read as typo for 22134-22140. 6026.25 = ES today's (6/18) low; 6082 = upper volume reference.",
+ "zones": {
+  "ES": [[6026.25, 6026.25], [6013, 6013], [5978.25, 5978.25], [6082, 6082], [6050, 6053.5], [6029.75, 6032], [6062.25, 6066.25], [6017.75, 6017.75], [5999, 6003]],
+  "NQ": [[22134, 22140], [22005, 22014.5], [21882.25, 21901], [21846, 21855]]
+ },
+ "trades": []
+}

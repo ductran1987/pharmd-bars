@@ -1,0 +1,220 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-18",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-918",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Day after FOMC. All numbers ESZ5/NQZ5 (letter: 'I am now using ESZ/NQZ levels moving forward'). No trade in the TRADES section is graded (he says he is 'far less likely to assign any kind of high rating' inside today's range) -> all tags ''. The ES rotational line is split into es1 (long fade of lower edge 6650-6653) and es2 (short fade of upper edge 6674-6676), same quote; its 'joining a session trend in the direction of an edge' part is not transcribed separately. es3 bid zone '6637.5-6644' as written (excess at 6640; commentary uses 6641-6644 and 6637.5-6640). es4 'relatively equal highs between today and yesterday' = today/yesterday's high, which the commentary places in the weekly 6687-6690 range -> gated [6687,6690] (yesterday's high was 6688.25 per the 9/17 letter); targets from commentary. Commentary typo '6641-6645 (37.5-40)' recorded as 6641-6644 and 6637.5-6640. nq1 has no stated target -> commentary levels above (24484-24497, then edge 24515-24524); nq2 target from commentary (24515-24524, then 24484-24497). 6696.75 = 9/16 premarket high; 6611 = 9/17 FOMC low.",
+ "zones": {
+  "ES": [
+   [
+    6696.75,
+    6696.75
+   ],
+   [
+    6674,
+    6676
+   ],
+   [
+    6650,
+    6653
+   ],
+   [
+    6611,
+    6611
+   ],
+   [
+    6687,
+    6690
+   ],
+   [
+    6641,
+    6644
+   ],
+   [
+    6637.5,
+    6640
+   ],
+   [
+    6640,
+    6640
+   ],
+   [
+    6637.5,
+    6644
+   ],
+   [
+    6616,
+    6619
+   ]
+  ],
+  "NQ": [
+   [
+    24600.5,
+    24600.5
+   ],
+   [
+    24515,
+    24524
+   ],
+   [
+    24341.5,
+    24341.5
+   ],
+   [
+    24553,
+    24569
+   ],
+   [
+    24369,
+    24380
+   ],
+   [
+    24484,
+    24497
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Rotational long: fade lower edge 6650-6653",
+   "dir": "long",
+   "tag": "",
+   "quote": "Rotational trading between 6650-6653 and 6674-6676 (this means fading edges or failed breaks and joining a session trend in the direction of an edge).",
+   "kind": "fade",
+   "gate": [
+    6650,
+    6653
+   ],
+   "tgt": [
+    [
+     6674,
+     6676
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Rotational short: fade upper edge 6674-6676",
+   "dir": "short",
+   "tag": "",
+   "quote": "Rotational trading between 6650-6653 and 6674-6676 (this means fading edges or failed breaks and joining a session trend in the direction of an edge).",
+   "kind": "fade",
+   "gate": [
+    6674,
+    6676
+   ],
+   "tgt": [
+    [
+     6650,
+     6653
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Long responsive bid 6637.5-6644 (failure to get through 6640 excess)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I am willing to take a crack at longing any failure from sellers to get through today’s excess (6640). So, I’ll look for a responsive bid to come in around 6637.5-6644 and get long if it shows up.. I know that 6650-6653 would need to reclaim and hold to provide a rotation toward 6674-6676.",
+   "kind": "fade",
+   "gate": [
+    6637.5,
+    6644
+   ],
+   "tgt": [
+    [
+     6650,
+     6653
+    ],
+    [
+     6674,
+     6676
+    ]
+   ],
+   "stop_hint": "I know that 6650-6653 would need to reclaim and hold to provide a rotation toward 6674-6676."
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LAAF of equal highs today/yesterday (6687-6690)",
+   "dir": "short",
+   "tag": "",
+   "quote": "A fresh look above and fail of the relatively equal highs between today and yesterday is a short, though I’m a bit cautious because of the overnight high begging to be taken out if we trade that high.",
+   "kind": "fade",
+   "gate": [
+    6687,
+    6690
+   ],
+   "tgt": [
+    [
+     6674,
+     6676
+    ],
+    [
+     6650,
+     6653
+    ]
+   ],
+   "stop_hint": "though I’m a bit cautious because of the overnight high begging to be taken out if we trade that high."
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Long bids near 24369-24380",
+   "dir": "long",
+   "tag": "",
+   "quote": "I like the idea of looking for bids closer to the 24369-24380 range.",
+   "kind": "fade",
+   "gate": [
+    24369,
+    24380
+   ],
+   "tgt": [
+    [
+     24484,
+     24497
+    ],
+    [
+     24515,
+     24524
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Short failure to sustain above 24553-24569",
+   "dir": "short",
+   "tag": "",
+   "quote": "Any failure to sustain above 553-569 I’m willing to take a careful short.",
+   "kind": "fade",
+   "gate": [
+    24553,
+    24569
+   ],
+   "tgt": [
+    [
+     24515,
+     24524
+    ],
+    [
+     24484,
+     24497
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

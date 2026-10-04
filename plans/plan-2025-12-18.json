@@ -1,0 +1,377 @@
+{
+ "source": "pharmdks",
+ "date": "2025-12-18",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1218",
+ "contract": {
+  "ES": "ESH6",
+  "NQ": "NQH6"
+ },
+ "roll_note": "NOTE: The weekly plan covered analysis for both December and March contracts. Since so many use Tradingview and it has rolled I will use March levels (ESH2026 and NQH2026) moving forward.",
+ "ref_date_note": "H6 (March) levels per letter. TRADES under 'PRICE Inside Today's Range'. Today's lows given numerically: NQ 24887.75 (spike base 24928), ES 6775.5 (spike base 6783.25) -> used as gates. Ungraded trades get tag '': nq1, nq5, es1, es2, es3. nq1 short below today's low has no NQ target in letter -> tgt []. es1 target from commentary: ESZ VPOC 6710 'translates to roughly 6755 on ESH', weekly 6750-6755 (ESZ 6710 excluded from zones). Higher-low-above longs (nq4, es4) recorded as kind 'fade' (hold of reclaimed zone from above). es4 gate: 'above 94-96 (91-96)' -> used [6791,6796]. nq3 also 'maybe a lower high below 969-977' (alternative entry). nq5 also 'maybe a rejection at 25046-25061'. es5 'potentially inclusive of any test into the singles (6821-6841.5) or a 24-28 rejection'. Targets not stated in TRADES were taken from the commentary rotations (nq2: 24949 VPOC, 24985-24996; nq3: 24949, 24928; nq4: 25046-25061, 25073, 25094; nq5: 25073, 25046-25061, 24985-24996; nq6: 25094, 25073, 25046-25061; es2: 6791-6796; es3: 6783.25, today's low 6775.5; es5: 6809.5-6812.5, 6791-6796). Commentary: basing above NQ 25218-25245 / ES 6838-6841.5 puts sellers offsides; NQ C-period singles 25122.5-25245.5, add 25171.75 (yesterday's RTH low).",
+ "zones": {
+  "ES": [
+   [
+    6902.5,
+    6902.5
+   ],
+   [
+    6838,
+    6841.5
+   ],
+   [
+    6816,
+    6818
+   ],
+   [
+    6783.25,
+    6783.25
+   ],
+   [
+    6775.5,
+    6775.5
+   ],
+   [
+    6866.5,
+    6869
+   ],
+   [
+    6871.25,
+    6871.25
+   ],
+   [
+    6750,
+    6755
+   ],
+   [
+    6755,
+    6755
+   ],
+   [
+    6791,
+    6796
+   ],
+   [
+    6794,
+    6796
+   ],
+   [
+    6809.5,
+    6812.5
+   ],
+   [
+    6821,
+    6841.5
+   ],
+   [
+    6824,
+    6828
+   ]
+  ],
+  "NQ": [
+   [
+    25517,
+    25517
+   ],
+   [
+    25440,
+    25448
+   ],
+   [
+    25447.75,
+    25447.75
+   ],
+   [
+    25218,
+    25245
+   ],
+   [
+    25094,
+    25094
+   ],
+   [
+    24985,
+    24996
+   ],
+   [
+    24928,
+    24928
+   ],
+   [
+    24887.75,
+    24887.75
+   ],
+   [
+    24883,
+    24894
+   ],
+   [
+    24922,
+    24922
+   ],
+   [
+    24949,
+    24949
+   ],
+   [
+    24969,
+    24977
+   ],
+   [
+    25046,
+    25061
+   ],
+   [
+    25073,
+    25073
+   ],
+   [
+    25118,
+    25134
+   ],
+   [
+    25122.5,
+    25245.5
+   ],
+   [
+    25171.75,
+    25171.75
+   ],
+   [
+    25218,
+    25218
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Short below the spike (today's low 24887.75)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short below the spike (today’s low)",
+   "kind": "break",
+   "gate": [
+    24887.75,
+    24887.75
+   ],
+   "tgt": [],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of the spike (today's low 24887.75)",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "Long a LBAF of the spike (ideally take out today’s low and base back over 928 (B- rating)",
+   "kind": "fade",
+   "gate": [
+    24887.75,
+    24887.75
+   ],
+   "tgt": [
+    24949,
+    [
+     24985,
+     24996
+    ]
+   ],
+   "stop_hint": "ideally take out today’s low and base back over 928"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Rejection/LAAF of 24985-24996",
+   "dir": "short",
+   "tag": "A",
+   "quote": "Short a rejection or LAAF of 985-996 (and maybe a lower high below 969-977) (A rating)",
+   "kind": "fade",
+   "gate": [
+    24985,
+    24996
+   ],
+   "tgt": [
+    24949,
+    24928
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Higher low back above 24985-24996",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "Long a higher low back above 985-996. I hate reclaim longs generally, but I’ll give this a B- rating for tomorrow.",
+   "kind": "fade",
+   "gate": [
+    24985,
+    24996
+   ],
+   "tgt": [
+    [
+     25046,
+     25061
+    ],
+    25073,
+    25094
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Failed reclaim of 25094",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a failed reclaim of 25094 and maybe a rejection at 25046-25061",
+   "kind": "fade",
+   "gate": [
+    25094,
+    25094
+   ],
+   "tgt": [
+    25073,
+    [
+     25046,
+     25061
+    ],
+    [
+     24985,
+     24996
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq6",
+   "instrument": "NQ",
+   "name": "Rejection/LAAF of 25118-25134",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short a rejection or LAAF of 118-134 (A/A-)",
+   "kind": "fade",
+   "gate": [
+    25118,
+    25134
+   ],
+   "tgt": [
+    25094,
+    25073,
+    [
+     25046,
+     25061
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Break of today's low (6775.5) with continuation",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a break of today’s low with continuation",
+   "kind": "break",
+   "gate": [
+    6775.5,
+    6775.5
+   ],
+   "tgt": [
+    [
+     6750,
+     6755
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of today's spike (6775.5)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I don’t like the LBAF of today’s spike quite as much as for NQ but it is valid. The profile just isn’t quite structured as nicely.",
+   "kind": "fade",
+   "gate": [
+    6775.5,
+    6775.5
+   ],
+   "tgt": [
+    [
+     6791,
+     6796
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Rejection/LAAF of 6791-6796 (really 6794-6796)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a rejection or LAAF of 6791-6796 (really 94-96). Again, less room to work with and the profs less clean compared to NQ.",
+   "kind": "fade",
+   "gate": [
+    6791,
+    6796
+   ],
+   "tgt": [
+    6783.25,
+    6775.5
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Higher low above 6794-6796 (6791-6796)",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "Long a higher low above 94-96 (91-96) targeting 6809.5-6812.5 and 6816-6818. Again not quite as good as for NQ and I don’t like reclaim longs but given its potential I’ll rate it a B-",
+   "kind": "fade",
+   "gate": [
+    6791,
+    6796
+   ],
+   "tgt": [
+    [
+     6809.5,
+     6812.5
+    ],
+    [
+     6816,
+     6818
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Rejection/LAAF of 6816-6818",
+   "dir": "short",
+   "tag": "B+",
+   "quote": "Short a rejection or LAAF of 6816-6818 (potentially inclusive of any test into the singles or a 24-28 rejection). This is probably the cleanest ES setup and I’ll give it a B+.",
+   "kind": "fade",
+   "gate": [
+    6816,
+    6818
+   ],
+   "tgt": [
+    [
+     6809.5,
+     6812.5
+    ],
+    [
+     6791,
+     6796
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,262 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-17",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-417-7de",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Thu Apr 16, 2026 for Fri 4/17 (monthly opex); M6 contract, no roll mention. TRADES section is ungraded and mostly generic ('just looking to buy dips at any of the areas and situations outlined above' - not transcribed). Transcribed with tag '': selective shorts 'if sellers are responsive on pops above 7078-7081 and/or 26507-26515' split into es1/nq1 (same quote; read as fade of the range upper edge), targets from the 'sellers cap/defend ... (inclusive of a LAAF)' commentary (ES 7064-7067, APBL 7056, RTH_LOW; NQ 26455-26469, 26420-26430). Favorite setup 'trading lower first, taking out the APBL, and finding responsive buyers' is not instrument-specific -> split into es2 (APBL 7056) and nq2 (APBL 26355) as LBAF-of-APBL longs with the same quote; targets from commentary (ES 7064-7067, 7078-7081; NQ 26390-26408, 26420-26430, 26455-26469, 26507-26515); stop hints from 'closer to 49-52 or even 54 would be fine' (ES) and 'holding 326-343 would be fine' (NQ). ES short-term range 7049-7052 (perhaps as high as 55) up to 7080; NQ range 26326-26343 (possibly 26269-26283) up to 26507-26515. ES buyer zone '50-52' kept as 7050-7052 alongside 7049-7052; ES today's low/high and NQ today's high/low not given numerically. NQ 25872-25884/25834/25760-25769/25238-25250 are added daily levels well below price.",
+ "zones": {
+  "ES": [
+   [
+    7003,
+    7005
+   ],
+   [
+    6979,
+    6983
+   ],
+   [
+    7042,
+    7047
+   ],
+   [
+    7043,
+    7043
+   ],
+   [
+    7049,
+    7052
+   ],
+   [
+    7055,
+    7055
+   ],
+   [
+    7080,
+    7080
+   ],
+   [
+    7078,
+    7081
+   ],
+   [
+    7064,
+    7067
+   ],
+   [
+    7056,
+    7056
+   ],
+   [
+    7050,
+    7052
+   ],
+   [
+    7060,
+    7060
+   ],
+   [
+    7054,
+    7054
+   ],
+   [
+    7037,
+    7040
+   ],
+   [
+    7014,
+    7016
+   ],
+   [
+    7014,
+    7014
+   ],
+   [
+    7011.5,
+    7011.5
+   ]
+  ],
+  "NQ": [
+   [
+    26507,
+    26515
+   ],
+   [
+    25872,
+    25884
+   ],
+   [
+    25834,
+    25834
+   ],
+   [
+    25760,
+    25769
+   ],
+   [
+    25238,
+    25250
+   ],
+   [
+    26269,
+    26283
+   ],
+   [
+    26326,
+    26343
+   ],
+   [
+    26530,
+    26545
+   ],
+   [
+    26455,
+    26469
+   ],
+   [
+    26420,
+    26430
+   ],
+   [
+    26390,
+    26408
+   ],
+   [
+    26355,
+    26355
+   ],
+   [
+    26375,
+    26375
+   ],
+   [
+    26226,
+    26226
+   ],
+   [
+    26200,
+    26212
+   ],
+   [
+    26101,
+    26113
+   ],
+   [
+    26023.5,
+    26023.5
+   ],
+   [
+    25982.25,
+    25982.25
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Short responsive sellers on pops above 26507-26515",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’m willing to consider selective shorts given this (at least temporary) range if sellers are responsive on pops above 7078-7081 and/or 26507-26515. As always monitor session trend and execute at good location.",
+   "kind": "fade",
+   "gate": [
+    26507,
+    26515
+   ],
+   "tgt": [
+    [
+     26455,
+     26469
+    ],
+    [
+     26420,
+     26430
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of APBL (26355) after trading lower first",
+   "dir": "long",
+   "tag": "",
+   "quote": "If I had to pick my favorite setup it would probably be trading lower first, taking out the APBL, and finding responsive buyers. Again, a failure from sellers is most likely to lead to upside continuation than a slow grind higher directly.",
+   "kind": "fade",
+   "gate": [
+    26355,
+    26355
+   ],
+   "tgt": [
+    [
+     26390,
+     26408
+    ],
+    [
+     26420,
+     26430
+    ],
+    [
+     26455,
+     26469
+    ],
+    [
+     26507,
+     26515
+    ]
+   ],
+   "stop_hint": "taking out the APBL and holding 326-343 would be fine as well"
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Short responsive sellers on pops above 7078-7081",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’m willing to consider selective shorts given this (at least temporary) range if sellers are responsive on pops above 7078-7081 and/or 26507-26515. As always monitor session trend and execute at good location.",
+   "kind": "fade",
+   "gate": [
+    7078,
+    7081
+   ],
+   "tgt": [
+    [
+     7064,
+     7067
+    ],
+    7056,
+    "RTH_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of APBL (7056) after trading lower first",
+   "dir": "long",
+   "tag": "",
+   "quote": "If I had to pick my favorite setup it would probably be trading lower first, taking out the APBL, and finding responsive buyers. Again, a failure from sellers is most likely to lead to upside continuation than a slow grind higher directly.",
+   "kind": "fade",
+   "gate": [
+    7056,
+    7056
+   ],
+   "tgt": [
+    [
+     7064,
+     7067
+    ],
+    [
+     7078,
+     7081
+    ]
+   ],
+   "stop_hint": "closer to 49-52 or even 54 would be fine"
+  }
+ ]
+}

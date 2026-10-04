@@ -1,0 +1,275 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-26",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-326-854",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Wed Mar 25, 2026 for Thu 3/26; M6 contract (no roll mention, post-March expiry). TRADES section ungraded -> all tags ''. ES line 'hold of 6618-6622 ... prefer ... LBAF of today's low that reclaims 18-22' split into es2 (hold) and es3 (LBAF of today's low; ES low only described as 'the key 6616 area' -> RTH_LOW). NQ line 'hold of 308-318 ... prefer a LBAF of at least that level if not today's low' split into nq2 (hold/LBAF of 24308-24318) and nq3 (LBAF of today's low, given as 286.5 -> 24286.5). es2/es3 targets are 6653-6657 and 6669-6674 as stated; 6631-6634.5 is a reclaim condition (stop_hint). nq1 path note (must get through 485-494 and 462-469) kept as stop_hint; 24462-24469 is scenario-specific, not a daily level. Skipped generic 'clean break of one of the edges' continuation idea (no level named; edges are ES 6612-6622/6669-6674, NQ 24308-24318/24523-24543). Text typo 'back to418' read as 24418. Letter says 'Give me 200 on NQ and 50 on ES or I keep it in my pants.'",
+ "zones": {
+  "ES": [
+   [
+    6631,
+    6634.5
+   ],
+   [
+    6612,
+    6612
+   ],
+   [
+    6572,
+    6575
+   ],
+   [
+    6669,
+    6674
+   ],
+   [
+    6612,
+    6622
+   ],
+   [
+    6680,
+    6680
+   ],
+   [
+    6616,
+    6616
+   ],
+   [
+    6612,
+    6618
+   ],
+   [
+    6618,
+    6622
+   ],
+   [
+    6612,
+    6616
+   ],
+   [
+    6587,
+    6591
+   ],
+   [
+    6653,
+    6653
+   ],
+   [
+    6653,
+    6657
+   ],
+   [
+    6688,
+    6692
+   ]
+  ],
+  "NQ": [
+   [
+    24485,
+    24494
+   ],
+   [
+    24427,
+    24427
+   ],
+   [
+    24308,
+    24318
+   ],
+   [
+    24160,
+    24160
+   ],
+   [
+    24098,
+    24098
+   ],
+   [
+    24523,
+    24543
+   ],
+   [
+    24357,
+    24380
+   ],
+   [
+    24286.5,
+    24286.5
+   ],
+   [
+    24222,
+    24240
+   ],
+   [
+    24240,
+    24269
+   ],
+   [
+    24258,
+    24269
+   ],
+   [
+    24418,
+    24418
+   ],
+   [
+    24462,
+    24469
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 24523-24543",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’ll short a fail or (much better in the case of NQ) LAAF of 523-543 targeting 418 or so, 357-380, and 308-318. This would need to get through 485-494 and probably 462-469 (not in the levels as it is specific to this scenario) to make it to 418.",
+   "kind": "fade",
+   "gate": [
+    24523,
+    24543
+   ],
+   "tgt": [
+    24418,
+    [
+     24357,
+     24380
+    ],
+    [
+     24308,
+     24318
+    ]
+   ],
+   "stop_hint": "This would need to get through 485-494 and probably 462-469 (not in the levels as it is specific to this scenario) to make it to 418."
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 24308-24318",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’ll long a hold of 308-318 on NQ but I prefer a LBAF of at least that level if not today’s low. I would be mindful of 357-380 on the way back up but broadly target 418 give or take, 485-494, and 523-543. Monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    24308,
+    24318
+   ],
+   "tgt": [
+    24418,
+    [
+     24485,
+     24494
+    ],
+    [
+     24523,
+     24543
+    ]
+   ],
+   "stop_hint": "I would be mindful of 357-380 on the way back up"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of today's low (24286.5)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’ll long a hold of 308-318 on NQ but I prefer a LBAF of at least that level if not today’s low. I would be mindful of 357-380 on the way back up but broadly target 418 give or take, 485-494, and 523-543. Monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    24286.5,
+    24286.5
+   ],
+   "tgt": [
+    24418,
+    [
+     24485,
+     24494
+    ],
+    [
+     24523,
+     24543
+    ]
+   ],
+   "stop_hint": "I would be mindful of 357-380 on the way back up"
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 6669-6674",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’ll short a fail or LAAF of 6669-6674 on ES targeting 53-57 and 18-22 (monitor for continuation from there).",
+   "kind": "fade",
+   "gate": [
+    6669,
+    6674
+   ],
+   "tgt": [
+    [
+     6653,
+     6657
+    ],
+    [
+     6618,
+     6622
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 6618-6622",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’ll long a hold of 6618-6622 on ES but I do tend to prefer to play it as a LBAF of today’s low that reclaims 18-22. This would need to reclaim 6631-6634.5 to have room to 6653-6657 and potential for 6669-6674.",
+   "kind": "fade",
+   "gate": [
+    6618,
+    6622
+   ],
+   "tgt": [
+    [
+     6653,
+     6657
+    ],
+    [
+     6669,
+     6674
+    ]
+   ],
+   "stop_hint": "This would need to reclaim 6631-6634.5"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of today's low that reclaims 6618-6622",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’ll long a hold of 6618-6622 on ES but I do tend to prefer to play it as a LBAF of today’s low that reclaims 18-22. This would need to reclaim 6631-6634.5 to have room to 6653-6657 and potential for 6669-6674.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     6653,
+     6657
+    ],
+    [
+     6669,
+     6674
+    ]
+   ],
+   "stop_hint": "that reclaims 18-22. This would need to reclaim 6631-6634.5"
+  }
+ ]
+}

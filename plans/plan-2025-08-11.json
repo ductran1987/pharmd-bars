@@ -1,0 +1,39 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-11",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-811",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Monday; post dated Aug 10, 2025. U (Sep) contract, no roll mention. Sections are 'ES Trades:' / 'NQ Trades:'. Grades written as 'a solid A setup' / 'a solid A' / 'Another A setup' -> tag 'A'. es2 letter typo '6292-6496 range from Friday' read as 6392-6396 (the range named later in the same letter); es2/nq2 are front-run longs with no explicit target -> targets taken from the trade they front-run (es1 / nq1). Friday's ES high given as 6419 (es1 target, es4 gate); Friday's ES low given as 6379.5 (es3 gate). NQ Friday's low not given -> FRI_LOW; 23485-23499 named as where its LBAF may form. NQ Friday's RTH high only said to be inside 23716-23724 -> nq4 gated FRI_HIGH. nq4 is ungraded ('I'm less likely to short NQ on a loss of Friday's high ... but it can have similar potential') included with tag '' like the 9/18 precedent; no NQ target stated -> 23700 then 23648-23660 from the letter. '620s' recorded as [23620,23629]. 'Won't plan to short a true gap up' reactive idea skipped (no level). Closing note: will mentally downgrade all longs if higher-volume selling appears.",
+ "zones": {
+  "ES": [[6419, 6419], [6416.5, 6416.5], [6400, 6401.5], [6392, 6396], [6386, 6388], [6379.5, 6379.5], [6375, 6377]],
+  "NQ": [[23716, 23724], [23700, 23700], [23648, 23660], [23620, 23629], [23586, 23600], [23485, 23499]]
+ },
+ "trades": [
+  {"id": "es1", "instrument": "ES", "name": "LBAF of 6400-6401.5", "dir": "long", "tag": "A",
+   "quote": "I will long a LBAF of 6400-6401.5. This would sweep both the Friday afternoon pullback lows yet represent rejection of prices below Friday’s value. This targets 6416.5 (not listed in the levels), Friday’s high, and runners are reasonable beyond Friday’s high (this will remain the case until sellers take out a prior day low). I see this as a solid A setup.",
+   "kind": "fade", "gate": [6400, 6401.5], "tgt": [6416.5, 6419], "stop_hint": ""},
+  {"id": "es2", "instrument": "ES", "name": "Long directly at 6392-6396 (front-run LBAF of 6400-6401.5)", "dir": "long", "tag": "A-",
+   "quote": "The 6292-6496 range from Friday was well-bid on that late morning pullback. I may consider looking to get long here directly to front run a LBAF of 6400-6401.5. This has a better reward than the above but a slightly lower probability. I’ll rate it an A-.",
+   "kind": "fade", "gate": [6392, 6396], "tgt": [[6400, 6401.5], 6416.5, 6419], "stop_hint": ""},
+  {"id": "es3", "instrument": "ES", "name": "LBAF of Friday's low (6379.5)", "dir": "long", "tag": "A",
+   "quote": "As alluded to in the weekly plan, a LBAF of Friday’s low would serve as a nice trap given the major weekly 6375-6377 spot just below. Any failure from sellers below 6375-6377 is likely to trigger a fresh wave of covering. This has the best reward to risk relative to the above. I would plan to be cautious if 6392-6396 or 6400-6401.5 is rejected from below. If so, it is a profit take but given the potential for this to trigger an upside break of the multi-week range I still rate this a solid A.",
+   "kind": "fade", "gate": [6379.5, 6379.5], "tgt": [[6392, 6396], [6400, 6401.5]], "stop_hint": ""},
+  {"id": "es4", "instrument": "ES", "name": "Rejection of after-hours move above Friday's 6419 high", "dir": "short", "tag": "B/B-",
+   "quote": "ES floated up after-hours beyond Friday’s 6419 high. If this move is rejected (on Sunday night for example) then it is reasonable to be short, especially if price is trapped back below 6416.5. My major target would be 6400-6401.5 but I would likely be taking profit more quickly. Until sellers prove something I can’t call any planned short better than a B/B-.",
+   "kind": "fade", "gate": [6419, 6419], "tgt": [[6400, 6401.5]], "stop_hint": "especially if price is trapped back below 6416.5"},
+  {"id": "nq1", "instrument": "NQ", "name": "Hold/LBAF of 23648-23660", "dir": "long", "tag": "A",
+   "quote": "Any hold or (better) LBAF of 23648-23660 is a long targeting 23700 and 23716-23724 with runners reasonable for above Friday’s high. I’m eyeing the 620s in particular as having potential to provide a LBAF. Another A setup.",
+   "kind": "fade", "gate": [23648, 23660], "tgt": [23700, [23716, 23724]], "stop_hint": ""},
+  {"id": "nq2", "instrument": "NQ", "name": "Long directly at 23586-23600 (front-run LBAF of 23648-23660)", "dir": "long", "tag": "A-/B+",
+   "quote": "I will look for buyers to present in the 23586-23600 and consider a long directly to front run the above trade as well. This is maybe an A-/B+ given Friday’s profile but in this case back above 620s likely triggers a LBAF of 648-660.",
+   "kind": "fade", "gate": [23586, 23600], "tgt": [[23648, 23660], 23700, [23716, 23724]], "stop_hint": ""},
+  {"id": "nq3", "instrument": "NQ", "name": "LBAF of Friday's low", "dir": "long", "tag": "B/B+",
+   "quote": "A LBAF of Friday’s low works as a long on NQ as well, though I perhaps see that ES trade as a bit more clean. The 23485-23499 range would have a reasonable chance to produce a LBAF and as for ES I would take profit on any potential lower high below 648-660. I’ll rate this a B/B+ but that may be conservative given the relative strength NQ has shown at times.",
+   "kind": "fade", "gate": ["FRI_LOW", "FRI_LOW"], "tgt": [[23648, 23660]], "stop_hint": ""},
+  {"id": "nq4", "instrument": "NQ", "name": "Loss of Friday's high (after-hours float rejected)", "dir": "short", "tag": "",
+   "quote": "I’m less likely to short NQ on a loss of Friday’s high (following the after-hours float up) compared to ES based on Friday’s profile but it can have similar potential.",
+   "kind": "fade", "gate": ["FRI_HIGH", "FRI_HIGH"], "tgt": [23700, [23648, 23660]], "stop_hint": ""}
+ ]
+}

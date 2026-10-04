@@ -1,0 +1,36 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-01",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-81",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "NFP/PMI/ISM/Consumer Sentiment day (Fri). Post page dated Jul 31, 2025 (batch list says posted 8/1); plan date from title 8/1. U (Sep) contract, no roll mention. Letter has NO TRADES section and no graded trades - levels + COMMENTARY with Trading Lower/Trading Higher only - so trades=[] per the literal rule. Ungraded ideas in the commentary: LBAF of today's low (relative equal lows last two days) 'gets interesting'; 6310.5-6315 expected cover response if 6318.75 taken out (6304.5 monitor for LBAF of it); 'I am open to shorts at any of these spots up to 6404-6405.5' (6369-6373 / 6393.75-6396.25 / 6404-6405.5), more cautious if it failed lower first. Also asks to add an AVWAP anchored to the current overnight swing high with +2/+3 bands (not transcribed). SPX-only figures (6285-6336 box, 6285) skipped; '6346-6348 on ES' (SPX 7/23 low equivalent) kept. Balance-range bounds 6318.75/6374 and 6241/6335 kept as single levels; 6338-6340 is his weekly spot.",
+ "zones": {
+  "ES": [
+   [6426, 6427.5],
+   [6404, 6405.5],
+   [6403, 6403],
+   [6393.75, 6396.25],
+   [6374, 6374],
+   [6369, 6373],
+   [6365.5, 6365.5],
+   [6353.5, 6357],
+   [6346, 6348],
+   [6338, 6340],
+   [6335, 6335],
+   [6318.75, 6318.75],
+   [6310.5, 6315],
+   [6310, 6310],
+   [6304.5, 6304.5],
+   [6292, 6294],
+   [6241, 6241]
+  ],
+  "NQ": [
+   [23630, 23630],
+   [23310, 23327],
+   [23256, 23266]
+  ]
+ },
+ "trades": []
+}

@@ -1,0 +1,107 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-06",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-35-955",
+ "contract": {
+  "ES": "ESH6",
+  "NQ": "NQH6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Title says '3/5' but the post is dated Thu Mar 05, 2026 and says 'Tomorrow is NFP Friday' / 'I did a public livestream on 3/4' -> title typo, plan date Fri 2026-03-06 (slug suffix -955 implies a separate earlier '3/5' post exists). H6 contract, no roll mention. No TRADES section and the ES:/NQ: commentary subsections carry no grades, so trades = []. Commentary ideas (ungraded, not promoted): ES - if 6801.5-6808.75 holds, likely see 6858-6861 and monitor for continuation; if it does not hold, retest of today's low (RTH_LOW) becomes a must hold; meaningful traction lower and a close meaningfully below 6775 -> 6801.5-6808.75 may become resistance; 6858-6861 may cap upside. NQ - pivot range 24882-24943 split in two: 'I'm long if sellers can't get through there - either a hold or LBAF of 24930-24943' -> 25040 and most likely 25086-25098 (would use 25100-25115 or 25120-25130 if the week were closed); 24882-24888 firmly capping -> resolution to and potentially through today's low (RTH_LOW; weekly 24858-24869 and 24805-24820 abused today); today's low lost with continuation -> 24669-24700 or at least 24715. 6801-6812 is a chart blend of the weekly/yearly levels.",
+ "zones": {
+  "ES": [
+   [
+    6894,
+    6897
+   ],
+   [
+    6858,
+    6861
+   ],
+   [
+    6760,
+    6763
+   ],
+   [
+    6775,
+    6775
+   ],
+   [
+    6803,
+    6812.5
+   ],
+   [
+    6801,
+    6812
+   ],
+   [
+    6801.5,
+    6808.75
+   ]
+  ],
+  "NQ": [
+   [
+    25278,
+    25292
+   ],
+   [
+    25211,
+    25218
+   ],
+   [
+    24930,
+    24943
+   ],
+   [
+    24882,
+    24888
+   ],
+   [
+    24598,
+    24608
+   ],
+   [
+    24469,
+    24469
+   ],
+   [
+    24882,
+    24943
+   ],
+   [
+    24858,
+    24869
+   ],
+   [
+    24805,
+    24820
+   ],
+   [
+    24669,
+    24700
+   ],
+   [
+    24715,
+    24715
+   ],
+   [
+    25040,
+    25040
+   ],
+   [
+    25086,
+    25098
+   ],
+   [
+    25100,
+    25115
+   ],
+   [
+    25120,
+    25130
+   ]
+  ]
+ },
+ "trades": []
+}

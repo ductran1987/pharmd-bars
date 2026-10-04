@@ -1,0 +1,65 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-01",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-101",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Quarter-end close / shutdown deadline. Z (Dec) contract, no roll mention. TRADES section (Longs/Shorts) is entirely UNGRADED ('None are worthy of a super high rating ahead of time') so every tag is ''. es1 target '28.5-32.25' = weekly 6728.5-6731.5 merged with the 6732.25 spike base -> [6728.5,6732.25]. ES spike base read as 6732.25 ('upward spike at 6732.25'); NQ spike base 24865.75 given. nq1 (hold of 844-856) is a reluctant long ('I have an even harder time longing NQ ... I need to be convinced/' - sentence cut off in letter); included ungraded, no stated target -> NQ commentary levels above (spike base 24865.75, weekly 24969-24980). es2/nq2 'firm bid' in wide demand ranges 6702-6711 / 24760-24800 (NQ '760-800 range or so'); nq2 targets by analogy to ES ('the same is true') = 24820 then 844-856. es3/nq3 = 'LBAF the IB low (for example)' - conditional on an inside day with the IB low set above those demand ranges; included as one trade per index, targets 6716-6719 / 844-856 inferred from the 'rip back above' language. es4/nq4 'careful short a rejection of the spike base on either' - stop_hint carries the need to see 6716-6719 / 844-856 offered. es5/nq5 lower high below the zone within a session downtrend -> break; targets from commentary. Single prints 6723.25-6725.75 and VAH cluster 6720-6722 kept as levels.",
+ "zones": {
+  "ES": [[6716, 6716], [6741, 6744], [6716, 6719], [6719, 6721], [6723.25, 6725.75], [6732.25, 6732.25], [6720, 6722], [6728.5, 6731.5], [6700, 6706], [6702, 6711]],
+  "NQ": [[24820, 24820], [24969, 24980], [24844, 24856], [24865.75, 24865.75], [24790, 24799], [24759, 24777], [24760, 24800]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "Hold of 6716-6719 (or 6719-6721)", "dir": "long", "tag": "",
+   "quote": "Long a hold of ES 6716-6719 (or the weekly 19-21) targeting 28.5-32.25 and today’s high with continuation. The reason I can’t rate this highly is because this move higher still requires some kind of confirmation.",
+   "kind": "fade", "gate": [6716, 6719], "tgt": [[6728.5, 6732.25], "RTH_HIGH"], "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Hold of 24844-24856 (reluctant)", "dir": "long", "tag": "",
+   "quote": "I have an even harder time longing NQ on a hold of 844-856 as value overlapped lower today. I need to be convinced/",
+   "kind": "fade", "gate": [24844, 24856], "tgt": [24865.75, [24969, 24980]], "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Firm bid in 6702-6711", "dir": "long", "tag": "",
+   "quote": "I am willing to attempt a long if we see a firm bid come into the tape in the 6702-6711 range. I know this is a wide range which is what makes it difficult to rate. It is effectively bulls one chance to precent a trip to today’s low and rip back above 6716-6719.",
+   "kind": "fade", "gate": [6702, 6711], "tgt": [[6716, 6719]], "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Firm bid in 24760-24800", "dir": "long", "tag": "",
+   "quote": "The same is true of NQ in the 760-800 range or so. Again, an absurdly wide range but considered demand until proven otherwise. Again, I need to see it real time.",
+   "kind": "fade", "gate": [24760, 24800], "tgt": [24820, [24844, 24856]], "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "LBAF of IB low (inside day, IB low above 6702-6711)", "dir": "long", "tag": "",
+   "quote": "Regarding the above two trades, we know that sellers need traction below today’s low so if we are trading an inside day and set the IB low somewhere above the above referenced ranges, then a LBAF the IB low (for example) would be an ideal and risk-defined way to express a bullish bias.",
+   "kind": "fade", "gate": ["IB_LOW", "IB_LOW"], "tgt": [[6716, 6719]], "stop_hint": "if we are trading an inside day and set the IB low somewhere above the above referenced ranges"
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "LBAF of IB low (inside day, IB low above 24760-24800)", "dir": "long", "tag": "",
+   "quote": "Regarding the above two trades, we know that sellers need traction below today’s low so if we are trading an inside day and set the IB low somewhere above the above referenced ranges, then a LBAF the IB low (for example) would be an ideal and risk-defined way to express a bullish bias.",
+   "kind": "fade", "gate": ["IB_LOW", "IB_LOW"], "tgt": [[24844, 24856]], "stop_hint": "if we are trading an inside day and set the IB low somewhere above the above referenced ranges"
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Rejection of spike base 6732.25", "dir": "short", "tag": "",
+   "quote": "I do think one can careful short a rejection of the spike base on either but mindful of the need to see 844-856 NQ (and 820) or 6716-6719 (at least 19-21) offered for it to be any good.",
+   "kind": "fade", "gate": [6732.25, 6732.25], "tgt": [[6719, 6721], [6716, 6719]], "stop_hint": "mindful of the need to see 844-856 NQ (and 820) or 6716-6719 (at least 19-21) offered for it to be any good."
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "Rejection of spike base 24865.75", "dir": "short", "tag": "",
+   "quote": "I do think one can careful short a rejection of the spike base on either but mindful of the need to see 844-856 NQ (and 820) or 6716-6719 (at least 19-21) offered for it to be any good.",
+   "kind": "fade", "gate": [24865.75, 24865.75], "tgt": [[24844, 24856], 24820], "stop_hint": "mindful of the need to see 844-856 NQ (and 820) or 6716-6719 (at least 19-21) offered for it to be any good."
+  },
+  {
+   "id": "es5", "instrument": "ES", "name": "Lower high below 6716-6719 in session downtrend", "dir": "short", "tag": "",
+   "quote": "It is far safer (or at least more probable) to attempt a short on a lower high below 6716-6719 ES or 844-856 NQ within the context of a session downtrend.",
+   "kind": "break", "gate": [6716, 6719], "tgt": [[6700, 6706], "RTH_LOW"], "stop_hint": ""
+  },
+  {
+   "id": "nq5", "instrument": "NQ", "name": "Lower high below 24844-24856 in session downtrend", "dir": "short", "tag": "",
+   "quote": "It is far safer (or at least more probable) to attempt a short on a lower high below 6716-6719 ES or 844-856 NQ within the context of a session downtrend.",
+   "kind": "break", "gate": [24844, 24856], "tgt": [24820, [24790, 24799], [24759, 24777]], "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-17",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-917",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "FOMC day. All numbers ESZ5/NQZ5 per the letter's '*NOTE I am now using ESZ/NQZ levels moving forward'; 6623 and 24315 are explicitly Monday's highs on ESU/NQU (TradingView ES1/NQ1) but he uses them as levels on Z charts - kept as written. ES levels list has '6423' - probably a typo for 6623 (the commentary's downside target); kept as written in zones alongside 6623. 6674-6675 (recap upper edge) kept as a level. Letter has NO TRADES heading - the edges/break plan is in COMMENTARY and ends with 'Thats it. Those are the trades for tomorrow.' - so per the rules trades=[] (ambiguity: that closing line could be read as making the commentary the trade list). Commentary ideas: ES 2-day balance, lower edge 6661.25-6663.25 (lows of last 2 days), upper effective edge 6681.25 (yesterday's high), extreme 6688.25 (today's high, in weekly 6687-6690), internal edge ARH 6676.25; clean downside break targets 6641-6644, then 6623, weekly 6616-6619; holding above 6676.25 targets 6681.25, then 6688.25, the overnight high, new highs; a failed break of an edge targets the middle and the other side (ES 6676.25 internal edge played the same way). NQ lower effective edge ~24470-24490 (484-497 / 472.5), today's low 24499.25 - a LBAF of today's low = failed break of the lower edge; upper edge 24553-24569 or ARH 24563 (~24560); clean downside break targets 24420-24433, then 24315, weekly 24300-24310; upside break (24553-24569/24563) targets today's high, the overnight high, new highs.",
+ "zones": {
+  "ES": [
+   [
+    6681.25,
+    6681.25
+   ],
+   [
+    6676.25,
+    6676.25
+   ],
+   [
+    6661.25,
+    6663.25
+   ],
+   [
+    6652,
+    6654
+   ],
+   [
+    6423,
+    6423
+   ],
+   [
+    6688.25,
+    6688.25
+   ],
+   [
+    6687,
+    6690
+   ],
+   [
+    6641,
+    6644
+   ],
+   [
+    6623,
+    6623
+   ],
+   [
+    6616,
+    6619
+   ],
+   [
+    6674,
+    6675
+   ]
+  ],
+  "NQ": [
+   [
+    24472.5,
+    24472.5
+   ],
+   [
+    24315,
+    24315
+   ],
+   [
+    24484,
+    24497
+   ],
+   [
+    24470,
+    24490
+   ],
+   [
+    24499.25,
+    24499.25
+   ],
+   [
+    24560,
+    24560
+   ],
+   [
+    24553,
+    24569
+   ],
+   [
+    24563,
+    24563
+   ],
+   [
+    24420,
+    24433
+   ],
+   [
+    24300,
+    24310
+   ]
+  ]
+ },
+ "trades": []
+}

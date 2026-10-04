@@ -1,0 +1,40 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-27",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-527-dd2",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Tue May 26, 2026, title 5/27 -> Wed 2026-05-27. M6 contract, no roll mention. TRADES section lists setups but he explicitly declines to grade them ('even these longs weren't good enough pure setups to bother rating') -> all tags ''. ES today's low given as 7517 and today's high as 7555 (used as numbers). NQ today's high not given (rallied to weekly 30110-30129) -> nq2 target RTH_HIGH; nq1 has no stated target -> first level above in NQ commentary, 30110-30129. es2 has no explicit target -> the reclaim levels he names (7524, 7531-7533) then today's high 7555 per commentary ('LBAF of today's low and 7531-7533 flips to support ... we see today's high'). nq2 gate '29930 range ... near or below 937' recorded as [29930,29937]. nq3 = sweep (LBAF) of the 29886 APBL above weekly 29848-29869. Shorts only 'implied by the above commentary', none listed. He says 7544 used instead of 7540 as daily level (keep 7540 on chart); 7630s = target for a sustained upside break of the 2-week range; SPX breakout level 7517 (cash index, not a futures level).",
+ "zones": {
+  "ES": [[7544, 7544], [7540, 7540], [7499, 7502], [7515, 7516], [7509, 7513], [7517, 7517], [7531, 7533], [7549, 7552], [7555, 7555], [7630, 7639], [7524, 7524], [7486, 7487]],
+  "NQ": [[29782, 29782], [29635, 29635], [29317, 29338], [30110, 30129], [29711, 29730], [29937, 29937], [29930, 29930], [29886, 29886], [29980, 30000], [29848, 29869]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "Hold of 7531-7533 (sellers can't get through)", "dir": "long", "tag": "",
+   "quote": "If sellers can’t get through 7531-7533 (remember to evaluate each session on its own- Asia/Europe/US cash) then I will take a long looking for 7544 and monitor for continuation to 49-52 and today’s high.",
+   "kind": "fade", "gate": [7531, 7533], "tgt": [7544, [7549, 7552], 7555], "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "LBAF of today's low (7517)", "dir": "long", "tag": "",
+   "quote": "I’ll long a LBAF of today’s low and just keep it tight until 7524 and 7531-7533 are reclaimed and flipped to support.",
+   "kind": "fade", "gate": [7517, 7517], "tgt": [7524, [7531, 7533], 7555], "stop_hint": "just keep it tight until 7524 and 7531-7533 are reclaimed and flipped to support"
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Hold of 29980-30000 (sellers can't get through)", "dir": "long", "tag": "",
+   "quote": "Even though today’s VPOC sat in (just below) the 29980-30000 range, I’m open to taking a long if sellers can’t get through it.",
+   "kind": "fade", "gate": [29980, 30000], "tgt": [[30110, 30129]], "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Responsive dip buy near/below 29937", "dir": "long", "tag": "",
+   "quote": "I’m open to looking for longs in the 29930 range if buyers are responsive. This isn’t an area I can bid directly by any means but if the session gives me a reason to buy a dip near or below 937 then I’ll do so targeting 980-000 and today’s high above there.",
+   "kind": "fade", "gate": [29930, 29937], "tgt": [[29980, 30000], "RTH_HIGH"], "stop_hint": "This isn’t an area I can bid directly by any means"
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "LBAF of 29886 APBL", "dir": "long", "tag": "",
+   "quote": "Today’s APBL was 886 sitting just above the 848-869 weekly level. It would be a pretty deep trap but if that low is swept and strong buyers are found (especially if ES is triggering a bullish setup) then I’ll take a long and monitor for a reclaim of 937 and 980-000.",
+   "kind": "fade", "gate": [29886, 29886], "tgt": [29937, [29980, 30000]], "stop_hint": ""
+  }
+ ]
+}

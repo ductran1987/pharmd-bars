@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-19",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-319-340",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "****This is contract roll week so see the weekly plan for handling of levels. As of the Monday night plan for Tuesday the levels referenced are for ESM2026 unless otherwise specified for commentary purposes.",
+ "ref_date_note": "Roll week (H6->M6); letter says levels are ESM2026 (M contract used for both ES and NQ). Post dated Mar 18 (post-FOMC/JPOW presser day). Brief plan (author out of town): no TRADES section, only levels + commentary -> trades []. Commentary ideas (ungraded, not promoted): short/clarity in weakness below today's low (NQ RTH low 24641.75; ES low 6673.75), targeting weekly levels / November low; long on holds above the spike base (NQ 24709.25, ES 6689) with broad targets 6717 ES / 24803 NQ; trading within the spike (low to base) neutral; general bias shorting pops until back above yesterday's high (major weekly levels ES 6803.5-6808.5, NQ 25210-25218); watch for LBAF of the November low on SPX/QQQ. Typo '250210-25218' read as 25210-25218.",
+ "zones": {
+  "ES": [[6760, 6764], [6717, 6717], [6803.5, 6808.5], [6803, 6812.5], [6689, 6689], [6673.75, 6673.75]],
+  "NQ": [[24991, 24991], [24803, 24803], [24709, 24709], [24709.25, 24709.25], [24669, 24669], [24495, 24495], [25210, 25218], [24641.75, 24641.75]]
+ },
+ "trades": []
+}

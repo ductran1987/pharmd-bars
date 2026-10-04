@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-22",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1022",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Day 7 inside the 10/10 mother bar; NFLX earnings miss after hours. Contract not stated; Z (Dec) assumed per batch (no roll mention). No TRADES heading or graded list: 'PRICE:' heading with NQ:/ES: subsections of ungraded narrative -> treated as commentary, trades = []. Author leans short ('probably be looking only for shorts on indices'), but calls a LBAF of ES today's low 'ironically the best setup out there'. Commentary ideas only (not promoted): NQ trapped below 25253-25269 -> retest of today's low (RTH_LOW), watch inside-week high 25179.5 for reaction/quick LBAF; trapped below today's low, esp. after reaction at weekly 25157-25169 or 25179.5, risks liquidation to 25115-25127, possible continuation to 25091-25099 or FRI_HIGH (not short beyond FRI_HIGH); hold of 25253-25269 can retest 25313-25325, may consider shorts if sellers present at 25313-25325; taking out equal highs 25348.5-25354.5 -> 25369-25382 (captured ON high); sweep and fail back below offering 25313-25325 keeps downside in play. ES: reclaim of 6772 -> 6782-6785; monitor 6782-6785 for a fresh LAAF that doesn't reach today's high (short the weaker of ES/NQ); holding below 6772 retests inside-week high 6766.75, afterhours low and today's low; LBAF of ES today's low (RTH_LOW) is the best setup (long, day trade); 6753-6758 range could be reactive, then weekly 6741-6744 as last line before yesterday's low (PREV_RTH_LOW). Weekly developing VPOC 6776-6780 (6778.5). Letter's NQ weekly level '2521-25219' is a typo (likely 25211-25219 or similar) - not recorded as a zone. ES weekly 6756-6760 recorded.",
+ "zones": {
+  "ES": [[6782, 6785], [6772, 6772], [6724, 6726], [6697, 6697], [6660, 6660], [6776, 6780], [6778.5, 6778.5], [6756, 6760], [6766.75, 6766.75], [6753, 6758], [6741, 6744]],
+  "NQ": [[25348.5, 25354.5], [25115, 25127], [24804, 24804], [25253, 25269], [25179.5, 25179.5], [25157, 25169], [25091, 25099], [25313, 25325], [25369, 25382]]
+ },
+ "trades": []
+}

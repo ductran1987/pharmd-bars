@@ -1,0 +1,135 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-06",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-66",
+ "contract": {
+  "ES": "ESM5",
+  "NQ": "NQM5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Fri 6/6/2025 (NFP day), June M5 contracts, no roll mentioned. Letter has NO 'Trades:' section (just Levels / Commentary / Trading Lower / Trading Higher), so trades=[] under the TRADES-section-only rule. Trade-like ideas in the commentary that were NOT transcribed: short NQ if it fails to reclaim 21660-21680, for a trip back to 520-558 and today's low; watching NQ 21474-21490 (maybe 21445-21448) for a LBAF of today's low; NQ is a cleaner long above 660-680 (745, 790); ES reclaim of 5965-5968 probably retests 5987.5. '5890s' and '21150s' recorded as [5890,5899] and [21150,21159]; 21392 and 21150s are targets, not supports.",
+ "zones": {
+  "ES": [
+   [
+    5999,
+    6001
+   ],
+   [
+    5986,
+    5987.5
+   ],
+   [
+    5965.25,
+    5968.25
+   ],
+   [
+    5927,
+    5932
+   ],
+   [
+    5901,
+    5903
+   ],
+   [
+    5865,
+    5870.5
+   ],
+   [
+    5956,
+    5959
+   ],
+   [
+    5915,
+    5915
+   ],
+   [
+    5890,
+    5899
+   ],
+   [
+    5897,
+    5897
+   ],
+   [
+    5885,
+    5893
+   ],
+   [
+    5885,
+    5885
+   ],
+   [
+    5843,
+    5853
+   ],
+   [
+    5987.5,
+    5987.5
+   ],
+   [
+    5974.5,
+    5977.5
+   ]
+  ],
+  "NQ": [
+   [
+    21793,
+    21803
+   ],
+   [
+    21474.25,
+    21490
+   ],
+   [
+    21445,
+    21448
+   ],
+   [
+    21400,
+    21414
+   ],
+   [
+    21360,
+    21360
+   ],
+   [
+    21320,
+    21340
+   ],
+   [
+    21234.75,
+    21257
+   ],
+   [
+    21175,
+    21187
+   ],
+   [
+    21660,
+    21680
+   ],
+   [
+    21392,
+    21392
+   ],
+   [
+    21150,
+    21159
+   ],
+   [
+    21520,
+    21558
+   ],
+   [
+    21745,
+    21745
+   ],
+   [
+    21790,
+    21790
+   ]
+  ]
+ },
+ "trades": []
+}

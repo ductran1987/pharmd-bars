@@ -1,0 +1,30 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-16",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-616",
+ "contract": {"ES": "ESM5", "NQ": "NQM5"},
+ "roll_note": "",
+ "ref_date_note": "Roll week (Jun 2025 expiry Fri 6/20) but this letter does not mention the roll and gives only one set of numbers; they are ESM5/NQM5 (Friday's low 5965.25-5967.75 = ESM5 6/13 RTH low 5965.25; NQ 'Friday and last week's RTH low' 21600.25 is far below NQU5's 21817.75), so contract = M5. The next letter (6/17) says he moved to ES1 = U5 on Monday. Posted Sun 6/15 for Mon 6/16 amid Middle East weekend headlines; letter says it is 'forced to keep this quite general'. NO TRADES section in this letter (only COMMENTARY with Trading Higher/Trading Lower) -> trades=[] under the TRADES-section-only rule. Commentary ideas NOT recorded as trades: ES failed reclaim at 5999-6003; holding below 5987.5 or failed reclaim targets Friday's low; LBAF of 5965.25-5967.75 targets 5987.5; true gap down below Friday's low/5927-5932 'if it holds'; long a hold or quick LBAF of 5887-5897, same for 5843-5853 if price gaps/trades below 5927-5932. A duplicate of this letter was also published mistitled '6/13' (slug market-analysis-and-trades-for-613, same date) and was not transcribed separately.",
+ "zones": {
+  "ES": [
+   [6062.25, 6066.25],
+   [6013, 6013],
+   [5999, 6003],
+   [5987.5, 5987.5],
+   [5965.25, 5967.75],
+   [5940, 5943],
+   [5927, 5932],
+   [5908, 5908],
+   [5887, 5897],
+   [5843, 5853]
+  ],
+  "NQ": [
+   [21846, 21855],
+   [21700, 21700],
+   [21600.25, 21600.25],
+   [21530, 21530]
+  ]
+ },
+ "trades": []
+}

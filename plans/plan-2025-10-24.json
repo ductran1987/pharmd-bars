@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-24",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1024",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "CPI day (subtitle 'Inception Box into CPI. This Could be Fun'); 4-day internal box ES 6690.75-6789.75 inside a 6-week range. Contract not stated; Z (Dec) assumed per batch (no roll mention). No TRADES section or graded list, only levels + commentary -> trades = []. Commentary ideas only (not promoted): ES LAAF of the internal box high 6789.75 (or SPX 6752.16) needs to get through 6757-6760 to be bearish, keep tight until then; downside move through today's low (RTH_LOW = 10/23 low 6736 per levels) likely tests box bottom 6690.75; front-run upside break by buying dips as close to 6757-6760 as possible showing strength (buyers may step in near 6763-6767 or ~6770); shorts best after a buyer failure: LAAF of today's high (RTH_HIGH), Tuesday's high (TUE_HIGH, 10/21 high 6789.75) or the 6-week box (proxy weekly 6798-6801); LAAF of ES today's high first target 6778-6780 ('isn't fantastic'); caution until ETH ATH 6812.25 is taken out with continuation. NQ: LAAF of today's high targets 25262 within 25253-25269 and maybe 25245; sustained loss of 25210-25219 and really 25157-25169 needed for bearish results. SPX levels (6764.58, 6752.16) not recorded.",
+ "zones": {
+  "ES": [[6789.75, 6789.75], [6736, 6736], [6690.75, 6690.75], [6716, 6719], [6741, 6744], [6763.25, 6766.75], [6757, 6760], [6760, 6790], [6770, 6770], [6798, 6801], [6812.25, 6812.25], [6778, 6780]],
+  "NQ": [[25348.5, 25354.5], [25128, 25128], [25055.75, 25055.75], [24804, 24804], [25253, 25269], [25262, 25262], [25245, 25245], [25210, 25219], [25157, 25169]]
+ },
+ "trades": []
+}

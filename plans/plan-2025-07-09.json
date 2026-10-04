@@ -1,0 +1,75 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-09",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-79",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Wed 7/9/2025 (posted Tue 7/8). Letter has NO Trades/Shorts/Longs section - only levels + commentary - so trades=[]. Commentary plan NOT transcribed as trades (inside day): break of today's high (6288.75) targets Monday's high (6309.75), break of today's low (6262.5) targets Monday's low; fade failed breaks - LAAF of today's high (92.5-93.5 in particular) and LBAF of today's low 'reasonably likely'; front-run near the edges (low-mid 6260s, mid 6280s). Weekly edges 'effectively 6262-6284' ES / '22840-22960' NQ (approximate, not added as zones). Contract U (Sep 2025), no roll mention.",
+ "zones": {
+  "ES": [
+   [
+    6338,
+    6338
+   ],
+   [
+    6320,
+    6322
+   ],
+   [
+    6309.75,
+    6309.75
+   ],
+   [
+    6293,
+    6296
+   ],
+   [
+    6292.5,
+    6293.5
+   ],
+   [
+    6288.75,
+    6288.75
+   ],
+   [
+    6282.5,
+    6284
+   ],
+   [
+    6264,
+    6266
+   ],
+   [
+    6262.5,
+    6262.5
+   ]
+  ],
+  "NQ": [
+   [
+    22980,
+    22980
+   ],
+   [
+    22977.5,
+    22977.5
+   ],
+   [
+    22962.75,
+    22962.75
+   ],
+   [
+    22833,
+    22841
+   ],
+   [
+    22763,
+    22781
+   ]
+  ]
+ },
+ "trades": []
+}

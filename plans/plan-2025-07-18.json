@@ -1,0 +1,39 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-18",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-718",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Letter has no TRADES section (vacation-week letter: levels + commentary only), so trades=[]; commentary trade ideas were not transcribed. All numbers ESU5/NQU5 (September contract, no roll mentioned). 'Otherwise weekly levels are fine' - weekly levels not in this letter. Commentary idea (ungraded): LAAF of weekly 6346-6350 rotating to 6337. 6345.5 = 7/17 high. 23234 = top of thin NQ profile.",
+ "zones": {
+  "ES": [
+   [
+    6337,
+    6337
+   ],
+   [
+    6346,
+    6350
+   ],
+   [
+    6345.5,
+    6345.5
+   ]
+  ],
+  "NQ": [
+   [
+    23315,
+    23315
+   ],
+   [
+    23234,
+    23234
+   ]
+  ]
+ },
+ "trades": []
+}

@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-13",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1013",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Monday plan after Friday 10/10 liquidation (post dated Sat 10/11; subtitle 'Tradeable Low or Mother Bar Problems?'). No TRADES section, only levels + educational commentary; he says defined setups only after Monday -> trades = []. Contract not stated; Z (Dec) assumed per batch (no roll mention). Commentary only: far easier to find a tradeable low if we take out FRI_LOW (RTH) and reclaim range. If higher first: ES Friday spike base 6618.5 / weekly 6618.5-6624, then retest of 6650-6653 (below Friday's VAL), daily 6665-6668 (~6625 SPX), most critical test above 6705.5 (monitor for a LAAF) into the 11am single prints (0.5-0.618 retrace of Friday's range). NQ: spike base 24512, 24553-24569 major S/R, 24651-24669 below Friday's VAL, 11am singles start at 24908.25 (use weekly 24911-24916 as proxy, monitor for LAAF). Emphasis on following session trend. NQ 3-digit abbreviations resolved to 24xxx from the 24134 daily level; SPX 6625 cash reference not recorded as a zone.",
+ "zones": {
+  "ES": [[6705.5, 6705.5], [6665, 6668], [6618.5, 6618.5], [6618.5, 6624], [6650, 6653]],
+  "NQ": [[24134, 24134], [24512, 24512], [24553, 24569], [24651, 24669], [24908.25, 24908.25], [24911, 24916]]
+ },
+ "trades": []
+}

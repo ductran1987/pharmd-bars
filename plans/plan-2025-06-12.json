@@ -1,0 +1,111 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-12",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-612",
+ "contract": {
+  "ES": "ESM5",
+  "NQ": "NQM5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Thu 6/12/2025 (PPI + jobless claims; Israel/Middle East news), June M5 contracts, no roll mentioned. Letter has NO 'Trades:' section (only 'Trading above 6036' / 'Trading below 6036' commentary, ungraded) -> trades=[]. Ideas NOT transcribed: ES long attempt if bulls test 6046-6058 then hold 6036 on a pullback; ES shorts on a fail or failed reclaim of 6036 (needs to cross 6024-6028, 6012.75 and today's low); long on failure to find traction below today's low (really 6012.75 ES / 21816 NQ) back to 6024-6028 ES / 21874 NQ. 6036 = today's IB low / pivot; 6012.75 = Monday's cash open; 6074.5 = CPI premarket high. 'something like 36-42' kept as [6036,6042]; weekly 39-48 as [6039,6048].",
+ "zones": {
+  "ES": [
+   [
+    6074.5,
+    6074.5
+   ],
+   [
+    6036,
+    6036
+   ],
+   [
+    6012.75,
+    6012.75
+   ],
+   [
+    5999,
+    5999
+   ],
+   [
+    5984.5,
+    5987.5
+   ],
+   [
+    5972,
+    5975
+   ],
+   [
+    5965,
+    5965
+   ],
+   [
+    5946,
+    5949
+   ],
+   [
+    6062.25,
+    6066.25
+   ],
+   [
+    6004,
+    6008
+   ],
+   [
+    5987.5,
+    5987.5
+   ],
+   [
+    6036,
+    6042
+   ],
+   [
+    6039,
+    6048
+   ],
+   [
+    6046,
+    6058
+   ],
+   [
+    6024,
+    6028
+   ]
+  ],
+  "NQ": [
+   [
+    22116,
+    22129
+   ],
+   [
+    21915,
+    21915
+   ],
+   [
+    21816,
+    21824
+   ],
+   [
+    21731,
+    21742.75
+   ],
+   [
+    21680,
+    21694
+   ],
+   [
+    21935,
+    21969
+   ],
+   [
+    21816,
+    21816
+   ],
+   [
+    21874,
+    21874
+   ]
+  ]
+ },
+ "trades": []
+}

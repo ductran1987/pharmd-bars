@@ -1,0 +1,257 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-18",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-818",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Mon after Aug OPEX; ESU5/NQU5 (Sep contract), no roll mention. Trades from the 'Specific Trades:' section (ES:/NQ: subsections). ES trades graded; all NQ trades ungraded (tag ''). Friday's low not given numerically -> FRI_LOW. es1 target 'bottom of Friday's range' -> FRI_LOW; its downgrade condition (LBAF of Friday's low in effect) kept in quote/stop_hint. es2 (breakdown short if 6460-6463 rejected from below) has no stated target -> first Trading Lower level 6431-6435. es3 'A+' LBAF of Friday's low: TP at 6483-6486, runners to 6496-6498 / new highs. es4 (direct long 6431-6435, 6440-6443 = proxy for 8/12 IB high 6439.75) has no stated target -> 6460-6463 (the reclaim he wants, from the preceding paragraph) then 6483-6486 (Trading Higher). Skipped as non-specific: 'buy a level directly between 6430 and 6460 ... any kind of intraday long setup (e.g. LBAF of the IB low)', quicker TP until 60-63 reclaimed. nq1 failed reclaim of 869-885 has no NQ target; he says NQ trades are 'effectively the same' as ES -> FRI_LOW (like es1). nq3 (longs on sellers failing through 764-785) no stated target -> 23831 then 869-885 (same as nq2's targets).",
+ "zones": {
+  "ES": [
+   [
+    6467.25,
+    6468.25
+   ],
+   [
+    6440,
+    6443
+   ],
+   [
+    6439.75,
+    6439.75
+   ],
+   [
+    6431,
+    6435
+   ],
+   [
+    6430,
+    6430
+   ],
+   [
+    6460,
+    6463
+   ],
+   [
+    6451,
+    6451
+   ],
+   [
+    6483,
+    6486
+   ],
+   [
+    6496,
+    6498
+   ]
+  ],
+  "NQ": [
+   [
+    23934,
+    23934
+   ],
+   [
+    23911,
+    23911
+   ],
+   [
+    23831,
+    23831
+   ],
+   [
+    23847.5,
+    23847.5
+   ],
+   [
+    23734.5,
+    23734.5
+   ],
+   [
+    23683,
+    23683
+   ],
+   [
+    23622,
+    23622
+   ],
+   [
+    23869,
+    23885
+   ],
+   [
+    23764,
+    23785
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 6483-6486 (failed reclaim)",
+   "dir": "short",
+   "tag": "B/B+",
+   "quote": "If we trade higher first and fail to reclaim 6483-6486, (fail or LAAF) then I will consider a short back down toward the bottom of Friday’s range and monitor for continuation. Because this has POTENTIAL for a downside break of the 3-day balance, I’ll rate it higher than I normally would given bullish context. I’ll rate it a B/B+. This trade requires a significant downgrade if we have a LBAF of Friday’s low in effect (especially if it takes place during RTH).",
+   "kind": "fade",
+   "gate": [
+    6483,
+    6486
+   ],
+   "tgt": [
+    "FRI_LOW"
+   ],
+   "stop_hint": "This trade requires a significant downgrade if we have a LBAF of Friday’s low in effect (especially if it takes place during RTH)."
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Breakdown short on rejection of 6460-6463 from below",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "If NQ remains weak and ES consolidates in the lower portion of Friday’s range, I will CONSIDER a breakdown short if 6460-6463 is rejected from below. I hate breakdown shorts but given we saw exactly this play out on NQ I’ll rate the trade a B-.",
+   "kind": "break",
+   "gate": [
+    6460,
+    6463
+   ],
+   "tgt": [
+    [
+     6431,
+     6435
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "A+",
+   "quote": "We already discussed the LBAF of Fridays low (regardless of where it comes from) as an A+ trade setup. I will take profit if sellers defend 6483-6486. If it is reclaimed (absent a failed reclaim), then runners broadly target new highs with 6496-6498 a take profit consideration as it is effective top of range.",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    [
+     6483,
+     6486
+    ],
+    [
+     6496,
+     6498
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Direct long of 6431-6435 on deeper test below 6460-6463",
+   "dir": "long",
+   "tag": "",
+   "quote": "If I am to directly long a deeper test below 6460-6463, I like the 6431-6435 the most.",
+   "kind": "fade",
+   "gate": [
+    6431,
+    6435
+   ],
+   "tgt": [
+    [
+     6460,
+     6463
+    ],
+    [
+     6483,
+     6486
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Failed reclaim of 23869-23885",
+   "dir": "short",
+   "tag": "",
+   "quote": "A failed reclaim of 869-885 is a short. Like for ES, I am less likely to take this if a LBAF of Friday’s low is active.",
+   "kind": "fade",
+   "gate": [
+    23869,
+    23885
+   ],
+   "tgt": [
+    "FRI_LOW"
+   ],
+   "stop_hint": "I am less likely to take this if a LBAF of Friday’s low is active."
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "A LBAF of Friday’s low is a long on NQ, careful to make sure that 764-785 is reclaimed. I would be targeting 831 then 869-885",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    23831,
+    [
+     23869,
+     23885
+    ]
+   ],
+   "stop_hint": "careful to make sure that 764-785 is reclaimed."
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Long sellers' failure to get through 23764-23785",
+   "dir": "long",
+   "tag": "",
+   "quote": "Given Friday’s decent low (and its location) it is also reasonable to consider longs on any failure from sellers to get through 764-785.",
+   "kind": "fade",
+   "gate": [
+    23764,
+    23785
+   ],
+   "tgt": [
+    23831,
+    [
+     23869,
+     23885
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LAAF of 23831",
+   "dir": "short",
+   "tag": "",
+   "quote": "The only trade I’ll add for NQ that isn’t structurally the same as for ES is that any kind of LAAF of 831 targets 764-785 with potential for runners if sellers find continuation through Friday’s low.",
+   "kind": "fade",
+   "gate": [
+    23831,
+    23831
+   ],
+   "tgt": [
+    [
+     23764,
+     23785
+    ],
+    "FRI_LOW"
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-06",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-106",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Monday plan (page shows post date Oct 4, 2025; batch list said 10/5). Z (Dec) contract, no roll mention. Brief plan (author travelling): no 'TRADES:' heading, but COMMENTARY is followed directly by 'Longs:' and 'Shorts:' subsections listing the trades, treated as the trades list. Friday lows given as numbers (ES '54.5' -> 6754.5, NQ 923.25) so gates/targets use the numbers instead of FRI_LOW. es1 states 6776-6780 plus 'expect 72 and 76 to print'; the '66-67' reaction area (6766-6767) is kept as a zone, not a target. es2 and nq2 are 'hold ... at open on Sunday' (Globex/ETH open) ideas, ungraded. es3 'reclaim and hold of 76-80' (he says he doesn't like reclaim longs) ungraded, classed break; 'retest of Friday's high' -> FRI_HIGH. nq1 has no explicit target; 'take profit if 969-980 rejects from below' -> 24969-24980 first target. nq3 can trigger from as high as 25066-25081. nq4 'I don't love breakdown shorts but holding below 969-980 should retest Friday's low' included ungraded as a break. Skipped: unplanned breakdown short below Friday's low. Weekly 6798-6801 (Friday high area) kept as zone.",
+ "zones": {
+  "ES": [[6787.5, 6787.5], [6798, 6801], [6754.5, 6754.5], [6757, 6760], [6776, 6780], [6766, 6767], [6772, 6772], [6776, 6776]],
+  "NQ": [[24923.25, 24923.25], [24969, 24980], [25004, 25004], [25020, 25020], [25035, 25046], [25066, 25081], [25091, 25099]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "LBAF of Friday low (6754.5), basing above 6757-6760", "dir": "long", "tag": "A-/B+",
+   "quote": "A LBAF of the Friday ES low (54.5) which bases back above 6757-6760 should have the strength to see 6776-6780. I would monitor for a reaction in the 66-67 range but expect 72 and 76 to print. I’ll rate this an A-/B+",
+   "kind": "fade", "gate": [6754.5, 6754.5], "tgt": [6772, [6776, 6780]], "stop_hint": "which bases back above 6757-6760"
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Hold of 6757-6760 at Sunday open", "dir": "long", "tag": "",
+   "quote": "A hold of 57-60 at open on Sunday can move toward these targets as well, but a failure from sellers (LBAF) likely strengthens the move.",
+   "kind": "fade", "gate": [6757, 6760], "tgt": [6772, [6776, 6780]], "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Reclaim and hold of 6776-6780", "dir": "long", "tag": "",
+   "quote": "I don’t like reclaim longs but a reclaim and hold of 76-80 should see 87.5 with potential for a retest of Friday’s high.",
+   "kind": "break", "gate": [6776, 6780], "tgt": [6787.5, "FRI_HIGH"], "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "LBAF of Friday low (24923.25)", "dir": "long", "tag": "B/B+",
+   "quote": "A LBAF of the Friday NQ low (923.25) is also a long, particularly given the 3 weekly levels sitting just below. We know that this must reclaim and base above 969-980 to find strength so I would take profit if 969-980 rejects from below. I’ll rate this a B/B+.",
+   "kind": "fade", "gate": [24923.25, 24923.25], "tgt": [[24969, 24980]], "stop_hint": "this must reclaim and base above 969-980 to find strength so I would take profit if 969-980 rejects from below."
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Hold of 24969-24980 at Sunday open", "dir": "long", "tag": "",
+   "quote": "A hold of 969-980 at open on Sunday should see at least 25004 with potential for 25020 and the weekly 25035-25046 spot. Monitor for continuation from there.",
+   "kind": "fade", "gate": [24969, 24980], "tgt": [25004, 25020, [25035, 25046]], "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Failure to reclaim 6776-6780 (incl. LAAF)", "dir": "short", "tag": "B",
+   "quote": "A failure to reclaim 76-80 (inclusive of a LAAF) targets 72, 66, and 57-60. Monitor for continuation. B rating.",
+   "kind": "fade", "gate": [6776, 6780], "tgt": [6772, 6766, [6757, 6760]], "stop_hint": ""
+  },
+  {
+   "id": "es5", "instrument": "ES", "name": "LAAF of 6787.5", "dir": "short", "tag": "B",
+   "quote": "A LAAF of 6787.5 would feel a tad risky but I would be open to it. While stronger sellers would perhaps defend by 76-80, 87.5 was the Friday premarket high and Friday’s VAH. Given we saw it take longer for ES to roll over on Friday I am open to it especially if there isn’t some kind of bullish setup active. If we see it the session would be in an uptrend so it may require patience. I would target 76-80 and below 80 the above targets come into play with perhaps more thrust. I’ll also rate this a B.",
+   "kind": "fade", "gate": [6787.5, 6787.5], "tgt": [[6776, 6780], 6772, 6766, [6757, 6760]], "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Failed reclaim / LAAF of 25035-25046", "dir": "short", "tag": "B+/A-",
+   "quote": "For NQ I would short a failed reclaim (including a LAAF) of 25035-25046. This could come from as high as the 066-081 range) I would target 25004 and 24969-980 then monitor for potential continuation to and through Friday’s low whether I would be out of most of the position. I’ll rate this a B+/A-",
+   "kind": "fade", "gate": [25035, 25046], "tgt": [25004, [24969, 24980], 24923.25], "stop_hint": "This could come from as high as the 066-081 range)"
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "Holding below 24969-24980 (breakdown)", "dir": "short", "tag": "",
+   "quote": "I don’t love breakdown shorts but holding below 969-980 should retest Friday’s low.",
+   "kind": "break", "gate": [24969, 24980], "tgt": [24923.25], "stop_hint": ""
+  },
+  {
+   "id": "nq5", "instrument": "NQ", "name": "Failure to reclaim / LAAF of 25091-25099", "dir": "short", "tag": "B",
+   "quote": "While stronger sellers would defend lower, a failure to reclaim (or LAAF) 25091-25099 targets 25035-25046. This would really be pushing the bounds for a potential lower high (as in it might be too high for that) so I would exercise some caution. That said, we saw NQ retrace nearly to the IB high on Friday before selling off hard (a strong look for sellers). I’ll rate this a B.",
+   "kind": "fade", "gate": [25091, 25099], "tgt": [[25035, 25046]], "stop_hint": ""
+  }
+ ]
+}

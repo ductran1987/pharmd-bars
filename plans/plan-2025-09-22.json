@@ -1,0 +1,280 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-22",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-922",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Monday after the roll; all numbers ESZ5/NQZ5 (no roll mention in this letter). Friday's spike bases ES 6726.75 / NQ 24856.25. ES '6729-6733' as written (weekly level elsewhere 6729-6732). True-gap-up longs (es1 B, nq1 B-) gated FRI_HIGH (Friday's high not given numerically), kind=break; nq1 has no stated target and the commentary gives no level above Friday's high -> tgt empty. es3: the 'trapped below 6714-6718 ... lower high short' paragraph and the next 'If Friday's spike is rejected ... B-' paragraph are read as one detailed short (commentary: 'I'll therefore describe in more detail than usual what this would look like') -> one trade tagged B-, both paragraphs quoted; ambiguity: the spike-rejection paragraph could be a separate short off the 6726.75 spike base. es4 'LBAF of Friday's low (87-90)' gated [6687,6690]; no stated target -> 6714-6718 ('monitor for continuation through 6714-6718'). nq3 short below 24828-24839 is ungraded ('valid ... I won't even rate it') -> tag ''. Not transcribed: the generic 'usual setups (LBAF the IB low as one example)' long within Friday's range (needs session info, no level), and the NQ short holding below 24790-24800 ('can't rate it', needs strong session info, not called valid). nq4 '856' kept as 24856 (24856.25 spike base elsewhere). nq5 (hold of 24712-24722, needs session info) has no stated target -> first commentary level above, 24790-24800; '730s or 760s' recorded as [24730,24739],[24760,24769].",
+ "zones": {
+  "ES": [
+   [
+    6743,
+    6743
+   ],
+   [
+    6700,
+    6700
+   ],
+   [
+    6726.75,
+    6726.75
+   ],
+   [
+    6714,
+    6718
+   ],
+   [
+    6729,
+    6733
+   ],
+   [
+    6769,
+    6775
+   ],
+   [
+    6708,
+    6708
+   ],
+   [
+    6707,
+    6708
+   ],
+   [
+    6687,
+    6690
+   ],
+   [
+    6707,
+    6710
+   ],
+   [
+    6729,
+    6732
+   ],
+   [
+    6690,
+    6690
+   ],
+   [
+    6691,
+    6691
+   ]
+  ],
+  "NQ": [
+   [
+    24763.5,
+    24763.5
+   ],
+   [
+    24856.25,
+    24856.25
+   ],
+   [
+    24828,
+    24839
+   ],
+   [
+    24790,
+    24800
+   ],
+   [
+    24888,
+    24888
+   ],
+   [
+    24712,
+    24722
+   ],
+   [
+    24730,
+    24739
+   ],
+   [
+    24760,
+    24769
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "True gap up long",
+   "dir": "long",
+   "tag": "B",
+   "quote": "A true gap up may be the safest long on Monday. Bulls want to find direct continuation higher to accept Friday’s spike. I generally think holding above 6729-6733 resolves to 6769-6775 but this would be a large move relative to the straddle for Monday so I wouldn’t assume it comes in one day (the straddle can be repriced so it is possible). If we get a true gap up, we simply follow the rules of trading true gaps (see the starter kit). I’ll rate this a B and the only reason it isn’t higher is because bulls have struggled on rips for some time and I hate chasing gap ups.",
+   "kind": "break",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    [
+     6769,
+     6775
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 6714-6718 overnight",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "If 6714-6718 is holding all night then I am willing to take a long looking for 6726.75, 6729-6733 and a true gap up if bulls want it. This isn’t much of a dip as we closed ETH right there, so I don’t rate it higher than a B/B-",
+   "kind": "fade",
+   "gate": [
+    6714,
+    6718
+   ],
+   "tgt": [
+    6726.75,
+    [
+     6729,
+     6733
+    ]
+   ],
+   "stop_hint": "If 6714-6718 is holding all night"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Lower high short below 6714-6718 / Friday spike rejected",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "If price becomes trapped below 6714-6718 I am willing to be short, but will proceed with caution. I definitely will not take this as a breakdown short and immediately pile in short. I would want price to probably trade down to 6708 or so, see a weakish response (think a bear flag type pattern) and then consider a lower high short. This is something that will require supportive session information. The only reason I am willing to take it is because of the potential weekly rotation to 6687-6690 and because of what a loss of 6687-6690 has the potential to do. I see the weak backside structure below roughly 6707-6708 (red circle) and then I look down at the lower wicks (yellow circles) and see them as stops begging to be taken out. It will need to lose 6707-6708 so I don’t want to see a strong response off that spot if looking to be short as it could simply trigger a reclaim of 14-18 and be a long. If Friday’s spike is rejected, then things start to feel just a bit fishy and I’m willing to carefully take a shot. I see this as rather low probability, but high reward. For me this means sizing smaller. I can’t rate this higher than a B- even with the potential range because of the prevailing bullish trend. I would be taking profit more quickly and prepared to get flat or flip long.",
+   "kind": "break",
+   "gate": [
+    6714,
+    6718
+   ],
+   "tgt": [
+    [
+     6687,
+     6690
+    ]
+   ],
+   "stop_hint": "It will need to lose 6707-6708 so I don’t want to see a strong response off that spot if looking to be short as it could simply trigger a reclaim of 14-18 and be a long."
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low (6687-6690)",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "A fresh LBAF of Friday’s low (87-90) still has to be a long given prevailing bullish trend and the weekly profile. Because of how well-tested this area is and the fact it would represent a potential rejection of Friday’s spike, I downgrade it relative to most days and give it a B-.",
+   "kind": "fade",
+   "gate": [
+    6687,
+    6690
+   ],
+   "tgt": [
+    [
+     6714,
+     6718
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "True gap up long",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "I feel like NQ may have less room on a true gap up than ES so I would proceed with a bit more caution, but it remains a valid trade, rated slightly lower relative to ES so maybe a B-",
+   "kind": "break",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold of 24828-24839",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Similar to the ES long on a hold of 14-18, it is reasonable to be long a hold of 828-839, making sure that 856.25 is reclaimed for a potential trip to 888. I’ll rate it the same as the ES trade B/B-.",
+   "kind": "fade",
+   "gate": [
+    24828,
+    24839
+   ],
+   "tgt": [
+    24856.25,
+    24888
+   ],
+   "stop_hint": "making sure that 856.25 is reclaimed"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Short below 24828-24839",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’m less interested in getting short NQ below 828-839 as 790-800 needs to be lost to trigger a potential weekly rotation. It is valid, but riskier than the ES trade and there is no reason to think it has range until 790-800 is lost and offered. I won’t even rate it.",
+   "kind": "break",
+   "gate": [
+    24828,
+    24839
+   ],
+   "tgt": [
+    [
+     24790,
+     24800
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Hold of 24790-24800",
+   "dir": "long",
+   "tag": "B",
+   "quote": "I am more willing to long a hold of 790-800 on NQ as it would be a 60 handle pullback from Friday’s close, bulls are in control, and it would be roughly a 50% retracement of Friday’s range. There is weak backside structure below so I can keep a reasonably tight stop and monitor for a reclaim and hold of 828-839 which targets 856, 888, and new highs. I’ll rate this a B, and it would be higher if not for the fact it would look as if we have rejected Friday’s spike.",
+   "kind": "fade",
+   "gate": [
+    24790,
+    24800
+   ],
+   "tgt": [
+    [
+     24828,
+     24839
+    ],
+    24856,
+    24888
+   ],
+   "stop_hint": "There is weak backside structure below so I can keep a reasonably tight stop"
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Hold of 24712-24722",
+   "dir": "long",
+   "tag": "",
+   "quote": "I like the idea of longing a hold of 712-722 which could potentially come from the 730s or 760s. Such a deep test within Friday’s range and with the potential rejection of Friday’s spike again requires me to have session information available to consider this trade.",
+   "kind": "fade",
+   "gate": [
+    24712,
+    24722
+   ],
+   "tgt": [
+    [
+     24790,
+     24800
+    ]
+   ],
+   "stop_hint": "requires me to have session information available to consider this trade."
+  }
+ ]
+}

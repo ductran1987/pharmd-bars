@@ -1,0 +1,127 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-04",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-84",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Monday after the big catalyst week; posted Sun Aug 3, 2025. U (Sep) contract, no roll mention. Trade list heading is 'Trades other than the big picture trades from the weekly plan' with Shorts:/Longs: subsections (he says none approach the weekly big-picture trades). Weekly-plan levels (e.g. 6292-6297, 23023-23046) referenced but weekly plan itself not transcribed. es1 'resolves to 6253 (at least 6264)' -> tgt 6264 then 6253. es2/es3 give only 6280 as the cover/needs-to-get-through level; since he says any LAAF of 6280 resolves to 6253 (at least 6264) 'regardless of where it comes from', tgt = 6280, 6264, 6253. es2 gate = 6287 up to 6292-6297 range [6287,6297]. es4 'The major focus should be a LBAF of Friday's low from the weekly ideas' is ungraded, instrument not stated (put under ES), no target in letter -> first ES level above, 6253, then 6280 (assumes Friday's low is below 6253). es5 LBAF of 6253 'that bases back above 6262.5'; alternative entry as a higher low in a session uptrend above 6262.5 noted in stop_hint. nq1 '22850s' -> [22850,22859]; nq2 '22840s' -> [22840,22849], gate = 22983 up to weekly 23023-23046 ('likely closer to 23k'). nq3 'hold or (better) LBAF of 833-841' -> 22833-22841, ungraded (only 'better than the above ES long'). Skipped: options watchlist, ungraded 'sellers within the overhead gap or on a gap fill' short (no level).",
+ "zones": {
+  "ES": [
+   [6305, 6305],
+   [6292, 6297],
+   [6287, 6287],
+   [6280, 6280],
+   [6264, 6264],
+   [6262.5, 6262.5],
+   [6253, 6253]
+  ],
+  "NQ": [
+   [23023, 23046],
+   [22983, 22983],
+   [22945, 22945],
+   [22880, 22880],
+   [22850, 22859],
+   [22840, 22849],
+   [22833, 22841]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of 6280",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Be aware that any kind of LAAF of 6280 likely resolves to 6253 (at least 6264) regardless of where it comes from. This is a way to front run a potential downside break. This is a B+/A- setup because the expected minimum range and potential range is significant.",
+   "kind": "fade",
+   "gate": [6280, 6280],
+   "tgt": [6264, 6253],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Short reaction at 6287 up to 6292-6297",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "The 6287 area has potential to trigger a LAAF of 6280. I won’t plan to short it directly but would monitor for a reaction there up to the weekly 6292-6297 area. If I enter a short anywhere in that range, I will plan to cover at least a portion on a 6280 hold. I’ll rate it a B- because of the potential for 6280 to hold.",
+   "kind": "fade",
+   "gate": [6287, 6297],
+   "tgt": [6280, 6264, 6253],
+   "stop_hint": "I will plan to cover at least a portion on a 6280 hold"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Rejection / stop run above 6292-6297",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "The weekly 6292-6297 area halted the late morning short covering rally as it produced a failed reclaim of the overnight low. Another rejection (or perhaps better) a stop run above that 6297 high that reverses back lower would be a fair look for a short. Again, be aware that it would need to get back through 6280 to have room to run. I’ll rate this a B/B-",
+   "kind": "fade",
+   "gate": [6292, 6297],
+   "tgt": [6280, 6264, 6253],
+   "stop_hint": "it would need to get back through 6280 to have room to run"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Sweep and fail of 22945 equal highs",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "If NQ sweeps the relatively equal 22945 highs and fails back below, it likely resolves to 22880 (not listed in the levels) and probably at least 22850s. B/B- rating",
+   "kind": "fade",
+   "gate": [22945, 22945],
+   "tgt": [22880, [22850, 22859]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Sellers between 22983 and 23023-23046, back below 22945",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "The above could come from higher, between 22983 and the weekly 23023-23046 spot. If it does come from higher and ends up back below 22945, then I have higher confidence that 22840s are seen. Because of this I may look for sellers to present (likely closer to 23k) and consider joining them. This is lower probability but because it has a fair chance for 150+ handles I’ll still rate it B/B-",
+   "kind": "fade",
+   "gate": [22983, 23046],
+   "tgt": [[22840, 22849]],
+   "stop_hint": "ends up back below 22945"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low (weekly idea)",
+   "dir": "long",
+   "tag": "",
+   "quote": "The major focus should be a LBAF of Friday’s low from the weekly ideas.",
+   "kind": "fade",
+   "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [6253, 6280],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "LBAF of 6253 basing back above 6262.5",
+   "dir": "long",
+   "tag": "C+/B-",
+   "quote": "A LBAF of 6253 that bases back above 6262.5 likely finds at least 6280. There is of course potential for Friday’s high if the other levels don’t negate this sequence. Taking this trade directly as a LBAF while below 6262.5 is low probability but high reward. I’ll rate it a C+/B-.",
+   "kind": "fade",
+   "gate": [6253, 6253],
+   "tgt": [6280, "FRI_HIGH"],
+   "stop_hint": "bases back above 6262.5; alt: higher low within a session uptrend, ideally above 6262.5"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 22833-22841",
+   "dir": "long",
+   "tag": "",
+   "quote": "I like a hold or (better) LBAF of 833-841 on NQ as a long better than the above ES long. I would look for 22880 and 22945 with runners for potentially more.",
+   "kind": "fade",
+   "gate": [22833, 22841],
+   "tgt": [22880, 22945],
+   "stop_hint": ""
+  }
+ ]
+}

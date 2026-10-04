@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-21",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1021",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Posted Mon 10/20 after true gap up broke Friday's inside day and the inside week high. No TRADES section, only levels + ungraded commentary -> trades = []. Contract not stated; Z (Dec) assumed per batch (no roll mention). Commentary ideas only ('today' = 10/20 = PREV_RTH for plan date): all that matters is 10/20 B-period singles, ES 6754.75-6758.5 (~6757-6760 level), NQ 25240-25266 (~weekly 25253-25269); if lower, long if the singles hold or on any LBAF of the mid-day pullback low (ES 6762.25, NQ 25289; NQ level list says '25289 Monitor for LBAF'). A true gap up which holds PREV_RTH_HIGH is a long targeting ES 6809.5 (10/10 RTH high) and 6812.25 (ETH ATH), NQ 25388 and 25394. Any LAAF of PREV_RTH_HIGH would need to nuke back through the singles to be bearish; mindful of a possible LAAF of the 10/10 high but last week's high (WEEK_HIGH of prior week) must be lost for meaningful bearish potential. ES 10/10 C-period singles not filled (6784.25 tap would fill). Little interest in selling except to take profit on longs. NQ abbreviations resolved to 25xxx from 25289.",
+ "zones": {
+  "ES": [[6792.5, 6792.5], [6724, 6726], [6697, 6697], [6660, 6660], [6784.25, 6784.25], [6754.75, 6758.5], [6757, 6760], [6762.25, 6762.25], [6809.5, 6809.5], [6812.25, 6812.25]],
+  "NQ": [[25289, 25289], [24804, 24804], [25240, 25266], [25253, 25269], [25388, 25388], [25394, 25394]]
+ },
+ "trades": []
+}

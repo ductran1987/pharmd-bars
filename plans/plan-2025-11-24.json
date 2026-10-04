@@ -1,0 +1,145 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-24",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1124",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Z5 (Dec 2025) contract; no roll mentioned. Monday of Thanksgiving week. No 'TRADES:' heading and NO grades anywhere: the ES:/NQ: lists are treated as the TRADES section because the letter explicitly introduces them as the trade list ('I'll jump right into the trade setups as they look quite good' / 'I'm going to jump right into trade setups', and for NQ 'This means one can:') -> all trades tag ''. Friday's (11/21) high/low not given numerically -> FRI_HIGH / FRI_LOW. es4 text says '6558-6662 area', read as a typo for 6558-6562 (the level named just above). es3 stop_hint carries his conditions (session downtrend, ideally tested 6572-6575 with a weak response, then lower high); targets as given 6558-6562 then Friday's low. es4 has no stated target -> first level higher in the letter, 6572-6575. NQ abbreviations resolved to 24xxx (402-427 -> 24402-24427, 205 -> 24205, the prior day's spike base). nq5 ('Shorting a lower high below 158-175 is valid but I would prefer to be short from higher') has no target and no lower level in the letter -> tgt empty. Skipped: 'There could potentially be reactive longs generally below 6596-6600 but they are too risky to plan for' (no plan).",
+ "zones": {
+  "ES": [
+   [6636, 6640],
+   [6596, 6600],
+   [6572, 6575],
+   [6558, 6562]
+  ],
+  "NQ": [
+   [24402, 24427],
+   [24279, 24295],
+   [24205, 24205],
+   [24158, 24175]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 6596-6600",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 6596-6600, generally targeting 6636-6640 and Friday’s high.",
+   "kind": "fade",
+   "gate": [6596, 6600],
+   "tgt": [[6636, 6640], "FRI_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of Friday’s high, generally targeting 6636-6640 and 6596-6600",
+   "kind": "fade",
+   "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [[6636, 6640], [6596, 6600]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Lower high below 6596-6600",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a lower high below 6596-6600. I am very cautious with this because of the potential for a LBAF of 6596-6600. I would need to see a clear session downtrend which has ideally tested 6572-6575, seen a weakish response, and then a lower high. I would then look for continuation to 6558-6562 with potential for Friday’s low and more.",
+   "kind": "break",
+   "gate": [6596, 6600],
+   "tgt": [[6558, 6562], "FRI_LOW"],
+   "stop_hint": "I would need to see a clear session downtrend which has ideally tested 6572-6575, seen a weakish response, and then a lower high."
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Long in the 6558-6562 area (incl. LBAF)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I am open to a long in the 6558-6662 area maybe including a LBAF but am less likely to do so following a failure from buyers higher (such as a LAAF of Friday’s high that trades all the way down there).",
+   "kind": "fade",
+   "gate": [6558, 6562],
+   "tgt": [[6572, 6575]],
+   "stop_hint": "less likely to do so following a failure from buyers higher (such as a LAAF of Friday’s high that trades all the way down there)"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 24402-24427",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of 402-427 targeting 279-295 and monitor for continuation.",
+   "kind": "fade",
+   "gate": [24402, 24427],
+   "tgt": [[24279, 24295]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 24279-24295",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 279-295 targeting 402-427 and monitor for continuation",
+   "kind": "fade",
+   "gate": [24279, 24295],
+   "tgt": [[24402, 24427]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Lower high below 24279-24295",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a lower high below 279-295 targeting 205 and 158-175 and monitor for continuation.",
+   "kind": "break",
+   "gate": [24279, 24295],
+   "tgt": [24205, [24158, 24175]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 24158-24175",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 158-175 targeting 279-295 and monitor for continuation",
+   "kind": "fade",
+   "gate": [24158, 24175],
+   "tgt": [[24279, 24295]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Lower high below 24158-24175",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorting a lower high below 158-175 is valid but I would prefer to be short from higher and holding runners. I would very much be monitoring to aligning weakness in ES to consider this short but a ton of longs from Friday would be trapped within the context of sellers being in control of trend.",
+   "kind": "break",
+   "gate": [24158, 24175],
+   "tgt": [],
+   "stop_hint": "I would very much be monitoring to aligning weakness in ES to consider this short"
+  },
+  {
+   "id": "nq6",
+   "instrument": "NQ",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of Friday’s high targeting 402-427 and monitor for continuation through the above levels. Odds of a bearish engulfing day increase with each level lost.",
+   "kind": "fade",
+   "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [[24402, 24427]],
+   "stop_hint": ""
+  }
+ ]
+}

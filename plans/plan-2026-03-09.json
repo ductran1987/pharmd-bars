@@ -1,0 +1,228 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-09",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-39",
+ "contract": {
+  "ES": "ESH6",
+  "NQ": "NQH6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Sat Mar 07, 2026 for Mon 3/9; H6 contract, no roll mention. Trades explicitly conditional on opening within Friday's range ('if we actually open flat'); on a large gap he defers to the weekly plan (not transcribed). Friday = 3/6: ES Friday's low/high not given numerically -> FRI_LOW/FRI_HIGH; NQ 'Friday's 601 low' -> 24601 (within 24579-24608). Named 'monitor for continuation to X' levels added as later targets (nq1 -> 24579-24608, es1 -> 6732-6736, FRI_LOW, 6704-6709; nq3 -> 24812, 24909-24941). nq3 trade sentence targets 706-725 (24706-24725) while commentary says 722-732 (24722-24732); trade wording used. es1 parenthetical '(of at least Friday's high to make it stronger)' is a quality qualifier, gate kept 6775-6783. es3 (ES LBAF of Friday's low) states no explicit target; targets 6732-6736 then 6751.5-6755 from the commentary ('32-36 will be the first key reclaim which can open a test of 51.5-55').",
+ "zones": {
+  "ES": [
+   [
+    6829,
+    6832
+   ],
+   [
+    6751.5,
+    6755
+   ],
+   [
+    6775,
+    6783
+   ],
+   [
+    6732,
+    6736
+   ],
+   [
+    6704,
+    6709
+   ]
+  ],
+  "NQ": [
+   [
+    24543,
+    24543
+   ],
+   [
+    24469,
+    24469
+   ],
+   [
+    24750,
+    24769
+   ],
+   [
+    24722,
+    24732
+   ],
+   [
+    24579,
+    24608
+   ],
+   [
+    24909,
+    24941
+   ],
+   [
+    24812,
+    24812
+   ],
+   [
+    24706,
+    24725
+   ],
+   [
+    24601,
+    24601
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 24909-24941",
+   "dir": "short",
+   "tag": "A/A+",
+   "quote": "Short a fail/LAAF of 909-941 targeting 812, 750-769, and monitor for continuation to 579-608 and beyond. A/A+",
+   "kind": "fade",
+   "gate": [
+    24909,
+    24941
+   ],
+   "tgt": [
+    24812,
+    [
+     24750,
+     24769
+    ],
+    [
+     24579,
+     24608
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 24750-24769",
+   "dir": "short",
+   "tag": "A/A+",
+   "quote": "Short a fail/LAAF of 750-769 targeting 579-608 and monitor for continuation from there. A/A+",
+   "kind": "fade",
+   "gate": [
+    24750,
+    24769
+   ],
+   "tgt": [
+    [
+     24579,
+     24608
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's 24601 low",
+   "dir": "long",
+   "tag": "B+/A-",
+   "quote": "Long a LBAF of at least Friday’s 601 low, targeting 706-725 and 750-769. Monitor for continuation from there to 812 and 909-941. B+/A-",
+   "kind": "fade",
+   "gate": [
+    24601,
+    24601
+   ],
+   "tgt": [
+    [
+     24706,
+     24725
+    ],
+    [
+     24750,
+     24769
+    ],
+    24812,
+    [
+     24909,
+     24941
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 6775-6783 (ideally of Friday's high)",
+   "dir": "short",
+   "tag": "A/A+",
+   "quote": "Short a fail/LAAF (of at least Friday’s high to make it stronger) of 75-83 targeting 51.5-55, monitor for continuation to 32-36 then Friday’s low and 6704-6709. A/A+",
+   "kind": "fade",
+   "gate": [
+    6775,
+    6783
+   ],
+   "tgt": [
+    [
+     6751.5,
+     6755
+    ],
+    [
+     6732,
+     6736
+    ],
+    "FRI_LOW",
+    [
+     6704,
+     6709
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 6751.5-6755",
+   "dir": "short",
+   "tag": "A/A+",
+   "quote": "Short a fail/LAAF of 51.5-55 targeting 32-36 then Friday’s low and 04-09. A/A+",
+   "kind": "fade",
+   "gate": [
+    6751.5,
+    6755
+   ],
+   "tgt": [
+    [
+     6732,
+     6736
+    ],
+    "FRI_LOW",
+    [
+     6704,
+     6709
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "I like a long on a LBAF of Friday’s low a bit more on NQ but it is fully valid for ES as well. Just make sure 32-36 reclaims and keep a tight leash until 51.5-55 is reclaimed. B/B-",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    [
+     6732,
+     6736
+    ],
+    [
+     6751.5,
+     6755
+    ]
+   ],
+   "stop_hint": "Just make sure 32-36 reclaims and keep a tight leash until 51.5-55 is reclaimed."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-18",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1118",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Tue plan, post dated Mon 11/17. Contract not stated; Z (Dec) per batch, no roll mention. TRADES = the explicit list after 'So the trades are:' (two lines, each covering ES and NQ, split into es1/nq1 and es2/nq2); all ungraded -> tags ''. Letter writes the ES singles as '6706.25-6714.25' in the trades list but 6706.25-6714.75 everywhere else -> read as typo, es2 gated [6706.25,6714.75]. Break-trade targets taken from the Price commentary: ES below 6698.5 -> cover starts ~6686 ('at least initially'), weekly 6676-6680, then today's low (RTH_LOW); NQ below 24911.5 -> 24816-24824, weekly 24750-24769, then RTH_LOW. Same downside chains used for the singles shorts (es2 first needs back below 6698.5-6702). Not entered as trades (listed after 'Aside from that:', outside 'the trades are' list, ungraded watch items): NQ LBAF of today's low / buying dips if buyers firm above 24816-24824 targeting the 24911.5-24945 singles; ES LBAF of today's low from as low as 6636-6640 (6650-6653, 6645 also watch). Reclaim longs 'risky as hell': ES only via the drawn scenario, NQ needs to trade well into the 25030s then a higher low above 24945-24955. LBAF week / multi-week LBAF below 11/2 low 6655.5 noted. NQ 3-digit abbreviations resolved to 24xxx; '25030s' -> [25030,25039].",
+ "zones": {
+  "ES": [[6714.75, 6718.5], [6706.25, 6707.25], [6698.5, 6702], [6706.25, 6714.75], [6698.5, 6698.5], [6676, 6680], [6686, 6686], [6655.5, 6655.5], [6650, 6653], [6645, 6645], [6636, 6640]],
+  "NQ": [[25069, 25069], [24945, 24955], [24911.5, 24911.5], [24816, 24824], [24911.5, 24945], [24750, 24769], [24926.25, 24926.25], [24869, 24882], [24969, 24977], [24955, 24955], [25029, 25069], [25030, 25039], [24500, 24600]]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Weakness below 6698.5",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorts on weakness below ES 6698.5 and NQ 24911.5",
+   "kind": "break",
+   "gate": [6698.5, 6698.5],
+   "tgt": [6686, [6676, 6680], "RTH_LOW"],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Weakness below 24911.5",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorts on weakness below ES 6698.5 and NQ 24911.5",
+   "kind": "break",
+   "gate": [24911.5, 24911.5],
+   "tgt": [[24816, 24824], [24750, 24769], "RTH_LOW"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Sellers present in major singles 6706.25-6714.75",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorts if sellers present in the major singles 6706.25-6714.25 ES and 24911.5-24945 NQ.",
+   "kind": "fade",
+   "gate": [6706.25, 6714.75],
+   "tgt": [[6698.5, 6702], 6686, [6676, 6680], "RTH_LOW"],
+   "stop_hint": "make sure sellers get it convincingly back below 6698.5"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Sellers present in major singles 24911.5-24945",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorts if sellers present in the major singles 6706.25-6714.25 ES and 24911.5-24945 NQ.",
+   "kind": "fade",
+   "gate": [24911.5, 24945],
+   "tgt": [[24816, 24824], [24750, 24769], "RTH_LOW"],
+   "stop_hint": "I would want to see sellers defend pops above 24955 and the weekly 969-977 range quickly."
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-18",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-518",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Monday letter (posted Sun 5/17), commentary deferred to the weekly plan. No roll mention, numbers on M6. All trades ungraded (tag ''). Typo in NQ levels '29383-23397' read as 29383-29397. Friday close below levels: NQ RTH close 29231, 5pm close 29173; ES RTH close 7432.5, 5pm close 7418 (kept as zones). 'Friday/Wednesday lows (089.75 and 75)' read as Friday low 29089.75, Wednesday low 29075; nq4 gated on the whole 29069-29090 level as he says 'inclusive of the entire 069-090 level'. nq3/es3 are 'firm reclaim' longs from below (price closed below after hours) -> kind break; he cautions a failed reclaim up to 29240 (NQ) / 7442-7444 (ES) - in stop_hint. es1 'broadly targeting 7430-7434' with reactions at 55 and 44 listed as intermediate targets 7455, 7444. es2 LAAF of Friday's high (not given numerically, FRI_HIGH); no explicit target -> 7463-7465 (he says it must get back below 63-65); 7482-7485 weekly level is the alternative rejection spot. es4 gated on Wednesday's 7399 low (weekly 7398-7403); targets 7410, Friday's 7420 low, 7430-7434, then 7463-7465 and Friday's high. 'Continuation to and through Friday's low' on nq1 not added as a target. Monday VWAP ~29330s noted only.",
+ "zones": {
+  "ES": [[7463, 7465], [7430, 7434], [7410, 7410], [7383, 7385], [7455, 7455], [7444, 7444], [7482, 7485], [7432.5, 7432.5], [7418, 7418], [7442, 7444], [7454, 7455], [7399, 7399], [7398, 7403], [7420, 7420]],
+  "NQ": [[29383, 29397], [29200, 29212], [28859, 28859], [28700, 28726], [29318, 29318], [29290, 29290], [29240, 29240], [29469, 29487], [29231, 29231], [29173, 29173], [29089.75, 29089.75], [29075, 29075], [29069, 29090]]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 29383-29397",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail/LAAF of 29383-29397 targeting 318, 290, 240, and 200-212. Monitor for continuation to and through Friday’s low from there.",
+   "kind": "fade",
+   "gate": [29383, 29397],
+   "tgt": [29318, 29290, 29240, [29200, 29212]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 29469-29487",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail/LAAF of 29469-29487. If sellers are serious they probably wouldn’t let it get here but Asia hasn’t met a price they don’t want to buy so a constructive overnight could lead to something like this playing out and still resolve in a bearish manner. 29383-29397 would be the first target and then it turns into the above with the same targets.",
+   "kind": "fade",
+   "gate": [29469, 29487],
+   "tgt": [[29383, 29397], 29318, 29290, 29240, [29200, 29212]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Firm reclaim of 29200-29212",
+   "dir": "long",
+   "tag": "",
+   "quote": "If 29200-29212 is firmly reclaimed (caution a failed reclaim initially maybe as high as 240) then I’ll look for longs targeting 290, and 318 and monitor for continuation to 383-397 and higher from there.",
+   "kind": "break",
+   "gate": [29200, 29212],
+   "tgt": [29290, 29318, [29383, 29397]],
+   "stop_hint": "caution a failed reclaim initially maybe as high as 240"
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LBAF of Friday/Wednesday lows (29089.75 / 29075), 29069-29090 level",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of Friday/Wednesday lows (089.75 and 75) inclusive of the entire 069-090 level. We know from the weekly plan that this is massive. If 29200-29212 is reclaimed, then this has bullish engulfing potential. If this plays out and 200-212 is reclaimed, then 383-397 (and potentially higher) is more likely to print than the above trade",
+   "kind": "fade",
+   "gate": [29069, 29090],
+   "tgt": [[29200, 29212], [29383, 29397]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7463-7465",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail/LAAF of 7463-7465 broadly targeting 7430-7434. Monitor for a reaction at 55 and 44 or so from above. Friday’s IB high and some supply sit above 63-65 so first touch this has some potential.",
+   "kind": "fade",
+   "gate": [7463, 7465],
+   "tgt": [7455, 7444, [7430, 7434]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high (gap fill reversal / 7482-7485 rejection)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of Friday’s high given the bearish RTH gap was not filled on Friday. This could play as a gap fill reversal or a rejection at the 7482-7485 weekly level. While I used 7482-7485 as the weekly level, this really needs to play as a LAAF of Friday’s high for Monday and get back below 63-65 to be any good.",
+   "kind": "fade",
+   "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [[7463, 7465]],
+   "stop_hint": "this really needs to play as a LAAF of Friday’s high for Monday and get back below 63-65 to be any good."
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Firm reclaim of 7430-7434",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’m willing to get long on a firm reclaim of 7430-7434 but even more cautious of a failed reclaim than for the above NQ trade, particularly monitoring the 42-44 range for this on first touch. If 7430-7434 holds after a test of 42-44 then I would feel more comfortable in seeing 54-55 and 63-65.",
+   "kind": "break",
+   "gate": [7430, 7434],
+   "tgt": [[7454, 7455], [7463, 7465]],
+   "stop_hint": "even more cautious of a failed reclaim than for the above NQ trade, particularly monitoring the 42-44 range for this on first touch."
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LBAF of Wednesday's 7399 low (7398-7403 weekly level)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of Wednesday’s 7399 low (the 7398-7403 weekly level). This has huge potential on a weekly basis from the weekly plan but we’ll need to monitor 7410, Friday’s 7420 low, and 7430-7434 for reclaims. Once 7430-7434 reclaims, then 7463-7465 and Friday’s high are reasonable targets.",
+   "kind": "fade",
+   "gate": [7399, 7399],
+   "tgt": [7410, 7420, [7430, 7434], [7463, 7465], "FRI_HIGH"],
+   "stop_hint": "we’ll need to monitor 7410, Friday’s 7420 low, and 7430-7434 for reclaims"
+  }
+ ]
+}

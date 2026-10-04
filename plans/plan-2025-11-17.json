@@ -1,0 +1,63 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-17",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1117",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Mon plan, post dated Sun 11/16. Contract not stated; Z (Dec) per batch, no roll mention. All TRADES ungraded -> tags ''. 'Short a LAAF of Friday's high on either NQ or ES' split into nq1/es1 (gate FRI_HIGH, target the C-period singles NQ 25029-25069 / ES 6738-6747). 'Long NQ or ES on a hold of the C-period or B-period singles' is framed as being played via the two LBAF trades that follow (es2 LBAF of 6747, nq2 LBAF of 25069), so not entered as separate trades; he is fine entering directly within the C or B singles (B-period: NQ 24970-24977, ES 6726.5-6729.75) on convincing order flow, tight leash until a base above 25069/6747. NQ '25220s' -> [25220,25229]. Skipped (no planned level / he says no other trades worth planning): short an active downtrend if the singles provide no support; true gap up is long but turns short if it fails. Bias toward longs off range low; NQ range-low buyer zone 24500-24600 kept as a zone.",
+ "zones": {
+  "ES": [[6829.5, 6831], [6738, 6747], [6726.5, 6729.75], [6747, 6747], [6765, 6765], [6778, 6778]],
+  "NQ": [[25483, 25502], [25336, 25336], [25029, 25069], [24970, 24977], [25069, 25069], [25173, 25198], [25220, 25229], [24500, 24600]]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of Friday’s high on either NQ or ES, targeting a test of the C period single prints.",
+   "kind": "fade",
+   "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [[25029, 25069]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of 25069 (C-period singles 25029-25069)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of NQ 25069 targeting 25173-25198, 25220s, and Friday’s high. Monitor for continuation.",
+   "kind": "fade",
+   "gate": [25069, 25069],
+   "tgt": [[25173, 25198], [25220, 25229], "FRI_HIGH"],
+   "stop_hint": "longs would need to base back above 069 NQ and47 ES to be safe."
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of Friday’s high on either NQ or ES, targeting a test of the C period single prints.",
+   "kind": "fade",
+   "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [[6738, 6747]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of 6747 (C-period singles 6738-6747)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of 6747 on ES targeting 6765, 6778, and Friday’s high. Monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [6747, 6747],
+   "tgt": [6765, 6778, "FRI_HIGH"],
+   "stop_hint": "longs would need to base back above 069 NQ and47 ES to be safe."
+  }
+ ]
+}

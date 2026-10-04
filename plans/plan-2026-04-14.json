@@ -1,0 +1,63 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-14",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-414-131",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "PPI day. M (Jun) contract, no roll mentioned. TRADES section opens 'Trades can generally be implied from the above. There’s nothing that I love as an amazing setup here' but then names two specific ungraded short ideas, both ES-only by their numbers ('26-31', spike base) -> es1, es2 with tag ''; no NQ trades transcribed (NQ analogs not stated). He may take zero trades. es1 gate = today's high 6924.75 through 6926-6931 ('today’s high and the 26-31 level'). es2 is conditional on a gap down inside today's range; 'persistent failures' treated as fade; no stated target beyond spike base -> Trading Lower: single prints written '6990-6992' (typo, = 6890-6892 from the daily levels list) then 6878-6883. Commentary-only ideas (not trades): ES day-trade long while 6926-6931 holds; ES/NQ LBAF of 6864-6867 could stall the move to 6837-6846; NQ long if pullback holds 25516-25539; NQ LBAF of 25369-25388 (could come from 25333-25342); NQ below 25369-25388 and back into IB (below 25333) targets 25238-25250 / 25210-25218. ES spike base 6900.25, high 6924.75; NQ spike base 25461.25, high 25550.25.",
+ "zones": {
+  "ES": [
+   [6890, 6892],
+   [6864, 6867],
+   [6803.5, 6808.5],
+   [6926, 6931],
+   [6900.25, 6900.25],
+   [6898, 6902],
+   [6924.75, 6924.75],
+   [6952, 6952],
+   [6878, 6883],
+   [6880, 6880],
+   [6837, 6846]
+  ],
+  "NQ": [
+   [25369, 25388],
+   [25238, 25250],
+   [25461.25, 25461.25],
+   [25440, 25469],
+   [25550.25, 25550.25],
+   [25516, 25539],
+   [25647, 25647],
+   [25333, 25333],
+   [25333, 25342],
+   [25210, 25218],
+   [25111, 25145]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Failure to sustain above today's high (6924.75) and 6926-6931",
+   "dir": "short",
+   "tag": "",
+   "quote": "To me this might look like shorting a failure to sustain above today’s high and the 26-31 level, mostly looking for a test of today’s spike base and monitoring for continuation from there.",
+   "kind": "fade",
+   "gate": [6924.75, 6931],
+   "tgt": [6900.25],
+   "stop_hint": "Even if there is weakness, I will still keep a tight leash on any short until sellers prove something."
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Persistent failures above spike base 6900.25 (gap down inside range)",
+   "dir": "short",
+   "tag": "",
+   "quote": "If we get a gap down inside today’s range, then I’ll consider a short on persistent failures to sustain above today’s spike base, again keeping a tight leash on it.",
+   "kind": "fade",
+   "gate": [6900.25, 6900.25],
+   "tgt": [[6890, 6892], [6878, 6883]],
+   "stop_hint": "again keeping a tight leash on it"
+  }
+ ]
+}

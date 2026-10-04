@@ -1,0 +1,317 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-11",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-311-d55",
+ "contract": {
+  "ES": "ESH6",
+  "NQ": "NQH6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Tue Mar 10, 2026 for Wed 3/11 (CPI day); H6 contract, no roll mention. TRADES section is ungraded ('my favorite') -> all tags ''. Lines naming two entries were split into separate trades sharing the same quote: NQ hold of 24909-24941 (nq1) vs LBAF of today's low (nq2); ES hold of 6775-6783 (es1) vs LBAF of today's low (es2); ES fail/LAAF of 6820 (es3) vs persistent failures in 6808-6815 (es4). NQ today's low given as 892.25 -> 24892.25. ES today's low only given as 'around 6765' -> kept RTH_LOW. es5 ('I may consider a short on a fail or LAAF of 6841.5-6844') has no stated target -> first lower level from Trading Higher commentary, 6835. Skipped as trades (he says he doesn't plan them): NQ reclaim long above 25110 / 25121-25139, breakdown shorts below today's low, ES reclaim long. Text typos: '212-139' read as 25121-25139; '6814.5-6844 reclaiming' likely 6841.5-6844 (not added as a zone). 25110 is an 'honorable mention' level; 25082 is today's IB high.",
+ "zones": {
+  "ES": [
+   [
+    6841.5,
+    6844
+   ],
+   [
+    6820,
+    6820
+   ],
+   [
+    6741,
+    6741
+   ],
+   [
+    6853,
+    6858
+   ],
+   [
+    6803,
+    6812.5
+   ],
+   [
+    6808,
+    6815
+   ],
+   [
+    6765,
+    6765
+   ],
+   [
+    6835,
+    6835
+   ],
+   [
+    6869,
+    6873
+   ],
+   [
+    6926,
+    6931
+   ],
+   [
+    6775,
+    6783
+   ],
+   [
+    6780,
+    6783
+   ],
+   [
+    6800,
+    6800
+   ],
+   [
+    6699,
+    6699
+   ],
+   [
+    6688,
+    6693
+   ],
+   [
+    6751.5,
+    6755
+   ]
+  ],
+  "NQ": [
+   [
+    25211,
+    25218
+   ],
+   [
+    25179,
+    25185
+   ],
+   [
+    25082,
+    25082
+   ],
+   [
+    24525,
+    24545
+   ],
+   [
+    24469,
+    24469
+   ],
+   [
+    24600,
+    24600
+   ],
+   [
+    24669,
+    24700
+   ],
+   [
+    25120,
+    25120
+   ],
+   [
+    25121,
+    25139
+   ],
+   [
+    25210,
+    25218
+   ],
+   [
+    24750,
+    24769
+   ],
+   [
+    25110,
+    25110
+   ],
+   [
+    25175,
+    25185
+   ],
+   [
+    25282,
+    25292
+   ],
+   [
+    25038,
+    25038
+   ],
+   [
+    24909,
+    24941
+   ],
+   [
+    24892.25,
+    24892.25
+   ],
+   [
+    24969,
+    24969
+   ],
+   [
+    24579,
+    24608
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold of 24909-24941",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold of 24909-24941 or a LBAF of today’s low which reclaims 909-941. I would target 25038 and 25082 and monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    24909,
+    24941
+   ],
+   "tgt": [
+    25038,
+    25082
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of today's low (24892.25) reclaiming 24909-24941",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold of 24909-24941 or a LBAF of today’s low which reclaims 909-941. I would target 25038 and 25082 and monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    24892.25,
+    24892.25
+   ],
+   "tgt": [
+    25038,
+    25082
+   ],
+   "stop_hint": "which reclaims 909-941"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 25082",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF (better) of 25082 targeting 25038, 24969, and 24909-24941. Monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    25082,
+    25082
+   ],
+   "tgt": [
+    25038,
+    24969,
+    [
+     24909,
+     24941
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold of 6775-6783",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold of 6775-6783 or a LBAF of today’s low which reclaims at least 80-83. I would target 6800 and 6808-6815 and monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    6775,
+    6783
+   ],
+   "tgt": [
+    6800,
+    [
+     6808,
+     6815
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of today's low reclaiming 6780-6783",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold of 6775-6783 or a LBAF of today’s low which reclaims at least 80-83. I would target 6800 and 6808-6815 and monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    6800,
+    [
+     6808,
+     6815
+    ]
+   ],
+   "stop_hint": "which reclaims at least 80-83"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 6820",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of 6820 or persistent failures in the 6808-6815 range. This targets 6775-6783 and monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    6820,
+    6820
+   ],
+   "tgt": [
+    [
+     6775,
+     6783
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Persistent failures in 6808-6815",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of 6820 or persistent failures in the 6808-6815 range. This targets 6775-6783 and monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    6808,
+    6815
+   ],
+   "tgt": [
+    [
+     6775,
+     6783
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 6841.5-6844 (may consider)",
+   "dir": "short",
+   "tag": "",
+   "quote": "I may consider a short on a fail or LAAF of 6841.5-6844",
+   "kind": "fade",
+   "gate": [
+    6841.5,
+    6844
+   ],
+   "tgt": [
+    6835
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

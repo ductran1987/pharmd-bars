@@ -1,0 +1,32 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-18",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-618",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "Reminder From Monday: Great news on the levels and treatment of levels with respect to contract roll. The weekly levels can be used as they are on ES1. From that perspective this is probably the cleanest roll I’ve seen as they were respected perfectly without any need for adjustment. The primary range for last week was effectively 6000-6050 when we were trading ESM2025. That corresponds to roughly 6050-6100 on ESU2025 (now ES1).",
+ "ref_date_note": "FOMC day (Wed 6/18). Numbers on ES1 = ESU5/NQU5 per the letter (ES today's low 6030.25 = ESU5 6/17 RTH low; NQ today's low 21909.5 = NQU5 6/17 RTH low). NO TRADES section in this letter (only COMMENTARY with 'Trading Higher than 6050-6053.5' / 'Trading Lower than 6050-6053.5') -> trades=[] under the TRADES-section-only rule. Commentary ideas NOT recorded as trades: ES short on a LAAF/failed reclaim of 6050-6053.5 targeting today's low (6030.25); reclaim/hold above 6050-6053.5 -> 65/66 (6065-6066, weekly 6062.25-6066.25); firmly above 65/66 -> today's high (not given numerically) and weekly 6082-6088; 6050s offered -> 6030 gives way and barring a quick LBAF resolution to 5999-6003; a LBAF of today's low needs to reclaim and base above 6036; below today's low 6013 must trigger a reclaim; at 5999-6003 expect the 5978.25 Friday 5pm close fill or a 5987.5 tag. No NQ trade ideas beyond the levels (22129-22137 'captured today's high'). Last week's M5 range 6000-6050, ESM 5927-5932, M5 VPOC 6008 and SPX 5939.3/~5920 are references only and left out of zones; U5 primary range 6050-6100 not recorded as a zone.",
+ "zones": {
+  "ES": [
+   [6105, 6113],
+   [6082, 6088],
+   [6065, 6066],
+   [6062.25, 6066.25],
+   [6050, 6053.5],
+   [6036, 6036],
+   [6030.25, 6030.25],
+   [6029.75, 6032],
+   [6013, 6013],
+   [5999, 6003],
+   [5987.5, 5987.5],
+   [5978.25, 5978.25]
+  ],
+  "NQ": [
+   [22129, 22137],
+   [22064, 22064],
+   [22005, 22014.5],
+   [21909.5, 21909.5]
+  ]
+ },
+ "trades": []
+}

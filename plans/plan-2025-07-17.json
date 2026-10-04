@@ -1,0 +1,91 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-17",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-717",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Letter has no TRADES section (vacation-week letter: levels + commentary only), so trades=[]; commentary trade ideas were not transcribed. All numbers ESU5/NQU5 (September contract, no roll mentioned). 6341.75 = Tuesday 7/15 RTH (all-time) high; 6307 = 7/16 spike base. 2-week balance 6241-6341.75. Pivots NQ 23090-23097, ES 6292-6294. Commentary-only ideas (ungraded): bid at 6278-6281 / NQ 22982-22990, NQ dip buy 22870-22900, ES re-bid 6250-6254. '74-76' -> 6274-6276; '982-990' -> 22982-22990; '870-900' -> 22870-22900. 22833-22841 is a level he says held on 7/16 (included).",
+ "zones": {
+  "ES": [
+   [
+    6341.75,
+    6341.75
+   ],
+   [
+    6307,
+    6307
+   ],
+   [
+    6300,
+    6300
+   ],
+   [
+    6292,
+    6294
+   ],
+   [
+    6260,
+    6262.5
+   ],
+   [
+    6241,
+    6241
+   ],
+   [
+    6278,
+    6281
+   ],
+   [
+    6274,
+    6276
+   ],
+   [
+    6250,
+    6254
+   ],
+   [
+    6310,
+    6314.5
+   ]
+  ],
+  "NQ": [
+   [
+    23222.75,
+    23222.75
+   ],
+   [
+    23120,
+    23120
+   ],
+   [
+    22982,
+    22990
+   ],
+   [
+    23090,
+    23097
+   ],
+   [
+    22833,
+    22841
+   ],
+   [
+    23010,
+    23020
+   ],
+   [
+    22920,
+    22920
+   ],
+   [
+    22870,
+    22900
+   ]
+  ]
+ },
+ "trades": []
+}

@@ -1,0 +1,79 @@
+{
+ "source": "pharmdks",
+ "date": "2025-12-11",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1211",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Thu 12/11/2025, day after FOMC (posted Wed 12/10), subtitle 'This Level Must Hold'. ORCL poorly received afterhours; AVGO reports after the bell. Z (Dec) contract per batch, no roll mention. No TRADES section and no grades: only levels + commentary built around a 'must hold' pivot -> trades = []. Commentary ideas only: pivots are ES weekly 6866.5-6869 (arguably 6872-6874 and 6865) and NQ 25726-25736 (letter once writes 'the daily 723-736 range' - read as a typo for the listed 25726-25736). 'if 6866.5-6869 or higher holds then it is a long. An upside reversal from this general area into a session uptrend is a long. If the session is in a downtrend toward the pivot, however, then it is reasonable to be short looking to find out if it holds.' 'I will be short in a downtrend below 726-736 NQ and 6866.5-6869 ES, I am okay with shorts in a session downtrend on the way down to test these spots. I will be long in a session uptrend above these spots.' Losing the pivots puts new low of week on the table; unlikely to long below the pivots. ES 6875.25 = fill of today's 2:30 single prints (reference, a fill is a poor look for buyers). NQ honorable mention 25681.5-25688 and 25651-25669 'MUST prove highly reactive for bulls if seen', either needing to trigger a reclaim of 25726-25736 or risk coming to today's low. Recap levels from 12/10 (25639.25 overnight hold, relative equal lows 25560-25565) kept as zones.",
+ "zones": {
+  "ES": [
+   [
+    6928,
+    6930
+   ],
+   [
+    6875.25,
+    6875.25
+   ],
+   [
+    6873,
+    6873
+   ],
+   [
+    6872,
+    6874
+   ],
+   [
+    6866.5,
+    6869
+   ],
+   [
+    6865,
+    6865
+   ]
+  ],
+  "NQ": [
+   [
+    26015.5,
+    26031
+   ],
+   [
+    25823,
+    25836
+   ],
+   [
+    25726,
+    25736
+   ],
+   [
+    25560,
+    25567
+   ],
+   [
+    25560,
+    25565
+   ],
+   [
+    25639.25,
+    25639.25
+   ],
+   [
+    25651,
+    25669
+   ],
+   [
+    25681.5,
+    25688
+   ],
+   [
+    25688,
+    25688
+   ]
+  ]
+ },
+ "trades": []
+}

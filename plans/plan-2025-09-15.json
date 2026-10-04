@@ -1,0 +1,145 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-15",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-915",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "I will be using ESU2025 levels for Monday (the same we’ve been using) ... I do very much like to take it light during contract roll week.",
+ "ref_date_note": "'Return of the A+ Setup'. Roll week (U5->Z5) + FOMC week. He says he is using ESU2025 levels for Monday, so ES numbers are U (Sep); NQ levels are the same continuing set ('the same we’ve been using'), so NQ also taken as NQU5 (letter does not name the NQ contract explicitly). nq1: 'any hold of this range is an A+ long' - 'this range' is ambiguous between the white 24064.5-24076.25 box (5/30-min OR high to IB high) and the weekly 24046-24069 spot it 'sits right around'; gated on 24046-24069 because the ideal sweep goes below the white box into 24057.25-24064.5 and later trades reference 24046-24069 as the first setup's level (white box kept as a zone). nq2 (lower-high short trapped below 046-069) and nq3 (long the dip-buy near 24026, needs to reclaim 046-069) are both called 'iffy' and ungraded -> tag ''. nq2 targets 24026 ('initial dip buy response ... likely near 24026') then Friday's low 24001.5 ('minor liquidation toward Friday’s low'). nq4 (LBAF of Friday's low 24001.5, A/A-) targets 24046-24069 (take profits on rejection) then 24105/24143 only if 24046-24069 reclaims and holds ('effectively turns into the first setup'). Letter typo: ES '6496' (twice) read as 6596 (6588-6596 is the rotational range; price ~6590). es1 target order 6596, 6598-6600, then Friday's high with runners (number not given -> FRI_HIGH). es2 gate = the LAAF of 6596 (triggered by a rejection of 6598-6600); targets 6588 then 6585 and Friday's low 6583. es4 'One can consider a short for this' (trapped below Friday's low 6583 to 6585 spike base, toward the 6572.5-6574.75 singles) ungraded, he prefers it for trade management. Not transcribed: the monitored potential low-of-day longs below 6579-6582 (6572.5-6574.75, 6568-6570, 6558-6562 incl. a LBAF of Thursday's low) - he says 'This is super hard to game out and rate ahead of time' and the cleaner setups would be Tuesday; 'HOLDING below 6572.5-6574.75 risks liquidation to 6558-6562 and Thursday’s low' (expectation).",
+ "zones": {
+  "ES": [
+   [6585, 6585],
+   [6572.5, 6574.75],
+   [6588, 6596],
+   [6588, 6588],
+   [6596, 6596],
+   [6598, 6600],
+   [6583, 6583],
+   [6579, 6582],
+   [6568, 6570],
+   [6558, 6562]
+  ],
+  "NQ": [
+   [24143, 24143],
+   [24026, 24026],
+   [24064.5, 24076.25],
+   [24046, 24069],
+   [24072, 24072],
+   [24057.25, 24064.5],
+   [24105, 24105],
+   [23985, 23996],
+   [24001.5, 24001.5],
+   [24000, 24000]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold of 24046-24069 (ideally sweep of ~24072 lows into 24057.25-24064.5)",
+   "dir": "long",
+   "tag": "A+",
+   "quote": "While any hold of this range is an A+ long for Monday, I would love to see those lows around 24072 swept, perhaps into 24057.25-24064.5 range (that’s oddly specific again Pharm) and I would target 24105 and 24143 primarily.",
+   "kind": "fade",
+   "gate": [24046, 24069],
+   "tgt": [24105, 24143],
+   "stop_hint": "I would love to see those lows around 24072 swept, perhaps into 24057.25-24064.5 range"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Lower-high short trapped below 24046-24069",
+   "dir": "short",
+   "tag": "",
+   "quote": "One can very carefully consider a short on a lower high if price is generally trapped below 046-069.",
+   "kind": "break",
+   "gate": [24046, 24069],
+   "tgt": [24026, 24001.5],
+   "stop_hint": "Therefore, both a long and a short in this range is iffy"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Dip-buy long near 24026",
+   "dir": "long",
+   "tag": "",
+   "quote": "However, I tend to expect an initial dip buy response below 24046-24069 likely near 24026 which could also be a long setup. A long is similarly iffy as it would need to reclaim 046-069 to be safe.",
+   "kind": "fade",
+   "gate": [24026, 24026],
+   "tgt": [[24046, 24069]],
+   "stop_hint": "it would need to reclaim 046-069 to be safe"
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low (24001.5)",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "Given the weekly 23985-23996 spot sits right below Friday’s 24001.5 low, and how active bulls have been on dips below 24000, I would watch for a LBAF of Friday’s low. I would be mindful of a potential rejection in the 24046-24069 range and take profits as indicated. However, if 24046-24069 is reclaimed and held after a LBAF of Friday’s low then it effectively turns into the first setup. This trade is slightly lower probability than the first trade, and could be a bit more stressful than the first, but it has significant potential reward and risk would at least be very well defined (the low that produced the LBAF). I’ll therefore still rate it an A/A-.",
+   "kind": "fade",
+   "gate": [24001.5, 24001.5],
+   "tgt": [[24046, 24069], 24105, 24143],
+   "stop_hint": "risk would at least be very well defined (the low that produced the LBAF)"
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "LAAF of 24143",
+   "dir": "short",
+   "tag": "B/B+",
+   "quote": "A LAAF of 24143 whether or not it includes a LAAF of Friday’s high can be a short broadly targeting 24105 and 24046-24069. As we are in a bullish trend, I would be far quicker to take profit and be prepared to flatten or flip long as opposed to holding for 24046-24069 but it does appear to be a reasonably clean rotation. Given prevailing trend I can’t rate this higher than a B/B+",
+   "kind": "fade",
+   "gate": [24143, 24143],
+   "tgt": [24105, [24046, 24069]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Failed acceptance below 6585",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "As indicated from the above, I would long any failure from sellers to find acceptance below 6585. Once back above 6588 this likely finds 6496 and may get a proper 6598-6600 test. Those are the major targets, and we can monitor for continuation through 6598-6600 toward Friday’s high with runners. I’ll rate this a B- mostly because range is so narrow and part of me feels like we may want Friday’s low taken out for bulls to find meaningful strength.",
+   "kind": "fade",
+   "gate": [6585, 6585],
+   "tgt": [6596, [6598, 6600], "FRI_HIGH"],
+   "stop_hint": "Once back above 6588"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of 6596 (rejection of 6598-6600)",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "A rejection of 6598-6600 has potential to trigger a LAAF of 6496 for rotation to 6588 so I’ll consider a short in this range if I see a compelling reason to do so (meaningful absorption for example). All shorts have to be rated pretty poorly in this environment but given the selling late Friday I am willing to rate this a B- if we trade higher first as it may at least produce a test of 6585 and Friday’s low. I would also downgrade this an entire letter grade if sellers have failed below 6585 already and I won’t even try it if a LBAF of Friday’s low is active.",
+   "kind": "fade",
+   "gate": [6596, 6596],
+   "tgt": [6588, 6585, 6583],
+   "stop_hint": "I would also downgrade this an entire letter grade if sellers have failed below 6585 already and I won’t even try it if a LBAF of Friday’s low is active."
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low (6583)",
+   "dir": "long",
+   "tag": "B+/A-",
+   "quote": "A LBAF of Friday’s low is a long and we have the weekly 6579-6582 spot sitting just below which gives it a fair reason to do so. We know that 6588 would need to reclaim to rotate toward 6596 and higher targets. Since this aligns with trend and risk would be well-defined (though range is still terrible) I will rate this a B+/A-.",
+   "kind": "fade",
+   "gate": [6583, 6583],
+   "tgt": [6596, [6598, 6600]],
+   "stop_hint": "We know that 6588 would need to reclaim"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Trapped below Friday's low 6583-6585",
+   "dir": "short",
+   "tag": "",
+   "quote": "If ES is trapped below Friday’s low (6583) to 6585 (Friday’s spike base) then there is risk of a minor liquidation and perhaps a completion of Thursday’s night’s “structure repair mission.” We still have open single prints in the 6572.5-6574.75 range that may fill. One can consider a short for this, but I would prefer to use this information for trade management (managing a short from higher or avoiding new longs).",
+   "kind": "break",
+   "gate": [6583, 6585],
+   "tgt": [[6572.5, 6574.75]],
+   "stop_hint": ""
+  }
+ ]
+}

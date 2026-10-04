@@ -1,0 +1,34 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-30",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-730",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "FOMC day (plus QRA, MSFT/META earnings after close). U (Sep) contract, no roll mention. Letter has NO TRADES section and no graded trades - only levels + COMMENTARY - so trades=[] per the literal rule. Commentary does contain ungraded trade ideas with levels that a looser reading could include: box trades (long LBAF of the 4-day balance low ~mid-6380s / full backtest of 6374 or 6369-6373; short LAAF of box high; breakouts with continuation), long from 6400-6401.5 spike base -> 6415.5-6418.25 (caution at 6409.5/6412), short failed reclaim of 6415.5-6418.25 (watch sweep of 6419.25 reversing below 6415), short a failure at 6423.25-6425.5, long holding 6423.25-6425.5 from above -> 6431 / 6429-6431 / today's RTH high 6440; NQ long holding 23424.75-23430, strong reversal off 23384/23396 reclaiming 23430 and 23469-23477, holding below 23420s -> 23310-23327. ES single prints written both as 6423.25-6425.5 (levels list) and 6423.5-6425.5 (commentary) - zone uses the levels-list value; '6415.5-6418.5' read as the weekly 6415.5-6418.25. 'roughly' levels recorded as decade ranges (23330s -> [23330,23339], 530s-540s -> [23530,23549]). YM skipped.",
+ "zones": {
+  "ES": [
+   [6423.25, 6425.5],
+   [6400, 6401.5],
+   [6374, 6374],
+   [6369, 6373],
+   [6415.5, 6418.25],
+   [6409.5, 6409.5],
+   [6412, 6412],
+   [6419.25, 6419.25],
+   [6429, 6431],
+   [6440, 6440]
+  ],
+  "NQ": [
+   [23438.25, 23438.25],
+   [23396, 23396],
+   [23384, 23384],
+   [23424.75, 23430],
+   [23469, 23477],
+   [23310, 23327],
+   [23330, 23339],
+   [23530, 23549]
+  ]
+ },
+ "trades": []
+}

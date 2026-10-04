@@ -1,0 +1,34 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-12",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-512-443",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "CPI day. M (Jun) contract, no roll mentioned. No TRADES section: PRICE: ES/NQ commentary only, ending 'Trades can be implied by the above I’ll have the usual premarket update' -> trades = []. Commentary ideas (ungraded, not promoted): ES sellers flip 7428-7431 to resistance (more clarity if 7422 offered) -> 7405-7408 or today's open; 7405-7408 fails -> Friday's low 7391.75, 7390.5 overnight low, 7383-7385 (supply 'mid 7440s' not given as a zone). NQ monitor LAAF of 29435 and LAAF of today's (poor) high -> must cap 29435, then 29387-29404, 29369, 29317-29341 before today's low; responsive buyers below 29369 (LBAF maybe down to 29353); meaningful traction below 29369 -> 29315 wick; 29317-29341 may hold; capping 29317-29341 (up to 29353) -> today's low, weekly 29218-29238 and Sunday overnight low could trigger a LBAF. He notes after-hours already took the planned 29369 LBAF and 29317-29341 longs.",
+ "zones": {
+  "ES": [
+   [7396, 7399],
+   [7346, 7349],
+   [7421.5, 7421.5],
+   [7428, 7431],
+   [7422, 7422],
+   [7405, 7408],
+   [7391.75, 7391.75],
+   [7390.5, 7390.5],
+   [7383, 7385]
+  ],
+  "NQ": [
+   [29435, 29435],
+   [29369, 29369],
+   [29166, 29186],
+   [29126, 29126],
+   [29387, 29404],
+   [29317, 29341],
+   [29353, 29353],
+   [29315, 29315],
+   [29218, 29238]
+  ]
+ },
+ "trades": []
+}

@@ -1,0 +1,131 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-25",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-925",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Z (Dec) contract per batch expectation; no roll mention. Letter has NO TRADES heading - levels + COMMENTARY (ES:/NQ: first-move subsections) and then 'The trades are effectively described above' -> treated as trades implied by commentary, trades=[] (ambiguous: the closing lines name ungraded ideas). Commentary ideas, all ungraded: 'The shorts on a failure of their respective ranges are the highest rated but they are only rated higher than longing above it because of how tricky reclaim longs can be.' ES: holding below 6700-6706 (or a LAAF) short targets 6687-6690, then 6676-6680 (today's low), new lows; holding back above 6706 long targets 6714-6718, most likely 6720.75 and today's high (call it 6729-6733); above 6719 neutralizes the 30-min downtrend. NQ: holding below 24755-24777 (or a LAAF) short targets 24712-24722, 24669-24683, then today's low; holding back above 24777 absent a LAAF long sees 24828-24839, potential 24856 and today's high (weekly 24790-24800 may trigger a LAAF). 'As mentioned, I’m okay with a long in the 669-683 area on NQ particularly if we trade lower first.' 'I don’t love the idea of longs at 6687-6690 on ES (it can work)'. Big picture: NQ 24563-24599 huge, possible deep LBAF via 24530.75 or 24487.5-24499; NQ 24627 monitor for LBAF; ES all about 6676-6680 (incl. today's low), trap in 6666-6669 that reclaims 6676-6680 else resolve to 6650-6653 (or 'call it 57-62 ES' -> 6657-6662). Weekly opens ES 6706/6716, NQ 24815.5/24850.",
+ "zones": {
+  "ES": [
+   [
+    6706,
+    6706
+   ],
+   [
+    6716,
+    6716
+   ],
+   [
+    6741.25,
+    6744.25
+   ],
+   [
+    6720.75,
+    6720.75
+   ],
+   [
+    6700,
+    6706
+   ],
+   [
+    6666,
+    6669
+   ],
+   [
+    6714,
+    6718
+   ],
+   [
+    6729,
+    6733
+   ],
+   [
+    6676,
+    6680
+   ],
+   [
+    6650,
+    6653
+   ],
+   [
+    6657,
+    6662
+   ],
+   [
+    6687,
+    6690
+   ],
+   [
+    6719,
+    6719
+   ]
+  ],
+  "NQ": [
+   [
+    24815.5,
+    24815.5
+   ],
+   [
+    24850,
+    24850
+   ],
+   [
+    24856.25,
+    24856.25
+   ],
+   [
+    24755,
+    24777
+   ],
+   [
+    24627,
+    24627
+   ],
+   [
+    24530.75,
+    24530.75
+   ],
+   [
+    24487,
+    24499
+   ],
+   [
+    24487.5,
+    24499
+   ],
+   [
+    24828,
+    24839
+   ],
+   [
+    24920,
+    24933
+   ],
+   [
+    24880,
+    24895
+   ],
+   [
+    24563,
+    24599
+   ],
+   [
+    24790,
+    24800
+   ],
+   [
+    24712,
+    24722
+   ],
+   [
+    24669,
+    24683
+   ]
+  ]
+ },
+ "trades": []
+}

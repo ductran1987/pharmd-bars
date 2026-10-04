@@ -1,0 +1,260 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-08",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-98",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Mon 9/8/2025 (posted Sun 9/7). U (Sep 2025) contract, no roll mention (Sep expiry 9/19; roll week not yet reached). 'Trades:' section with ES:/NQ: subsections. es1 alt: Friday's ARH 6493 ('would have used 91-93 and specifically looked for a LAAF'). es2 condition: buyers protect Friday's low from 6459-6461 (ES Friday low not given numerically). es3 has no stated target -> first levels up = the B-period singles he names as resistance; typo '6513-6415' read as the 6513-6514 daily level (likely 6513-6515), then 6520-6524. es4 is explicitly UNRATED ('fully reactive') -> tag ''; gate taken as the named 6520-6524 range (he says 'a short above 6496-6502.5, particularly in the 6520-6524 range'); no target stated -> 6513-6514 then 6496-6502.5. nq1 '720-724' -> 23720-23724; targets 23643 and 23586-23596, with his 'mindful of 628' inserted nearest-first as 23628. nq2 is UNGRADED ('I will consider a long') -> tag ''; '690s' -> [23690,23699]. nq3 LBAF of Friday's low: NQ Friday low not given -> FRI_LOW; no explicit target -> 23586-23596 (the level it must reclaim). 'Any trades outside of Friday's range will be managed in the Discord.'",
+ "zones": {
+  "ES": [
+   [
+    6531,
+    6531
+   ],
+   [
+    6520,
+    6524
+   ],
+   [
+    6513,
+    6514
+   ],
+   [
+    6496,
+    6502.5
+   ],
+   [
+    6493,
+    6493
+   ],
+   [
+    6491,
+    6493
+   ],
+   [
+    6478,
+    6478
+   ],
+   [
+    6466,
+    6466
+   ],
+   [
+    6460,
+    6460
+   ],
+   [
+    6459,
+    6461
+   ],
+   [
+    6451,
+    6454
+   ],
+   [
+    6425,
+    6427.75
+   ],
+   [
+    6418,
+    6418
+   ]
+  ],
+  "NQ": [
+   [
+    23800,
+    23804
+   ],
+   [
+    23752,
+    23769
+   ],
+   [
+    23720,
+    23724
+   ],
+   [
+    23690,
+    23699
+   ],
+   [
+    23643,
+    23643
+   ],
+   [
+    23628,
+    23628
+   ],
+   [
+    23586,
+    23596
+   ],
+   [
+    23485,
+    23499
+   ],
+   [
+    23454,
+    23462
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Rejection/LAAF of 6496-6502.5",
+   "dir": "short",
+   "tag": "A/A+",
+   "quote": "Short a rejection or LAAF of 6496-6502.5. This could end up being a sweep and fail of Friday’s afternoon rally high (ARH) which was 6493 and not included in the levels due to proximity to 6496-6502.5. If not for the weekly level, I would have used 91-93 and specifically looked for a LAAF. This broadly targets 6478, 6466, and 6460 with runners if sellers find continuation through Friday’s low (as a weak market would do). As unenthused as I was for the weekly plan, this is actually an A/A+ setup. Risk would be very well-defined with 30 handles as very reasonable to expect.",
+   "kind": "fade",
+   "gate": [
+    6496,
+    6502.5
+   ],
+   "tgt": [
+    6478,
+    6466,
+    6460
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Longs in 6459-6461 protecting Friday's low",
+   "dir": "long",
+   "tag": "B",
+   "quote": "Because of the above fact (backside excess) I may look for longs in the 6459-6461 range (6460 has been so important anyway) if buyers are able to protect Friday’s low from this spot. With this type of trade one needs to monitor for a reaction before executing and risk is a bit harder to define with a stop relative to a LBAF/LAAF trade. I also have less confidence in upside targets (6478 and 6491-93 with runners if 6496-6502.5 clears) so I’ll rate this one a B.",
+   "kind": "fade",
+   "gate": [
+    6459,
+    6461
+   ],
+   "tgt": [
+    6478,
+    [
+     6491,
+     6493
+    ]
+   ],
+   "stop_hint": "if buyers are able to protect Friday’s low from this spot"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Higher low above 6496-6502.5",
+   "dir": "long",
+   "tag": "C+/B-",
+   "quote": "One can attempt longs on a higher low above 6496-6502.5 (technically 6493 based on Friday’s profile) but this is risky because of the potential for a LAAF. Sellers can step in anywhere in the B-period singles (6513-6415 and 6520-6524 perhaps the most likely) so it requires a tight leash. I’m not a huge fan of reclaim longs so I rate this a C+/B-.",
+   "kind": "break",
+   "gate": [
+    6496,
+    6502.5
+   ],
+   "tgt": [
+    [
+     6513,
+     6514
+    ],
+    [
+     6520,
+     6524
+    ]
+   ],
+   "stop_hint": "it requires a tight leash"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Reactive short in 6520-6524",
+   "dir": "short",
+   "tag": "",
+   "quote": "I will consider a short above 6496-6502.5, particularly in the 6520-6524 range, if sellers make their presence clear and produce some kind of structure break. If you’ve been int he Discord long enough to know some of the more advanced snipe trades it would likely be something of that nature. This has to be fully reactive so I can’t really bother rating it.",
+   "kind": "fade",
+   "gate": [
+    6520,
+    6524
+   ],
+   "tgt": [
+    [
+     6513,
+     6514
+    ],
+    [
+     6496,
+     6502.5
+    ]
+   ],
+   "stop_hint": "if sellers make their presence clear and produce some kind of structure break"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Rejection/LAAF of 23720-23724",
+   "dir": "short",
+   "tag": "A-",
+   "quote": "Shorting a rejection of 720-724 or a LAAF is analogous to the ES 6496-6502.5 trade and targets 643 and 586-596 with runners for continuation. I would be mindful of 628 as well. I see the ES trade as perhaps slightly cleaner but I’ll still rate this an A- for similar reasons.",
+   "kind": "fade",
+   "gate": [
+    23720,
+    23724
+   ],
+   "tgt": [
+    23643,
+    23628,
+    [
+     23586,
+     23596
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of 23586-23596",
+   "dir": "long",
+   "tag": "",
+   "quote": "I will consider a long on a LBAF of 586-596 (NQ’s backside excess) targeting 628, 643, and 690s.",
+   "kind": "fade",
+   "gate": [
+    23586,
+    23596
+   ],
+   "tgt": [
+    23628,
+    23643,
+    [
+     23690,
+     23699
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "B",
+   "quote": "NQ has a better setup for a LBAF of Friday’s low than does ES given the weekly 485-499 spot sitting just below it. This would ultimately need to reclaim 586-596 to have significant room so I would keep it tight until then. I therefore will rate it a B",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    [
+     23586,
+     23596
+    ]
+   ],
+   "stop_hint": "This would ultimately need to reclaim 586-596 to have significant room so I would keep it tight until then."
+  }
+ ]
+}

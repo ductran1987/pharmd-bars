@@ -1,0 +1,295 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-10",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-710",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Thu 7/10/2025 (posted Wed 7/9). Ungraded 'Trades:' section (all tags ''). Contract U (Sep 2025), no roll mention. ES today's high only located 'in the weekly 6315-6317.5 range' (not a number) -> es1 gate RTH_HIGH; as a target (es2) used the stated zone [6315,6317.5]. ES today's low only said to be held by 6273.75-6276.5 -> es5 gate RTH_LOW. NQ today's low given 22919.75, today's high 23112 -> numbers used. nq1 'failure to clear 23060.5-23069 or on a LAAF' read as LAAF of that same zone (alt reading: LAAF of NQ today's 23112 high - not added). Combined sentences split: 'Longs on a hold of NQ 23004.5-23027.5 ... longs on ES ... hold of 6293-6296' -> nq2 + es2; '22978-22982 ... ES 6288.75 is analogous' -> nq3 + es3; 'LBAF of today's low on either' -> es5 + nq4. Targets not stated in the trade sentence taken from the ES/NQ commentary: es2, nq2, es3, nq3, es4, es5, nq4.",
+ "zones": {
+  "ES": [
+   [
+    6338,
+    6338
+   ],
+   [
+    6323,
+    6323
+   ],
+   [
+    6320,
+    6322
+   ],
+   [
+    6315,
+    6317.5
+   ],
+   [
+    6309.75,
+    6309.75
+   ],
+   [
+    6293,
+    6296
+   ],
+   [
+    6292.5,
+    6293.5
+   ],
+   [
+    6288.75,
+    6288.75
+   ],
+   [
+    6282.5,
+    6284
+   ],
+   [
+    6273.75,
+    6276.5
+   ]
+  ],
+  "NQ": [
+   [
+    23112,
+    23112
+   ],
+   [
+    23060.5,
+    23069
+   ],
+   [
+    23004.5,
+    23027.5
+   ],
+   [
+    22978,
+    22982
+   ],
+   [
+    22962.75,
+    22962.75
+   ],
+   [
+    22930,
+    22950
+   ],
+   [
+    22919.75,
+    22919.75
+   ],
+   [
+    22833,
+    22841
+   ],
+   [
+    22763,
+    22781
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of today's high (6320-6323 reactive)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Because bulls have continued to struggle on rips, it may be reasonable to short a LAAF of today’s high if the 6320-6322 (or Thursday’s 6323 close) proves reactive. Any short needs to be kept on a tight leash for now. This would need to get through Monday’s 6309.75 high, and I don’t even have high confidence that it makes it to 6293-6296.",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    6309.75,
+    [
+     6293,
+     6296
+    ]
+   ],
+   "stop_hint": "Any short needs to be kept on a tight leash for now."
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 6293-6296",
+   "dir": "long",
+   "tag": "",
+   "quote": "Longs on a hold of NQ 23004.5-23027.5 are fine but in this case I tend to like longs on ES a bit better on a hold of 6293-6296.",
+   "kind": "fade",
+   "gate": [
+    6293,
+    6296
+   ],
+   "tgt": [
+    6309.75,
+    [
+     6315,
+     6317.5
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Bid at 6288.75 (Tuesday's high), needs 6293-6296 reclaim",
+   "dir": "long",
+   "tag": "",
+   "quote": "ES 6288.75 is analogous to this and it would need to reclaim 6293-6296. I wouldn’t normally be looking to long these spots but lately prior day highs and HVNs have been bid.",
+   "kind": "fade",
+   "gate": [
+    6288.75,
+    6288.75
+   ],
+   "tgt": [
+    [
+     6293,
+     6296
+    ],
+    6309.75
+   ],
+   "stop_hint": "it would need to reclaim 6293-6296"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Long at 6282.5-6284",
+   "dir": "long",
+   "tag": "",
+   "quote": "While today’s low would technically be at risk below ES 6293 I would still consider longs at 6282.5-6284 as well.",
+   "kind": "fade",
+   "gate": [
+    6282.5,
+    6284
+   ],
+   "tgt": [
+    6288.75,
+    [
+     6293,
+     6296
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "A LBAF of today’s low on either is technically always a valid trade and particularly in a bullish trend. For ES it would need to reclaim 6282.5-6284 to have room and NQ would need to base back above at least 22930-22950",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     6282.5,
+     6284
+    ],
+    6288.75,
+    [
+     6293,
+     6296
+    ]
+   ],
+   "stop_hint": "For ES it would need to reclaim 6282.5-6284 to have room"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Failure to clear / LAAF of 23060.5-23069",
+   "dir": "short",
+   "tag": "",
+   "quote": "I would feel better shorting NQ on a failure to clear 23060.5-23069 or on a LAAF. This rotation does look reasonably clean at least to the 23004.5-23027.5 weekly spot. This isn’t a huge trade for NQ but could make a nice scalp. If 23004.5 happens to give way, then runners have some room.",
+   "kind": "fade",
+   "gate": [
+    23060.5,
+    23069
+   ],
+   "tgt": [
+    [
+     23004.5,
+     23027.5
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold of 23004.5-23027.5",
+   "dir": "long",
+   "tag": "",
+   "quote": "Longs on a hold of NQ 23004.5-23027.5 are fine but in this case I tend to like longs on ES a bit better on a hold of 6293-6296.",
+   "kind": "fade",
+   "gate": [
+    23004.5,
+    23027.5
+   ],
+   "tgt": [
+    [
+     23060.5,
+     23069
+    ],
+    23112
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Bid at 22978-22982, needs 23027.5 reclaim",
+   "dir": "long",
+   "tag": "",
+   "quote": "If NQ 22978-22982 is well bid, I will consider a long but know it needs to reclaim 23027.5 to have room.",
+   "kind": "fade",
+   "gate": [
+    22978,
+    22982
+   ],
+   "tgt": [
+    [
+     23004.5,
+     23027.5
+    ],
+    [
+     23060.5,
+     23069
+    ]
+   ],
+   "stop_hint": "it needs to reclaim 23027.5 to have room"
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LBAF of today's low (22919.75)",
+   "dir": "long",
+   "tag": "",
+   "quote": "A LBAF of today’s low on either is technically always a valid trade and particularly in a bullish trend. For ES it would need to reclaim 6282.5-6284 to have room and NQ would need to base back above at least 22930-22950",
+   "kind": "fade",
+   "gate": [
+    22919.75,
+    22919.75
+   ],
+   "tgt": [
+    [
+     22930,
+     22950
+    ],
+    22962.75,
+    [
+     22978,
+     22982
+    ]
+   ],
+   "stop_hint": "NQ would need to base back above at least 22930-22950"
+  }
+ ]
+}

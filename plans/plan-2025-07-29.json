@@ -1,0 +1,125 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-29",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-729",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "U (Sep) contract, no roll mention. No TRADES: header; trades taken from the 'Price:' paragraph and the NQ:/ES: subsections. Letter typo '43469-23477' read as 23469-23477. nq1/nq2 are the ungraded two-way rotational trades between 23469-23477 and 23523-23540 ('generally favoring longs') - included because they name levels; letter does not say hold vs LBAF. nq3 lower-high short below 469-477 explicitly unrated ('I won’t even rate this trade'), target today's low 23436.75 from 'holding below 23469 risks today’s low'. nq4 gated on today's low given as 23436.75; no stated target -> first level up 23469-23477. NQ today's high not given numerically -> nq5 gated RTH_HIGH. es1 (weakness below 6425) unrated. es2 (hold of 6415.5-6418.25, A-/B+) has no stated target -> first level up 6425. es3 'LBAF of at least 96.25 but ideally the range' gated on Thursday's low 6396.25 (range 6393.75-6396.25 in stop_hint). 'If we see lower highs and lower lows below 6415.5 then today’s low comes into play' treated as context for es3, not a separate trade. YM levels skipped.",
+ "zones": {
+  "ES": [
+   [6444.5, 6444.5],
+   [6425, 6425],
+   [6402.5, 6402.5],
+   [6415.5, 6418.25],
+   [6396.25, 6396.25],
+   [6393.75, 6396.25]
+  ],
+  "NQ": [
+   [23436.75, 23436.75],
+   [23469, 23477],
+   [23523, 23540],
+   [23424.75, 23430],
+   [23487, 23487],
+   [23450, 23450]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Rotational long at 23469-23477",
+   "dir": "long",
+   "tag": "",
+   "quote": "NQ saw very clean rotations between the weekly 43469-23477 and 23523-23540 ranges. We could continue to see that overnight and early tomorrow so two-way trading (generally favoring longs) is reasonable.",
+   "kind": "fade",
+   "gate": [23469, 23477],
+   "tgt": [[23523, 23540]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Rotational short at 23523-23540",
+   "dir": "short",
+   "tag": "",
+   "quote": "NQ saw very clean rotations between the weekly 43469-23477 and 23523-23540 ranges. We could continue to see that overnight and early tomorrow so two-way trading (generally favoring longs) is reasonable.",
+   "kind": "fade",
+   "gate": [23523, 23540],
+   "tgt": [[23469, 23477]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Lower high below 23469-23477 in session downtrend",
+   "dir": "short",
+   "tag": "",
+   "quote": "I would consider it on a lower high below 469-477 if the session is in a downtrend and there is something compelling to work with. I won’t even rate this trade because I’m more likely to sit and wait for the following long setup",
+   "kind": "break",
+   "gate": [23469, 23477],
+   "tgt": [23436.75],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LBAF of today's low (23436.75)",
+   "dir": "long",
+   "tag": "A/A+",
+   "quote": "A LBAF of today’s low is an A/A+ long setup given the weekly 23424.75-23430 spot sitting just below.",
+   "kind": "fade",
+   "gate": [23436.75, 23436.75],
+   "tgt": [[23469, 23477]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "C+",
+   "quote": "A LAAF of today’s high falls under rotational trades and could be a short back down to 23469-23477 or at least 23487 (today’s VPOC). I can’t rate this better than a C+ given the prevailing trend.",
+   "kind": "fade",
+   "gate": ["RTH_HIGH", "RTH_HIGH"],
+   "tgt": [23487, [23469, 23477]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Weakness below 6425",
+   "dir": "short",
+   "tag": "",
+   "quote": "We may see some weakness if ES is holding below 6425, at least down to 6415.5-6418.25. I can’t say I’m particularly excited to take that kind of a short but one could consider joining a session downtrend on a lower high. It isn’t a setup worth rating to me but if there is some adverse news such as terrible earnings then maybe it is worth it on the chance sellers get through 6415.5 with traction.",
+   "kind": "break",
+   "gate": [6425, 6425],
+   "tgt": [[6415.5, 6418.25]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 6415.5-6418.25",
+   "dir": "long",
+   "tag": "A-/B+",
+   "quote": "If sellers can’t get back through 6415.5-6418.25 then we would have a bit of an inverse head and shoulders on the 30 and we know that is the spot key for buyers to see direct continuation higher this week. Today’s profile isn’t as clean as I would like to rate it an A+ but we have to consider it an A-/B+.",
+   "kind": "fade",
+   "gate": [6415.5, 6418.25],
+   "tgt": [6425],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of Thursday's low 6396.25, ideally 6393.75-6396.25",
+   "dir": "long",
+   "tag": "A/A+",
+   "quote": "A LBAF of at least 96.25 but ideally the range targets 6415.5-6418.25 and has potential for today’s high and new highs. That is the trade I would want the most on ES and will rate it an A/A+",
+   "kind": "fade",
+   "gate": [6396.25, 6396.25],
+   "tgt": [[6415.5, 6418.25], "RTH_HIGH"],
+   "stop_hint": "at least 96.25 but ideally the range"
+  }
+ ]
+}

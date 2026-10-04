@@ -1,0 +1,83 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-16",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-716",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Letter has no TRADES section (vacation-week letter: levels + commentary only), so trades=[]; commentary trade ideas were not transcribed. All numbers ESU5/NQU5 (September contract, no roll mentioned). PPI day. 6341.75 = 7/15 RTH high, 6282 = 7/15 RTH low, 23222.75 = 7/15 RTH excess high, 23120 = 7/15 IB low (kept as numbers). 6300 is the 6299.75 spot rounded per letter. Commentary lean: short below NQ 23090 / ES 6292 toward 6260, 6246, 6230s; failed reclaim of 6300 short idea; none graded. Spike base 6291.25 mentioned but explicitly excluded from levels by him (kept out of zones). '6230s' recorded as [6230,6239].",
+ "zones": {
+  "ES": [
+   [
+    6341.75,
+    6341.75
+   ],
+   [
+    6300,
+    6300
+   ],
+   [
+    6282,
+    6282
+   ],
+   [
+    6335,
+    6335
+   ],
+   [
+    6292,
+    6294
+   ],
+   [
+    6260,
+    6262.5
+   ],
+   [
+    6274,
+    6276
+   ],
+   [
+    6246,
+    6246
+   ],
+   [
+    6230,
+    6239
+   ],
+   [
+    6310,
+    6314.5
+   ],
+   [
+    6299.75,
+    6299.75
+   ]
+  ],
+  "NQ": [
+   [
+    23222.75,
+    23222.75
+   ],
+   [
+    23120,
+    23120
+   ],
+   [
+    22975,
+    22992
+   ],
+   [
+    22901,
+    22909
+   ],
+   [
+    23090,
+    23097
+   ]
+  ]
+ },
+ "trades": []
+}

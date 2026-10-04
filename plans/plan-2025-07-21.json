@@ -1,0 +1,64 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-21",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-721",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "U (Sep 2025) contract, no roll mention. Sunday 7/20 post for Mon 7/21. Letter has NO TRADES section and no grades (COMMENTARY only); es1-es3 are the commentary sentences he frames as a long/short, all tag ''. es1 LBAF of Friday's low: targets 6335.5 ('mindful of'), 6340.5-6342.5, then FRI_HIGH (his conditional 'panic cover ... retest of Friday's high'). es2 gate taken literally from 'look above and fail of 6340.5' -> [6340.5,6340.5] (the zone is 6340.5-6342.5); targets 6335.5, 6323.25-6327, FRI_LOW ('most covered by Friday's low'). es3 lower-high short below 6323.25 has no stated target -> first level down 6310.5-6315. 'Holding above/below' and 'Persistent weakness below 6323.25' scenarios not transcribed as trades (no long/short framing). NQ: only 'NQ can be traded similarly using 174-186 and 234-240 as analogous to the ES 23.25-27 and 40.5-42.5 spots' -> no NQ trades transcribed (analogs would have to be invented; NQ has no stated analog of 6335.5 or 6310.5-6315). '6270s' recorded as [6270,6279]; 6350 (target reached Friday) kept as a level. Friday's high/low not given numerically.",
+ "zones": {
+  "ES": [
+   [6350, 6350],
+   [6300, 6302],
+   [6323.25, 6327],
+   [6340.5, 6342.5],
+   [6335.5, 6335.5],
+   [6310.5, 6315],
+   [6292, 6294],
+   [6270, 6279]
+  ],
+  "NQ": [
+   [23129, 23135],
+   [23174, 23186],
+   [23234, 23240]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "A LBAF of Friday’s low reasonably targets 6340.5-6342.5, mindful of the 6335.5 spot in between. Given the general weakness of sellers as of late, it seems reasonable to expect them to panic cover and drive price through 6342.5 for a retest of Friday’s high if there is a failure below 6323.25.",
+   "kind": "fade",
+   "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [6335.5, [6340.5, 6342.5], "FRI_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of 6340.5",
+   "dir": "short",
+   "tag": "",
+   "quote": "A look above and fail of 6340.5 is a fair short targeting 6323.25-6327, mindful of 6335.5 in between. I would have most covered by Friday’s low, holding a runner if it breaks with continuation.",
+   "kind": "fade",
+   "gate": [6340.5, 6340.5],
+   "tgt": [6335.5, [6323.25, 6327], "FRI_LOW"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Lower high below 6323.25",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’m unlikely to take a breakdown short but will consider doing so on a lower high below 6323.25 for at least a quick scalp.",
+   "kind": "break",
+   "gate": [6323.25, 6323.25],
+   "tgt": [[6310.5, 6315]],
+   "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-25",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-625",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Post range-break trend day; 'I will only plan longs ahead of time'. Letter has NO 'TRADES:' section; COMMENTARY gives ungraded ES dip-buy ideas (bid by 6138.25-6139.75, dip to 6134/6135 reclaiming 6139.75, favored long at 6127-6132 toward 6130-6132, below 6127 likely finds 6116) -> trades=[] per the TRADES-section rule. 6153.75-6155.25 = today's spike base/high; 6109 = last week's high held at the open; 22340 NQ caution level. No contract statement; U5 per batch.",
+ "zones": {
+  "ES": [[6233, 6233], [6215, 6215], [6198, 6202], [6187, 6191], [6153.75, 6155.25], [6143, 6148], [6138.25, 6139.75], [6134, 6135], [6127, 6132], [6130, 6132], [6116, 6116], [6109, 6109], [6105, 6113], [6094.5, 6094.5], [6069, 6071]],
+  "NQ": [[22585, 22592], [22520, 22532], [22450, 22472], [22434.25, 22434.25], [22340, 22340], [22088, 22093]]
+ },
+ "trades": []
+}

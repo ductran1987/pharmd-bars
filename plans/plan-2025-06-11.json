@@ -1,0 +1,95 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-11",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-611",
+ "contract": {
+  "ES": "ESM5",
+  "NQ": "NQM5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Wed 6/11/2025 (CPI; 10-year auction 1pm), June M5 contracts, no roll mentioned. Letter has NO 'Trades:' section ('Keeping it pretty general since we have CPI tomorrow') -> trades=[]. Ideas NOT transcribed: ES longs on a back test of 6024-6028 from above; dips to/just below 6016-6017.5 bought if 24-28 reclaims (retest of today's high); LBAF of 5984.5-5987.5 on a tighter leash; NQ analogues 874-888 / 816-824, 731-740 probably needs to hold, dip buys 680-694 and 630-653. '5970s' recorded as [5970,5979]; '630-650' (recap) and '630-653' both kept.",
+ "zones": {
+  "ES": [
+   [
+    6016,
+    6017.5
+   ],
+   [
+    5984.5,
+    5987.5
+   ],
+   [
+    5972,
+    5975
+   ],
+   [
+    5965,
+    5965
+   ],
+   [
+    5946,
+    5949
+   ],
+   [
+    6024,
+    6028
+   ],
+   [
+    6004,
+    6008
+   ],
+   [
+    5987.5,
+    5987.5
+   ],
+   [
+    5970,
+    5979
+   ]
+  ],
+  "NQ": [
+   [
+    22116,
+    22129
+   ],
+   [
+    21816,
+    21824
+   ],
+   [
+    21731,
+    21742.75
+   ],
+   [
+    21680,
+    21694
+   ],
+   [
+    21731,
+    21740
+   ],
+   [
+    21732,
+    21732
+   ],
+   [
+    21742.75,
+    21742.75
+   ],
+   [
+    21630,
+    21650
+   ],
+   [
+    21630,
+    21653
+   ],
+   [
+    21874,
+    21888
+   ]
+  ]
+ },
+ "trades": []
+}

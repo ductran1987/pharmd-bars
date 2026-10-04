@@ -1,0 +1,34 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-10",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1110",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Monday plan posted Sun 11/9 before futures open (subtitle 'Time to FAFO'); shutdown-resolution / stimulus headlines, likely gap up. Brief letter: no new levels, no TRADES section ('I would generally follow the weekly plan') -> trades = []. Contract not stated, Z (Dec) per batch, no roll mention. Commentary only (ES, ungraded): if gap open above 6800 and bulls hold 6786-6790 on a pullback that is a good look (especially with a higher high); firm base above 6797-6800 with 6786-6790 supported could rotate to test 6858-6869; most informative reaction would be the gap up sold initially. No NQ levels.",
+ "zones": {
+  "ES": [
+   [
+    6800,
+    6800
+   ],
+   [
+    6786,
+    6790
+   ],
+   [
+    6797,
+    6800
+   ],
+   [
+    6858,
+    6869
+   ]
+  ],
+  "NQ": []
+ },
+ "trades": []
+}

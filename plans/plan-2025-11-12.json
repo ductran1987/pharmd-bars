@@ -1,0 +1,87 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-12",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1112",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Wed plan, post dated Tue 11/11 (Veterans Day). Contract not stated; Z (Dec) per batch, no roll mention. TRADES section (Shorts/Longs) is entirely ungraded -> all tags ''. He prefers shorts on NQ (NQ inside day; AMD earnings). ES singles 'between 58 and 64' recorded as [6858,6864] (es1 target, es3 gate); weekly '58-69' ES spot recorded as [6858,6869]. es4 'long at 52 (or between 52 and 58)' is a react-only risky idea, gated [6852,6858]. es2 'shorts on ES on lower highs back below 6852' kept as a break trade with targets today's low (not given numerically -> RTH_LOW) then 6821-6824 from the ES price commentary. es5 '21-24 area if we take out today's low' (scalp, 'temper expectations') has no stated target -> RTH_LOW then 6852 assumed. Skipped generic lines: 'willing to be short in an active downtrend using the above levels as a guide' and 'use ES weakness to short NQ'. NQ 3-digit abbreviations resolved to 25xxx (25646/25596 daily levels); NQ '890-909' -> 25890-25909; overnight high 769 -> 25769.",
+ "zones": {
+  "ES": [[6892, 6893], [6852, 6852], [6880, 6883], [6919, 6922], [6865.75, 6865.75], [6866, 6866], [6858, 6858], [6858, 6864], [6858, 6869], [6852, 6853], [6821, 6824]],
+  "NQ": [[25853, 25863], [25728, 25728], [25646, 25646], [25596, 25596], [25469, 25485], [25686, 25700], [25607, 25629], [25606, 25606], [25566, 25586], [25566, 25566], [25542, 25547], [25546, 25546], [25662, 25662], [25769, 25769], [25890, 25909]]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Failure to sustain above 25686-25700",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short NQ on a failure to sustain above 686-700, targeting 662 and 646 as initial targets. Simply monitor for continuation from there given today was an inside day.",
+   "kind": "fade",
+   "gate": [25686, 25700],
+   "tgt": [25662, 25646],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Failure to sustain above 6880-6883",
+   "dir": "short",
+   "tag": "",
+   "quote": "While shorts are likely best reserved for NQ (if it it remains relatively weak), I am okay with a short on ES on a failure to sustain above 6880-6883. This would effectively be the same as yesterday after the “spike for ants.” We can be short looking for a test of the single prints but may need to consider flipping long.",
+   "kind": "fade",
+   "gate": [6880, 6883],
+   "tgt": [[6858, 6864]],
+   "stop_hint": "may need to consider flipping long"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Lower highs back below 6852",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’ll probably be more interested in other shorts on ES on lower highs back below 6852.",
+   "kind": "break",
+   "gate": [6852, 6852],
+   "tgt": ["RTH_LOW", [6821, 6824]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold of single prints (6858-6864) leading to reclaim of 6866",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long ES on a hold of the single prints which leads to a reclaim of 6866. I’m willing to enter directly within the singles if I see responsive buying, and will be prepared to get flat or take profit to protect a stop if 66 rejects from below.",
+   "kind": "fade",
+   "gate": [6858, 6864],
+   "tgt": [[6880, 6883], [6892, 6893], [6919, 6922]],
+   "stop_hint": "will be prepared to get flat or take profit to protect a stop if 66 rejects from below."
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "React long at 6852 (6852-6858)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I can’t plan on taking a long at 52 (or between 52 and 58) until I see the action real time. It is risky to do so but there are a couple ticks of single prints between 52 and 53 which protects today’s IB high. There should be a fair amount of trapped sellers from today’s IB so there should be a reaction. I’m willing to react, but it is a risky trade until back over 66 and stronger buyers would not let the singles fully fill. Keep that in mind and read the action real time before considering.",
+   "kind": "fade",
+   "gate": [6852, 6858],
+   "tgt": [6866, [6880, 6883]],
+   "stop_hint": "it is a risky trade until back over 66 and stronger buyers would not let the singles fully fill"
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Scalp long at 6821-6824 after taking out today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "I would still keep an eye on the 21-24 area if we take out today’s low on ES. It may be good for at least a scalp but seeing it would represent a break in structure on the 30 minute so temper expectations.",
+   "kind": "fade",
+   "gate": [6821, 6824],
+   "tgt": ["RTH_LOW", 6852],
+   "stop_hint": ""
+  }
+ ]
+}

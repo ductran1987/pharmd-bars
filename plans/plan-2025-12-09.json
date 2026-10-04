@@ -1,0 +1,291 @@
+{
+ "source": "pharmdks",
+ "date": "2025-12-09",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-129",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Tue 12/9/2025 (posted Mon 12/8), subtitle 'Time to Give Back Today's Gains'. Z (Dec) contract per batch, no roll mention. Daily back in balance after cash sellers took out a prior-day low; NVDA news afterhours rip. ES today's low given as 6835.25 (Thursday's low 6836.25). ES abbreviations resolved to 68xx. es1: 'Short a fail of 66.5-69 or a LAAF which might come from 72-74' gated on 6866.5-6869 (72-74 noted in stop_hint); grade written 'Maybe a B/B- at best' -> 'B/B-'; '61 doesn't react' is a condition (stop_hint), targets 58 then 50.5-53. es2 grade written 'Simlar B/B- rating' (typo) -> 'B/B-'. es3 'Shorting a clear lower high below 50.5-53 is reasonable' ungraded, no target -> price commentary 'Below 50.5-53 finds 46 and opens a retest of today's low or at least 40-41.25' (6846, 6840-6841.25, 6835.25). NQ section has no grades (all tags ''). nq1 gate 688-700 ('fail or LAAF of 700 (I would really use 688-700)'); target 'around 657 but the weekly 651-669' -> 25657 (commentary: 'would retest likely the lower portion of the 651-669 range'). nq2 'One could consider shorting 724-730 ... front run the above' - targets taken as the above trade's zone/target (688-700, 657). nq3 'Long a hold of 651-669' has no target -> commentary levels up 688-700, 724-730, 761-769 ('Holding above 651-669 ... keeps open a retest of 761-769'). nq4 hold of 625-628 'iffy ... but it is valid' -> target 651-669. Opens to mark: ES 6pm Sunday 6883 / 09:30 Monday 6886, NQ 25750 / 25791 (kept as zones). Not transcribed: commentary expectations (sustaining below 6835.25 tests 6809.5-6812.5 unless 6828 traps; above 72-74 clean to 80-83 and today's open; persistent failures below 66.5-69 keep last week's low in play; NQ two relative equal daily highs above 761-769 as upside targets).",
+ "zones": {
+  "ES": [
+   [
+    6928,
+    6930
+   ],
+   [
+    6872,
+    6874
+   ],
+   [
+    6840,
+    6841.25
+   ],
+   [
+    6836.25,
+    6836.25
+   ],
+   [
+    6835.25,
+    6835.25
+   ],
+   [
+    6809.5,
+    6812.5
+   ],
+   [
+    6791,
+    6796
+   ],
+   [
+    6828,
+    6828
+   ],
+   [
+    6864,
+    6864
+   ],
+   [
+    6866.5,
+    6869
+   ],
+   [
+    6850.5,
+    6853
+   ],
+   [
+    6861,
+    6861
+   ],
+   [
+    6846,
+    6846
+   ],
+   [
+    6865,
+    6865
+   ],
+   [
+    6880,
+    6883
+   ],
+   [
+    6858,
+    6858
+   ],
+   [
+    6883,
+    6883
+   ],
+   [
+    6886,
+    6886
+   ]
+  ],
+  "NQ": [
+   [
+    26015.5,
+    26031
+   ],
+   [
+    25823,
+    25836
+   ],
+   [
+    25700,
+    25700
+   ],
+   [
+    25625,
+    25628
+   ],
+   [
+    25544,
+    25551
+   ],
+   [
+    25651,
+    25669
+   ],
+   [
+    25688,
+    25700
+   ],
+   [
+    25724,
+    25730
+   ],
+   [
+    25761,
+    25769
+   ],
+   [
+    25750,
+    25750
+   ],
+   [
+    25791,
+    25791
+   ],
+   [
+    25657,
+    25657
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail of 6866.5-6869 or LAAF (possibly from 6872-6874)",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "Short a fail of 66.5-69 or a LAAF which might come from 72-74. As long as 61 doesn’t react, I would expect 58 and most likely 50.5-53. Below there is addressed in the price commentary. This is probably the best pure setup and it still doesn’t compare to today’s setups. Maybe a B/B- at best.",
+   "kind": "fade",
+   "gate": [
+    6866.5,
+    6869
+   ],
+   "tgt": [
+    6858,
+    [
+     6850.5,
+     6853
+    ]
+   ],
+   "stop_hint": "a LAAF which might come from 72-74. As long as 61 doesn’t react"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 6850.5-6853",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a hold of 50.5-53 is “okay.” I don’t love initiating near a prior week VPOC but if buyers have regained control of it (there are a fair number of trapped sellers below it) then I’ll take it and target 61, 65 and 66.5-69. Simlar B/B- rating",
+   "kind": "fade",
+   "gate": [
+    6850.5,
+    6853
+   ],
+   "tgt": [
+    6861,
+    6865,
+    [
+     6866.5,
+     6869
+    ]
+   ],
+   "stop_hint": "if buyers have regained control of it"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Lower high below 6850.5-6853",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorting a clear lower high below 50.5-53 is reasonable",
+   "kind": "break",
+   "gate": [
+    6850.5,
+    6853
+   ],
+   "tgt": [
+    6846,
+    [
+     6840,
+     6841.25
+    ],
+    6835.25
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 25700 (using 25688-25700)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of 700 (I would really use 688-700) targeting around 657 but the weekly 651-669. There isn’t much range with this unless sellers stuff it back below 651.",
+   "kind": "fade",
+   "gate": [
+    25688,
+    25700
+   ],
+   "tgt": [
+    25657
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Short at 25724-25730 (front-running the 700 short)",
+   "dir": "short",
+   "tag": "",
+   "quote": "One could consider shorting 724-730 if sellers present as an attempt to front run the above. It is higher risk but has better reward.",
+   "kind": "fade",
+   "gate": [
+    25724,
+    25730
+   ],
+   "tgt": [
+    [
+     25688,
+     25700
+    ],
+    25657
+   ],
+   "stop_hint": "if sellers present"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold of 25651-25669",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold of 651-669",
+   "kind": "fade",
+   "gate": [
+    25651,
+    25669
+   ],
+   "tgt": [
+    [
+     25688,
+     25700
+    ],
+    [
+     25724,
+     25730
+    ],
+    [
+     25761,
+     25769
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Hold of 25625-25628",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold of 625-628 would be iffy as it would mean this afterhours move had been given back but it is valid.",
+   "kind": "fade",
+   "gate": [
+    25625,
+    25628
+   ],
+   "tgt": [
+    [
+     25651,
+     25669
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

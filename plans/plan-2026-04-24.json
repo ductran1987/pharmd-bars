@@ -1,0 +1,256 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-24",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-424-3ba",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Thu Apr 23, 2026 for Fri 4/24; M6 contract, no roll mention. TRADES section is ungraded ('Implied from the above...') -> all tags ''. It restates the range approach; es1 = the explicit long off the lower effective edge 7117-7124 (or between there and today's low) with target taken from his 'revert to 7117-7124 and 7144-7151' line; the matching short 'off an effective upper edge or between there and absolute range high' names no number (7175-7180 range high / 7185.75 high implied) -> not made a trade. es2/nq1 = 'fail or LAAF of 7148-7152 ES or 969-987 NQ for a short' (one sentence split per instrument). es3/nq2 = 'consider a long on a higher low above there' (kind=break, gated on the pivot zone; no stated target -> first levels from Trading Higher: ES 7166 then 7175-7180; NQ 27031 (minor) then 27069-27086). ES today's low not given numerically -> RTH_LOW. ES ARH 7152.25; NQ ARH 26982, afterhours high 26988.5 (a fresh LAAF 'may now need to sweep' it). NQ commentary-only ideas: LBAF below 26840, 26787-26797 protecting today's low, LBAF of today's low at 26656-26669 that must reclaim 715-735/840/894-911.",
+ "zones": {
+  "ES": [
+   [
+    7062,
+    7064.5
+   ],
+   [
+    7175,
+    7180
+   ],
+   [
+    7088,
+    7091
+   ],
+   [
+    7078,
+    7081
+   ],
+   [
+    7144,
+    7151
+   ],
+   [
+    7141,
+    7141
+   ],
+   [
+    7152.25,
+    7152.25
+   ],
+   [
+    7148,
+    7152
+   ],
+   [
+    7166,
+    7166
+   ],
+   [
+    7171,
+    7173
+   ],
+   [
+    7185.75,
+    7185.75
+   ],
+   [
+    7269,
+    7280
+   ],
+   [
+    7117,
+    7124
+   ]
+  ],
+  "NQ": [
+   [
+    27150,
+    27169
+   ],
+   [
+    26840,
+    26840
+   ],
+   [
+    26787,
+    26797
+   ],
+   [
+    26656,
+    26669
+   ],
+   [
+    26420,
+    26430
+   ],
+   [
+    26355,
+    26355
+   ],
+   [
+    26894,
+    26911
+   ],
+   [
+    26885,
+    26885
+   ],
+   [
+    26969,
+    26987
+   ],
+   [
+    26982,
+    26982
+   ],
+   [
+    26988.5,
+    26988.5
+   ],
+   [
+    26715,
+    26735
+   ],
+   [
+    26609,
+    26630
+   ],
+   [
+    26506,
+    26523
+   ],
+   [
+    27031,
+    27031
+   ],
+   [
+    27057,
+    27057
+   ],
+   [
+    27069,
+    27086
+   ],
+   [
+    27093,
+    27093
+   ],
+   [
+    27230,
+    27246
+   ],
+   [
+    27304,
+    27326
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Long reversal off lower effective edge 7117-7124",
+   "dir": "long",
+   "tag": "",
+   "quote": "The ideal location to enter a long is on a reversal coming off the lower effective edge (7117-7124) or between there and range low (today’s low).",
+   "kind": "fade",
+   "gate": [
+    7117,
+    7124
+   ],
+   "tgt": [
+    [
+     7144,
+     7151
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7148-7152",
+   "dir": "short",
+   "tag": "",
+   "quote": "Outside of that I like the fail or LAAF of 7148-7152 ES or 969-987 NQ for a short.",
+   "kind": "fade",
+   "gate": [
+    7148,
+    7152
+   ],
+   "tgt": [
+    [
+     7117,
+     7124
+    ],
+    "RTH_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Higher low above 7148-7152 (will consider)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I will consider a long on a higher low above there which is effectively implied from the above (long in a session uptrend toward an upper etc).",
+   "kind": "break",
+   "gate": [
+    7148,
+    7152
+   ],
+   "tgt": [
+    7166,
+    [
+     7175,
+     7180
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 26969-26987",
+   "dir": "short",
+   "tag": "",
+   "quote": "Outside of that I like the fail or LAAF of 7148-7152 ES or 969-987 NQ for a short.",
+   "kind": "fade",
+   "gate": [
+    26969,
+    26987
+   ],
+   "tgt": [
+    [
+     26894,
+     26911
+    ],
+    26840
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Higher low above 26969-26987 (will consider)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I will consider a long on a higher low above there which is effectively implied from the above (long in a session uptrend toward an upper etc).",
+   "kind": "break",
+   "gate": [
+    26969,
+    26987
+   ],
+   "tgt": [
+    27031,
+    [
+     27069,
+     27086
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

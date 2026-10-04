@@ -1,0 +1,111 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-28",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1028",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Day after a second big gap up / spike-and-float day following the 6-week balance break; major tech earnings ahead; author not planning shorts until the daily balances. Contract not stated; Z (Dec) assumed per batch (no roll mention). No 'TRADES:' heading; the closing 'Trade Ideas:' list is treated as the trades section -> all trades UNGRADED (tag ''). Each idea is stated for both indices ('respective spike bases', 'Same deal for ES') so split per instrument. Idea 1 'holding above today's high and spike base' split into a hold of today's high (es1/nq1) and a hold of the spike base (es2/nq2): ES today's high 6911.75 with weekly 6908-6911 as stated proxy -> [6908,6911.75]; NQ high 25981.25 with weekly 25969-25983 as proxy -> [25969,25983]; spike bases ES 6899.25 / NQ 25946 gated on the daily levels 6899-6901 / 25946-25954. Longs have no stated targets above today's high -> used the only higher daily levels, ES 6923.5 and NQ 26033. Shorts below spike bases (es3/nq3, kind=break) target the commentary levels below (ES IB high 6892.5, weekly 6885-6888; NQ 25926, 25918, weekly 25890-25909). IB-dip longs (es4/nq4): NQ uses his 'say the 858-868 range' -> [25858,25868]; ES gate [6885,6892.5] = IB high 6892.5 down to weekly 6885-6888 ('the area in between' per commentary) - approximate. Commentary-only NQ idea (not promoted): long on dips to 25918 / weekly 25890-25909. Weekly 6863-6866 held overnight (kept as zone).",
+ "zones": {
+  "ES": [[6923.5, 6923.5], [6899, 6901], [6892.5, 6892.5], [6863, 6866], [6899.25, 6899.25], [6908, 6911], [6911.75, 6911.75], [6885, 6888]],
+  "NQ": [[26033, 26033], [25946, 25954], [25918, 25918], [25876, 25876], [25946, 25946], [25969, 25983], [25981.25, 25981.25], [25926, 25926], [25890, 25909], [25858, 25868]]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold above today's high (6911.75; proxy 6908-6911)",
+   "dir": "long",
+   "tag": "",
+   "quote": "In terms of setups, holding above today’s high and spike base is the cleanest for longs.",
+   "kind": "fade",
+   "gate": [6908, 6911.75],
+   "tgt": [6923.5],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold above today's high (25981.25; proxy 25969-25983)",
+   "dir": "long",
+   "tag": "",
+   "quote": "In terms of setups, holding above today’s high and spike base is the cleanest for longs.",
+   "kind": "fade",
+   "gate": [25969, 25983],
+   "tgt": [26033],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of spike base 6899-6901",
+   "dir": "long",
+   "tag": "",
+   "quote": "In terms of setups, holding above today’s high and spike base is the cleanest for longs.",
+   "kind": "fade",
+   "gate": [6899, 6901],
+   "tgt": [[6908, 6911.75], 6923.5],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold of spike base 25946-25954",
+   "dir": "long",
+   "tag": "",
+   "quote": "In terms of setups, holding above today’s high and spike base is the cleanest for longs.",
+   "kind": "fade",
+   "gate": [25946, 25954],
+   "tgt": [[25969, 25983], 26033],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Short below spike base 6899-6901",
+   "dir": "short",
+   "tag": "",
+   "quote": "One can consider being short below the respective spike bases but keep in mind the strength of the broader trend.",
+   "kind": "break",
+   "gate": [6899, 6901],
+   "tgt": [6892.5, [6885, 6888]],
+   "stop_hint": "keep in mind the strength of the broader trend"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Short below spike base 25946-25954",
+   "dir": "short",
+   "tag": "",
+   "quote": "One can consider being short below the respective spike bases but keep in mind the strength of the broader trend.",
+   "kind": "break",
+   "gate": [25946, 25954],
+   "tgt": [25926, 25918, [25890, 25909]],
+   "stop_hint": "keep in mind the strength of the broader trend"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Responsive bid on dip into today's IB (6885-6892.5)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Outside of that, monitoring for a responsive bid in alignment with tomorrow’s session profile on dips into today’s IB can work",
+   "kind": "fade",
+   "gate": [6885, 6892.5],
+   "tgt": [[6899, 6901]],
+   "stop_hint": "in alignment with tomorrow’s session profile"
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Responsive bid on dip into today's IB (25858-25868)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Outside of that, monitoring for a responsive bid in alignment with tomorrow’s session profile on dips into today’s IB can work",
+   "kind": "fade",
+   "gate": [25858, 25868],
+   "tgt": [25876, [25890, 25909], 25918],
+   "stop_hint": "in alignment with tomorrow’s session profile"
+  }
+ ]
+}

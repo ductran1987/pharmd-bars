@@ -1,0 +1,270 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-19",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-919",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "All numbers ESZ5/NQZ5 (letter: 'I am now using ESZ/NQZ levels moving forward'). Typos read literally-corrected: NQ weekly '24722-22740' -> 24722-24740; '480-793' -> 24780-24793. The rotational paragraph (edges ES 6687-6690/6707-6710, NQ 24722-24740/24780-24793) is split into four trades with the grades he assigns: ES long A/A- (es1), ES short C+/B- (es2), NQ long B/B+ (nq1), NQ short C+/B- (nq2), all quoting the same paragraph. es3 (LBAF of 6687-6690, A/A+) overlaps es1 - it is the upgraded version. 'LBAF of today's low on either' (B/B+) -> es4 and nq3, gated RTH_LOW (no number given); ES today's low is below 6681 and above 6666-6669, NQ today's low is near 24600 (held Tuesday's high), so their targets are the next commentary levels above. nq4/es5 lower-high shorts are ungraded ('can consider'); gated on the zone and kind=break like 'lower high below X'. The LAAF of today's high on either index is explicitly not planned ('I won't plan on this short') -> not transcribed. SPX 6666-6669 mention is SPX, not ES. 'rally into the 24800s' not recorded as a level.",
+ "zones": {
+  "ES": [
+   [
+    6681,
+    6682.5
+   ],
+   [
+    6687,
+    6690
+   ],
+   [
+    6650,
+    6653
+   ],
+   [
+    6611,
+    6611
+   ],
+   [
+    6707,
+    6710
+   ],
+   [
+    6729,
+    6732
+   ],
+   [
+    6666,
+    6669
+   ]
+  ],
+  "NQ": [
+   [
+    24600,
+    24600
+   ],
+   [
+    24515,
+    24524
+   ],
+   [
+    24341.5,
+    24341.5
+   ],
+   [
+    24722,
+    24740
+   ],
+   [
+    24780,
+    24793
+   ],
+   [
+    24669,
+    24683
+   ],
+   [
+    24611,
+    24625
+   ],
+   [
+    24553,
+    24569
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Rotational long: hold/LBAF of lower edge 6687-6690",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "The rotational trading on either ES or NQ mentioned above, broadly favoring longs as buyers are in control. The ES lower edge is perhaps more clean than NQ, and NQ was a tad heavier late today so I may prefer to long ES in these situations. Shorts are valid, just not preferred, as long as price is rotating (or better sees a failed break) between these edges and there is a reversal into a downtrend, or one has compelling order flow reasons to get short. I would rate the ES long as an A/A-, the NQ long as a B/B+, and shorts on either as a C+/B-.",
+   "kind": "fade",
+   "gate": [
+    6687,
+    6690
+   ],
+   "tgt": [
+    [
+     6707,
+     6710
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Rotational short: fade upper edge 6707-6710",
+   "dir": "short",
+   "tag": "C+/B-",
+   "quote": "The rotational trading on either ES or NQ mentioned above, broadly favoring longs as buyers are in control. The ES lower edge is perhaps more clean than NQ, and NQ was a tad heavier late today so I may prefer to long ES in these situations. Shorts are valid, just not preferred, as long as price is rotating (or better sees a failed break) between these edges and there is a reversal into a downtrend, or one has compelling order flow reasons to get short. I would rate the ES long as an A/A-, the NQ long as a B/B+, and shorts on either as a C+/B-.",
+   "kind": "fade",
+   "gate": [
+    6707,
+    6710
+   ],
+   "tgt": [
+    [
+     6687,
+     6690
+    ]
+   ],
+   "stop_hint": "as long as price is rotating (or better sees a failed break) between these edges and there is a reversal into a downtrend, or one has compelling order flow reasons to get short."
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Rotational long: hold/LBAF of lower edge 24722-24740",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "The rotational trading on either ES or NQ mentioned above, broadly favoring longs as buyers are in control. The ES lower edge is perhaps more clean than NQ, and NQ was a tad heavier late today so I may prefer to long ES in these situations. Shorts are valid, just not preferred, as long as price is rotating (or better sees a failed break) between these edges and there is a reversal into a downtrend, or one has compelling order flow reasons to get short. I would rate the ES long as an A/A-, the NQ long as a B/B+, and shorts on either as a C+/B-.",
+   "kind": "fade",
+   "gate": [
+    24722,
+    24740
+   ],
+   "tgt": [
+    [
+     24780,
+     24793
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Rotational short: fade upper edge 24780-24793",
+   "dir": "short",
+   "tag": "C+/B-",
+   "quote": "The rotational trading on either ES or NQ mentioned above, broadly favoring longs as buyers are in control. The ES lower edge is perhaps more clean than NQ, and NQ was a tad heavier late today so I may prefer to long ES in these situations. Shorts are valid, just not preferred, as long as price is rotating (or better sees a failed break) between these edges and there is a reversal into a downtrend, or one has compelling order flow reasons to get short. I would rate the ES long as an A/A-, the NQ long as a B/B+, and shorts on either as a C+/B-.",
+   "kind": "fade",
+   "gate": [
+    24780,
+    24793
+   ],
+   "tgt": [
+    [
+     24722,
+     24740
+    ]
+   ],
+   "stop_hint": "as long as price is rotating (or better sees a failed break) between these edges and there is a reversal into a downtrend, or one has compelling order flow reasons to get short."
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of 6687-6690 (holding 6681-6682.5)",
+   "dir": "long",
+   "tag": "A/A+",
+   "quote": "A LBAF of 6687-6690 (say holding 6681-6682.5) is part of rotational trading but I give it an upgrade to an A/A+",
+   "kind": "fade",
+   "gate": [
+    6687,
+    6690
+   ],
+   "tgt": [
+    [
+     6707,
+     6710
+    ]
+   ],
+   "stop_hint": "say holding 6681-6682.5"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "The LBAF of today’s low on either has very good reason to work, so I consider either a B/B+ and the only reason it isn’t higher is because bulls really shouldn’t be giving back a prior day low at all so quickly after this move.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     6681,
+     6682.5
+    ],
+    [
+     6687,
+     6690
+    ]
+   ],
+   "stop_hint": "bulls really shouldn’t be giving back a prior day low at all so quickly after this move."
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "The LBAF of today’s low on either has very good reason to work, so I consider either a B/B+ and the only reason it isn’t higher is because bulls really shouldn’t be giving back a prior day low at all so quickly after this move.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     24669,
+     24683
+    ],
+    [
+     24722,
+     24740
+    ]
+   ],
+   "stop_hint": "bulls really shouldn’t be giving back a prior day low at all so quickly after this move."
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Lower high short below 24669-24683",
+   "dir": "short",
+   "tag": "",
+   "quote": "One can consider a lower high short on NQ below 669-683 but I would be quite careful as buyers should be active there.",
+   "kind": "break",
+   "gate": [
+    24669,
+    24683
+   ],
+   "tgt": [
+    [
+     24611,
+     24625
+    ],
+    "RTH_LOW"
+   ],
+   "stop_hint": "I would be quite careful as buyers should be active there."
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Lower high short below 6687-6690",
+   "dir": "short",
+   "tag": "",
+   "quote": "Below 87-90 on ES can be the same but I would see that as even lower confidence until at least 81-82.5 has been touched and not produced a strong response.",
+   "kind": "break",
+   "gate": [
+    6687,
+    6690
+   ],
+   "tgt": [
+    [
+     6681,
+     6682.5
+    ],
+    "RTH_LOW"
+   ],
+   "stop_hint": "even lower confidence until at least 81-82.5 has been touched and not produced a strong response."
+  }
+ ]
+}

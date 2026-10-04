@@ -1,0 +1,38 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-07",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-87",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Thu; posted Wed Aug 6, 2025 (day after the AAPL-deal rally). U (Sep) contract, no roll mention. Letter has NO trades heading - only levels + COMMENTARY with Trading Higher / Trading Lower, no grades - so trades=[] per the literal rule. Commentary ideas (not promoted): ES first order of business is the 6377-6379.5 spike; sustain above 6379.5 likely tests 6395-6400 but cautious of 6386-6388 causing a LAAF; 6403-6405.5 could trigger a look above and fail of 6395-6400; reclaim/hold of 6400 likely retests ATH; failing to sustain above 6377-6379.5 likely sees 6363, potentially 6358 and the key 6355-6356.5 test; 'If 6358 broadly holds I will favor longs at least for a retest of the spike' (6377-6379.5); trading between 6358 and 6377 awkward, more clarity below 6355 and above 6379.5; holding below 6355 likely brings liquidation targeting 6334 (week's developing VPOC), mindful of 6338-6340, today's low 6325.75 almost certainly taken out below 6334. NQ: holding below 23331-23346 risks liquidation; cautious assuming weekly 23357-23366 lost until below 23331-23346. Optional manual levels: 6363 single level in place of weekly 6358-6366, today's IB high 6351. 6360 (SPX prior-balance bottom) skipped. NQ 23022.75-23045.5 and 23146.75-23159 from the recap kept as zones.",
+ "zones": {
+  "ES": [
+   [6403, 6405.5],
+   [6395, 6400],
+   [6386, 6388],
+   [6377, 6379.5],
+   [6363, 6363],
+   [6358, 6366],
+   [6358, 6358],
+   [6355, 6356.5],
+   [6351, 6351],
+   [6338, 6340],
+   [6334, 6334],
+   [6325.75, 6325.75],
+   [6302, 6302],
+   [6280, 6280]
+  ],
+  "NQ": [
+   [23424.75, 23438],
+   [23397.25, 23397.25],
+   [23357, 23366],
+   [23331, 23346],
+   [23285, 23298],
+   [23223, 23237],
+   [23146.75, 23159],
+   [23022.75, 23045.5]
+  ]
+ },
+ "trades": []
+}

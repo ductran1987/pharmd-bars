@@ -1,0 +1,83 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-03",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-73",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Shortened holiday session (early close) with NFP and jobless claims premarket. Letter has NO 'TRADES:' section (levels + COMMENTARY, ungraded) -> trades=[] per the TRADES-section rule; commentary ideas not transcribed: ES failure to sustain above today's spike 6273.75-6276.5 -> 6248-6254 ('may not even take a short'), longs favored above 6248.5-6254; NQ 'I would monitor for a LBAF of 760-781', today's IB high 22798.25 reclaim as confirmation. Letter writes the spike as both 6273.75-6276.5 and 6273.75-6276.6 (6276.5 used). B-period single prints ES 6248.5-6254 and NQ 22728.25-22771 recorded. Recap prints of the 7/2 session (ON high 22781.25, premarket lows 22582 / 6235.5, Friday/Tuesday lows 22594.5/22600) not recorded as zones. No contract statement and no roll mention; U5 per batch.",
+ "zones": {
+  "ES": [
+   [
+    6273.75,
+    6276.5
+   ],
+   [
+    6233,
+    6234
+   ],
+   [
+    6224.25,
+    6227.5
+   ],
+   [
+    6224.25,
+    6224.25
+   ],
+   [
+    6220.75,
+    6220.75
+   ],
+   [
+    6217,
+    6217
+   ],
+   [
+    6208.5,
+    6208.5
+   ],
+   [
+    6248,
+    6254
+   ],
+   [
+    6248.5,
+    6254
+   ]
+  ],
+  "NQ": [
+   [
+    22864,
+    22869
+   ],
+   [
+    22848.25,
+    22854
+   ],
+   [
+    22798.25,
+    22798.25
+   ],
+   [
+    22760,
+    22781
+   ],
+   [
+    22648,
+    22654
+   ],
+   [
+    22570,
+    22570
+   ],
+   [
+    22728.25,
+    22771
+   ]
+  ]
+ },
+ "trades": []
+}

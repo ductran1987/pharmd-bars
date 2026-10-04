@@ -1,0 +1,35 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-20",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-420",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Sun Apr 19, 2026 for Mon 4/20; M6 contract, no roll mention. Brief note after another Sunday gap down: no TRADES section, only two added levels + commentary -> trades []. Commentary ideas (ungraded, not promoted): if both ES and NQ reclaim and hold Friday's range, expect 7144-7151 ES and 26715-26735 NQ tested (only reasonable areas to defend before a retest of Friday's high, FRI_HIGH); sellers need to defend Friday's ES low, get back below Friday's low on NQ (FRI_LOW) and find acceptance back into Thursday's range; sellers must trade meaningfully below the session low (5-minute OR low, OR5_LOW) or are weak.",
+ "zones": {
+  "ES": [
+   [
+    7085,
+    7089
+   ],
+   [
+    7144,
+    7151
+   ]
+  ],
+  "NQ": [
+   [
+    26858,
+    26858
+   ],
+   [
+    26715,
+    26735
+   ]
+  ]
+ },
+ "trades": []
+}

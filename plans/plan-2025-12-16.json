@@ -1,0 +1,98 @@
+{
+ "source": "pharmdks",
+ "date": "2025-12-16",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1216",
+ "contract": {
+  "ES": "ESH6",
+  "NQ": "NQH6"
+ },
+ "roll_note": "I’ll be referencing the new March contract moving forward as contract roll is taking place. | NOTE: The weekly plan covered analysis for both December and March contracts. Since so many use Tradingview and it rolls tonight I will use March levels (ESH2026 and NQH2026) moving forward.",
+ "ref_date_note": "NFP day. Letter explicitly switches to March (H6) levels. TRADES section is ungraded and mostly conditional: es1 = ES LBAF of range low (ungraded); 'range low' not given numerically - transcribed as FRI_LOW since commentary says ES came close to Friday's low without taking it (the 12/1 low is also mentioned as a sweep candidate; ambiguous). es1 has no stated target -> commentary upside 6902.5, 6905-6909.5, 6946; reclaim requirement (today's low 6864.25 / 6866.5-6869) in stop_hint. 'If it breaks to the downside with continuation, then slapping NQ short almost certainly works' names no NQ level -> not transcribed (would be ES break below range low -> NQ short). Commentary ideas (not trades): ES downside break -> 6850-6855, 6824-6828, 6809.5-6812.5 (on H) possibly supportive; monitor LAAF of 6902.5 (candidate 6905-6909.5) as short, more so if range low not yet failed; holding above 6902.5/6905-6909.5 -> today's open, 6946. NQ objective short until it takes out a prior day high; LAAF of 25440-25448 to monitor; singles 25517-25762; last week's low 25371.5 in 25369-25388. '6791-6796' mentioned as the December-contract equivalent of H 6850-6855 -> excluded from zones.",
+ "zones": {
+  "ES": [
+   [
+    6902.5,
+    6902.5
+   ],
+   [
+    6850,
+    6855
+   ],
+   [
+    6824,
+    6828
+   ],
+   [
+    6809.5,
+    6812.5
+   ],
+   [
+    6864.25,
+    6864.25
+   ],
+   [
+    6866.5,
+    6869
+   ],
+   [
+    6905,
+    6909.5
+   ],
+   [
+    6946,
+    6946
+   ]
+  ],
+  "NQ": [
+   [
+    25517,
+    25517
+   ],
+   [
+    25440,
+    25448
+   ],
+   [
+    25369,
+    25388
+   ],
+   [
+    25371.5,
+    25371.5
+   ],
+   [
+    25762,
+    25762
+   ],
+   [
+    25402,
+    25410
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of range low (Friday's low)",
+   "dir": "long",
+   "tag": "",
+   "quote": "The LBAF and I have to make an attempt long and say “good game” to sellers if they are able to negate it and make a new low.",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    6902.5,
+    [
+     6905,
+     6909.5
+    ],
+    6946
+   ],
+   "stop_hint": "ES would need to reclaim today’s low 6864.25 bare minimum but really the 6866.5-6869 range for the trap to potentially be in motion. ... “good game” to sellers if they are able to negate it and make a new low."
+  }
+ ]
+}

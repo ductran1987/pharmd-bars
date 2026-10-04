@@ -1,0 +1,30 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-26",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1126",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Two-day title '11/26, 11/28' (posted Tue 11/25): 'This plan will cover both Wednesday and Friday because of the holiday' -> plan date Wed 11/26; the same plan also covers Fri 11/28 (Thanksgiving 11/27). Z (Dec 2025) contract per batch; no roll mention. TRADES section is UNGRADED (all tags ''). Trades taken from it: 'Longs are safest above 6749.75-6755 ES and 24969-24977 / 24913.5-24938 NQ' read as hold-longs of those areas (es1, nq1, nq2; dip-buying in the 30-min uptrend) and 'An upside break of today's high with continuation is a long until it isn't' applied to both instruments (es2, nq3). Skipped: 'open to shorts on failures from buyers to sustain the spike' (no level; he calls any short a rental). ES today's high given only as 'sits in the weekly 6791-6795' -> es2 gate [6791,6795]; NQ today's high 25135.25 given -> nq3 gated on number. No targets in TRADES: es1 -> 6760-6763, 6778.25 (spike base), 6791-6795; es2 -> next daily levels 6801.5-6803, 6841-6844 (ES Thursday's open/high already taken); nq1 -> 25047, 25061 (spike base), today's high 25135.25; nq2 -> 24969-24977, 25047, 25061; nq3 -> weekly 25173-25197 then THU_HIGH ('basing above there should find Thursday's open and high'; Thursday = 11/20; Thursday's open not a REF). Commentary only: holding below 6778.25 (or 6774) targets 6763; below 6749.75 tenuous, 6738-6741 and 6729.5-6731.75 supportive; bear trap only if a prior day low below 6791-6795 is taken out. NQ holding below 25061 (more confidence below 25047) -> 24969-24977, take profit if short by the 24990s; 24869-24882 and 24817-24832 supportive; major bearish sequence below 24817 (24750-24769). 'I get extremely cautious if/when NQ gets near the 25400-24500 range' is an evident typo (probably 25400-25500), not recorded as a zone. ES 6741 = IB high reference from 11/25.",
+ "zones": {
+  "ES": [[6880, 6883], [6850.5, 6854], [6841, 6844], [6801.5, 6803], [6791, 6795], [6778.25, 6778.25], [6774, 6774], [6763, 6763], [6760, 6763], [6749.75, 6755], [6741, 6741], [6738, 6741], [6729.5, 6731.75], [6709, 6715]],
+  "NQ": [[25686, 25700], [25669, 25669], [25571, 25582], [25542, 25547], [25173, 25197], [25135.25, 25135.25], [25061, 25061], [25047, 25047], [24969, 24977], [24913.5, 24938], [24869, 24882], [24817, 24832], [24750, 24769]]
+ },
+ "trades": [
+  {"id": "es1", "instrument": "ES", "name": "Hold of 6749.75-6755 (dip-buy long)", "dir": "long", "tag": "",
+   "quote": "Otherwise, this week is in an obvious 30-minute uptrend. As long as that remains the case I am open to buying dips based on the above commentary. Longs are safest above 6749.75-6755 ES and 24969-24977 / 24913.5-24938 NQ.",
+   "kind": "fade", "gate": [6749.75, 6755], "tgt": [[6760, 6763], 6778.25, [6791, 6795]], "stop_hint": ""},
+  {"id": "nq1", "instrument": "NQ", "name": "Hold of 24969-24977 (dip-buy long)", "dir": "long", "tag": "",
+   "quote": "Otherwise, this week is in an obvious 30-minute uptrend. As long as that remains the case I am open to buying dips based on the above commentary. Longs are safest above 6749.75-6755 ES and 24969-24977 / 24913.5-24938 NQ.",
+   "kind": "fade", "gate": [24969, 24977], "tgt": [25047, 25061, 25135.25], "stop_hint": ""},
+  {"id": "nq2", "instrument": "NQ", "name": "Hold of 24913.5-24938 (dip-buy long)", "dir": "long", "tag": "",
+   "quote": "Otherwise, this week is in an obvious 30-minute uptrend. As long as that remains the case I am open to buying dips based on the above commentary. Longs are safest above 6749.75-6755 ES and 24969-24977 / 24913.5-24938 NQ.",
+   "kind": "fade", "gate": [24913.5, 24938], "tgt": [[24969, 24977], 25047, 25061], "stop_hint": ""},
+  {"id": "es2", "instrument": "ES", "name": "Upside break of today's high (6791-6795)", "dir": "long", "tag": "",
+   "quote": "An upside break of today’s high with continuation is a long until it isn’t.",
+   "kind": "break", "gate": [6791, 6795], "tgt": [[6801.5, 6803], [6841, 6844]], "stop_hint": ""},
+  {"id": "nq3", "instrument": "NQ", "name": "Upside break of today's high (25135.25)", "dir": "long", "tag": "",
+   "quote": "An upside break of today’s high with continuation is a long until it isn’t.",
+   "kind": "break", "gate": [25135.25, 25135.25], "tgt": [[25173, 25197], "THU_HIGH"], "stop_hint": ""}
+ ]
+}

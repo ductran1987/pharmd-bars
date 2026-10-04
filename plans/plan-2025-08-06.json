@@ -1,0 +1,110 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-06",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-86",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Wed; posted Tue Aug 5, 2025 ('I'm Short. Come Get Me' - he holds puts and plans to short pops). U (Sep) contract, no roll mention. Trade section is 'Price:' with NQ: and ES: (Trading Higher / Trading Lower) subsections; no grades anywhere, so all trades tag ''. Today's lows given numerically (NQ 23113.5, ES 6315.5) and used as numbers. nq1 long hold/LBAF of today's low needs reclaim of 23146.75-23159 (stop_hint); described as a hedge against existing shorts. nq3 ARH 23252 (not in his level list). es1 no explicit target beyond 'for a shot at today's low' -> 6315.5. es2 LAAF of 6348.75: first target the 6338-6340 partial-cover spot, then today's low 6315.5 (carried from es1's 'shot at today's low'). es3 LBAF of today's low (only 'somewhat eligible', conditional on holding 6311.5 Friday's high; caution if NQ below 23090) -> targets from Trading Higher 6338-6340 then 6348.75. Weekly range written '6358.8-6366' in intro and '6358-6366' in commentary (8/5 letter had 6358.25-6366) -> zone recorded [6358,6366]. Not promoted (commentary/implied only): below NQ 23090-23108 / 23113.5 'simply monitor the downside levels for continuation'; ES holding below 6311.5 finds 6302 then 6292-6297 and he expects at least 6297 (cover spot, impromptu intraday long only); time/volume below 6280 risks 6260-6262.5; holding above 6348.75 likely retests 6358-6366; NQ back above 23305-23311 = sellers dead; no planned longs below Monday's low 6302.",
+ "zones": {
+  "ES": [
+   [6371.75, 6371.75],
+   [6358, 6366],
+   [6348.75, 6348.75],
+   [6338, 6340],
+   [6315.5, 6315.5],
+   [6311.5, 6318.75],
+   [6302, 6302],
+   [6292, 6297],
+   [6287, 6287],
+   [6280, 6280],
+   [6260, 6262.5]
+  ],
+  "NQ": [
+   [23397.25, 23397.25],
+   [23305, 23311],
+   [23285, 23289],
+   [23256, 23266],
+   [23252, 23252],
+   [23223, 23237],
+   [23146.75, 23159],
+   [23113.5, 23113.5],
+   [23090, 23108],
+   [22983, 22983]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of today's low (23113.5) reclaiming 23146.75-23159",
+   "dir": "long",
+   "tag": "",
+   "quote": "If NQ holds or ends up with a LBAF of today’s low (and reclaims 23146.75-23159) then we likely see a rotation back to 23223-23237 which also likely provides some relief for ES. This is a reasonable long, especially to use as a hedge against existing shorts/puts.",
+   "kind": "fade",
+   "gate": [23113.5, 23113.5],
+   "tgt": [[23223, 23237]],
+   "stop_hint": "and reclaims 23146.75-23159"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Failure to get through 23223-23237",
+   "dir": "short",
+   "tag": "",
+   "quote": "Any failure to get through 23223-23237 is a short back to 23146.75-23159 and today’s low.",
+   "kind": "fade",
+   "gate": [23223, 23237],
+   "tgt": [[23146.75, 23159], 23113.5],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Sweep of ARH 23252 failing back below 23223",
+   "dir": "short",
+   "tag": "",
+   "quote": "If we get a decent rally that sweeps the afternoon rally high (23252 not listed for NQ as it is just below the weekly 256-266 spot) and fails back below 23223 can work the same.",
+   "kind": "fade",
+   "gate": [23252, 23252],
+   "tgt": [[23146.75, 23159], 23113.5],
+   "stop_hint": "fails back below 23223"
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Failed reclaim / look above and fail of 6338-6340",
+   "dir": "short",
+   "tag": "",
+   "quote": "Sellers will want to cap 6338-6340 as upside for a shot at today’s low. I would therefore take a short on a failure to reclaim 6338-6340 or on a look above and fail.",
+   "kind": "fade",
+   "gate": [6338, 6340],
+   "tgt": [6315.5],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of 6348.75 ARH",
+   "dir": "short",
+   "tag": "",
+   "quote": "Therefore, a LAAF of 48.75 is a reasonable short, but know it needs back below 6338 to trigger weakness. I would be prepared to cover at least a portion on a hold of 6338-6340 in that event.",
+   "kind": "fade",
+   "gate": [6348.75, 6348.75],
+   "tgt": [[6338, 6340], 6315.5],
+   "stop_hint": "know it needs back below 6338 to trigger weakness. I would be prepared to cover at least a portion on a hold of 6338-6340"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of today's low (6315.5) holding 6311.5",
+   "dir": "long",
+   "tag": "",
+   "quote": "Today’s low (6315.5) sits in the weekly 6311.5-6318.75 range. I therefore see it as somewhat eligible for a LBAF if it simply holds 6311.5 Friday’s high. If NQ is below its 23090 spot I would proceed with extreme caution with longs.",
+   "kind": "fade",
+   "gate": [6315.5, 6315.5],
+   "tgt": [[6338, 6340], 6348.75],
+   "stop_hint": "if it simply holds 6311.5 Friday’s high. If NQ is below its 23090 spot I would proceed with extreme caution with longs."
+  }
+ ]
+}

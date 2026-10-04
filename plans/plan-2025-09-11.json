@@ -1,0 +1,39 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-11",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-911",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "'Market Top or Hangover Day?' CPI day. U (Sep) contract, no roll mention. Letter has NO TRADES section - levels + COMMENTARY only ('I’ll again keep it big picture ahead of CPI') - so trades=[] per the literal rule. Ungraded commentary ideas: NQ holding below 23869-23885 (and arguably 23902) leaves open a trip to 23700-23724; must firmly reclaim 23902; 'monitor for failed reclaims of 23885 as high as 23925'; reclaim 23902 and test 23920s without rejection -> bulls likely safe to 960-980 (23960-23980); possible LBAF of yesterday's low even from 23669-23680; 23785 (today's low) 'monitor for LBAF'. ES: 'A weak market will hold below 42-45 and find traction below today’s low and 15-16.5. A strong market would hold today’s low (or trigger a LBAF) and reclaim 42-45'; 'We can monitor 6542-6545 for a failed reclaim/LAAF and consider shorts' (needs traction below today's low and 6515-6516.5); join a session uptrend on a reversal off the lows inside today's range; trapped sellers below 6530; 'failed distribution' if ES loses 6520-6524 and 6515-6516.5; sellers must sustain below 6488-6490.25 (NQ 23700-23724 incl. Tuesday's low 23726). Yesterday's ES cash high 6526.25. Weekly NQ fix repeated: 23824-23841 should be 23804-23822.",
+ "zones": {
+  "ES": [
+   [6530, 6530],
+   [6515, 6516.5],
+   [6508, 6508],
+   [6488, 6490.5],
+   [6459, 6461],
+   [6425, 6427.75],
+   [6418, 6418],
+   [6526.25, 6526.25],
+   [6542, 6545],
+   [6520, 6524],
+   [6488, 6490.25]
+  ],
+  "NQ": [
+   [23804, 23822],
+   [23902, 23902],
+   [23785, 23785],
+   [23752, 23769],
+   [23669, 23680],
+   [23586, 23596],
+   [23454, 23462],
+   [23869, 23885],
+   [23960, 23980],
+   [23700, 23724],
+   [23726, 23726],
+   [23885, 23925]
+  ]
+ },
+ "trades": []
+}

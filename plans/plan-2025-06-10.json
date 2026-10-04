@@ -1,0 +1,119 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-10",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-610",
+ "contract": {
+  "ES": "ESM5",
+  "NQ": "NQM5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Tue 6/10/2025, June M5 contracts, no roll mentioned. Letter has NO 'Trades:' section; he writes 'I’ll jump right into trades which are very similar to the trades for today, but perhaps not even as good' and then gives the ideas inside COMMENTARY, all ungraded -> trades=[] under the TRADES-section-only rule (most debatable call in this batch). Ideas NOT transcribed: LBAF of today's low (NQ most likely from 731-740, ES from 97/98) - 'I won't even rate them'; NQ short on a session downtrend below 21824.25 (target retest of today's low 21750.75, mindful of 803/784.75); ES short if it cannot clear 6019 and a session downtrend starts (sequence to 5987.5, 5972-5975, 5956-5959); ES trapped below 6004-6008 should find today's low (6000), possibly Friday's low; still likes LBAF of Friday's low on ES; Monday's dip-buy trades (ES 72-75, NQ 680-694, NQ 630-653) if trading lower. Today's low = ES 6000, NQ 21750.75.",
+ "zones": {
+  "ES": [
+   [
+    6019,
+    6019
+   ],
+   [
+    6000,
+    6000
+   ],
+   [
+    5997,
+    5998
+   ],
+   [
+    5984.5,
+    5987.5
+   ],
+   [
+    5972,
+    5975
+   ],
+   [
+    5965,
+    5965
+   ],
+   [
+    5946,
+    5949
+   ],
+   [
+    6024,
+    6028
+   ],
+   [
+    6004,
+    6008
+   ],
+   [
+    6006,
+    6008
+   ],
+   [
+    6015,
+    6015
+   ],
+   [
+    5987.5,
+    5987.5
+   ],
+   [
+    5956,
+    5959
+   ]
+  ],
+  "NQ": [
+   [
+    21846,
+    21846
+   ],
+   [
+    21824.25,
+    21824.25
+   ],
+   [
+    21784.75,
+    21784.75
+   ],
+   [
+    21750.75,
+    21750.75
+   ],
+   [
+    21731,
+    21740
+   ],
+   [
+    21680,
+    21694
+   ],
+   [
+    21874,
+    21888
+   ],
+   [
+    21888,
+    21888
+   ],
+   [
+    21763,
+    21771
+   ],
+   [
+    21630,
+    21653
+   ],
+   [
+    21803,
+    21803
+   ],
+   [
+    21874,
+    21874
+   ]
+  ]
+ },
+ "trades": []
+}

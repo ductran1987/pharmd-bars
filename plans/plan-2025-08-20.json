@@ -1,0 +1,161 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-20",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-820",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "ESU5/NQU5, no roll mention. No 'TRADES:' heading; ES has the explicit list line 'The trade setups that I see ahead of time therefore are:' -> es1-es3, all ungraded. The NQ section has NO list line (commentary only) -> no NQ trades; NQ ideas: long a LBAF of 23425-23438 (held at today's low) targeting 23485-23499 and 23515; short any failure to reclaim 485-499 (incl. fail around 515) -> today's low (at least 440s) with runners for continuation; lower lows/highs below today's low -> 23329, 23285-23298. ES today's low not given numerically (held top of 6416-6419) -> RTH_LOW. es3 gate 6451-6454 ('6455 even'); no stated target -> 6431-6435 (the level he says must be lost for runners). ES commentary idea after the list (not a trade): long attempt on a favorable intraday setup while 6375-6387 holds, toward 6431-6435. 6436/6455 are his profile spots inside 6431-6435/6451-6454.",
+ "zones": {
+  "ES": [
+   [
+    6475,
+    6477
+   ],
+   [
+    6431,
+    6435
+   ],
+   [
+    6436,
+    6436
+   ],
+   [
+    6451,
+    6454
+   ],
+   [
+    6455,
+    6455
+   ],
+   [
+    6460,
+    6463
+   ],
+   [
+    6416,
+    6419
+   ],
+   [
+    6414,
+    6414
+   ],
+   [
+    6375,
+    6387
+   ],
+   [
+    6240,
+    6240
+   ]
+  ],
+  "NQ": [
+   [
+    23824,
+    23831
+   ],
+   [
+    23622,
+    23622
+   ],
+   [
+    23515,
+    23515
+   ],
+   [
+    23485,
+    23499
+   ],
+   [
+    23425,
+    23438
+   ],
+   [
+    23329,
+    23329
+   ],
+   [
+    23285,
+    23298
+   ],
+   [
+    23586,
+    23600
+   ],
+   [
+    23590,
+    23623
+   ],
+   [
+    23869,
+    23885
+   ],
+   [
+    23700,
+    23724
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of today’s low targeting 6431-6435 with runners for continuation.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     6431,
+     6435
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Failed reclaim of 6431-6435",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a failed reclaim of 6431-6435 targeting today’s low.",
+   "kind": "fade",
+   "gate": [
+    6431,
+    6435
+   ],
+   "tgt": [
+    "RTH_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Short in the 6451-6454 area",
+   "dir": "short",
+   "tag": "",
+   "quote": "Can consider a short in the 6451-6454 area (6455 even), knowing that 6431-6435 would need to be lost for runners to be any good.",
+   "kind": "fade",
+   "gate": [
+    6451,
+    6454
+   ],
+   "tgt": [
+    [
+     6431,
+     6435
+    ]
+   ],
+   "stop_hint": "knowing that 6431-6435 would need to be lost for runners to be any good."
+  }
+ ]
+}

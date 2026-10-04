@@ -1,0 +1,143 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-27",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-627",
+ "contract": {
+  "ES": "ESU5",
+  "NQ": "NQU5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Letter has NO 'TRADES:' section (levels + ES-only COMMENTARY) -> trades=[] per the TRADES-section rule; commentary ideas not transcribed: hold/LBAF of 6187-6191 (likely 87-89) long back toward 6198, first touch of the 6169.75-6174.25 B-period single prints (level 71-74) long with 6198 if 87-91 reclaims, failure to sustain above 6198-6202 -> 6187-6188 (no rush to short). No contract statement and no roll mention; U5 per batch (June expired 6/20). Commentary also gives '71-78.75 range' (recorded 6171-6178.75), 6211 as 'roughly' the SPY ATH equivalent, and this week's developing VPOC 6146. SPX cash prints (6146.52/6145.66) skipped.",
+ "zones": {
+  "ES": [
+   [
+    6266,
+    6269
+   ],
+   [
+    6251,
+    6253
+   ],
+   [
+    6242,
+    6242
+   ],
+   [
+    6233,
+    6233
+   ],
+   [
+    6223,
+    6223
+   ],
+   [
+    6211,
+    6215
+   ],
+   [
+    6198,
+    6202
+   ],
+   [
+    6187,
+    6191
+   ],
+   [
+    6148.5,
+    6150
+   ],
+   [
+    6136.25,
+    6138.25
+   ],
+   [
+    6116,
+    6116
+   ],
+   [
+    6211,
+    6211
+   ],
+   [
+    6198,
+    6198
+   ],
+   [
+    6187,
+    6188
+   ],
+   [
+    6187,
+    6189
+   ],
+   [
+    6171,
+    6174
+   ],
+   [
+    6171,
+    6178.75
+   ],
+   [
+    6169.75,
+    6174.25
+   ],
+   [
+    6146,
+    6146
+   ]
+  ],
+  "NQ": [
+   [
+    22894,
+    22903
+   ],
+   [
+    22840,
+    22846
+   ],
+   [
+    22804,
+    22810
+   ],
+   [
+    22762,
+    22769
+   ],
+   [
+    22720,
+    22730
+   ],
+   [
+    22687,
+    22694
+   ],
+   [
+    22648,
+    22654
+   ],
+   [
+    22630,
+    22630
+   ],
+   [
+    22585,
+    22592
+   ],
+   [
+    22520,
+    22532
+   ],
+   [
+    22488.5,
+    22494
+   ],
+   [
+    22475,
+    22475
+   ]
+  ]
+ },
+ "trades": []
+}

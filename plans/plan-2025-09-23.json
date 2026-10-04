@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-23",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-923",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Day after a Monday trend day (five sets of ES single prints). Z (Dec) contract per batch expectation; no roll mention in the letter. Letter has NO TRADES heading - levels + COMMENTARY only, and he writes 'There’s no point in having a trade setup for each spot', so trades=[] per the literal rule. Commentary trade ideas (ungraded): 'The trades are basically monitoring any of the above spots to get long. A quick LBAF of 44.5 is the safest but naturally the lowest reward. As close to 29-33 as possible perhaps offers the best mix of risk and reward' i.e. ES longs on LBAF of 6743.5-6744.5 (likely from 6740.75-6741.75 within singles 6737.5-6741.75, sweeping the 2:05 APBL 6744.5), at 6729-6733, or a quick sweep LBAF of the 11:55 low 6728.5; IB-high singles 6725.25-6728.5 (incl. Friday's 6726.75 spike base); B-period singles 6719.25-6722.75 'last line'. Short scalp: 'monitor for a LAAF of today’s high' targeting 6743.5-6744.5 (today's high not given numerically). NQ: watch for LBAF of 24969-24983 long (keeps today's high in play, below weekly 25033-25046); below 24969 singles 24937.75-24969.5 may fill to weekly 24920-24933 (demand to ~24911); longs until 24880-24890 lost; full negation below 24828-24839 and today's low. 'SPX 6700' is SPX, not recorded.",
+ "zones": {
+  "ES": [[6743.5, 6744.5], [6714, 6718], [6737.5, 6741.75], [6740.75, 6741.75], [6744.5, 6744.5], [6729, 6733], [6728.5, 6728.5], [6725.25, 6728.5], [6726.75, 6726.75], [6719.25, 6722.75]],
+  "NQ": [[24880, 24890], [24969, 24983], [25033, 25046], [24937.75, 24969.5], [24920, 24933], [24911, 24911], [24828, 24839]]
+ },
+ "trades": []
+}

@@ -1,0 +1,111 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-26",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-626",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "No contract statement; U5 per batch. 'Trades:' section has NO grades and no NQ:/ES: subsections -> all tags ''; instrument taken from the levels/wording (36.25-38.25 -> ES 6136.25-6138.25; 412-426 / 358.5-366.75 / 475 -> NQ 22412-22426 / 22358.5-22366.75 / 22475). ES today's low given in the intro as 6130.75 (cash-hours low) -> es3 target / es4 gate use the number; ES today's high 6160.25 from the levels list -> es5 gated on it; NQ today's low not given -> nq1 gated RTH_LOW (nq1 also describes front-running the reclaim from a bid at 22358.5-22366.75 / 'low 370s', not encoded). Included as ungraded trades despite hedged wording: es3 ('I would be careful trying a breakdown short ... but it should find today's low'), es5 ('I don't love shorting just below ATH but it does render today's high susceptible to a LAAF'). Last sentence split into es6 (ES higher low above 6148.5-6150) and nq2 (NQ higher low above 22475), kind=break by analogy with the 'lower high below' precedent. Targets not stated (es1, es2, es4, es5, es6, nq1, nq2) taken from the next levels in the trade direction. 6143-6148 (ES) and 22450-22472 (NQ) were removed by the letter and are not zones; 'low 370s' not recorded as a zone.",
+ "zones": {
+  "ES": [[6233, 6233], [6215, 6215], [6198, 6202], [6187, 6191], [6160.25, 6160.25], [6148.5, 6150], [6140, 6140], [6138.25, 6138.25], [6136.25, 6138.25], [6130, 6132], [6130.75, 6130.75], [6116, 6116], [6094.5, 6094.5], [6069, 6071]],
+  "NQ": [[22585, 22592], [22548.25, 22548.25], [22520, 22532], [22488.5, 22494], [22475, 22475], [22412, 22426], [22388, 22388], [22358.5, 22366.75], [22088, 22093]]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail or failed reclaim of 6148.5-6150",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or failed reclaim of 6148.5-6150. There is some supply just above this range that could trigger a failed reclaim.",
+   "kind": "fade",
+   "gate": [6148.5, 6150],
+   "tgt": [[6136.25, 6138.25], 6130.75],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold or LBAF of 6136.25-6138.25",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or a LBAF of 36.25-38.25",
+   "kind": "fade",
+   "gate": [6136.25, 6138.25],
+   "tgt": [[6148.5, 6150], 6160.25],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Breakdown short below 6136.25-6138.25",
+   "dir": "short",
+   "tag": "",
+   "quote": "I would be careful trying a breakdown short below 36.25-38.25 but it should find today’s low.",
+   "kind": "break",
+   "gate": [6136.25, 6138.25],
+   "tgt": [6130.75],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LBAF of today's low (6130.75)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I would consider a long on a LBAF of today’s low knowing it would need to reclaim at least 36.25-38.25 (and probably 6140) to be any good.",
+   "kind": "fade",
+   "gate": [6130.75, 6130.75],
+   "tgt": [[6136.25, 6138.25], [6148.5, 6150]],
+   "stop_hint": "it would need to reclaim at least 36.25-38.25 (and probably 6140) to be any good."
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "I actually like NQ a little better for a LBAF of today’s low. Today’s low had excess on it as well but is relatively poor when compared to the overnight low. We have the 358.5-366.75 weekly level below and some demand from Tuesday as high as the low 370s. I would consider monitoring for a bid to come in there and attempt to front run a reclaim of today’s low. I would get flat if 412-426 cannot reclaim.",
+   "kind": "fade",
+   "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [[22412, 22426], 22475, [22488.5, 22494]],
+   "stop_hint": "I would get flat if 412-426 cannot reclaim."
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "LAAF of today's high (6160.25)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Today’s high on ES sits just below the prior ATH box top and ATH. I don’t love shorting just below ATH but it does render today’s high susceptible to a LAAF.",
+   "kind": "fade",
+   "gate": [6160.25, 6160.25],
+   "tgt": [[6148.5, 6150], [6136.25, 6138.25]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Higher low above 22475",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’m a bit cautious of reclaim longs but will consider longs on a higher low above 475 NQ or 6148.5-6150 ES.",
+   "kind": "break",
+   "gate": [22475, 22475],
+   "tgt": [[22488.5, 22494], [22520, 22532], 22548.25],
+   "stop_hint": ""
+  },
+  {
+   "id": "es6",
+   "instrument": "ES",
+   "name": "Higher low above 6148.5-6150",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’m a bit cautious of reclaim longs but will consider longs on a higher low above 475 NQ or 6148.5-6150 ES.",
+   "kind": "break",
+   "gate": [6148.5, 6150],
+   "tgt": [6160.25, [6187, 6191]],
+   "stop_hint": ""
+  }
+ ]
+}

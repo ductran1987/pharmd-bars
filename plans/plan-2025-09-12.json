@@ -1,0 +1,74 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-12",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-912",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Fri after CPI; ES triple distribution up, back at +2SD VWAP / +2 Bollinger. U (Sep) contract, no roll mention (letter also lists YM levels - skipped). No 'TRADES:' header; the 'Price:' heading with ES:/NQ: subsections treated as the trades section (as in plan-2025-07-29), with only sentences that explicitly frame a long/short at a level transcribed, all ungraded (tag ''). es1 target 'retest today’s spike and high' -> spike base 6595 then today's high 6600. nq1 has no stated target -> 24004 (IB high, 'attempt a reclaim of 24004') then today's high 24046 ('rotate back toward today’s high'). nq2 is interpretive: 'I would be mindful of a LAAF of today’s 24046 high' read as a short; no target given -> first level below, 23997.5-24004. Not transcribed (no explicit trade or no level): 'Trading above today’s high is straightforward as we would be cautious on rips and looking to buy dips'; 'Any of these areas can be longs if they hold' (the single-print areas 6579-6582, 6566-6569/6562.25); price expectations 'Holding below 6597-6600 (one could argue the 6595 spike base) broadly targets 6579-6582', 'Holding below 6579 likely sees 6566-6569', 'Holding below 6562.25 could retest today’s low', NQ 'Holding below 23997.5 brings ... 23960-23980 spot (I have my eyes on 23969 specifically) into play', 23924-23935 protects today's low, above 24040-24054 NQ takes its 24069 ATH (selling in the 24040s should be support on a proper upside break). ES today's low not given. ES cash low of week 6489.25; yesterday's premarket high 6565.25.",
+ "zones": {
+  "ES": [
+   [6635, 6638],
+   [6608, 6608],
+   [6515, 6516.5],
+   [6496, 6502.5],
+   [6489.25, 6489.25],
+   [6520, 6524],
+   [6595, 6595],
+   [6600, 6600],
+   [6597, 6600],
+   [6579, 6582],
+   [6579, 6579],
+   [6566, 6569],
+   [6562.25, 6562.25],
+   [6565.25, 6565.25]
+  ],
+  "NQ": [
+   [24040, 24054],
+   [23997.5, 24004],
+   [23924, 23935],
+   [23960, 23980],
+   [23969, 23969],
+   [24069, 24069],
+   [24046, 24046]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of 23997.5",
+   "dir": "long",
+   "tag": "",
+   "quote": "I would prefer a long on a LBAF of 23997.5 as opposed to a hold given how many times this general range was tested.",
+   "kind": "fade",
+   "gate": [23997.5, 23997.5],
+   "tgt": [24004, 24046],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of today's high (24046)",
+   "dir": "short",
+   "tag": "",
+   "quote": "I would be mindful of a LAAF of today’s 24046 high given the amount of selling that took place there and the relatively poor high.",
+   "kind": "fade",
+   "gate": [24046, 24046],
+   "tgt": [[23997.5, 24004]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of 6579",
+   "dir": "long",
+   "tag": "",
+   "quote": "I do see potential for a LBAF of 6579 which could rotate back to retest today’s spike and high.",
+   "kind": "fade",
+   "gate": [6579, 6579],
+   "tgt": [6595, 6600],
+   "stop_hint": ""
+  }
+ ]
+}

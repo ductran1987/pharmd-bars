@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-20",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-320-b56",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "****This is contract roll week so see the weekly plan for handling of levels. As of the Monday night plan for Tuesday the levels referenced are for ESM2026 unless otherwise specified for commentary purposes.",
+ "ref_date_note": "Roll week (H6->M6); letter says levels are ESM2026 (M contract used for both). Friday, monthly opex. Brief plan: no TRADES section; ES:/NQ: commentary subsections are ungraded -> trades []. Commentary ideas (not promoted): ES - holding back below 6650.5-6653.5 (and weekly 6640-6646) suggests rejection, expect 6623-6627 if not RTH_LOW; watch LAAF of RTH_HIGH and LBAF of RTH_LOW (near November low); bulls need above 6717. NQ - flipping weekly 24543-24569 back to resistance suggests rejection, expect 24420-24430 and likely RTH_LOW in weekly 24313-24352; watch LAAF of RTH_HIGH and LBAF of RTH_LOW; holding above 24543-24569 allows retest of RTH_HIGH; bulls need 24803+. 6650.5-6653.5 is an optional 'honorable mention' level; 6620 is the approximate bottom of the day's balance.",
+ "zones": {
+  "ES": [[6760, 6764], [6717, 6717], [6650.5, 6653.5], [6620, 6620], [6640, 6646], [6623, 6627]],
+  "NQ": [[24991, 24991], [24803, 24803], [24709, 24709], [24669, 24669], [24543, 24569], [24420, 24430], [24313, 24352]]
+ },
+ "trades": []
+}

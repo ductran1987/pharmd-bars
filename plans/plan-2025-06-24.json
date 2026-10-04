@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-24",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-624",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Letter has NO 'TRADES:' section; COMMENTARY lists level-to-level rotations 'which will imply trade setups' (ES 6079-6082 <-> 6069-6071 <-> 6055-6058 <-> 6043 <-> 6029.75-6032; NQ 22088-22093 <-> 22010-22018 <-> 21966-21976 <-> 21904-21922) plus ungraded dip-buy ideas at 6029.75-6032 / 6009-6012 -> trades=[] per the implied-trades rule. Rotation text '6069-6017' read as typo for 6069-6071. 5993.25 = ES today's (6/23) RTH low; 6079-6082 = today's high area; 6086.25 = SPX 6/16 gap fill in ES terms. No contract statement; U5 per batch.",
+ "zones": {
+  "ES": [[6105, 6113], [6094.5, 6094.5], [6086.25, 6086.25], [6079, 6082], [6069, 6071], [6055, 6058], [6050, 6053.5], [6043, 6043], [6029.75, 6032], [6009, 6012], [5999, 6003], [5993.25, 5993.25]],
+  "NQ": [[22088, 22093], [22010, 22018], [21966, 21976], [21904, 21922], [21839, 21843], [21693, 21700]]
+ },
+ "trades": []
+}

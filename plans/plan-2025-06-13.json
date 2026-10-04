@@ -1,0 +1,98 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-13",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-612-694",
+ "contract": {"ES": "ESM5", "NQ": "NQM5"},
+ "roll_note": "",
+ "ref_date_note": "M (Jun) contract, no roll mention (numbers match ESM5: 6/12 RTH high 6051 / low 6008.5). Older-format letter: 'Trades:' section is prose, ES only, all ungraded (tag ''); no NQ trades. Inside day 6/12; FOMC upcoming; author in 'round-tripper mode' (cautious on rips). ES today's high only given as the top/bottom of '6049.5-6051 Tuesday's high to today's high' -> es2 gated RTH_HIGH (resolves to 6051 on ESM5). Today's low not labelled numerically (letter says 6004-6008 'held at open (6008.5 low)') -> es4 target / es5 gate RTH_LOW, as in the 9/18 example. es1 targets 32/33 = 6032-6033 first (where he would take profit) then 6024-6028. es3 ('fair long back up') has no stated target -> 32/33 then today's high per commentary 'Holding above 24-28, especially once 32/33 reclaims, I would expect a retest of today's high'. es3 'sweeping 29' (single prints 6026.25-6029) kept only in quote. es5 'or the cluster of lows' not given a number -> gate RTH_LOW only. Commentary-only ideas not recorded as trades: long a sustained break above today's high / short a sustained break of today's low / fade failed breaks of the inside-day range. NQ cash-hours low 21818.5 kept as a level.",
+ "zones": {
+  "ES": [
+   [6097, 6100],
+   [6074.5, 6074.5],
+   [6049.5, 6051],
+   [6039, 6048],
+   [6012.75, 6012.75],
+   [5984.5, 5987.5],
+   [5987.5, 5987.5],
+   [5972, 5975],
+   [5965, 5965],
+   [5946, 5949],
+   [6004, 6008],
+   [6008.5, 6008.5],
+   [6024, 6028],
+   [6026, 6029],
+   [6026.25, 6029],
+   [6032, 6033]
+  ],
+  "NQ": [
+   [22116, 22129],
+   [21816, 21824],
+   [21731, 21742.75],
+   [21680, 21694],
+   [21818.5, 21818.5]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Failed continuation above 6049.5-6051",
+   "dir": "short",
+   "tag": "",
+   "quote": "Any failure to find continuation above 6049.5-6051 likely rotates toward 6024-6028 but given the prevailing bullish trend we could see bids come in before there. If I were short I would be prepared to cover, certainly taking profit by 32/33.",
+   "kind": "fade",
+   "gate": [6049.5, 6051],
+   "tgt": [[6032, 6033], [6024, 6028]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "A look above and fail of today’s high is more likely to find its way to 32/33 and a proper test of 6024-6028.",
+   "kind": "fade",
+   "gate": ["RTH_HIGH", "RTH_HIGH"],
+   "tgt": [[6032, 6033], [6024, 6028]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Failed breakdown / hold of 6024-6028",
+   "dir": "long",
+   "tag": "",
+   "quote": "Any failure from sellers to get through 6024-6028 is a fair long back up. We have single prints from 6026.25-6029. Dipping into this range and sweeping 29 would seem like a setup for a rally.",
+   "kind": "fade",
+   "gate": [6024, 6028],
+   "tgt": [[6032, 6033], "RTH_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Reactive short on lower highs/lows below 6024-6028",
+   "dir": "short",
+   "tag": "",
+   "quote": "I hate breakdown shorts in a bullish trend, so I won’t plan for a short below 6024-6028 but if we find ourselves with lower highs and lower lows below, I am okay taking a reactive short for a scalp toward today’s low.",
+   "kind": "break",
+   "gate": [6024, 6028],
+   "tgt": ["RTH_LOW"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "A LBAF of today’s low or the cluster of lows still has to be a long, at least back to 6024-6028. Giving the prevailing bullish trend it is always fine to hold long runners until sellers prove a willingness to take out a prior day low.",
+   "kind": "fade",
+   "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [[6024, 6028]],
+   "stop_hint": ""
+  }
+ ]
+}

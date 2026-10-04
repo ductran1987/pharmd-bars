@@ -1,0 +1,37 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-09",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-99",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "'Another Inception Box' (Mon 9/8 inside day; PPI Wed, CPI Thu). U (Sep) contract, no roll mention. Letter has NO TRADES section - levels + COMMENTARY only ('the usual (general) initial trades drawn' on a chart image) - so trades=[] per the literal rule. Ungraded commentary ideas: ES 'A LAAF of 6508-6509.5 has potential for 6495-6497 and of course maybe today’s low or more with continuation'; 'Holding above 6508-6509.5 makes taking out today’s high quite likely'; a LAAF of today's high must get trapped below 6508-6509.5 to bearish engulf; 'I am more interested in longs on a LBAF of today’s low if we trade lower'; LAAF/LBAF of Friday's high/low still possible. NQ: 'a failed push above 23822 getting sucked back down toward 752-769' (23752-23769). He corrects a weekly NQ level: 23824-23841 should have been 23804-23822. 'weekly 6420-6424 range (or technically a LAAF of Friday’s high)' transcribed literally as 6420-6424, but it sits ~80 pts below price and is described as near Friday's high - probably a typo for 6520-6524; flagged. ON pullback low 6493.75; 'hold above 6496' and '6500' kept as single levels. NQ 'final boss' 869-885 -> 23869-23885; '700-724' -> 23700-23724.",
+ "zones": {
+  "ES": [
+   [6531, 6531],
+   [6516.5, 6516.5],
+   [6508, 6509.5],
+   [6488, 6490.5],
+   [6459, 6461],
+   [6425, 6427.75],
+   [6418, 6418],
+   [6500, 6500],
+   [6493.75, 6493.75],
+   [6496, 6496],
+   [6495, 6497],
+   [6420, 6424],
+   [6496, 6502.5]
+  ],
+  "NQ": [
+   [23804, 23822],
+   [23752, 23769],
+   [23669, 23680],
+   [23586, 23596],
+   [23454, 23462],
+   [23869, 23885],
+   [23700, 23724],
+   [23822, 23822]
+  ]
+ },
+ "trades": []
+}

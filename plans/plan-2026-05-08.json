@@ -1,0 +1,49 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-08",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-58-3b2",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "M (Jun) contract, no roll mentioned. No TRADES section: letter has PRICE: with ES/NQ Trading Higher/Lower commentary only and says 'The trades for tomorrow are implied by the above but headlines started coming in as I was finishing this so they might be moot pretty quickly.' -> trades = []. Commentary ideas (ungraded, not promoted): ES reclaim of 7383-7384 -> 7390 spike base, 7396-7399, then the poor high; ES trapped below 7365-7369 -> 7345.5 poor low; taking out today's low -> 7327.25 (mindful of 7334-7338); monitor LBAF of 7327.25; continuation into gap -> 7298-7302; hold of 7298-7302 with reclaim of 7327.25/7334-7338 bullish; loss of 7298-7302 -> Monday's low via 7269-7274; below Monday's low/7177-7182 -> 7079.25. NQ reclaim of 28800-28817 -> 28869-28886, IB high 28902.5, today's high; fail/LAAF of 28800-28817 -> needs 28700-28726 to flip, then 28605-28623 and today's low; 28605-28623 flips -> today's low and 28526-28543; 28506-28512 (singles) and 28450-28469 demand; gap 28188-28366 with reclaim of 28369-28387/28526-28543 bullish; traction below 28188 (really 28151-28169) -> 28081-28098 then Tuesday's 27971 low; trap door below 27898-27917. ES today's high described as near double tap of overnight high (no number given).",
+ "zones": {
+  "ES": [
+   [7383, 7384],
+   [7346, 7349],
+   [7320, 7323],
+   [7288, 7289],
+   [7239.5, 7242],
+   [7390, 7390],
+   [7396, 7399],
+   [7365, 7369],
+   [7345.5, 7345.5],
+   [7327.25, 7327.25],
+   [7334, 7338],
+   [7298, 7302],
+   [7269, 7274],
+   [7177, 7182],
+   [7079.25, 7079.25]
+  ],
+  "NQ": [
+   [28506, 28512],
+   [28188, 28188],
+   [27802, 27819],
+   [27941, 27941],
+   [27689, 27701],
+   [28800, 28817],
+   [28700, 28726],
+   [28869, 28886],
+   [28902.5, 28902.5],
+   [28605, 28623],
+   [28526, 28543],
+   [28450, 28469],
+   [28188, 28366],
+   [28369, 28387],
+   [28151, 28169],
+   [28081, 28098],
+   [27971, 27971],
+   [27898, 27917]
+  ]
+ },
+ "trades": []
+}

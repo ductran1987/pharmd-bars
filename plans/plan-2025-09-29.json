@@ -1,0 +1,230 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-29",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-929",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Mon 9/29/2025 (posted Sun 9/28) after Friday double-distribution day up. Z (Dec) contract per batch expectation; no roll mention. NQ abbreviations resolved to 246xx/247xx from prior-week full levels (24755-24777 weekly). es2 (ungraded) is the TRADES-section line 'Any bid that comes from this range or lower targets 6700-6706 once 6690 is reclaimed' - gate = 81-85 range between the weekly levels; 'once 6690 is reclaimed' is a trigger condition. es3 (ungraded) from 'open to longs on the first pass into that range but can’t game it out or rate it. It would need to fire back above ... 80 ES' -> LBAF of 6676-6680; the NQ half (fire back above 24642) duplicates nq1's LBAF of 642-669 and is not a separate trade. es4/nq2 'a true gap up that holds (above Friday’s high) is a long' (ungraded, applied to both indices, kind=break, gate FRI_HIGH); nq2 target = weekly 24759-24777 ('sits just above Friday’s high'); es4 has NO target - no ES level above Friday's high is given (6712 daily level's position vs Friday's high unknown). 'A look above and fail of Friday’s high is the safest short on both NQ and ES' is the intro to nq3/es5, not separate trades. Overnight low 6653.25.",
+ "zones": {
+  "ES": [
+   [
+    6712,
+    6712
+   ],
+   [
+    6650,
+    6653
+   ],
+   [
+    6653.25,
+    6653.25
+   ],
+   [
+    6676,
+    6680
+   ],
+   [
+    6686,
+    6690
+   ],
+   [
+    6700,
+    6706
+   ],
+   [
+    6680,
+    6680
+   ],
+   [
+    6681,
+    6685
+   ],
+   [
+    6690,
+    6690
+   ],
+   [
+    6700,
+    6700
+   ]
+  ],
+  "NQ": [
+   [
+    24642,
+    24642
+   ],
+   [
+    24642,
+    24669
+   ],
+   [
+    24759,
+    24777
+   ],
+   [
+    24690,
+    24690
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 24642-24669",
+   "dir": "long",
+   "tag": "A/A+",
+   "quote": "Long NQ on a hold or LBAF of 642-669. I would target Friday’s high and the weekly 759-777, be on thin runners and monitor for continuation through the weekly level. I rate this an A/A+",
+   "kind": "fade",
+   "gate": [
+    24642,
+    24669
+   ],
+   "tgt": [
+    "FRI_HIGH",
+    [
+     24759,
+     24777
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold of 6686-6690",
+   "dir": "long",
+   "tag": "B",
+   "quote": "Long ES on a hold of 86-90. I’ll rate this a B as I would prefer just a bit lower. I would target 6700-6706 for major profit takes and monitor for continuation.",
+   "kind": "fade",
+   "gate": [
+    6686,
+    6690
+   ],
+   "tgt": [
+    [
+     6700,
+     6706
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Bid from 6681-6685 range (targets 6700-6706 once 6690 reclaimed)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I would prefer to see close to 6680 and really the entire range between those weekly levels (81-85 range in between) could prove supportive because of the double distribution. Any bid that comes from this range or lower targets 6700-6706 once 6690 is reclaimed.",
+   "kind": "fade",
+   "gate": [
+    6681,
+    6685
+   ],
+   "tgt": [
+    [
+     6700,
+     6706
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "First pass below 6676 firing back above 6680 (LBAF of 6676-6680)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Initiating longs below 642 NQ and 76 ES can be tricky, but again, I expect it to be supportive. As in the weekly plan I will be open to longs on the first pass into that range but can’t game it out or rate it. It would need to fire back above 642 NQ or 80 ES to be any good.",
+   "kind": "fade",
+   "gate": [
+    6676,
+    6680
+   ],
+   "tgt": [
+    [
+     6700,
+     6706
+    ]
+   ],
+   "stop_hint": "It would need to fire back above 642 NQ or 80 ES to be any good."
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "True gap up that holds above Friday's high",
+   "dir": "long",
+   "tag": "",
+   "quote": "Naturtally a true gap up that holds (above Friday’s high) is a long so just follow the rules of trading true gaps from the starter kit.",
+   "kind": "break",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "True gap up that holds above Friday's high",
+   "dir": "long",
+   "tag": "",
+   "quote": "Naturtally a true gap up that holds (above Friday’s high) is a long so just follow the rules of trading true gaps from the starter kit.",
+   "kind": "break",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    [
+     24759,
+     24777
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "For NQ the weekly 759-777 sits just above Friday’s high. Such a LAAF short would target 690 and 642-669 where I would have the position well-managed. I’ll rate it a B/B-",
+   "kind": "fade",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    24690,
+    [
+     24642,
+     24669
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "For ES a LAAF of Friday’s high would need to see 6700 firmly offered to find a rotation toward 6690. I’ll rate it a B-",
+   "kind": "fade",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    6690
+   ],
+   "stop_hint": "would need to see 6700 firmly offered"
+  }
+ ]
+}

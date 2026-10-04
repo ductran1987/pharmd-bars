@@ -1,0 +1,93 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-23",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-723",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "U (Sep 2025) contract, no roll mention. No TRADES section and no grades; trades taken from the levels notes and Price commentary where he frames a long/short/LBAF/LAAF, all tag ''. NQ only: ES commentary gives scenarios ('potentially trigger another LBAF' at 6310.5-6315, holding above/below 6338-6340) but never frames an ES long/short -> no ES trades. NQ today's low given as the 23108-23112 range ('today's low and the 7/9 high') -> nq1 gated on that range; nq1 is from the levels-section note 'Monitor for a LBAF' and nq5 (bids at 23090-23097 to front-run a reclaim of today's low) is the same idea entered lower -> both kept, possible overlap. nq2 LAAF of 23256.25 (Monday's RTH open / ARH): targets 23234-23240 (the 'once back through' level) then '23170s-23180s' recorded as [23170,23189]. nq3 short from 23281-23295 (letter typo 'present if' = 'present in'); 'possibly just above' and 'need to trade back below 23256.25 and 23234-23240' put in stop_hint. No stated target for nq1, nq4, nq5 -> first level up only (23134-23142, 23170s-23180s, 23108-23112 respectively). ES today's high: letter says '(call if 6353.5-6357)'. Two prior-day lows taken out today.",
+ "zones": {
+  "ES": [
+   [6353.5, 6357],
+   [6338, 6340],
+   [6300, 6302],
+   [6340.5, 6342.5],
+   [6335.5, 6335.5],
+   [6310.5, 6315],
+   [6292, 6294],
+   [6323.25, 6327]
+  ],
+  "NQ": [
+   [23328.5, 23328.5],
+   [23256.25, 23256.25],
+   [23134, 23142],
+   [23108, 23112],
+   [23090, 23097],
+   [23170, 23189],
+   [23234, 23240],
+   [23281, 23295]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of today's low (23108-23112)",
+   "dir": "long",
+   "tag": "",
+   "quote": "23108-23112 today’s low and the 7/9 high. Monitor for a LBAF with the critical weekly 23090-23097 spot below",
+   "kind": "fade",
+   "gate": [23108, 23112],
+   "tgt": [[23134, 23142]],
+   "stop_hint": "with the critical weekly 23090-23097 spot below"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of 23256.25 (Monday's RTH open / ARH)",
+   "dir": "short",
+   "tag": "",
+   "quote": "The afternoon rally high came right to Monday’s RTH open. I would watch for a LAAF of that spot for a short. I generally expect to see 23170s-23180s in that case once back through the 23234-23240 spot.",
+   "kind": "fade",
+   "gate": [23256.25, 23256.25],
+   "tgt": [[23234, 23240], [23170, 23189]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Sellers at 23281-23295 (lower high)",
+   "dir": "short",
+   "tag": "",
+   "quote": "I would additionally monitor for sellers to present if the 23281-23295 range and possibly just above. Any sell from here would need to trade back below 23256.25 and 23234-23240. As it would represent a lower high I would then see 23134-23142 as likely.",
+   "kind": "fade",
+   "gate": [23281, 23295],
+   "tgt": [23256.25, [23234, 23240], [23134, 23142]],
+   "stop_hint": "possibly just above. Any sell from here would need to trade back below 23256.25 and 23234-23240."
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Hold of 23134-23142",
+   "dir": "long",
+   "tag": "",
+   "quote": "The 23134-23142 spot represents some demand from today which protects today’s low and may produce a long. I wouldn’t bid it directly (especially if NQ fails higher first) but would take it if buyers show up.",
+   "kind": "fade",
+   "gate": [23134, 23142],
+   "tgt": [[23170, 23189]],
+   "stop_hint": "I wouldn’t bid it directly (especially if NQ fails higher first) but would take it if buyers show up."
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Hold of 23090-23097 (front-run reclaim of today's low)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Again, today’s NQ low sits just above the massive 23090-23097 spot so I will look for bids at the weekly level to potentially front run a reclaim of today’s low.",
+   "kind": "fade",
+   "gate": [23090, 23097],
+   "tgt": [[23108, 23112]],
+   "stop_hint": ""
+  }
+ ]
+}

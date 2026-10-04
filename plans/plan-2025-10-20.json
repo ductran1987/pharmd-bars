@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-20",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1020",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Monday plan posted Sun 10/19. No TRADES section; he says 'I didn't/wont have time to rate/grade each trade' -> ungraded commentary only, trades = [] (borderline: 'These are the major ideas for Monday' refers to the inside-day box ideas, not a trade list). Contract not stated; Z (Dec) assumed per batch (no roll mention). Typo '6676-6780' read as 6676-6680 (he writes 6676-6680 later). Friday 10/17 was an inside day inside an inside week. Commentary ideas: sustain above FRI_HIGH -> retest Thursday's open and THU_HIGH; sustain below FRI_LOW -> target THU_LOW; reversal trades on LAAF/LBAF of Friday's range. ES: Friday IB high 6697.5 (using 6697); hold above 6697 keeps retest/break of FRI_HIGH in play; LAAF of FRI_HIGH needs to get trapped back below 6697 to be bearish; lose/offer 6697 -> 6690, likely 6676-6680, potential continuation to 6660 and 6650-6653 but 5-min higher low 6665 (Fri 1:20) - be judicious covering shorts until violated; longs if sellers can't get through (6676-6680 holds), 6697 must reclaim/hold to trigger rotation to FRI_HIGH; if sellers can't get through FRI_LOW (6676-6680, 6660 or 6650-6653 holds) longs back toward at least 6697. NQ: weekly 24969-24980 analogous to ES 6697; hold above can retest/break FRI_HIGH; below targets 24910-24912 and 24869-24875; LAAF of FRI_HIGH must get trapped below 24969-24980; Friday higher low 24829, holds of 24869-24875 can return to 24910-24912 and 24969-24980; losing 24869-24875 and 24829 targets 24804 and 24750-24769, then FRI_LOW and weekly 24651-24669; inability to get through FRI_LOW -> longs from any spot. NQ 3-digit abbreviations resolved to 24xxx from the 24804 level.",
+ "zones": {
+  "ES": [[6724, 6726], [6697, 6697], [6697.5, 6697.5], [6660, 6660], [6690, 6690], [6676, 6680], [6650, 6653], [6665, 6665]],
+  "NQ": [[24804, 24804], [24969, 24980], [24910, 24912], [24869, 24875], [24829, 24829], [24750, 24769], [24651, 24669]]
+ },
+ "trades": []
+}

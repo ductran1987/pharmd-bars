@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-13",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1113",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Thu plan, post dated Wed 11/12. Contract not stated; Z (Dec) per batch, no roll mention. No TRADES section (author under the weather; only levels + NQ:/ES: commentary, ungraded) -> trades = []. Commentary ideas only: NQ - work the edges of the D-shaped weekly profile; 'The only trades that interest me are shorts on failures of the upper edge and longs on failures into the lower edge' (upper edge = weekly 25686-25700, start looking for shorts as early as 25660; lower edge = the 3 daily RTH lows this week, monitor LBAF of today's/yesterday's/Monday's RTH low; bearish only on a clean break of those lows not returning above ~25510); sustaining above 25686-25700 should trigger a retracement to today's open. ES - monitor a LBAF of today's low 6852; traction lower likely sees yesterday's 6830 poor low, monitor 6821-6824 for a reaction; holding above 6880-6883 (failed pops can be shorts) brings today's open then ON high 6900-6902.5; longs in the high 50s / failures below 6864 valid but not of interest (developing VPOC 6874); buyers at risk until bids above 6892-6893. He prefers NQ trades over ES. NQ 3-digit abbreviations resolved to 25xxx; ES '58-69' -> [6858,6869], original '66-69' -> [6866,6869], '64/65 Monday's spike' -> [6864,6865].",
+ "zones": {
+  "ES": [[6892, 6893], [6852, 6852], [6900, 6902.5], [6880, 6883], [6858, 6869], [6866, 6869], [6864, 6865], [6874, 6874], [6830, 6830], [6821, 6824]],
+  "NQ": [[25853, 25863], [25728, 25728], [25660, 25660], [25797, 25816], [25566, 25586], [25607, 25629], [25686, 25700], [25510, 25510]]
+ },
+ "trades": []
+}

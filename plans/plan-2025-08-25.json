@@ -1,0 +1,63 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-25",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-825",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Mon after Jackson Hole Friday. U (Sep) contract, no roll mention. No grades anywhere -> all tags ''. 'Trades:' heading sits inside the NQ section (after NQ commentary); the following 'ES:' section has no own heading but lists parallel trade ideas and the 'Trade Evaluation' section rates both NQ and ES trades, so ES ideas were treated as part of the trades list (es1-es4) - judgment call. ES 'LBAF of 6472-6474 or 6457-6460' split into es1/es2 sharing one quote. No ES targets stated (no Trading Higher/Lower section): es1/es2 targets taken from next ES levels above (6486.25, FRI_HIGH); es3 target 6472-6474 by analogy to the NQ LAAF target 524-535 (he calls them analogous); es4 targets the 57-60 / 72-74 reclaim levels. Friday's high not given numerically on either instrument -> FRI_HIGH (6508.75 is a separate ES level that must be taken out in cash hours before the ES LAAF; 6486.25 unlabeled, could be near Friday's ES high). nq1 runner target 648-660; 622 (passive selling) noted as caution, not a target. nq2 gated on 524-535 ('and especially 485-499'); no target stated -> next levels below 485-499 then 342-369. nq4 cover-if-holds at 586-600/622 kept in stop_hint. Skipped: ES breakdown short ('less likely'), NQ-short-if-ES-LAAF remark, swing/options positioning (UNH, UPS, ICHR, IONQ, QQQ puts).",
+ "zones": {
+  "ES": [[6508.75, 6508.75], [6486.25, 6486.25], [6472, 6474], [6457, 6460], [6431, 6435], [6402.5, 6402.5]],
+  "NQ": [[23648, 23660], [23622, 23622], [23586, 23600], [23524, 23535], [23485, 23499], [23342, 23369]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "LBAF/hold of 23524-23535", "dir": "long", "tag": "",
+   "quote": "LBAF (and technically a hold) of 524-535 can be a long to test 586-600. I get a bit cautious above there as there was quite a bit of passive selling around the 622 range, but runners are fine for 648-660 (and a potential upside break) if it is showing strength.",
+   "kind": "fade", "gate": [23524, 23535], "tgt": [[23586, 23600], [23648, 23660]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Breakdown short below 23524-23535 (esp. 23485-23499)", "dir": "short", "tag": "",
+   "quote": "I hate breakdown shorts, but if there is a clear downtrend below 524-535 and especially 485-499 I may cautiously join the short side.",
+   "kind": "break", "gate": [23524, 23535], "tgt": [[23485, 23499], [23342, 23369]],
+   "stop_hint": "it still needs to lose and offer 485-499"
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Hold/LBAF of 23342-23369", "dir": "long", "tag": "",
+   "quote": "While it probably makes more sense to look for longs on ES, I will still be looking for longs on NQ on a hold or LBAF of 342-369. This long is not safe for any kind of massive move higher until at least 485-499 (and really 524-535) reclaims. Again, perhaps BTC will give us a clue.",
+   "kind": "fade", "gate": [23342, 23369], "tgt": [[23485, 23499], [23524, 23535]],
+   "stop_hint": "This long is not safe for any kind of massive move higher until at least 485-499 (and really 524-535) reclaims."
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "LAAF of Friday's high", "dir": "short", "tag": "",
+   "quote": "A LAAF of Friday’s high is a short which broadly targets 524-535 but if ES is strong, I would be prepared to cover if 586-600 (or even something like 622) holds.",
+   "kind": "fade", "gate": ["FRI_HIGH", "FRI_HIGH"], "tgt": [[23524, 23535]],
+   "stop_hint": "if ES is strong, I would be prepared to cover if 586-600 (or even something like 622) holds."
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "LBAF of 6472-6474", "dir": "long", "tag": "",
+   "quote": "Since ES has been stronger, I am perhaps more likely to longs on a LBAF of 6472-6474 or 6457-6460 and less likely to look for the breakdown short.",
+   "kind": "fade", "gate": [6472, 6474], "tgt": [6486.25, "FRI_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "LBAF of 6457-6460", "dir": "long", "tag": "",
+   "quote": "Since ES has been stronger, I am perhaps more likely to longs on a LBAF of 6472-6474 or 6457-6460 and less likely to look for the breakdown short.",
+   "kind": "fade", "gate": [6457, 6460], "tgt": [[6472, 6474], 6486.25],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "LAAF of Friday's high (only after 6508.75 taken out in RTH)", "dir": "short", "tag": "",
+   "quote": "A LAAF of Friday’s high is still a short on ES but I am far less likely to take it unless 6508.75 has been taken out during cash hours and then it fails back in Friday’s range.",
+   "kind": "fade", "gate": ["FRI_HIGH", "FRI_HIGH"], "tgt": [[6472, 6474]],
+   "stop_hint": "far less likely to take it unless 6508.75 has been taken out during cash hours and then it fails back in Friday’s range."
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Hold/quick LBAF of 6431-6435", "dir": "long", "tag": "",
+   "quote": "Like NQ I would consider a long on a hold or quick LBAF of 6431-6435. ES would need to reclaim 57-60 and 72-74 in order to have significant upside potential so I would remain carefully long until that happens.",
+   "kind": "fade", "gate": [6431, 6435], "tgt": [[6457, 6460], [6472, 6474]],
+   "stop_hint": "ES would need to reclaim 57-60 and 72-74 in order to have significant upside potential so I would remain carefully long until that happens."
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-04",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-114",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Tuesday. Z (Dec) contract; no roll mention. TRADES section is deliberately generic and ungraded (tags ''): 'edge trades' - longs near the lower edges (better LBAF), shorts near the upper edges (better LAAF). Edges are defined numerically in COMMENTARY, so transcribed as es1/es2/nq1/nq2: ES upper edge = ARH 6893.25, lower edge '6866 (could argue 64-66)' -> gate [6864,6866]; NQ upper 26166.25-26182.5 (commentary also writes 166.25-182.25), lower 26055-26069. Targets: es2/nq2 from the stated LAAF targets (85.5 read as 6885.5); es1/nq1 not stated -> next levels up from commentary. nq3 LBAF of today's low = 26015.5 (11/3 low listed in levels). es3 = carried-forward LBAF of Friday's low (FRI_LOW = Fri 10/31), only after both today's and Friday's lows are taken (graded A+ in the 11/3 plan, not graded here); targets reused from that plan (66-69 must reclaim). 'Sustaining above 93.25' breakout and NQ 'Sustaining above 166.25-182.25' are commentary only. ES overnight low 6873.25, 6850-6852 demand, 6900-6902.5 and ES 'today's open/high' (not given numerically) noted; mid-range trades 'in alignment with session trend' have no level -> not trades.",
+ "zones": {
+  "ES": [[6900, 6902.5], [6895.5, 6895.5], [6893.25, 6893.25], [6885.5, 6885.5], [6877, 6880], [6873.25, 6873.25], [6866, 6869], [6864, 6866], [6850, 6852], [6833, 6833], [6824, 6827]],
+  "NQ": [[26200, 26213], [26166.25, 26182.5], [26098, 26098], [26055, 26069], [26015.5, 26015.5], [25983, 25998], [25700, 25723]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES",
+   "name": "Long near / LBAF of ES lower edge (6864-6866)",
+   "dir": "long", "tag": "",
+   "quote": "I’ll look for longs near the lower edges, or even better, on a LBAF.",
+   "kind": "fade",
+   "gate": [6864, 6866],
+   "tgt": [[6877, 6880], 6885.5, 6893.25],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES",
+   "name": "Short near / LAAF of ES upper edge (6893.25)",
+   "dir": "short", "tag": "",
+   "quote": "I’ll look for shorts near the upper edges, or better, a LAAF.",
+   "kind": "fade",
+   "gate": [6893.25, 6893.25],
+   "tgt": [6885.5, [6877, 6880], [6866, 6869]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ",
+   "name": "Long near / LBAF of NQ lower edge (26055-26069)",
+   "dir": "long", "tag": "",
+   "quote": "I’ll look for longs near the lower edges, or even better, on a LBAF.",
+   "kind": "fade",
+   "gate": [26055, 26069],
+   "tgt": [26098, [26166.25, 26182.5]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ",
+   "name": "Short near / LAAF of NQ upper edge (26166.25-26182.5)",
+   "dir": "short", "tag": "",
+   "quote": "I’ll look for shorts near the upper edges, or better, a LAAF.",
+   "kind": "fade",
+   "gate": [26166.25, 26182.5],
+   "tgt": [26098, [26055, 26069]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ",
+   "name": "LBAF of today's low (26015.5)",
+   "dir": "long", "tag": "",
+   "quote": "To those I will add a LBAF of today’s low on NQ. Just know it needs to reclaim 055-069 to have any room.",
+   "kind": "fade",
+   "gate": [26015.5, 26015.5],
+   "tgt": [[26055, 26069], 26098, [26166.25, 26182.5]],
+   "stop_hint": "Just know it needs to reclaim 055-069 to have any room."
+  },
+  {
+   "id": "es3", "instrument": "ES",
+   "name": "LBAF of Friday's low (after today's and Friday's lows are taken)",
+   "dir": "long", "tag": "",
+   "quote": "For ES I would want to see both today and Friday’s low taken which turns into the discussion from the weekly plan and plan for today (I did say it may play out later in the week and to carry forward). That setup hasn’t changed.",
+   "kind": "fade",
+   "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [[6866, 6869], [6877, 6880], 6885.5, 6893.25],
+   "stop_hint": "would want to see both today and Friday’s low taken"
+  }
+ ]
+}

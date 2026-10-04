@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-06-23",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-623",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Weekend US strike on Iran; expected Sunday-open gap, plan kept 'relatively light'. Letter has NO 'TRADES:' section (only scenario COMMENTARY, ungraded, ES-only: gap-down session-trend assessment vs 5999-6003/6009-6012, shorts on failure in 6040-6053.5, longs if 5965.25-5969.5 holds) -> trades=[] per the TRADES-section rule. 6040-6053.5 recorded as the 'blocked off' range alongside the listed 6040-6047.5*. No contract statement; U5 per batch (post-roll).",
+ "zones": {
+  "ES": [[6040, 6047.5], [6040, 6053.5], [6029.75, 6032], [6009, 6012], [5999, 6003], [5985, 5987.5], [5978.25, 5978.25], [5965.25, 5969.5]],
+  "NQ": [[21839, 21843], [21693, 21700], [21563, 21563]]
+ },
+ "trades": []
+}

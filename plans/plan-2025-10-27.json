@@ -1,0 +1,99 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-27",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1027",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Monday plan (post dated Sun 10/26) after Friday's day-1 breakout of a ~6-week range; big tech earnings week. Contract not stated; Z (Dec) assumed per batch (no roll mention). TRADES section (LONGS/shorts) is entirely UNGRADED -> all tags ''. 'Long NQ or ES on a LBAF of Friday's low' split into es2 + nq2 (same quote); he says to carry the NQ version forward all week (only transcribed for this date). 'Any other longs from the weekly plan's false failed breakout scenario' skipped (no level). True-gap-up 'hold of Friday's high from above would be a long' names no instrument -> included for both ES (es3) and NQ (nq3) as kind=break gated FRI_HIGH. LAAF-of-Friday's-high short included for ES only (es4; letter is ES-focused: 'Friday's poor high on ES (NQ isn't fantastic either)'). No stated targets anywhere -> es1/nq1 target FRI_HIGH ('I expect a retest of Friday's high'); es2/nq2 target the 6824 / 25480-25493 spots; es4 targets 6824; es3 targets daily level 6854 (only listed level above; ESZ5 bars put FRI_HIGH near 6841, so 6854 is above it); nq3 has no level above in the letter -> tgt empty. NQ daily level 25369 not discussed (kept as zone). Bearish engulfing scenario is the same LAAF trade, not separate.",
+ "zones": {
+  "ES": [[6854, 6854], [6824, 6824]],
+  "NQ": [[25369, 25369], [25480, 25493]]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 6824",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long ES on a hold or LBAF of 6824",
+   "kind": "fade",
+   "gate": [6824, 6824],
+   "tgt": ["FRI_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 25480-25493",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long NQ on a hold or LBAF of 25480-25493",
+   "kind": "fade",
+   "gate": [25480, 25493],
+   "tgt": ["FRI_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long NQ or ES on a LBAF of Friday’s low. Friday’s low on NQ was poor.",
+   "kind": "fade",
+   "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [6824],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long NQ or ES on a LBAF of Friday’s low. Friday’s low on NQ was poor. I would carry this forward for the entire week as a potential trade on NQ in particular given tech earnings.",
+   "kind": "fade",
+   "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [[25480, 25493]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "True gap up holding Friday's high",
+   "dir": "long",
+   "tag": "",
+   "quote": "Given the recent breakout we need to be prepared for a true gap up. See the starter kit for trading true gaps but a hold of Friday’s high from above would be a long.",
+   "kind": "break",
+   "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [6854],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "True gap up holding Friday's high",
+   "dir": "long",
+   "tag": "",
+   "quote": "Given the recent breakout we need to be prepared for a true gap up. See the starter kit for trading true gaps but a hold of Friday’s high from above would be a long.",
+   "kind": "break",
+   "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "Given Friday’s poor high on ES (NQ isn’t fantastic either) and the fact it sits at a key extension, I am willing to consider a short on a LAAF of Friday’s high. Any short for me is presumed to be a scalp (treat it like a rental) until proven otherwise.",
+   "kind": "fade",
+   "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [6824],
+   "stop_hint": "Any short for me is presumed to be a scalp (treat it like a rental) until proven otherwise."
+  }
+ ]
+}

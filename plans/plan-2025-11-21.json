@@ -1,0 +1,45 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-21",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1121",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Z5 (Dec 2025) contract; no roll mentioned. Post-liquidation day (11/20 'puke fest'). No TRADES heading; the ES:/NQ: subsections are ungraded commentary and there is no 'those are the trades' line -> trades = []. Commentary ideas (ungraded, not promoted): ES holding below the spike base (6572.25; he prefers weekly 6575-6580) 'is objectively a continuation short', 6516-6519 more likely reactive than 6513, losing 6503/6492-6496 highly problematic; rejecting the spike and basing back above 6575-6580 (caution a failed reclaim) retests 6591.75 Oct RTH low / Tuesday's 6594 low (today's VPOC there), above there and esp. 6606-6611 -> week's developing VPOC 6654; singles 6658-6708, monitor for a LAAF of 6658. NQ: holding below the spike base 24205 (and today's low) = continuation short; basing back above 24236-24248 targets 24369-24384 (includes Tuesday's low); singles above 24641.5, weekly 24643-24669 as proxy. ES 10/10 after-hours low 6540.25 already taken while writing. Recap of 11/20 mentions NQ 25282-25292 as the breakout target (from Discord/premarket, not in the 11/20 letter).",
+ "zones": {
+  "ES": [
+   [6709, 6709],
+   [6658, 6708],
+   [6654, 6654],
+   [6606, 6611],
+   [6594, 6594],
+   [6591.75, 6591.75],
+   [6575, 6580],
+   [6572.25, 6572.25],
+   [6540.25, 6540.25],
+   [6516, 6519],
+   [6513, 6513],
+   [6503, 6503],
+   [6492, 6496],
+   [6481, 6481],
+   [6465, 6468],
+   [6451, 6454],
+   [6431, 6435]
+  ],
+  "NQ": [
+   [24643, 24669],
+   [24641.5, 24641.5],
+   [24369, 24384],
+   [24236, 24248],
+   [24205, 24205],
+   [24023, 24023],
+   [23985, 23996],
+   [23885, 23900],
+   [23846, 23846],
+   [23804, 23822],
+   [23752, 23769],
+   [23700, 23724]
+  ]
+ },
+ "trades": []
+}

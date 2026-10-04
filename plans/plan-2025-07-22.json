@@ -1,0 +1,67 @@
+{
+ "source": "pharmdks",
+ "date": "2025-07-22",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-722",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "U (Sep 2025) contract, no roll mention. Non-paywalled post. No TRADES section and no grades; trades taken from the 'In terms of price and trades for tomorrow' / Trading Lower commentary where he frames a long/short, all tag ''. ES today's high given as 6374 ('6374 high of day') -> used as number; the line 'the 6369-6373 range effectively captured today's low' is read as a typo for high. ES today's low not given numerically (he says 6340.5-6342.5 captured it) -> RTH_LOW. es1 targets 6353.5-6357, 6362-6364, then today's high 6374; stop_hint is the spike-base reclaim condition. es2 lower-high short below today's low: targets nearest-first 6335.5 ('mindful of'), 6329.75 (first major target), 6323.25-6327, then weekly 6292-6294. es3 is the carried-over LBAF of Friday's low (FRI_LOW = Fri 7/18): target 6340.5-6342.5 then 'the above referenced levels' (6353.5-6357, 6362-6364, 6374). Trading Higher 'failure to sustain below the spike base and today's low' is the same idea as es1 and is not a separate trade; the possible lower-high short near 6362-6364 is explicitly 'can't plan for such a short' -> skipped. No NQ trades in the letter (NQ only gets levels: APBL 23328.5 'considered minor', 23129-23135).",
+ "zones": {
+  "ES": [
+   [6369, 6373],
+   [6374, 6374],
+   [6300, 6302],
+   [6340.5, 6342.5],
+   [6353.5, 6357],
+   [6345.5, 6345.5],
+   [6335.5, 6335.5],
+   [6344.5, 6344.5],
+   [6362, 6364],
+   [6292, 6294],
+   [6329.75, 6329.75],
+   [6323.25, 6327]
+  ],
+  "NQ": [
+   [23328.5, 23328.5],
+   [23129, 23135]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "A LBAF of today’s low (especially if today’s spike base 6344.5 is reclaimed) is a long and targets 6353.5-6357 and likely sees at least 6362-6364 (not included in the levels but effectively the bottom of the P from today). As this would once again preserve the recent range break and represent a failure from sellers, I would generally expect resolution to today’s (poor) high.",
+   "kind": "fade",
+   "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [[6353.5, 6357], [6362, 6364], 6374],
+   "stop_hint": "especially if today’s spike base 6344.5 is reclaimed"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Lower high below today's low",
+   "dir": "short",
+   "tag": "",
+   "quote": "I would consider a short on a lower high below today’s low. I hate breakdown shorts, especially in a bullish trend, but finding traction below a prior day low would be enough of a change in character for me to do so.",
+   "kind": "break",
+   "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [6335.5, 6329.75, [6323.25, 6327], [6292, 6294]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "I think we still need to monitor for a LBAF of Friday’s low as the long setup we had planned for today. This would still target 6340.5-6342.5 (today’s low) and a reclaim opens the above referenced levels for a LBAF of today’s low.",
+   "kind": "fade",
+   "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [[6340.5, 6342.5], [6353.5, 6357], [6362, 6364], 6374],
+   "stop_hint": ""
+  }
+ ]
+}

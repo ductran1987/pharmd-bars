@@ -1,0 +1,51 @@
+{
+ "source": "pharmdks",
+ "date": "2025-08-28",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-828",
+ "contract": {"ES": "ESU5", "NQ": "NQU5"},
+ "roll_note": "",
+ "ref_date_note": "Day after NVDA earnings. U (Sep) contract, no roll mention. No grades anywhere -> all tags ''. He prefers YM and NQ over compressed ES (YM trades/levels skipped). Letter typos: NQ 'short a rejection or LAAF of 458-556' read as 548-556 (nq2); 'I\\ll' typo in es3 quote kept verbatim. nq1/nq2 share one quote (rotation 485-499 <-> 548-556). nq3 'if 485-499 becomes resistance' treated as a fade of 485-499, target AH low range 425-438. es1 'holding below 83-86 seeing 64-66' treated as break with only the stated 64-66 target. es2 breakdown below 51-53.25 has no stated target -> 8/26 low 6444.5 then 6431-6435. es3 LAAF of the 6508.75 ATH gated [6508.75,6508.75] with the fail-back-below-6496-6498 condition in stop_hint; targets 83-86 then 'the low 60s' (not given as a numeric level, not transcribed); he may move 96-98 to 94-96 on a break higher. Today's RTH high/ATH 6502.5 (poor high) and today's low 6472.75 kept as levels.",
+ "zones": {
+  "ES": [[6508.75, 6508.75], [6502.5, 6502.5], [6496, 6498], [6483, 6486], [6475, 6477], [6472.75, 6472.75], [6464, 6466], [6457, 6460], [6451, 6453.25], [6444.5, 6444.5], [6431, 6435], [6402.5, 6402.5]],
+  "NQ": [[23548, 23556], [23485, 23499], [23425, 23438]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Hold/LBAF of 23485-23499", "dir": "long", "tag": "",
+   "quote": "Rotational trades are perhaps the most clean between 485-499 and 548-556. Resolution out of that range will be key for the first move. This means one can long a hold or LBAF of 485-499 and short a rejection or LAAF of 458-556",
+   "kind": "fade", "gate": [23485, 23499], "tgt": [[23548, 23556]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Rejection/LAAF of 23548-23556", "dir": "short", "tag": "",
+   "quote": "Rotational trades are perhaps the most clean between 485-499 and 548-556. Resolution out of that range will be key for the first move. This means one can long a hold or LBAF of 485-499 and short a rejection or LAAF of 458-556",
+   "kind": "fade", "gate": [23548, 23556], "tgt": [[23485, 23499]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "23485-23499 becomes resistance", "dir": "short", "tag": "",
+   "quote": "I am willing to be short NQ if 485-499 becomes resistance looking for a retest of the AH low in the 425-438 range. That range is quite thoroughly tested now.",
+   "kind": "fade", "gate": [23485, 23499], "tgt": [[23425, 23438]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Holding below 6483-6486", "dir": "short", "tag": "",
+   "quote": "I lean toward holding below 83-86 seeing 64-66 so I’m “okay” with a short there but ES has had such tight ranges and we’ve had to monitor YM and NQ anyway that I might prefer trading those. The 83-86 range is so close to 75-77 there just isn’t a ton of room to maneuver.",
+   "kind": "break", "gate": [6483, 6486], "tgt": [[6464, 6466]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Breakdown below 6451-6453.25", "dir": "short", "tag": "",
+   "quote": "Holding below 51-53.25 should be a reasonably clean breakdown short (which you know I hate)",
+   "kind": "break", "gate": [6451, 6453.25], "tgt": [6444.5, [6431, 6435]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "LAAF of 6508.75 ATH failing back below 6496-6498", "dir": "short", "tag": "",
+   "quote": "I\\ll still have my eyes open for a clean RTH high above 6508.75 that fails back below 6496-6498. I may move this level to 94-96 if we break higher, be aware. Holding below 94 following a failed break higher should see 83-86 and a very good chance at the low 60s at least.",
+   "kind": "fade", "gate": [6508.75, 6508.75], "tgt": [[6483, 6486]],
+   "stop_hint": "a clean RTH high above 6508.75 that fails back below 6496-6498"
+  }
+ ]
+}

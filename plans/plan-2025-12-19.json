@@ -1,0 +1,75 @@
+{
+ "source": "pharmdks",
+ "date": "2025-12-19",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1219",
+ "contract": {
+  "ES": "ESH6",
+  "NQ": "NQH6"
+ },
+ "roll_note": "The weekly plan covered analysis for both December and March contracts. Since so many use Tradingview and it has rolled I will use March levels (ESH2026 and NQH2026) moving forward.",
+ "ref_date_note": "Post dated Thu Dec 18, 2025 for Fri 12/19 (roll week, BOJ meeting overnight). Letter explicitly switches to March levels (ESH2026/NQH2026) -> H6 contract. No TRADES section, so trades = []. Commentary ideas (ungraded, not promoted): trade the Tue/Thu range as a box with the usual box trades - long an upside break or short a downside break that sees continuation, long a LBAF (of the box low), short a LAAF (of the box high); inside the range use levels for longs near the bottom in an uptrend, profit/flip short near the top on reversals into a downtrend. ES box ~6812-6873 (ESH trading the range ESZ had pre-roll); key level 6809.5-6812.5 (today's LOD 6811.75) carried forward as crucial; weekly levels work for ES. NQ box: lows 25161-25172, highs 25409-25422 and 25440-25448; 25338-25345 holding below / failed reclaims could produce a short. Sellers' goal: break the range lower with continuation targeting Wednesday's close and low (WED_LOW). NQ spike base 24922 (from 12/17) kept as a zone but its contract is unclear (written before the switch statement). The NQ 'must hold' area from the morning update was an image, not in the text.",
+ "zones": {
+  "ES": [
+   [
+    6809.5,
+    6812.5
+   ],
+   [
+    6811.75,
+    6811.75
+   ],
+   [
+    6902.5,
+    6902.5
+   ],
+   [
+    6871,
+    6873
+   ],
+   [
+    6783.25,
+    6783.25
+   ],
+   [
+    6812,
+    6873
+   ]
+  ],
+  "NQ": [
+   [
+    24922,
+    24922
+   ],
+   [
+    25517,
+    25517
+   ],
+   [
+    25440,
+    25448
+   ],
+   [
+    25409,
+    25422
+   ],
+   [
+    25338,
+    25345
+   ],
+   [
+    25161,
+    25172
+   ],
+   [
+    25094,
+    25094
+   ],
+   [
+    24985,
+    24996
+   ]
+  ]
+ },
+ "trades": []
+}

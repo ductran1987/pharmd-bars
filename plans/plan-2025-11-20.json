@@ -1,0 +1,49 @@
+{
+ "source": "pharmdks",
+ "date": "2025-11-20",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1120",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Z5 (Dec 2025) contract; no roll mentioned. NFP (September data) day. Ultra-short letter, no TRADES heading; the trades come from the explicit list line 'So really the trades are long an upside breakout which is sustained, and consider a short on a LAAF.' -> both ungraded (tag ''), ES only. es1: the breakout is read as his described bull scenario (higher low above 6714.75-6718.5 after trading into the high 6730s, 'If so then 6775 give or take is a reasonable continuation target') -> gate [6714.75,6718.5], tgt 6775. es2: LAAF of the 2-day balance; balance high = today's (11/19) high, which took out 11/18's high and tagged Monday's singles, not given numerically -> gate RTH_HIGH; target 'a traverse all the way to yesterday's low' = 11/18 low -> PREV_RTH_LOW (not given numerically). Commentary also says 'Bearish potential increases incrementally below roughly 6670, 6650, and 6636' (kept as zones, not added as targets) and 6629 (11/18 VAL). 'All of the above can be extrapolated to NQ as well' but no NQ trade levels given -> no NQ trades transcribed; NQ levels 25069 and 24430-24459 kept as zones.",
+ "zones": {
+  "ES": [
+   [6775, 6775],
+   [6714.75, 6718.5],
+   [6670, 6670],
+   [6650, 6650],
+   [6636, 6636],
+   [6629, 6629]
+  ],
+  "NQ": [
+   [25069, 25069],
+   [24430, 24459]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Sustained upside breakout (higher low above 6714.75-6718.5)",
+   "dir": "long",
+   "tag": "",
+   "quote": "So really the trades are long an upside breakout which is sustained, and consider a short on a LAAF.",
+   "kind": "break",
+   "gate": [6714.75, 6718.5],
+   "tgt": [6775],
+   "stop_hint": "Effectively a higher low above 6714.75-6718.5 after trading into the high 6730s."
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of the 2-day balance high (today's high)",
+   "dir": "short",
+   "tag": "",
+   "quote": "So really the trades are long an upside breakout which is sustained, and consider a short on a LAAF.",
+   "kind": "fade",
+   "gate": ["RTH_HIGH", "RTH_HIGH"],
+   "tgt": ["PREV_RTH_LOW"],
+   "stop_hint": ""
+  }
+ ]
+}

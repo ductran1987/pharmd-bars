@@ -1,0 +1,63 @@
+{
+ "source": "pharmdks",
+ "date": "2025-09-16",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-916",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "TradingView will switch its front contract to ESZ2025 (December) at open tonight, so I will reference that contract moving forward. *NOTE I am now using ESZ/NQZ levels moving forward",
+ "ref_date_note": "Roll week: letter says it now uses ESZ/NQZ levels, so all numbers are ESZ5/NQZ5. The recap levels (6585 ES Sept contract, NQ 24076/24143) are on the U contract and are NOT included in zones. Letter has NO TRADES section (levels + COMMENTARY only), so trades=[]. Commentary ideas, not transcribed as trades: NQ - LBAF of 24472.5 is a long, safer once basing above 24484; dips to/below 24484-24497 and 24472.5 'need to be quickly bought'; holding below the spike (base 24534 and today's high, which tagged 24553-24569) may see weakness toward 24484-24497; holding below 24484-24497 risks 24420-24433 and today's 24412.75 low, but 'anything short of continuation below today's low is ultimately a long'; holding above today's high 'speaks for itself'. ES - today's ESZ low 6663.25; dips into 6666-6669 must be bought; a LBAF of today's low (6663.25) that reclaims 6666-6669 is a long; holding below 6666-6669 with traction through today's low brings the daily into balance (levels below: 6652-6654, Sunday-night low 6641-6644, Friday's ESZ low 6639.25).",
+ "zones": {
+  "ES": [
+   [
+    6652,
+    6654
+   ],
+   [
+    6663.25,
+    6663.25
+   ],
+   [
+    6666,
+    6669
+   ],
+   [
+    6641,
+    6644
+   ],
+   [
+    6639.25,
+    6639.25
+   ]
+  ],
+  "NQ": [
+   [
+    24534,
+    24534
+   ],
+   [
+    24472.5,
+    24472.5
+   ],
+   [
+    24553,
+    24569
+   ],
+   [
+    24484,
+    24497
+   ],
+   [
+    24420,
+    24433
+   ],
+   [
+    24412.75,
+    24412.75
+   ]
+  ]
+ },
+ "trades": []
+}

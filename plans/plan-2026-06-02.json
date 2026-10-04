@@ -1,0 +1,69 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-02",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-62-d24",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Tue 6/2/2026 (posted Mon 6/1), June M6 contracts, no roll mentioned. Letter leans bearish (ES excess high at 7631-7634, possible LAAF month/week of 7610-7613) and says he is raising cash. 'Today and Friday's low' (relative equal lows on ES) not given as numbers -> es6 and nq3 gated RTH_LOW (today = 6/1 RTH low; Friday's low may be marginally lower). es1 has no stated target -> first level below from Trading Lower/Higher (7610-7613). es3 'longs above 7610-7613' treated as break. es4 targets 7603-7605/7610-7613 from the 7592-7596 commentary; es5 ('The same is true for 7581-7584 C+') read as a long on a hold of 7581-7584, targets 7592-7596, 7603-7605, 7610-7613 (commentary: buyers would need to reclaim 7603-7605 and 7610-7613). nq1/nq2 targets from NQ commentary (536 = last week's/month's high). NQ honorable mentions 339-348 and 386 kept as zones. 7628 (top of excess) kept as a level.",
+ "zones": {
+  "ES": [[7603,7605],[7585,7587],[7540,7540],[7499,7502],[7631,7634],[7610,7613],[7622,7623],[7628,7628],[7592,7596],[7581,7584],[7569,7572]],
+  "NQ": [[30053,30069],[30536,30536],[30448,30469],[30600,30617],[30339,30348],[30386,30386],[30242,30269]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "Fail/LAAF of 7622-7623", "dir": "short", "tag": "B/B-",
+   "quote": "Short a fail/LAAF of 7622-7623. B/B-",
+   "kind": "fade", "gate": [7622,7623], "tgt": [[7610,7613]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Downtrend below 7610-7613", "dir": "short", "tag": "B/B-",
+   "quote": "I hate breakdown shorts but am willing to join a downtrend below 7610-7613 as it would look like a LAAF month/week. I would monitor for continuation through 7603-7605 and then 7592-7596. If 95-96 holds then I’m covering more and probably trailing runners back above 7603-7605 or at breakeven. B/B-",
+   "kind": "break", "gate": [7610,7613], "tgt": [[7603,7605],[7592,7596]],
+   "stop_hint": "If 95-96 holds then I’m covering more and probably trailing runners back above 7603-7605 or at breakeven."
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Long above 7610-7613", "dir": "long", "tag": "B-",
+   "quote": "I really only feel safe with longs above 7610-7613 looking for 7622-7623 and monitoring for continuation from there. B-",
+   "kind": "break", "gate": [7610,7613], "tgt": [[7622,7623]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Hold of 7592-7596", "dir": "long", "tag": "C+",
+   "quote": "I will consider a long if 7592-7596 or so holds but I would keep it ultra tight until a session uptrend is established. C+",
+   "kind": "fade", "gate": [7592,7596], "tgt": [[7603,7605],[7610,7613]],
+   "stop_hint": "I would keep it ultra tight until a session uptrend is established."
+  },
+  {
+   "id": "es5", "instrument": "ES", "name": "Hold of 7581-7584", "dir": "long", "tag": "C+",
+   "quote": "The same is true for 7581-7584 C+",
+   "kind": "fade", "gate": [7581,7584], "tgt": [[7592,7596],[7603,7605],[7610,7613]],
+   "stop_hint": "keep it ultra tight until a session uptrend is established (per the preceding line)"
+  },
+  {
+   "id": "es6", "instrument": "ES", "name": "LBAF of today and Friday's low", "dir": "long", "tag": "B/B-",
+   "quote": "I would almost prefer to wait for a LBAF of today and Friday’s low to get long and have a solid R/R. Any such long is not remotely safe until 7581-7584 is reclaimed and from there I would look for 7603-7605 and 7610-7613, taking profit and trailing stops if they can’t reclaim. B/B-",
+   "kind": "fade", "gate": ["RTH_LOW","RTH_LOW"], "tgt": [[7581,7584],[7603,7605],[7610,7613]],
+   "stop_hint": "Any such long is not remotely safe until 7581-7584 is reclaimed"
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Fail/LAAF of 30600-30617", "dir": "short", "tag": "B+/A-",
+   "quote": "Short a fail/LAAF of 600-617. B+/A-",
+   "kind": "fade", "gate": [30600,30617], "tgt": [30536,[30448,30469]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Hold/LBAF of 30448-30469", "dir": "long", "tag": "B+/A-",
+   "quote": "Long a hold or LBAF of 448-469 B+/A-",
+   "kind": "fade", "gate": [30448,30469], "tgt": [30536,[30600,30617]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "LBAF of today/Friday's low (inclusive of 30242-30269)", "dir": "long", "tag": "B+/A-",
+   "quote": "Long a LBAF of today/Friday’s low inclusive of the 242-269 level and I would say in this instance the honorable mention 339-348 level would be a bare minimum reclaim, but really 448-469 for it to be any good. B+/A-",
+   "kind": "fade", "gate": ["RTH_LOW","RTH_LOW"], "tgt": [[30339,30348],[30448,30469]],
+   "stop_hint": "the honorable mention 339-348 level would be a bare minimum reclaim, but really 448-469 for it to be any good"
+  }
+ ]
+}

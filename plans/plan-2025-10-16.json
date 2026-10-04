@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-16",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1016",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Posted Wed 10/15 (subtitle 'That Mother Bar is a Martha Focker'); short plan written on plane WiFi. No TRADES section, only levels + ungraded commentary -> trades = []. Contract not stated; Z (Dec) assumed per batch (no roll mention). Still inside Friday 10/10 mother bar. Commentary ideas only: ES weekly 6693-6697 key lower edge and 6726 key upper edge of range; weakness below 6693 while monitoring a failed push through there to get long; strength above 6726 while monitoring a failed push above there to get short. Proper acceptance above 6741-6744 mostly the end of sellers (needs buyers defending from above + higher high). If tomorrow takes out PREV_RTH_LOW (10/15 low) with traction -> potential retest/sweep of FRI_LOW. NQ needs to fill Friday's key single prints and find acceptance above 25157-25169 ('157-169', resolved to 25xxx from the 25004 level). Bearishness starts on acceptance below FRI_LOW.",
+ "zones": {
+  "ES": [[6726, 6726], [6693, 6697], [6741, 6744]],
+  "NQ": [[25004, 25004], [25157, 25169]]
+ },
+ "trades": []
+}

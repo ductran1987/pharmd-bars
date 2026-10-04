@@ -1,0 +1,45 @@
+{
+ "source": "pharmdks",
+ "date": "2025-10-03",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-103",
+ "contract": {"ES": "ESZ5", "NQ": "NQZ5"},
+ "roll_note": "",
+ "ref_date_note": "Friday after a failed gap up. Z (Dec) contract, no roll mention. TRADES section is entirely UNGRADED (all tags ''); he says 'The trades look cleaner to me on NQ compared to ES. I would just use the above commentary for trading ES.' so the only ES trade is the LBAF of today's low (es1). ES today's low given as 6741.5 -> es1 gated on that number; NQ today's low not given numerically ('held just above 980' at the 24990-24993.5 singles) -> nq5 gated RTH_LOW. nq1 conditional on 25093-25096 holding all night (condition in stop_hint); targets from commentary (ARH 25126.5, 25130). nq2 'lower high below 25093-25099 ... joining an active session downtrend' -> break; prefers a trade down to ~25085 first. nq3 targets from commentary ('reclaim of 93-99 ... rotate back toward today's ARH and 130'). nq4 is a soft idea ('25027-25046 may hold one more test but ... upper portion (call it yesterday's 036.75 high to 046)') included as an ungraded long hold of 25036.75-25046; targets from commentary. es1/nq5 targets inferred from commentary (first levels above). NQ 25130 marked 'monitor for LAAF' in levels; '96-112 level' = weekly 25096-25112 he would replace with 25093-25099. ES commentary ideas (not trades): bull case sustain above ARH 6771.5 flipping 6769-6775 -> today's high/premarket high; holding below 6769-6775 -> 6756.75-6760, then today's low; below today's low -> 6719-6721 (6716-6720 next week).",
+ "zones": {
+  "ES": [[6780.25, 6782.25], [6756.75, 6760], [6735, 6738], [6741, 6744], [6741.5, 6741.5], [6769, 6775], [6771.5, 6771.5], [6719, 6721], [6716, 6720]],
+  "NQ": [[25180, 25180], [25130, 25130], [25074.5, 25078.5], [24990, 24993.5], [24957.75, 24964.25], [24920.75, 24928.75], [24969, 24980], [25126.5, 25126.5], [25096, 25096], [25093, 25099], [25096, 25112], [25027, 25046], [25036.75, 25036.75], [25020, 25020], [24900, 24900], [24911, 24916], [24880, 24888], [25085, 25085]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Long against 25093-25096 if it holds overnight", "dir": "long", "tag": "",
+   "quote": "If 25093-25096 holds all night I’ll consider longs against it tomorrow. Today’s VAH sits right there, however, so it isn’t a fantastic location for a long from that standpoint.",
+   "kind": "fade", "gate": [25093, 25096], "tgt": [25126.5, 25130], "stop_hint": "If 25093-25096 holds all night"
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Lower high below 25093-25099 in session downtrend", "dir": "short", "tag": "",
+   "quote": "A short on a lower high below 25093-25099 or so makes more sense to me because of the above and I will take that joining an active session downtrend. I would prefer to see trade down to, say, 25085 first, and then look for a lower high as sloe to 25096 as possible. I would take profit at the 074.5-078.5 spot and be on thin runners by 25027-25046.",
+   "kind": "break", "gate": [25093, 25099], "tgt": [[25074.5, 25078.5], [25027, 25046]], "stop_hint": "I would prefer to see trade down to, say, 25085 first, and then look for a lower high as sloe to 25096 as possible."
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Long in 25074.5-25078.5", "dir": "long", "tag": "",
+   "quote": "I am open to a long in the 25074.5-25078.5 spot, but know that if seen there is a risk of a move to 25027-25046 so I would need to see 25096 reclaimed quickly and decisively to hold the position.",
+   "kind": "fade", "gate": [25074.5, 25078.5], "tgt": [[25093, 25099], 25126.5, 25130], "stop_hint": "I would need to see 25096 reclaimed quickly and decisively to hold the position."
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "Hold of upper 25027-25046 (25036.75-25046)", "dir": "long", "tag": "",
+   "quote": "I think 25027-25046 may hold one more test but I would want to see it hold in the upper portion of that range (call it yesterday’s 036.75 high to 046).",
+   "kind": "fade", "gate": [25036.75, 25046], "tgt": [[25074.5, 25078.5], [25093, 25099]], "stop_hint": "I would want to see it hold in the upper portion of that range (call it yesterday’s 036.75 high to 046)."
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "LBAF of today's low (6741.5)", "dir": "long", "tag": "",
+   "quote": "Both ES and NQ I’ll consider a long on a LBAF of today’s low as a last line long.",
+   "kind": "fade", "gate": [6741.5, 6741.5], "tgt": [[6756.75, 6760]], "stop_hint": ""
+  },
+  {
+   "id": "nq5", "instrument": "NQ", "name": "LBAF of today's low", "dir": "long", "tag": "",
+   "quote": "Both ES and NQ I’ll consider a long on a LBAF of today’s low as a last line long.",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [[25027, 25046]], "stop_hint": ""
+  }
+ ]
+}

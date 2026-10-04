@@ -1,0 +1,119 @@
+{
+ "source": "pharmdks",
+ "date": "2025-12-12",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-1212",
+ "contract": {
+  "ES": "ESZ5",
+  "NQ": "NQZ5"
+ },
+ "roll_note": "",
+ "ref_date_note": "Post dated Dec 11, 2025 (Thu) for Fri 12/12; Z5 contract (pre-roll, no roll mention). Late/brief plan; the post text ends mid-sentence in the NQ commentary ('...and it probably means') with no TRADES section, so trades = []. Commentary ideas (ungraded, not promoted): ES failure back below 6905-6909.5 risks 6885 (IB high), with 6891-6893 in between; losing 6885 and weekly 6880-6883 likely comes back to 6866.5-6869; loss of 6866.5-6869 sees at least 6858-6859, risks today's RTH low and last week's RTH low 6812.75; 6885 ideal to hold; ES sustaining above '6805-6909.5' (typo, read as 6905-6909.5) is a good look. NQ holding below 25651-25669 (mindful of 25639) has potential for 25560s, at least 25620; 25651-25669 needs to hold or quickly reclaim; if 25560s don't hold, potential 25465 (mindful of weekly 25482-25502), near 25369-25388 double bottom. NQ reclaim of 25726-25736 would be impressive. ON low 25383, RTH low 25390.25.",
+ "zones": {
+  "ES": [
+   [
+    6928,
+    6930
+   ],
+   [
+    6885,
+    6885
+   ],
+   [
+    6858,
+    6858
+   ],
+   [
+    6905,
+    6909.5
+   ],
+   [
+    6891,
+    6893
+   ],
+   [
+    6880,
+    6883
+   ],
+   [
+    6866.5,
+    6869
+   ],
+   [
+    6858,
+    6859
+   ],
+   [
+    6812.75,
+    6812.75
+   ]
+  ],
+  "NQ": [
+   [
+    26015.5,
+    26031
+   ],
+   [
+    25860,
+    25869
+   ],
+   [
+    25823,
+    25836
+   ],
+   [
+    25726,
+    25736
+   ],
+   [
+    25560,
+    25567
+   ],
+   [
+    25455,
+    25455
+   ],
+   [
+    25369,
+    25388
+   ],
+   [
+    25383,
+    25383
+   ],
+   [
+    25390.25,
+    25390.25
+   ],
+   [
+    25651,
+    25669
+   ],
+   [
+    25639,
+    25639
+   ],
+   [
+    25620,
+    25620
+   ],
+   [
+    25465,
+    25465
+   ],
+   [
+    25482,
+    25502
+   ],
+   [
+    25890,
+    25909
+   ],
+   [
+    25570,
+    25570
+   ]
+  ]
+ },
+ "trades": []
+}
