@@ -1,0 +1,36 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-21",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-821-0b4",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Thu 8/20 for Fri 8/21 (end of OPEX week; Sep contracts expire 9/18, no roll mention). U (Sep) contract. ES today's RTH low given as 7659, spike base 7669. NQ daily level list includes '27996' (far below the ~29200 price area; possibly a typo, kept as written). nq2 is his non-specific B+ 'join any downtrend coming from a failed pop within today's range', sell response 'as low as 339' up to 'something like 395' -> gated [29339,29395] as a fade. es5 'persistent fails of the 7669 spike base' is 'implied by the commentary' and 'rates poorly' -> tag ''. Targets not stated in TRADES taken from commentary: nq1 -> 29269, 29339, near 29375; nq2 -> 29269, 29208-29241; es1 -> 7669, 7659, 7649-7656; es2 -> 7677-7680, 7669; es3 -> 7690-7692, 7677-7680; es4 -> 7669, 7677-7680. 7702-3 supply edge read as 7703. Not interested in shorts near 29208-29241 (last weekly level). NQ RTH bull gap fills at 28964.25 (28944-28969).",
+ "zones": {
+  "ES": [[7800, 7800], [7780, 7781], [7772, 7773], [7746, 7748], [7710, 7713], [7690, 7692], [7677, 7680], [7669, 7669], [7716, 7716], [7721, 7727], [7649, 7656], [7659, 7659], [7635, 7638], [7682, 7686], [7688, 7690.5], [7695.5, 7703]],
+  "NQ": [[30137, 30155], [30079, 30087], [29569, 29577], [29181, 29181], [27996, 27996], [29682, 29719], [29208, 29241], [29432, 29449], [29269, 29269], [29339, 29339], [29376, 29376], [29375, 29375], [29269, 29369], [28944, 28969], [28964.25, 28964.25], [29392, 29432], [29395, 29395]]
+ },
+ "trades": [
+  {"id": "nq1", "instrument": "NQ", "name": "Hold/LBAF of 29208-29241", "dir": "long", "tag": "B/B-",
+   "quote": "Long a hold or LBAF of 208-241 is a B/B-. It would normally be way lower given such a bearish trend but I’m upgrading it a bit given how extended this move is and how important the bull gap is.", "kind": "fade",
+   "gate": [29208, 29241], "tgt": [29269, 29339, 29375], "stop_hint": ""},
+  {"id": "nq2", "instrument": "NQ", "name": "Failed pop within today's range (sell response 29339-29395)", "dir": "short", "tag": "B+",
+   "quote": "I’m willing to join any downtrend coming from a failed pop within today’s range. There is far less clarity in the NQ profile as compared to ES, but meaningful supply. I start looking for a sell response as low as 339, but even something like 395 can look reasonably bullish but just be a pop to sell. This isn’t a very specific trade idea but hilariously still rates a B+", "kind": "fade",
+   "gate": [29339, 29395], "tgt": [29269, [29208, 29241]], "stop_hint": ""},
+  {"id": "es1", "instrument": "ES", "name": "Fail/LAAF of 7677-7680", "dir": "short", "tag": "B/B-",
+   "quote": "Short a fail/LAAF of 7677-7680 B/B-", "kind": "fade",
+   "gate": [7677, 7680], "tgt": [7669, 7659, [7649, 7656]], "stop_hint": ""},
+  {"id": "es2", "instrument": "ES", "name": "Fail/LAAF of 7690-7692", "dir": "short", "tag": "A-/B+",
+   "quote": "Short a fail/LAAF of 90-92 A-/B+", "kind": "fade",
+   "gate": [7690, 7692], "tgt": [[7677, 7680], 7669], "stop_hint": ""},
+  {"id": "es3", "instrument": "ES", "name": "Fail/LAAF of 7710-7713", "dir": "short", "tag": "B-",
+   "quote": "Short a fail/LAAF of 7710-7713. While I feel like stronger sellers would defend by 90-92, it is not unreasonable to expect relief that could just end up being a sell. B-", "kind": "fade",
+   "gate": [7710, 7713], "tgt": [[7690, 7692], [7677, 7680]], "stop_hint": ""},
+  {"id": "es4", "instrument": "ES", "name": "LBAF of today's low (7659) holding 7649-7656", "dir": "long", "tag": "B-",
+   "quote": "Long a LBAF of today’s low which holds the 49-56 weekly level. I would actually prefer 56 be at least swept. While something like this has potential to set a low, I still can’t rate it higher than a B- as there is simply too much to get through to the upside.", "kind": "fade",
+   "gate": [7659, 7659], "tgt": [7669, [7677, 7680]], "stop_hint": "which holds the 49-56 weekly level. I would actually prefer 56 be at least swept."},
+  {"id": "es5", "instrument": "ES", "name": "Persistent fails of 7669 spike base", "dir": "short", "tag": "",
+   "quote": "Shorting persistent fails of the 7669 spike base is implied by the commentary. It is worth reiterating, but rates poorly to me as we are so close to the 49-56 level.", "kind": "fade",
+   "gate": [7669, 7669], "tgt": [7659, [7649, 7656]], "stop_hint": ""}
+ ]
+}

@@ -1,0 +1,368 @@
+{
+ "source": "pharmdks",
+ "date": "2026-07-30",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-730-4e7",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Thu 7/30/2026 (posted Wed 7/29, after FOMC). U6 (Sep) contracts, no roll mentioned. TRADES section has NO grades -> all trades tag ''. es3 (carefully join an uptrend off 7313-7345) and nq1 (lean long on a higher low above 27440-27469) are soft/conditional ideas in TRADES, included ungraded. es2 alternative trigger: cluster of equal lows 7409-7417 (kept in stop_hint; not a separate trade). nq3/nq4 split from one sentence ('fail/LAAF of 592-622 or perhaps 689'); same sentence implies a preferred short at 27802-27819 ('hesitant to take a short before 27802-27819') - NOT promoted to a trade. Targets: none stated except nq2 (traction below 27409 -> retest of today's low, given as 27317.5); others from Trading Lower/Higher commentary (ES below spike base: 7357-7363, 7345.75 low, 7336-7342, AH low 7324; ES above 7420-7424: VPOC 7405-7408, 7393, spike base 7372 used for es2 in reverse; ES 39-44 supply then 7420-7424 for es4; NQ up: 27491-27500, 27542, 27592-27622, 27802-27819; NQ down: 27542, 27491-27500, 27440-27469). ES today's low 7345.75, spike base 7372; NQ spike base 27409, RTH low 27317.5. ES '73-80' failed-reclaim area read as 7373-7380. Further ES downside: 7313-7317, 7282-7298/7292-7296, June RTH low 7247.25, ETH low 7232.25, 7208-7214, 7177-7186. NQ downside: 27228 demand to 27150-27169, YTD VWAP ~27100.",
+ "zones": {
+  "ES": [
+   [
+    7469,
+    7472
+   ],
+   [
+    7460,
+    7462
+   ],
+   [
+    7439,
+    7444
+   ],
+   [
+    7420,
+    7424
+   ],
+   [
+    7409,
+    7417
+   ],
+   [
+    7405,
+    7408
+   ],
+   [
+    7393,
+    7393
+   ],
+   [
+    7373,
+    7380
+   ],
+   [
+    7372,
+    7372
+   ],
+   [
+    7357,
+    7363
+   ],
+   [
+    7357,
+    7357
+   ],
+   [
+    7345.75,
+    7345.75
+   ],
+   [
+    7336,
+    7342
+   ],
+   [
+    7324,
+    7324
+   ],
+   [
+    7313,
+    7345
+   ],
+   [
+    7313,
+    7317
+   ],
+   [
+    7292,
+    7296
+   ],
+   [
+    7282,
+    7298
+   ],
+   [
+    7247.25,
+    7247.25
+   ],
+   [
+    7232.25,
+    7232.25
+   ],
+   [
+    7208,
+    7214
+   ],
+   [
+    7177,
+    7186
+   ]
+  ],
+  "NQ": [
+   [
+    28256,
+    28256
+   ],
+   [
+    28100,
+    28100
+   ],
+   [
+    27941,
+    27969
+   ],
+   [
+    27880,
+    27891
+   ],
+   [
+    27802,
+    27819
+   ],
+   [
+    27689,
+    27689
+   ],
+   [
+    27592,
+    27622
+   ],
+   [
+    27542,
+    27542
+   ],
+   [
+    27491,
+    27500
+   ],
+   [
+    27440,
+    27469
+   ],
+   [
+    27409,
+    27409
+   ],
+   [
+    27317.5,
+    27317.5
+   ],
+   [
+    27313,
+    27339
+   ],
+   [
+    27228,
+    27228
+   ],
+   [
+    27150,
+    27169
+   ],
+   [
+    27100,
+    27100
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Persistent weakness below 7372 (spike base)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short persistent weakness below 7372",
+   "kind": "break",
+   "gate": [
+    7372,
+    7372
+   ],
+   "tgt": [
+    [
+     7357,
+     7363
+    ],
+    7345.75,
+    [
+     7336,
+     7342
+    ],
+    7324
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7420-7424",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail/LAAF of 7420-7424. This could also come from the cvluster of equal lows that we monitored from above 7409-7417.",
+   "kind": "fade",
+   "gate": [
+    7420,
+    7424
+   ],
+   "tgt": [
+    [
+     7405,
+     7408
+    ],
+    7393,
+    7372
+   ],
+   "stop_hint": "This could also come from the cvluster of equal lows that we monitored from above 7409-7417."
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Join uptrend off 7313-7345 trap area",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’m willing to carefully join an uptrend on the long side coming off this test of the major trap area in the 7313-7345 range but know that it isn’t any good for continuation until at least 7372 is reclaimed, and more like persistent strength above 7393",
+   "kind": "fade",
+   "gate": [
+    7313,
+    7345
+   ],
+   "tgt": [
+    7357,
+    7372,
+    7393,
+    [
+     7405,
+     7408
+    ],
+    [
+     7420,
+     7424
+    ]
+   ],
+   "stop_hint": "know that it isn’t any good for continuation until at least 7372 is reclaimed, and more like persistent strength above 7393"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7460-7462",
+   "dir": "short",
+   "tag": "",
+   "quote": "I may consider shorting a fail/LAAF of 7460-7462 whether or not it triggers from 7469-7473. I would frankly be a bit cautious of today’s 2nd leg down looking like a capitulation so I would be more cautious this high",
+   "kind": "fade",
+   "gate": [
+    7460,
+    7462
+   ],
+   "tgt": [
+    [
+     7439,
+     7444
+    ],
+    [
+     7420,
+     7424
+    ]
+   ],
+   "stop_hint": "whether or not it triggers from 7469-7473"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Higher low above 27440-27469 (reclaim long lean)",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’m fully open to two-way trading above 27440-27469 even though sellers are technically in control. I struggle with reclaim longs but it would probably be my lean on a higher low above 440-469 especially if ES looks constructive.",
+   "kind": "fade",
+   "gate": [
+    27440,
+    27469
+   ],
+   "tgt": [
+    [
+     27491,
+     27500
+    ],
+    27542,
+    [
+     27592,
+     27622
+    ],
+    [
+     27802,
+     27819
+    ]
+   ],
+   "stop_hint": "especially if ES looks constructive"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Persistent weakness below 27440-27469 (incl. LAAF)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short persistent weakness below 440-469 inclusive of a LAAF. This will need traction below 409 to be any good and find a retest of today’s low.",
+   "kind": "break",
+   "gate": [
+    27440,
+    27469
+   ],
+   "tgt": [
+    27409,
+    27317.5
+   ],
+   "stop_hint": "This will need traction below 409 to be any good"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Defended fail/LAAF of 27592-27622",
+   "dir": "short",
+   "tag": "",
+   "quote": "Given today’s poor backside structure I’m a bit hesitant to take a short before 27802-27819 but will consider it if sellers defend a fail/LAAF of 592-622 or perhaps 689.",
+   "kind": "fade",
+   "gate": [
+    27592,
+    27622
+   ],
+   "tgt": [
+    27542,
+    [
+     27491,
+     27500
+    ],
+    [
+     27440,
+     27469
+    ]
+   ],
+   "stop_hint": "will consider it if sellers defend"
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Defended fail/LAAF of 27689",
+   "dir": "short",
+   "tag": "",
+   "quote": "Given today’s poor backside structure I’m a bit hesitant to take a short before 27802-27819 but will consider it if sellers defend a fail/LAAF of 592-622 or perhaps 689.",
+   "kind": "fade",
+   "gate": [
+    27689,
+    27689
+   ],
+   "tgt": [
+    [
+     27592,
+     27622
+    ],
+    27542,
+    [
+     27440,
+     27469
+    ]
+   ],
+   "stop_hint": "will consider it if sellers defend"
+  }
+ ]
+}

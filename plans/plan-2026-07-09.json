@@ -1,0 +1,43 @@
+{
+ "source": "pharmdks", "date": "2026-07-09", "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-79-89e",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Thu 7/9/2026 (posted Wed 7/8). Sep U6 contracts per batch expectation; no roll mentioned. Post-Iran-news after-hours pullback on NQ. All TRADES-section ideas are ungraded -> tag ''. NQ today's high (spike extreme) given as 29500 and spike base 29458 -> used as numbers. ES today's high/low not given -> RTH_HIGH/RTH_LOW. ES lean-short paragraph split into es1 (LAAF of today's poor high trapped back below 27-31) and es2 (persistent weakness below 27-31); 'join any session downtrend within today's range' not made a trade. es1/es2 targets from commentary (7509-7515, 7502, 90-93, 72-76, today's low). es3 '7497 (Warsh FOMC spike base) to 7502 range' -> gate [7497,7502]. es4 LBAF of today's low (RTH low ~ equal to premarket low near the 7472-7476 level; exact position unknown) -> targets 72-76, 90-93, 7497-7502. nq2 'The same can be true for today's 458 spike base' -> short persistent weakness below 29458. nq3 needs to take out last night's overnight high but reject at 569-595. nq4: 'join any downtrend ... whether it is a LAAF of today's high, spike base, or 420-430' -> only the LAAF of today's 29500 high made a trade (spike base / 420-430 covered by nq1/nq2). nq5 targets as stated (420-430 then today's spike 29458-29500). 161 (or 161-181/152-181) noted as possible reactive bid; 29049 was his long entry. Recap typo '29269-29238' ignored.",
+ "zones": {
+  "ES": [[7559, 7561], [7527, 7531], [7502, 7502], [7509, 7515], [7472, 7476], [7540, 7543], [7490, 7493], [7544, 7548], [7557, 7559], [7497, 7497], [7497, 7502]],
+  "NQ": [[29882, 29882], [29476, 29487], [29458, 29458], [29500, 29500], [29420, 29430], [29210, 29222], [29161, 29181], [29152, 29181], [29161, 29161], [29269, 29328], [29569, 29595], [29045, 29069], [28945, 28969], [29049, 29049]]
+ },
+ "trades": [
+  {"id": "es1", "instrument": "ES", "name": "LAAF of today's poor high trapped below 7527-7531", "dir": "short", "tag": "",
+   "quote": "Honestly, I’ll probably lean on the short side anywhere near the top of today’s range until or unless bulls can sustain through today’s high and reclaim yesterday’s value 40-43. This might look like a LAAF of today’s poor high which finds itself trapped back below 27-31, or it might just be persistent weakness below 27-31. This doesn’t mean randomly fighting an uptrend, but I’ll join any session downtrend within today’s range.",
+   "kind": "fade", "gate": ["RTH_HIGH", "RTH_HIGH"], "tgt": [[7527, 7531], [7509, 7515], 7502], "stop_hint": "until or unless bulls can sustain through today’s high and reclaim yesterday’s value 40-43."},
+  {"id": "es2", "instrument": "ES", "name": "Persistent weakness below 7527-7531", "dir": "short", "tag": "",
+   "quote": "Honestly, I’ll probably lean on the short side anywhere near the top of today’s range until or unless bulls can sustain through today’s high and reclaim yesterday’s value 40-43. This might look like a LAAF of today’s poor high which finds itself trapped back below 27-31, or it might just be persistent weakness below 27-31. This doesn’t mean randomly fighting an uptrend, but I’ll join any session downtrend within today’s range.",
+   "kind": "break", "gate": [7527, 7531], "tgt": [[7509, 7515], 7502, [7490, 7493], [7472, 7476], "RTH_LOW"], "stop_hint": ""},
+  {"id": "es3", "instrument": "ES", "name": "Long dip into 7497-7502", "dir": "long", "tag": "",
+   "quote": "If I’m going to look for a dip within today’s range to get long it would be in the 7497 (Warsh FOMC spike base) to 7502 range. Remember this was roughly our weekly level last week this whole area is important.",
+   "kind": "fade", "gate": [7497, 7502], "tgt": [[7509, 7515], [7527, 7531], "RTH_HIGH"], "stop_hint": ""},
+  {"id": "es4", "instrument": "ES", "name": "Fresh LBAF of today's low", "dir": "long", "tag": "",
+   "quote": "With the relative equal premarket and RTH lows I’m open to a fresh LBAF of today’s low.",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [[7472, 7476], [7490, 7493], [7497, 7502]], "stop_hint": ""},
+  {"id": "nq1", "instrument": "NQ", "name": "Persistent weakness below 29420-29430", "dir": "short", "tag": "",
+   "quote": "I’ll short persistent weakness below 29420-29430. Keep in mind it is a long night and we’ll re-evaluate each session on its own. The same can be true for today’s 458 spike base.",
+   "kind": "break", "gate": [29420, 29430], "tgt": [[29269, 29328], [29210, 29222], "RTH_LOW"], "stop_hint": ""},
+  {"id": "nq2", "instrument": "NQ", "name": "Persistent weakness below 29458 spike base", "dir": "short", "tag": "",
+   "quote": "I’ll short persistent weakness below 29420-29430. Keep in mind it is a long night and we’ll re-evaluate each session on its own. The same can be true for today’s 458 spike base.",
+   "kind": "break", "gate": [29458, 29458], "tgt": [[29420, 29430], [29269, 29328]], "stop_hint": ""},
+  {"id": "nq3", "instrument": "NQ", "name": "Rejection of 29569-29595 after taking out ON high", "dir": "short", "tag": "",
+   "quote": "I may be willing to short a fresh test of 569-595 that takes out last night’s overnight high but still rejects. This is a bit risky above today’s high but the spot is shaping up to be quite important on this week’s profile.",
+   "kind": "fade", "gate": [29569, 29595], "tgt": [29500, 29458, [29420, 29430]], "stop_hint": "This is a bit risky above today’s high"},
+  {"id": "nq4", "instrument": "NQ", "name": "LAAF of today's high (29500)", "dir": "short", "tag": "",
+   "quote": "Like for ES, I’ll join any downtrend on the short side coming off the top of today’s range whether it is a LAAF of today’s high, spike base, or 420-430.",
+   "kind": "fade", "gate": [29500, 29500], "tgt": [29458, [29420, 29430], [29269, 29328]], "stop_hint": ""},
+  {"id": "nq5", "instrument": "NQ", "name": "Hold of 29269-29328", "dir": "long", "tag": "",
+   "quote": "If 29269-29328 continues to hold I’ll get long looking for 420-430 and then today’s spike.",
+   "kind": "fade", "gate": [29269, 29328], "tgt": [[29420, 29430], [29458, 29500]], "stop_hint": ""},
+  {"id": "nq6", "instrument": "NQ", "name": "Long in 29210-29222", "dir": "long", "tag": "",
+   "quote": "I may be willing to look for a long in the 210-222 range give or take but I kind of feel like bulls need to lift this asap or risk some trouble",
+   "kind": "fade", "gate": [29210, 29222], "tgt": [[29269, 29328]], "stop_hint": "I kind of feel like bulls need to lift this asap or risk some trouble"}
+ ]
+}

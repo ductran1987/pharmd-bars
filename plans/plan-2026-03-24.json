@@ -1,0 +1,297 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-24",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-324-9c1",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "",
+ "ref_date_note": "M (Jun) contract (no roll mention; letter's 3/23 RTH lows ES 6616 / NQ 24308.5 and NQ high 24690 match ESM6/NQM6 bars). Day after the Iran-talks premarket rip; 3-day balance (bottom = Friday's RTH low; top = today's RTH high for ES, Thursday's RTH high for NQ). TRADES section ('Major trades') is ungraded (tags ''). 'Short NQ or ES if 24357-24380 and 6618-6622 flip to resistance (really today's low)' split into nq1/es1, gated on the named zones, '(really today's low)' kept in stop_hint (today's lows 24308.5 / 6616); kind=break (trading below a lost level); targets from the clarity-in-weakness commentary. 'Short a LAAF of today's high' names no instrument -> both: nq2 gated on 24690 ('690 high of day'), es2 gated RTH_HIGH (ES high not given numerically); targets = levels below from the inside-today's-range commentary. 'a LAAF the ARH on ES or NQ is probably the cleanest pure setup' -> es3 gated on ES ARH 6674.25 ('74.25 high'), target 6662 then 6640-6643 per commentary ('would need back below 62 to find 40-43'); NQ ARH number not given and no REF exists for it -> NQ ARH LAAF not transcribed (commentary: targets 24485-24494 then 24427-24433). Typo 'starting about 6780' read as 6680. Other commentary ideas (not trades): LBAF of 6612 (3/19 low); long sustaining above today's high and 6710-6716 targeting 6740-6746/6760-6764; ES reclaim/hold of 6640-6643 targeting 6662 (rejection risk at 6653-6657); NQ long above today's high and 24691-24709 targeting 24769-24796 then 24928-24948; NQ holding below 24427-24433 retests 24357-24380; NQ above 24427-24433 targets 24485-24494; 'initial bias will be to short pops' inside today's range.",
+ "zones": {
+  "ES": [
+   [
+    6680,
+    6680
+   ],
+   [
+    6662,
+    6662
+   ],
+   [
+    6640,
+    6643
+   ],
+   [
+    6612,
+    6612
+   ],
+   [
+    6572,
+    6575
+   ],
+   [
+    6740,
+    6746
+   ],
+   [
+    6710,
+    6716
+   ],
+   [
+    6618,
+    6622
+   ],
+   [
+    6616,
+    6616
+   ],
+   [
+    6587,
+    6591
+   ],
+   [
+    6563,
+    6563
+   ],
+   [
+    6553,
+    6553
+   ],
+   [
+    6539,
+    6543
+   ],
+   [
+    6760,
+    6764
+   ],
+   [
+    6653,
+    6657
+   ],
+   [
+    6669,
+    6674
+   ],
+   [
+    6674.25,
+    6674.25
+   ],
+   [
+    6688,
+    6692
+   ]
+  ],
+  "NQ": [
+   [
+    24485,
+    24494
+   ],
+   [
+    24427,
+    24433
+   ],
+   [
+    24160,
+    24160
+   ],
+   [
+    24098,
+    24098
+   ],
+   [
+    24763,
+    24763
+   ],
+   [
+    24769,
+    24796
+   ],
+   [
+    24691,
+    24709
+   ],
+   [
+    24690,
+    24690
+   ],
+   [
+    24357,
+    24380
+   ],
+   [
+    24308.5,
+    24308.5
+   ],
+   [
+    24222,
+    24240
+   ],
+   [
+    24048,
+    24069
+   ],
+   [
+    23971.25,
+    23971.25
+   ],
+   [
+    23927.25,
+    23927.25
+   ],
+   [
+    23885,
+    23900
+   ],
+   [
+    24928,
+    24948
+   ],
+   [
+    24869,
+    24869
+   ],
+   [
+    24469,
+    24469
+   ],
+   [
+    24523,
+    24543
+   ],
+   [
+    24569,
+    24579
+   ],
+   [
+    24614,
+    24642
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Short if 24357-24380 flips to resistance",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short NQ or ES if 24357-24380 and 6618-6622 flip to resistance (really today’s low).",
+   "kind": "break",
+   "gate": [
+    24357,
+    24380
+   ],
+   "tgt": [
+    [
+     24222,
+     24240
+    ],
+    24160
+   ],
+   "stop_hint": "(really today’s low)"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of today's high (24690)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of today’s high.",
+   "kind": "fade",
+   "gate": [
+    24690,
+    24690
+   ],
+   "tgt": [
+    [
+     24569,
+     24579
+    ],
+    [
+     24523,
+     24543
+    ],
+    [
+     24485,
+     24494
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Short if 6618-6622 flips to resistance",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short NQ or ES if 24357-24380 and 6618-6622 flip to resistance (really today’s low).",
+   "kind": "break",
+   "gate": [
+    6618,
+    6622
+   ],
+   "tgt": [
+    6612,
+    [
+     6587,
+     6591
+    ],
+    [
+     6572,
+     6575
+    ],
+    6563
+   ],
+   "stop_hint": "(really today’s low)"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of today’s high.",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    [
+     6688,
+     6692
+    ],
+    6680,
+    [
+     6669,
+     6674
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LAAF of the ARH (6674.25)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Minor trades within today’s range are implied by the above commentary but a LAAF the ARH on ES or NQ is probably the cleanest pure setup.",
+   "kind": "fade",
+   "gate": [
+    6674.25,
+    6674.25
+   ],
+   "tgt": [
+    6662,
+    [
+     6640,
+     6643
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

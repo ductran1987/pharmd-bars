@@ -1,0 +1,69 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-20",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-520-122",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Wednesday letter (posted Tue 5/19); NVDA earnings after the bell 5/20 ('ultra trappy'). No roll mention, numbers on M6. ES today's high 7415 and today's low 7354.25 given -> es3 gated on 7354.25, es1 target uses 7354.25; ES yesterday's high 7454.75 (from 5/19 letter) kept as zone. NQ today's high only described as 'in the 114-135 range', NQ today's low not given -> RTH_LOW. nq1 no target in TRADES -> commentary 'retest 955-990 but I would argue closer to 975 and 999' then 'fresh run at 29069-29090 and then today's high' (targets 28975, 28999, 29069-29090); he may front-run entering at 28800-28817 (riskier, lowers rating). nq2 target from 'A fail in the 990-999 range ... come back to 859-880'. nq3 is the short below 859-880 he explicitly declines to rate ahead of time ('still isn't worth rating') -> included with tag '' kind break; targets last week's low 28742, 28700-28726, today's low, then 28605-28623 and 28500-28520 (continuation below today's low). nq4 'I'll rate this a B- I actually like it a tad better on ES' taken as the NQ LBAF-of-today's-low grade; ES version is es3 (B). es1 '7363' kept as written (last week's low is 7363.25). es4 no target in TRADES -> 'A LAAF of 7389-7391 reasonably targets 7360, mindful of 7380 and 69-73 in between' (7380 and 7369-7373 included as intermediate targets). es5 is the direct short at 7398-7403 he says is 'probably not worth a rating ahead of time' -> tag '', same targets as es4, stop_hint: no good until 7389-7391 flips to resistance. Double-distribution levels 7327-7350, bull/bear 7350-7360, range 7365-7428 kept as zones.",
+ "zones": {
+  "ES": [[7463, 7465], [7433, 7435], [7415, 7415], [7389, 7391], [7380, 7380], [7360, 7360], [7369, 7373], [7363.25, 7363.25], [7354.25, 7354.25], [7373.5, 7373.5], [7346, 7350], [7327, 7350], [7350, 7360], [7365, 7428], [7398, 7403], [7420, 7420], [7454.75, 7454.75]],
+  "NQ": [[29383, 29397], [29114, 29135], [28859, 28880], [28700, 28726], [28605, 28623], [28800, 28817], [28840, 28840], [28742, 28742], [28955, 28990], [28975, 28975], [28999, 28999], [28990, 28999], [29069, 29090], [28926, 28926], [29212, 29212], [29290, 29290], [29356, 29356], [28500, 28520]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Hold/LBAF of 28859-28880", "dir": "long", "tag": "B+/A-",
+   "quote": "Long a hold or LBAF of 28859-28880. B+/A- rating. As mentioned above I may be willing to front run a reclaim of 859-880 entering directly at 800-817 or somewhere in between if the session provides some kind of setup which allows me to do so. Doing so is riskier and adversely impacts the rating a tad.",
+   "kind": "fade", "gate": [28859, 28880], "tgt": [28975, 28999, [29069, 29090]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "LAAF of 28990-28999", "dir": "short", "tag": "B-",
+   "quote": "Short a LAAF of 28990-28999. Basically the top of the weekly level and just above could be reactive. I’ll rate this a B- and perhaps lower if 859-880 has already been tested and held.",
+   "kind": "fade", "gate": [28990, 28999], "tgt": [[28859, 28880]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Clear weakness below 28859-28880", "dir": "short", "tag": "",
+   "quote": "As mentioned in the commentary, I’m willing to be short below 859-880 if there is clear weakness I just want to be careful not to get my face ripped off. This could end up being the trade of the day but to me it still isn’t worth rating until I see the action real time.",
+   "kind": "break", "gate": [28859, 28880], "tgt": [28742, [28700, 28726], "RTH_LOW", [28605, 28623], [28500, 28520]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "LBAF of today's low", "dir": "long", "tag": "B-",
+   "quote": "We’ll need to be mindful of a LBAF of today’s low on both ES and NQ as described above, just know that 700-726 and 800-817 bare minimum would have to reclaim and then 859-880. I’ll rate this a B- I actually like it a tad better on ES.",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [[28700, 28726], [28800, 28817], [28859, 28880]],
+   "stop_hint": "700-726 and 800-817 bare minimum would have to reclaim and then 859-880"
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Fail/LAAF of 7380", "dir": "short", "tag": "C+",
+   "quote": "Short a fail or LAAF of 7380 targeting 7369-7373, 7363, 7360, and today’s low. This isn’t a lot of room to work with so I have to rate this poorly. We’re simply too close to last week’s low (not to mention yesterdays) with the possibility that this is a LBAF week for me to be too cozy on the short side working a narrow space. I’ll rate it a C+",
+   "kind": "fade", "gate": [7380, 7380], "tgt": [[7369, 7373], 7363, 7360, 7354.25],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Hold/LBAF of 7360", "dir": "long", "tag": "C+",
+   "quote": "A hold or LBAF of 7360 that can’t make it to today’s low has potential for 7380 and 7389-7391 if sellers don’t defend 69-73 from below. This also isn’t a lot of room to work with and getting long below last week’s low is iffy so I’ll rate it a C+.",
+   "kind": "fade", "gate": [7360, 7360], "tgt": [7380, [7389, 7391]],
+   "stop_hint": "that can’t make it to today’s low ... if sellers don’t defend 69-73 from below"
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "LBAF of today's low (7354.25)", "dir": "long", "tag": "B",
+   "quote": "A LBAF of today’s low needs to reclaim 7360 and 7363.25 without getting rejected by 7369-7373 from below. This makes it tricky and would require a short leash. however, it has decent upside potential to 7389-7391 and 7398-7403 (monitor for continuation from there) if 7380 doesn’t turn it back down so I’m willing to rate it a B.",
+   "kind": "fade", "gate": [7354.25, 7354.25], "tgt": [[7389, 7391], [7398, 7403]],
+   "stop_hint": "needs to reclaim 7360 and 7363.25 without getting rejected by 7369-7373 from below. This makes it tricky and would require a short leash."
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Fail/LAAF of 7389-7391", "dir": "short", "tag": "B/B+",
+   "quote": "Short a fail or LAAF of 7389-7391. This is similar to 7380 but has more potential return and is arguably a more reasonable area for sellers to present than 7380 so I’ll rate this a B/B+.",
+   "kind": "fade", "gate": [7389, 7391], "tgt": [7380, [7369, 7373], 7360],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5", "instrument": "ES", "name": "Direct short at 7398-7403", "dir": "short", "tag": "",
+   "quote": "The weekly 7398-7403 level can produce the above mentioned LAAF but entering direct is risky as the trade is no good until 7389-7391 is flipped to firm resistance. I see this as somewhat analogous to getting long on NQ below 859-880. If the session provides me with a setup to take it direct, I’ll consider it but probably not worth a rating ahead of time.",
+   "kind": "fade", "gate": [7398, 7403], "tgt": [[7389, 7391], 7380, [7369, 7373], 7360],
+   "stop_hint": "the trade is no good until 7389-7391 is flipped to firm resistance"
+  }
+ ]
+}

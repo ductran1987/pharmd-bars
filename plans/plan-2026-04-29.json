@@ -1,0 +1,177 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-29",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-429-751",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Tue Apr 28, 2026 for Wed 4/29 (FOMC + mega-cap earnings); M6 contract, no roll mention. TRADES section is 'Implied from the above ... keep it general' but states one big-picture rule naming levels (precedent 4/24) -> split into es1/nq1 (long on reclaim+flip of today's high and yesterday's low, kind break) and es2/nq2 (continuation short if today's low lost and offered, kind break), all ungraded (tag ''), same quote. ES: today's high 7183 given (inside 7177-7182 zone; 'the 4/17 high of 7185.75 to be sure' in stop_hint); ES yesterday's low not given numerically in this letter (PREV_RTH_LOW, sits in 7177-7182) -> es1 gated on 7183. NQ: today's high 27252, yesterday's low 27298.5 (bearish RTH gap) -> nq1 gated [27252, 27298.5], 'weekly 332-360 to be sure' in stop_hint. Today's lows not given numerically (ES held 7144.5-7147 weekly; NQ wicked below last week's VAH in 27041-27069) -> es2/nq2 gated RTH_LOW. Targets from commentary: es1 7198-7201, 7206-7211 (then ETH high, not encoded); nq1 27408-27417, spike base 27440, high 27455 (then ETH high); es2 7115.5-7121 (then 'last week's low', not encoded - WEEK_LOW ambiguous); nq2 has no numeric level below today's low ('Follow the weekly levels to the downside') -> tgt [] (validator warning, genuine). Letter writes '6160-6162' as the new daily level once (typo for 7160-7162, used everywhere else). Commentary-only ideas (not promoted): ES hold/LBAF of 7160-7162 -> 7167-7169, 7177-7182; ES 7160-7162 flipped -> today's low, then 7115.5-7121 (hold/LBAF) and last week's low; deep LBAF of 7115.5-7121; NQ hold/LBAF of 27150-27169 -> today's high and RTH gap; NQ 27103-27120 hold keeps sellers trapped; lost (monitor LBAF) -> 27041-27069 then today's low.",
+ "zones": {
+  "ES": [
+   [
+    7198,
+    7201
+   ],
+   [
+    7144.5,
+    7147
+   ],
+   [
+    7177,
+    7182
+   ],
+   [
+    7183,
+    7183
+   ],
+   [
+    7185.75,
+    7185.75
+   ],
+   [
+    7115.5,
+    7121
+   ],
+   [
+    7206,
+    7211
+   ],
+   [
+    7160,
+    7162
+   ],
+   [
+    7167,
+    7169
+   ]
+  ],
+  "NQ": [
+   [
+    27408,
+    27417
+   ],
+   [
+    27103,
+    27120
+   ],
+   [
+    27041,
+    27069
+   ],
+   [
+    27267,
+    27286
+   ],
+   [
+    27252,
+    27252
+   ],
+   [
+    27298.5,
+    27298.5
+   ],
+   [
+    27332,
+    27360
+   ],
+   [
+    27440,
+    27440
+   ],
+   [
+    27455,
+    27455
+   ],
+   [
+    27150,
+    27169
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Reclaim/flip of today's high (7183) and yesterday's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "The big picture is it will be a long if today’s high and yesterday’s low are reclaimed and flipped (for both NQ and ES) and it will be a continuation short (at least initially) if today’s low is lost and offered.",
+   "kind": "break",
+   "gate": [
+    7183,
+    7183
+   ],
+   "tgt": [
+    [
+     7198,
+     7201
+    ],
+    [
+     7206,
+     7211
+    ]
+   ],
+   "stop_hint": "the 4/17 high of 7185.75 to be sure"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Continuation short below today's low",
+   "dir": "short",
+   "tag": "",
+   "quote": "The big picture is it will be a long if today’s high and yesterday’s low are reclaimed and flipped (for both NQ and ES) and it will be a continuation short (at least initially) if today’s low is lost and offered.",
+   "kind": "break",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     7115.5,
+     7121
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Reclaim/flip of today's high (27252) and yesterday's low (27298.5)",
+   "dir": "long",
+   "tag": "",
+   "quote": "The big picture is it will be a long if today’s high and yesterday’s low are reclaimed and flipped (for both NQ and ES) and it will be a continuation short (at least initially) if today’s low is lost and offered.",
+   "kind": "break",
+   "gate": [
+    27252,
+    27298.5
+   ],
+   "tgt": [
+    [
+     27408,
+     27417
+    ],
+    27440,
+    27455
+   ],
+   "stop_hint": "the weekly 332-360 to be sure"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Continuation short below today's low",
+   "dir": "short",
+   "tag": "",
+   "quote": "The big picture is it will be a long if today’s high and yesterday’s low are reclaimed and flipped (for both NQ and ES) and it will be a continuation short (at least initially) if today’s low is lost and offered.",
+   "kind": "break",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [],
+   "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-08",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-48-7ae",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Tue 4/7 ('Groundhog Day') for Wed 4/8. M (Jun) contract, no roll mentioned. Trump 8pm deadline overnight (ceasefire headline risk). NO TRADES section in this letter (ends after NQ Trading Lower) -> trades = []. Weekly level corrections: ES replace 6669-6674 with 6674-6679; NQ replace 24523-24543 with 24537-24569, add 24691-24709. Typo: 'the effective bottom of the range is still clearly.' (NQ, number missing). Range: ES top 6654 / equal cash highs 6659.5 and 6661 (6660-6662), bottom 6583-6587; NQ top 24369-24380 (cash high 24381), Monday high 24452.25, spike base 24308; ES spike base just above 6639-6645. Commentary-only ideas (not trades): fade failed breaks of the range / LAAF-LBAF at reactive areas, don't fade clean breaks. ES higher: hold 6654 and accelerate through 6660-6662, 6674-6679, 6689-6692 (caution there ~SPX 6650), caution again once 6704.75 taken (into 6710-6716); back below 6660-6662 needs to lose 6654 then 6639-6645, could resolve to 6583-6587 (don't blindly hold). ES lower: LBAF of today's low that reclaims 6583-6587 works back up the levels; if 6583-6587 flips to firm resistance with LH/LL -> 6514-6520, maybe 6492-6497. NQ higher: sustain above 24369-24380, break Monday's high 24452.25 toward 24537-24569, caution up to 24597-24611 / 24691-24709. NQ lower: failure above 24369-24380 -> 24308 spike base, 24243-24269 may support; tight leash on shorts through there; LBAF of today's low possible (23901-23933 and Thursday singles below); if 24004 flips to firm resistance -> Thursday's open and low and 23647-23669.",
+ "zones": {
+  "ES": [
+   [6674, 6679],
+   [6660, 6662],
+   [6618, 6622],
+   [6597, 6600],
+   [6560, 6560],
+   [6543, 6547],
+   [6654, 6654],
+   [6659.5, 6659.5],
+   [6661, 6661],
+   [6583, 6587],
+   [6639, 6645],
+   [6689, 6692],
+   [6704.75, 6704.75],
+   [6710, 6716],
+   [6514, 6520],
+   [6492, 6497]
+  ],
+  "NQ": [
+   [24537, 24569],
+   [24691, 24709],
+   [24597, 24611],
+   [24134, 24149],
+   [23869, 23875],
+   [23821, 23821],
+   [24369, 24380],
+   [24381, 24381],
+   [24452.25, 24452.25],
+   [24308, 24308],
+   [24243, 24269],
+   [23901, 23933],
+   [24004, 24043],
+   [23647, 23669]
+  ]
+ },
+ "trades": []
+}

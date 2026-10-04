@@ -1,0 +1,87 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-06",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-46",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Sat Apr 4, 2026 for Mon 4/6 (after Good Friday 4/3 with NFP); M6 contract, no roll mention. 'Thursday' = 4/2 (P-shaped profile); Thursday's open/low given as ES 6528/6514 and NQ 23763.5/23678, Wednesday's NQ high 24348.25. 'Once back below/above X' conditions (ES 6630 and 6618-6622 / 6597-6600; NQ 24205 / 24098) recorded in stop_hint, not as targets; targets are the levels he says it 'likely sees', with 'mindful of' levels inserted nearest-first. es3/nq3 (lower-high breakdown shorts) have no target in TRADES -> commentary: cover most at Thursday's open and low (ES 6528, 6514; NQ 23763.5, 23678) unless price nukes through ES 6492-6496 (kept as a third ES target); NQ weekly 23901-23933 'could potentially halt a P-breakdown' added as nq3's first target. ES daily level 6543-6547 lies between 6575 and 6528 but is not mentioned in commentary (not used as a target). ES '(possibly 6630)' kept as a zone. NQ abbreviations '004-043', '098', '149', '205', '243-269', '057.5' resolved to 24xxx; '269 and 369' -> 24269 / 24369.",
+ "zones": {
+  "ES": [[6618, 6622], [6597, 6600], [6575, 6575], [6543, 6547], [6583, 6587], [6639, 6645], [6630, 6630], [6575, 6586.5], [6586.5, 6586.5], [6528, 6528], [6514, 6514], [6492, 6496]],
+  "NQ": [[23869, 23875], [23821, 23821], [24004, 24043], [24004.25, 24057.5], [24057.5, 24057.5], [24243, 24269], [24098, 24098], [24149, 24149], [24205, 24205], [24348.25, 24348.25], [24369, 24369], [23901, 23933], [23763.5, 23763.5], [23678, 23678], [23969, 23969]]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 6639-6645",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Short a fail or LAAF (LAAF maybe preferred given the two wicks up there already) of 6639-6645. Once back below 6630 and 6618-6622 it is likely to see 6583-6587, mindful of 6597-6600. I’ll rate this a B+/A-.",
+   "kind": "fade",
+   "gate": [6639, 6645],
+   "tgt": [[6597, 6600], [6583, 6587]],
+   "stop_hint": "Once back below 6630 and 6618-6622"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 6583-6587",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "Long a hold or LBAF of 6583-6587. Once back above 6597-6600 this most likely sees 6639-6645, mindful of 6618-6622. Because bulls are at least in control of short time frame trend and this would represent an epic failure from sellers, I would expect 6639-6645 to be taken out if seen in this circumstance. Because this is significant potential range, I’ll rate it an A/A-",
+   "kind": "fade",
+   "gate": [6583, 6587],
+   "tgt": [[6618, 6622], [6639, 6645]],
+   "stop_hint": "Once back above 6597-6600"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Lower high below 6583-6587 (P-breakdown)",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Short a lower high below 6583-6587, ideally after seeing a weak reaction at 75 or just below (think bear flag type price action to represent weakness). I hate breakdown shorts, but given sellers control higher timeframes and the weakness from buyers it would represent, I’ll still rate it a B+/A-.",
+   "kind": "break",
+   "gate": [6583, 6587],
+   "tgt": [6528, 6514, [6492, 6496]],
+   "stop_hint": "ideally after seeing a weak reaction at 75 or just below (think bear flag type price action to represent weakness)"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 24243-24269",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Short a fail or LAAF (LAAF maybe preferred given the two wicks up there already) of 24243-24269. Once back below 205 it is likely to see 149, 098, and 004-043. I’ll rate this a B+/A-.",
+   "kind": "fade",
+   "gate": [24243, 24269],
+   "tgt": [24149, 24098, [24004, 24043]],
+   "stop_hint": "Once back below 205"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 24004-24043",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "Long a hold or LBAF of 24004-24043. Once back above 098 this most likely sees 149, 205, and 243-269. Because bulls are at least in control of short time frame trend and this would represent an epic failure from sellers, I would expect 243-269 to be taken out if seen in this circumstance (even if just by a bit). Because this is significant potential range, I’ll rate it an A/A-",
+   "kind": "fade",
+   "gate": [24004, 24043],
+   "tgt": [24149, 24205, [24243, 24269]],
+   "stop_hint": "Once back above 098"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Lower high below 24004-24043 (P-breakdown)",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Short a lower high below 24004-24043 ideally after seeing a weak reaction at 23969 or just below (think bear flag type price action to represent weakness). I hate breakdown shorts, but given sellers control higher timeframes and the weakness from buyers it would represent, I’ll still rate it a B+/A-.",
+   "kind": "break",
+   "gate": [24004, 24043],
+   "tgt": [[23901, 23933], 23763.5, 23678],
+   "stop_hint": "ideally after seeing a weak reaction at 23969 or just below (think bear flag type price action to represent weakness)"
+  }
+ ]
+}

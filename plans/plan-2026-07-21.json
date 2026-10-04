@@ -1,0 +1,347 @@
+{
+ "source": "pharmdks",
+ "date": "2026-07-21",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-721-366",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Tue 7/21/2026 (posted Mon 7/20). U6 (Sep) contracts, no roll mentioned. 'Today' = Mon 7/20: today's high/low not given numerically -> RTH_HIGH/RTH_LOW; Friday's low -> FRI_LOW. Typo '218691-28718' read as 28691-28718. es1/nq1 'persistent failures (inclusive of a LAAF) below/of' treated as fade (as in prior plans). Ungraded but level-specific TRADES lines included with tag '': es2 reclaim long of 7497-7500 ('is implied', kind=break), es4 short in 7509-7513 ('can't rate it'), nq2 reclaim long of 896-910 ('even trickier on NQ', kind=break), nq4 LAAF of 29119 ('too chicken to even rate it'). es5 'I'll maybe give it a B rating' -> tag 'B'. es1 targets today's then Friday's low (Trading Lower). es3 targets 7525 (honorable mention), 7509-7513, 7497-7500. nq1 targets 796.5 spike base, today's low, 691-718. nq3 has no stated target -> 29026, 945-969, 896-910 (levels below in order). nq5 gate 691-718 (alt: hold/LBAF of 663-673), targets today's low (must reclaim), 796.5, 896-910. ES 7539 = Friday's high; ES 7532 July open area.",
+ "zones": {
+  "ES": [
+   [
+    7598,
+    7601
+   ],
+   [
+    7578,
+    7580
+   ],
+   [
+    7569,
+    7572
+   ],
+   [
+    7532,
+    7534
+   ],
+   [
+    7497,
+    7500
+   ],
+   [
+    7502,
+    7502
+   ],
+   [
+    7457,
+    7459
+   ],
+   [
+    7430,
+    7430
+   ],
+   [
+    7509,
+    7513
+   ],
+   [
+    7518,
+    7518
+   ],
+   [
+    7525,
+    7525
+   ],
+   [
+    7539,
+    7548
+   ],
+   [
+    7539,
+    7539
+   ],
+   [
+    7469,
+    7472
+   ]
+  ],
+  "NQ": [
+   [
+    29181,
+    29181
+   ],
+   [
+    29119,
+    29119
+   ],
+   [
+    28896,
+    28910
+   ],
+   [
+    28663,
+    28673
+   ],
+   [
+    28796.5,
+    28796.5
+   ],
+   [
+    28833,
+    28833
+   ],
+   [
+    28800,
+    28842
+   ],
+   [
+    28691,
+    28718
+   ],
+   [
+    28945,
+    28969
+   ],
+   [
+    29026,
+    29026
+   ],
+   [
+    29050,
+    29079
+   ],
+   [
+    29247,
+    29269
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Persistent failures/LAAF below 7497-7500",
+   "dir": "short",
+   "tag": "B",
+   "quote": "Short persistent failures (inclusive of a LAAF) below 7497-7500. This seems a tad optimistic but there is clarity in weakness below here. Keep in mind the overnight session is long, dark, and full of terrors especially during Asia so we could trade well beyond it early and still wake up trapped below for the cash open. I can’t rate it higher than a B since it feels just a tad “chasey” and who knows what Asia will do tonight. It has to be considered as it would leave today’s buyers trapped and have potential for a fresh liquidation through today and Friday’s lows.",
+   "kind": "fade",
+   "gate": [
+    7497,
+    7500
+   ],
+   "tgt": [
+    "RTH_LOW",
+    "FRI_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Reclaim long of 7497-7500",
+   "dir": "long",
+   "tag": "",
+   "quote": "A reclaim long of 7497-7500 is implied but I would be very careful that 7509-7513 up to 7518 doesn’t reject it.",
+   "kind": "break",
+   "gate": [
+    7497,
+    7500
+   ],
+   "tgt": [
+    [
+     7509,
+     7513
+    ],
+    [
+     7532,
+     7534
+    ]
+   ],
+   "stop_hint": "I would be very careful that 7509-7513 up to 7518 doesn’t reject it."
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7532-7534",
+   "dir": "short",
+   "tag": "B",
+   "quote": "Short a fail/LAAF of 32-34 is also valid even though things would look quite bullish if seen. If the given session flips into a downtrend, however, 7497-7500 can readily come back into play. I’ll rate it a B.",
+   "kind": "fade",
+   "gate": [
+    7532,
+    7534
+   ],
+   "tgt": [
+    7525,
+    [
+     7509,
+     7513
+    ],
+    [
+     7497,
+     7500
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Short in 7509-7513 / quick LAAF",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’ll be open to a short in the 7509-7513 range or on a quick LAAF but would prefer to have SOME kind of supportive session information to do so and can’t rate it.",
+   "kind": "fade",
+   "gate": [
+    7509,
+    7513
+   ],
+   "tgt": [
+    [
+     7497,
+     7500
+    ]
+   ],
+   "stop_hint": "would prefer to have SOME kind of supportive session information to do so"
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "B",
+   "quote": "We still have to have a long on a LBAF of Friday’s low (which for tomorrow will need to reclaim today’s low) on watch and I’ll maybe give it a B rating.",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    "RTH_LOW",
+    [
+     7497,
+     7500
+    ]
+   ],
+   "stop_hint": "(which for tomorrow will need to reclaim today’s low)"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Persistent failures/LAAF of 28896-28910",
+   "dir": "short",
+   "tag": "B",
+   "quote": "Short persistent failures or a LAAF of 28896-28910. Analogous to the above ES trade with all the same thought process. Same rating as a B.",
+   "kind": "fade",
+   "gate": [
+    28896,
+    28910
+   ],
+   "tgt": [
+    28796.5,
+    "RTH_LOW",
+    [
+     28691,
+     28718
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Reclaim long of 28896-28910",
+   "dir": "long",
+   "tag": "",
+   "quote": "A reclaim long (of 896-910) is even trickier on NQ",
+   "kind": "break",
+   "gate": [
+    28896,
+    28910
+   ],
+   "tgt": [
+    [
+     28945,
+     28969
+    ],
+    29026,
+    [
+     29050,
+     29079
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 29050-29079",
+   "dir": "short",
+   "tag": "B",
+   "quote": "Short a fail or LAAF of 29050-29079 once again is valid and rated a B.",
+   "kind": "fade",
+   "gate": [
+    29050,
+    29079
+   ],
+   "tgt": [
+    29026,
+    [
+     28945,
+     28969
+    ],
+    [
+     28896,
+     28910
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LAAF of 29119",
+   "dir": "short",
+   "tag": "",
+   "quote": "MAYBE a LAAF of 29119 could play but I’m too chicken to even rate it. 29050-29079 would need to be lost so it effectively plays as the above trade.",
+   "kind": "fade",
+   "gate": [
+    29119,
+    29119
+   ],
+   "tgt": [
+    [
+     29050,
+     29079
+    ],
+    29026
+   ],
+   "stop_hint": "29050-29079 would need to be lost so it effectively plays as the above trade."
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 28691-28718",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "Still have to be open to a hold or (preferably) LBAF of 691-718 which preserves Friday’s excess. This could include a hold or LBAF of 663-673. I have to rate it lower as it is pretty far from today’s low which would need to reclaim so B-.",
+   "kind": "fade",
+   "gate": [
+    28691,
+    28718
+   ],
+   "tgt": [
+    "RTH_LOW",
+    28796.5,
+    [
+     28896,
+     28910
+    ]
+   ],
+   "stop_hint": "pretty far from today’s low which would need to reclaim"
+  }
+ ]
+}

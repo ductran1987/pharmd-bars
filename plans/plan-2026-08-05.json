@@ -1,0 +1,72 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-05",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-85-ddc",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "U (Sep) contract, no roll mentioned. Breakout/price-discovery day after a trend day; new ES weekly levels 7716-7920 and NQ 30269-30600 added. Only nq3 (buy 540-569) is graded ('the only thing worth rating for tomorrow ... B+'); es1, es2, nq1, nq2 are ungraded TRADES-section ideas (tag ''). ES today's high not given and ES commentary names no upside level -> es1 target RTH_HIGH. NQ today's high not given numerically ('sniffing the 969-994 level at today's high') -> RTH_HIGH used, with 969-994 and 30069-30100 after it. nq2 targets are the honorable-mention levels 29701/29613 then 540-569 (he says the move 'isn't necessarily clean'). nq3: 'More aggressive bulls may step in between there and 613' -> gate kept at [29540,29569]; targets per his reclaim sequence 740-769, 803, today's high (honorable mentions 29613/29701 sit in between).",
+ "zones": {
+  "ES": [
+   [7917, 7920], [7893, 7896], [7869, 7872], [7846, 7849], [7824, 7827], [7803, 7807], [7783, 7787],
+   [7760, 7764], [7738, 7741], [7716, 7719]
+  ],
+  "NQ": [
+   [30546, 30600], [30444, 30469], [30369, 30391], [30269, 30293], [29488, 29500], [29803, 29803],
+   [29701, 29701], [29613, 29613], [30069, 30069], [30069, 30100], [29969, 29994], [29740, 29769],
+   [29540, 29569]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES",
+   "name": "LBAF of 7760-7764",
+   "dir": "long", "tag": "",
+   "quote": "Given we have held 7760-7764 twice into the close, I suppose a LBAF would work as along. Doing so would assume that we are to see direct continuation higher.",
+   "kind": "fade",
+   "gate": [7760, 7764],
+   "tgt": ["RTH_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES",
+   "name": "Persistent weakness below 7760-7764 (structure repair)",
+   "dir": "short", "tag": "",
+   "quote": "Given how thin today’s structure is and how many shorts (many of whom were short calls intraday) were carted out, we once again have a chance of seeing a “structure repair mission” on persistent weakness below 7760-7764. Like for today, we just need to be prepared to flip long. The session needs to be in a persistent downtrend with volume building lower and lower for me to consider holding a short.",
+   "kind": "break",
+   "gate": [7760, 7764],
+   "tgt": [[7738, 7741], [7716, 7719]],
+   "stop_hint": "The session needs to be in a persistent downtrend with volume building lower and lower for me to consider holding a short."
+  },
+  {
+   "id": "nq1", "instrument": "NQ",
+   "name": "Hold/LBAF of 29740-29769",
+   "dir": "long", "tag": "",
+   "quote": "Hold or LBAF of 740-769 can work for a long",
+   "kind": "fade",
+   "gate": [29740, 29769],
+   "tgt": [29803, "RTH_HIGH", [29969, 29994], [30069, 30100]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ",
+   "name": "Session downtrend short below 29740-29769",
+   "dir": "short", "tag": "",
+   "quote": "Like for ES, we can join a session downtrend if we get a “structure repair mission” and with weakness below 740-769 in particular. Same caveat as for ES on holding a short.",
+   "kind": "break",
+   "gate": [29740, 29769],
+   "tgt": [29701, 29613, [29540, 29569]],
+   "stop_hint": "Same caveat as for ES on holding a short."
+  },
+  {
+   "id": "nq3", "instrument": "NQ",
+   "name": "Buy 29540-29569 (aggressive up to 29613)",
+   "dir": "long", "tag": "B+",
+   "quote": "I do like the idea or buyin 540-569 if bulls step in. More aggressive bulls may step in between there and 613. This is the only thing worth rating for tomorrow and I’ll give it a B+. 740-769 would need to reclaim and 803 for a potential retest of today’s high.",
+   "kind": "fade",
+   "gate": [29540, 29569],
+   "tgt": [[29740, 29769], 29803, "RTH_HIGH"],
+   "stop_hint": "740-769 would need to reclaim and 803 for a potential retest of today’s high."
+  }
+ ]
+}

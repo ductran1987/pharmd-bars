@@ -1,0 +1,160 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-26",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-826-2f7",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Tue Aug 25, 2026 for Wed 8/26; U6 contract, no roll mention. TRADES section says it's all about the 4-day range box trades and lists three 'favorite' setups without grades -> tag ''. Targets come from the matching commentary sentences: es1 'A fresh LBAF of 77-80 which protects today's excess can be a long back to 92-95' -> 7692-7695; nq1 'A LBAF of 29203-29210 has potential to come back to 290-300'; nq2 'Persistent weakness below 290-300 can find its way back to the 203-241 level which for tomorrow could arguably be narrowed to 203-210' -> target 29203-29210. New NQ daily level 29290-29300 (315 kept as honorable mention). ES 'two-way trading between 7767-7780 and 7692-7695' is almost certainly a typo for 7677-7680 (today's range) -> not recorded as a zone. Commentary-only box ideas (not trades): ES short a LAAF of the 7714 equal highs / today's high (back below 7692 -> 7677-7680, then today's low); ES long upside break of the 4-day box -> 7746-7749, 7762-7766; ES breakdown short (cautious); NQ flip 29469-29490 to support -> 29669-29696, 29793-29819; NQ downside break of 4-day range -> 28420-28580; NQ weakness below 203-241 -> cover a good portion at 29053-29069.",
+ "zones": {
+  "ES": [
+   [
+    7709,
+    7713
+   ],
+   [
+    7677,
+    7680
+   ],
+   [
+    7720,
+    7720
+   ],
+   [
+    7714,
+    7714
+   ],
+   [
+    7692,
+    7692
+   ],
+   [
+    7692,
+    7695
+   ],
+   [
+    7746,
+    7749
+   ],
+   [
+    7762,
+    7766
+   ]
+  ],
+  "NQ": [
+   [
+    29290,
+    29300
+   ],
+   [
+    29315,
+    29315
+   ],
+   [
+    29203,
+    29241
+   ],
+   [
+    29203,
+    29210
+   ],
+   [
+    29396,
+    29396
+   ],
+   [
+    29469,
+    29490
+   ],
+   [
+    29489,
+    29489
+   ],
+   [
+    29350,
+    29390
+   ],
+   [
+    29669,
+    29696
+   ],
+   [
+    29793,
+    29819
+   ],
+   [
+    28420,
+    28580
+   ],
+   [
+    29053,
+    29069
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of 7677-7680",
+   "dir": "long",
+   "tag": "",
+   "quote": "LBAF of 77-80 for a long on ES",
+   "kind": "fade",
+   "gate": [
+    7677,
+    7680
+   ],
+   "tgt": [
+    [
+     7692,
+     7695
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of 29203-29210",
+   "dir": "long",
+   "tag": "",
+   "quote": "LBAF of 203-210 on NQ for a long.",
+   "kind": "fade",
+   "gate": [
+    29203,
+    29210
+   ],
+   "tgt": [
+    [
+     29290,
+     29300
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 29290-29300",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail/LAAF of 290-300 on NQ- keeping in mind this could come from a fair amount higher.",
+   "kind": "fade",
+   "gate": [
+    29290,
+    29300
+   ],
+   "tgt": [
+    [
+     29203,
+     29210
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

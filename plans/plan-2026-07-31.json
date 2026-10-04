@@ -1,0 +1,122 @@
+{
+ "source": "pharmdks",
+ "date": "2026-07-31",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-731-193",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "U (Sep) contract, no roll mentioned. 'Decision time' binary spot; no trades are graded (all tags ''). The ES and NQ lines 'willing to join the short side on any clear session downtrend coming off a failure to break this resistance, especially below today's high' included as es1/nq1 (break, gated on today's high given as ES 7478.5 / NQ 28297.75; targets from commentary). ES weekly level written both '69-72' and '69-73' -> zone [7469,7472]. NQ 200-240 hold long is explicitly NOT planned ('can't bring my boomer ass to PLAN to long') -> not a trade. nq3 targets 28032/27996 as stated; Tue/Wed highs 28080/28099.5 sit in between ('mindful of'). nq4 gate 27996/28032 read as [27996,28032]; stated target 'broadly targeting 28200'. '139 range' -> 28139. Old reference 'last week's 29269-29369' omitted from zones.",
+ "zones": {
+  "ES": [
+   [7460, 7462], [7446, 7449], [7393, 7393], [7372, 7372], [7497, 7501], [7478.5, 7478.5],
+   [7469, 7472], [7458, 7463], [7508, 7508], [7420, 7424]
+  ],
+  "NQ": [
+   [28256, 28256], [28373, 28373], [28423, 28423], [28448, 28469], [28297.75, 28297.75], [28240, 28240],
+   [28200, 28212], [28200, 28240], [28151, 28188], [28080, 28080], [28099.5, 28099.5], [27996, 27996],
+   [27941, 27969], [28590, 28590], [28139, 28139], [28200, 28200], [28032, 28032], [27802, 27819]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES",
+   "name": "Session downtrend short below today's high (7478.5)",
+   "dir": "short", "tag": "",
+   "quote": "I’m willing to join the short side on any clear session downtrend coming off a failure to break this resistance, especially below today’s high.",
+   "kind": "break",
+   "gate": [7478.5, 7478.5],
+   "tgt": [[7469, 7472], [7460, 7462]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES",
+   "name": "Hold/LBAF of 7460-7462",
+   "dir": "long", "tag": "",
+   "quote": "Long a hold or LBAF of 7460-7462",
+   "kind": "fade",
+   "gate": [7460, 7462],
+   "tgt": [[7469, 7472], 7478.5, [7497, 7501]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES",
+   "name": "Persistent weakness back below 7460-7462",
+   "dir": "short", "tag": "",
+   "quote": "Short persistent weakness back below 7460-7462.",
+   "kind": "break",
+   "gate": [7460, 7462],
+   "tgt": [[7446, 7449], [7420, 7424]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES",
+   "name": "Hold/LBAF of 7446-7449",
+   "dir": "long", "tag": "",
+   "quote": "Long a hold or LBAF of 7446-7449",
+   "kind": "fade",
+   "gate": [7446, 7449],
+   "tgt": [[7460, 7462]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5", "instrument": "ES",
+   "name": "Persistent weakness below 7446-7449",
+   "dir": "short", "tag": "",
+   "quote": "Short persistent weakness below 7446-7449",
+   "kind": "break",
+   "gate": [7446, 7449],
+   "tgt": [[7420, 7424]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es6", "instrument": "ES",
+   "name": "Hold/LBAF of 7420-7424",
+   "dir": "long", "tag": "",
+   "quote": "Long a hold or LBAF of 7420-7424",
+   "kind": "fade",
+   "gate": [7420, 7424],
+   "tgt": [[7446, 7449]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ",
+   "name": "Session downtrend short below today's high (28297.75)",
+   "dir": "short", "tag": "",
+   "quote": "Like for ES I’m willing to join the short side on any clear session downtrend coming off a failure to break this resistance, especially below today’s high.",
+   "kind": "break",
+   "gate": [28297.75, 28297.75],
+   "tgt": [[28200, 28240], [28151, 28188]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ",
+   "name": "Hold/LBAF of 28151-28188",
+   "dir": "long", "tag": "",
+   "quote": "Long a hold or LBAF of 151-188",
+   "kind": "fade",
+   "gate": [28151, 28188],
+   "tgt": [[28200, 28240], 28297.75],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ",
+   "name": "Persistent weakness below 28151-28188",
+   "dir": "short", "tag": "",
+   "quote": "Short persistent weakness below 151-188",
+   "kind": "break",
+   "gate": [28151, 28188],
+   "tgt": [28032, 27996],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ",
+   "name": "LBAF of 27996/28032",
+   "dir": "long", "tag": "",
+   "quote": "Long a LBAF of 27996/28032 whether or not it comes from 27941-27969.",
+   "kind": "fade",
+   "gate": [27996, 28032],
+   "tgt": [28200],
+   "stop_hint": ""
+  }
+ ]
+}

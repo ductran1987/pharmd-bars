@@ -1,0 +1,288 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-11",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-811-04d",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Tue 8/11/2026 (posted Mon 8/10). U6 (Sep) contracts, no roll mentioned. 'Today' = Mon 8/10. TRADES section lists specific level trades but explicitly unrated ('I don't consider any of these trades to be particularly good and won't rate them') -> tag '' on all. ES today's low given as 7764.5 (es2 gated on it); 7781.5 = today's ARH (81.25), 7771 = today's IB low/VAL; ES today's high not given (excess above 91.5-95). es1 target 81.5 and 'can't make it today's low' from commentary. es2/es3 targets from 'Any long attempt would need to reclaim today's low and 7771 to make a run for 81.5'. es4 targets 71 then Trading Lower (today's low, 46-51). es5 (typo '(ideally closer to 93' with unclosed paren, read as 7793) targets 81.5 then 71 from 'Any defense from sellers would need back below 81.5 to potentially trigger a move to 71'. NQ today's high/low not given (today's high is in 891-911). nq1 target 737; nq2 targets 820 (must get back below) then 737; nq3 target 820. nq4 'Look for longs in the 644-669' targets today's low then 737; NQ commentary says bids from there 'would need to reclaim today's low and 771' - '771' looks like an ES carry-over/typo (no NQ 771 level), not used. ES 86-87 honorable mention; 83/84 supply; 7810-7819 Wednesday supply. NQ 860-869 honorable mention, 830-840 possible direct-entry area, demand 630 down to 585, supply 29975-30048.",
+ "zones": {
+  "ES": [
+   [
+    7996,
+    7999
+   ],
+   [
+    7810,
+    7819
+   ],
+   [
+    7791.5,
+    7795
+   ],
+   [
+    7786,
+    7787
+   ],
+   [
+    7783,
+    7784
+   ],
+   [
+    7781.25,
+    7781.25
+   ],
+   [
+    7781.5,
+    7781.5
+   ],
+   [
+    7771,
+    7771
+   ],
+   [
+    7764.5,
+    7764.5
+   ],
+   [
+    7753,
+    7753
+   ],
+   [
+    7746,
+    7751
+   ],
+   [
+    7706,
+    7714
+   ],
+   [
+    7686.5,
+    7692.5
+   ],
+   [
+    7648.75,
+    7648.75
+   ]
+  ],
+  "NQ": [
+   [
+    29975,
+    30048
+   ],
+   [
+    29956,
+    29969
+   ],
+   [
+    29891,
+    29911
+   ],
+   [
+    29860,
+    29869
+   ],
+   [
+    29830,
+    29840
+   ],
+   [
+    29820,
+    29820
+   ],
+   [
+    29737,
+    29737
+   ],
+   [
+    29644,
+    29669
+   ],
+   [
+    29630,
+    29630
+   ],
+   [
+    29585,
+    29585
+   ],
+   [
+    29530,
+    29546
+   ],
+   [
+    29181,
+    29181
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of 7771",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of 7771",
+   "kind": "fade",
+   "gate": [
+    7771,
+    7771
+   ],
+   "tgt": [
+    7781.5
+   ],
+   "stop_hint": "which can’t make it today’s low"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of today's low (7764.5)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of today’s low",
+   "kind": "fade",
+   "gate": [
+    7764.5,
+    7764.5
+   ],
+   "tgt": [
+    7771,
+    7781.5
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Reactive long in 7746-7751",
+   "dir": "long",
+   "tag": "",
+   "quote": "Look for longs in the 46-51 range (perhaps up to 53) if reactive bids come in.",
+   "kind": "fade",
+   "gate": [
+    7746,
+    7751
+   ],
+   "tgt": [
+    7764.5,
+    7771,
+    7781.5
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LAAF of 7781.5",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of 81.5. This could come from 83/84 or 86/87 or otherwise and I’m open to entering direct if the session gives me a reason to do so.",
+   "kind": "fade",
+   "gate": [
+    7781.5,
+    7781.5
+   ],
+   "tgt": [
+    7771,
+    7764.5,
+    [
+     7746,
+     7751
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Fresh fail of 7791.5-7795",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fresh fail of 91.5-95 (ideally closer to 93.",
+   "kind": "fade",
+   "gate": [
+    7791.5,
+    7795
+   ],
+   "tgt": [
+    7781.5,
+    7771
+   ],
+   "stop_hint": "ideally closer to 93"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LAAF of 29820",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of 29820. I may consider entering direct in an attempt to front run it if something like 830-840 or even 860-869 is reactive.",
+   "kind": "fade",
+   "gate": [
+    29820,
+    29820
+   ],
+   "tgt": [
+    29737
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of today’s high, knowing it needs back below 820 to do anything meaningful.",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    29820,
+    29737
+   ],
+   "stop_hint": "knowing it needs back below 820 to do anything meaningful."
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of 29737",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of 737 but it is awfully close to today’s low. It works without taking today’s low first but is probably slightly better as a LBAF of today’s low and 737.",
+   "kind": "fade",
+   "gate": [
+    29737,
+    29737
+   ],
+   "tgt": [
+    29820
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Reactive long in 29644-29669",
+   "dir": "long",
+   "tag": "",
+   "quote": "Look for longs in the 644-669 or if a reactive bid presents to defend Friday’s low. Just know this trade doesn’t have meaningful legs until back above 737",
+   "kind": "fade",
+   "gate": [
+    29644,
+    29669
+   ],
+   "tgt": [
+    "RTH_LOW",
+    29737
+   ],
+   "stop_hint": "Just know this trade doesn’t have meaningful legs until back above 737"
+  }
+ ]
+}

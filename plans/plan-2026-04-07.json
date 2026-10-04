@@ -1,0 +1,101 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-07",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-47-b03",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Mon 4/6 for Tue 4/7. M (Jun) contract, no roll mentioned. TRADES section opens 'The trades are pretty well-implied from the above. There is nothing that I see as particularly juicy just yet' and then lists specific NQ:/ES: setups with NO grades -> all trades tag ''. Low-volume, structurally conflicted day; he stresses selectivity. ES today's low given as relative equal lows at 17.75 and 18.75 (in the 6618-6622 range) -> es1/es3 gated on 6617.75. NQ today's low and both instruments' highs not given numerically. nq1 has no stated target -> Trading Higher first level 369-380 (then 523-543 not added). nq2 targets read from 'downside acceleration through 350 and 313 toward 243-269'. es1 target from Trading Lower 'LBAF of today's low for a long back up toward 6654 (mindful of 39-45 in the same way)' -> tgt 6654 only; 6627 and 6639-6645 lie in between. es2 targets '27 and 18-22' = 6627, 6618-6622. es3 is the ungraded 'One can consider breakdown shorts below today's low but I'm not a huge fan' (included per the 9/18 precedent; he does not favor it) -> targets 6597-6600, 6583-6587 from Trading Lower. NQ yearly level 24069-24369 and ES yearly 6612-6622 kept as zones; SPX 6651 skipped. NQ IB-low LBAF reference 205 = 24205 (recap).",
+ "zones": {
+  "ES": [
+   [6654, 6654],
+   [6618, 6622],
+   [6597, 6600],
+   [6575, 6575],
+   [6543, 6547],
+   [6612, 6622],
+   [6583, 6587],
+   [6639, 6645],
+   [6627, 6627],
+   [6689, 6692],
+   [6617.75, 6617.75],
+   [6618.75, 6618.75]
+  ],
+  "NQ": [
+   [24098, 24098],
+   [23869, 23875],
+   [23821, 23821],
+   [24004, 24043],
+   [24243, 24269],
+   [24205, 24205],
+   [24069, 24369],
+   [24369, 24380],
+   [24523, 24543],
+   [24149, 24149],
+   [24350, 24350],
+   [24313, 24313]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 24243-24269 that can't get through today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 243-269 that can’t get through today’s low. This could technically play as a LBAF of today’s low as well but at this point it may be better for buyers to continue to defend 243-269 straight up after today’s LBAF",
+   "kind": "fade",
+   "gate": [24243, 24269],
+   "tgt": [[24369, 24380]],
+   "stop_hint": "that can’t get through today’s low"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Failure to sustain above 24369-24380 incl. LAAF",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short any failure from buyers to sustain above 369-380 including a LAAF. I would keep it on a tight leash until there is downside acceleration through 350 and 313 toward 243-269.",
+   "kind": "fade",
+   "gate": [24369, 24380],
+   "tgt": [24350, 24313, [24243, 24269]],
+   "stop_hint": "I would keep it on a tight leash until there is downside acceleration through 350 and 313 toward 243-269."
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of today's low (6617.75)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of today’s low. I like this as a LBAF as compared to a hold of 6618-6622 as today had relative equal lows intraday at 17.75 and 18.75",
+   "kind": "fade",
+   "gate": [6617.75, 6617.75],
+   "tgt": [6654],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Failure to sustain above 6654 incl. LAAF of today's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short any failure to sustain above 6654 inclusive of a fresh LAAF of today’s high. Like for NQ I would keep a tight leash on it in case the bearish setup doesn’t produce bearish results and would be watching NQ to assess how likely it is to see 27 and 18-22.",
+   "kind": "fade",
+   "gate": [6654, 6654],
+   "tgt": [6627, [6618, 6622]],
+   "stop_hint": "I would keep a tight leash on it in case the bearish setup doesn’t produce bearish results"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Breakdown short below today's low (6617.75)",
+   "dir": "short",
+   "tag": "",
+   "quote": "One can consider breakdown shorts below today’s low but I’m not a huge fan in this situation (at least in terms of planning it ahead of time) because of the risk of a LBAF.",
+   "kind": "break",
+   "gate": [6617.75, 6617.75],
+   "tgt": [[6597, 6600], [6583, 6587]],
+   "stop_hint": "because of the risk of a LBAF"
+  }
+ ]
+}

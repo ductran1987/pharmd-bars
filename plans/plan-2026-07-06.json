@@ -1,0 +1,40 @@
+{
+ "source": "pharmdks", "date": "2026-07-06", "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-76",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Mon 7/6/2026 (posted Sun 7/5) after the 7/3 holiday ETH float higher. Sep U6 contracts per batch expectation; no roll mentioned. 'Thursday' = Thu 7/2 (last cash session). es1 continuation level 7509-7515 kept as last target. es2 is one graded idea covering two areas ('if either area is holding' 7540 or 7527-7531) -> single trade gated [7527,7540]; targets taken from commentary (53 honorable mention, 7566-7569). es3 no stated target -> 7527-7531, 7540 from commentary. es4 range 7490-7493 'maybe as high as 97' -> gate 7490-7493, target 7509-7515 (from es5's reclaim sequence). es5 expects the flush 'a few handles below Thursday's low in the 7472-7476 range'. es6 LAAF of Thursday's high gated THU_HIGH (not given numerically); targets 7566-7569 then 7540 from commentary ('sellers would have to get through 7566-7569'); 7598-7604 must remain valid. NQ trades have no stated targets -> commentary levels: nq1 down 29860 (honorable mention), 820-840, 740-769, 650-665, 569-595; nq2 up 650-665, 740-769; nq3 up 569-595. nq3 graded 'A/A+' (A+ if the 29181.5/29160.5 lows are taken first, A if it simply holds, may include LBAF of Thursday's low). NQ cash high Thursday 30293.5, premarket high 30320 kept as levels.",
+ "zones": {
+  "ES": [[7575, 7576], [7540, 7540], [7527, 7531], [7566, 7569], [7553, 7553], [7509, 7515], [7490, 7493], [7497, 7497], [7479.5, 7479.5], [7472, 7476], [7598, 7604]],
+  "NQ": [[30007, 30007], [29820, 29840], [29650, 29665], [29923, 29969], [30069, 30100], [29860, 29860], [29569, 29595], [29740, 29769], [29269, 29328], [29181.5, 29181.5], [29160.5, 29160.5], [30269, 30293], [30308, 30330], [30320, 30320], [30293.5, 30293.5]]
+ },
+ "trades": [
+  {"id": "es1", "instrument": "ES", "name": "Fail/LAAF of 7566-7569", "dir": "short", "tag": "A/A-",
+   "quote": "Short a fail or LAAF of 7566-7569 (especially if NQ is showing corresponding weakness) targeting 53 (honorable mention), 7540, and 27-31. Monitor for continuation to (and potentially through) 7509-7515 but I would plan to be well-covered here and open to flipping long. A/A- rating.",
+   "kind": "fade", "gate": [7566, 7569], "tgt": [7553, 7540, [7527, 7531], [7509, 7515]], "stop_hint": ""},
+  {"id": "es2", "instrument": "ES", "name": "Hold of 7540 / 7527-7531 (sellers can't get through)", "dir": "long", "tag": "B/B-",
+   "quote": "If sellers can’t get through 7540 and 7527-7531 then Tuesday and Wednesday’s buyers are reasonably comfortable, and Thursday’s sellers are quite uncomfortable. I therefore have to be willing to look for longs in alignment with the session trend and profile if either area is holding. B/B-",
+   "kind": "fade", "gate": [7527, 7540], "tgt": [7553, [7566, 7569]], "stop_hint": ""},
+  {"id": "es3", "instrument": "ES", "name": "Hold/LBAF of 7509-7515", "dir": "long", "tag": "A",
+   "quote": "Long a hold or LBAF of 7509-7515 is an A rated trade",
+   "kind": "fade", "gate": [7509, 7515], "tgt": [[7527, 7531], 7540], "stop_hint": ""},
+  {"id": "es4", "instrument": "ES", "name": "Long in 7490-7493", "dir": "long", "tag": "B/B+",
+   "quote": "Getting long in the 7490-7493 (maybe as high as 97 from last week) range feels a bit risky and would look pretty ugly, but higher time frame buyers can certainly step in and mitigate any weakness here so I’ll remain open to it with a B/B+ rating.",
+   "kind": "fade", "gate": [7490, 7493], "tgt": [[7509, 7515]], "stop_hint": ""},
+  {"id": "es5", "instrument": "ES", "name": "LBAF of Thursday's 7479.5 low", "dir": "long", "tag": "B",
+   "quote": "Long a LBAF of Thursday’s 7479.5 low. Like the above, this would look terrible if seen but imagine sellers exert a ton of effort to unwind the ETH float higher only to get stuffed a few handles below Thursday’s low in the 7472-7476 range. If I were a seller I would be pretty demoralized and could see covers coming in to trigger reclaims of 7490-7493 and 7509-7515. B rating",
+   "kind": "fade", "gate": [7479.5, 7479.5], "tgt": [[7490, 7493], [7509, 7515]], "stop_hint": ""},
+  {"id": "es6", "instrument": "ES", "name": "LAAF of Thursday's high", "dir": "short", "tag": "B-",
+   "quote": "Short a LAAF of Thursday’s high seems almost inconceivable but we’ve continued to see buying shut off into the highs (on NQ in particular). The 7598-7604 range is quite critical so it must remain valid. We know from the weekly plan that sellers would have to get through 7566-7569 for it to have bearish potential. B- rating,",
+   "kind": "fade", "gate": ["THU_HIGH", "THU_HIGH"], "tgt": [[7566, 7569], 7540], "stop_hint": "The 7598-7604 range is quite critical so it must remain valid."},
+  {"id": "nq1", "instrument": "NQ", "name": "Fail/LAAF of 29923-29969", "dir": "short", "tag": "A+",
+   "quote": "Short a fail or LAAF of 29923-29969 simply has to be an A+ setup. Keep in mind this doesn’t mean that it WILL work but the potential range is so enormous from some a critical area that no other rating is appropriate.",
+   "kind": "fade", "gate": [29923, 29969], "tgt": [29860, [29820, 29840], [29740, 29769], [29650, 29665], [29569, 29595]], "stop_hint": ""},
+  {"id": "nq2", "instrument": "NQ", "name": "Hold/LBAF of 29569-29595", "dir": "long", "tag": "B+/A-",
+   "quote": "Long a hold or LBAF of 29569-29595 is a B+/A-",
+   "kind": "fade", "gate": [29569, 29595], "tgt": [[29650, 29665], [29740, 29769]], "stop_hint": ""},
+  {"id": "nq3", "instrument": "NQ", "name": "Hold/LBAF of 29269-29328", "dir": "long", "tag": "A/A+",
+   "quote": "Long a hold or LBAF of 29269-29328 has to be an A/A+ as well. I would almost prefer to see the 181.5 and 160.5 lows taken out first, but this area has just been so insanely perma-bid I have to consider it either way. I see it as an A+ if those lows are taken and an A if the spot just generally holds (which could include a LBAF of Thursday’s low).",
+   "kind": "fade", "gate": [29269, 29328], "tgt": [[29569, 29595]], "stop_hint": ""}
+ ]
+}

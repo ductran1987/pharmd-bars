@@ -1,0 +1,111 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-26",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-626-2d2",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Fri 6/26/2026 (posted Thu 6/25), Sep U6 contracts, no roll mentioned. All trades ungraded (tag ''). No daily levels added. TRADES opens 'The big trades are the box trades off today's range which might not even come until next week' pointing at the COMMENTARY box sentence (short downside break / long upside break / long LBAF / short LAAF of today's range; the whole day traded inside the first-30-min range on both) -> transcribed as nq1-nq4 and es1-es4 on RTH_LOW/RTH_HIGH. Box targets from letter levels where any exist: NQ breakdown runners 29045-29069 (stated for a range break with continuation); NQ upside break and ES downside break have no level in the letter -> tgt [] (validator warns). ES today's high/low not given numerically (low sits below 7397-7403 demand; 7496.5 is the prior day's poor high, an upside target). nq5 'fail/LAAF of 29923-29943' targets 740-769, 625-648, runners 29045-29069; letter adds it already played out AH and stays valid esp. if AH high is taken first, with 890/848 key for continuation. 'short a fail up near 848 or 890' split into nq6 (29848) and nq7 (29890). nq8: 'failure to get through today's low ... even ... taking out the 11:15 462.5 low into 420 or so' read as long on a sweep of 29462.5 into ~29420, gate [29420,29462.5]; general 'look for longs once below 625-648' not given its own trade. ES 'long an inability to get through today's low perhaps in 7397-7403 or on a sweep of the 7408.25 low from 2pm' split into es6 (hold 7397-7403) and es7 (LBAF of 7408.25). es8 'possible LAAF' of the 7496.5 poor high ('tomorrow into next week') included. ES/NQ targets for es5-es8, nq6-nq8 taken from letter commentary levels. 29560-29580 ('might use ... next week') and 7408 honorable mention kept as zones.",
+ "zones": {
+  "ES": [[7408,7408],[7408.25,7408.25],[7397,7403],[7463,7472],[7496.5,7496.5]],
+  "NQ": [[29923,29943],[30269,30293],[29302,29339],[29740,29769],[29560,29580],[29625,29648],[29570,29570],[29481,29516],[29045,29069],[29890,29890],[29848,29848],[29462.5,29462.5],[29420,29420]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Box: downside break with continuation of today's range", "dir": "short", "tag": "",
+   "quote": "Because of this, big picture the trade is to short a downside break with continuation of today’s range, long an upside break with continuation, long a LBAF and short a LAAF.",
+   "kind": "break", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [[29045, 29069]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Box: upside break with continuation of today's range", "dir": "long", "tag": "",
+   "quote": "Because of this, big picture the trade is to short a downside break with continuation of today’s range, long an upside break with continuation, long a LBAF and short a LAAF.",
+   "kind": "break", "gate": ["RTH_HIGH", "RTH_HIGH"], "tgt": [],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Box: LBAF of today's low", "dir": "long", "tag": "",
+   "quote": "Because of this, big picture the trade is to short a downside break with continuation of today’s range, long an upside break with continuation, long a LBAF and short a LAAF.",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [[29481, 29516], [29625, 29648], [29740, 29769]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "Box: LAAF of today's high", "dir": "short", "tag": "",
+   "quote": "Because of this, big picture the trade is to short a downside break with continuation of today’s range, long an upside break with continuation, long a LBAF and short a LAAF.",
+   "kind": "fade", "gate": ["RTH_HIGH", "RTH_HIGH"], "tgt": [[29923, 29943], 29890, 29848, [29740, 29769]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5", "instrument": "NQ", "name": "Fail/LAAF of 29923-29943", "dir": "short", "tag": "",
+   "quote": "Short a fail/LAAF of 29923-29943 targeting 740-769 and 625-648 primarily. Monitor for continuation lower in the range, prepared to cover and/or flip if responsive buyers are found. Should sellers find a range break with continuation then holding runners targeting something near 29045-29069 is reasonable.",
+   "kind": "fade", "gate": [29923, 29943], "tgt": [[29740, 29769], [29625, 29648], [29045, 29069]],
+   "stop_hint": "prepared to cover and/or flip if responsive buyers are found"
+  },
+  {
+   "id": "nq6", "instrument": "NQ", "name": "Fail near 29848", "dir": "short", "tag": "",
+   "quote": "I may also short a fail up near 848 or 890 that doesn’t quite make it to the weekly level. It is close to range high and is therefore a sell until proven otherwise",
+   "kind": "fade", "gate": [29848, 29848], "tgt": [[29740, 29769], [29625, 29648]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq7", "instrument": "NQ", "name": "Fail near 29890", "dir": "short", "tag": "",
+   "quote": "I may also short a fail up near 848 or 890 that doesn’t quite make it to the weekly level. It is close to range high and is therefore a sell until proven otherwise",
+   "kind": "fade", "gate": [29890, 29890], "tgt": [29848, [29740, 29769], [29625, 29648]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq8", "instrument": "NQ", "name": "Sweep of 11:15 low 29462.5 into ~29420", "dir": "long", "tag": "",
+   "quote": "Any failure to get through today’s low will be met with a buying response, even something as low as taking out the 11:15 462.5 low into 420 or so.",
+   "kind": "fade", "gate": [29420, 29462.5], "tgt": [[29481, 29516], [29625, 29648]],
+   "stop_hint": "This doesn’t mean blind buying but it is range low until proven otherwise."
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Box: downside break with continuation of today's range", "dir": "short", "tag": "",
+   "quote": "Because of this, big picture the trade is to short a downside break with continuation of today’s range, long an upside break with continuation, long a LBAF and short a LAAF.",
+   "kind": "break", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Box: upside break with continuation of today's range", "dir": "long", "tag": "",
+   "quote": "Because of this, big picture the trade is to short a downside break with continuation of today’s range, long an upside break with continuation, long a LBAF and short a LAAF.",
+   "kind": "break", "gate": ["RTH_HIGH", "RTH_HIGH"], "tgt": [7496.5],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Box: LBAF of today's low", "dir": "long", "tag": "",
+   "quote": "Because of this, big picture the trade is to short a downside break with continuation of today’s range, long an upside break with continuation, long a LBAF and short a LAAF.",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [[7397, 7403], 7408.25, [7463, 7472]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Box: LAAF of today's high", "dir": "short", "tag": "",
+   "quote": "Because of this, big picture the trade is to short a downside break with continuation of today’s range, long an upside break with continuation, long a LBAF and short a LAAF.",
+   "kind": "fade", "gate": ["RTH_HIGH", "RTH_HIGH"], "tgt": [[7463, 7472], 7408.25],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5", "instrument": "ES", "name": "Fails in 7463-7472", "dir": "short", "tag": "",
+   "quote": "Short fails in the 7463-7472 range.",
+   "kind": "fade", "gate": [7463, 7472], "tgt": [7408.25, [7397, 7403]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es6", "instrument": "ES", "name": "Inability to get through today's low: hold of 7397-7403", "dir": "long", "tag": "",
+   "quote": "I’ll long an inability to get through today’s low perhaps in the demand in the 7397-7403 range or on a sweep of the 7408.25 low from 2pm.",
+   "kind": "fade", "gate": [7397, 7403], "tgt": [7408.25, [7463, 7472]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es7", "instrument": "ES", "name": "Inability to get through today's low: LBAF of 7408.25 (2pm low)", "dir": "long", "tag": "",
+   "quote": "I’ll long an inability to get through today’s low perhaps in the demand in the 7397-7403 range or on a sweep of the 7408.25 low from 2pm.",
+   "kind": "fade", "gate": [7408.25, 7408.25], "tgt": [[7463, 7472]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es8", "instrument": "ES", "name": "Possible LAAF of 7496.5 poor high", "dir": "short", "tag": "",
+   "quote": "We do still have a relatively poor high up at 7496.5. We’ll keep this in mind tomorrow into next week as it is a target for repair and possible LAAF.",
+   "kind": "fade", "gate": [7496.5, 7496.5], "tgt": [[7463, 7472]],
+   "stop_hint": ""
+  }
+ ]
+}

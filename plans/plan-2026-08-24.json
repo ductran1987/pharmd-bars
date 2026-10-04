@@ -1,0 +1,177 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-24",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-824",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Sat Aug 22, 2026 for Mon 8/24; U6 contract, no roll mention. GC trades skipped. Friday's ES range is an inside day; NQ Thu/Fri treated as a box. nq1 gated FRI_HIGH (no number given); targets 29402, 369, 339, 300 ('honorable mention levels') then weekly 29203-29241. nq2 'LBAF of Thursday's low (really the weekly 203-241)' gated on the 29203-29241 zone he equates it with (THU_LOW not used); no target stated -> honorable-mention levels above from the letter, nearest first (29285-29300 he calls a level to reclaim for management, then 29339, 29369, 29402). es1 gated FRI_LOW. es2 'take ES through this past week's low' not used as a target (no number, previous week's low has no REF) -> targets 7700 then 7677-7680 per his closing sentence. Commentary-only ES ideas (not trades): short failures above/around 7700 incl. sweep of the 7703 pre-close high; long at 7677-7680 or just above (up to 7683); possible take-out of Thursday's 7720 high failing back below 7709-7713.",
+ "zones": {
+  "ES": [
+   [
+    7800,
+    7800
+   ],
+   [
+    7772,
+    7773
+   ],
+   [
+    7669,
+    7669
+   ],
+   [
+    7700,
+    7700
+   ],
+   [
+    7703,
+    7703
+   ],
+   [
+    7677,
+    7680
+   ],
+   [
+    7683,
+    7683
+   ],
+   [
+    7720,
+    7720
+   ],
+   [
+    7709,
+    7713
+   ]
+  ],
+  "NQ": [
+   [
+    29569,
+    29577
+   ],
+   [
+    29181,
+    29181
+   ],
+   [
+    29402,
+    29402
+   ],
+   [
+    29369,
+    29369
+   ],
+   [
+    29339,
+    29339
+   ],
+   [
+    29300,
+    29300
+   ],
+   [
+    29203,
+    29241
+   ],
+   [
+    29285,
+    29300
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "A-/B+",
+   "quote": "Short a LAAF of Friday’s high targeting 29402, 369, 339. and 300 (honorable mention levels in this scenario I suppose) on the way to the weekly 29203-29241 level. I’ll rate this an A-/B+ and the only reason it isn’t higher is because of the demand left behind on Friday in or around the above reference honorable mention levels (which also have profile reasons to warrant honorable mention status).",
+   "kind": "fade",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    29402,
+    29369,
+    29339,
+    29300,
+    [
+     29203,
+     29241
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of Thursday's low (weekly 29203-29241)",
+   "dir": "long",
+   "tag": "A-/B+",
+   "quote": "Long a LBAF of Thursday’s low (really the weekly 203-241) is also an A-/B+. Normally a long would be rated lower than a short given recent context but the buy response in the low 200s has been excellent and the bullish RTH gap is simply too important to ignore. In this case I would say 285-300 is an honorable mention to reclaim for trade management purposes.",
+   "kind": "fade",
+   "gate": [
+    29203,
+    29241
+   ],
+   "tgt": [
+    [
+     29285,
+     29300
+    ],
+    29339,
+    29369,
+    29402
+   ],
+   "stop_hint": "285-300 is an honorable mention to reclaim for trade management purposes."
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a LBAF of Friday’s low targeting 7700 on the way to 7709-7713. Monitor for continuation from there. I’ll rate this a B/B- given how weak ES has been and the fact that it didn’t properly test its bull gap is nagging at me.",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    7700,
+    [
+     7709,
+     7713
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail or LAAF of 7709-7713",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short a fail or LAAF of 7709-7713 simply has to be an A/A- because if sellers are serious to start the week, then they will strongly defend this and take ES through this past week’s low relatively quickly.",
+   "kind": "fade",
+   "gate": [
+    7709,
+    7713
+   ],
+   "tgt": [
+    7700,
+    [
+     7677,
+     7680
+    ]
+   ],
+   "stop_hint": "if it rips through 7709-7713 then there is no trade."
+  }
+ ]
+}

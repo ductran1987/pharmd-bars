@@ -53,8 +53,9 @@ def _load(sym, contract):
             y = charts.load(sym)
             y = y[(y.time >= pd.Timestamp(a, tz=tz)) & (y.time < pd.Timestamp(b, tz=tz))].copy(); y["src"] = 1
             parts.append(y)
-    if not parts:
-        return pd.DataFrame(columns=["time", "Open", "High", "Low", "Close", "Volume"])
+    if not parts:   # no bars for this contract: empty frame with the right dtypes
+        return pd.DataFrame({"time": pd.Series([], dtype=f"datetime64[ns, {tz}]"),
+                             **{k: pd.Series([], dtype=float) for k in ("Open", "High", "Low", "Close", "Volume")}})
     d = pd.concat(parts).sort_values(["time", "src"]).drop_duplicates("time", keep="first")
     return d.drop(columns="src").reset_index(drop=True)
 

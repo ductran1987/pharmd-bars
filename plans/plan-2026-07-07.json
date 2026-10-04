@@ -1,0 +1,34 @@
+{
+ "source": "pharmdks", "date": "2026-07-07", "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-77-4a6",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Tue 7/7/2026 (posted Mon 7/6). Sep U6 contracts per batch expectation; no roll mentioned. Reference opens given: NQ Sunday open 29930.25 / Monday RTH open 29835.75; ES 7562.25 / 7564.75. NQ APBL given as 29882 (used as number). 'Last week's high' ES = 7593.75 (used as number); 6/21-week high 7599.25. es1 no stated target -> commentary 'likely sees 83 with potential for 75-76'. es2 targets from commentary (LBAF of 75-76 into the 73-74 range, long back up to 83, 94 = last week's 7593.75 high, 7598-7604). es3 (hold/LBAF of 7583) is ungraded ('valid but range is so narrow I would prefer a deeper pullback') -> tag ''. nq1 targets as stated (30047-30054 honorable mention, 069-100). nq2 targets from commentary: 882, today's low (RTH_LOW), weekly 740-769. nq3 targets from commentary (needs to reclaim at least 930, then 969). nq4 targets: today's RTH open 29835.75, 882, weekly 923-969 ('profit take ahead of a test of 882 from below then the weekly level'). 'Other trades are implied' sentence skipped. Samsung earnings noted as volatility risk.",
+ "zones": {
+  "ES": [[7575, 7576], [7540, 7540], [7527, 7531], [7562.25, 7562.25], [7564.75, 7564.75], [7598, 7604], [7490, 7493], [7509, 7515], [7599.25, 7599.25], [7593.75, 7593.75], [7583, 7583], [7573, 7574], [7575.25, 7575.25], [7566, 7569], [7553, 7553]],
+  "NQ": [[29882, 29882], [29650, 29665], [29930.25, 29930.25], [29835.75, 29835.75], [29923, 29969], [29923, 29950], [29923, 29933], [29740, 29769], [30069, 30100], [30047, 30054], [30007, 30007], [29941.25, 29941.25]]
+ },
+ "trades": [
+  {"id": "es1", "instrument": "ES", "name": "Persistent fails/LAAF of 7598-7604", "dir": "short", "tag": "B-",
+   "quote": "Short persistent fails (inclusive of a LAAF) of 7598-7604. I’ll rate this a B- as a blend of perhaps lower probability given its recent strength but a significant potential reward.",
+   "kind": "fade", "gate": [7598, 7604], "tgt": [7583, [7575, 7576]], "stop_hint": ""},
+  {"id": "es2", "instrument": "ES", "name": "LBAF of 7575-7576", "dir": "long", "tag": "B+/A-",
+   "quote": "Long a LBAF of 7575-7576. B+/A-",
+   "kind": "fade", "gate": [7575, 7576], "tgt": [7583, 7593.75, [7598, 7604]], "stop_hint": ""},
+  {"id": "es3", "instrument": "ES", "name": "Hold/LBAF of 7583", "dir": "long", "tag": "",
+   "quote": "Long a hold or LBAF of 7583 is valid but range is so narrow I would prefer a deeper pullback for a planned trade at least",
+   "kind": "fade", "gate": [7583, 7583], "tgt": [7593.75, [7598, 7604]], "stop_hint": ""},
+  {"id": "nq1", "instrument": "NQ", "name": "Hold/LBAF of 29923-29969 (focus 923-933)", "dir": "long", "tag": "B/B-",
+   "quote": "Long a hold or LBAF of 923-969 with specific focus on say 923-933 as the area of interest to hold, and make sure it gets through 950 and 969 of course. B/B- as this may be tricky to manage but has potential for 30047-30054 (honorable mention) and 069-100.",
+   "kind": "fade", "gate": [29923, 29969], "tgt": [[30047, 30054], [30069, 30100]], "stop_hint": "with specific focus on say 923-933 as the area of interest to hold, and make sure it gets through 950 and 969 of course."},
+  {"id": "nq2", "instrument": "NQ", "name": "Persistent weakness below 29923-29930", "dir": "short", "tag": "C+/B-",
+   "quote": "Short persistent weakness below 29923-29930, cautious of a LBAF of 882 on a first pass. C+/B- as I hate breakdown shorts and it may be hard to tell if the trade is any good without session information.",
+   "kind": "break", "gate": [29923, 29930], "tgt": [29882, "RTH_LOW", [29740, 29769]], "stop_hint": "cautious of a LBAF of 882 on a first pass."},
+  {"id": "nq3", "instrument": "NQ", "name": "LBAF of 29882 (APBL)", "dir": "long", "tag": "C+/B-",
+   "quote": "I may watch one time for a LBAF of 29882 but it is so close to 923 that it can be tricky so I have to rate it low as well as a C+/B-",
+   "kind": "fade", "gate": [29882, 29882], "tgt": [[29923, 29930], 29969], "stop_hint": ""},
+  {"id": "nq4", "instrument": "NQ", "name": "LBAF of today's low", "dir": "long", "tag": "B-",
+   "quote": "I almost like a LBAF of today’s low better as even today’s open is 60+ handles from there to get a profit take ahead of a test of 882 from below then the weekly level. B- rating.",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [29835.75, 29882, [29923, 29969]], "stop_hint": ""}
+ ]
+}

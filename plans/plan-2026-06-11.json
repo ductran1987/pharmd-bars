@@ -1,0 +1,93 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-11",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-611-e75",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Thu 6/11/2026 (posted Wed 6/10), June M6 contracts, no roll mentioned. 6/10 was an inside day (monitor break of inside day vs failed break). Every trade in the TRADES section is ungraded -> tag ''. ES 'lost the 7298-7320' read as a typo for 7298-7302 (the level used throughout). ES today's low not given -> RTH_LOW; ES Tuesday's low given as 7247.25. NQ today's low given as 28493 ('493 low') -> used as number; NQ Tuesday's low/high not given -> TUE_LOW. nq1 'inability to reclaim 605-623' = failed reclaim (fade), targets 500-520 and today's low. nq3 'firm base back above 605-623' and es1 'long a reclaim of 7298-7302' treated as break (reclaim longs); es1 commentary cautions a failed reclaim maybe up to 7307. nq4 = RTH LBAF of today's low needing 500-520 and 605-623 to reclaim; nq5 = conditional reactive short at 945-969 'if we see' it after the overnight-based LBAF (he may skip it if an RTH LBAF of today's low is active), target 800-817 from commentary. nq6 gap-fill reversal holding 28151-28188 is a 'pure front run', session-dependent. ES closing line ('I really like the 7206-7214 and 7177-7186 areas ... needs to be reactive') split into es4/es5, targets the next levels up (7236-7240, 7247.25 / 7199.5, 7206-7214). Commentary also: below 7300 ES can find 7200; above today's high broadly targets Tuesday's high; YTD-low AVWAP in 7206-7214 (ES) and 27941-27969 (NQ, 2nd bullish RTH gap); May low 7199.5."
+ ,
+ "zones": {
+  "ES": [[7505, 7505], [7406, 7415], [7345, 7350], [7327, 7327], [7307, 7307], [7298, 7302], [7300, 7300], [7247.25, 7247.25], [7236, 7240], [7206, 7214], [7200, 7200], [7199.5, 7199.5], [7177, 7186]],
+  "NQ": [[29100, 29127], [28945, 28969], [28800, 28817], [28663, 28663], [28605, 28623], [28500, 28520], [28493, 28493], [28151, 28188], [27941, 27969]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Failed reclaim of 28605-28623", "dir": "short", "tag": "",
+   "quote": "Short any inability to reclaim 28605-28623.",
+   "kind": "fade", "gate": [28605, 28623],
+   "tgt": [[28500, 28520], 28493],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Breakdown short below today's low (28493)", "dir": "short", "tag": "",
+   "quote": "Anything below today’s low is a breakdown short whether we open on a true gap down or not (play accordingly if so).",
+   "kind": "break", "gate": [28493, 28493],
+   "tgt": ["TUE_LOW", [28151, 28188]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Firm base back above 28605-28623", "dir": "long", "tag": "",
+   "quote": "I’m willing to get long (especially after a failure lower) if NQ builds a firm base back above 605-623. If I take a long any lower I know that it is an attempted “front run” and is a scalp until proven otherwise.",
+   "kind": "break", "gate": [28605, 28623],
+   "tgt": [[28800, 28817], [28945, 28969]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "RTH LBAF of today's low (28493) reclaiming 28500-28520 and 28605-28623", "dir": "long", "tag": "",
+   "quote": "While afterhours traded below today’s low, it would not be as powerful as an RTH LBAF of today’s low should 500-520 and 605-623 reclaim. It is valid and I can be long for it. In that case, if we see 945-969 I might be willing to look for a reactive short there. If there is an RTH LBAF of today’s low active, then I may not look for a short there.",
+   "kind": "fade", "gate": [28493, 28493],
+   "tgt": [[28500, 28520], [28605, 28623], [28800, 28817], [28945, 28969]],
+   "stop_hint": "should 500-520 and 605-623 reclaim"
+  },
+  {
+   "id": "nq5", "instrument": "NQ", "name": "Reactive short at 28945-28969", "dir": "short", "tag": "",
+   "quote": "In that case, if we see 945-969 I might be willing to look for a reactive short there. If there is an RTH LBAF of today’s low active, then I may not look for a short there.",
+   "kind": "fade", "gate": [28945, 28969],
+   "tgt": [[28800, 28817]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq6", "instrument": "NQ", "name": "Gap fill reversal holding 28151-28188", "dir": "long", "tag": "",
+   "quote": "I may look to long a gap fill reversal which holds 151-188 and looks like it may reclaim Tuesday’s low. I can’t really plan on it as it is a pure front run but if the session gives me a damn good reason to do so I’ll consider it. Any lower needs to be reactive based on the session.",
+   "kind": "fade", "gate": [28151, 28188],
+   "tgt": ["TUE_LOW", [28500, 28520], [28605, 28623]],
+   "stop_hint": "looks like it may reclaim Tuesday’s low"
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Reclaim of 7298-7302", "dir": "long", "tag": "",
+   "quote": "I’m willing to long a reclaim of 7298-7302",
+   "kind": "break", "gate": [7298, 7302],
+   "tgt": [7327, [7345, 7350]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Persistent failures of 7298-7302", "dir": "short", "tag": "",
+   "quote": "Short persistent failures of 7298-7302",
+   "kind": "fade", "gate": [7298, 7302],
+   "tgt": ["RTH_LOW", 7247.25],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Breakdown short below today's low", "dir": "short", "tag": "",
+   "quote": "Anything below today’s low is a breakdown short whether we open on a true gap down or not (play accordingly if so).",
+   "kind": "break", "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [7247.25, [7236, 7240], [7206, 7214], 7199.5],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Reactive long at 7206-7214", "dir": "long", "tag": "",
+   "quote": "I really like the 7206-7214 and 7177-7186 areas. I can’t plan on longing them ahead of time it needs to be reactive but I will consider doing so if given a compelling reason.",
+   "kind": "fade", "gate": [7206, 7214],
+   "tgt": [[7236, 7240], 7247.25],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5", "instrument": "ES", "name": "Reactive long at 7177-7186", "dir": "long", "tag": "",
+   "quote": "I really like the 7206-7214 and 7177-7186 areas. I can’t plan on longing them ahead of time it needs to be reactive but I will consider doing so if given a compelling reason.",
+   "kind": "fade", "gate": [7177, 7186],
+   "tgt": [7199.5, [7206, 7214]],
+   "stop_hint": ""
+  }
+ ]
+}

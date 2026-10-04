@@ -1,0 +1,272 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-28",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-828-d7d",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Thu Aug 27, 2026 for Fri 8/28 (Jackson Hole day; he says most trades are for pre-JHole trading and anything else is reactive once the event starts). U6 contract, no roll mention. He writes the NQ weekly level both as 469-490 and 469-480; each kept as written (nq1 target 469-480, nq2 gate 469-490, nq3 reclaim 469-490). NQ today's RTH low given as 29423.75 -> nq3 gated on that number. nq2 'I would start looking as high as 500 or so' (entry allowance up to ~29500) kept in the quote only; gate is 29469-29490. Missing targets taken from commentary: nq2 'If 469-480 holds then bulls can try again for 580 and 623-636'; nq3 first level up is the 469-490 reclaim, then 580, 623-636; es1 'A fail or LAAF of 7746-7749 can make its way back toward 7720-7722'; es2 'A hold or LBAF of 7720-7722 can make its way back to 7746-7749'. 'The 530s' recorded as [29530,29539]. Commentary-only ideas (not trades): ES sustain above 7746-7749 -> today's high, 7762-7766 (be managed there or on a LAAF), then 7772-7773 / 7780-7787 (careful on a naked rip); ES trap down to 7677-7680 (maybe 84) reclaiming today's low and 7709-7713; NQ above 623-636 -> 669-696, today's high, 29743, 29769.75; caution on longs into the bearish RTH gap to 30066.5 and near 29932-29969.",
+ "zones": {
+  "ES": [
+   [
+    7800,
+    7800
+   ],
+   [
+    7772,
+    7773
+   ],
+   [
+    7746,
+    7749
+   ],
+   [
+    7709,
+    7713
+   ],
+   [
+    7702.75,
+    7702.75
+   ],
+   [
+    7702,
+    7705
+   ],
+   [
+    7702,
+    7709
+   ],
+   [
+    7696,
+    7696
+   ],
+   [
+    7692,
+    7692
+   ],
+   [
+    7684,
+    7684
+   ],
+   [
+    7677,
+    7680
+   ],
+   [
+    7730,
+    7730
+   ],
+   [
+    7720,
+    7722
+   ],
+   [
+    7762,
+    7766
+   ],
+   [
+    7780,
+    7787
+   ]
+  ],
+  "NQ": [
+   [
+    29623,
+    29636
+   ],
+   [
+    29290,
+    29300
+   ],
+   [
+    29669,
+    29696
+   ],
+   [
+    29678.5,
+    29678.5
+   ],
+   [
+    29580,
+    29580
+   ],
+   [
+    29540,
+    29540
+   ],
+   [
+    29530,
+    29539
+   ],
+   [
+    29500,
+    29500
+   ],
+   [
+    29469,
+    29480
+   ],
+   [
+    29469,
+    29490
+   ],
+   [
+    29369,
+    29420
+   ],
+   [
+    29423.75,
+    29423.75
+   ],
+   [
+    29415,
+    29415
+   ],
+   [
+    29368.25,
+    29368.25
+   ],
+   [
+    29332,
+    29332
+   ],
+   [
+    29315,
+    29315
+   ],
+   [
+    29203,
+    29241
+   ],
+   [
+    29743,
+    29743
+   ],
+   [
+    29769.75,
+    29769.75
+   ],
+   [
+    30066.5,
+    30066.5
+   ],
+   [
+    29932,
+    29969
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Downtrend with lower high below 29623-29636",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Short a downtrend with a lower high below 623-636 targeting 580, 540 and potentially 469-480. That’s a pretty large move with an outside chance that some volatility triggers downside through today’s low so I’ll rate it a B+/A-.",
+   "kind": "break",
+   "gate": [
+    29623,
+    29636
+   ],
+   "tgt": [
+    29580,
+    29540,
+    [
+     29469,
+     29480
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 29469-29490",
+   "dir": "long",
+   "tag": "B+",
+   "quote": "Long a hold/LBAF of 469-490 is a B+ and I would start looking as high as 500 or so.",
+   "kind": "fade",
+   "gate": [
+    29469,
+    29490
+   ],
+   "tgt": [
+    29580,
+    [
+     29623,
+     29636
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of today's low (29423.75)",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "Long a LBAF of today’s low is a B/B+, rated slightly lower as 469-490 would be a key reclaim.",
+   "kind": "fade",
+   "gate": [
+    29423.75,
+    29423.75
+   ],
+   "tgt": [
+    [
+     29469,
+     29490
+    ],
+    29580,
+    [
+     29623,
+     29636
+    ]
+   ],
+   "stop_hint": "469-490 would be a key reclaim."
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7746-7749",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Short a fail/LAAF of 7746-7749 is a B+/A-",
+   "kind": "fade",
+   "gate": [
+    7746,
+    7749
+   ],
+   "tgt": [
+    [
+     7720,
+     7722
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7720-7722",
+   "dir": "long",
+   "tag": "B+/A-",
+   "quote": "Long a hold/LBAF of 7720-7722 is a B+/A-",
+   "kind": "fade",
+   "gate": [
+    7720,
+    7722
+   ],
+   "tgt": [
+    [
+     7746,
+     7749
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

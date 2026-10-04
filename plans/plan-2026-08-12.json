@@ -1,0 +1,111 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-12",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-812-0d7",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Wed 8/12/2026 (posted Tue 8/11), CPI day. U6 (Sep) contracts, no roll mentioned. TRADES section only says 'Big picture decision matrix trades for tomorrow.' and points to the weekly-plan decision matrix (an image, not in the page text) -> trades = []. Ungraded commentary ideas (not promoted): ES - failure to reclaim 7760-7763 after CPI/early RTH favors a retest of today's low and more likely 7721-7727; firm reclaim of 7771-7772 tests 7786-7787 and more likely today's high in 7791.5-7795 (more confidence if 71-72 reclaims after a test/sweep of 7724 within 7721-7727); persistent weakness below 7721-7727 vs hold/LBAF of 7721-7727. NQ - persistent weakness below 29718-29742 leans to a (partial) retest of today's low, more confidence below 29686-29702 and 29644-29669; traction below today's low likely sees 29432-29449 ('effective lower edge', effective range ~29430 to 29900-29950); hold/LBAF of 29432-29449 like ES 7721-7727; reclaim of 29718-29742 opens 29890-29911 and 29956-29969 (A-period singles above 29805, then today's high). NQ 686-702 honorable mention; 590-600 / 563-578 also considered.",
+ "zones": {
+  "ES": [
+   [
+    7791.5,
+    7795
+   ],
+   [
+    7786,
+    7787
+   ],
+   [
+    7771,
+    7772
+   ],
+   [
+    7760,
+    7763
+   ],
+   [
+    7746,
+    7751
+   ],
+   [
+    7721,
+    7727
+   ],
+   [
+    7724,
+    7724
+   ],
+   [
+    7706,
+    7714
+   ],
+   [
+    7686.5,
+    7692.5
+   ],
+   [
+    7648.75,
+    7648.75
+   ]
+  ],
+  "NQ": [
+   [
+    29956,
+    29969
+   ],
+   [
+    29900,
+    29950
+   ],
+   [
+    29891,
+    29911
+   ],
+   [
+    29805,
+    29805
+   ],
+   [
+    29718,
+    29742
+   ],
+   [
+    29686,
+    29702
+   ],
+   [
+    29644,
+    29669
+   ],
+   [
+    29590,
+    29600
+   ],
+   [
+    29563,
+    29578
+   ],
+   [
+    29530,
+    29546
+   ],
+   [
+    29432,
+    29449
+   ],
+   [
+    29430,
+    29430
+   ],
+   [
+    29181,
+    29181
+   ]
+  ]
+ },
+ "trades": []
+}

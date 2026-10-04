@@ -1,0 +1,246 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-10",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-810",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Mon 8/10/2026 (posted Sun 8/9). U6 (Sep) contracts, no roll mentioned. Friday = 8/7. Weekly update: uppermost ES weekly level should be 7996-7999. '7648.75 ATH' is a carried-over level (old ATH, below current prices) - kept as a zone. ES Friday's low given as 7743.5, APBL 7756. es1 (LAAF of 86-87) targets 72-73 then the Trading Lower path 66, APBL 7756, 7746-7751; stop_hint 7781. es2 'Long a hold of 7746-7751 or generally any LBAF of 56' kept as ONE trade gated on 7746-7751 (commentary describes it as one setup: 'Any hold of 46-51 (as high as 53) which triggers a fresh LBAF of 56'); the LBAF-of-7756 trigger and preferred test of 51-53 are in stop_hint; only target stated is 'a fresh trip to 86-87'. nq1 targets 690-702 (honorable mention) then 769-785. nq2 targets 769-785 then 644-669 ('then the trading lower scenario could come into play'). nq3 persistent weakness below 769-785 is explicitly ungraded ('isn't worthy of a letter grade (but still valid)') -> tag ''; he would grade it C/C+ only if the LAAF of 855-869 is active; target 644-669. Ungraded commentary ideas not promoted: NQ LBAF of Friday's low via 530-546 (must firmly reclaim 644-669); NQ continuation below Friday's low/530-546 to 478 then 432-449; ES LBAF of Friday's low (43.5); ES persistent weakness below Friday's low/7740 to 7721-7727; ES persistent strength above 91.5-95 to Wednesday's high. NQ 630 = top of demand above Friday's low; 540-569 = last week's weekly level.",
+ "zones": {
+  "ES": [
+   [
+    7996,
+    7999
+   ],
+   [
+    7791.5,
+    7795
+   ],
+   [
+    7786,
+    7787
+   ],
+   [
+    7781,
+    7781
+   ],
+   [
+    7772,
+    7773
+   ],
+   [
+    7766,
+    7766
+   ],
+   [
+    7756,
+    7756
+   ],
+   [
+    7753,
+    7753
+   ],
+   [
+    7746,
+    7751
+   ],
+   [
+    7743.5,
+    7743.5
+   ],
+   [
+    7740,
+    7740
+   ],
+   [
+    7721,
+    7727
+   ],
+   [
+    7706,
+    7714
+   ],
+   [
+    7686.5,
+    7692.5
+   ],
+   [
+    7648.75,
+    7648.75
+   ]
+  ],
+  "NQ": [
+   [
+    29956,
+    29969
+   ],
+   [
+    29891,
+    29911
+   ],
+   [
+    29855,
+    29869
+   ],
+   [
+    29769,
+    29785
+   ],
+   [
+    29690,
+    29702
+   ],
+   [
+    29644,
+    29669
+   ],
+   [
+    29630,
+    29630
+   ],
+   [
+    29540,
+    29569
+   ],
+   [
+    29530,
+    29546
+   ],
+   [
+    29478,
+    29478
+   ],
+   [
+    29432,
+    29449
+   ],
+   [
+    29181,
+    29181
+   ],
+   [
+    28796,
+    28801
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of 7786-7787",
+   "dir": "short",
+   "tag": "B+",
+   "quote": "Short a LAAF of 86-87 is the best and safest way to express a bearish bias. Bulls are in control of intermediate and higher timeframes so this can’t be rated too highly but it is the one setup which could ultimately resolve down through Tuesday’s weak structure if sellers wake up this week for some reason. If intermediate and higher timeframes weren’t fully favoring bulls this would be an A++ rating. As it is I can’t give it better than a B+ and only that high because it has potential (though low probability) to produce an outsized move. I would watch something like 7781 from above which could hold and negate this trade before even seeing 72-73 if bulls are strong.",
+   "kind": "fade",
+   "gate": [
+    7786,
+    7787
+   ],
+   "tgt": [
+    [
+     7772,
+     7773
+    ],
+    7766,
+    7756,
+    [
+     7746,
+     7751
+    ]
+   ],
+   "stop_hint": "I would watch something like 7781 from above which could hold and negate this trade before even seeing 72-73 if bulls are strong."
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 7746-7751 / LBAF of 7756",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "Long a hold of 7746-7751 or generally any LBAF of 56 though my strong preference would be a test of at least 51-53. I rate this as an A/A- and it would be a solid way to attempt to front run a break of this flag structure if Friday’s low is protected.",
+   "kind": "fade",
+   "gate": [
+    7746,
+    7751
+   ],
+   "tgt": [
+    [
+     7786,
+     7787
+    ]
+   ],
+   "stop_hint": "or generally any LBAF of 56 though my strong preference would be a test of at least 51-53"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 29644-29669",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "Long a hold or LBAF of 644-669 is an A/A- and is the best way to attempt a front run of this recent 4-day balance if Friday’s low is to be protected.",
+   "kind": "fade",
+   "gate": [
+    29644,
+    29669
+   ],
+   "tgt": [
+    [
+     29690,
+     29702
+    ],
+    [
+     29769,
+     29785
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of 29855-29869",
+   "dir": "short",
+   "tag": "B",
+   "quote": "Short a LAAF of 855-869 is a B.",
+   "kind": "fade",
+   "gate": [
+    29855,
+    29869
+   ],
+   "tgt": [
+    [
+     29769,
+     29785
+    ],
+    [
+     29644,
+     29669
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Persistent weakness below 29769-29785",
+   "dir": "short",
+   "tag": "",
+   "quote": "Shorting persistent weakness below 769-785 isn’t worthy of a letter grade (but still valid) unless the LAAF of 855-869 is active in which case it is perhaps worth of a C/C+.",
+   "kind": "break",
+   "gate": [
+    29769,
+    29785
+   ],
+   "tgt": [
+    [
+     29644,
+     29669
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

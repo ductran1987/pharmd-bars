@@ -1,0 +1,111 @@
+{
+ "source": "pharmdks",
+ "date": "2026-07-23",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-723-532",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Thu 7/23/2026 (posted Wed 7/22; brief/late plan, both indices gapped down at the 6pm open). U6 (Sep) contracts, no roll mentioned. trades = [] : the TRADES section is a single ungraded bias paragraph with no specific setups ('I will personally fully favor shorts until further notice'). Ideas there and in commentary, NOT promoted to trades: monitor whether today's RTH low is reclaimed AND the 5pm close is tagged (anything less = weakness); if ES and NQ reclaim today's low, more okay with longs, even more so if ES gets back over 7531-7533 and NQ over 29181 (at least 29161); any downtrend below today's low = seller; below the morning 'Trump tape bomb' low (NQ sell into 28945-28969) increasingly bearish. Discord stance: nothing but shorts until NQ 29400 is bid from above. Commentary: NQ rotational between 29181-29269; above 29284 (firmly above 29247-29269) should take today's and yesterday's highs; below 29181 and 29161 -> today's low just above 29050-29079; LBAF of today's low needs to reclaim 29161 and 29181 for room to 29247-29269 (up to 29284). ES: okay above 7531-7533, below it today's low in play; traction below today's low targets 7509-7513; LBAF needs to reclaim 7531-7533; if 7509-7513 holds, retest today's low; below 7509-7513 favor 7497-7500. NQ 29160 (honorable mention) vs '161' later in the text kept as [29160,29161].",
+ "zones": {
+  "ES": [
+   [
+    7598,
+    7601
+   ],
+   [
+    7578,
+    7580
+   ],
+   [
+    7569,
+    7572
+   ],
+   [
+    7552.5,
+    7552.5
+   ],
+   [
+    7548,
+    7548
+   ],
+   [
+    7531,
+    7533
+   ],
+   [
+    7509,
+    7513
+   ],
+   [
+    7497,
+    7500
+   ],
+   [
+    7457,
+    7459
+   ],
+   [
+    7430,
+    7430
+   ]
+  ],
+  "NQ": [
+   [
+    29488,
+    29500
+   ],
+   [
+    29400,
+    29400
+   ],
+   [
+    29284,
+    29284
+   ],
+   [
+    29269,
+    29284
+   ],
+   [
+    29247,
+    29269
+   ],
+   [
+    29181,
+    29181
+   ],
+   [
+    29181,
+    29269
+   ],
+   [
+    29160,
+    29161
+   ],
+   [
+    29119,
+    29119
+   ],
+   [
+    29050,
+    29079
+   ],
+   [
+    28945,
+    28969
+   ],
+   [
+    28896,
+    28910
+   ],
+   [
+    28663,
+    28673
+   ]
+  ]
+ },
+ "trades": []
+}

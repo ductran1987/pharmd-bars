@@ -1,0 +1,96 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-15",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-415-93d",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Tue 4/14 (true gap up trend day, ES near ATH 7043) for Wed 4/15. M (Jun) contract, no roll mentioned. All TRADES ungraded -> tag ''. Generic 'if we open on a true gap up we simply monitor the open and 5-min opening range' skipped (no level). APBL given: NQ 25884.25, ES 6983.25 -> nq1/es1 gated on those numbers. The spike-base short sentence names no instrument ('below today's spike base'); transcribed for both: es2 gate 7003-7005 (spike base 7005, he uses 7003-7005 as the daily level), nq2 gate 25990. Typos: NQ 'high of day 25003' = 26003 (weekly 26020-26039 'sits just above'); NQ daily level '25101-25113' read as 26101-26113 (listed between 26200-26212 and 25872-25884; 'the two added daily levels to the upside'); NQ commentary '831' vs daily level 25834 (both kept). Targets: es1 from 'LBAF of at least 83 ... targets 7003-7005, mindful of 6991-6994' (6991-6994 obstacle excluded); nq1 from 'LBAF of at least 884 (ideally 872) is a long back to 934-946 and then 990 and today's high if reclaimed'; es2 first Trading Lower target 6979-6983 (mindful of 91-94; then 6961-6968 singles); nq2 'holding below 25990 targets 934-946' (he says it 'isn't super clean'). Weekly 25369-25388 re-added for NQ. Commentary-only: ES above today's high (7008) -> 7014-7016 (up to 7020), ATH 7043; ES hold/LBAF of 6966-6969 -> 6979-6983 -> 7003-7005; acceptance below 6961-6968 singles puts today's low at risk; NQ above high -> 26020-26039 then 26101-26113, 26200-26212; NQ below 25934-25946 -> 25900, 25872-25884; below 25872 fills singles to 25846; then 25831/25834, 25791-25804; below 25760-25769 brings today's low in play. SPX 6980 skipped.",
+ "zones": {
+  "ES": [
+   [7003, 7005],
+   [6979, 6983],
+   [6961, 6961],
+   [6890, 6892],
+   [6864, 6867],
+   [6803.5, 6808.5],
+   [7005, 7005],
+   [7008, 7008],
+   [7014, 7016],
+   [7020, 7020],
+   [7043, 7043],
+   [6991, 6994],
+   [6983.25, 6983.25],
+   [6961, 6968],
+   [6966, 6969]
+  ],
+  "NQ": [
+   [25369, 25388],
+   [26200, 26212],
+   [26101, 26113],
+   [25872, 25884],
+   [25834, 25834],
+   [25760, 25769],
+   [25238, 25250],
+   [25990, 25990],
+   [26003, 26003],
+   [25934, 25946],
+   [25846, 25872],
+   [26020, 26039],
+   [25900, 25900],
+   [25884.25, 25884.25],
+   [25831, 25831],
+   [25791, 25804]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of today's APBL (25884.25)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Probably the best long setup is a LBAF of today’s afternoon pullback low (APBL) on either ES or NQ. For NQ this was 884.25 and for ES it was 83.25.",
+   "kind": "fade",
+   "gate": [25884.25, 25884.25],
+   "tgt": [[25934, 25946], 25990, 26003],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of today's APBL (6983.25)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Probably the best long setup is a LBAF of today’s afternoon pullback low (APBL) on either ES or NQ. For NQ this was 884.25 and for ES it was 83.25.",
+   "kind": "fade",
+   "gate": [6983.25, 6983.25],
+   "tgt": [[7003, 7005]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Join downtrend below today's spike base (7003-7005)",
+   "dir": "short",
+   "tag": "",
+   "quote": "We can consider joining a downtrend on the short side below today’s spike base if it looks like the market is going on a “structure repair mission” but I would just be prepared to cover if there is no downside traction as bulls have been persistent.",
+   "kind": "break",
+   "gate": [7003, 7005],
+   "tgt": [[6979, 6983]],
+   "stop_hint": "I would just be prepared to cover if there is no downside traction as bulls have been persistent."
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Join downtrend below today's spike base (25990)",
+   "dir": "short",
+   "tag": "",
+   "quote": "We can consider joining a downtrend on the short side below today’s spike base if it looks like the market is going on a “structure repair mission” but I would just be prepared to cover if there is no downside traction as bulls have been persistent.",
+   "kind": "break",
+   "gate": [25990, 25990],
+   "tgt": [[25934, 25946]],
+   "stop_hint": "I would just be prepared to cover if there is no downside traction as bulls have been persistent."
+  }
+ ]
+}

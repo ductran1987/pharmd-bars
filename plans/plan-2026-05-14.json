@@ -1,0 +1,24 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-14",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-514-7ee",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "M (Jun) contract; no roll mention. Day after ES multi-day balance upside break (top 7454.75, singles 7447-7459); NQ closed at 3-day balance high 29480 (RTH close 29476), today's high 29565.5, today's cash low 29075 (ON low 29055.5). All TRADES ungraded (tag ''). es1 gate taken as 7449-7459 ('7449-7452 up to 7459 is the ideal area to long a back test'; also 'anything above 49-52 is fine' if trading lower first); no target stated -> today's high (RTH_HIGH, not given numerically) then the 7540s from Trading Higher. nq1 single prints 29387-29413 (weekly 387-404 'works nearly perfectly'), targets from commentary 469-483 and today's high 29565.5. nq2 'deeper trap closer to the 317 area' gated on weekly 29317-29341 (commentary: 317-341 maybe as high as 360, down to 288-296), targets from commentary reclaim of 387-404 then 469-483. Not promoted: 'reactive shorts in a failed breakout scenario (on either) are okay' (no level; failed breakout = loss of ES 7449-7452 / NQ 29469-29483, needs today's low taken out); 'not going to plan for longs lower' on ES. Intro typo '29945-29975' = 28945-28975. '284-296' and '288-296' both used for the NQ 29284-29296 daily level.",
+ "zones": {
+  "ES": [[7540, 7549], [7465, 7465], [7459, 7459], [7447, 7459], [7454.75, 7454.75], [7449, 7452], [7438, 7440], [7428, 7431], [7417.5, 7419.5], [7398, 7400], [7346, 7349]],
+  "NQ": [[30180, 30180], [29583, 29600], [29565.5, 29565.5], [29480, 29480], [29476, 29476], [29469, 29483], [29413, 29413], [29387, 29413], [29387, 29404], [29360, 29360], [29317, 29341], [29284, 29296], [29218, 29238], [29073, 29073], [29075, 29075], [29058, 29081], [29055.5, 29055.5], [28945, 28975], [28859, 28859], [28800, 28817]]
+ },
+ "trades": [
+  {"id": "es1", "instrument": "ES", "name": "Back test long of 7449-7452 up to 7459", "dir": "long", "tag": "",
+   "quote": "7449-7452 up to 7459 is the ideal area to long a back test. The market never seems to be that kind but that is the spot. If we trade lower first (haven’t failed above today’s high) then I am more willing to look for dips higher as anything above 49-52 is fine.",
+   "kind": "fade", "gate": [7449, 7459], "tgt": ["RTH_HIGH", [7540, 7549]], "stop_hint": "I’ll be just a bit more patient if there is some kind of bearish sequence (like a LAAF today’s high) in play."},
+  {"id": "nq1", "instrument": "NQ", "name": "Reactive long in 29387-29413 single prints", "dir": "long", "tag": "",
+   "quote": "I like the idea of getting long in the 387-413 single prints if a reactive bid shows up. This is less clean than for ES as it risks looking like a failed breakout already, but I am more willing to do so if we trade lower first without a bearish sequence (like a LAAF of today’s high) in play.",
+   "kind": "fade", "gate": [29387, 29413], "tgt": [[29469, 29483], 29565.5], "stop_hint": ""},
+  {"id": "nq2", "instrument": "NQ", "name": "Deeper trap long near 29317 (29317-29341)", "dir": "long", "tag": "",
+   "quote": "I also have more willingness to get long on a deeper trap closer to the 317 area than I am for ES because of some differences in structure but I would still be more cautious as it risks being a failed breakout.",
+   "kind": "fade", "gate": [29317, 29341], "tgt": [[29387, 29404], [29469, 29483]], "stop_hint": ""}
+ ]
+}

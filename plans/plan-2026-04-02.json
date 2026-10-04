@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-02",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-42-34e",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Wed Apr 1, 2026 for Thu 4/2; M6 contract, no roll mention. Trump speech the evening before; Good Friday 4/3 cash markets closed (ES shortened session with NFP). Letter has NO TRADES section ('I'll keep things pretty high level') -> trades = []. Ungraded commentary ideas: both instruments monitor a LAAF of today's (4/1) high (ES weekly 6669-6674 above, NQ 24369-24380 above). ES: bullish RTH gap 6583.25-6598 assumed support, monitor LBAF of today's low (6598); acceptance back in yesterday's range -> test of singles 6497.25-6529.25 (monitor reactive bid there); back below 6492-6496 targets yesterday's low 6447 and Friday's singles 6441-6449; as long as today's low holds, rotation to 6669-6674 in play; 6639-6645 possible seller defense. NQ: bullish RTH gap 23975.25-24043.25 assumed support; back below 23901-23933 puts singles at risk; below 23569-23581 technically disastrous; traction above 24369-24380 likely brings 24523-24543 (monitor LAAF); sellers could defend a LAAF around 24286 (3/25 low, honorable mention); 24243-24269 defended from below; supply 24320-24330 (mark until first touch). NQ abbreviations '243-269', '286', '320-330', '369-380' resolved to 24xxx (today's high was in the 24300s).",
+ "zones": {
+  "ES": [[6529, 6529], [6353, 6353], [6669, 6674], [6583.25, 6598], [6598, 6598], [6573, 6580], [6566.75, 6566.75], [6497.25, 6529.25], [6492, 6496], [6447, 6447], [6441, 6449], [6639, 6645]],
+  "NQ": [[23869, 23875], [23747.5, 23747.5], [24369, 24380], [23975.25, 24043.25], [23901, 23933], [23569, 23581], [24523, 24543], [24243, 24269], [24286, 24286], [24320, 24330]]
+ },
+ "trades": []
+}

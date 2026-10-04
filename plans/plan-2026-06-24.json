@@ -1,0 +1,123 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-24",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-624-9be",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Day after a large gap-down/deleveraging day (NQ RTH gap 450+ handles). No roll mention; numbers taken as U. Levels section headed 'PRICE:'. No targets stated in TRADES -> taken from commentary: nq1 'would need to get back below 740-769 to have potential for 625-648'; nq2 '740-769 and 804-815'; nq3 'translate to a loss of 804-815 and 740-769' (848 = 6/7 week high sits between 923-943 and 804-815, not used as a target). nq4 (LBAF of today's low, must reclaim 625-648) and nq5 (LAAF of today's high, must get back below 923-943) are ungraded TRADES lines -> tag ''. ES: es1 targets '45, 50, and maybe 58-59 and 63-72' from commentary (stop_hint 'which preserves today's low' is from the commentary sentence). es2 gate 7463-7472 ('maybe as low as 58-59'; 'something in the 67-68 or just above makes sense'; ARH 7476.5); targets 7450 then 7426-7428 from the two-way-range commentary (honorable mention 7458-7459 sits inside the possible entry area). es3/es4 from the ungraded line 'Like for NQ we have reason to be on watch for a LBAF of today's low or a LAAF of today's high' -> tag ''; es3 targets 7426-7428/7445/7450, es4 targets 7463-7472 then 7458-7459 (commentary). NQ weekly target written both '302-339' and '302-336' (29302-29339 kept). Commentary-only: ES below today's low -> 7397-7403 (won't short there), 7363-7368, 7336-7342; NQ below today's low -> 29481-29516, 29430, 29302-29339.",
+ "zones": {
+  "ES": [[7463, 7472], [7472, 7472], [7476.5, 7476.5], [7458, 7459], [7450, 7450], [7445, 7445], [7426, 7428], [7397, 7403], [7363, 7368], [7336, 7342], [7527, 7527]],
+  "NQ": [[29804, 29815], [29740, 29769], [29625, 29648], [29848, 29848], [29923, 29943], [29481, 29516], [29430, 29430], [29302, 29339]]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 29804-29815",
+   "dir": "short",
+   "tag": "A-/B+",
+   "quote": "Short a fail/ LAAF of 804-815. A-/B+",
+   "kind": "fade",
+   "gate": [29804, 29815],
+   "tgt": [[29740, 29769], [29625, 29648]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 29625-29648",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a hold/LBAF of 625-648 B/B- rating",
+   "kind": "fade",
+   "gate": [29625, 29648],
+   "tgt": [[29740, 29769], [29804, 29815]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 29923-29943",
+   "dir": "short",
+   "tag": "B/B+",
+   "quote": "Short a fail/LAAF of 923-943. B/B+ rating",
+   "kind": "fade",
+   "gate": [29923, 29943],
+   "tgt": [[29804, 29815], [29740, 29769]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "I do think we have reason to consider a LBAF of today’s low (we technically always do) but it would need to reclaim 625-648 to be any good.",
+   "kind": "fade",
+   "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [[29625, 29648], [29740, 29769], [29804, 29815]],
+   "stop_hint": "it would need to reclaim 625-648 to be any good."
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "We also have more reason than normal to be wary of a LAAF of today’s high but it would need back below at least 923-943 to be any good.",
+   "kind": "fade",
+   "gate": ["RTH_HIGH", "RTH_HIGH"],
+   "tgt": [[29923, 29943], [29804, 29815], [29740, 29769]],
+   "stop_hint": "it would need back below at least 923-943 to be any good."
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7426-7428",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "Long a hold/LBAF of 7426-7428 B- rating",
+   "kind": "fade",
+   "gate": [7426, 7428],
+   "tgt": [7445, 7450, [7458, 7459], [7463, 7472]],
+   "stop_hint": "which preserves today’s low"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7463-7472",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Short a fail/LAAF of 63-72 (maybe as low as 58-59). This is obviously a large range. Something in the 67-68 or just above makes sense but I could see this taking out the 7476.5 ARH and still failing lower if NQ remains weak. B+/A-",
+   "kind": "fade",
+   "gate": [7463, 7472],
+   "tgt": [7450, [7426, 7428]],
+   "stop_hint": "I could see this taking out the 7476.5 ARH and still failing lower if NQ remains weak."
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Like for NQ we have reason to be on watch for a LBAF of today’s low or a LAAF of today’s high.",
+   "kind": "fade",
+   "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [[7426, 7428], 7445, 7450],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "Like for NQ we have reason to be on watch for a LBAF of today’s low or a LAAF of today’s high.",
+   "kind": "fade",
+   "gate": ["RTH_HIGH", "RTH_HIGH"],
+   "tgt": [[7463, 7472], [7458, 7459]],
+   "stop_hint": ""
+  }
+ ]
+}

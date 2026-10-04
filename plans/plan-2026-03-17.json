@@ -1,0 +1,79 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-17",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-317-d76",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "****This is contract roll week so see the weekly plan for handling of levels\n\nAs of the Monday night plan for Tuesday the levels referenced are for ESM2026 unless otherwise specified for commentary purposes.",
+ "ref_date_note": "Roll week (H6->M6); letter says levels are ESM2026 from this plan on (M used for ES and NQ; 'Both NQ and ES had more volume on the M contract'). Brief plan (author out of town): no TRADES section, only levels + commentary -> trades []. Some sentences cite H-contract context ('Today's high on ESH was just shy of the major 6741-6750'; NQ 597.5-611 'held today's RTH low on the H contract'); the daily levels list (6717 / 24669, 24597.5-24611, 24495) repeats the 3/16 list unchanged. 'NQM low effectively 835' -> 24835. Commentary ideas (ungraded, not promoted): short/weakness holding below today's low (ESM low just below 6741-6750) targeting 6717, 6703, potentially 6684.5-6691; short a LAAF of today's high (ESM failed in 6783-6787; same for NQ); long holding above 6741-6750 targeting 6765 then today's high; NQ holding below 24835 (bottom of 24835-24874) targeting 24750-24769, likely 24669, potentially 24597.5-24611; ESM needs firm base above 6803.5-6808.5 (avoid fail in 6818-6822), NQM 25090-25115, to neutralize trend; lean to short any failure to sustain above today's high, fine with longs up to that point if today's low holds; contract gap fill expected Tue/Wed.",
+ "zones": {
+  "ES": [
+   [
+    6717,
+    6717
+   ],
+   [
+    6741,
+    6750
+   ],
+   [
+    6703,
+    6703
+   ],
+   [
+    6684.5,
+    6691
+   ],
+   [
+    6783,
+    6787
+   ],
+   [
+    6765,
+    6765
+   ],
+   [
+    6803.5,
+    6808.5
+   ],
+   [
+    6818,
+    6822
+   ]
+  ],
+  "NQ": [
+   [
+    24669,
+    24669
+   ],
+   [
+    24597.5,
+    24611
+   ],
+   [
+    24495,
+    24495
+   ],
+   [
+    24835,
+    24874
+   ],
+   [
+    24835,
+    24835
+   ],
+   [
+    24750,
+    24769
+   ],
+   [
+    25090,
+    25115
+   ]
+  ]
+ },
+ "trades": []
+}

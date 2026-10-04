@@ -1,0 +1,300 @@
+{
+ "source": "pharmdks",
+ "date": "2026-07-22",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-722-dfc",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Wed 7/22/2026 (posted Tue 7/21). U6 (Sep) contracts, no roll mentioned. Letter: 'NQ looks like a much cleaner trade than ES'. NQ today's high given as 29365 ('365 high of day') -> nq2 gated on the number. nq1 targets 335 (where sellers could defend) then 369-397 per rotational commentary; nq3 targets 181 then 29050-29079; nq4 ('true gap up and go', kind=break) targets 29488-29500, 29685, 30069. ES TRADES explicitly ungraded ('No ratings for this turd heap of a profile') -> tag '' on all ES trades. es1 'short any inability to sustain above today's high' gated RTH_HIGH (ES today's high not given; closed inside 7539-7548), targets 7531-7533, 7509-7513, today's low from Trading Lower. The single sentence 'reactive bids in the 37-39 range ... or on a hold or LBAF of 31-33' split into es2 (7537-7539) and es3 (7531-7533), both quoting it; targets 48, 58, 69-72 from 'firmly bid 48 from above back through 58 and to 69-72'. ES 7473 = last night's low; 7618 bigger-picture target.",
+ "zones": {
+  "ES": [
+   [
+    7598,
+    7601
+   ],
+   [
+    7578,
+    7580
+   ],
+   [
+    7569,
+    7572
+   ],
+   [
+    7531,
+    7533
+   ],
+   [
+    7530,
+    7533
+   ],
+   [
+    7537,
+    7539
+   ],
+   [
+    7539,
+    7548
+   ],
+   [
+    7548,
+    7548
+   ],
+   [
+    7558,
+    7558
+   ],
+   [
+    7497,
+    7500
+   ],
+   [
+    7509,
+    7513
+   ],
+   [
+    7457,
+    7459
+   ],
+   [
+    7430,
+    7430
+   ],
+   [
+    7469,
+    7472
+   ],
+   [
+    7473,
+    7473
+   ],
+   [
+    7618,
+    7618
+   ]
+  ],
+  "NQ": [
+   [
+    29488,
+    29500
+   ],
+   [
+    29181,
+    29181
+   ],
+   [
+    29119,
+    29119
+   ],
+   [
+    28896,
+    28910
+   ],
+   [
+    28663,
+    28673
+   ],
+   [
+    29247,
+    29269
+   ],
+   [
+    29369,
+    29397
+   ],
+   [
+    29365,
+    29365
+   ],
+   [
+    29335,
+    29335
+   ],
+   [
+    29685,
+    29685
+   ],
+   [
+    30069,
+    30069
+   ],
+   [
+    29050,
+    29079
+   ],
+   [
+    29025,
+    29025
+   ],
+   [
+    28945,
+    28969
+   ],
+   [
+    28691,
+    28718
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 29247-29269",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "Long a hold or LBAF of 247-269 is an A/A-",
+   "kind": "fade",
+   "gate": [
+    29247,
+    29269
+   ],
+   "tgt": [
+    29335,
+    [
+     29369,
+     29397
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of today's high (29365)",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Short a LAAF of today’s high is a B+/A-",
+   "kind": "fade",
+   "gate": [
+    29365,
+    29365
+   ],
+   "tgt": [
+    [
+     29247,
+     29269
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Persistent weakness below 29247-29269",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "Short persistent weakness below 247-269 is a B-",
+   "kind": "break",
+   "gate": [
+    29247,
+    29269
+   ],
+   "tgt": [
+    29181,
+    [
+     29050,
+     29079
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "True gap up and go above 29369-29397",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a true gap up and go above 369-397 is a B/B-",
+   "kind": "break",
+   "gate": [
+    29369,
+    29397
+   ],
+   "tgt": [
+    [
+     29488,
+     29500
+    ],
+    29685,
+    30069
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Inability to sustain above today's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "I may just short any inability to sustain above today’s high but wary that the entire 39-48 range can be choppy and gross. I would really need to see a strong downtrend emerge to want to join sellers on ES vs NQ",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    [
+     7531,
+     7533
+    ],
+    [
+     7509,
+     7513
+    ],
+    "RTH_LOW"
+   ],
+   "stop_hint": "wary that the entire 39-48 range can be choppy and gross. I would really need to see a strong downtrend emerge"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Reactive bids in 7537-7539",
+   "dir": "long",
+   "tag": "",
+   "quote": "Maybe I’ll look for reactive bids in the 37-39 range for longs or on a hold or LBAF of 31-33.",
+   "kind": "fade",
+   "gate": [
+    7537,
+    7539
+   ],
+   "tgt": [
+    7548,
+    7558,
+    [
+     7569,
+     7572
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7531-7533",
+   "dir": "long",
+   "tag": "",
+   "quote": "Maybe I’ll look for reactive bids in the 37-39 range for longs or on a hold or LBAF of 31-33.",
+   "kind": "fade",
+   "gate": [
+    7531,
+    7533
+   ],
+   "tgt": [
+    [
+     7539,
+     7548
+    ],
+    7558,
+    [
+     7569,
+     7572
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

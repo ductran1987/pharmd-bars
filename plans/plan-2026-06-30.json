@@ -1,0 +1,69 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-30",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-630-8d2",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Tue 6/30/2026 (posted Mon 6/29), Sep U6 contracts, no roll mentioned. Shortened holiday week. All trades ungraded (tag ''; es1 calls a fresh LAAF 'okay' - not a grade). NQ daily level printed '297128' read as 29728 (commentary: 'I've added 728 as a daily level'). NQ today's high only described as a near-perfect tap of 30069 ('retest today's high in the 30047-30069 range') -> nq1 gated [30047,30069]; ES today's high given as 7505 (spike base 7502). nq1 target 29974 only (then 'see the trading lower commentary'). nq3 true gap up holding 30047-30069 targets Thursday's RTH open/high range 151-193. nq4 breakdown below 891-923 has no stated target -> NQ Trading Lower levels 820-840, 728, 650-665, 569-595. nq5 is the conditional 'deep trap to 569-595' long ('if I were willing to plan a spot ahead of time'); targets are the levels back up to 891-923. es1 targets 7490 then 72-76 (from its own sentence). es2 hold of 72-76 '+/- an extra couple handles'. es3 target 7405-7410 'and last week's low' (last week's low not given numerically and no matching REF -> omitted from tgt). es4 targets from ES Trading Higher (7515-7517, 7527-7531 gap fill, 7550-7554). Commentary-only ideas (LBAF/hold of 7490 retesting 7497-7504; NQ structure-repair to 932) not promoted. NQ 30069 Warsh FOMC spike base (70.25) and 29933-29974 singles kept as zones.",
+ "zones": {
+  "ES": [[7569,7569],[7559,7560],[7515,7517],[7490,7490],[7459,7459],[7443,7448],[7390,7390],[7405,7410],[7497,7504],[7472,7476],[7502,7502],[7505,7505],[7527,7531],[7536,7536],[7550,7554],[7423,7423]],
+  "NQ": [[29974,29974],[29820,29840],[29728,29728],[29650,29665],[29497,29497],[29296,29339],[29891,29923],[30047,30069],[30069,30069],[30070.25,30070.25],[29933,29974],[29932,29932],[30151,30193],[30100,30300],[30269,30391],[30503,30546],[29569,29595],[29848,29848],[29740,29769],[29718,29718]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "LAAF of today's high (30047-30069)", "dir": "short", "tag": "",
+   "quote": "Short a LAAF of today’s high targeting 29974. See the “trading lower” commentary from there and monitor for continuation.",
+   "kind": "fade", "gate": [30047, 30069], "tgt": [29974],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Hold/LBAF of 29974", "dir": "long", "tag": "",
+   "quote": "Long a hold or LBAF of 974 is valid. It doesn’t represent much of a dip but if bulls are going to gap away from this recent range then it will hold.",
+   "kind": "fade", "gate": [29974, 29974], "tgt": [[30047, 30069]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "True gap up holding 30047-30069", "dir": "long", "tag": "",
+   "quote": "Long a true gap up which holds 30047-30069.",
+   "kind": "break", "gate": [30047, 30069], "tgt": [[30151, 30193]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "Persistent weakness back below 29891-29923", "dir": "short", "tag": "",
+   "quote": "I have to be open to shorting persistent weakness back below 891-923 but cautious it could be a trap.",
+   "kind": "break", "gate": [29891, 29923], "tgt": [[29820, 29840], 29728, [29650, 29665], [29569, 29595]],
+   "stop_hint": "cautious it could be a trap"
+  },
+  {
+   "id": "nq5", "instrument": "NQ", "name": "Deep trap to 29569-29595", "dir": "long", "tag": "",
+   "quote": "If I were willing to plan a spot ahead of time it would be a deep trap to 569-595, knowing that it would have to produce a ferocious rally and higher low on a 30-minute chart to re-break 891-923.",
+   "kind": "fade", "gate": [29569, 29595], "tgt": [[29650, 29665], 29728, [29820, 29840], [29891, 29923]],
+   "stop_hint": "it would have to produce a ferocious rally and higher low on a 30-minute chart to re-break 891-923"
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Persistent failure at 7497-7504 (incl. fresh LAAF)", "dir": "short", "tag": "",
+   "quote": "Short persistent failure at the weekly 7497-7504. We already have a potential failed spike in play so it is fair to work with now, and a fresh LAAF would be “okay” as well. This is range high until proven otherwise so if you’re right being short here the reward can be enormous and if you’re wrong you’re wrong quickly. The 7490 level would need to be lost to find a trip toward 72-76 of course.",
+   "kind": "fade", "gate": [7497, 7504], "tgt": [7490, [7472, 7476]],
+   "stop_hint": "if you’re wrong you’re wrong quickly. The 7490 level would need to be lost to find a trip toward 72-76 of course."
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Hold of 7472-7476", "dir": "long", "tag": "",
+   "quote": "Long a hold of 72-76 (+/- an extra couple handles because of some demand above and below) targeting 7490 and then 7497-7504.",
+   "kind": "fade", "gate": [7472, 7476], "tgt": [7490, [7497, 7504]],
+   "stop_hint": "+/- an extra couple handles because of some demand above and below"
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Persistent weakness below 7472-7476", "dir": "short", "tag": "",
+   "quote": "Short persistent weakness below 7472-7476 cautious that it could be a trap, but again the potential move is down to 7405-7410 and last week’s low so it has to be valid.",
+   "kind": "break", "gate": [7472, 7476], "tgt": [[7405, 7410]],
+   "stop_hint": "cautious that it could be a trap"
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "True gap up holding 7497-7504", "dir": "long", "tag": "",
+   "quote": "Long a true gap up which holds 7497-7504.",
+   "kind": "break", "gate": [7497, 7504], "tgt": [[7515, 7517], [7527, 7531], [7550, 7554]],
+   "stop_hint": ""
+  }
+ ]
+}

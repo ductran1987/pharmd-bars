@@ -13,8 +13,10 @@ def _rth(d5, day):
     return w[(m >= 570) & (m < 960)]
 
 
-def resolver(sym, plan_date):
-    d5 = charts.load(sym)
+def resolver(sym, plan_date, d5=None):
+    """d5: bars to resolve from (default: the yfinance continuous file). Pass a single contract's bars
+    (contracts.load(sym, contract)) so refs come from the same contract the letter quotes."""
+    if d5 is None: d5 = charts.load(sym)
     pday = pd.Timestamp(plan_date, tz=tz)
     days = sorted(set(d5[d5.time < pday].time.dt.date))
     rth_days = [x for x in days if len(_rth(d5, x)) >= 60]   # real cash sessions only
@@ -45,15 +47,19 @@ def _num(x, res):
     return None
 
 
-def load_plan(path):
-    """Return (plan, trades) with numeric levels in the old schema; unresolved trades are dropped (listed in plan['_dropped'])."""
+def load_plan(path, bars_for=None, skip=SKIP_DATES):
+    """Return (plan, trades) with numeric levels in the old schema; unresolved trades are dropped (listed in plan['_dropped']).
+    bars_for(sym) -> 5m bars of the contract this plan is on (default: continuous file); skip = plan dates to drop."""
     p = json.load(open(path)); trades, dropped = [], []
     if p.get("status") != "transcribed":
         for t in p["trades"]:
             t = dict(t); t.setdefault("kind", None); trades.append(t)
         p["_dropped"] = []; return p, trades
-    if p["date"] in SKIP_DATES: p["_dropped"] = [t["id"] for t in p["trades"]]; return p, []
-    res = {s: resolver(s, p["date"]) for s in {t["instrument"] for t in p["trades"]}}
+    if p["date"] in skip: p["_dropped"] = [t["id"] for t in p["trades"]]; return p, []
+    res = {}
+    for s in {t["instrument"] for t in p["trades"]}:
+        try: res[s] = resolver(s, p["date"], bars_for(s) if bars_for else None)
+        except IndexError: res[s] = {}          # no bars for that contract before the plan date: refs unresolvable
     for t in p["trades"]:
         r = res[t["instrument"]]
         gate = _num(t["gate"], r); tg = [_num(x, r) for x in t["tgt"]]; tg = [x for x in tg if x is not None]

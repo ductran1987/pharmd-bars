@@ -1,0 +1,87 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-27",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-827-d35",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Wed Aug 26, 2026 for Thu 8/27 (earnings after the bell; futures opened on a large gap up as he wrote). U6 contract, no roll mention. TRADES section names no specific level: 'if this break sustains, I'm favoring longs ... If the break fails, then I'll be short looking for new lows' -> trades = []. 'today's 7505.5' read as a typo for today's RTH high 7705.5. Commentary-only ideas (not trades): ES long while sustaining above 7709-7713 and especially 7720-7722, targeting 7746-7749 then 7762-7766; ES failure back below 7709-7713 and 7705.5 -> seller looking for new lows; 7702 and 7696 honorable mentions that could trap back into today's range. NQ long if the break sustains, at least to 29669-29696 (mindful of daily 29569-29577), then 29793-29819; back below 29469-29490 introduces risk, monitor 29415 (yesterday's high), 29368 (today's high), 29332 (today's IB high), 29290-29300 (flipped to support); caution once last Thursday's 29769 high trades (bearish RTH gap above).",
+ "zones": {
+  "ES": [
+   [
+    7746,
+    7749
+   ],
+   [
+    7762,
+    7766
+   ],
+   [
+    7710,
+    7710
+   ],
+   [
+    7705.5,
+    7705.5
+   ],
+   [
+    7720,
+    7722
+   ],
+   [
+    7709,
+    7713
+   ],
+   [
+    7702,
+    7702
+   ],
+   [
+    7696,
+    7696
+   ]
+  ],
+  "NQ": [
+   [
+    29569,
+    29577
+   ],
+   [
+    29290,
+    29300
+   ],
+   [
+    29669,
+    29696
+   ],
+   [
+    29793,
+    29819
+   ],
+   [
+    29469,
+    29490
+   ],
+   [
+    29415,
+    29415
+   ],
+   [
+    29368,
+    29368
+   ],
+   [
+    29332,
+    29332
+   ],
+   [
+    29769,
+    29769
+   ]
+  ]
+ },
+ "trades": []
+}

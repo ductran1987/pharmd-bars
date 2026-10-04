@@ -1,0 +1,280 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-13",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-813-13a",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Thu 8/13/2026 (posted Wed 8/12), PPI + jobless claims in the morning. U6 (Sep) contracts, no roll mentioned. 'Today' = Wed 8/12. TRADES are all ungraded -> tag ''; TRADES also says 'Big picture decision matrix trades should remain in mind' (weekly-plan matrix image, not transcribed). NQ today's low 29818.5 (RTH), CPI data low 29750, yesterday's high 29842.5. nq1 quote keeps the typo '9I now have it' verbatim; targets 842.5 (must reclaim), 891-911, 930, 956-969 from Trading Higher. nq2 (breakdown short, kind=break) targets 750 then 718-742. The sentence 'selling failed pops up near 930s-940s or the weekly 956-969 inclusive of a LAAF. A LAAF of today's high could theoretically play as well' split into nq3 (gate 29930-29949, '930s-940s'), nq4 (956-969) and nq5 (LAAF of today's high, not given numerically; today's high is just above 956-969 per commentary), all quoting it; no targets stated -> levels below from the commentary (891-911, 842.5, 805-820; 930 for nq4). ES today's low 7756.5; today's high not given (excess above 81). es1/es2 targets as stated. Ungraded commentary ideas not promoted: ES flipping 60-63 to resistance and taking out 56.5 with continuation -> 46-51, yesterday's low, 7721-7727. YM levels (53376-53804, 53638) skipped. NQ 590-600 / 563-578 honorable mentions; NQ effective range 29432-29449 to 29956-29969, ES 7721-7727 to 7791.5-7795.",
+ "zones": {
+  "ES": [
+   [
+    7791.5,
+    7795
+   ],
+   [
+    7786,
+    7787
+   ],
+   [
+    7781,
+    7781
+   ],
+   [
+    7760,
+    7763
+   ],
+   [
+    7756.5,
+    7756.5
+   ],
+   [
+    7746,
+    7751
+   ],
+   [
+    7721,
+    7727
+   ],
+   [
+    7706,
+    7714
+   ],
+   [
+    7686.5,
+    7692.5
+   ]
+  ],
+  "NQ": [
+   [
+    29956,
+    29969
+   ],
+   [
+    29930,
+    29949
+   ],
+   [
+    29930,
+    29930
+   ],
+   [
+    29891,
+    29911
+   ],
+   [
+    29842.5,
+    29842.5
+   ],
+   [
+    29840,
+    29840
+   ],
+   [
+    29818.5,
+    29818.5
+   ],
+   [
+    29805,
+    29820
+   ],
+   [
+    29750,
+    29750
+   ],
+   [
+    29718,
+    29742
+   ],
+   [
+    29644,
+    29669
+   ],
+   [
+    29590,
+    29600
+   ],
+   [
+    29563,
+    29578
+   ],
+   [
+    29530,
+    29546
+   ],
+   [
+    29432,
+    29449
+   ],
+   [
+    29181,
+    29181
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of 29805-29820",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of 805-820 9I now have it as a LBAF as afterhours bled to exactly 805 as I was typing this). Know that 842.5 needs to reclaim as mentioned above.",
+   "kind": "fade",
+   "gate": [
+    29805,
+    29820
+   ],
+   "tgt": [
+    29842.5,
+    [
+     29891,
+     29911
+    ],
+    29930,
+    [
+     29956,
+     29969
+    ]
+   ],
+   "stop_hint": "Know that 842.5 needs to reclaim as mentioned above."
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Breakdown short below 29805-29820",
+   "dir": "short",
+   "tag": "",
+   "quote": "I’m okay with a breakdown short here, joining a session downtrend below 805-820 looking for the CPI data low at 750 and the daily 718-742 level.",
+   "kind": "break",
+   "gate": [
+    29805,
+    29820
+   ],
+   "tgt": [
+    29750,
+    [
+     29718,
+     29742
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Failed pop near 29930s-29940s",
+   "dir": "short",
+   "tag": "",
+   "quote": "I think we need to remain open to selling failed pops up near 930s-940s or the weekly 956-969 inclusive of a LAAF. A LAAF of today’s high could theoretically play as well given some supply remains.",
+   "kind": "fade",
+   "gate": [
+    29930,
+    29949
+   ],
+   "tgt": [
+    [
+     29891,
+     29911
+    ],
+    29842.5,
+    [
+     29805,
+     29820
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 29956-29969",
+   "dir": "short",
+   "tag": "",
+   "quote": "I think we need to remain open to selling failed pops up near 930s-940s or the weekly 956-969 inclusive of a LAAF. A LAAF of today’s high could theoretically play as well given some supply remains.",
+   "kind": "fade",
+   "gate": [
+    29956,
+    29969
+   ],
+   "tgt": [
+    29930,
+    [
+     29891,
+     29911
+    ],
+    29842.5,
+    [
+     29805,
+     29820
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "",
+   "quote": "I think we need to remain open to selling failed pops up near 930s-940s or the weekly 956-969 inclusive of a LAAF. A LAAF of today’s high could theoretically play as well given some supply remains.",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    [
+     29956,
+     29969
+    ],
+    29930,
+    [
+     29891,
+     29911
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of 7781",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of 81 targeting 60-63.",
+   "kind": "fade",
+   "gate": [
+    7781,
+    7781
+   ],
+   "tgt": [
+    [
+     7760,
+     7763
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7760-7763",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold/LBAF of 60-63 targeting 81. This could play as a LBAF of today’s low which reclaims 60-63.",
+   "kind": "fade",
+   "gate": [
+    7760,
+    7763
+   ],
+   "tgt": [
+    7781
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

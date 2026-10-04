@@ -1,0 +1,39 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-13",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-513-d66",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "M (Jun) contract; no roll mention. Both indices in 3-day balance: ES 7363.25-7454.75, NQ 28742-29480. Today's low given numerically: ES 7363.25 ('Low of day was 7363.25'), NQ 28742 ('today's low is bottom of a 3-day balance') -> es3/nq5 gated on numbers. ES today's high 7433.75; NQ today's high not given numerically (between 29238 and 29317). es1 grade '(A/A-)' in parentheses; 'As long as 17.5-19.5 reclaims' put in stop_hint, targets 7428-7431 then today's high 7433.75. es2 and es3 ungraded ('much lower than the above long but it is reasonable'; LBAF of today's low 'less clean than for NQ') -> tag ''. es2 also covers 'a LAAF of today's high'; target 7405-7408 ('eyes open for a bid as high as 10-12'). es3 has no stated target -> first levels up from commentary: weekly 7369-7372 (arguably 7366-7372), 7383-7385. nq2 targets 188 then 058-081 ('more likely to see closer to 058-081'). nq3 no stated target in TRADES -> commentary 'retest 188 and 218-238'. nq4 gate kept as 28945-28975 though he says 'perhaps up to 990 or maybe 29000-29010. I really like it closer to 990'; target from commentary 058-081. nq5 no stated target -> 28800-28817, 28859. RTH bull gap 7299.75-7327.25 kept as zone. NQ prior-day RTH VWAP ~29188.",
+ "zones": {
+  "ES": [[7454.75, 7454.75], [7449, 7452], [7444, 7444], [7433.75, 7433.75], [7428, 7431], [7417.5, 7419.5], [7410, 7412], [7410, 7410], [7405, 7408], [7398, 7400], [7391.75, 7391.75], [7383, 7385], [7369, 7372], [7366, 7372], [7363.25, 7363.25], [7346, 7349], [7334, 7338], [7299.75, 7327.25]],
+  "NQ": [[29480, 29480], [29435, 29435], [29387, 29404], [29353, 29353], [29345, 29345], [29317, 29341], [29256, 29256], [29246.75, 29246.75], [29218, 29238], [29188, 29188], [29166, 29186], [29169, 29169], [29146, 29146], [29126, 29126], [29058, 29081], [29073, 29073], [29000, 29010], [28990, 28990], [28945, 28975], [28859, 28859], [28800, 28817], [28742, 28742]]
+ },
+ "trades": [
+  {"id": "es1", "instrument": "ES", "name": "Hold of 7405-7408", "dir": "long", "tag": "A/A-",
+   "quote": "Long a hold of 7405-7408 is probably the cleanest for direct continuation higher. As long as 17.5-19.5 reclaims then a retest of 28-31 and today’s high is in play. Runners can balloon nicely if today’s high is taken out so I rate this trade pretty highly (A/A-)",
+   "kind": "fade", "gate": [7405, 7408], "tgt": [[7428, 7431], 7433.75], "stop_hint": "As long as 17.5-19.5 reclaims"},
+  {"id": "es2", "instrument": "ES", "name": "Persistent failures at 7428-7431 (incl. LAAF)", "dir": "short", "tag": "",
+   "quote": "I think it is reasonable to short persistent failures at 7428-7431 (including if we get a LAAF first or a LAAF of today’s high) but it would need to get firmly back below 17.5-19.5 to potentially see 7405-7408 (eyes open for a bid as high as 10-12). Monitor for continuation from there. Given broad bullish context I objectively have to rate this trade much lower than the above long but it is reasonable.",
+   "kind": "fade", "gate": [7428, 7431], "tgt": [[7405, 7408]], "stop_hint": "it would need to get firmly back below 17.5-19.5 to potentially see 7405-7408 (eyes open for a bid as high as 10-12)"},
+  {"id": "es3", "instrument": "ES", "name": "LBAF of today's low (7363.25)", "dir": "long", "tag": "",
+   "quote": "A LBAF of today’s low is less clean than for NQ but still reasonable to assume balance low forms above the bullish gap",
+   "kind": "fade", "gate": [7363.25, 7363.25], "tgt": [[7369, 7372], [7383, 7385]], "stop_hint": ""},
+  {"id": "nq1", "instrument": "NQ", "name": "LAAF of 29188", "dir": "short", "tag": "B-",
+   "quote": "Reasonable to short a LAAF of 29188 probably targeting 166, 146, 126. This is our first test of yesterday’s VWAP and I’m not yet convinced it matters a ton, but today’s VAH was around 169 so a first test could easily lead to a pullback. I’ll rate it a B-.",
+   "kind": "fade", "gate": [29188, 29188], "tgt": [29166, 29146, 29126], "stop_hint": ""},
+  {"id": "nq2", "instrument": "NQ", "name": "Persistent failures at 29218-29238", "dir": "short", "tag": "B/B-",
+   "quote": "Okay to short persistent failures at 218-238. This would represent a failure to reclaim the sunday night low and yesterday’s low and keep all those dip buyers who bought 256 down to 218-238 all day and night Sunday into Monday offsides. Testing this high and failing back below 188 is a stronger look than the above trade and is more likely to see closer to 058-081. B/B-",
+   "kind": "fade", "gate": [29218, 29238], "tgt": [29188, [29058, 29081]], "stop_hint": ""},
+  {"id": "nq3", "instrument": "NQ", "name": "Hold/LBAF of 29058-29081", "dir": "long", "tag": "B+",
+   "quote": "Long a hold or LBAF of 29058-29081. B+",
+   "kind": "fade", "gate": [29058, 29081], "tgt": [29188, [29218, 29238]], "stop_hint": ""},
+  {"id": "nq4", "instrument": "NQ", "name": "Hold of 28945-28975 (perhaps up to 28990/29000-29010)", "dir": "long", "tag": "A-/A",
+   "quote": "Long a hold of 28945-28975 perhaps up to 990 or maybe 29000-29010. I really like it closer to 990 and the weekly level. I’ll rate this one an A-/A",
+   "kind": "fade", "gate": [28945, 28975], "tgt": [[29058, 29081]], "stop_hint": "perhaps up to 990 or maybe 29000-29010"},
+  {"id": "nq5", "instrument": "NQ", "name": "LBAF of today's low (28742)", "dir": "long", "tag": "A/A+",
+   "quote": "A LBAF of today’s low is A/A+",
+   "kind": "fade", "gate": [28742, 28742], "tgt": [[28800, 28817], 28859], "stop_hint": ""}
+ ]
+}

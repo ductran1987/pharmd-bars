@@ -1,0 +1,57 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-25",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-625-d72",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Thu 6/25/2026 (posted Wed 6/24), Sep U6 contracts (post-June-expiry), no roll mentioned. Day after MU earnings AH move. All trades in TRADES are ungraded (tag ''). ES today's high not stated directly but the RTH bear gap 'between today's high and Monday's low (7496.5-7527.25)' gives it as 7496.5 -> es3 gated [7496.5,7496.5]; ES yesterday's high not given numerically -> PREV_RTH_HIGH. es1 gated on 7468-7472 as written ('really 63-72 to be sure'); es2 target 63-72 recorded as [7463,7472] ('(68-72)' narrower). nq1 'hold of 29923-29943 down to today's 907.5 high' gated [29907.5,29943]; nq1 has no stated target -> Trading Higher levels 30100-30151 then 30503 (bear gap fill). nq2 gated [29907.5,29943] targets 625-648 as stated. 'Maybe, just maybe ... long if 29577-29595 or 623-648 holds' split into nq3 (577-595) and nq4 (625-648; '623-648' read as typo for 625-648); their targets from NQ Trading Lower commentary (577-595 can trigger reclaim of 625-648; range roughly 620-920 with 740-769/804-815 above). NQ today's high 29907.5 kept as zone; weekly 29302-29339 target kept as zone.",
+ "zones": {
+  "ES": [[7559,7560],[7437,7437],[7496.5,7527.25],[7496.5,7496.5],[7527.25,7527.25],[7463,7472],[7468,7472],[7397,7403],[7426,7428],[7504,7515],[7527,7532],[7536,7542]],
+  "NQ": [[29804,29815],[29577,29595],[29302,29339],[29907.5,29907.5],[29923,29943],[30100,30151],[30503,30503],[30047,30047],[29998.25,29998.25],[29869,29869],[29848,29848],[29740,29769],[29625,29648],[29481,29516],[29365,29365]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Hold of 29923-29943 down to today's high (29907.5)", "dir": "long", "tag": "",
+   "quote": "Long a hold of 29923-29943 down to today’s 907.5 high. Either it holds or it doesn’t and it is as simple as that. Risk can be readily managed and sellers are badly trapped if it holds so the upside could be significant.",
+   "kind": "fade", "gate": [29907.5, 29943], "tgt": [[30100, 30151], 30503],
+   "stop_hint": "Either it holds or it doesn’t and it is as simple as that."
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Persistent weakness back in today's range below 29907.5 / 29923-29943", "dir": "short", "tag": "",
+   "quote": "Short persistent weakness back in today’s range below 907.5 or at least 923-943. We need to be mindful of the potential trap spots but this trade generally targets 625-648 again.",
+   "kind": "break", "gate": [29907.5, 29943], "tgt": [[29625, 29648]],
+   "stop_hint": "We need to be mindful of the potential trap spots"
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Hold of 29577-29595", "dir": "long", "tag": "",
+   "quote": "Maybe, just maybe I’ll be in the mood for a long if 29577-29595 or 623-648 holds.",
+   "kind": "fade", "gate": [29577, 29595], "tgt": [[29625, 29648], [29740, 29769]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "Hold of 29625-29648", "dir": "long", "tag": "",
+   "quote": "Maybe, just maybe I’ll be in the mood for a long if 29577-29595 or 623-648 holds.",
+   "kind": "fade", "gate": [29625, 29648], "tgt": [[29740, 29769], [29804, 29815]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Persistent weakness below 7468-7472", "dir": "short", "tag": "",
+   "quote": "Short persistent weakness below 7468-7472 (really 63-72 to be sure just read the session trend and profile) looking for 7437",
+   "kind": "break", "gate": [7468, 7472], "tgt": [7437],
+   "stop_hint": "really 63-72 to be sure just read the session trend and profile"
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Hold/LBAF of 7437", "dir": "long", "tag": "",
+   "quote": "Long a hold or LBAF of 7437 targeting 63-72 (68-72)",
+   "kind": "fade", "gate": [7437, 7437], "tgt": [[7463, 7472]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "LAAF of today's high (7496.5)", "dir": "short", "tag": "",
+   "quote": "Short a LAAF of today’s high, monitoring yesterday’s high, then looking for 68-72 below there.",
+   "kind": "fade", "gate": [7496.5, 7496.5], "tgt": ["PREV_RTH_HIGH", [7468, 7472]],
+   "stop_hint": ""
+  }
+ ]
+}

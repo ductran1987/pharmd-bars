@@ -1,0 +1,124 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-04",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-84-a92",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "U (Sep) contract, no roll mentioned. ES today's high only given as 'today's high in the weekly 35-38 range' -> es1 gate / es2 target / es4 gate use [7635,7638]. Ungraded-but-in-TRADES ideas included with tag '': es3 ('I MAY consider shorting persistent weakness below 7618-7623 ... won't even rate it'), es4 true gap up which holds (gated on today's high 7635-7638, target 7648.75 ATH), nq2 breakdown short on a lower high below 847-865 ('Maybe I'll consider'), nq5 long at 500-524 ('won't rate it for tomorrow specifically ... have to be open to it'; maybe as high as 542-553). Targets for es2/es5/nq1/nq3/nq5 taken from commentary (no target in the trade line). nq4 stated major target 847-865; 769-801 sits in between ('mindful of 769-801 from below'). NQ today's high 28964 given; NQ today's/Friday's low not given numerically. SPX 7620 ATH not recorded (SPX).",
+ "zones": {
+  "ES": [
+   [7648.75, 7648.75], [7579, 7583], [7357, 7357], [7635, 7638], [7623.25, 7625], [7625, 7625], [7618, 7623],
+   [7618, 7622], [7609, 7609], [7603, 7606], [7604, 7604], [7588, 7595], [7594, 7598], [7598, 7598],
+   [7583, 7583], [7569, 7573]
+  ],
+  "NQ": [
+   [29488, 29500], [29181, 29181], [28847, 28865], [28872, 28872], [28722, 28725], [28883, 29090],
+   [28684, 28722], [28684, 28684], [28669, 28701], [28628, 28661], [28529.5, 28529.5], [28500, 28524],
+   [28542, 28553], [28896, 28910], [28769, 28801], [28369, 28408], [28269, 28295], [28195, 28235],
+   [28228, 28228], [28964, 28964], [28974, 28974], [29054, 29090], [29119, 29132], [29269, 29369]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES",
+   "name": "LAAF of today's high (7635-7638)",
+   "dir": "short", "tag": "B/B-",
+   "quote": "Short a LAAF of today’s high targeting 7625. This is simply too important an area for me to not consider it. I can’t objectively rate it too highly but if we go on a “structure repair mission” overnight or tomorrow then it has some potential. I’ll rate it a B/B-",
+   "kind": "fade",
+   "gate": [7635, 7638],
+   "tgt": [7625],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES",
+   "name": "Hold/LBAF of 7618-7623",
+   "dir": "long", "tag": "B+",
+   "quote": "Long a hold or LBAF of 7618-7623 knowing it needs back above 25 to test today’s high. B+",
+   "kind": "fade",
+   "gate": [7618, 7623],
+   "tgt": [7625, [7635, 7638]],
+   "stop_hint": "knowing it needs back above 25 to test today’s high"
+  },
+  {
+   "id": "es3", "instrument": "ES",
+   "name": "Persistent weakness below 7618-7623",
+   "dir": "short", "tag": "",
+   "quote": "I MAY consider shorting persistent weakness below 7618-7623 but taking a breakdown short after a bullish trend day is a bit risky. I won’t even rate it but who the hell knows with these overnight sessions. If the session is in a downtrend and we’re losing levels I’m okay joining and just being prepared to need to flip.",
+   "kind": "break",
+   "gate": [7618, 7623],
+   "tgt": [7609, [7603, 7606]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES",
+   "name": "Hold/LBAF of 7594-7598",
+   "dir": "long", "tag": "B+",
+   "quote": "Long a hold or LBAF of 7594-7598 is at least a better pullback but at the same time risks leaving today’s late longs trapped at poor location. I’ll rate it a B+",
+   "kind": "fade",
+   "gate": [7594, 7598],
+   "tgt": [[7603, 7606], 7609, [7618, 7623], 7625],
+   "stop_hint": ""
+  },
+  {
+   "id": "es5", "instrument": "ES",
+   "name": "True gap up which holds (above today's high 7635-7638)",
+   "dir": "long", "tag": "",
+   "quote": "Any true gap up which holds is of course a long. Breakout longs are risky up here but valid if it holds.",
+   "kind": "break",
+   "gate": [7635, 7638],
+   "tgt": [7648.75],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ",
+   "name": "Hold/LBAF of 28847-28865",
+   "dir": "long", "tag": "B+",
+   "quote": "Long a hold or LBAF of 28847-28865. B+",
+   "kind": "fade",
+   "gate": [28847, 28865],
+   "tgt": [[28896, 28910], 28964],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ",
+   "name": "Breakdown short on lower high below 28847-28865",
+   "dir": "short", "tag": "",
+   "quote": "Maybe I’ll consider a breakdown short on a lower high below 847-865 in a session downtrend. Again, who knows with these overnight sessions but I want to make sure it isn’t a quick LBAF so it really needs to be a clean session downtrend below there.",
+   "kind": "break",
+   "gate": [28847, 28865],
+   "tgt": [[28769, 28801], [28722, 28725]],
+   "stop_hint": "it really needs to be a clean session downtrend below there."
+  },
+  {
+   "id": "nq3", "instrument": "NQ",
+   "name": "Hold of 28769-28801",
+   "dir": "long", "tag": "B-",
+   "quote": "I’m open to a long if 769-801 holds but rate it a B-",
+   "kind": "fade",
+   "gate": [28769, 28801],
+   "tgt": [[28847, 28865]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ",
+   "name": "Hold/LBAF of 28722-28725 (or hold of 28669-28701)",
+   "dir": "long", "tag": "B+/A-",
+   "quote": "Long a hold or (better) LBAF of 722-725 which may end up just being a hold of 669-701. I’ll rate this a B+/A- either way and 847-865 would be major target and monitor for continuation.",
+   "kind": "fade",
+   "gate": [28722, 28725],
+   "tgt": [[28847, 28865]],
+   "stop_hint": "which may end up just being a hold of 669-701"
+  },
+  {
+   "id": "nq5", "instrument": "NQ",
+   "name": "Long at 28500-28524 (maybe as high as 28542-28553)",
+   "dir": "long", "tag": "",
+   "quote": "It is hard to plan for a long as deep as 500-524 (maybe as high as 542-553 or on a LBAF) but I have to be open to it. I won’t rate it for tomorrow specifically but again, if sellers can’t get through today’s low then it would be “just a back test brah.”",
+   "kind": "fade",
+   "gate": [28500, 28524],
+   "tgt": [[28542, 28553], [28628, 28661]],
+   "stop_hint": "if sellers can’t get through today’s low"
+  }
+ ]
+}

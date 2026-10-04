@@ -1,0 +1,51 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-18",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-318-d24",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "****This is contract roll week so see the weekly plan for handling of levels\n\nAs of the Monday night plan for Tuesday the levels referenced are for ESM2026 unless otherwise specified for commentary purposes.",
+ "ref_date_note": "FOMC day. Roll week (H6->M6); letter says levels are ESM2026 (M used for ES and NQ). Brief plan (author on 'pseudo-vacation'): no TRADES section, only levels + commentary -> trades []. Commentary ideas (ungraded, not promoted): below today's low ES and NQ can test the next weekly level lower, then carry forward last night's plan; long if ES reclaims 6783-6787 with today's high (the weekly level, 6803.5-6808.5) in play; monitor for a LAAF of 6803.5-6808.5 (ES) and 25090-25115.5 (NQ); bulls need a firm close above 6803.5-6808.5 / 25090-25115.5; NQ 24991 (new level) needs to flip to resistance for a move toward today's low.",
+ "zones": {
+  "ES": [
+   [
+    6717,
+    6717
+   ],
+   [
+    6803.5,
+    6808.5
+   ],
+   [
+    6783,
+    6787
+   ]
+  ],
+  "NQ": [
+   [
+    24991,
+    24991
+   ],
+   [
+    24669,
+    24669
+   ],
+   [
+    24597.5,
+    24611
+   ],
+   [
+    24495,
+    24495
+   ],
+   [
+    25090,
+    25115.5
+   ]
+  ]
+ },
+ "trades": []
+}

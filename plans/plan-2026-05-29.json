@@ -1,0 +1,75 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-29",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-529-2ea",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Friday letter (posted Thu 5/28) after a trend day up. No roll mention, numbers on M6. NQ abbreviations resolved to 30xxx (242-269 -> 30242-30269, 110-129 -> 30110-30129, 369-386 -> 30369-30386), ES to 75xx (69-72 -> 7569-7572, 49-52 -> 7549-7552). nq2 TRADES says '182-192' while the daily level and commentary say 187-192 - transcribed as written (30182-30192) and 30187-30192 kept as a zone; possibly a typo. nq3 grade not written explicitly ('similar to the above including its rating') -> tag 'B+/A-' copied from nq2. '(379)' read as the current high of week inside 30369-30386 (today's high 'just below' it) -> today's high kept as RTH_HIGH. ES today's high/spike not given numerically (spike base 7583.75 given) -> RTH_HIGH. es3 LAAF of today's high/spike he says 'I won't even rate it but it can be kept in mind' -> included with tag ''. nq6/es4 'persistent failures to reclaim' treated as fade (failed reclaim), with 'after a test of 187-192'/'after testing 49-52' in stop_hint. Targets not stated in TRADES taken from commentary: nq1 'rotation back toward today's high'; nq2 '242-269 is reclaimed, today's high is in play'; nq3/nq4 next levels up; nq6 'larger liquidation break back to 110-129'; es1 'rotation back toward today's spike' (7583.75, today's high); es2 'reclaim of 69-72 ... retest of today's spike'; es4 single-print fill to 7537.25 / 40. Closing 'other trades are implied by the commentary' adds nothing.",
+ "zones": {
+  "ES": [[7540, 7540], [7499, 7502], [7583.75, 7583.75], [7590, 7593], [7631, 7634], [7569, 7572], [7574, 7574], [7549, 7552], [7537.25, 7537.25]],
+  "NQ": [[30187, 30192], [30053, 30069], [29782, 29782], [30760, 30776], [30630, 30646], [30500, 30516], [30110, 30129], [29877, 29877], [30242, 30269], [30192, 30238], [30182, 30192], [30369, 30386], [30379, 30379], [29980, 30000], [29880, 29880]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Hold/LBAF of 30242-30269", "dir": "long", "tag": "A/A-",
+   "quote": "Long a hold or LBAF of 242-269. While I am slightly hesitant because of proximity to the last weekly level and the possibility of a “structure repair mission”, this is the spot which will hold (inclusive of a LBAF) if upside is to continue directly. Therefore it is an A/A- rating and I will take it and eat a stop (hopefully after a profit take) if sellers show up to negate the trade.",
+   "kind": "fade", "gate": [30242, 30269], "tgt": ["RTH_HIGH"],
+   "stop_hint": "eat a stop (hopefully after a profit take) if sellers show up to negate the trade"
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Hold/LBAF of 30182-30192", "dir": "long", "tag": "B+/A-",
+   "quote": "Long a hold or LBAF of 182-192. There is less clarity in strength as compared to the above but it also actually represents a dip. The 38.2% retrace from today’s low to high sits about there and there really should be a fair amount of demand there and just below so I’ll rate it a B+/A-",
+   "kind": "fade", "gate": [30182, 30192], "tgt": [[30242, 30269], "RTH_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Hold/LBAF of 30110-30129", "dir": "long", "tag": "B+/A-",
+   "quote": "Long a hold or LBAF of 110-129 is similar to the above including its rating. The 50% retrace of today’s range happens to sit there.",
+   "kind": "fade", "gate": [30110, 30129], "tgt": [[30187, 30192], [30242, 30269]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "Hold/LBAF of 30053-30069", "dir": "long", "tag": "B-",
+   "quote": "Long a hold or LBAF of 30053-30069 I have to rate much lower as it sits below 110-129 but if I see a strong buyside response I’ll consider it. Rating a B-.",
+   "kind": "fade", "gate": [30053, 30069], "tgt": [[30110, 30129], [30187, 30192]],
+   "stop_hint": "if I see a strong buyside response"
+  },
+  {
+   "id": "nq5", "instrument": "NQ", "name": "LAAF of today's high", "dir": "short", "tag": "B-",
+   "quote": "Short a LAAF of today’s high, ideally having taken out the ETH high. I’m mostly looking for 242-269 but with potential for a “structure repair mission” which actually is more likely to occur if a LAAF is in play. I’m not super enthused with shorts here but I’m still willing to rate this a B-.",
+   "kind": "fade", "gate": ["RTH_HIGH", "RTH_HIGH"], "tgt": [[30242, 30269]],
+   "stop_hint": "ideally having taken out the ETH high"
+  },
+  {
+   "id": "nq6", "instrument": "NQ", "name": "Persistent failures to reclaim 30242-30269 after test of 30187-30192", "dir": "short", "tag": "C/C+",
+   "quote": "MAYBE I’ll short persistent failures to reclaim 242-269 after a test of 187-192 but I really need to see the action real time to make that decision so I can’t rate it better than a C/C+ ahead of time.",
+   "kind": "fade", "gate": [30242, 30269], "tgt": [[30187, 30192], [30110, 30129]],
+   "stop_hint": "after a test of 187-192"
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Hold/LBAF of 7569-7572", "dir": "long", "tag": "A",
+   "quote": "Long a hold or LBAF of 69-72 is an A rating.",
+   "kind": "fade", "gate": [7569, 7572], "tgt": [7583.75, "RTH_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Hold/LBAF of 7549-7552", "dir": "long", "tag": "A-",
+   "quote": "Long a hold or LBAF of 49-52 is an A- rating.",
+   "kind": "fade", "gate": [7549, 7552], "tgt": [[7569, 7572], 7583.75, "RTH_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "LAAF of today's high/spike", "dir": "short", "tag": "",
+   "quote": "I’m less interesting in a LAAF of today’s high/spike as compared to NQ so I won’t even rate it but it can be kept in mind.",
+   "kind": "fade", "gate": ["RTH_HIGH", "RTH_HIGH"], "tgt": [7583.75, [7569, 7572]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Persistent failures to reclaim 7569-7572 after testing 7549-7552", "dir": "short", "tag": "C-",
+   "quote": "SImilar to for NQ. Maybe I’ll short persistent failures to reclaim 69-72 after testing 49-52 but can’t rate it higher than a C-.",
+   "kind": "fade", "gate": [7569, 7572], "tgt": [[7549, 7552], 7540, 7537.25],
+   "stop_hint": "after testing 49-52"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-04",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-64-689",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Thu 6/4/2026 (posted Wed 6/3), June M6 contracts, no roll mentioned. TRADES section is EMPTY (ES:/NQ: headings with nothing under them; 'I'll try to knock out some trade setups later tonight but they're readily implied from the above') -> trades = []. Short bias below ES 7569-7572 ('most bearish' weekly scenario; after-hours earnings move through 7549-7552; cash close 7572.5, 5pm close 7547.5). Ungraded commentary ideas (not promoted): ES short if 7569-7572 is defended from below, continuation back to 7549-7552; reclaim of 7569-7572 puts sellers under pressure; above 7586-7588 targets 7597-7600, fail/LAAF of 7586-7588 can find 7569-7572; lower: through 7540, 7537, 7528 for Thursday's 7525 low and last week's 7515 low, 7520-7540 most likely balance area. NQ: if 30448-30469 holds and triggers a LBAF of today's RTH low buyers OK; reclaim of 30600-30617 opens 30662, 30693, 30732-30750; below 30448-30469 -> yesterday's 30424 low, Monday/Friday's low, 30242-30269 and single prints 30192-30238 (cover most on new low of week there). NQ cash close 30635 noted.",
+ "zones": {
+  "ES": [[7597,7600],[7586,7588],[7540,7540],[7528,7528],[7499,7502],[7631,7634],[7610,7613],[7576,7577],[7569,7572],[7581,7584],[7549,7552],[7515,7519],[7572.5,7572.5],[7547.5,7547.5],[7537,7537],[7525,7525],[7515,7515],[7520,7540]],
+  "NQ": [[30693,30693],[30662,30662],[30536,30536],[30053,30069],[30713,30721],[30732,30750],[30635,30635],[30600,30617],[30448,30469],[30424,30424],[30242,30269],[30192,30238],[30110,30129]]
+ },
+ "trades": []
+}

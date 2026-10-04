@@ -1,0 +1,42 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-18",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-818-561",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Mon 8/17 for Tue 8/18. U (Sep) contract, no roll mention. No letter grades anywhere in the TRADES section this day -> all trades tag ''. ES today's low given as 66.25 -> 7766.25, today's high 7809.5; NQ today's low 30066.5. nq3 targets from commentary (255, 269-293); he says 'wary of the honorable mention spots' (173, 190, 255) -> stop_hint. nq4 and es2 are 'can't PLAN' / 'difficult to PLAN' reactive longs (nq4 at either weekly level 30001-30028 / 29910-29932 or in between; es2 hold/LBAF of 7759-7762) kept with tag ''. es3 reclaim long of 72-73 treated as break. es5 ('sellers could defend 92-96 from below and trigger fresh weakness below 80-81', needs real-time confirmation) gated on 7792-7796 as a fade; could alternatively be read as a break below 7780-7781. Intro writes the NQ weekly as '269-283' once (elsewhere 30269-30293); both kept as zones. Big-picture NQ range 30069-30269 not stored as a zone.",
+ "zones": {
+  "ES": [[7800, 7800], [7780, 7781], [7772, 7773], [7743, 7746], [7706, 7714], [7686.5, 7692.5], [7817, 7820], [7792, 7796], [7780, 7787], [7785.5, 7785.5], [7788, 7790], [7787, 7790], [7772, 7772], [7766.25, 7766.25], [7810, 7810], [7809.5, 7809.5], [7759, 7762], [7721, 7727]],
+  "NQ": [[30137, 30155], [30079, 30087], [30269, 30293], [30269, 30283], [30001, 30028], [29910, 29932], [29910, 29923], [30079, 30079], [30173, 30173], [30190, 30190], [30255, 30255], [30066.5, 30066.5]]
+ },
+ "trades": [
+  {"id": "nq1", "instrument": "NQ", "name": "Hold (inability to get back through) 30079-30087", "dir": "long", "tag": "",
+   "quote": "Long an inability from sellers to get back through 30079-30087. The cash session closed above but afterhours bled a tad lower. If buyers build a firm base above it and strongly reject attempts below it then I’ll be long with a major target of 137-155", "kind": "fade",
+   "gate": [30079, 30087], "tgt": [[30137, 30155]], "stop_hint": ""},
+  {"id": "nq2", "instrument": "NQ", "name": "Fail/LAAF of 30137-30155", "dir": "short", "tag": "",
+   "quote": "Short a fail/LAAF of 137-155 broadly targeting 079-087.", "kind": "fade",
+   "gate": [30137, 30155], "tgt": [[30079, 30087]], "stop_hint": ""},
+  {"id": "nq3", "instrument": "NQ", "name": "Higher low in session uptrend above 30137-30155", "dir": "long", "tag": "",
+   "quote": "I hesitate with reclaim longs but a higher low within a session uptrend above 137-155 is a long, wary of the honorable mention spots.", "kind": "break",
+   "gate": [30137, 30155], "tgt": [30255, [30269, 30293]], "stop_hint": "wary of the honorable mention spots"},
+  {"id": "nq4", "instrument": "NQ", "name": "Reactive long at 30001-30028 / 29910-29932 or in between", "dir": "long", "tag": "",
+   "quote": "I can’t PLAN on longs below today’s low, but will be fully prepared to take a reactive long at either weekly level lower or in between as there is enough of a possibility of a very strong bid coming in which triggers a reclaim of today’s low and spike.", "kind": "fade",
+   "gate": [29910, 30028], "tgt": [30066.5, [30079, 30087]], "stop_hint": ""},
+  {"id": "es1", "instrument": "ES", "name": "Persistent weakness below 7772-7773", "dir": "short", "tag": "",
+   "quote": "Short persistent weakness below 7772-7773 looking for today’s low and the weekly 59-62. Monitor for continuation from there.", "kind": "break",
+   "gate": [7772, 7773], "tgt": [7766.25, [7759, 7762]], "stop_hint": ""},
+  {"id": "es2", "instrument": "ES", "name": "Hold/LBAF of 7759-7762", "dir": "long", "tag": "",
+   "quote": "Any hold of 59-62 will need to trigger a reclaim of today’s low and 72-73 so it is difficult to PLAN a long there or on a LBAF but I’ll consider it. I have more confidence, for now, in the NQ spots.", "kind": "fade",
+   "gate": [7759, 7762], "tgt": [7766.25, [7772, 7773]], "stop_hint": "will need to trigger a reclaim of today’s low and 72-73"},
+  {"id": "es3", "instrument": "ES", "name": "Reclaim long of 7772-7773", "dir": "long", "tag": "",
+   "quote": "Reclaim long of 72-73 is tricky due to the narrow range to 80-81. I won’t immediately slap the first tick above 73 of course, but building a firm base back above 72-73 risks punishing sellers so I’m open to it. It is just a narrow range to 80-81 and then the singles can be tricky.", "kind": "break",
+   "gate": [7772, 7773], "tgt": [[7780, 7781]], "stop_hint": ""},
+  {"id": "es4", "instrument": "ES", "name": "Fail/LAAF of 7780-7781", "dir": "short", "tag": "",
+   "quote": "Short a fail/LAAF of 80-81 is also tricky as there is the potential for a failed spike. I’m still open to it.", "kind": "fade",
+   "gate": [7780, 7781], "tgt": [[7772, 7773], 7766.25], "stop_hint": ""},
+  {"id": "es5", "instrument": "ES", "name": "Sellers defend 7792-7796 from below, fresh weakness below 7780-7781", "dir": "short", "tag": "",
+   "quote": "Maybe, just maybe sellers could defend 92-96 from below and trigger fresh weakness below 80-81. I would need to see this real time to consider it as it would represent a failed spike AND filling of today’s single prints. Participation has simply been so low I don’t want to read too much into certain things and this is one of them. 59-62 remains on the table as long as below 92-96 so it remains a valid trade idea.", "kind": "fade",
+   "gate": [7792, 7796], "tgt": [[7780, 7781], [7772, 7773], [7759, 7762]], "stop_hint": ""}
+ ]
+}

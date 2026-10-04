@@ -1,0 +1,65 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-10",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-610-168",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Wed 6/10/2026 (posted Tue 6/9), CPI day, June M6 contracts, no roll mentioned. ES '06-15' = 7406-7415, '45-50' = 7345-7350, '78-86' = 7478-7486 (with today's high), ES singles 7439-7454 (43-49 most reactive, weekly 7449). NQ singles 29302-29365 and 29488-29633; NQ '100-127' read as 29100-29127 (between 28945-28969 and 29257). nq1 quote adds 'perhaps even just lower as the singles start above 302' (29302) as an earlier entry; targets from commentary (fresh downtrend from 339-378 -> weekly levels back down toward 800-817: 29257, 29100-29127, 28945-28969, 28800-28817). nq2 targets 945-969 then 100-127 from Trading Higher; he wants buyers to set a low from 800-817 or 663 at worst. nq3 is ungraded ('too little clarity to give this a rating'): long on a reactive bid around 28663 or today's low protected; gated 28663, target the 800-817 reclaim. es1 targets 7398.75 ARH then 7406-7415; es2 targets 7398.75 ARH then 7345-7350 (no stated target; first levels below from commentary). Closing ungraded ES line ('consider ... longs ... near the 7327 or 7298-7302 range') split into es3 (7327) and es4 (7298-7302) with tag ''; targets from commentary ('7327 and 7345-7350 would need to reclaim'). Other trades are implied by the commentary."
+ ,
+ "zones": {
+  "ES": [[7505, 7505], [7478, 7486], [7443, 7449], [7449, 7449], [7439, 7454], [7423, 7430], [7406, 7415], [7398.75, 7398.75], [7345, 7350], [7327, 7327], [7298, 7302], [7290, 7310], [7264, 7269], [7206, 7214]],
+  "NQ": [[29740, 29758], [29633, 29633], [29590, 29614], [29488, 29633], [29520, 29520], [29469, 29487], [29339, 29378], [29302, 29365], [29302, 29302], [29257, 29257], [29100, 29127], [28945, 28969], [28800, 28817], [28663, 28663]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Fail of 29339-29378", "dir": "short", "tag": "A",
+   "quote": "Short a fail of 29339-29378 (perhaps even just lower as the singles start above 302). I’ll rate this an A",
+   "kind": "fade", "gate": [29339, 29378],
+   "tgt": [29257, [29100, 29127], [28945, 28969], [28800, 28817]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Hold/LBAF of 28800-28817", "dir": "long", "tag": "B/B+",
+   "quote": "Long a hold or LBAF of 28800-28817. If buyers are to attempt to set a low here, I would like them to do so from here or 663 at worst. They can still protect today’s low at other areas, but in terms of planning ahead of time these are the two that would have me willing to take a shot. I’ll rate it a B/B+. Sellers are in control on short time frames.",
+   "kind": "fade", "gate": [28800, 28817],
+   "tgt": [[28945, 28969], [29100, 29127]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Reactive bid around 28663 (ungraded)", "dir": "long", "tag": "",
+   "quote": "If a reactive bid comes in around 663 or today’s low is otherwise protected in the demand, I’m fine getting long. I just expect it may need some time to play out if coming from significantly lower than 800-817 so I’ll really want there to be some kind of session setup to get me in. There is too little clarity to give this a rating ahead of time",
+   "kind": "fade", "gate": [28663, 28663],
+   "tgt": [[28800, 28817]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Hold/LBAF of 7345-7350", "dir": "long", "tag": "B",
+   "quote": "Long a hold or LBAF of 7345-7350. B rating",
+   "kind": "fade", "gate": [7345, 7350],
+   "tgt": [7398.75, [7406, 7415]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Fail/LAAF of 7406-7415", "dir": "short", "tag": "A",
+   "quote": "Short a fail or LAAF of 7406-7415. A rating",
+   "kind": "fade", "gate": [7406, 7415],
+   "tgt": [7398.75, [7345, 7350]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Long near 7327 (ungraded)", "dir": "long", "tag": "",
+   "quote": "I’m less keen on longs on ES below 45-50 than for NQ below 800-817 but I’ll consider doing so if given a reason near the 7327 or 7298-7302 range.",
+   "kind": "fade", "gate": [7327, 7327],
+   "tgt": [[7345, 7350]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Long near 7298-7302 (ungraded)", "dir": "long", "tag": "",
+   "quote": "I’m less keen on longs on ES below 45-50 than for NQ below 800-817 but I’ll consider doing so if given a reason near the 7327 or 7298-7302 range.",
+   "kind": "fade", "gate": [7298, 7302],
+   "tgt": [7327, [7345, 7350]],
+   "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-17",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-617-bcd",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "For ESU last week’s high was 7553.5 and we have the weekly 49-52 just below there. | Last week’s high was 139 on the U contract which sits in the 100-151 range, and then Friday’s high was 30052.5 on U.",
+ "ref_date_note": "FOMC day (Wed 6/17) + weekly VIX expiration; roll week M6->U6 - letter quotes last week's/Friday's highs explicitly on the U contract (no explicit 'we are rolling' sentence), so all numbers taken as U. TRADES section: 'I'm going to leave it at commentary for tonight. Trades are readily implied by the above commentary.' -> trades = []. Commentary ideas (ungraded, not promoted): ES - LBAF of 7583-7585 (weekly 7573-7577 below); hold/reclaim of 7583-7585 -> 7598-7601 (to 7604) then 7622 (weekly 7610-7613 in between); hold above 7622 -> 7631-7634 and today's high, then yesterday's high; failure at 7622 -> 7610-7613, 7598-7601; persistent weakness below 7583-7585 -> last week's high 7553.5 / weekly 7549-7552, then Sunday overnight low; longs from below today's low need reclaim of 7583-7585. NQ - reclaim/hold of 30350-30369 -> 30578 (weekly 30448-30469 in between); failure from 30578 -> 30448-30469, 30408, 30350-30369; single prints ~30665-30673 (incl. IB low) block move to 30732-30750; persistent strength above 30600-30617 -> 30732-30750 (up to ~30760), where sellers may defend (incl. LAAF); LBAF of today's low (30302.25) with weekly 30242-30269 below but needs 30350-30369 reclaim; Sunday low 30191, last week's high 30139 (in 30100-30151), Friday's high 30052.5. NQ spike base 30336.75 recorded as level.",
+ "zones": {
+  "ES": [[7622, 7622], [7598, 7601], [7604, 7604], [7583, 7585], [7542, 7542], [7525, 7525], [7610, 7613], [7631, 7634], [7573, 7577], [7553.5, 7553.5], [7549, 7552]],
+  "NQ": [[30665, 30673], [30578, 30578], [30191, 30191], [30053, 30053], [30336.75, 30336.75], [30302.25, 30302.25], [30350, 30369], [30408, 30408], [30448, 30469], [30600, 30617], [30732, 30750], [30760, 30760], [30869, 30886], [30242, 30269], [30139, 30139], [30100, 30151], [30052.5, 30052.5]]
+ },
+ "trades": []
+}

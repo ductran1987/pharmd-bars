@@ -1,0 +1,356 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-16",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-316",
+ "contract": {
+  "ES": "ESH6",
+  "NQ": "NQH6"
+ },
+ "roll_note": "****This is contract roll week so see the weekly plan for handling of levels",
+ "ref_date_note": "Roll week (H6->M6), Sunday-night plan posted Mar 15. Letter gives only one set of numbers and does not name the contract; they are the H (Mar) contract: Friday 3/13 RTH low 6627, high 6737.5 and 5pm close 6625.25 match ESH6 bars exactly (ESM6 was ~50 higher), and NQ 313-352 sits below NQM6's Friday low (24561.25), and the 3/19 letter says levels switched to ESM2026 only 'as of the Monday night plan for Tuesday'. NQH6 bars are not in bars/contracts. TRADES section is ungraded (tags ''), described as setups 'implied from the above assuming we open within Friday's range' (gap risk). Multi-zone sentences split into one trade per gate: nq2/nq3/nq4 (fail/LAAF of 495, 543-569, 597.5-611) and es2/es3 (fail/LAAF of 6670-6675, 6684.5-6691); their only stated target is 313-352 / 6640-6647 (the 'needs back below 495 / 6670-6675' condition kept in stop_hint). 'targeting roughly 420' -> 24420. es1, es4, nq5 have no stated target -> taken from Trading Higher/Lower commentary. Friday's RTH low given as 6627 -> es4 gated on number. nq5 target '24k ETH low' recorded as 24000 (round number as written) then November low 23927.25. Skipped as non-specific: 'any longs below 313-352' (NQ) and 'any longs below Friday's low' (ES) ('reasonable if the session provides a setup'). Commentary-only ideas (not trades): LBAF of Friday's low/spike base 6634.5 (tight leash until 6640-6647 reclaimed); LAAF of 6684.5-6691; LBAF of November low ES 6539 / SPX 6521.92 all week; NQ LAAF of 24569; NQ 24597.5-24611 monitor for LAAF.",
+ "zones": {
+  "ES": [
+   [
+    6717,
+    6717
+   ],
+   [
+    6634.5,
+    6634.5
+   ],
+   [
+    6627,
+    6627
+   ],
+   [
+    6625.25,
+    6625.25
+   ],
+   [
+    6640,
+    6647
+   ],
+   [
+    6596,
+    6600
+   ],
+   [
+    6584.5,
+    6584.5
+   ],
+   [
+    6618.5,
+    6618.5
+   ],
+   [
+    6591.75,
+    6591.75
+   ],
+   [
+    6594.75,
+    6594.75
+   ],
+   [
+    6513,
+    6600
+   ],
+   [
+    6558,
+    6562
+   ],
+   [
+    6550,
+    6550
+   ],
+   [
+    6553,
+    6553
+   ],
+   [
+    6539,
+    6545
+   ],
+   [
+    6539,
+    6539
+   ],
+   [
+    6660,
+    6662
+   ],
+   [
+    6670,
+    6675
+   ],
+   [
+    6684.5,
+    6691
+   ],
+   [
+    6709,
+    6709
+   ],
+   [
+    6737.5,
+    6737.5
+   ],
+   [
+    6741,
+    6750
+   ]
+  ],
+  "NQ": [
+   [
+    24669,
+    24669
+   ],
+   [
+    24597.5,
+    24611
+   ],
+   [
+    24495,
+    24495
+   ],
+   [
+    24069,
+    24369
+   ],
+   [
+    24313,
+    24352
+   ],
+   [
+    24369,
+    24369
+   ],
+   [
+    24416,
+    24426
+   ],
+   [
+    24420,
+    24420
+   ],
+   [
+    24470,
+    24495
+   ],
+   [
+    24543,
+    24569
+   ],
+   [
+    24569,
+    24569
+   ],
+   [
+    24569,
+    24611
+   ],
+   [
+    24750,
+    24769
+   ],
+   [
+    24835,
+    24874
+   ],
+   [
+    24000,
+    24000
+   ],
+   [
+    23927.25,
+    23927.25
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 24313-24352",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold/LBAF of 313-352 targeting roughly 420 then 470-495. I would be out most and monitor a thin runner for continuation.",
+   "kind": "fade",
+   "gate": [
+    24313,
+    24352
+   ],
+   "tgt": [
+    24420,
+    [
+     24470,
+     24495
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 24495",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of495, 543-569 or 597.5-611 knowing it needs back below at least 495 to have potential for 313-352. This could be an absolute monster trade so if the session gives me a way to manage risk with an entry I’ll take it at any of those areas.",
+   "kind": "fade",
+   "gate": [
+    24495,
+    24495
+   ],
+   "tgt": [
+    [
+     24313,
+     24352
+    ]
+   ],
+   "stop_hint": "knowing it needs back below at least 495 to have potential for 313-352"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 24543-24569",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of495, 543-569 or 597.5-611 knowing it needs back below at least 495 to have potential for 313-352. This could be an absolute monster trade so if the session gives me a way to manage risk with an entry I’ll take it at any of those areas.",
+   "kind": "fade",
+   "gate": [
+    24543,
+    24569
+   ],
+   "tgt": [
+    [
+     24313,
+     24352
+    ]
+   ],
+   "stop_hint": "knowing it needs back below at least 495 to have potential for 313-352"
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 24597.5-24611",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of495, 543-569 or 597.5-611 knowing it needs back below at least 495 to have potential for 313-352. This could be an absolute monster trade so if the session gives me a way to manage risk with an entry I’ll take it at any of those areas.",
+   "kind": "fade",
+   "gate": [
+    24597.5,
+    24611
+   ],
+   "tgt": [
+    [
+     24313,
+     24352
+    ]
+   ],
+   "stop_hint": "knowing it needs back below at least 495 to have potential for 313-352"
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Breakdown short below 24313-24352",
+   "dir": "short",
+   "tag": "",
+   "quote": "A breakdown short below 313-352 is risky being within the yearly level so keep a tight leash on it if trying it. Doing so will require a strong ability to monitor the session profile and trend.",
+   "kind": "break",
+   "gate": [
+    24313,
+    24352
+   ],
+   "tgt": [
+    24000,
+    23927.25
+   ],
+   "stop_hint": "keep a tight leash on it if trying it"
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 6640-6647",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold/LBAF of 6640-6647 (at this point it would be a reclaim long which I hate but a higher low above 6640-6647 is valid).",
+   "kind": "fade",
+   "gate": [
+    6640,
+    6647
+   ],
+   "tgt": [
+    [
+     6660,
+     6662
+    ],
+    [
+     6670,
+     6675
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 6670-6675",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of 6670-6675 or 6684.5-6691. ES left single prints in the 83-91 range with supply just above so this is analogous to the above NQ trade. Once firmly back below 6670-6675 can target 6640-6647.",
+   "kind": "fade",
+   "gate": [
+    6670,
+    6675
+   ],
+   "tgt": [
+    [
+     6640,
+     6647
+    ]
+   ],
+   "stop_hint": "Once firmly back below 6670-6675 can target 6640-6647."
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 6684.5-6691",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of 6670-6675 or 6684.5-6691. ES left single prints in the 83-91 range with supply just above so this is analogous to the above NQ trade. Once firmly back below 6670-6675 can target 6640-6647.",
+   "kind": "fade",
+   "gate": [
+    6684.5,
+    6691
+   ],
+   "tgt": [
+    [
+     6640,
+     6647
+    ]
+   ],
+   "stop_hint": "Once firmly back below 6670-6675 can target 6640-6647."
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Breakdown short below Friday's low (6627)",
+   "dir": "short",
+   "tag": "",
+   "quote": "A breakdown short below Friday’s low is risky being so near the yearly level so keep a tight leash on it if trying it. Doing so will require a strong ability to monitor the session profile and trend.",
+   "kind": "break",
+   "gate": [
+    6627,
+    6627
+   ],
+   "tgt": [
+    [
+     6596,
+     6600
+    ],
+    6584.5
+   ],
+   "stop_hint": "keep a tight leash on it if trying it"
+  }
+ ]
+}

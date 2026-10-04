@@ -1,0 +1,320 @@
+{
+ "source": "pharmdks",
+ "date": "2026-07-20",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-720",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Mon 7/20/2026 (posted Sun 7/19), week after July OPEX. U6 (Sep) contracts, no roll mentioned. es1 graded in prose 'I'll rate this a B as a fail and a B+ as a LAAF' -> tag 'B/B+'. Friday's high/low not given numerically -> FRI_HIGH/FRI_LOW gates. es1 targets from Trading Lower (7497.25, 7490-7491, Friday's low). es2 (LAAF of Friday's high, A/A+) has no stated target -> 7518 then 7509-7513 (Friday's high sits below the 7539-7548 gap; analogous 'fail or LAAF of 7539-7548 ... back to 7509-7513 (at least 18)'). es3 targets 7490-7491, 7497.25, 7509-7513 from 'Back above 7490-7491 after a LBAF of Friday's low can find 7509-7513, mindful of 7497'. nq1 targets 800-842 supply then 887-896. nq2 (LBAF of Friday's low; Friday's low sits between the 28228 June low and 28369-28404) targets the levels above in order up to the required 691-718 reclaim. nq3 target 691-718 (commentary). nq4 targets 945-969, 887-896, 691-718. ES 7497.25 permanent honorable mention, July open 7532, premarket low 7483.25, ES 76-81 demand kept as zones. NQ 28228 = June low.",
+ "zones": {
+  "ES": [
+   [
+    7598,
+    7601
+   ],
+   [
+    7578,
+    7580
+   ],
+   [
+    7569,
+    7572
+   ],
+   [
+    7562,
+    7565
+   ],
+   [
+    7490,
+    7491
+   ],
+   [
+    7457,
+    7459
+   ],
+   [
+    7430,
+    7430
+   ],
+   [
+    7513,
+    7518
+   ],
+   [
+    7509,
+    7513
+   ],
+   [
+    7497.25,
+    7497.25
+   ],
+   [
+    7532,
+    7532
+   ],
+   [
+    7527,
+    7532
+   ],
+   [
+    7539,
+    7548
+   ],
+   [
+    7476,
+    7481
+   ],
+   [
+    7483.25,
+    7483.25
+   ],
+   [
+    7469,
+    7472
+   ],
+   [
+    7618,
+    7623
+   ]
+  ],
+  "NQ": [
+   [
+    29181,
+    29181
+   ],
+   [
+    28887,
+    28896
+   ],
+   [
+    28663,
+    28673
+   ],
+   [
+    28691,
+    28718
+   ],
+   [
+    28800,
+    28842
+   ],
+   [
+    28830,
+    28830
+   ],
+   [
+    28945,
+    28969
+   ],
+   [
+    29050,
+    29079
+   ],
+   [
+    29247,
+    29269
+   ],
+   [
+    28605,
+    28623
+   ],
+   [
+    28552,
+    28552
+   ],
+   [
+    28500,
+    28520
+   ],
+   [
+    28420,
+    28420
+   ],
+   [
+    28369,
+    28404
+   ],
+   [
+    28228,
+    28228
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7509-7513",
+   "dir": "short",
+   "tag": "B/B+",
+   "quote": "Short a fail/LAAF of 7509-7513. I’ll rate this a B as a fail and a B+ as a LAAF.",
+   "kind": "fade",
+   "gate": [
+    7509,
+    7513
+   ],
+   "tgt": [
+    7497.25,
+    [
+     7490,
+     7491
+    ],
+    "FRI_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "A/A+",
+   "quote": "Short a LAAF of Friday’s high simply has to be an A/A+",
+   "kind": "fade",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    7518,
+    [
+     7509,
+     7513
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "Long a LBAF of Friday’s low is a B/B+",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    [
+     7490,
+     7491
+    ],
+    7497.25,
+    [
+     7509,
+     7513
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 28691-28718",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "Long a hold or LBAF of 691-718 is a B/B+",
+   "kind": "fade",
+   "gate": [
+    28691,
+    28718
+   ],
+   "tgt": [
+    [
+     28800,
+     28842
+    ],
+    [
+     28887,
+     28896
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a LBAF of Friday’s low is a B/B- just because of a lack of clarity in strength until 691-718 is reclaimed but it also has major higher time frame potential as QQQ would likely be a LBAF its multi-week balance. As mentioned in the weekly plan I would prefer to see the NQ 228 low taken first but this works especially for a day trade.",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    [
+     28369,
+     28404
+    ],
+    [
+     28500,
+     28520
+    ],
+    [
+     28605,
+     28623
+    ],
+    [
+     28691,
+     28718
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 28887-28896",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Short a fail or LAAF of 887-896 is a B+/A-. This can include a rejection in the 945-969 range but as described above it still has to turn into a LAAF of 887-896 to do anything. I’m willing to enter directly on a rejection at 945-969 but keep it on a tight leash until 887-896 is firmly lost.",
+   "kind": "fade",
+   "gate": [
+    28887,
+    28896
+   ],
+   "tgt": [
+    [
+     28691,
+     28718
+    ]
+   ],
+   "stop_hint": "I’m willing to enter directly on a rejection at 945-969 but keep it on a tight leash until 887-896 is firmly lost."
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Short a LAAF of Friday’s high is slightly less clean as compared to the ES trade based on Friday’s profile as there is risk of 945-969 or 887-896 holding from above. It therefore requires a tight leash until 887-896 is flipped back to resistance. I’ll therefore rate it a B+/A-",
+   "kind": "fade",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    [
+     28945,
+     28969
+    ],
+    [
+     28887,
+     28896
+    ],
+    [
+     28691,
+     28718
+    ]
+   ],
+   "stop_hint": "It therefore requires a tight leash until 887-896 is flipped back to resistance."
+  }
+ ]
+}

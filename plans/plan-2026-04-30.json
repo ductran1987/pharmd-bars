@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-30",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-430-cb5",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "M (Jun) contract; no roll mention. TRADES section says 'I don't see anything remotely approximating a setup worth planning ahead of time' -> trades = []. Commentary bias ideas (not promoted): expect weakness with traction below NQ 27150-27169 + today's low (27124.25) and ES 7144.5-7147 + today's low (7137), toward ES 7115.5-7121 / last week's low and NQ 27041-27069, yesterday's low 27009.5, 26969-26987, 26894-26911, 26885; expect strength above ES 7177-7182 + yesterday's high 7183 + 4/17 high 7185.75 and NQ 27332-27360; his lean is shorts until 7167-7169 / 7177-7182 reclaim, may flip long depending on 7115.5-7121 reaction (LBAF of 7115.5-7121 on watch); NQ LBAF of yesterday's low broadly holding 26969-26987 could trigger strength (needs reclaim of 27150-27169); responsive buyers at 27041-27069 and 26969-26987, bid possibly off 26942.75 ETH gap fill. Typos: '7092-9097' read as 7092-7097; NQ '787-735' read as 26735-26787 (written reversed). 7080-7100 kept as the range where buyers were very active.",
+ "zones": {
+  "ES": [[7198, 7201], [7177, 7182], [7175.25, 7175.25], [7167, 7169], [7144.5, 7147], [7137, 7137], [7115.5, 7121], [7092, 7097], [7089, 7089], [7080, 7100], [7183, 7183], [7185.75, 7185.75]],
+  "NQ": [[27408, 27417], [27414, 27414], [27332, 27360], [27340.25, 27340.25], [27150, 27169], [27124.25, 27124.25], [27103, 27120], [27094, 27094], [27041, 27069], [27009.5, 27009.5], [26969, 26987], [26942.75, 26942.75], [26894, 26911], [26885, 26885], [26735, 26787]]
+ },
+ "trades": []
+}

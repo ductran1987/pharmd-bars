@@ -1,0 +1,51 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-03",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-63-409",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Wed 6/3/2026 (page dated Jun 02, 2026; posted late), June M6 contracts, no roll mentioned. ES is a box with poor daily high and low. es2 'two relatively equal daily highs 6732' is an obvious typo, read as 7632 (inside the 7631-7634 level) -> gate [7632,7632]; no target stated -> first levels below from Trading Higher (7623, then 7610-7613). es1 no target -> commentary 'at least 48' then weekly 7653-7656. es3 (hold/LBAF 7610-7613, 14.25 APBL) has no grade -> tag ''. Two ungraded ES paragraphs (any downtrend off range high; not sure about shorting a lower high below 7610-7613, 'same will apply for NQ') are explicitly not rated as setups -> not transcribed. nq1 no target -> 'at least 840 if not the weekly 869-886'. nq3 no target -> 713-721 ('713-721 can come back in play'). NQ 560-580 (potential LBAF area below 600-617), 732-750 weekly, 763 post-bell high kept as zones. 7627 appears only as an es3 target.",
+ "zones": {
+  "ES": [[7605,7605],[7581,7584],[7540,7540],[7499,7502],[7614.25,7614.25],[7610,7613],[7623,7623],[7627,7627],[7631,7634],[7632,7632],[7648,7648],[7653,7656],[7605,7607],[7576,7577],[7569,7572]],
+  "NQ": [[30713,30721],[30536,30536],[30053,30069],[30732,30750],[30763,30763],[30840,30840],[30869,30886],[30678,30678],[30600,30617],[30560,30580],[30448,30469],[30242,30269]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "Break with continuation above 7631-7634", "dir": "long", "tag": "A-/B+",
+   "quote": "Long a break with continuation above 7631-7634 (cautious a LAAF). I’ll rate this an A-/B+ and the only reason it isn’t higher is because I’m personally not a fan of breakout trades.",
+   "kind": "break", "gate": [7631,7634], "tgt": [7648,[7653,7656]],
+   "stop_hint": "cautious a LAAF"
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "LAAF of the two relatively equal daily highs (7632)", "dir": "short", "tag": "B/B+",
+   "quote": "Short a LAAF of the two relatively equal daily highs 6732. Since sellers have sucked, I can’t rate this any higher than a B/B+ whereas to me typical box trades are some of the absolute best trades. Sellers have simply been non-existent. If this plays out and I see anything less than a significant pickup in volume and a persistent offer walking price down, I’ll be looking for an excuse to take profit or cover fully.",
+   "kind": "fade", "gate": [7632,7632], "tgt": [7623,[7610,7613]],
+   "stop_hint": "If this plays out and I see anything less than a significant pickup in volume and a persistent offer walking price down, I’ll be looking for an excuse to take profit or cover fully."
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Hold/LBAF of 7610-7613 (7614.25)", "dir": "long", "tag": "",
+   "quote": "Long a hold or LBAF of 7610-7613 (14.25) targeting 23, 27, and 31-34. Monitor for an upside breakout with continuation.",
+   "kind": "fade", "gate": [7610,7613], "tgt": [7623,7627,[7631,7634]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Sustained break of 30713-30721", "dir": "long", "tag": "B+",
+   "quote": "Long a sustained break of 713-721 (cautious a LAAF). I’ll actually rate this one slightly lower than for ES even though it has been stronger. I simply prefer box so this one rates a B+",
+   "kind": "break", "gate": [30713,30721], "tgt": [30840,[30869,30886]],
+   "stop_hint": "cautious a LAAF"
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Fail/LAAF of 30713-30721", "dir": "short", "tag": "B-",
+   "quote": "Short a fail/LAAF of 713-721 targeting 678 and 600-617. Monitor for continuation. B-",
+   "kind": "fade", "gate": [30713,30721], "tgt": [30678,[30600,30617]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Hold/LBAF of 30600-30617", "dir": "long", "tag": "B/B+",
+   "quote": "Long a hold or LBAF of 600-617. B/B+",
+   "kind": "fade", "gate": [30600,30617], "tgt": [[30713,30721]],
+   "stop_hint": ""
+  }
+ ]
+}

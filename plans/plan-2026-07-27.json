@@ -1,0 +1,281 @@
+{
+ "source": "pharmdks",
+ "date": "2026-07-27",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-727",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Mon 7/27/2026 (posted Sun 7/26). U6 (Sep) contracts, no roll mentioned. ES Friday's low given as 7431.5 -> es1 gated on number and used as es3/es4 target; Thursday's (week) low 7411.75 + 6/28-week low 7409 -> es2 gate [7409,7411.75]; es2 has no stated target -> 7420-7424 and 7431.5 (its stated reclaim levels) used. es4 (fail of 7469-7473) is ungraded ('reasonable ... effectively just a front-run of the above trade') -> tag ''. es5/nq1/nq3 no stated target -> first levels from Trading Lower/Higher commentary (ES 7469-7473, 7458-7460; NQ LBAF needs 28330 reclaim for trip to 28448-28469; NQ LAAF of Friday's high needs traction below 28545-28553 for 28490-28500 and 28448-28469). nq2 target = Friday's low (commentary: consolidation below 28448-28469 bearish for retest of Friday's low). NQ Friday's low/high not given numerically -> FRI_LOW/FRI_HIGH. Not planned: reclaim longs (implied, unrated); NQ breakdown short of Friday's low (implied, 'won't plan it nor rate it'). NQ 553 honorable mention 'arguably as low as 545' -> zone [28545,28553]. ES 7497-7501 'could have been extended to 7504 or 7505' kept as [7504,7505].",
+ "zones": {
+  "ES": [
+   [
+    7578,
+    7580
+   ],
+   [
+    7532,
+    7535
+   ],
+   [
+    7525,
+    7525
+   ],
+   [
+    7504,
+    7505
+   ],
+   [
+    7497,
+    7501
+   ],
+   [
+    7469,
+    7473
+   ],
+   [
+    7458,
+    7460
+   ],
+   [
+    7431.5,
+    7431.5
+   ],
+   [
+    7420,
+    7424
+   ],
+   [
+    7411.75,
+    7411.75
+   ],
+   [
+    7409,
+    7409
+   ],
+   [
+    7405,
+    7408
+   ],
+   [
+    7357,
+    7363
+   ]
+  ],
+  "NQ": [
+   [
+    29488,
+    29500
+   ],
+   [
+    29181,
+    29181
+   ],
+   [
+    29119,
+    29119
+   ],
+   [
+    28669,
+    28701
+   ],
+   [
+    28553,
+    28553
+   ],
+   [
+    28545,
+    28553
+   ],
+   [
+    28490,
+    28500
+   ],
+   [
+    28448,
+    28469
+   ],
+   [
+    28330,
+    28330
+   ],
+   [
+    28151,
+    28188
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low (7431.5)",
+   "dir": "long",
+   "tag": "B+/A-",
+   "quote": "Long a LBAF of Friday’s low is a B+/A- as it has decent range and looks reasonably rotational back to 7458-7460.",
+   "kind": "fade",
+   "gate": [
+    7431.5,
+    7431.5
+   ],
+   "tgt": [
+    [
+     7458,
+     7460
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of Thursday's low (7411.75) and 6/28-week low 7409",
+   "dir": "long",
+   "tag": "B",
+   "quote": "Long a LBAF of Thursday’s low and the 6/28 week low at 7409 has to be a long. We know it needs to reclaim at least 7420-7424 on a weekly basis and would need to reclaim Friday’s 7431.5 low for Monday. I’ll rate this a B but the same setup could have a higher rating later in the week depending on how the profile is developing.",
+   "kind": "fade",
+   "gate": [
+    7409,
+    7411.75
+   ],
+   "tgt": [
+    [
+     7420,
+     7424
+    ],
+    7431.5
+   ],
+   "stop_hint": "We know it needs to reclaim at least 7420-7424 on a weekly basis and would need to reclaim Friday’s 7431.5 low for Monday."
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7458-7460",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short a fail or (better) LAAF of 7458-7460 is an A/A- targeting Friday’s low.",
+   "kind": "fade",
+   "gate": [
+    7458,
+    7460
+   ],
+   "tgt": [
+    7431.5
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Fail of 7469-7473 (front-run of es3)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Considering shorting a fail of 7469-7473 directly is reasonable but it would need to trigger a LAAF of 58-60 to be any good anyway, so it is effectively just a front-run of the above trade.",
+   "kind": "fade",
+   "gate": [
+    7469,
+    7473
+   ],
+   "tgt": [
+    [
+     7458,
+     7460
+    ],
+    7431.5
+   ],
+   "stop_hint": "it would need to trigger a LAAF of 58-60 to be any good anyway"
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short a LAAF of Friday’s high is also an A/A-",
+   "kind": "fade",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    [
+     7469,
+     7473
+    ],
+    [
+     7458,
+     7460
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "Long a LBAF of Friday’s low is slightly less clean than for ES. If it weren’t for the enormous big picture implications of this trade I would rate it quite poorly. However, the importance of Friday’s low and the June low are such that I have to rate it a B/B+",
+   "kind": "fade",
+   "gate": [
+    "FRI_LOW",
+    "FRI_LOW"
+   ],
+   "tgt": [
+    28330,
+    [
+     28448,
+     28469
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 28448-28469",
+   "dir": "short",
+   "tag": "B+",
+   "quote": "Short a fail/LAAF of 448-469 is a B+",
+   "kind": "fade",
+   "gate": [
+    28448,
+    28469
+   ],
+   "tgt": [
+    "FRI_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LAAF of Friday's high",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "Short a LAAF of Friday’s high is a B-",
+   "kind": "fade",
+   "gate": [
+    "FRI_HIGH",
+    "FRI_HIGH"
+   ],
+   "tgt": [
+    [
+     28545,
+     28553
+    ],
+    [
+     28490,
+     28500
+    ],
+    [
+     28448,
+     28469
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-18",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-618-2ba",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "Both ESU and NQU (along with QQQ and SPX of course) filled their RTH gaps from Friday (not to be confused with the contract roll gaps)",
+ "ref_date_note": "Day after FOMC; roll week M6->U6 - letter refers to ESU/NQU and cites 'Friday's RTH close on the M contract (roll gap fill)' (ES 7433.5, NQ 29648.25) as levels, so all numbers are U. TRADES section: 'I have a family matter ... I'll try to come back late tonight and knockout some setups. They are of course implied from the above' -> no setups in the post, trades = [] (any late update not in the post text). Commentary ideas (ungraded, not promoted): ES - reclaim of 7515-7519 -> 7531-7534 (caution LAAF at 7525 / 31-34); firm hold of 7531-7534 -> 7549-7552 and last week's high 7553.5 (7560 honorable mention); holding above 7573-7577 -> today's high, favor 7631-7634; persistent weakness below 7515-7519 -> spike base 7497.25, 7478-7486, today's low 7472.25, eventually 7426-7428; hold of 7478-7486 / LBAF of today's low needs reclaim of spike base / 7478-7486 -> 7515-7519; continuation below today's low -> 7433.5, 7426-7428; 7397-7403 still valid long. NQ - LAAF of 30100-30151 possible from 30191; reclaim of 30100-30151 -> 30242-30269; failed reclaim/LAAF of 30242-30269 at 30302.25 / 30336.75; initial lean short a rejection at 30350-30369 (cover if 30242-30269 holds), possibly flip long on second test; above 30350-30369 -> 30448-30469 then today's high, 30578; persistent weakness below 30100-30151 -> 29943-29980; hold of 29943-29980 -> spike base 30070 and 30100-30151; below today's low (29923) -> 29848, 29740-29758, 29648.25, 29625. NQ today's low written '923' (just below 29943-29980) -> 29923.",
+ "zones": {
+  "ES": [[7622, 7622], [7598, 7601], [7583, 7585], [7525, 7525], [7433.5, 7433.5], [7515, 7519], [7497.25, 7497.25], [7472.25, 7472.25], [7573, 7577], [7531, 7534], [7549, 7552], [7553.5, 7553.5], [7560, 7560], [7631, 7634], [7426, 7428], [7478, 7486], [7397, 7403]],
+  "NQ": [[30665, 30673], [30578, 30578], [30191, 30191], [29848, 29848], [29648.25, 29648.25], [30242, 30269], [30302, 30302], [30302.25, 30302.25], [30336.75, 30336.75], [30350, 30369], [30070, 30070], [29923, 29923], [29943, 29980], [30100, 30151], [30139, 30139], [30448, 30469], [30053, 30053], [29740, 29758], [29625, 29625]]
+ },
+ "trades": []
+}

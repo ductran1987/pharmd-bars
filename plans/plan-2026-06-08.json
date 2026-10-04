@@ -1,0 +1,69 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-08",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-68",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Mon 6/8/2026 (posted Sun 6/7), June M6 contracts, no roll mentioned. After a large selloff: ES AH low 7359 / 5pm close 7368, Friday's low 7379.75; NQ Friday's low 28974.25. nq1 'failure from buyer to reclaim 28945-28969 ... continuation short' treated as fade (failed reclaim). nq2 target is 'broadly Friday's low' (28974.25); 257/234 must be lost first -> kept in stop_hint, not targets. nq4 (LBAF of 28945-28969) and es4 (long on sellers' inability to get through 7345-7350/7354.25/7363.25) are in TRADES but ungraded -> tag ''; nq4 targets from NQ Trading Higher (minor supply 100-127, first major test 339-378, then 469-487); es4 gated on 7345-7350 (commentary's hold/LBAF area), targets are the must-reclaim weekly lows then 7395-7397. nq5 ungraded 'front running a reclaim' (failed push through the 800-817 weekly level and '742/763 prior weekly lows', retest Friday's low; low probability) -> gate spans [28742,28817]; '763' may be a typo for 663 (weekly lows listed as 28742/28663). ES 'similarly willing to front run' has no level -> not transcribed. es1 targets from commentary (loss of 7395-7397 -> Friday's 79.75 low); es2 no target -> 7423-7430; es3 -> 7449 then 7423-7430 must-hold. Honorable mentions kept as zones: ES 7496-7499, NQ 29508-29536, 29676-29689, 28420-28469; RTH gap tops ES 7327, NQ 28336.",
+ "zones": {
+  "ES": [[7505,7505],[7395,7397],[7379.75,7379.75],[7363.25,7363.25],[7354.25,7354.25],[7359,7359],[7368,7368],[7423,7430],[7449,7449],[7478,7486],[7496,7499],[7515,7519],[7531,7534],[7345,7350],[7327,7327],[7298,7302],[7206,7214]],
+  "NQ": [[28974.25,28974.25],[28742,28742],[28663,28663],[28945,28969],[29100,29127],[28800,28817],[29339,29378],[29469,29487],[29508,29536],[29590,29614],[29676,29689],[29740,29758],[29257,29257],[29234,29234],[28763,28763],[28420,28469],[28336,28336]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Failed reclaim of 28945-28969", "dir": "short", "tag": "B-",
+   "quote": "Any kind of failure from buyer to reclaim 28945-28969 is objectively a continuation short targeting 742 and 663. It seems like “chasing” but given the potential for a continued liquidation break I can rate it a B-.",
+   "kind": "fade", "gate": [28945,28969], "tgt": [28742,28663],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Fail in 29339-29378", "dir": "short", "tag": "B+",
+   "quote": "Short a fail in the 29339-29378 range looking broadly for Friday’s low. 257 and arguably 234 would need to be lost (and a session downtrend of course) to find Friday’s low and continuation lower. B+",
+   "kind": "fade", "gate": [29339,29378], "tgt": [28974.25],
+   "stop_hint": "257 and arguably 234 would need to be lost (and a session downtrend of course) to find Friday’s low and continuation lower."
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Fail/LAAF of 29469-29487", "dir": "short", "tag": "A/A+",
+   "quote": "Short a fail/LAAF of 29469-29487. Things will look awfully bullish if we see this area but if we are to see fresh initiative sellers (aside from those longs liquidating) then this would be the area. The primary target would be 339-378 with potential for renewed liquidation. Again, it would still need to trigger a downtrend but given the outsized potential for downside continuation from here I have to rate it highly. A/A+.",
+   "kind": "fade", "gate": [29469,29487], "tgt": [[29339,29378]],
+   "stop_hint": "it would still need to trigger a downtrend"
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "LBAF of 28945-28969", "dir": "long", "tag": "",
+   "quote": "I’m willing to look for longs on a LBAF of 28945-28969. This is a bit awkward since NQ bled out well lower after the bell. I’m trying to write a plan that could survive all night and Monday’s cash session. The bottom line is that failure to proceed lower (from the weekly plan and above) invites structural repair. I’ll be careful on an initial reclaim but if sellers then fail to get back through it I will take a shot.",
+   "kind": "fade", "gate": [28945,28969], "tgt": [[29100,29127],[29339,29378],[29469,29487]],
+   "stop_hint": "I’ll be careful on an initial reclaim but if sellers then fail to get back through it I will take a shot."
+  },
+  {
+   "id": "nq5", "instrument": "NQ", "name": "Front-run reclaim: failed push through 28800-28817 / 28742-28763", "dir": "long", "tag": "",
+   "quote": "I will also add that I am narrowly open to considering front running a reclaim. We have the 800-817 weekly level and the 742/763 prior weekly lows. Any kind of failed push through these spots which triggers a session uptrend likely retests Friday’s low. If it then reclaims Friday’s low then things can get spicy. I would categorize any kind of bottom fishing in this manner as low probability and extremely high reward.",
+   "kind": "fade", "gate": [28742,28817], "tgt": [28974.25],
+   "stop_hint": "With a low probability and high reward trade I personally size smaller and use tighter stops even if I wait for some kind of session trend reversal confirmation."
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Fail/LAAF of 7423-7430", "dir": "short", "tag": "B/B-",
+   "quote": "Short a fail/LAAF of 7423-7430 B/B-",
+   "kind": "fade", "gate": [7423,7430], "tgt": [[7395,7397],7379.75],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Fail/LAAF of 7449", "dir": "short", "tag": "B",
+   "quote": "Short a fail/LAAF of 7449 is a B",
+   "kind": "fade", "gate": [7449,7449], "tgt": [[7423,7430]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Fail/LAAF of 7478-7486", "dir": "short", "tag": "B+/A-",
+   "quote": "Short a fail/LAAF of 7478-7486 is a B+/A-",
+   "kind": "fade", "gate": [7478,7486], "tgt": [7449,[7423,7430]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Hold/LBAF of 7345-7350 (sellers fail through 7345-7350, 7354.25, 7363.25)", "dir": "long", "tag": "",
+   "quote": "Like for NQ (but without 2 effing paragraphs) I’m willing to look for a long on sellers’ inability to get through 7345-7350, 7354.25 and 7363.25, knowing that Friday’s low and 7395-7397 is a must reclaim for it to be any good.",
+   "kind": "fade", "gate": [7345,7350], "tgt": [7354.25,7363.25,7379.75,[7395,7397]],
+   "stop_hint": "knowing that Friday’s low and 7395-7397 is a must reclaim for it to be any good."
+  }
+ ]
+}

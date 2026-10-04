@@ -1,0 +1,69 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-19",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-519-64e",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Tuesday letter (posted Mon 5/18). No roll mention, numbers on M6. He says ES profile is 'ugly' and he'll be selective on ES; NQ profile 'infinitely cleaner'. ES today's high given as 7454.75 -> es2 gated on that number; ES/NQ today's low and NQ today's high not given numerically -> RTH_LOW/RTH_HIGH. nq1 'I would target roughly 29069 but the 955-990 weekly level' read as 29069 then 28955-28990; 'more clarity if 29069-29090 confirms as resistance' in stop_hint. nq2 'higher low back above 29114-29135' is a reclaim long -> kind break; no target stated -> Trading Higher levels 212, 280 (~last week's VWAP), today's high. nq3 gated on the 940-969 range he names, with 'a hold of 955-990 anyway ... possibly down to ... 926' in stop_hint; targets from 'If 955-990 holds ... rotation back to 069-090 and 114-135'. nq4 (LBAF of today's low) no target stated -> 28955-28990 then 29069-29090. nq5 'would need back below 280 bare minimum to see 114-135' -> target 29114-29135, 280 kept in stop_hint. es2 quote ends with 'is this:' pointing at an image not present in the text; no target stated -> 7433-7435. es3 no target in TRADES -> commentary 'if 7398-7403 holds then buyers most likely can retest 7433-7435 ... mindful of 7415' -> 7415, 7433-7435. es4 no target -> 7390-7392, 7398-7403. 'Friday's high' (ES) and 'last week's low' 7373.5 noted only as levels. Grades transcribed from 'X rating' suffixes.",
+ "zones": {
+  "ES": [[7463, 7465], [7433, 7435], [7415, 7415], [7390, 7392], [7454.75, 7454.75], [7398, 7403], [7369, 7373], [7373.5, 7373.5], [7377, 7379], [7420, 7420]],
+  "NQ": [[29383, 29397], [29114, 29135], [28700, 28726], [28955, 28990], [29069, 29090], [28800, 28817], [28940, 28969], [28940, 28940], [28926, 28926], [29212, 29212], [29280, 29280]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Fail/LAAF of 29114-29135", "dir": "short", "tag": "B/B+",
+   "quote": "Short a fail/LAAF of 29114-29135 with more clarity if 29069-29090 confirms as resistance. I would target roughly 29069 but the 955-990 weekly level. Monitor for continuation from there. B/B+ rating",
+   "kind": "fade", "gate": [29114, 29135], "tgt": [29069, [28955, 28990]],
+   "stop_hint": "with more clarity if 29069-29090 confirms as resistance"
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Higher low back above 29114-29135", "dir": "long", "tag": "B/B-",
+   "quote": "I’ll consider a long on a higher low back above 29114-29135 but you know I’m not a huge fan of reclaim longs and breakdown shorts. B/B- rating",
+   "kind": "break", "gate": [29114, 29135], "tgt": [29212, 29280, "RTH_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Active buyers near 28940-28969 (hold of 28955-28990)", "dir": "long", "tag": "B/B-",
+   "quote": "I’m willing to get long if active buyers present closer to the 940-969 range (a hold of 955-990 anyway), possibly down to the Sunday night overnight low of 926. B/B- rating",
+   "kind": "fade", "gate": [28940, 28969], "tgt": [[29069, 29090], [29114, 29135]],
+   "stop_hint": "(a hold of 955-990 anyway), possibly down to the Sunday night overnight low of 926"
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "LBAF of today's low", "dir": "long", "tag": "B-",
+   "quote": "I do still think we need to monitor for a LBAF of today’s low (always on watch) given some remaining demand not tested today. We saw how long 955-990 held before sellers finally pushed through (for all the good it did them in the end). B- rating",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [[28955, 28990], [29069, 29090]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5", "instrument": "NQ", "name": "LAAF of today's high", "dir": "short", "tag": "C+/B-",
+   "quote": "A LAAF of today’s high has to be on watch but it would need back below 280 bare minimum to see 114-135. Monitor for that to turn into a long vs continuation short. C+/B- rating",
+   "kind": "fade", "gate": ["RTH_HIGH", "RTH_HIGH"], "tgt": [[29114, 29135]],
+   "stop_hint": "it would need back below 280 bare minimum to see 114-135"
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Fail/LAAF of 7433-7435", "dir": "short", "tag": "C+",
+   "quote": "Maybe I’ll short a fail/LAAF of 7433-7435 targeting 20 and 15 and monitoring for continuation from there. C+ rating",
+   "kind": "fade", "gate": [7433, 7435], "tgt": [7420, 7415],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "LAAF of today's high (7454.75)", "dir": "short", "tag": "C+/B-",
+   "quote": "Short a LAAF of today’s high is maybe a C+/B- and the only reason I would include it rated that high is this:",
+   "kind": "fade", "gate": [7454.75, 7454.75], "tgt": [[7433, 7435]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Hold/LBAF of 7398-7403", "dir": "long", "tag": "C+/B-",
+   "quote": "Long a hold or LBAF of 7398-7403 (perhaps a LBAF into the 90-92 range) C+/B- rating.",
+   "kind": "fade", "gate": [7398, 7403], "tgt": [7415, [7433, 7435]],
+   "stop_hint": "perhaps a LBAF into the 90-92 range"
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "LBAF of today's low", "dir": "long", "tag": "B/B-",
+   "quote": "Long a LBAF of today’s low B/B- rating.",
+   "kind": "fade", "gate": ["RTH_LOW", "RTH_LOW"], "tgt": [[7390, 7392], [7398, 7403]],
+   "stop_hint": ""
+  }
+ ]
+}

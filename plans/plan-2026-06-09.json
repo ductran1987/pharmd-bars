@@ -1,0 +1,57 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-09",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-69-643",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Tue 6/9/2026 (posted Mon 6/8), June M6 contracts, no roll mentioned. Daily level list unchanged from 6/8. Today's highs/lows not given numerically: ES today's high failed just below 7478-7486, ES today's low just above 7395-7397; NQ today's low held 339-378 -> RTH_HIGH/RTH_LOW refs. nq1 'LBAF of today's low and 29339-29378' gated RTH_LOW (today's low sits in/at the zone); targets = the levels back up (469-487, 590-614, 740-758). nq2 targets: next weekly level ~100 handles lower (339-378), then today's low, 234-257 and Friday's low 28974.25 ('possibility for huge runners if today's low is lost'). nq3 no target -> 469-487. es1 'continuation to and through Friday's low' -> 7379.75 added as last target. es2 gate RTH_LOW, first target 23-30 then 46-49 (runners). es3 'higher low back above 23-30 in a session uptrend' -> break, gated 7423-7430. es4 LAAF of today's high is ungraded ('not grace it with a grading') -> tag ''; targets 46-49 then 23-30 from Trading Higher. NQ 943-980 and 848-869, ES 7469, 7446-7447 and 7495-7500 honorable mention kept as zones.",
+ "zones": {
+  "ES": [[7505,7505],[7395,7397],[7379.75,7379.75],[7363.25,7363.25],[7354.25,7354.25],[7423,7430],[7446,7447],[7446,7449],[7449,7449],[7469,7469],[7478,7486],[7495,7500],[7345,7350]],
+  "NQ": [[28974.25,28974.25],[28742,28742],[28663,28663],[29339,29378],[29234,29257],[29469,29487],[29590,29614],[29740,29758],[29848,29869],[29943,29980]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "LBAF of today's low and 29339-29378", "dir": "long", "tag": "A-",
+   "quote": "Long a LBAF of today’s low and 29339-29378 is an A- setup in.",
+   "kind": "fade", "gate": ["RTH_LOW","RTH_LOW"], "tgt": [[29469,29487],[29590,29614],[29740,29758]],
+   "stop_hint": "can then work back up the levels if 339-378 is firmly reclaimed (commentary)"
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Fail/LAAF of 29469-29487", "dir": "short", "tag": "B/B+",
+   "quote": "Short a fail or LAAF (better after we tested it so many times in the afternoon) of 469-487 is a B/B+ as it doesn’t represent much of a pop and premium relative to today’s value but given it is 100 handles to the next weekly level with the possibility for huge runners it today’s low is lost with continuation it warranted a decent grade.",
+   "kind": "fade", "gate": [29469,29487], "tgt": [[29339,29378],"RTH_LOW",[29234,29257],28974.25],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Fail/LAAF of 29590-29614", "dir": "short", "tag": "B+",
+   "quote": "Short a fail/LAAF of 590-614 is a B+.",
+   "kind": "fade", "gate": [29590,29614], "tgt": [[29469,29487]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Fail/LAAF of 7423-7430", "dir": "short", "tag": "B/B+",
+   "quote": "Short a fail/LAAF of 7423-7430 targeting today’s low and 7395-7397. Monitor for continuation to and through Friday’s low from there. B/B+",
+   "kind": "fade", "gate": [7423,7430], "tgt": ["RTH_LOW",[7395,7397],7379.75],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "LBAF of today's low holding 7395-7397", "dir": "long", "tag": "B/B-",
+   "quote": "A LBAF of today’s low which holds 7395-7397 for example is valid I just don’t see it as clean as for NQ. We still would need to remain mindful of 23-30 from below but if it reclaims then runners can balloon a bit. B/B-",
+   "kind": "fade", "gate": ["RTH_LOW","RTH_LOW"], "tgt": [[7423,7430],[7446,7449]],
+   "stop_hint": "which holds 7395-7397 for example"
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Higher low above 7423-7430 in session uptrend", "dir": "long", "tag": "B-",
+   "quote": "I hate reclaim longs but if I see a higher low back above 23-30 in a session uptrend then it is almost certainly going back to at least 46-49 or so with potential for 69 and today’s high so I’m okay giving it a B-",
+   "kind": "break", "gate": [7423,7430], "tgt": [[7446,7449],7469,"RTH_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "LAAF of today's high", "dir": "short", "tag": "",
+   "quote": "A LAAF of today’s high is valid even though one would think if sellers are serious that they would capitalize on today’s weak close. I’ll keep an open mind but not grace it with a grading.",
+   "kind": "fade", "gate": ["RTH_HIGH","RTH_HIGH"], "tgt": [[7446,7449],[7423,7430]],
+   "stop_hint": ""
+  }
+ ]
+}

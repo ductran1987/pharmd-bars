@@ -1,0 +1,63 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-31",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-331-c78",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Mon Mar 30, 2026 for Tue 3/31 ('The Setup for a Swing Low'); M6 contract, no roll mention. No new daily levels ('None'); commentary/weekly levels kept as zones. Letter typo 'weekly 6375-6783' read as 6375-6383 (the weekly 75-83 level from the 3/30 letter). Today's (3/30) high/low not given numerically -> RTH_LOW refs; NQ today's low only described as 'captured by the 025-045 range' (kept symbolic). The two LBAF-of-today's-low longs (es1, nq1) are listed in TRADES without a grade -> tag ''; his note 'it either works, or it doesn't, there is no reason to hold a bag' put in stop_hint. No targets stated in TRADES: es1 -> weekly 6375-6383 then 6412.5-6416 ('very fair chance to see 6412.5-6416'; he expects 6375-6383 to be filled in and rendered nearly useless); es2 -> 6375-6383 then today's low (Trading Lower: 'retest of today's low'); nq1 -> overnight-low range 23085-23096, 23146-23162, then 23269-23280 ('path back to 269-280'); nq2 -> 23146-23162, 23085-23096, then today's low. ES 'at least 34, probably 41' read as 6434 / 6441; NQ '330', '360', 'down to 400' read as 23330 / 23360 / 23400. NQ single prints 23254-23262 kept as a zone.",
+ "zones": {
+  "ES": [[6412.5, 6416], [6353, 6357], [6375, 6383], [6434, 6434], [6441, 6441], [6451, 6454]],
+  "NQ": [[23254, 23262], [23269, 23280], [23025, 23045], [23085, 23096], [23146, 23162], [23330, 23330], [23360, 23360], [23369, 23377], [23409, 23440], [23400, 23400]]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of today’s low. While this is perhaps premature, I do have reason to believe this can produce a swing low. Sellers are in full control, so it either works, or it doesn’t, there is no reason to hold a bag.",
+   "kind": "fade",
+   "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [[6375, 6383], [6412.5, 6416]],
+   "stop_hint": "it either works, or it doesn’t, there is no reason to hold a bag."
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 6412.5-6416",
+   "dir": "short",
+   "tag": "A+",
+   "quote": "Short a fail/LAAF of 6412.5-6416. This is the best pure setup out there and is an A+",
+   "kind": "fade",
+   "gate": [6412.5, 6416],
+   "tgt": [[6375, 6383], "RTH_LOW"],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of today’s low. While this is perhaps premature, I do have reason to believe this can produce a swing low. Sellers are in full control so it either works or it doesn’t, there is no reason to hold a bag.",
+   "kind": "fade",
+   "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [[23085, 23096], [23146, 23162], [23269, 23280]],
+   "stop_hint": "it either works or it doesn’t, there is no reason to hold a bag."
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 23269-23280",
+   "dir": "short",
+   "tag": "A+",
+   "quote": "Short a fail/LAAF of 269-280. This is the best pure setup out there and is an A+",
+   "kind": "fade",
+   "gate": [23269, 23280],
+   "tgt": [[23146, 23162], [23085, 23096], "RTH_LOW"],
+   "stop_hint": ""
+  }
+ ]
+}

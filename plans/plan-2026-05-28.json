@@ -1,0 +1,39 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-28",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-528",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Thursday letter (posted Wed 5/27). No roll mention, numbers on M6. He is traveling home 5/28. TRADES section has no grades -> all trades tag ''; he says 'The trades are pretty much the same as yesterday and outlined above' (only the setups he restates in TRADES are transcribed; the 5/27 plan is not copied in). Long-biased; 'no interest chasing a rally'. NQ commentary typo 'failed pushes through 29110-29129' read as 30110-30129 (the upper edge 'in the 30130 range' and the TRADES line say 30110-30129). nq1 short of a failed break of 30110-30129 targets this week's VPOC 29980-30000 then 'the 880s' (29880); '30069 ... if 069 is offered' kept in stop_hint. es1 'dips below 24' gated [7524,7524] (today's low 7515 just below); targets from 'trade past 24 and reclaim then it can rotate back to 44 (mindful of 31-33)'. nq2 'dips below ... 937/886' gated [29886,29937]; targets from 'A failed push through the 880s ... can suck back to 980 and 30110-30129'. es2 hold of 7531-7533 has no target stated -> 7544 then yesterday's 7555.25 high (his lean to see yesterday's high on a 7531-7533 reclaim). Conditional ES 'true gap up which holds' long (leaving the 2-day balance) names no level -> not transcribed. Commentary-only ideas (not in TRADES): ES fail back below 7544 short to 7524 (he is 'less enthusiastic'); ES/NQ LBAF of today's low (overlaps es1/nq2); ES sustain above 7547/7549-7552 toward 7569-7572.",
+ "zones": {
+  "ES": [[7544, 7544], [7524, 7524], [7499, 7502], [7515, 7515], [7569, 7572], [7531, 7533], [7547, 7547], [7549, 7552], [7555.25, 7555.25], [7509, 7513]],
+  "NQ": [[30069, 30069], [29782, 29782], [29635, 29635], [29317, 29338], [30760, 30776], [30630, 30646], [30500, 30516], [29937, 29937], [29886, 29886], [29880, 29880], [30130, 30130], [29980, 30000], [30110, 30129], [29711, 29730], [30369, 30386]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Failed break of 30110-30129", "dir": "short", "tag": "",
+   "quote": "I'm a bit more willing to short a failed break of 30110-30129 (remember to evaluate each session) if we do see continued rotation away from semis and NQ is a bit weak.",
+   "kind": "fade", "gate": [30110, 30129], "tgt": [[29980, 30000], 29880],
+   "stop_hint": "if we do see continued rotation away from semis and NQ is a bit weak"
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Dips below 7524", "dir": "long", "tag": "",
+   "quote": "Look for dips below 24 ES and 937/886 NQ but be aware that if we do get some rotation and relative strength into ES that it may leave this range completely in which case we end up longing a true gap up which holds and it suddenly isn’t chasing because we’ve left a 2-day balance.",
+   "kind": "fade", "gate": [7524, 7524], "tgt": [[7531, 7533], 7544],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Dips below 29937/29886", "dir": "long", "tag": "",
+   "quote": "Look for dips below 24 ES and 937/886 NQ but be aware that if we do get some rotation and relative strength into ES that it may leave this range completely in which case we end up longing a true gap up which holds and it suddenly isn’t chasing because we’ve left a 2-day balance.",
+   "kind": "fade", "gate": [29886, 29937], "tgt": [[29980, 30000], [30110, 30129]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Hold of 7531-7533", "dir": "long", "tag": "",
+   "quote": "I’m once again open to a long on a hold of 7531-7533 and we now have two days with a fair amount of selling below there. It worked overnight last night putting in the overnight low but the liquidation break at open was too much for it.",
+   "kind": "fade", "gate": [7531, 7533], "tgt": [7544, 7555.25],
+   "stop_hint": ""
+  }
+ ]
+}

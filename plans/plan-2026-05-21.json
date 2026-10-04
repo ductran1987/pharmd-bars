@@ -1,0 +1,57 @@
+{
+ "source": "pharmdks",
+ "date": "2026-05-21",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-521-a3d",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Thursday letter (posted Wed 5/20, after NVDA earnings - 'some minor weakness'). No roll mention, numbers on M6. LBAF of last week's low active; ES week 'a near perfect box'. ES/NQ today's high/low not given numerically (ES high barely wicked through Monday's 7454.75 high; NQ high in the 29383-29397 range) -> RTH_HIGH where used. es3 is the direct long on a reactive bid 'around 7410 or 7415' (gate [7410,7415], grade 'like a C' -> 'C'); no target stated -> 7422-7424 then 7455-7458 as in es2. es4 (long at 7398-7403, B-) no target -> commentary 'holds and triggers a reclaim of 7422-7424 then ... retest of today's high' -> 7422-7424, RTH_HIGH. nq1 'broadly targeting 210-234 but mindful of the 280s' -> 29280 kept as an intermediate target. nq2 target 29383-29397 only; commentary honorable mentions 280 and 350 noted, not added. nq3 ungraded front-run long on a reactive bid 'around 153 +/- 10' -> gate [29143,29163], tag '', targets 29210-29234 then 29383-29397. Friday's high 29469-29487, 29583-29600, demand zone 29069-29169, ES Friday high 7476 / RTH gap 7476-7480 / 7482-7485 kept as zones. Overnight low 28797.25 noted.",
+ "zones": {
+  "ES": [[7465, 7465], [7455, 7458], [7422, 7424], [7389, 7391], [7415, 7415], [7476, 7476], [7476, 7480], [7482, 7485], [7410, 7410], [7398, 7403], [7369, 7373], [7454.75, 7454.75]],
+  "NQ": [[29383, 29397], [29210, 29234], [29114, 29135], [28859, 28880], [28700, 28726], [28605, 28623], [28800, 28817], [28797.25, 28797.25], [29280, 29280], [29350, 29350], [29469, 29487], [29583, 29600], [29069, 29169], [29069, 29090], [28955, 28990], [29143, 29163]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "Fail/LAAF of 7455-7458", "dir": "short", "tag": "B",
+   "quote": "Short a fail or LAAF (even better) of 7455-7458. Buyers have the 30-minute trend in their favor with the daily and weekly in balance. I’ll rate it a B and broadly target 7422-7424 and monitor for continuation from there.",
+   "kind": "fade", "gate": [7455, 7458], "tgt": [[7422, 7424]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Hold/LBAF of 7422-7424", "dir": "long", "tag": "B+",
+   "quote": "Long a hold or (better for sure in this case) LBAF of 7422-7424 broadly targeting 7455-7458. Monitor for continuation from there. I’ll rate this a B+",
+   "kind": "fade", "gate": [7422, 7424], "tgt": [[7455, 7458]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Direct long on reactive bid around 7410-7415", "dir": "long", "tag": "C",
+   "quote": "Again, I’ll consider taking longs directly (more so on NQ than ES perhaps) below 7422-7424 if a reactive bid present around 7410 or 7415 or so which isn’t an obvious LBAF of 7422-7424. A quick LBAF (above) is a safer trade so I’ll rate this much lower like a C.",
+   "kind": "fade", "gate": [7410, 7415], "tgt": [[7422, 7424], [7455, 7458]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Hold of 7398-7403", "dir": "long", "tag": "B-",
+   "quote": "Even though it would look gross, I have to remain open to a long at 7398-7403 if it holds and I’ll rate it a B-",
+   "kind": "fade", "gate": [7398, 7403], "tgt": [[7422, 7424], "RTH_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "LAAF of 29383-29397", "dir": "short", "tag": "B-/C+",
+   "quote": "Short a LAAF of 29383-29397 broadly targeting 210-234 but mindful of the 280s. I’ll rate it a B-/C+ on NQ",
+   "kind": "fade", "gate": [29383, 29397], "tgt": [29280, [29210, 29234]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Hold/LBAF of 29210-29234", "dir": "long", "tag": "B+/A-",
+   "quote": "Long a hold or LBAF of 29210-29234 broadly targeting 383-397 and monitor for continuation from there. I’ll rate this a B+/A-.",
+   "kind": "fade", "gate": [29210, 29234], "tgt": [[29383, 29397]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Reactive bid around 29153 +/- 10 (front-run reclaim of 29210-29234)", "dir": "long", "tag": "",
+   "quote": "Like for ES, but more so NQ I’ll look for a reactive bid to come in around 153 +/- 10 and consider getting long to front run a reclaim of 210-234.",
+   "kind": "fade", "gate": [29143, 29163], "tgt": [[29210, 29234], [29383, 29397]],
+   "stop_hint": ""
+  }
+ ]
+}

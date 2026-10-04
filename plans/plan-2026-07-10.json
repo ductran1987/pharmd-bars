@@ -1,0 +1,301 @@
+{
+ "source": "pharmdks",
+ "date": "2026-07-10",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-710-5c5",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Fri 7/10/2026 (posted Thu 7/9). U6 (Sep) contracts, no roll mentioned. TRADES section is ungraded throughout -> every trade has tag ''. es1 (LBAF of honorable-mention 7578, 'I frankly don't love this but it is valid') has no stated target -> RTH_HIGH then 7598-7604 from Trading Higher. es2 targets 78 then today's high (from 'make sure 78 is reclaimed ... move toward today's high'). es3 is 'LAAF of today's high or any persistent failure to bid through 7598-7604 and 7594 last week's high' -> gated on RTH_HIGH (today's high ~ last week's 7594 high per commentary); 7594/7598-7604 kept as zones. nq1 short on 923-930 remaining firm resistance (arguably up to 969) -> targets 860, 836 from Trading Lower. nq2 target today's high (RTH_HIGH). nq3 targets 860, 890 ('mindful of 860 and maybe 890 from below') then 923-969 from commentary. nq6 LBAF of today's low (not given numerically) -> RTH_LOW, target 672-686 (first level up). Skipped 'I won't PLAN for a long in the 672-686 range' (explicitly not a planned trade). NQ 308-320 read as 30308-30320 (above 30269-30293). 'Maybe as high as 71' on es2 recorded in stop_hint, 7571 as a level.",
+ "zones": {
+  "ES": [
+   [
+    7559,
+    7561
+   ],
+   [
+    7527,
+    7531
+   ],
+   [
+    7502,
+    7502
+   ],
+   [
+    7598,
+    7604
+   ],
+   [
+    7594,
+    7594
+   ],
+   [
+    7578,
+    7578
+   ],
+   [
+    7566,
+    7569
+   ],
+   [
+    7571,
+    7571
+   ],
+   [
+    7540,
+    7543
+   ],
+   [
+    7509,
+    7515
+   ],
+   [
+    7472,
+    7476
+   ],
+   [
+    7472,
+    7515
+   ]
+  ],
+  "NQ": [
+   [
+    30008,
+    30008
+   ],
+   [
+    29808,
+    29820
+   ],
+   [
+    29672,
+    29686
+   ],
+   [
+    29420,
+    29430
+   ],
+   [
+    29923,
+    29969
+   ],
+   [
+    29923,
+    29930
+   ],
+   [
+    30069,
+    30100
+   ],
+   [
+    30269,
+    30293
+   ],
+   [
+    30308,
+    30320
+   ],
+   [
+    29890,
+    29891
+   ],
+   [
+    29860,
+    29860
+   ],
+   [
+    29836,
+    29836
+   ],
+   [
+    29740,
+    29769
+   ],
+   [
+    29569,
+    29595
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of 7578",
+   "dir": "long",
+   "tag": "",
+   "quote": "I hesitate to have a trade around an honorable mention level but maybe a LBAF of 7578 would work for a long given the demand sitting just below. I frankly don’t love this but it is valid.",
+   "kind": "fade",
+   "gate": [
+    7578,
+    7578
+   ],
+   "tgt": [
+    "RTH_HIGH",
+    [
+     7598,
+     7604
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7566-7569",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold (or LBAF since we have the weekly open and 59-61 just below) of 7566-7569 (maybe as high as 71) is a much better setup to me, and just make sure 78 is reclaimed from below to look for a move toward today’s high.",
+   "kind": "fade",
+   "gate": [
+    7566,
+    7569
+   ],
+   "tgt": [
+    7578,
+    "RTH_HIGH"
+   ],
+   "stop_hint": "(maybe as high as 71) ... just make sure 78 is reclaimed from below to look for a move toward today’s high."
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LAAF of today's high / failure at 7598-7604 and 7594",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a LAAF of today’s high or any persistent failure to bid through 7598-7604 and 7594 last week’s high. Targeting 78 and 66-69 and monitor for continuation.",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    7578,
+    [
+     7566,
+     7569
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail of 29923-29930 as resistance",
+   "dir": "short",
+   "tag": "",
+   "quote": "I have to lean on the short side if 923-930 (arguably up to 969) remains firm resistance (might be better if it has failed above today’s high first). I like this far less than I liked it to start the week, however. Bulls can perhaps be fine down to 891 so its a tight leash for me. Make note of the 860 honorable mention",
+   "kind": "fade",
+   "gate": [
+    29923,
+    29930
+   ],
+   "tgt": [
+    29860,
+    29836
+   ],
+   "stop_hint": "(arguably up to 969) ... Bulls can perhaps be fine down to 891 so its a tight leash for me."
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Persistent strength above 29923-29930",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’ll probably look for longs on persistent strength above 923-930 especially in a session uptrend looking for a retest of today’s high and monitor for continuation",
+   "kind": "break",
+   "gate": [
+    29923,
+    29930
+   ],
+   "tgt": [
+    "RTH_HIGH"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 29808-29820",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 808-820",
+   "kind": "fade",
+   "gate": [
+    29808,
+    29820
+   ],
+   "tgt": [
+    29860,
+    29890,
+    [
+     29923,
+     29969
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Hold of 29740-29769",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold of 740-769 (in this case I probably prefer it to hold as opposed to a LBAF) mindful of 808-820 from below.",
+   "kind": "fade",
+   "gate": [
+    29740,
+    29769
+   ],
+   "tgt": [
+    [
+     29808,
+     29820
+    ]
+   ],
+   "stop_hint": "(in this case I probably prefer it to hold as opposed to a LBAF)"
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Persistent weakness below 29808-29820",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short persistent weakness below 808-820 is risky and close to 740-769 but the only way this even happens is if today and last night’s buyer was temporary. This is a non-zero probability given the completely price insensitive nature of the buying.",
+   "kind": "break",
+   "gate": [
+    29808,
+    29820
+   ],
+   "tgt": [
+    [
+     29740,
+     29769
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq6",
+   "instrument": "NQ",
+   "name": "LBAF of today's low holding 29569-29595",
+   "dir": "long",
+   "tag": "",
+   "quote": "I do like a long on a LBAF of today’s low that holds the weekly 569-595 range.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     29672,
+     29686
+    ]
+   ],
+   "stop_hint": "that holds the weekly 569-595 range"
+  }
+ ]
+}

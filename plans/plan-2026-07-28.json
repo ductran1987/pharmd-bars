@@ -1,0 +1,229 @@
+{
+ "source": "pharmdks",
+ "date": "2026-07-28",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-728-177",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Tue 7/28/2026 (posted Mon 7/27; FOMC Wed). U6 (Sep) contracts, no roll mentioned. Plan relies on chart pictures for ES analysis/targets (not in page text), so ES targets taken from text levels only: es1 -> today's low then 7405-7408; es3 -> 7457-7462 then today's low. es2 gate: compound 'LBAF of today's low, last week's low, and the 6/28 week lows' (letter says ES has not yet broken Thursday's low) -> gated on last week's low 7411.75 and the 6/28-week low 7409, numbers taken from the 7/27 letter (not restated here). es3 'shorts from higher ... entering direct' (B-) names no single level -> gated on the resistance above 57-62 listed in the letter: weekly 7469(-7473)/B-period singles to 7473.5 up to 7479 'monitor for LAAF' -> [7469,7479] (ambiguous). NQ targets from commentary: LAAF of 28256 / failures at 28200-28228 must get through 28151-28188 and broadly target 27996, mindful of 28109-28121 HM, 28075 IB low, 28032 weekly in between; LBAF of today's low needs 27996 reclaim to find 28200-28228. Not planned: reclaim longs (both indices). Other commentary: holding above 28200-28228 (28256 to be sure) can retrace to 28373 (LAAF or continuation to 28448-28469); LAAF of 28373 back to 28256; continuation below today's low -> 27802-27819, 27740-27890 LBAF area. NQ June low 28228.",
+ "zones": {
+  "ES": [
+   [
+    7578,
+    7580
+   ],
+   [
+    7479,
+    7479
+   ],
+   [
+    7469,
+    7469
+   ],
+   [
+    7462,
+    7473.5
+   ],
+   [
+    7457,
+    7462
+   ],
+   [
+    7405,
+    7408
+   ]
+  ],
+  "NQ": [
+   [
+    29488,
+    29500
+   ],
+   [
+    29181,
+    29181
+   ],
+   [
+    29119,
+    29119
+   ],
+   [
+    28448,
+    28469
+   ],
+   [
+    28373,
+    28373
+   ],
+   [
+    28341,
+    28341
+   ],
+   [
+    28256,
+    28256
+   ],
+   [
+    28228,
+    28228
+   ],
+   [
+    28200,
+    28228
+   ],
+   [
+    28151,
+    28188
+   ],
+   [
+    28109,
+    28121
+   ],
+   [
+    28075,
+    28075
+   ],
+   [
+    28032,
+    28032
+   ],
+   [
+    27996,
+    27996
+   ],
+   [
+    27802,
+    27819
+   ],
+   [
+    27740,
+    27890
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7457-7462",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short a fail or (better) LAAF of 7457-7462 is an A/A-",
+   "kind": "fade",
+   "gate": [
+    7457,
+    7462
+   ],
+   "tgt": [
+    "RTH_LOW",
+    [
+     7405,
+     7408
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of today's low, last week's low and the 6/28-week lows",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "Long a LBAF of today’s low, last week’s low, and the 6/28 week lows (whether it holds 7405-7408 as drawn in the picture or not doesn’t matter) is an A/A-",
+   "kind": "fade",
+   "gate": [
+    7409,
+    7411.75
+   ],
+   "tgt": [
+    "RTH_LOW",
+    [
+     7457,
+     7462
+    ]
+   ],
+   "stop_hint": "whether it holds 7405-7408 as drawn in the picture or not doesn’t matter"
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Direct shorts from higher (7469-7479 area)",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "The shorts from higher are trickier as they ultimately need to trigger a loss of 57-62 but I’ll take them if they set up with a much lower rating because of the risk we go on a “structure repair mission” especially overnight. Something like a B- for entering direct as you can see how tight a spot it is to work with.",
+   "kind": "fade",
+   "gate": [
+    7469,
+    7479
+   ],
+   "tgt": [
+    [
+     7457,
+     7462
+    ],
+    "RTH_LOW"
+   ],
+   "stop_hint": "they ultimately need to trigger a loss of 57-62"
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 28200-28228",
+   "dir": "short",
+   "tag": "A-/B+",
+   "quote": "Short a fail/LAAF of 200-228 is really the trade as a LAAF of 256 would need to lose 200-228. It is interesting that NQ looks “congested” to the downside here making this tricky whereas ES looks more congested to the upside on a reclaim. Because of this I would normally rate this an A+ short but I’ll rate it an A-/B+ now after that marginal higher high late today. Still a good trade",
+   "kind": "fade",
+   "gate": [
+    28200,
+    28228
+   ],
+   "tgt": [
+    [
+     28151,
+     28188
+    ],
+    [
+     28109,
+     28121
+    ],
+    28075,
+    28032,
+    27996
+   ],
+   "stop_hint": "a LAAF of 256 would need to lose 200-228"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of today's low (needs 27996 reclaim)",
+   "dir": "long",
+   "tag": "A-",
+   "quote": "Long a LBAF of today’s low (will need to reclaim 27996) is an A-. Normally a long wouldn’t be rated this highly in a bearish trend but there is a fair enough chance that this is a trap for a huge rip that I have to give it a decent rating.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    27996,
+    28032,
+    28075,
+    [
+     28109,
+     28121
+    ],
+    [
+     28151,
+     28188
+    ],
+    [
+     28200,
+     28228
+    ]
+   ],
+   "stop_hint": "will need to reclaim 27996"
+  }
+ ]
+}

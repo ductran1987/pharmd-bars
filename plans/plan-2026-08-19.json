@@ -1,0 +1,27 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-19",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-819-d04",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Tue 8/18 for Wed 8/19 (OPEX week). U (Sep) contract, no roll mention. Today's high/low not given numerically for either index -> RTH_HIGH/RTH_LOW. nq1 ('okay with longs if holding 560-569 and ES rejecting today's spike; can play as a LBAF of today's low') gated on 29560-29569 hold; the LBAF-of-RTH_LOW variant is the same trade. es2 'LAAF of today's high or perhaps any sweep of 7729' gated RTH_HIGH (7729 kept as zone; unclear whether 7729 is today's high). Targets not stated in TRADES taken from commentary: nq1 -> honorable mentions 602/626/665 then 682-719; nq2 -> 665/626/602, 560-569, today's low; es1 -> 7716.5, 7721-7727 (7727), today's high; es2 -> 7721-7727, 7716.5, 7710-7713. 'We can generally join an active downtrend within today's range' (both NQ and ES) has no level -> not a trade. ES 7706-7714 was yesterday's daily level (now replaced by 7710-7713).",
+ "zones": {
+  "ES": [[7800, 7800], [7780, 7781], [7772, 7773], [7743, 7746], [7710, 7713], [7686.5, 7692.5], [7727, 7727], [7716.5, 7716.5], [7721, 7727], [7759, 7762], [7766.25, 7766.25], [7706, 7714], [7729, 7729]],
+  "NQ": [[30137, 30155], [30079, 30087], [29560, 29569], [29181, 29181], [30269, 30269], [29682, 29719], [29602, 29602], [29626, 29626], [29665, 29665], [29432, 29449], [29208, 29241]]
+ },
+ "trades": [
+  {"id": "nq1", "instrument": "NQ", "name": "Hold of 29560-29569 / LBAF of today's low", "dir": "long", "tag": "B-",
+   "quote": "I’m okay with longs on NQ if it is holding 560-569 and ES is rejecting today’s spike. This can play as a LBAF of today’s low, which is safer to take on a higher low back above 560-569 with supportive session information. B-", "kind": "fade",
+   "gate": [29560, 29569], "tgt": [29602, 29626, 29665, [29682, 29719]], "stop_hint": "if it is holding 560-569 and ES is rejecting today’s spike"},
+  {"id": "nq2", "instrument": "NQ", "name": "Fail of 29682-29719", "dir": "short", "tag": "B+",
+   "quote": "Short a fail of 682-719 B+", "kind": "fade",
+   "gate": [29682, 29719], "tgt": [29665, 29626, 29602, [29560, 29569], "RTH_LOW"], "stop_hint": ""},
+  {"id": "es1", "instrument": "ES", "name": "Hold/LBAF of 7710-7713", "dir": "long", "tag": "B/B-",
+   "quote": "Long a hold or LBAF of 7710-7713 B/B- (it is at least easy to know when you’re wrong)", "kind": "fade",
+   "gate": [7710, 7713], "tgt": [7716.5, [7721, 7727], "RTH_HIGH"], "stop_hint": "(it is at least easy to know when you’re wrong)"},
+  {"id": "es2", "instrument": "ES", "name": "LAAF of today's high (or sweep of 7729)", "dir": "short", "tag": "B/B-",
+   "quote": "Short a LAAF of today’s high or perhaps any sweep of 7729. B/B-", "kind": "fade",
+   "gate": ["RTH_HIGH", "RTH_HIGH"], "tgt": [[7721, 7727], 7716.5, [7710, 7713]], "stop_hint": ""}
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-23",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-423-96a",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Wed Apr 22, 2026 for Thu 4/23; M6 contract, no roll mention. No TRADES section: only levels + COMMENTARY + PRICE (ES:/NQ: subsections, ungraded prose) -> trades []. NQ broke out of the multi-day balance; ES sits at top of a 4-day balance, 'nothing has changed on ES from yesterday'. Commentary ideas (ungraded, not promoted): ES monitor for upside break with continuation vs a LAAF of the balance high (today's high ~= yesterday's high, RTH_HIGH; ES spike base 7166.25); if ES takes today's low before Friday's high -> 5-day balance. NQ long bias / buy dips until back below 26864 minimum and really taking out today's low (RTH_LOW); true gap up which holds today's high (or at least spike base 27052.25 and reclaims today's high) is a continuation long; if NQ fails back below its spike base (written '27057', 'really probably 27050'; earlier given as 27052.25) look for a reactive bid in 26996-27014 (27008 most likely), else 26969-26987; ideal dip buy = single prints 26893-26940, monitor LBAF of 26940; hold or LBAF of 26894-26911 works as well. NQ range double ~27169 (just above weekly 27150-27169) or 27230-27246; next HTF extension 27326 (weekly 27304-27326). YM short / NQ long dispersion idea skipped (YM).",
+ "zones": {
+  "ES": [
+   [
+    7085,
+    7089
+   ],
+   [
+    7062,
+    7064.5
+   ],
+   [
+    7166.25,
+    7166.25
+   ]
+  ],
+  "NQ": [
+   [
+    26940,
+    26940
+   ],
+   [
+    26802,
+    26815
+   ],
+   [
+    26656,
+    26669
+   ],
+   [
+    26420,
+    26430
+   ],
+   [
+    26355,
+    26355
+   ],
+   [
+    26893,
+    26940
+   ],
+   [
+    26894,
+    26911
+   ],
+   [
+    26715,
+    26735
+   ],
+   [
+    27150,
+    27169
+   ],
+   [
+    27230,
+    27246
+   ],
+   [
+    27304,
+    27326
+   ],
+   [
+    27326,
+    27326
+   ],
+   [
+    27052.25,
+    27052.25
+   ],
+   [
+    27057,
+    27057
+   ],
+   [
+    27050,
+    27050
+   ],
+   [
+    26996,
+    27014
+   ],
+   [
+    27008,
+    27008
+   ],
+   [
+    26969,
+    26987
+   ],
+   [
+    26864,
+    26864
+   ]
+  ]
+ },
+ "trades": []
+}

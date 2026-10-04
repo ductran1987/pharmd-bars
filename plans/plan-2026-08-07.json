@@ -1,0 +1,224 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-07",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-87-4ed",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Fri 8/7/2026 (posted Thu 8/6). U6 (Sep) contracts, no roll mentioned. 'Today' = Thu 8/6. NQ in a 3-day balance above Tuesday's RTH bull gap; letter says NQ is the cleaner read ('We therefore look to NQ'). ES today's low given as 7724 ('today's 24 low') -> es1 gated on the number; es1 'will need to reclaim at least 28' treated as condition (stop_hint), targets 38-41, 48-51. '7648.75 ATH' is below today's 7724 low - it recurs in later letters, so it is a carried-over old-ATH level, kept as a zone. NQ today's high/low and Tuesday's low not given numerically (today's low is 'just below the weekly 261-291'). nq1 'LBAF of today and Tuesday's low' gated [RTH_LOW, TUE_LOW] - both lows form the 3-day-balance low, which one is lower is unknown, so the resolver should take min/max; nq1 targets = the 'two weekly levels and 448 to get through' (261-291, 369-397, 448) then today's high per commentary ('can be a long back toward today's high'). nq2 targets from 'Any failed break of today's high will get sucked back to 540-569 and probably 530, with potential for 448 and today's low'. nq3 targets 530 then weekly 540-569 ('will suction back to 530 (call it the weekly 540-569)'). NQ 29269-29369 = tagged target zone; 30069 prior failure; 29969-29994 weekly level he added late. ES 7746 = yesterday's low.",
+ "zones": {
+  "ES": [
+   [
+    7792,
+    7795
+   ],
+   [
+    7774,
+    7775
+   ],
+   [
+    7752,
+    7760
+   ],
+   [
+    7748,
+    7751
+   ],
+   [
+    7746,
+    7746
+   ],
+   [
+    7738,
+    7741
+   ],
+   [
+    7728,
+    7728
+   ],
+   [
+    7724,
+    7724
+   ],
+   [
+    7648.75,
+    7648.75
+   ]
+  ],
+  "NQ": [
+   [
+    30069,
+    30069
+   ],
+   [
+    29969,
+    29994
+   ],
+   [
+    29891,
+    29910
+   ],
+   [
+    29702,
+    29702
+   ],
+   [
+    29540,
+    29569
+   ],
+   [
+    29530,
+    29530
+   ],
+   [
+    29475,
+    29475
+   ],
+   [
+    29448,
+    29448
+   ],
+   [
+    29369,
+    29397
+   ],
+   [
+    29269,
+    29369
+   ],
+   [
+    29261,
+    29291
+   ],
+   [
+    29181,
+    29181
+   ],
+   [
+    28847,
+    28865
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of today's low (7724)",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a LBAF of today’s low will need to reclaim at least 28 to find 38-41 and 48-51. Monitor for continuation from there. B/B- rating",
+   "kind": "fade",
+   "gate": [
+    7724,
+    7724
+   ],
+   "tgt": [
+    [
+     7738,
+     7741
+    ],
+    [
+     7748,
+     7751
+    ]
+   ],
+   "stop_hint": "will need to reclaim at least 28"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7748-7751",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "Short a fail or (better) LAAF of 48-51 targeting 38-41, 28, and today’s 24 low. Monitor for continuation from there. B/B- rating",
+   "kind": "fade",
+   "gate": [
+    7748,
+    7751
+   ],
+   "tgt": [
+    [
+     7738,
+     7741
+    ],
+    7728,
+    7724
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of today and Tuesday's low",
+   "dir": "long",
+   "tag": "A/A+",
+   "quote": "LBAF of today and Tuesday’s low is an A/A+ long. We would have two weekly levels and 448 to get through before any meaningful bigger picture confidence in this trade but it simply has to carry a strong rating as a 3-day balance sitting atop an RTH bull gap.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "TUE_LOW"
+   ],
+   "tgt": [
+    [
+     29261,
+     29291
+    ],
+    [
+     29369,
+     29397
+    ],
+    29448,
+    "RTH_HIGH"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "B/B+",
+   "quote": "Short a LAAF of today’s high is a B/B+",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    [
+     29540,
+     29569
+    ],
+    29530,
+    29448,
+    "RTH_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of 29448",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "I suppose long a LBAF of 448 works as a B-.",
+   "kind": "fade",
+   "gate": [
+    29448,
+    29448
+   ],
+   "tgt": [
+    29530,
+    [
+     29540,
+     29569
+    ]
+   ],
+   "stop_hint": "448, and at that point, 475 would need to reclaim"
+  }
+ ]
+}

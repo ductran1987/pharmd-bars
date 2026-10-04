@@ -1,0 +1,4127 @@
+{
+ "2025-06-06": {
+  "ES": {
+   "contract": "ESM5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 30 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM5",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2025-06-09": {
+  "ES": {
+   "contract": "ESM5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM5",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2025-06-10": {
+  "ES": {
+   "contract": "ESM5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 26 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM5",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2025-06-11": {
+  "ES": {
+   "contract": "ESM5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM5",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2025-06-12": {
+  "ES": {
+   "contract": "ESM5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 30 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM5",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2025-06-13": {
+  "ES": {
+   "contract": "ESM5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM5",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2025-06-16": {
+  "ES": {
+   "contract": "ESM5",
+   "source": "letter",
+   "bars": true,
+   "check": "80% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM5",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2025-06-17": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-06-18": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 24 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-06-20": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-06-23": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-06-24": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 24 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-06-25": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "93% of 30 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-06-26": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-06-27": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "95% of 38 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 24 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-06-30": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-01": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-02": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-03": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": false,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": false,
+   "check": "100% of 14 gate levels inside the last 5 sessions' range"
+  },
+  "both": false
+ },
+ "2025-07-07": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-08": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-09": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-10": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-11": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-14": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 14 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-15": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "80% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-16": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-17": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-18": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-21": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-22": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 24 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-23": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-24": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-25": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-28": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-29": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-30": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-07-31": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "88% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-01": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "88% of 34 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-04": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-05": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-06": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-07": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 28 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-08": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 26 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 14 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-11": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-12": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "92% of 26 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-13": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-14": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-15": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-18": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-19": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-20": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-21": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-22": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 24 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-25": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-26": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-27": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-28": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-08-29": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-02": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-03": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-04": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 26 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 14 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-05": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 28 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-08": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-09": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 26 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-10": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 24 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-11": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 24 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-12": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-15": {
+  "ES": {
+   "contract": "ESU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-16": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-17": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "91% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-18": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-19": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-22": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-23": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 14 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-24": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-25": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 26 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 30 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-26": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 30 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 30 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-29": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-09-30": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-01": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-02": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-03": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-06": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-07": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-08": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-09": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-10": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-13": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "83% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-14": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-15": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-16": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-20": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 14 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-21": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-22": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-23": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-24": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 24 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-27": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-28": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-29": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-30": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-10-31": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-03": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-04": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-05": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-06": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-07": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-10": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": ""
+  },
+  "both": true
+ },
+ "2025-11-11": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-12": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-13": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-14": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 32 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-17": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-18": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-19": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-20": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-21": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "76% of 34 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "67% of 24 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-24": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-25": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-11-26": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-12-01": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-12-02": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-12-03": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-12-04": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 14 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-12-05": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 28 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-12-08": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-12-09": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-12-10": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "97% of 38 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 24 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-12-11": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-12-12": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 32 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-12-15": {
+  "ES": {
+   "contract": "ESZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ5",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2025-12-16": {
+  "ES": {
+   "contract": "ESH6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQH6",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2025-12-17": {
+  "ES": {
+   "contract": "ESH6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQH6",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2025-12-18": {
+  "ES": {
+   "contract": "ESH6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQH6",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2025-12-19": {
+  "ES": {
+   "contract": "ESH6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQH6",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2026-03-06": {
+  "ES": {
+   "contract": "ESH6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 14 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQH6",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2026-03-09": {
+  "ES": {
+   "contract": "ESH6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQH6",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2026-03-10": {
+  "ES": {
+   "contract": "ESH6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQH6",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2026-03-11": {
+  "ES": {
+   "contract": "ESH6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQH6",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2026-03-12": {
+  "ES": {
+   "contract": "ESH6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQH6",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2026-03-13": {
+  "ES": {
+   "contract": "ESH6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQH6",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2026-03-16": {
+  "ES": {
+   "contract": "ESH6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQH6",
+   "source": "letter",
+   "bars": false,
+   "check": "no bars for mapped contract before this date"
+  },
+  "both": false
+ },
+ "2026-03-17": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 14 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-03-18": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-03-19": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-03-20": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 14 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-03-23": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-03-24": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-03-25": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "91% of 46 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 30 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-03-26": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-03-27": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-03-30": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-03-31": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-01": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-02": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 24 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-06": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-07": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-08": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 32 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "96% of 28 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-09": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-10": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-13": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-14": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-15": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-16": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "94% of 36 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "96% of 48 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-17": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-20": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-21": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-22": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-23": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 38 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-24": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-27": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-28": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-29": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-04-30": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 24 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 30 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-01": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-04": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-05": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-06": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-07": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-08": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "93% of 30 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 36 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-11": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-12": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-13": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-14": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-15": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-18": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-19": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-20": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-21": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-22": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-26": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-27": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-28": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-05-29": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-01": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-02": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-03": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-04": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 36 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 26 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-05": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-08": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-09": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-10": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-11": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-12": {
+  "ES": {
+   "contract": "ESM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQM6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-15": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-16": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-17": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 34 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-18": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 34 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 38 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-22": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-23": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-24": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-25": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-26": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-29": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-06-30": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-01": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-02": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-06": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-07": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-08": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "80% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-09": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-10": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-20": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-21": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-22": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-23": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 26 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-24": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 30 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-27": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-28": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-29": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-30": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-07-31": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-03": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-04": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-05": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-06": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-07": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-10": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-11": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-12": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 26 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-13": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-17": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-18": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-19": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-20": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 30 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 32 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-21": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-24": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-25": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-26": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-27": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "89% of 18 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-28": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "letter",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-08-31": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-01": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-02": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-03": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-04": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 10 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-08": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-09": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-10": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-11": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 14 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "default",
+   "bars": true,
+   "check": "91% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-14": {
+  "ES": {
+   "contract": "ESU6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 20 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQU6",
+   "source": "default",
+   "bars": false,
+   "check": "100% of 22 gate levels inside the last 5 sessions' range"
+  },
+  "both": false
+ },
+ "2026-09-15": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-16": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 36 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-17": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-18": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 12 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-21": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-22": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 2 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-23": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-24": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 24 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 16 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-25": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-28": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 5 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-29": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 4 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-09-30": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 7 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-10-01": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ },
+ "2026-10-02": {
+  "ES": {
+   "contract": "ESZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 6 gate levels inside the last 5 sessions' range"
+  },
+  "NQ": {
+   "contract": "NQZ6",
+   "source": "default",
+   "bars": true,
+   "check": "100% of 8 gate levels inside the last 5 sessions' range"
+  },
+  "both": true
+ }
+}

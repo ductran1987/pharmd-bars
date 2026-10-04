@@ -1,0 +1,57 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-05",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-65-835",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Fri 6/5/2026 (posted Thu 6/4), NFP day, June M6 contracts, no roll mentioned. es2 quote says 'targeting 59 and today's high' but 7559 is below the 7586-7588 long gate; read as a typo for 98 (commentary: 'If it holds then bulls can retest 7598 with potential for today's high') -> tgt 7598, RTH_HIGH. ES today's high (stalled at the weekly 7610-7613) and NQ today's high (stalled at 600-617) not given numerically -> RTH_HIGH. es4 'maybe short ... persistent weakness below 7597-7600' -> break; no target stated -> 7586-7588 then 7569-7572 from Trading Lower. nq2 targets: quote says 'probably at least see 348-369'; commentary leans to 424 (Tuesday's low) on a rejection at 503-511 with weekly 448-469 just below -> tgt 448-469, 424, 348-369 nearest-first. nq3 no target -> first levels above from commentary (424, 448-469, 503-511). Ungraded NQ longs below 348-369 ('I can't rate such a long', front run) not transcribed. 187-197 (quote) and 200-219 (commentary) kept as zones; 292 Monday's low minor level; ES 81-86 demand and 7615 kept as zones.",
+ "zones": {
+  "ES": [[7597,7600],[7598,7598],[7586,7588],[7581,7586],[7540,7540],[7528,7528],[7499,7502],[7549,7552],[7569,7572],[7610,7613],[7615,7615],[7631,7634]],
+  "NQ": [[30693,30693],[30662,30662],[30503,30511],[30348,30369],[30053,30069],[30110,30129],[30242,30269],[30600,30617],[30732,30750],[30448,30469],[30424,30424],[30292,30292],[30200,30219],[30187,30197]]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES", "name": "Fail/LAAF of 7610-7613", "dir": "short", "tag": "B/B-",
+   "quote": "Short a fail/LAAF of 7610-7613 targeting 7598 and 86-88. Monitor for continuation from there. I’ll rate this a B/B-.",
+   "kind": "fade", "gate": [7610,7613], "tgt": [7598,[7586,7588]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Hold/LBAF of 7586-7588", "dir": "long", "tag": "B",
+   "quote": "Long a hold or LBAF of 86-88, targeting 59 and today’s high. Monitor for continuation. B rating.",
+   "kind": "fade", "gate": [7586,7588], "tgt": [7598,"RTH_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "Hold/quick LBAF of 7569-7572", "dir": "long", "tag": "A/A-",
+   "quote": "Long a hold or quick LBAF of 7569-7572 targeting 86-88 then 98 and today’s high. I’ll rate this an A/A-",
+   "kind": "fade", "gate": [7569,7572], "tgt": [[7586,7588],7598,"RTH_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES", "name": "Persistent weakness below 7597-7600", "dir": "short", "tag": "C+/B-",
+   "quote": "I’ll maybe short 7597-7600 if we see persistent weakness below there. Rated C+/B-",
+   "kind": "break", "gate": [7597,7600], "tgt": [[7586,7588],[7569,7572]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1", "instrument": "NQ", "name": "LAAF of today's high", "dir": "short", "tag": "B/B-",
+   "quote": "Short a LAAF of today’s high targeting 503-511 and monitor for continuation from there. B/B- rating.",
+   "kind": "fade", "gate": ["RTH_HIGH","RTH_HIGH"], "tgt": [[30503,30511]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Fail/LAAF of 30503-30511", "dir": "short", "tag": "A/A-",
+   "quote": "Short a fail/LAAF of 503-511 is rated an A/A- which is higher than many might expect but if today’s high was distributive then this week’s VPOC looks distributive and we probably at least see 348-369 if not more.",
+   "kind": "fade", "gate": [30503,30511], "tgt": [[30448,30469],30424,[30348,30369]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Hold/LBAF of 30348-30369", "dir": "long", "tag": "A/A-",
+   "quote": "Long a hold or LBAF of 348-369 is an A/A- especially if 503-511 hasn’t been tested. Really this area down to 187-197 should be ultra reactive and if it isn’t then something has changed.",
+   "kind": "fade", "gate": [30348,30369], "tgt": [30424,[30448,30469],[30503,30511]],
+   "stop_hint": "Really this area down to 187-197 should be ultra reactive and if it isn’t then something has changed."
+  }
+ ]
+}

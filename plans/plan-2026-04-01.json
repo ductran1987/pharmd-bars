@@ -1,0 +1,63 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-01",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-41",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Tue Mar 31, 2026 for Wed 4/1 ('And Swing Low it Was. Now for the Back Test'); M6 contract, no roll mention. All four TRADES are ungraded -> tag ''. New daily levels: ES 6529 (monitor for LBAF); NQ 23869-23875, 23747.5 (monitor for LBAF). Today's (3/31) highs given numerically (ES 6583.25, NQ 23975.25) and spike bases ES 6566.75 / NQ 23912.5 kept as zones; the short trades are gated on the 'failure to sustain above' zones (ES 6573-6580, NQ 23901-23933), which he says include a LAAF of today's high trapped back below. es1/nq1 'broadly target 6529 / 23747.5' -> single target (he says monitor levels in between). es2 '54, 66, and 73-80' -> 6554, 6566 (the 6566.75 spike base), 6573-6580. nq2 targets 23804-23822, 23869-23875, plus 23901-23933 from 'monitoring for continuation to and through 901-933'. Front-run variants within the singles (ES 6513-6519 reclaiming 6520.25; NQ needing to reclaim Thursday's 23775 low) are optional add-ons to es2/nq2, not separate trades. ES 'the 6440s' recorded as [6440,6449]; ES 'October low closer to 6550' kept as 6550. Old yearly 6513-6600 (now split into 6519-6539 / 6612-6622) not kept as a zone.",
+ "zones": {
+  "ES": [[6529, 6529], [6353, 6357], [6497.25, 6529.25], [6513, 6519], [6520.25, 6520.25], [6492, 6496], [6566.75, 6566.75], [6583.25, 6583.25], [6550, 6550], [6573, 6580], [6548.5, 6551.5], [6554, 6554], [6440, 6449], [6451, 6454], [6441, 6441], [6519, 6539], [6612, 6622]],
+  "NQ": [[23869, 23875], [23747.5, 23747.5], [23587.75, 23747.5], [23699, 23710], [23647, 23669], [23569, 23581], [23912.5, 23912.5], [23901, 23933], [23975.25, 23975.25], [23804, 23822], [23409, 23440], [23369, 23377], [24069, 24369], [24052, 24069], [23775, 23775]]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Failure to sustain above 6573-6580 (incl. LAAF of today's high 6583.25)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short any failure from bulls to sustain above 6573-6580 inclusive of a LAAF of today’s high which gets trapped back below. I would broadly target 6529 while of course monitoring the levels in between and for continuation into the single prints.",
+   "kind": "fade",
+   "gate": [6573, 6580],
+   "tgt": [6529],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of 6529",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long any LBAF of 6529 broadly targeting 54, 66, and 73-80 monitoring the levels between 29 and 54. I may choose to front run a reclaim of 6529 if we trade within the singles and see responsive buying in real time. It is hard to plan exactly where as anywhere within the singles can be reactive but the 13-19 range makes the most sense and as long as it reclaims 20.25 then the bearish RTH gap may have flipped to support.",
+   "kind": "fade",
+   "gate": [6529, 6529],
+   "tgt": [6554, 6566, [6573, 6580]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Failure to sustain above 23901-23933 (incl. LAAF of today's high 23975.25)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short any failure from bulls to sustain above 23901-23933 inclusive of a LAAF of today’s high which gets trapped back below. I would broadly target 23747.5 while of course monitoring the levels in between and for continuation into the single prints.",
+   "kind": "fade",
+   "gate": [23901, 23933],
+   "tgt": [23747.5],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of 23747.5",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long any LBAF of 23747.5 broadly targeting 804-822 and 869-875 monitoring for continuation to and through 901-933 from there. I may choose to front run a reclaim of 747.5 if we trade within the singles and see responsive buying in real time but I am slightly less likely to do so as Thursday’s 775 low is important to quickly reclaim.",
+   "kind": "fade",
+   "gate": [23747.5, 23747.5],
+   "tgt": [[23804, 23822], [23869, 23875], [23901, 23933]],
+   "stop_hint": ""
+  }
+ ]
+}

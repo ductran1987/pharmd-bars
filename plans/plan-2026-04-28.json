@@ -1,0 +1,294 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-28",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-428-640",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Mon Apr 27, 2026 for Tue 4/28; M6 contract, no roll mention. All TRADES ungraded -> tags ''. He plans to be very selective ('don't plan to take much tomorrow'); shorts flagged as low probability / high reward. ES today's high 7211.25, spike base 7207.25 (es1 gated on the spike [7207.25, 7211.25]); ES today's low 7177 given -> es3 gated on number (Sunday night low 7171.5, overnight high 7208.5). es2 stated target 7206-7211; 'continuation to and through today's high for upside extensions' -> added the Trading Higher major targets 7234-7239, 7269, 7280. es1 has no stated target -> 7234-7239, 7269, 7280. es4 'persistent failures back below 7198-7201' treated as fade (flip to resistance); targets 89/85 from the trade text (7189, 7185) then 7177-7182 and 7115.5-7121 from Trading Lower. NQ spike base 27439.75, today's high 27454.75 (inside Friday's range); NQ today's low not given numerically -> nq3 gated RTH_LOW. nq1 upside targets: spike base, today's high, Friday's high (FRI_HIGH), weekly 27486-27504; 'the overnight high' (Mon 4/27 ON session) also named but not encoded (ON_HIGH would resolve to the 4/28 overnight). nq1 explicitly 'I'm not going to long' it but 'it is valid'. nq2 no stated target -> 27408-27417 ('it can come back to 408-417'). NQ Friday singles from today's low down to 27267; weekly 27267-27286, 27150-27169. Trap-door setup and commentary-only ideas not promoted (ES LBAF of today's low/overnight low after 7177-7182 lost; NQ below 267-286 toward Friday's low / 150-169). NQ VAH ~27408.",
+ "zones": {
+  "ES": [
+   [
+    7198,
+    7201
+   ],
+   [
+    7206,
+    7211
+   ],
+   [
+    7207.25,
+    7207.25
+   ],
+   [
+    7211.25,
+    7211.25
+   ],
+   [
+    7177,
+    7182
+   ],
+   [
+    7177,
+    7177
+   ],
+   [
+    7171.5,
+    7171.5
+   ],
+   [
+    7208.5,
+    7208.5
+   ],
+   [
+    7234,
+    7239
+   ],
+   [
+    7269,
+    7269
+   ],
+   [
+    7280,
+    7280
+   ],
+   [
+    7185,
+    7185
+   ],
+   [
+    7189,
+    7189
+   ],
+   [
+    7115.5,
+    7121
+   ]
+  ],
+  "NQ": [
+   [
+    27408,
+    27417
+   ],
+   [
+    27439.75,
+    27439.75
+   ],
+   [
+    27454.75,
+    27454.75
+   ],
+   [
+    27486,
+    27504
+   ],
+   [
+    27332,
+    27360
+   ],
+   [
+    27340,
+    27340
+   ],
+   [
+    27267,
+    27286
+   ],
+   [
+    27267,
+    27267
+   ],
+   [
+    27150,
+    27169
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "True gap up above today's high holding back test of high/spike (7207.25-7211.25)",
+   "dir": "long",
+   "tag": "",
+   "quote": "A true gap up (above today’s RTH high) is a long as long as it holds a back test of today’s high and spike.",
+   "kind": "break",
+   "gate": [
+    7207.25,
+    7211.25
+   ],
+   "tgt": [
+    [
+     7234,
+     7239
+    ],
+    7269,
+    7280
+   ],
+   "stop_hint": "as long as it holds a back test of today’s high and spike"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7198-7201",
+   "dir": "long",
+   "tag": "",
+   "quote": "A hold or LBAF of 7198-7201 is a long back up to 7206-7211 and monitor for continuation to and through today’s high for upside extensions.",
+   "kind": "fade",
+   "gate": [
+    7198,
+    7201
+   ],
+   "tgt": [
+    [
+     7206,
+     7211
+    ],
+    [
+     7234,
+     7239
+    ],
+    7269,
+    7280
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of today's low (7177)",
+   "dir": "long",
+   "tag": "",
+   "quote": "A LBAF of today’s low (almost better if it sweeps the Sunday night low as well) is a valid long in the same way it was Sunday night and today.",
+   "kind": "fade",
+   "gate": [
+    7177,
+    7177
+   ],
+   "tgt": [
+    [
+     7198,
+     7201
+    ],
+    7211.25
+   ],
+   "stop_hint": "almost better if it sweeps the Sunday night low as well"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Persistent failures back below 7198-7201",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short persistent failures back below 7198-7201. Again, this is lower probability, but the risk can be tight, and there is an outside change at ballooning runners. I wouldn’t be surprised if it doesn’t even make it past 89 or 85 but the potential was outlined above.",
+   "kind": "fade",
+   "gate": [
+    7198,
+    7201
+   ],
+   "tgt": [
+    7189,
+    7185,
+    [
+     7177,
+     7182
+    ],
+    [
+     7115.5,
+     7121
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 27408-27417",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’m not going to long a hold or LBAF of 408-417 but it is valid targeting today’s spike base and high with runners for the upside targets outlined above.",
+   "kind": "fade",
+   "gate": [
+    27408,
+    27417
+   ],
+   "tgt": [
+    27439.75,
+    27454.75,
+    "FRI_HIGH",
+    [
+     27486,
+     27504
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold of 27332-27360",
+   "dir": "long",
+   "tag": "",
+   "quote": "I’m more willing to long a hold of 332-360 (likely closer to 340 give or take) but I’ll look to see what ES and internals are doing.",
+   "kind": "fade",
+   "gate": [
+    27332,
+    27360
+   ],
+   "tgt": [
+    [
+     27408,
+     27417
+    ]
+   ],
+   "stop_hint": "likely closer to 340 give or take"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a LBAF of today’s low remains valid as outlined above. We still have unfilled singles from Friday. 332-360 would need to reclaim to retest 408-417 and a bullish engulfing candle comes into play from there.",
+   "kind": "fade",
+   "gate": [
+    "RTH_LOW",
+    "RTH_LOW"
+   ],
+   "tgt": [
+    [
+     27332,
+     27360
+    ],
+    [
+     27408,
+     27417
+    ]
+   ],
+   "stop_hint": "332-360 would need to reclaim to retest 408-417"
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Persistent failures below 27408-27417",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short persistent failures below 27408-27417 targeting 332-360 and monitor for continuation from there on the very narrow chance things get spicy.",
+   "kind": "fade",
+   "gate": [
+    27408,
+    27417
+   ],
+   "tgt": [
+    [
+     27332,
+     27360
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

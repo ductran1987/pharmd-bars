@@ -1,0 +1,51 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-16",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-616-cb6",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "Part of the gap was of course associated with contract roll but the gap aside, ESU2026 still left behind a 75 handle RTH gap from Friday’s high to today’s low (550 for NQ).",
+ "ref_date_note": "Tue 6/16/2026 (posted Mon 6/15), roll week; letter refers to ESU2026 and all levels are on U (Sep) - only one set of numbers given. 6/15 was a true gap up and go on both indices. ES daily levels 'none'; '7631-7364' read as a typo for 7631-7634. ES/NQ today's high and low not given -> RTH_HIGH/RTH_LOW. es2 grade written as 'B/- rating at best' -> tag copied exactly as 'B/-' (validator 'unusual tag' warning; probably meant B/B-). nq3 grade 'C+/B- at best' -> 'C+/B-'; es1 'C+/B-'. nq1 'solid A setup' -> 'A', targets 869-886, today's high, then roughly 31069 (QQQ ATH 748.65). nq2 is ungraded (hard to plan and rate ahead of time): long in the 732-750 area 'give or take' (commentary: demand as high as 760), target = front-run reclaim of 800-815. nq3 short on a lower high below 800-815 after a weakish reaction at 732-750 (break), targets 732-750, honorable mentions 696 and 671, then today's low (order of 696/671 vs today's low assumed). ES: 7622.5 (with 14-17 LBAF area) and 36-37 (LAAF area of 7631-7634) kept as levels; es1 targets 7610-7613 then today's low; es2 targets 7631-7634 then today's high (commentary: two-way trading between 7610-7613 and 7631-7634)."
+ ,
+ "zones": {
+  "ES": [[7636, 7637], [7631, 7634], [7622.5, 7622.5], [7614, 7617], [7610, 7613]],
+  "NQ": [[31069, 31069], [30869, 30886], [30800, 30815], [30732, 30750], [30732, 30760], [30696, 30696], [30671, 30671]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Hold/LBAF of 30800-30815", "dir": "long", "tag": "A",
+   "quote": "Long a hold or LBAF of 30800-30815 is the best setup on the board for tomorrow. It doesn’t mean it will work, but it is a solid A setup.",
+   "kind": "fade", "gate": [30800, 30815],
+   "tgt": [[30869, 30886], "RTH_HIGH", 31069],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Long in the 30732-30750 area (ungraded)", "dir": "long", "tag": "",
+   "quote": "As mentioned above, I may find myself looking for a long in the 732-750 area give or take but it is hard to plan and rate this ahead of time as technical risk exists below 800-815.",
+   "kind": "fade", "gate": [30732, 30750],
+   "tgt": [[30800, 30815]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Lower high below 30800-30815 after weak reaction at 30732-30750", "dir": "short", "tag": "C+/B-",
+   "quote": "If I were to rate a short on a lower high below 800-815 after a weakish reaction in the 732-750 range, I would rate it a C+/B- at best.",
+   "kind": "break", "gate": [30800, 30815],
+   "tgt": [[30732, 30750], 30696, 30671, "RTH_LOW"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Fail/LAAF of 7631-7634", "dir": "short", "tag": "C+/B-",
+   "quote": "There might be amazing trades but in terms of setups I would probably say short a fail/LAAF of 7631-7634 with a C+/B- rating and long a hold or LBAF of 7610-7613 as a B/- rating at best.",
+   "kind": "fade", "gate": [7631, 7634],
+   "tgt": [[7610, 7613], "RTH_LOW"],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Hold/LBAF of 7610-7613", "dir": "long", "tag": "B/-",
+   "quote": "There might be amazing trades but in terms of setups I would probably say short a fail/LAAF of 7631-7634 with a C+/B- rating and long a hold or LBAF of 7610-7613 as a B/- rating at best.",
+   "kind": "fade", "gate": [7610, 7613],
+   "tgt": [[7631, 7634], "RTH_HIGH"],
+   "stop_hint": ""
+  }
+ ]
+}

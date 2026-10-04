@@ -1,0 +1,65 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-12",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-612-b72",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Fri 6/12/2026 (posted Thu 6/11), June M6 contracts, no roll mentioned. All trades in the TRADES section are ungraded -> tag '' (es2 described as 'lowest rating of the above probably'; nq5 'low probability high reward'; nq3 'lower probability though perhaps higher reward'). ES today's high 7420 and spike base 7402 given; ES IB high 7336 with singles 7336-7342 (the LBAF range for 7345-7350); prior weekly lows 7379.75, 7363, 7354.25 kept as levels; ES Tuesday's high not given (TUE_HIGH, commentary target above today's high). NQ today's high 29544.25 and spike base 29448 given; APBL 29069; yesterday's high 29250; NQ singles 29312-29404 (302-312 the primary LBAF area); Tuesday's high at weekly 848-869 (stretch); Tuesday singles 29488-29633. nq1 targets today's high, 590-614, 740-758 from Trading Higher. nq2 targets 302-312 then 339-378 as stated. nq3 targets 29050, 100-127, 339-378 (commentary: must reclaim 100-127 and ultimately 339-378). nq4 targets 250-257 then 100-127. nq5 LAAF of today's high targets the spike base 29448 then 339-378. es1 target 87-90 (as long as 7345-7350 holds); es2 target 7345-7350."
+ ,
+ "zones": {
+  "ES": [[7505, 7505], [7449, 7449], [7443, 7449], [7423, 7430], [7420, 7420], [7402, 7402], [7387, 7390], [7379.75, 7379.75], [7363, 7363], [7354.25, 7354.25], [7345, 7350], [7336, 7342], [7336, 7336], [7264, 7269], [7236, 7240]],
+  "NQ": [[29848, 29869], [29740, 29740], [29740, 29758], [29590, 29614], [29488, 29633], [29544.25, 29544.25], [29448, 29448], [29312, 29404], [29339, 29378], [29302, 29312], [29257, 29257], [29250, 29250], [29188, 29213], [29100, 29127], [29069, 29069], [29050, 29050], [28945, 28969], [28800, 28817], [28663, 28663]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Hold/LBAF of 29339-29378", "dir": "long", "tag": "",
+   "quote": "Long a hold or LBAF of 29339-29378. If we are to see direct continuation higher this area will hold. If it doesn’t then things may get tricky.",
+   "kind": "fade", "gate": [29339, 29378],
+   "tgt": [29544.25, [29590, 29614], [29740, 29758]],
+   "stop_hint": "If it doesn’t then things may get tricky."
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Hold/LBAF of 29100-29127", "dir": "long", "tag": "",
+   "quote": "Long a hold or LBAF of 29100-29127 mostly looking for 302-312 and keeping in mind 339-378 must reclaim for any follow through.",
+   "kind": "fade", "gate": [29100, 29127],
+   "tgt": [[29302, 29312], [29339, 29378]],
+   "stop_hint": "keeping in mind 339-378 must reclaim for any follow through"
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Hold of 28945-28969", "dir": "long", "tag": "",
+   "quote": "I may even be found longing a hold of 28945-28969 but know it is lower probability though perhaps higher reward so I would structure accordingly.",
+   "kind": "fade", "gate": [28945, 28969],
+   "tgt": [29050, [29100, 29127], [29339, 29378]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "Session downtrend lower high below 29339-29378", "dir": "short", "tag": "",
+   "quote": "I’m open to joining the short side in a session downtrend with a lower high below 29339-29378 I just want to have it on a tighter leash.",
+   "kind": "break", "gate": [29339, 29378],
+   "tgt": [[29250, 29257], [29100, 29127]],
+   "stop_hint": "I just want to have it on a tighter leash."
+  },
+  {
+   "id": "nq5", "instrument": "NQ", "name": "LAAF of today's high (29544.25)", "dir": "short", "tag": "",
+   "quote": "I have to specifically call out a LAAF of today’s high as a trade given Tuesday’s singles sitting up there. This feels like low probability high reward so I would structure accordingly.",
+   "kind": "fade", "gate": [29544.25, 29544.25],
+   "tgt": [29448, [29339, 29378]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Hold/LBAF of 7345-7350", "dir": "long", "tag": "",
+   "quote": "Long a hold or LBAF of 7345-7350",
+   "kind": "fade", "gate": [7345, 7350],
+   "tgt": [[7387, 7390]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Lower high below 7387-7390", "dir": "short", "tag": "",
+   "quote": "Short a lower high below 7387-7390 (lowest rating of the above probably)",
+   "kind": "break", "gate": [7387, 7390],
+   "tgt": [[7345, 7350]],
+   "stop_hint": ""
+  }
+ ]
+}

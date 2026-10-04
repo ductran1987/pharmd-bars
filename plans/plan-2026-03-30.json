@@ -1,0 +1,87 @@
+{
+ "source": "pharmdks",
+ "date": "2026-03-30",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-330",
+ "contract": {"ES": "ESM6", "NQ": "NQM6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Sun Mar 29, 2026 for Mon 3/30; M6 contract, no roll mention. No new daily levels ('None'); commentary/honorable-mention and weekly levels quoted in the letter kept as zones (ES 6425-6428 and 6434-6436 are explicitly 'honorable mention', not expected to be durable). Friday's low given numerically (ES 6398.25, NQ 23269) and used instead of FRI_LOW; spike bases ES 6412.5 / NQ 23309.25. es1 is a failed reclaim of the spike base 6412.5-6416 'looking for a retest and break of Friday's low' -> target 6398.25 only. es2 (LAAF of 6441) has no stated target -> lower commentary levels 6434-6436, 6425-6428 (both honorable mention) then the spike base 6412.5-6416. nq2 'LBAF of Friday's spike' gated on Friday's low 23269 (spike extreme); he says it isn't objectively a long until 309.25 is reclaimed (in stop_hint); targets 23309.25 then 23369-23377 from commentary. nq3 '309' read as 23309 (the 23309.25 spike base). nq4 (fail/LAAF of 409-440) has no stated target -> commentary: back below 369-377 to 309 and Friday's low. The ES 'reactive' ideas (LBAF of Friday's low, other longs/shorts) are not specific setups and are skipped.",
+ "zones": {
+  "ES": [[6412.5, 6412.5], [6398.25, 6398.25], [6389, 6389], [6375, 6387], [6375, 6383], [6412.5, 6416], [6441, 6449], [6425, 6428], [6434, 6436], [6441, 6441], [6451, 6454]],
+  "NQ": [[23309.25, 23309.25], [23269, 23269], [23369, 23377], [23409, 23440], [23454, 23474], [23409, 23409], [23505, 23505], [23556, 23556], [23569, 23581], [23269, 23290], [23189, 23189], [23146, 23162]]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Failed reclaim of Friday's spike base 6412.5-6416",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "Any failure to reclaim Friday’s spike base (6412.5-6416 range) favors sellers enough that I am willing to be short looking for a retest and break of Friday’s low. It does always feel a bit like “shorting the hole” in these situations so I’ll rate it a B- but it is objectively a short below the spike base and certainly Friday’s low with the caveat about increasing potential for a cover rally from above.",
+   "kind": "fade",
+   "gate": [6412.5, 6416],
+   "tgt": [6398.25],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of 6441",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short a LAAF of 6441 has to be an A/A- setup if we trade higher first. It would be an A+ if we didn’t have the concern that it potentially implies a rejection of Friday’s spike. Keep in mind this could include coming from much higher and if there is strong supportive session information I’ll consider entering directly within the 41-49 range or near 51-54 (think some kind of trend reversal into a lower high or multi-period box to work against as an example).",
+   "kind": "fade",
+   "gate": [6441, 6441],
+   "tgt": [[6434, 6436], [6425, 6428], [6412.5, 6416]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Holding below 23269-23290",
+   "dir": "short",
+   "tag": "B-",
+   "quote": "Holding below 269-290 is objectively a short looking for 189 and 146-162. B- rating as it feels a bit “chasey.”",
+   "kind": "break",
+   "gate": [23269, 23290],
+   "tgt": [23189, [23146, 23162]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's spike (low 23269)",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "Long a LBAF of Friday’s spike. This isn’t objectively a long until 309.25 is reclaimed but I may consider a long if 269-290 has flipped to firm support and I have strong supportive session information in the trend and profile. Has to be a B- because sellers are in control but given the potential for a cover rally I’ll consider it (it would otherwise be rated lower).",
+   "kind": "fade",
+   "gate": [23269, 23269],
+   "tgt": [23309.25, [23369, 23377]],
+   "stop_hint": "This isn’t objectively a long until 309.25 is reclaimed but I may consider a long if 269-290 has flipped to firm support"
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 23369-23377",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short a fail/LAAF of 369-377 targeting 309 and 269-290 (monitor for continuation from there). An A/A- trade that would be an A+ if it didn’t potentially imply rejection of Friday’s spike.",
+   "kind": "fade",
+   "gate": [23369, 23377],
+   "tgt": [23309, [23269, 23290]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 23409-23440",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short a fail/LAAF of 409-440. Also an A/A- as opposed to an A+ for the same reasons.",
+   "kind": "fade",
+   "gate": [23409, 23440],
+   "tgt": [[23369, 23377], 23309, 23269],
+   "stop_hint": ""
+  }
+ ]
+}

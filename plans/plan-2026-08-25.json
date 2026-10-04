@@ -1,0 +1,228 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-25",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-825-9e3",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Mon Aug 24, 2026 for Tue 8/25; U6 contract, no roll mention. No new daily levels. ES today's low read from 'make a run for 7665 and today's low in the 59-56 range' -> es3 gated [7656,7659] and used as target; ES today's high not given -> es2 gated RTH_HIGH. es2 grade copied exactly as written 'C_/B-' (likely a typo for C+/B-). es1/es2 targets 7665 then 7656-7659 from his LAAF-scenario commentary. es3 has no stated target -> levels above from the commentary/closing line: 7665, 7677-7680, 7709-7713 (today's high not placed since its number isn't given). NQ 'today's low' not given numerically (NQ sold to its RTH gap fill 28944-28969 and reversed); nq1 hold/LBAF of 28944-28969 has no stated target -> commentary levels above nearest first: 29012-29022, 037/038 (honorable mention, recorded as [29037,29038]), 053-069, 203-241. nq2 targets nearest first from Trading Lower: 053-069, 037/038, 012-022, then RTH_LOW (retest of today's low). nq3 is his conditional C+/B- long: hold of 053-069, or 29012-29022 (maybe 038) bidding into a reclaim of 053-069 -> gated on 29053-29069, target 203-241. Generic two-way-trading lines skipped. Commentary-only ideas (not trades): long a sustained break of today's ES high; ES break of today's low only to manage existing trades; ES 7635-7638 (prior SPX ATH) to monitor; NQ firm base above 29203-29241 targets ~29396 then 29469-29490; NQ 290-311 honorable mention for a trappy LAAF.",
+ "zones": {
+  "ES": [
+   [
+    7677,
+    7680
+   ],
+   [
+    7665,
+    7665
+   ],
+   [
+    7656,
+    7659
+   ],
+   [
+    7660,
+    7661
+   ],
+   [
+    7649,
+    7649
+   ],
+   [
+    7635,
+    7638
+   ],
+   [
+    7709,
+    7713
+   ]
+  ],
+  "NQ": [
+   [
+    29469,
+    29490
+   ],
+   [
+    29203,
+    29241
+   ],
+   [
+    28944,
+    28969
+   ],
+   [
+    29053,
+    29069
+   ],
+   [
+    29037,
+    29038
+   ],
+   [
+    29012,
+    29022
+   ],
+   [
+    29290,
+    29311
+   ],
+   [
+    29396,
+    29396
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold or LBAF of 28944-28969",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a hold or (better) LBAF of 28944-28969 B/B-",
+   "kind": "fade",
+   "gate": [
+    28944,
+    28969
+   ],
+   "tgt": [
+    [
+     29012,
+     29022
+    ],
+    [
+     29037,
+     29038
+    ],
+    [
+     29053,
+     29069
+    ],
+    [
+     29203,
+     29241
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail or LAAF of 29203-29241",
+   "dir": "short",
+   "tag": "B+/A-",
+   "quote": "Short a fail or (better) LAAF of 29203-29241 B+/A-",
+   "kind": "fade",
+   "gate": [
+    29203,
+    29241
+   ],
+   "tgt": [
+    [
+     29053,
+     29069
+    ],
+    [
+     29037,
+     29038
+    ],
+    [
+     29012,
+     29022
+    ],
+    "RTH_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold/reclaim of 29053-29069 (defense of today's low)",
+   "dir": "long",
+   "tag": "C+/B-",
+   "quote": "I’m open to a potential defense of today’s low. If something like 053-069 holds or the 29012-29022 (maybe 038 again) range bids into a reclaim of 053-069 then I’m willing to join an uptrend giving bulls another shot at 203-241. C+/B-",
+   "kind": "fade",
+   "gate": [
+    29053,
+    29069
+   ],
+   "tgt": [
+    [
+     29203,
+     29241
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail or LAAF of 7677-7680",
+   "dir": "short",
+   "tag": "C+/B-",
+   "quote": "Short a fail or (better) LAAF of 7677-7680 C+/B-",
+   "kind": "fade",
+   "gate": [
+    7677,
+    7680
+   ],
+   "tgt": [
+    7665,
+    [
+     7656,
+     7659
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "C_/B-",
+   "quote": "Short a LAAF of today’s high is also a C_/B- and needs to turn into the above to be any good.",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    7665,
+    [
+     7656,
+     7659
+    ]
+   ],
+   "stop_hint": "needs to turn into the above to be any good."
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of today's low (7656-7659)",
+   "dir": "long",
+   "tag": "B+/A-",
+   "quote": "Long a LBAF of today’s low is a B+/A-",
+   "kind": "fade",
+   "gate": [
+    7656,
+    7659
+   ],
+   "tgt": [
+    7665,
+    [
+     7677,
+     7680
+    ],
+    [
+     7709,
+     7713
+    ]
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

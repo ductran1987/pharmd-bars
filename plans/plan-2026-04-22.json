@@ -1,0 +1,239 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-22",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-422-ef3",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Tue Apr 21, 2026 for Wed 4/22; M6 contract, no roll mention. Multi-day balance ('box') letter; TRADES says the box trades are the major trades but lists only 'minor trades' specifically, all ungraded -> tags ''. Box trades themselves (range edges: NQ 26609-26630 / 26569 low to 26858 / 26885 / 26894-26911; ES 7117-7124 to 7175-7180) not restated with levels in TRADES -> not transcribed. nq1 targets as stated (780 'remain mindful', not a target). nq2 has no stated target -> 656-669 then (turns into nq1) 715-735, 802-815. es1 gate = 7141.5 (LAAF of the bottom of today's single prints 7141.5-7147); 'continuation to and through today's low' -> RTH_LOW added as last target (ES today's low not given numerically). Spike bases: ES 7096.75, NQ 26600. Commentary ideas not promoted: ES holding below 7117-7124 -> 7104, spike base, today's low; ES below 7078-7081 watch 7062-7064.5 / 7052-7056 buyers, 7042-7046.5 critical, back below 7012-7019 breakout failed; ES holding above 7144-7151 and singles -> today's high/range high; NQ above 802-815 -> today's high/range high; NQ hold/LBAF of spike base 26600; NQ below today's low -> 26506-26523 (LBAF), 26420-26430, 26390-26408, LBAF of 26355, Wednesday singles 26258-26291. NQ ETH ATH 26399, RTH ATH 26326.5.",
+ "zones": {
+  "ES": [
+   [
+    7085,
+    7089
+   ],
+   [
+    7062,
+    7064.5
+   ],
+   [
+    7117,
+    7124
+   ],
+   [
+    7125,
+    7125
+   ],
+   [
+    7104,
+    7104
+   ],
+   [
+    7096.75,
+    7096.75
+   ],
+   [
+    7078,
+    7081
+   ],
+   [
+    7052,
+    7056
+   ],
+   [
+    7042,
+    7046.5
+   ],
+   [
+    7012,
+    7019
+   ],
+   [
+    7141.5,
+    7147
+   ],
+   [
+    7144,
+    7151
+   ],
+   [
+    7175,
+    7180
+   ]
+  ],
+  "NQ": [
+   [
+    26802,
+    26815
+   ],
+   [
+    26656,
+    26669
+   ],
+   [
+    26420,
+    26430
+   ],
+   [
+    26355,
+    26355
+   ],
+   [
+    26600,
+    26600
+   ],
+   [
+    26609,
+    26630
+   ],
+   [
+    26780,
+    26780
+   ],
+   [
+    26715,
+    26735
+   ],
+   [
+    26506,
+    26523
+   ],
+   [
+    26390,
+    26408
+   ],
+   [
+    26258,
+    26291
+   ],
+   [
+    26858,
+    26858
+   ],
+   [
+    26885,
+    26885
+   ],
+   [
+    26894,
+    26911
+   ],
+   [
+    26569,
+    26569
+   ],
+   [
+    26399,
+    26399
+   ],
+   [
+    26326.5,
+    26326.5
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 26656-26669",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 656-669 targeting 715-735 and 802-815 (let’s remain mindful of 780).",
+   "kind": "fade",
+   "gate": [
+    26656,
+    26669
+   ],
+   "tgt": [
+    [
+     26715,
+     26735
+    ],
+    [
+     26802,
+     26815
+    ]
+   ],
+   "stop_hint": "let’s remain mindful of 780"
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 26609-26630",
+   "dir": "long",
+   "tag": "",
+   "quote": "Long a hold or LBAF of 609-630. Once 656-669 reclaims it turns into a stronger version of the above.",
+   "kind": "fade",
+   "gate": [
+    26609,
+    26630
+   ],
+   "tgt": [
+    [
+     26656,
+     26669
+    ],
+    [
+     26715,
+     26735
+    ],
+    [
+     26802,
+     26815
+    ]
+   ],
+   "stop_hint": "Once 656-669 reclaims it turns into a stronger version of the above."
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 26802-26815",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short a fail or LAAF of 802-815 targeting 715-735 and 656-669. Monitor for continuation from there.",
+   "kind": "fade",
+   "gate": [
+    26802,
+    26815
+   ],
+   "tgt": [
+    [
+     26715,
+     26735
+    ],
+    [
+     26656,
+     26669
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of 7141.5 (single prints 7141.5-7147)",
+   "dir": "short",
+   "tag": "",
+   "quote": "Short any LAAF of 7141.5 which finds strong sellers within the single prints given the weekly level just above targeting 7117-7124 then 7104 and 7096.75. Monitor for continuation to and through today’s low.",
+   "kind": "fade",
+   "gate": [
+    7141.5,
+    7141.5
+   ],
+   "tgt": [
+    [
+     7117,
+     7124
+    ],
+    7104,
+    7096.75,
+    "RTH_LOW"
+   ],
+   "stop_hint": "which finds strong sellers within the single prints given the weekly level just above"
+  }
+ ]
+}

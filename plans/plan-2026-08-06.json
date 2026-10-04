@@ -1,0 +1,124 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-06",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-86-615",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "U (Sep) contract, no roll mentioned. NFP Friday. Pullback day after the 30069 NQ high; ES spike base 7751 (today's low ~5 handles lower, not given -> RTH_LOW), NQ spike base 29702, NQ RTH low 29593 given. No grades anywhere in TRADES; all trades are conditional ideas with tag ''. Targets taken from Trading Higher/Lower commentary where the trade line names none. es3/nq4 'firm reclaim'/'session uptrend above' treated as break; es1 (sellers can't hold below spike base) and nq3 (can't reclaim spike base) treated as fade. 'Shorting 83-87 or 92-95' split into es4 (7783-7787) and es5 (7792-7795) with the same quote. Text 'yesterday's open and low (208 and 235)' kept as zones 29208/29235 (Tuesday's low given elsewhere as 29208). NQ honorable mentions 29785 (776.5-785) and 29803 kept as zones. 'Missed 29969-29994' weekly level from prior plan included.",
+ "zones": {
+  "ES": [
+   [7792, 7795], [7774, 7775], [7551, 7551], [7751, 7751], [7760, 7764], [7766, 7766], [7783, 7787],
+   [7803, 7807], [7809, 7819], [7657.5, 7657.5], [7656, 7656], [7738, 7741], [7716, 7719]
+  ],
+  "NQ": [
+   [29891, 29910], [29702, 29702], [29181, 29181], [28847, 28865], [29969, 29994], [30069, 30100],
+   [30069, 30069], [29740, 29769], [28400, 28400], [28964, 29208], [28964, 28964], [28669, 28701],
+   [28684, 28722], [28228, 28408], [29269, 29369], [29593, 29593], [29540, 29569], [29504, 29517],
+   [29420, 29432], [29208, 29208], [29235, 29235], [29369, 29397], [29261, 29291], [29776.5, 29785],
+   [29803, 29803]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1", "instrument": "ES",
+   "name": "Sellers can't hold below spike base 7751 -> long",
+   "dir": "long", "tag": "",
+   "quote": "Inability from sellers to hold below today’s spike base is a long at least back to 7760-7764. Because the market (and I) loves to punish spikes we have to be open to this as a reclaim of 60-64 can open up some decent range and keep this trend phase active.",
+   "kind": "fade",
+   "gate": [7751, 7751],
+   "tgt": [[7760, 7764]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES",
+   "name": "Failed reclaim of 7760-7764",
+   "dir": "short", "tag": "",
+   "quote": "If 7760-7764 can’t reclaim then, like for today, we can consider shorts but we have to be very careful of the potential for a failed spike. If sellers can’t get through the spike base and today’s low then they can be in trouble.",
+   "kind": "fade",
+   "gate": [7760, 7764],
+   "tgt": [7751, "RTH_LOW", [7738, 7741], [7716, 7719]],
+   "stop_hint": "If sellers can’t get through the spike base and today’s low then they can be in trouble."
+  },
+  {
+   "id": "es3", "instrument": "ES",
+   "name": "Firm reclaim of 7760-7764",
+   "dir": "long", "tag": "",
+   "quote": "Reclaim longs on a firm reclaim of 60-64 are more reasonable than usual as it implies a rejection of today’s spike. While buyers couldn’t lift 74-75 this afternoon, we could see some fresh buyers able to do so, emboldened by today’s failed (in that event) spike.",
+   "kind": "break",
+   "gate": [7760, 7764],
+   "tgt": [[7774, 7775], [7783, 7787], [7792, 7795]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es4", "instrument": "ES",
+   "name": "Short 7783-7787",
+   "dir": "short", "tag": "",
+   "quote": "Shorting 83-87 or 92-95 is risky given we would have an implied failed spike but it is valid. I would need to see it in real time to give it consideration",
+   "kind": "fade",
+   "gate": [7783, 7787],
+   "tgt": [[7774, 7775], [7760, 7764]],
+   "stop_hint": "I would need to see it in real time to give it consideration"
+  },
+  {
+   "id": "es5", "instrument": "ES",
+   "name": "Short 7792-7795",
+   "dir": "short", "tag": "",
+   "quote": "Shorting 83-87 or 92-95 is risky given we would have an implied failed spike but it is valid. I would need to see it in real time to give it consideration",
+   "kind": "fade",
+   "gate": [7792, 7795],
+   "tgt": [[7783, 7787], [7774, 7775]],
+   "stop_hint": "I would need to see it in real time to give it consideration"
+  },
+  {
+   "id": "nq1", "instrument": "NQ",
+   "name": "Hold of 29540-29569 (possibly LBAF into 29504-29517)",
+   "dir": "long", "tag": "",
+   "quote": "If 540-569 continues to hold and sellers can’t get traction below today’s low then I’ll have to consider a long, especially if ES is constructive. This could see a LBAF into 504-517 first as outlined above. I would be cautious into the 702 spike base and monitor for continuation.",
+   "kind": "fade",
+   "gate": [29540, 29569],
+   "tgt": [29593, 29702],
+   "stop_hint": "This could see a LBAF into 504-517 first"
+  },
+  {
+   "id": "nq2", "instrument": "NQ",
+   "name": "Downtrend short after 29540-29569 flips to resistance",
+   "dir": "short", "tag": "",
+   "quote": "If 540-569 flips to firm resistance I may be willing to join an active downtrend on the short side, cautious that it could be a LBAF.",
+   "kind": "break",
+   "gate": [29540, 29569],
+   "tgt": [[29504, 29517], [29420, 29432]],
+   "stop_hint": "cautious that it could be a LBAF."
+  },
+  {
+   "id": "nq3", "instrument": "NQ",
+   "name": "Failed reclaim of 29702 spike base",
+   "dir": "short", "tag": "",
+   "quote": "If buyers cannot reclaim today’s 702 spike base then it is a valid short.",
+   "kind": "fade",
+   "gate": [29702, 29702],
+   "tgt": [29593, [29540, 29569]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ",
+   "name": "Session uptrend above 29702",
+   "dir": "long", "tag": "",
+   "quote": "If we are seeing firm higher lows back above at least 702 then I’ll consider joining a session uptrend on the long side.",
+   "kind": "break",
+   "gate": [29702, 29702],
+   "tgt": [[29740, 29769], 29785, 29803, [29891, 29910]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq5", "instrument": "NQ",
+   "name": "Short 29891-29910",
+   "dir": "short", "tag": "",
+   "quote": "Shorting 891-910 is valid but risky as we would have an implied failed spike. I’ll need to see it in real time to consider it but serious sellers would defend by there and not even allow a proper test of 969-994",
+   "kind": "fade",
+   "gate": [29891, 29910],
+   "tgt": [[29740, 29769]],
+   "stop_hint": "I’ll need to see it in real time to consider it"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-23",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-623-0f3",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "No roll mention; post-roll week so numbers taken as U. Levels section headed 'PRICE:'; trades from 'TRADES:'. nq1 (LAAF of 30680) has no stated target -> Trading Lower 'holding below 30680 ... broadly targets 546-569 and today's low' (30605 honorable mention in between not used); optional direct entry at 30737-30769 noted in quote. nq2 target from commentary ('680 can once again come into play'). nq3 LBAF of today's low: targets 30546-30569 reclaim then 30680 from commentary; weekly honorable mentions 30448/30469 below. es1 only stated target 36-42 ('closer to 36-37'); commentary also adds today's low. es2/es3 are one ungraded TRADES paragraph ('I can't rate it highly') split into its two variants (fresh LBAF of 7536; LBAF of today's low reclaiming 36-37), tag '', targets 7553 and 7559-7560 from commentary. es4 ungraded ('I'm open to a long on another hold of 7504-7515 which ideally takes the Sunday night low' = 7513), tag '', targets today's low then 7536-7542 from commentary (today's low sits above the 7513 Sunday low). Weekly short-setup zone 7463-7472 recorded.",
+ "zones": {
+  "ES": [[7559, 7560], [7553, 7553], [7571.5, 7571.5], [7576, 7576], [7536, 7542], [7536, 7537], [7513, 7513], [7504, 7515], [7472, 7472], [7463, 7472], [7581, 7584], [7598, 7602]],
+  "NQ": [[30680, 30680], [30670, 30670], [30191, 30191], [30737, 30769], [30783.25, 30783.25], [30546, 30569], [30605, 30605], [30500, 30550], [30448, 30448], [30469, 30469], [30369, 30391], [30269, 30293]]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LAAF of 30680",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short a LAAF of 680. I may consider entering at 737-769 directly if warranted but know that 680 (and maybe 670 at that point) would need to be lost and offered for the trade to be any good. This is an A/A- setup.",
+   "kind": "fade",
+   "gate": [30680, 30680],
+   "tgt": [[30546, 30569], "RTH_LOW"],
+   "stop_hint": "know that 680 (and maybe 670 at that point) would need to be lost and offered for the trade to be any good."
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 30546-30569 preserving today's low",
+   "dir": "long",
+   "tag": "B-",
+   "quote": "Long a hold or LBAF of 546-569 which preserves today’s low. The entire 500-550 range is important from FOMC. I’ll rate this as a B-.",
+   "kind": "fade",
+   "gate": [30546, 30569],
+   "tgt": [30680],
+   "stop_hint": "which preserves today’s low."
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of today's low",
+   "dir": "long",
+   "tag": "C/C+",
+   "quote": "A LBAF of today’s low is rated even lower but I could see it with the weekly honorable mention 448 and 469 sitting just lower. The 546-569 level would need to be reclaimed for it to be any good, so I’ll rate it a C/C+ ahead of time. It is one of those trades you really need to see the order flow in real time to consider.",
+   "kind": "fade",
+   "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [[30546, 30569], 30680],
+   "stop_hint": "The 546-569 level would need to be reclaimed for it to be any good"
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7559-7560",
+   "dir": "short",
+   "tag": "A/A-",
+   "quote": "Short a fail/LAAF of 7559-7560. A/A- rating. I would mostly look for 36-42 (closer to 36-37) mindful that this can still be an elaborate trap of bears into last week’s effective lower edge.",
+   "kind": "fade",
+   "gate": [7559, 7560],
+   "tgt": [[7536, 7542]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fresh LBAF of 7536",
+   "dir": "long",
+   "tag": "",
+   "quote": "Any inability to get through today’s low, whether a fresh LBAF of 7536 or a LBAF of today’s low which reclaims at least 36-37 has to remain back of mind as a long. I can’t rate it highly given today’s action, but we’ve seen ES flirt with a setup for an entire day, stopping everyone out repeatedly, only to work the next day. No bias, just awareness.",
+   "kind": "fade",
+   "gate": [7536, 7536],
+   "tgt": [7553, [7559, 7560]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of today's low reclaiming 7536-7537",
+   "dir": "long",
+   "tag": "",
+   "quote": "Any inability to get through today’s low, whether a fresh LBAF of 7536 or a LBAF of today’s low which reclaims at least 36-37 has to remain back of mind as a long. I can’t rate it highly given today’s action, but we’ve seen ES flirt with a setup for an entire day, stopping everyone out repeatedly, only to work the next day. No bias, just awareness.",
+   "kind": "fade",
+   "gate": ["RTH_LOW", "RTH_LOW"],
+   "tgt": [[7536, 7537], 7553, [7559, 7560]],
+   "stop_hint": "which reclaims at least 36-37"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Hold of 7504-7515 taking the Sunday night low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Even though ES already did it Sunday night, I’m open to a long on another hold of 7504-7515 which ideally takes the Sunday night low. I just don't think bulls are in meaningful trouble just yet until through last week’s low and 7463-72 has become firm resistance (the weekly short setup).",
+   "kind": "fade",
+   "gate": [7504, 7515],
+   "tgt": ["RTH_LOW", [7536, 7542]],
+   "stop_hint": "which ideally takes the Sunday night low"
+  }
+ ]
+}

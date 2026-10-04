@@ -1,0 +1,99 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-22",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-622",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Monday after the Juneteenth (Fri 6/19) holiday ETH session; posted Sunday (Father's Day), minimal commentary - trades lean on the weekly plan. No roll mention; post-roll week so numbers taken as U. nq1 grade written 'A=/B+' (copied exactly; almost certainly A-/B+). nq1 last target 'Thursday's low in the 369-391 range' recorded as [30369,30391] (Thursday's low = 30391). nq3: holiday ETH low 30388 also to be taken out (stop_hint); 'mindful of honorable mention 448' not a target; '(it) turns into the above trade thereafter' -> appended nq2's targets 30677, 30737-30769. nq4 text says 'back test 339-391 from below' - read as typo for 369-391; first target 30369-30391 ('100-handle first profit take'), then 'same targets' as above trades -> 30546-30569, 30677, 30737-30769. es1: 7553 is a hurdle ('mindful of 7553 from below, but once reclaimed') kept as first target, then 63 / 78 / 81-84 -> 7563, 7578, 7581-7584. es3: holiday ETH low '20.5' -> 7520.5 (reclaim condition, in stop_hint); only stated target is the 7536-7542 back test ('turns into the weekly long idea' - weekly targets not in this letter).",
+ "zones": {
+  "ES": [[7553, 7553], [7536, 7542], [7563, 7563], [7578, 7578], [7581, 7584], [7504, 7515], [7520.5, 7520.5]],
+  "NQ": [[30808, 30815], [30191, 30191], [30737, 30769], [30605, 30605], [30546, 30569], [30448, 30448], [30369, 30391], [30391, 30391], [30388, 30388], [30677, 30677], [30269, 30293]]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of 30737-30769",
+   "dir": "short",
+   "tag": "A=/B+",
+   "quote": "Short a fail or LAAF of 30737-30769. This can be played as a LAAF of Thursday’s high which then gets trapped back below 737-769 as well. I would generally be targeting 605 (honorable mention), 546-569, 448 (honorable mention) and Thursday’s low in the 369-391 range. A=/B+ setup. If sellers can’t get through 546-569 then it can produce a long so I’ll be looking to take profit there if indicated and consider trailing a stop or getting flat. I tend to think if we test higher first and fail, that there is more of a chance that 546-569 doesn’t hold.",
+   "kind": "fade",
+   "gate": [30737, 30769],
+   "tgt": [30605, [30546, 30569], 30448, [30369, 30391]],
+   "stop_hint": "If sellers can’t get through 546-569 then it can produce a long so I’ll be looking to take profit there if indicated and consider trailing a stop or getting flat."
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 30546-30569",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "Long a hold or LBAF of 546-569 targeting 677 and 737-769. B/B+",
+   "kind": "fade",
+   "gate": [30546, 30569],
+   "tgt": [30677, [30737, 30769]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of Thursday's low (30391)",
+   "dir": "long",
+   "tag": "A/A-",
+   "quote": "Long a LBAF of Thursday’s 30391 low. The holiday session ETH low was 388 so I would prefer to see both taken out and then join an upside reversal targeting 546-569 (mindful of honorable mention 448) and it turns into the above trade thereafter. A/A-",
+   "kind": "fade",
+   "gate": [30391, 30391],
+   "tgt": [[30546, 30569], 30677, [30737, 30769]],
+   "stop_hint": "The holiday session ETH low was 388 so I would prefer to see both taken out"
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Hold/LBAF of 30269-30293",
+   "dir": "long",
+   "tag": "A+",
+   "quote": "Long a hold/LBAF of 30269-30293. While we would need to be mindful of 369-391 from below, this back test would be highly likely on any kind of strength back above 269-293. This means a 100-handle first profit take before the trade has even gotten going. A reclaim of 369-391 thereafter turns into the above trades and with the same targets but if anything has potential to be even stronger. This is an A+ setup. Maybe we back test 339-391 from below and then limit down. It doesn’t matter. It’s a banger trade setup with potential for putting in low of week or at least seeing nearly a 500-handle move.",
+   "kind": "fade",
+   "gate": [30269, 30293],
+   "tgt": [[30369, 30391], [30546, 30569], 30677, [30737, 30769]],
+   "stop_hint": "While we would need to be mindful of 369-391 from below"
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7536-7542",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a hold or LBAF of 7536-7542. Given the holiday ETH session trade so far beyond 36-42, in this case I would almost prefer to see 36-42 hold (as opposed to a LBAF) but a fresh LBAF is “okay.” I would be mindful of 7553 from below, but once reclaimed I would expect to see 63 and at least 78 if not 81-84. B/B- rating",
+   "kind": "fade",
+   "gate": [7536, 7542],
+   "tgt": [7553, 7563, 7578, [7581, 7584]],
+   "stop_hint": "I would almost prefer to see 36-42 hold (as opposed to a LBAF) but a fresh LBAF is “okay.” I would be mindful of 7553 from below"
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail/LAAF of 7581-7584",
+   "dir": "short",
+   "tag": "B",
+   "quote": "Short a fail/ LAAF of 7581-7584 targeting 63. 53, and 36-42. Monitor for continuation from there. In this case we got an ETH pop after the bell on 6/18 into what was a daily level at the time and the holiday ETH selloff ensued. B rating",
+   "kind": "fade",
+   "gate": [7581, 7584],
+   "tgt": [7563, 7553, [7536, 7542]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7504-7515",
+   "dir": "long",
+   "tag": "A/A+",
+   "quote": "Long a hold or LBAF of 7504-7515. This is a massive range to work with making it more difficult to work with. Additionally, it is not cleanly analogous to the 269-293 spot on NQ. I see more clarity in the NQ trade. However, if the holiday ETH session low (20.5) is reclaimed, then it starts to look suspiciously like a trap, especially if NQ is aligned in a strong reversal. For ES we very much need to be mindful of 36-42 from below but this back test is reasonable to expect. Should it reclaim then it turns into the weekly long idea and has serious potential. Because of this I’ll rate it an A/A+.",
+   "kind": "fade",
+   "gate": [7504, 7515],
+   "tgt": [[7536, 7542]],
+   "stop_hint": "if the holiday ETH session low (20.5) is reclaimed, then it starts to look suspiciously like a trap, especially if NQ is aligned in a strong reversal."
+  }
+ ]
+}

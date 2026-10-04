@@ -1,0 +1,304 @@
+{
+ "source": "pharmdks",
+ "date": "2026-04-21",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-421-cc1",
+ "contract": {
+  "ES": "ESM6",
+  "NQ": "NQM6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Posted Mon Apr 20, 2026 for Tue 4/21; M6 contract, no roll mention. 2-day balance/range-edge letter. TRADES section is entirely ungraded and generic but names levels (precedent 4/24) -> all tags ''; each sentence split per instrument (same quote). Edges from COMMENTARY: NQ effective lower edge 26609-26630, effective upper edge 'arguably 26858', 2-day cash range 26569-26885 (today traded through Friday's low, so 26569 = today's NQ low, 26885 = Friday's high); ES effective lower edge 7117-7124 (= Friday's low area; ES today's low not given numerically but sat just above Friday's low inside/near 7117-7124), upper edge 7175-7180. es1/nq1+nq2 = longs on hold/failed break of lower edges incl. today's/Friday's lows (NQ today's low 26569 split out as nq2; ES lows sit in 7117-7124 so one trade). es2/nq3 = shorts on fail/LAAF of upper edges ('objectively less preferable'). es3/nq4 = join session uptrend/reversal from range low 'at least below 7134 ES or 26665 NQ' -> kind break gated on 7134 / 26665. es4/nq5 = session downtrend shorts below 7144-7151 / 26715-26735 (kind break). No targets stated in TRADES -> first levels from Trading Higher/Lower: ES 7134, 7144-7151, today's high (RTH_HIGH, not numeric), 7175-7180; NQ 26665 (VAL), 26715-26735, 26780, today's high 26828, 26858. ES Trading Higher writes '7144-7155' (typo for 7144-7151). FRI_HIGH/FRI_LOW kept implicit. Commentary ideas not promoted: LBAF of ES today's/Friday's low; ES acceptance below 7078-7081 -> 7062-7064.5 (monitor LBAF); NQ LBAF of today's low near Thursday's high 26564 / hold of 26506-26523; NQ firm offers below 506-523 -> 26420-26430, 26390-26408; Friday's high as range high (take profit) until 26894-26911 breaks.",
+ "zones": {
+  "ES": [
+   [
+    7085,
+    7089
+   ],
+   [
+    7062,
+    7064.5
+   ],
+   [
+    7117,
+    7124
+   ],
+   [
+    7175,
+    7180
+   ],
+   [
+    7144,
+    7151
+   ],
+   [
+    7134,
+    7134
+   ],
+   [
+    7078,
+    7081
+   ]
+  ],
+  "NQ": [
+   [
+    26858,
+    26858
+   ],
+   [
+    26780,
+    26780
+   ],
+   [
+    26609,
+    26630
+   ],
+   [
+    26569,
+    26569
+   ],
+   [
+    26885,
+    26885
+   ],
+   [
+    26828,
+    26828
+   ],
+   [
+    26715,
+    26735
+   ],
+   [
+    26665,
+    26665
+   ],
+   [
+    26564,
+    26564
+   ],
+   [
+    26506,
+    26523
+   ],
+   [
+    26420,
+    26430
+   ],
+   [
+    26390,
+    26408
+   ],
+   [
+    26275,
+    26275
+   ],
+   [
+    26894,
+    26911
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold/failed break of effective lower edge 26609-26630",
+   "dir": "long",
+   "tag": "",
+   "quote": "Generally, we’re looking for longs near or on a failed break of the above mentioned effective lower edges including today and Friday’s lows on both NQ and ES.",
+   "kind": "fade",
+   "gate": [
+    26609,
+    26630
+   ],
+   "tgt": [
+    26665,
+    [
+     26715,
+     26735
+    ],
+    26780
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of today's low (26569) / Friday's low",
+   "dir": "long",
+   "tag": "",
+   "quote": "Generally, we’re looking for longs near or on a failed break of the above mentioned effective lower edges including today and Friday’s lows on both NQ and ES.",
+   "kind": "fade",
+   "gate": [
+    26569,
+    26569
+   ],
+   "tgt": [
+    [
+     26609,
+     26630
+    ],
+    26665,
+    [
+     26715,
+     26735
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Fail/LAAF of upper edge 26858",
+   "dir": "short",
+   "tag": "",
+   "quote": "We can consider shorts on failures to break (or better a LAAF) of the upper edges but as mentioned above given bullish recent context it is objectively less preferable to looking for longs on dips.",
+   "kind": "fade",
+   "gate": [
+    26858,
+    26858
+   ],
+   "tgt": [
+    26828,
+    26780,
+    [
+     26715,
+     26735
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Session uptrend/reversal off range low, below 26665",
+   "dir": "long",
+   "tag": "",
+   "quote": "I think we can look to join a session uptrend or ideally a session reversal coming off or near range low but at least below 7134 ES or 26665 NQ.",
+   "kind": "break",
+   "gate": [
+    26665,
+    26665
+   ],
+   "tgt": [
+    [
+     26715,
+     26735
+    ],
+    26780,
+    26828
+   ],
+   "stop_hint": "ideally a session reversal coming off or near range low but at least below 26665"
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Session downtrend below 26715-26735",
+   "dir": "short",
+   "tag": "",
+   "quote": "We can generally look for shorts in a session downtrend ideally coming off a fail of range high but also below 715-735 NQ or 44-51 ES but yet again, longs objectively must be preferred.",
+   "kind": "break",
+   "gate": [
+    26715,
+    26735
+   ],
+   "tgt": [
+    26665,
+    [
+     26609,
+     26630
+    ]
+   ],
+   "stop_hint": "ideally coming off a fail of range high"
+  },
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold/failed break of effective lower edge 7117-7124 (incl. today's/Friday's lows)",
+   "dir": "long",
+   "tag": "",
+   "quote": "Generally, we’re looking for longs near or on a failed break of the above mentioned effective lower edges including today and Friday’s lows on both NQ and ES.",
+   "kind": "fade",
+   "gate": [
+    7117,
+    7124
+   ],
+   "tgt": [
+    7134,
+    [
+     7144,
+     7151
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail/LAAF of upper edge 7175-7180",
+   "dir": "short",
+   "tag": "",
+   "quote": "We can consider shorts on failures to break (or better a LAAF) of the upper edges but as mentioned above given bullish recent context it is objectively less preferable to looking for longs on dips.",
+   "kind": "fade",
+   "gate": [
+    7175,
+    7180
+   ],
+   "tgt": [
+    "RTH_HIGH",
+    [
+     7144,
+     7151
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Session uptrend/reversal off range low, below 7134",
+   "dir": "long",
+   "tag": "",
+   "quote": "I think we can look to join a session uptrend or ideally a session reversal coming off or near range low but at least below 7134 ES or 26665 NQ.",
+   "kind": "break",
+   "gate": [
+    7134,
+    7134
+   ],
+   "tgt": [
+    [
+     7144,
+     7151
+    ],
+    "RTH_HIGH",
+    [
+     7175,
+     7180
+    ]
+   ],
+   "stop_hint": "ideally a session reversal coming off or near range low but at least below 7134"
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Session downtrend below 7144-7151",
+   "dir": "short",
+   "tag": "",
+   "quote": "We can generally look for shorts in a session downtrend ideally coming off a fail of range high but also below 715-735 NQ or 44-51 ES but yet again, longs objectively must be preferred.",
+   "kind": "break",
+   "gate": [
+    7144,
+    7151
+   ],
+   "tgt": [
+    7134,
+    [
+     7117,
+     7124
+    ]
+   ],
+   "stop_hint": "ideally coming off a fail of range high"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "source": "pharmdks",
+ "date": "2026-08-20",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-820-68c",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Posted Wed 8/19 for Thu 8/20. U (Sep) contract, no roll mention. TRADES section has no setups: 'Apologies a family matter just came up so I ran out of time for setups. They are implied above and I'll try to post them via chat and in discord tonight.' -> trades = []. Ungraded commentary ideas (not promoted to trades): ES long on holds of 7721-7727 / inability to get through today's 7720.75 low / LBAF -> 7746-7748; ES short LAAF of 7746-7748 -> 7721-7727; ES build above 7746-7748 -> 7759-7762, today's high, 7766.25; ES LBAF of 7720.75 low (from 7710-7713 or otherwise), needs reclaim of 7720.75 and 7721-7727. NQ flip 29569-29577 to support -> 29626, 29667, 29682-29719; NQ LAAF of today's/yesterday's high -> back below 29682-29719, risk of revisiting the low; NQ hold or LBAF of weekly 29432-29449 -> 29569-29577 (not a clean rotation); quick sweep of 29485.25 APBL that holds 29469-29482. ES last week's low 7738, yesterday's high 7735.25; NQ yesterday's low 29514, last week's low 29533.5. NQ daily 29560-29569 tweaked to 29569-29577.",
+ "zones": {
+  "ES": [[7800, 7800], [7780, 7781], [7772, 7773], [7746, 7748], [7710, 7713], [7686.5, 7692.5], [7759, 7762], [7721, 7727], [7766.25, 7766.25], [7738, 7738], [7735.25, 7735.25], [7720.75, 7720.75], [7780, 7787], [7787, 7790], [7792, 7796]],
+  "NQ": [[30137, 30155], [30079, 30087], [29569, 29577], [29181, 29181], [29269, 29369], [29469, 29482], [29482, 29496], [29485.25, 29485.25], [29432, 29449], [29560, 29569], [29626, 29626], [29667, 29667], [29665, 29665], [29682, 29719], [29514, 29514], [29533.5, 29533.5]]
+ },
+ "trades": []
+}

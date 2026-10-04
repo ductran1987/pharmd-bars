@@ -1,0 +1,63 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-29",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-629",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Mon 6/29/2026 (posted Sun 6/28), Sep U6 contracts, no roll mentioned. Leans on the weekly plan (Week of 6/28) for levels; '296-339' resolved as 29296-29339 (weekly level). ES Friday's low only described as 'in the 57-63 range' -> zone [7357,7363] but trades use FRI_LOW; Friday's highs/lows not given numerically -> FRI_HIGH/FRI_LOW. Reclaim longs (nq2, es2) classed kind=break (price reclaims the level from below; he enters on a pullback/higher low). nq2 target not stated -> 29420 then 569-595 from NQ commentary ('reclaim of 29420 will be key ... for upside'). nq4 LAAF of Friday's high targets from its own condition (back below 649-665 and 569-595). nq5 LBAF of Friday's low graded C, targets 296-339 then 420 ('no real clarity in strength until back above 420'). es1 '7390' treated as a condition (stop_hint), target Friday's low. es2 reclaim long of 7405-7410 has no letter grade ('okay' in quotes) -> tag ''; targets 7423 (gets cautious), runners 7430, 7436, Friday's high once 23-25 reclaimed. es3 LBAF of Friday's low B/B- targets 7390-7395 then 7405-7410. 'Can't plan on taking longs directly ... below Friday's low' not transcribed (no level/setup). Honorable mention 29649-29665 and 29371-29420 range kept as zones.",
+ "zones": {
+  "ES": [[7390,7390],[7390,7395],[7405,7410],[7357,7363],[7423,7423],[7423,7425],[7430,7430],[7436,7436]],
+  "NQ": [[29420,29420],[29296,29339],[29371,29420],[29649,29665],[29569,29595]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "Failed reclaim of 29420", "dir": "short", "tag": "B/B-",
+   "quote": "Shor t a failed reclaim of 29420 looking to join a session downtrend toward 296-339 and monitor for the “trading lower” scenario from the weekly plan from there to and through Friday’s low. B/B-",
+   "kind": "fade", "gate": [29420, 29420], "tgt": [[29296, 29339], "FRI_LOW"],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "Reclaim long of 29296-29339", "dir": "long", "tag": "B-",
+   "quote": "I’m willing to take a reclaim long of 296-339 (especially if we have an active LBAF of Friday’s low). In an ideal situation I would catch it on a higher low after a test of 420 that can’t get back through 296-339. B- rating",
+   "kind": "break", "gate": [29296, 29339], "tgt": [29420, [29569, 29595]],
+   "stop_hint": "a higher low after a test of 420 that can’t get back through 296-339"
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Fail/LAAF of 29569-29595", "dir": "short", "tag": "B/B+",
+   "quote": "Short a fail or LAAF of 569-595 targeting 420 and monitoring for continuation to and possibly through 296-339. Friday’s low and weekly commentary from there. B/B+",
+   "kind": "fade", "gate": [29569, 29595], "tgt": [29420, [29296, 29339], "FRI_LOW"],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "LAAF of Friday's high", "dir": "short", "tag": "C+/B-",
+   "quote": "Short a LAAF of Friday’s high interests me if we don’t have a LBAF week active. It would need back below 649-665 and 569-595 so I don’t quite love the way it is set up currently but can still rate it a C+/B-",
+   "kind": "fade", "gate": ["FRI_HIGH", "FRI_HIGH"], "tgt": [[29649, 29665], [29569, 29595], 29420],
+   "stop_hint": "It would need back below 649-665 and 569-595"
+  },
+  {
+   "id": "nq5", "instrument": "NQ", "name": "LBAF of Friday's low", "dir": "long", "tag": "C",
+   "quote": "We know from the weekly plan we’re monitoring for a LBAF of Friday’s low. As it sits this looks like it could be incredibly tricky so I have to rate it quite low even though it could end up being an amazing trade. There is just no real clarity in strength until back above 420 at this point so I’ll rate it a C",
+   "kind": "fade", "gate": ["FRI_LOW", "FRI_LOW"], "tgt": [[29296, 29339], 29420],
+   "stop_hint": "There is just no real clarity in strength until back above 420 at this point"
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Persistent weakness below 7405-7410", "dir": "short", "tag": "B-",
+   "quote": "Short persistent weakness below 7405-7410, cautious until below 7390 and then look for Friday’s low and monitor for continuation from there. Again, not fantastic because of a narrow range to work with so B- rating.",
+   "kind": "break", "gate": [7405, 7410], "tgt": ["FRI_LOW"],
+   "stop_hint": "cautious until below 7390"
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "Reclaim long of 7405-7410", "dir": "long", "tag": "",
+   "quote": "A reclaim long of 7405-7410 is “okay” and even better if a LBAF week is in play. Remember, I don’t just randomly slap a reclaim I’m looking to enter on a pullback in alignment with supportive session information. I would be looking for 7423 where I would get a bit cautious. If 23-25 or so is firmly reclaimed then runners can look for 30, 36, then Friday’s high.",
+   "kind": "break", "gate": [7405, 7410], "tgt": [7423, 7430, 7436, "FRI_HIGH"],
+   "stop_hint": "If 23-25 or so is firmly reclaimed then runners can look for 30, 36, then Friday’s high."
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "LBAF of Friday's low", "dir": "long", "tag": "B/B-",
+   "quote": "As of now, a long on a LBAF of Friday’s low looks easier to navigate than for NQ. I would be cautious of the entire 7390-7395 range and not feel any significant level of comfort for runners until I see higher highs and higher lows back above 7405-7410. I’ll rate this a B/B-",
+   "kind": "fade", "gate": ["FRI_LOW", "FRI_LOW"], "tgt": [[7390, 7395], [7405, 7410]],
+   "stop_hint": "not feel any significant level of comfort for runners until I see higher highs and higher lows back above 7405-7410"
+  }
+ ]
+}

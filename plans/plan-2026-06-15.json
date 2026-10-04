@@ -1,0 +1,65 @@
+{
+ "source": "pharmdks",
+ "date": "2026-06-15",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-615",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "I’ll outline them both for the M and the U contracts.",
+ "ref_date_note": "Mon 6/15/2026 (posted Sun 6/14), roll week. Letter gives every trade for both M and U and does not say which he is trading -> transcribed the U (Sep, back month) numbers per the Addendum. No commentary in this letter (he points to the weekly commentary); all trades ungraded -> tag '' (ES Friday's-high LAAF 'lower rated relative to NQ'). M-contract equivalents (not used): NQ first target 29625, 29481-29516, APBL 29409, 29302-29339; ES 7397-7403, targets 7443 then 7426-7428. Daily-levels list (7505, 7443 ES; 28663 NQ) mixes contracts: 7505 is also the ESU target, 7443/28663 are M-contract levels and left out of zones. U prices resolved: NQ '943-980' -> 29943-29980, '740-758' -> 29740-29758, APBL '699' -> 29699, '625 on U' -> 29625 (NQ M-U spread ~250-350). Friday's high/low kept symbolic (FRI_HIGH/FRI_LOW, from U bars). nq2/nq3 have no stated targets -> next listed U levels above (nq2: 943-980 then Friday's high; nq3: 740-758 then 943-980; 29699 APBL in between). nq4/es3 (LBAF of Friday's low) have no stated targets -> next listed U levels above (nq4: 29625, 740-758; es3: 7463, 7478-7486) - assumes Friday's U low sits below those, unverified."
+ ,
+ "zones": {
+  "ES": [[7505, 7505], [7478, 7486], [7463, 7463]],
+  "NQ": [[29943, 29980], [29740, 29758], [29699, 29699], [29625, 29625]]
+ },
+ "trades": [
+  {
+   "id": "nq1", "instrument": "NQ", "name": "LAAF of Friday's high", "dir": "short", "tag": "",
+   "quote": "Short a LAAF of Friday’s high. The first target would be 625 for the M contract and 943-980 for U. With traction below there, 481-516 on M and 740-758 on U can come into play",
+   "kind": "fade", "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [[29943, 29980], [29740, 29758]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2", "instrument": "NQ", "name": "LBAF of 29740-29758 (U)", "dir": "long", "tag": "",
+   "quote": "Long a LBAF of 481-516 on M and 740-758 on U. We have an APBL at 409/699 with some minor residual demand just below so it could play out from here or a quick LBAF.",
+   "kind": "fade", "gate": [29740, 29758],
+   "tgt": [[29943, 29980], "FRI_HIGH"],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3", "instrument": "NQ", "name": "Hold/LBAF of 29625 (U)", "dir": "long", "tag": "",
+   "quote": "Long a hold or LBAF of 302-339 on M or 625 on U.",
+   "kind": "fade", "gate": [29625, 29625],
+   "tgt": [[29740, 29758], [29943, 29980]],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq4", "instrument": "NQ", "name": "LBAF of Friday's low", "dir": "long", "tag": "",
+   "quote": "Long a LBAF of Friday’s low.",
+   "kind": "fade", "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [29625, [29740, 29758]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es1", "instrument": "ES", "name": "Hold/LBAF of 7463 (U)", "dir": "long", "tag": "",
+   "quote": "Long a hold or LBAF of 7397-7403 on ESM or 7463 on ESU.",
+   "kind": "fade", "gate": [7463, 7463],
+   "tgt": [[7478, 7486], 7505],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2", "instrument": "ES", "name": "LAAF of Friday's high", "dir": "short", "tag": "",
+   "quote": "Short a LAAF of Friday’s high (lower rated relative to NQ) looking for 7443 then 7426-7428 on ESM and 7505 then 7478-7486 on ESU.",
+   "kind": "fade", "gate": ["FRI_HIGH", "FRI_HIGH"],
+   "tgt": [7505, [7478, 7486]],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3", "instrument": "ES", "name": "LBAF of Friday's low", "dir": "long", "tag": "",
+   "quote": "Long a LBAF of Friday’s low",
+   "kind": "fade", "gate": ["FRI_LOW", "FRI_LOW"],
+   "tgt": [7463, [7478, 7486]],
+   "stop_hint": ""
+  }
+ ]
+}

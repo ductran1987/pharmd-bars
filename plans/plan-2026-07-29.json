@@ -1,0 +1,292 @@
+{
+ "source": "pharmdks",
+ "date": "2026-07-29",
+ "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-729-cdd",
+ "contract": {
+  "ES": "ESU6",
+  "NQ": "NQU6"
+ },
+ "roll_note": "",
+ "ref_date_note": "Wed 7/29/2026 FOMC day (posted Tue 7/28; 'Trades ahead of FOMC', earnings after the bell). U6 (Sep) contracts, no roll mentioned. ES level kept as 7457-7462 as listed though he says it 'technically should be 56-62' (after-hours dip held 7458.25); text also has a '7457-7562' typo. ES today's high/low and NQ today's high/low not given numerically -> RTH refs. es3 (no target stated) -> Trading Lower: today's low in play if 7457-7462 flips to resistance, with demand low-mid 7440s (no exact level, not used) and weekly 7420-7424 to get through first. nq1 targets from commentary (LAAF of today's high back to 27941-27969 and 27890-27911). nq2 targets: weekly 27941-27969, 27996, 28032 on the way to today's high, 28109-28121 HM (assumed below today's high). nq3: 27842-27854 HM, weekly 27802-27819, 27689 demand, then today's low (May low). ES IB high 7452.5 noted as possible LBAF spot. NQ LBAF caution until June low 28228 / 6/17 low / 28448-28469 reclaimed; ES continuation below 7409/7405-7408 -> 7357, 7313-7342 possible long area.",
+ "zones": {
+  "ES": [
+   [
+    7578,
+    7580
+   ],
+   [
+    7518,
+    7518
+   ],
+   [
+    7514,
+    7514
+   ],
+   [
+    7479,
+    7490
+   ],
+   [
+    7479,
+    7479
+   ],
+   [
+    7469,
+    7473
+   ],
+   [
+    7458.25,
+    7458.25
+   ],
+   [
+    7456,
+    7462
+   ],
+   [
+    7457,
+    7462
+   ],
+   [
+    7452.5,
+    7452.5
+   ],
+   [
+    7420,
+    7424
+   ],
+   [
+    7409,
+    7409
+   ],
+   [
+    7405,
+    7408
+   ],
+   [
+    7357,
+    7357
+   ],
+   [
+    7313,
+    7342
+   ]
+  ],
+  "NQ": [
+   [
+    29488,
+    29500
+   ],
+   [
+    29181,
+    29181
+   ],
+   [
+    29119,
+    29119
+   ],
+   [
+    28448,
+    28469
+   ],
+   [
+    28373,
+    28373
+   ],
+   [
+    28256,
+    28256
+   ],
+   [
+    28228,
+    28228
+   ],
+   [
+    28151,
+    28188
+   ],
+   [
+    28109,
+    28121
+   ],
+   [
+    28032,
+    28032
+   ],
+   [
+    27996,
+    27996
+   ],
+   [
+    27941,
+    27969
+   ],
+   [
+    27890,
+    27911
+   ],
+   [
+    27842,
+    27854
+   ],
+   [
+    27802,
+    27819
+   ],
+   [
+    27689,
+    27689
+   ],
+   [
+    27440,
+    27469
+   ]
+  ]
+ },
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "B/B+",
+   "quote": "Short a LAAF of today’s high targeting 69-73 and 57-62. Monitor for continuation from there. B/B+ rating",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    [
+     7469,
+     7473
+    ],
+    [
+     7457,
+     7462
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold/LBAF of 7457-7462",
+   "dir": "long",
+   "tag": "B/B+",
+   "quote": "Long a hold or (better) LBAF of 7457-7462 targeting 69-73, 79, and today’s high. B/B+ rating",
+   "kind": "fade",
+   "gate": [
+    7457,
+    7462
+   ],
+   "tgt": [
+    [
+     7469,
+     7473
+    ],
+    7479,
+    "RTH_HIGH"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Breakdown short on lower high below 7457-7462",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "I’ll consider a breakdown short on a lower high below 57-62 but rate it a B/B-",
+   "kind": "break",
+   "gate": [
+    7457,
+    7462
+   ],
+   "tgt": [
+    [
+     7420,
+     7424
+    ],
+    "RTH_LOW"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LAAF of today's high",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "Short a LAAF of today’s high has to be included though I like it a bit better for ES so I’ll rate it a B/B-",
+   "kind": "fade",
+   "gate": [
+    "RTH_HIGH",
+    "RTH_HIGH"
+   ],
+   "tgt": [
+    [
+     27941,
+     27969
+    ],
+    [
+     27890,
+     27911
+    ]
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold/fresh LBAF of 27890-27911",
+   "dir": "long",
+   "tag": "B/B-",
+   "quote": "Long a hold or fresh LBAF of 27890-27911 also carries a lower rating relative to the analogous trade on ES so B/B-",
+   "kind": "fade",
+   "gate": [
+    27890,
+    27911
+   ],
+   "tgt": [
+    [
+     27941,
+     27969
+    ],
+    27996,
+    28032,
+    [
+     28109,
+     28121
+    ],
+    "RTH_HIGH"
+   ],
+   "stop_hint": ""
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Breakdown short on lower high below 27890-27911",
+   "dir": "short",
+   "tag": "B/B-",
+   "quote": "Same breakdown short as well on a lower high below 890-911 and same rating B/B-",
+   "kind": "break",
+   "gate": [
+    27890,
+    27911
+   ],
+   "tgt": [
+    [
+     27842,
+     27854
+    ],
+    [
+     27802,
+     27819
+    ],
+    27689,
+    "RTH_LOW"
+   ],
+   "stop_hint": ""
+  }
+ ]
+}

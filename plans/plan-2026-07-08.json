@@ -1,0 +1,43 @@
+{
+ "source": "pharmdks", "date": "2026-07-08", "status": "transcribed",
+ "url": "https://www.pharmdks.com/p/market-analysis-and-trades-for-78-5cb",
+ "contract": {"ES": "ESU6", "NQ": "NQU6"},
+ "roll_note": "",
+ "ref_date_note": "Wed 7/8/2026 (posted Tue 7/7). Sep U6 contracts per batch expectation; no roll mentioned. ES look-above-and-fail week vs NQ possible look-below-and-fail week. ES ARH 7571.25 given (es2 gated on number); '52' = yesterday's 7552.5 low. es1 no stated target -> commentary sequence 55 (honorable mention), 7552.5, 43-45, 34-36 demand, today's low (RTH_LOW). es3 'Long a LBAF of 7527-7531' is ungraded -> tag ''; targets 34-36, 43-45 from commentary. 'long in the 7509-7515 range ... The same is true to 7490-7493. B/B-' split into es4 (7509-7515) and es5 (7490-7493), same quote/grade. nq1 no stated target -> honorable mentions 420, 372, weekly 269-328, then today's low (RTH_LOW; exact position of today's low vs 269-328 unclear, it dipped below last week's low). nq2 (long if sellers can't get through today's low and 269-328) ungraded -> tag ''; he prefers 181 and 161 lows taken out first THEN a reclaim of 269-328 (not made a separate trade). nq3-nq5 ungraded 'respect ... and consider reactive trades' at 045-069 (resolved to 29045-29069, a level used in the 6/26 letter, not 30045-30069), 28945-28969, 800-842 (-> 28800-28842); targets are next levels up. 181/161 lows used literally as 29181/29161 (7/6 letter gave 181.5/160.5). NQ unfilled RTH gap 29686 (today's high) to 29776 (yesterday's low). Typo '59569-29595' read as 29569-29595. '370-710 or 380-410' dismissed by him as less informative -> not recorded.",
+ "zones": {
+  "ES": [[7559, 7561], [7527, 7531], [7562.25, 7562.25], [7564.75, 7564.75], [7552.5, 7552.5], [7571.25, 7571.25], [7566, 7569], [7571, 7573], [7555, 7555], [7534, 7536], [7543, 7545], [7509, 7515], [7490, 7493], [7593.75, 7593.75]],
+  "NQ": [[29882, 29882], [29476, 29487], [29930.25, 29930.25], [29835.75, 29835.75], [29923, 29969], [30069, 30100], [29569, 29595], [29740, 29769], [29269, 29328], [29686, 29776], [29181, 29181], [29161, 29161], [29372, 29372], [29420, 29420], [29500, 29580], [29045, 29069], [28945, 28969], [28800, 28842]]
+ },
+ "trades": [
+  {"id": "es1", "instrument": "ES", "name": "Fail/LAAF of 7559-7561", "dir": "short", "tag": "B+",
+   "quote": "Short a fail or LAAF of 7559-7561. B+",
+   "kind": "fade", "gate": [7559, 7561], "tgt": [7555, 7552.5, [7543, 7545], [7534, 7536], "RTH_LOW"], "stop_hint": ""},
+  {"id": "es2", "instrument": "ES", "name": "LAAF of today's 7571.25 ARH", "dir": "short", "tag": "B/B-",
+   "quote": "Short a LAAF of today’s 7571.25 ARH which leads to a loss of 66-69 and 59-61. This one is far trickier because you’re front-running a loss of 59-61 which turns into the above trade so it is lower probability but slightly better reward. B/B-",
+   "kind": "fade", "gate": [7571.25, 7571.25], "tgt": [[7566, 7569], [7559, 7561], 7555, 7552.5], "stop_hint": ""},
+  {"id": "es3", "instrument": "ES", "name": "LBAF of 7527-7531", "dir": "long", "tag": "",
+   "quote": "Long a LBAF of 7527-7531",
+   "kind": "fade", "gate": [7527, 7531], "tgt": [[7534, 7536], [7543, 7545]], "stop_hint": ""},
+  {"id": "es4", "instrument": "ES", "name": "Long in 7509-7515", "dir": "long", "tag": "B/B-",
+   "quote": "With how important it is, I have to be open to a long in the 7509-7515 range, knowing it needs to reclaim 27-31 bare minimum to be any good. The same is true to 7490-7493. B/B- rating",
+   "kind": "fade", "gate": [7509, 7515], "tgt": [[7527, 7531]], "stop_hint": "knowing it needs to reclaim 27-31 bare minimum to be any good."},
+  {"id": "es5", "instrument": "ES", "name": "Long in 7490-7493", "dir": "long", "tag": "B/B-",
+   "quote": "With how important it is, I have to be open to a long in the 7509-7515 range, knowing it needs to reclaim 27-31 bare minimum to be any good. The same is true to 7490-7493. B/B- rating",
+   "kind": "fade", "gate": [7490, 7493], "tgt": [[7509, 7515], [7527, 7531]], "stop_hint": "knowing it needs to reclaim 27-31 bare minimum to be any good."},
+  {"id": "nq1", "instrument": "NQ", "name": "Fail/LAAF of 29476-29487", "dir": "short", "tag": "A/A-",
+   "quote": "Short a fail/LAAF of 476-487 is an A/A- setup",
+   "kind": "fade", "gate": [29476, 29487], "tgt": [29420, 29372, [29269, 29328], "RTH_LOW"], "stop_hint": ""},
+  {"id": "nq2", "instrument": "NQ", "name": "Hold of today's low / 29269-29328", "dir": "long", "tag": "",
+   "quote": "I have to be open to longs if sellers simply can’t get through today’s low and the weekly 269-328 level. This level has been too strong to ignore, through it is perhaps significantly weakened now. Regardless, if it continues to stubbornly hold I’ll have to long it.",
+   "kind": "fade", "gate": [29269, 29328], "tgt": [29372, 29420, [29476, 29487]], "stop_hint": ""},
+  {"id": "nq3", "instrument": "NQ", "name": "Reactive long at 29045-29069", "dir": "long", "tag": "",
+   "quote": "As of a couple of weeks ago I was absolutely salivating at the prospect of buying a hold of 045-069. The prospect of doing so has progressively become more dangerous but I’ll still respect that spot along with 28945-28969 and 800-842 and consider reactive trades.",
+   "kind": "fade", "gate": [29045, 29069], "tgt": [29161, 29181, [29269, 29328]], "stop_hint": ""},
+  {"id": "nq4", "instrument": "NQ", "name": "Reactive long at 28945-28969", "dir": "long", "tag": "",
+   "quote": "As of a couple of weeks ago I was absolutely salivating at the prospect of buying a hold of 045-069. The prospect of doing so has progressively become more dangerous but I’ll still respect that spot along with 28945-28969 and 800-842 and consider reactive trades.",
+   "kind": "fade", "gate": [28945, 28969], "tgt": [[29045, 29069]], "stop_hint": ""},
+  {"id": "nq5", "instrument": "NQ", "name": "Reactive long at 28800-28842", "dir": "long", "tag": "",
+   "quote": "As of a couple of weeks ago I was absolutely salivating at the prospect of buying a hold of 045-069. The prospect of doing so has progressively become more dangerous but I’ll still respect that spot along with 28945-28969 and 800-842 and consider reactive trades.",
+   "kind": "fade", "gate": [28800, 28842], "tgt": [[28945, 28969]], "stop_hint": ""}
+ ]
+}
