@@ -284,9 +284,9 @@
    "name": "LBAF of Friday's low",
    "dir": "long",
    "tag": "A/A-",
-   "gate": "LBAF of 30988 with 951-969 right underneath",
+   "gate": "ENTRY: first 5m close above 30988 after price trades into the zone; assume fill at 30988 · LBAF of 30988 with 951-969 right underneath",
    "tgt": "056-069 → 125-143 → 199-204",
-   "stop": "persistent weakness below 951-969 → 869-906 next",
+   "stop": "30945 = 30988 − 43 (1.5×ATR5 28.5), or 1 tick past the sweep extreme if deeper · 5 MNQ for $500 · take t1 31056 (1.6R) · his: persistent weakness below 951-969 → 869-906 next",
    "quote": "Long a LBAF of Friday's low is an A/A-",
    "unsure": false,
    "decision": null,
@@ -310,9 +310,12 @@
      ]
     ],
     "stop": [
-     30906
+     30945.0
     ]
-   }
+   },
+   "entry_rule": "first 5m close above 30988 after price trades into the zone; assume fill at 30988",
+   "stop_rule": "30945 = 30988 − 43 (1.5×ATR5 28.5), or 1 tick past the sweep extreme if deeper · 5 MNQ for $500 · take t1 31056 (1.6R)",
+   "his_stop": "persistent weakness below 951-969 → 869-906 next"
   },
   {
    "id": "nq2",
@@ -320,9 +323,9 @@
    "name": "Fail / LAAF of 31125-31143",
    "dir": "short",
    "tag": "B+/A-",
-   "gate": "fail or LAAF of 125-143, up to ~156",
+   "gate": "ENTRY: first 5m close below 31125 after price trades into the zone; assume fill at 31125 · fail or LAAF of 125-143, up to ~156",
    "tgt": "056-069 → Friday's low 30988",
-   "stop": "firm reclaim of 125-143 → 199-204",
+   "stop": "31168 = 31125 + 43 (1.5×ATR5 28.5), or 1 tick past the sweep extreme if deeper · 5 MNQ for $500 · take t1 31069 (1.3R) · his: firm reclaim of 125-143 → 199-204",
    "quote": "Short a fail/LAAF of 125-143 is a B+/A-",
    "unsure": false,
    "decision": null,
@@ -339,9 +342,12 @@
      30988
     ],
     "stop": [
-     31204
+     31168.0
     ]
-   }
+   },
+   "entry_rule": "first 5m close below 31125 after price trades into the zone; assume fill at 31125",
+   "stop_rule": "31168 = 31125 + 43 (1.5×ATR5 28.5), or 1 tick past the sweep extreme if deeper · 5 MNQ for $500 · take t1 31069 (1.3R)",
+   "his_stop": "firm reclaim of 125-143 → 199-204"
   },
   {
    "id": "nq3",
@@ -349,9 +355,9 @@
    "name": "Gap-fill reversal at 869-906 (implied)",
    "dir": "long",
    "tag": "implied",
-   "gate": "reaction at 30869-30906, the Thu→Fri RTH gap; supportive on first test",
+   "gate": "ENTRY: first 5m close above 30906 after price trades into the zone; assume fill at 30906 · reaction at 30869-30906, the Thu→Fri RTH gap; supportive on first test",
    "tgt": "Friday's low 30988 (required reclaim) → 056-069 → 125-143",
-   "stop": "869-906 doesn't hold → liquidation break risk",
+   "stop": "30863 = 30906 − 43 (1.5×ATR5 28.5), or 1 tick past the sweep extreme if deeper · 5 MNQ for $500 · take t1 30988 (1.9R) · his: 869-906 doesn't hold → liquidation break risk",
    "quote": "Otherwise we would then look to 869-906 to possibly provide a gap fill reversal which would need to reclaim Friday's low to see 056-069 and 125-143.",
    "unsure": true,
    "decision": null,
@@ -368,9 +374,12 @@
      ]
     ],
     "stop": [
-     30846
+     30863.0
     ]
-   }
+   },
+   "entry_rule": "first 5m close above 30906 after price trades into the zone; assume fill at 30906",
+   "stop_rule": "30863 = 30906 − 43 (1.5×ATR5 28.5), or 1 tick past the sweep extreme if deeper · 5 MNQ for $500 · take t1 30988 (1.9R)",
+   "his_stop": "869-906 doesn't hold → liquidation break risk"
   },
   {
    "id": "es1",
@@ -378,9 +387,9 @@
    "name": "Persistent weakness below 80-84 / LAAF of 7784.5",
    "dir": "short",
    "tag": "B/B-",
-   "gate": "persistent weakness below 7780-84; even better a quick LAAF of the 7784.5 after-bell high",
+   "gate": "ENTRY: first 5m close below 7780 after price trades into the zone; assume fill at 7780 · persistent weakness below 7780-84; even better a quick LAAF of the 7784.5 after-bell high",
    "tgt": "IB low 7773.5 → 63-65 → Friday's low 7754",
-   "stop": "firm reclaim of 7790-94",
+   "stop": "7788.5 = 7780 + 8.5 (1.5×ATR5 5.6), or 1 tick past the sweep extreme if deeper · 11 MES for $500 · t1 7773.5 is 0.8R → hold for t2 7765 (1.8R) · his: firm reclaim of 7790-94",
    "quote": "Short any persistent weakness below 80-84 inclusive (and perhaps even better) a quick LAAF of the 84.5 high from after the bell. B/B-",
    "unsure": false,
    "decision": null,
@@ -398,9 +407,12 @@
      7754
     ],
     "stop": [
-     7794
+     7788.5
     ]
-   }
+   },
+   "entry_rule": "first 5m close below 7780 after price trades into the zone; assume fill at 7780",
+   "stop_rule": "7788.5 = 7780 + 8.5 (1.5×ATR5 5.6), or 1 tick past the sweep extreme if deeper · 11 MES for $500 · t1 7773.5 is 0.8R → hold for t2 7765 (1.8R)",
+   "his_stop": "firm reclaim of 7790-94"
   },
   {
    "id": "es2",
@@ -408,9 +420,9 @@
    "name": "LBAF of 63-65 (at least the 65.5 pullback low)",
    "dir": "long",
    "tag": "B/B-",
-   "gate": "LBAF of 7763-65, at minimum of the 7765.5 low from 1:25",
+   "gate": "ENTRY: first 5m close above 7765.5 after price trades into the zone; assume fill at 7765.5 · LBAF of 7763-65, at minimum of the 7765.5 low from 1:25",
    "tgt": "IB low 7773.5 → 80-84",
-   "stop": "no LBAF → Friday's low 7754 in play",
+   "stop": "7757 = 7765.5 − 8.5 (1.5×ATR5 5.6), or 1 tick past the sweep extreme if deeper · 11 MES for $500 · t1 7773.5 is 0.9R → hold for t2 7780 (1.7R) · his: no LBAF → Friday's low 7754 in play",
    "quote": "Long a LBAF of 63-65 (at least the 65.5 pullback low from 1:25) is a B/B-",
    "unsure": false,
    "decision": null,
@@ -427,9 +439,12 @@
      ]
     ],
     "stop": [
-     7754
+     7757.0
     ]
-   }
+   },
+   "entry_rule": "first 5m close above 7765.5 after price trades into the zone; assume fill at 7765.5",
+   "stop_rule": "7757 = 7765.5 − 8.5 (1.5×ATR5 5.6), or 1 tick past the sweep extreme if deeper · 11 MES for $500 · t1 7773.5 is 0.9R → hold for t2 7780 (1.7R)",
+   "his_stop": "no LBAF → Friday's low 7754 in play"
   },
   {
    "id": "es3",
@@ -437,9 +452,9 @@
    "name": "LBAF of Friday's low",
    "dir": "long",
    "tag": "B",
-   "gate": "LBAF of 7754 (on the 7747-54 weekly)",
+   "gate": "ENTRY: first 5m close above 7754 after price trades into the zone; assume fill at 7754 · LBAF of 7754 (on the 7747-54 weekly)",
    "tgt": "63-65 → 73.5 → 80-84 if 63-65 reclaimed",
-   "stop": "below 7740-41 → liquidation break toward 7706-12",
+   "stop": "7745.5 = 7754 − 8.5 (1.5×ATR5 5.6), or 1 tick past the sweep extreme if deeper · 11 MES for $500 · take t1 7763 (1.1R) · his: below 7740-41 → liquidation break toward 7706-12",
    "quote": "Long a LBAF of Friday's low is a B",
    "unsure": false,
    "decision": null,
@@ -460,9 +475,12 @@
      ]
     ],
     "stop": [
-     7740
+     7745.5
     ]
-   }
+   },
+   "entry_rule": "first 5m close above 7754 after price trades into the zone; assume fill at 7754",
+   "stop_rule": "7745.5 = 7754 − 8.5 (1.5×ATR5 5.6), or 1 tick past the sweep extreme if deeper · 11 MES for $500 · take t1 7763 (1.1R)",
+   "his_stop": "below 7740-41 → liquidation break toward 7706-12"
   },
   {
    "id": "es4",
@@ -470,9 +488,9 @@
    "name": "LAAF of Friday's high",
    "dir": "short",
    "tag": "B-",
-   "gate": "LAAF of 7810.25 into 7815-22",
+   "gate": "ENTRY: first 5m close below 7810.25 after price trades into the zone; assume fill at 7810.25 · LAAF of 7810.25 into 7815-22",
    "tgt": "90-91 → 80-84 from above; bearish engulfing likely if 80-84 breaks",
-   "stop": "sustaining above 7815-22 / comfort above 26-27",
+   "stop": "7818.75 = 7810.25 + 8.5 (1.5×ATR5 5.6), or 1 tick past the sweep extreme if deeper · 11 MES for $500 · take t1 7791 (2.3R) · his: sustaining above 7815-22 / comfort above 26-27",
    "quote": "Short a LAAF of Friday's high is a B-",
    "unsure": false,
    "decision": null,
@@ -492,9 +510,12 @@
      ]
     ],
     "stop": [
-     7827
+     7818.75
     ]
-   }
+   },
+   "entry_rule": "first 5m close below 7810.25 after price trades into the zone; assume fill at 7810.25",
+   "stop_rule": "7818.75 = 7810.25 + 8.5 (1.5×ATR5 5.6), or 1 tick past the sweep extreme if deeper · 11 MES for $500 · take t1 7791 (2.3R)",
+   "his_stop": "sustaining above 7815-22 / comfort above 26-27"
   },
   {
    "id": "es5",
@@ -502,9 +523,9 @@
    "name": "Gap-fill reversal at 7740-41 (implied)",
    "dir": "long",
    "tag": "implied",
-   "gate": "reaction at 7740-7741.25 (Thursday's spike base/high), the Thu→Fri RTH gap",
+   "gate": "ENTRY: first 5m close above 7741.25 after price trades into the zone; assume fill at 7741.25 · reaction at 7740-7741.25 (Thursday's spike base/high), the Thu→Fri RTH gap",
    "tgt": "reclaim Friday's low 7754 → 63-65",
-   "stop": "below 7740 → liquidation break to 7706-12",
+   "stop": "7732.75 = 7741.25 − 8.5 (1.5×ATR5 5.6), or 1 tick past the sweep extreme if deeper · 11 MES for $500 · take t1 7754 (1.5R) · his: below 7740 → liquidation break to 7706-12",
    "quote": "I went ahead and added 7740-7741 as a daily level representing Thursday's spike where we can monitor for a gap fill reversal to reclaim Friday's low as well.",
    "unsure": true,
    "decision": null,
@@ -521,9 +542,12 @@
      ]
     ],
     "stop": [
-     7726
+     7732.75
     ]
-   }
+   },
+   "entry_rule": "first 5m close above 7741.25 after price trades into the zone; assume fill at 7741.25",
+   "stop_rule": "7732.75 = 7741.25 − 8.5 (1.5×ATR5 5.6), or 1 tick past the sweep extreme if deeper · 11 MES for $500 · take t1 7754 (1.5R)",
+   "his_stop": "below 7740 → liquidation break to 7706-12"
   }
  ]
 }
