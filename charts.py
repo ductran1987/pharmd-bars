@@ -81,6 +81,9 @@ def draw(trade, bars, ref, pday, out):
     g = lv.get("gate") or []
     if lv.get("stop"):
         band(lv["stop"], "#b7791f", "STOP", ls="-")
+    inv = lv.get("invalid")
+    if inv and not (g and min(g) - 3 <= inv[0] <= max(g) + 3):
+        band(inv, MUTE, "his fail", ls=":")
 
     # setup arrow: LBAF hooks below gate then up; LAAF pokes above then down
     if lv.get("gate"):

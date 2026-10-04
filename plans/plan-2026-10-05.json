@@ -311,6 +311,9 @@
     ],
     "stop": [
      30945.0
+    ],
+    "invalid": [
+     30906
     ]
    },
    "entry_rule": "first 5m close above 30988 after price trades into the zone; assume fill at 30988",
@@ -343,6 +346,9 @@
     ],
     "stop": [
      31168.0
+    ],
+    "invalid": [
+     31204
     ]
    },
    "entry_rule": "first 5m close below 31125 after price trades into the zone; assume fill at 31125",
@@ -375,6 +381,9 @@
     ],
     "stop": [
      30863.0
+    ],
+    "invalid": [
+     30846
     ]
    },
    "entry_rule": "first 5m close above 30906 after price trades into the zone; assume fill at 30906",
@@ -408,6 +417,9 @@
     ],
     "stop": [
      7788.5
+    ],
+    "invalid": [
+     7794
     ]
    },
    "entry_rule": "first 5m close below 7780 after price trades into the zone; assume fill at 7780",
@@ -440,6 +452,9 @@
     ],
     "stop": [
      7757.0
+    ],
+    "invalid": [
+     7754
     ]
    },
    "entry_rule": "first 5m close above 7765.5 after price trades into the zone; assume fill at 7765.5",
@@ -476,6 +491,9 @@
     ],
     "stop": [
      7745.5
+    ],
+    "invalid": [
+     7740
     ]
    },
    "entry_rule": "first 5m close above 7754 after price trades into the zone; assume fill at 7754",
@@ -511,6 +529,9 @@
     ],
     "stop": [
      7818.75
+    ],
+    "invalid": [
+     7827
     ]
    },
    "entry_rule": "first 5m close below 7810.25 after price trades into the zone; assume fill at 7810.25",
@@ -543,6 +564,9 @@
     ],
     "stop": [
      7732.75
+    ],
+    "invalid": [
+     7726
     ]
    },
    "entry_rule": "first 5m close above 7741.25 after price trades into the zone; assume fill at 7741.25",
