@@ -93,7 +93,17 @@ def main(paths):
         print(f"  p{q}: {np.percentile(w.past_far, q):6.2f} pts  = {np.percentile(w.past_far_atr5, q):.2f} ATR5 = {np.percentile(w.past_far_atr15, q):.2f} ATR15")
     print(f"  winners that never went past the sweep extreme: {(w.past_far <= 0).sum()} / {len(w)}")
     print("\n--- stop rules: winners kept / losers cut (loser = target 1 never hit) ---")
+    def floored(k):   # one tick past the sweep extreme, but never closer than k × ATR5 to the zone's edge
+        def f(r):
+            sgn = -1 if r.dir == "long" else 1
+            edge = r.entry   # fade: entry edge; break: far side already (level == entry edge's opposite) -> same floor from entry
+            tick = r.far + sgn * 0.25; fl = edge + sgn * k * r.atr5
+            return min(tick, fl) if r.dir == "long" else max(tick, fl)
+        return f
     rules = [("tick past sweep extreme", lambda r: r.far + (-0.25 if r.dir == "long" else 0.25)),
+             ("sweep, floor 1.0 ATR5 from edge", floored(1.0)),
+             ("sweep, floor 1.5 ATR5 from edge", floored(1.5)),
+             ("sweep, floor 2.0 ATR5 from edge", floored(2.0)),
              ("sweep − 0.1 ATR5", lambda r: r.far + (-1 if r.dir == "long" else 1) * 0.1 * r.atr5),
              ("sweep − 0.25 ATR5", lambda r: r.far + (-1 if r.dir == "long" else 1) * 0.25 * r.atr5),
              ("sweep − 0.5 ATR5", lambda r: r.far + (-1 if r.dir == "long" else 1) * 0.5 * r.atr5),
