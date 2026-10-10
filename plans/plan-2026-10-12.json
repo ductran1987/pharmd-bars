@@ -1,881 +1,997 @@
 {
- "source": "pharmdks",
- "date": "2026-10-12",
- "status": "draft",
- "notes": "",
- "bias": "He's back. Another sluggish breakout last week and sellers did nothing with it. Friday closed AT resistance on everything — NQ into 31125-45, ES just under 7869-72, YM at 51969-52056, even RSP. The bull case is all of those clear and flip to support; failing them to start the week isn't automatically bearish because bulls have room to buy a dip. 'The burden of proof is very much on sellers to find follow through for once' — they need to step in early AND follow through or they get run over again. Monday is a bank holiday (cash bonds closed) and Friday's volume was abysmal, so he'd wait for Tuesday before reading too much into anything.",
- "wildcard": "ES was strong vs NQ Friday purely on a YM 'moon mission' (framed higher every period until the last 30 min) — those moves usually get digested within a couple of days, so ES is fine only if NQ picks up the slack. NQ never traded above Friday's open after the first moments; the OR5 high was never breached and the OR5 mid capped the afternoon — Friday's premarket high 31266.5 is a potential 30-min lower high. Sunday night may trade lower first; several of his grades change depending on whether it does.",
- "brief": [
-  {
-   "instrument": "ES",
-   "happened": "Thursday's selling held the weekly pivot 7780-84 (week RTH low 7778.25, ETH 7760.25), so 'trading lower' never triggered — instead a fresh 5-day balance overlapping the prior multi-week one, and Friday closed above the old multi-week range top 7846-49. Friday: YM names ripped, ES framed higher all day until the last 30 min, high 7870.5, closed 7861 right under 7869-72. Value gapped higher on the week; sellers triggered a LAAF week off the 7897.5 ATH but couldn't capitalize.",
-   "pivot": "7869-7872 is the line. 7853 (daily, used in Discord Friday) and 7846-49 under it; 7886-88 daily, 7893-96 and the 7897.5 ATH above.",
-   "higher": "Sustain above 69-72 → 7886-88, then 7893-96 and last week's 7897.5 high; 7880 is an honorable mention for continuation. A true gap up that holds 69-72 from above is the safest long. Above the week's high he's monitoring levels for continuation — not blindly shorting in price discovery — but aware that multiple nominal ATHs have led to selling (7917-20 is the prior extension that could do it again).",
-   "lower": "69-72 stays resistance (incl. after a LAAF) → 53 and 46-49 in play. Trading lower first (Sunday night?) and holding/LBAF-ing 53 is constructive for a trip back to 69-72; same for 46-49 with a 53/54 reclaim. If 46-49 fails there's demand at 38-40 for a first-pass reaction, which would need 46-49 and 53-54 reclaimed. Trapped below 46-49 after that demand → Friday's low 7826.75. Any failure to get to and through Friday's low likely gets bought. A LBAF of Friday's low needs ~7832 reclaimed to have a shot at 46-49. Persistent weakness below 7815-20 with time and volume → 7780-84 again.",
-   "levels": [
+  "approvedAt": "2026-10-10T17:46:12.489Z",
+  "atr5": {
+    "ES": 2.98,
+    "NQ": 16.88
+  },
+  "bias": "He's back. Another sluggish breakout last week and sellers did nothing with it. Friday closed AT resistance on everything — NQ into 31125-45, ES just under 7869-72, YM at 51969-52056, even RSP. The bull case is all of those clear and flip to support; failing them to start the week isn't automatically bearish because bulls have room to buy a dip. 'The burden of proof is very much on sellers to find follow through for once' — they need to step in early AND follow through or they get run over again. Monday is a bank holiday (cash bonds closed) and Friday's volume was abysmal, so he'd wait for Tuesday before reading too much into anything.",
+  "brief": [
     {
-     "p": [
-      7897.5
-     ],
-     "label": "wk high = ATH",
-     "kind": "ref"
+      "chart": "/_blob/faa828767730ec3c2edc2a522b4bf854",
+      "chart_id": "faa828767730ec3c2edc2a522b4bf854",
+      "happened": "Thursday's selling held the weekly pivot 7780-84 (week RTH low 7778.25, ETH 7760.25), so 'trading lower' never triggered — instead a fresh 5-day balance overlapping the prior multi-week one, and Friday closed above the old multi-week range top 7846-49. Friday: YM names ripped, ES framed higher all day until the last 30 min, high 7870.5, closed 7861 right under 7869-72. Value gapped higher on the week; sellers triggered a LAAF week off the 7897.5 ATH but couldn't capitalize.",
+      "higher": "Sustain above 69-72 → 7886-88, then 7893-96 and last week's 7897.5 high; 7880 is an honorable mention for continuation. A true gap up that holds 69-72 from above is the safest long. Above the week's high he's monitoring levels for continuation — not blindly shorting in price discovery — but aware that multiple nominal ATHs have led to selling (7917-20 is the prior extension that could do it again).",
+      "instrument": "ES",
+      "levels": [
+        {
+          "kind": "ref",
+          "label": "wk high = ATH",
+          "p": [
+            7897.5
+          ]
+        },
+        {
+          "kind": "up",
+          "label": "",
+          "p": [
+            7893,
+            7896
+          ]
+        },
+        {
+          "kind": "up",
+          "label": "daily",
+          "p": [
+            7886,
+            7888
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "continuation watch",
+          "p": [
+            7880
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "Fri high",
+          "p": [
+            7870.5
+          ]
+        },
+        {
+          "kind": "pivot",
+          "label": "KEY · start here",
+          "p": [
+            7869,
+            7872
+          ],
+          "strong": true
+        },
+        {
+          "kind": "pivot",
+          "label": "daily · hold/LBAF spot",
+          "p": [
+            7853
+          ]
+        },
+        {
+          "kind": "pivot",
+          "label": "old multi-wk top",
+          "p": [
+            7846,
+            7849
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "demand · first pass",
+          "p": [
+            7838,
+            7840
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "reclaim after LBAF of Fri low",
+          "p": [
+            7832
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "Fri low",
+          "p": [
+            7826.75
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "weekly · bulls fine above",
+          "p": [
+            7815,
+            7820
+          ],
+          "strong": true
+        },
+        {
+          "kind": "down",
+          "label": "daily",
+          "p": [
+            7800,
+            7802
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "weekly pivot · wk RTH low 7778.25",
+          "p": [
+            7780,
+            7784
+          ],
+          "strong": true
+        }
+      ],
+      "lower": "69-72 stays resistance (incl. after a LAAF) → 53 and 46-49 in play. Trading lower first (Sunday night?) and holding/LBAF-ing 53 is constructive for a trip back to 69-72; same for 46-49 with a 53/54 reclaim. If 46-49 fails there's demand at 38-40 for a first-pass reaction, which would need 46-49 and 53-54 reclaimed. Trapped below 46-49 after that demand → Friday's low 7826.75. Any failure to get to and through Friday's low likely gets bought. A LBAF of Friday's low needs ~7832 reclaimed to have a shot at 46-49. Persistent weakness below 7815-20 with time and volume → 7780-84 again.",
+      "pivot": "7869-7872 is the line. 7853 (daily, used in Discord Friday) and 7846-49 under it; 7886-88 daily, 7893-96 and the 7897.5 ATH above."
     },
     {
-     "p": [
-      7893,
-      7896
-     ],
-     "label": "",
-     "kind": "up"
-    },
-    {
-     "p": [
-      7886,
-      7888
-     ],
-     "label": "daily",
-     "kind": "up"
-    },
-    {
-     "p": [
-      7880
-     ],
-     "label": "continuation watch",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      7870.5
-     ],
-     "label": "Fri high",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      7869,
-      7872
-     ],
-     "label": "KEY · start here",
-     "kind": "pivot",
-     "strong": true
-    },
-    {
-     "p": [
-      7853
-     ],
-     "label": "daily · hold/LBAF spot",
-     "kind": "pivot"
-    },
-    {
-     "p": [
-      7846,
-      7849
-     ],
-     "label": "old multi-wk top",
-     "kind": "pivot"
-    },
-    {
-     "p": [
-      7838,
-      7840
-     ],
-     "label": "demand · first pass",
-     "kind": "down"
-    },
-    {
-     "p": [
-      7832
-     ],
-     "label": "reclaim after LBAF of Fri low",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      7826.75
-     ],
-     "label": "Fri low",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      7815,
-      7820
-     ],
-     "label": "weekly · bulls fine above",
-     "kind": "down",
-     "strong": true
-    },
-    {
-     "p": [
-      7800,
-      7802
-     ],
-     "label": "daily",
-     "kind": "down"
-    },
-    {
-     "p": [
-      7780,
-      7784
-     ],
-     "label": "weekly pivot · wk RTH low 7778.25",
-     "kind": "down",
-     "strong": true
+      "chart": "/_blob/2d0c2cdf0372ec4237ad3707239fae6f",
+      "chart_id": "2d0c2cdf0372ec4237ad3707239fae6f",
+      "happened": "Quite different from ES: a 6-day balance overlapping the prior multi-day and multi-month balances. Friday's low held just off the June high (951-969) and it closed just above the September high — but INTO 31125-45 resistance, never above its open after the first moments, OR5 mid capped the afternoon. Friday premarket high 31266.5 failed just under 269-288 and is a potential 30-min lower high. Week: high 31616.5 Tuesday, low 30792 Thursday; bearish Tue→Wed RTH gap 31422-31458.",
+      "higher": "Sustain above 125-145 → Friday's high 31180 (wary of a LAAF) → 269-288 weekly. A rejection at 269-288 comes back to test Friday's high with 125-145 a 'must hold' for a second break. A LAAF of Friday's high that flips 125-145 back to resistance makes a bearish engulfing of Friday's RTH range quite likely. Weekly: 125-145 ↔ 269-288 is rotational; 400-420 LAAF watch in the 31422-458 gap; firm reclaim of 469-481 → week high 31616.5.",
+      "instrument": "NQ",
+      "levels": [
+        {
+          "kind": "up",
+          "label": "weekly · rejection watch",
+          "p": [
+            31269,
+            31288
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "Fri PM high · 30m lower high?",
+          "p": [
+            31266.5
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "Fri high",
+          "p": [
+            31180
+          ]
+        },
+        {
+          "kind": "pivot",
+          "label": "CRITICAL · closed into it",
+          "p": [
+            31125,
+            31145
+          ],
+          "strong": true
+        },
+        {
+          "kind": "pivot",
+          "label": "Sept RTH high · hold/LBAF",
+          "p": [
+            31056,
+            31069
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "Fri low · LBAF watch",
+          "p": [
+            30991
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "June high · KEY",
+          "p": [
+            30951,
+            30969
+          ],
+          "strong": true
+        },
+        {
+          "kind": "down",
+          "label": "",
+          "p": [
+            30883,
+            30906
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "wk low (Thu)",
+          "p": [
+            30792
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "",
+          "p": [
+            30706,
+            30725
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "daily",
+          "p": [
+            30669,
+            30681
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "demand · VPOC 625",
+          "p": [
+            30595,
+            30635
+          ],
+          "strong": true
+        }
+      ],
+      "lower": "125-145 stays resistance (incl. after a LAAF) → 056-069, which is more likely reactive (incl. LBAF) if we trade lower first. Either way 125-145 must be reclaimed to prevent a move to Friday's low 30991 and 951-969. A LBAF of Friday's low needs 056-069 reclaimed to run at 125-145. Below last week's low 30792 → 706-725, then the 546-706 demand distribution (first-pass effect; 625 VPOC, 595-635 and 669-681 daily) → 504-546 → 30216.5 big picture.",
+      "pivot": "31125-31145 is 'absolutely critical to start the week' and sets the tone early. 31056-69 (Sept RTH high) below it, Friday's low 30991 and 951-969 under that."
     }
-   ]
-  },
-  {
-   "instrument": "NQ",
-   "happened": "Quite different from ES: a 6-day balance overlapping the prior multi-day and multi-month balances. Friday's low held just off the June high (951-969) and it closed just above the September high — but INTO 31125-45 resistance, never above its open after the first moments, OR5 mid capped the afternoon. Friday premarket high 31266.5 failed just under 269-288 and is a potential 30-min lower high. Week: high 31616.5 Tuesday, low 30792 Thursday; bearish Tue→Wed RTH gap 31422-31458.",
-   "pivot": "31125-31145 is 'absolutely critical to start the week' and sets the tone early. 31056-69 (Sept RTH high) below it, Friday's low 30991 and 951-969 under that.",
-   "higher": "Sustain above 125-145 → Friday's high 31180 (wary of a LAAF) → 269-288 weekly. A rejection at 269-288 comes back to test Friday's high with 125-145 a 'must hold' for a second break. A LAAF of Friday's high that flips 125-145 back to resistance makes a bearish engulfing of Friday's RTH range quite likely. Weekly: 125-145 ↔ 269-288 is rotational; 400-420 LAAF watch in the 31422-458 gap; firm reclaim of 469-481 → week high 31616.5.",
-   "lower": "125-145 stays resistance (incl. after a LAAF) → 056-069, which is more likely reactive (incl. LBAF) if we trade lower first. Either way 125-145 must be reclaimed to prevent a move to Friday's low 30991 and 951-969. A LBAF of Friday's low needs 056-069 reclaimed to run at 125-145. Below last week's low 30792 → 706-725, then the 546-706 demand distribution (first-pass effect; 625 VPOC, 595-635 and 669-681 daily) → 504-546 → 30216.5 big picture.",
-   "levels": [
+  ],
+  "corrections": [],
+  "date": "2026-10-12",
+  "final": [
     {
-     "p": [
-      31269,
-      31288
-     ],
-     "label": "weekly · rejection watch",
-     "kind": "up"
+      "added": false,
+      "dir": "short",
+      "gate": "fail or LAAF of 69-72 (incl. a LAAF of Friday's high 7870.5); also joining a session downtrend Sunday night",
+      "id": "es1",
+      "name": "Fail / LAAF of 7869-7872",
+      "stop": "69-72 sustained from above / continuation through 7880",
+      "tag": "B/B+",
+      "tgt": "53 → 46-49 → 7815-20 (monitor for continuation)"
     },
     {
-     "p": [
-      31266.5
-     ],
-     "label": "Fri PM high · 30m lower high?",
-     "kind": "ref"
+      "added": false,
+      "dir": "long",
+      "gate": "hold or LBAF of 53 (53-54), best if we trade lower first, e.g. Sunday night",
+      "id": "es2",
+      "name": "Hold / LBAF of 7853",
+      "stop": "46-49 lost",
+      "tag": "B- (lower first) · C/C+ (active LAAF of Fri high)",
+      "tgt": "69-72"
     },
     {
-     "p": [
-      31180
-     ],
-     "label": "Fri high",
-     "kind": "ref"
+      "added": false,
+      "dir": "long",
+      "gate": "hold or LBAF of 46-49; more likely seen with an active LAAF of Friday's high; needs 53 (arguably 54) reclaimed",
+      "id": "es3",
+      "name": "Hold / LBAF of 7846-7849",
+      "stop": "46-49 fails → 38-40 demand, then Friday's low",
+      "tag": "B- / C+ — same trade as 53",
+      "tgt": "53-54 → 69-72"
     },
     {
-     "p": [
-      31125,
-      31145
-     ],
-     "label": "CRITICAL · closed into it",
-     "kind": "pivot",
-     "strong": true
+      "added": false,
+      "dir": "long",
+      "gate": "LBAF of 7826.75, whether from 7815-20 or otherwise; needs ~7832 reclaimed",
+      "id": "es4",
+      "name": "LBAF of Friday's low 7826.75",
+      "stop": "persistent weakness below 7815-20",
+      "tag": "B/B-",
+      "tgt": "7832 → 46-49 → 53"
     },
     {
-     "p": [
-      31056,
-      31069
-     ],
-     "label": "Sept RTH high · hold/LBAF",
-     "kind": "pivot"
+      "added": false,
+      "dir": "long",
+      "gate": "true gap up holding 69-72 from above, rules of true gaps",
+      "id": "es5",
+      "name": "True gap up that holds 7869-7872 from above",
+      "stop": "back below 69-72 (gap fails)",
+      "tag": "B+ (esp. if NQ has cleared 125-145)",
+      "tgt": "7880 → 7886-88 → 7893-96 / 7897.5"
     },
     {
-     "p": [
-      30991
-     ],
-     "label": "Fri low · LBAF watch",
-     "kind": "ref"
+      "added": false,
+      "dir": "short",
+      "gate": "LAAF of 125-145, incl. a LAAF of Friday's high 31180 that flips 125-145 back to resistance",
+      "id": "nq1",
+      "name": "LAAF of 31125-31145",
+      "stop": "125-145 sustained / Friday's high taken with continuation",
+      "tag": "B+/A- (plain fail = lower grade)",
+      "tgt": "056-069 → Friday's low 30991 → 951-969 (monitor for continuation)"
     },
     {
-     "p": [
-      30951,
-      30969
-     ],
-     "label": "June high · KEY",
-     "kind": "down",
-     "strong": true
+      "added": false,
+      "dir": "long",
+      "gate": "hold or LBAF of 056-069, better if we trade lower first",
+      "id": "nq2",
+      "name": "Hold / LBAF of 31056-31069",
+      "stop": "persistent weakness below 056-069 → Friday's low",
+      "tag": "B (lower first) · C+/B- (active LAAF of 125-145)",
+      "tgt": "125-145 → Friday's high 31180"
     },
     {
-     "p": [
-      30883,
-      30906
-     ],
-     "label": "",
-     "kind": "down"
+      "added": false,
+      "dir": "short",
+      "gate": "persistent weakness below 056-069 with broad index weakness",
+      "id": "nq3",
+      "name": "Persistent weakness below 31056-31069 (implied)",
+      "stop": "056-069 reclaimed → 125-145",
+      "tag": "implied · wants broad index weakness",
+      "tgt": "Friday's low 30991 → 951-969 → 883-906"
     },
     {
-     "p": [
-      30792
-     ],
-     "label": "wk low (Thu)",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      30706,
-      30725
-     ],
-     "label": "",
-     "kind": "down"
-    },
-    {
-     "p": [
-      30669,
-      30681
-     ],
-     "label": "daily",
-     "kind": "down"
-    },
-    {
-     "p": [
-      30595,
-      30635
-     ],
-     "label": "demand · VPOC 625",
-     "kind": "down",
-     "strong": true
+      "added": false,
+      "dir": "long",
+      "gate": "LBAF of 30991 with 951-969 right below (bulls may step in for a higher low vs Thursday's 30792)",
+      "id": "nq4",
+      "name": "LBAF of Friday's low 30991",
+      "stop": "below 951-969 → 883-906",
+      "tag": "B/B-",
+      "tgt": "056-069 (key reclaim) → 125-145 → Friday's high"
     }
-   ]
-  }
- ],
- "trades": [
-  {
-   "id": "es1",
-   "instrument": "ES",
-   "name": "Fail / LAAF of 7869-7872",
-   "dir": "short",
-   "tag": "B/B+",
-   "gate": "fail or LAAF of 69-72 (incl. a LAAF of Friday's high 7870.5); also joining a session downtrend Sunday night",
-   "tgt": "53 → 46-49 → 7815-20 (monitor for continuation)",
-   "stop": "69-72 sustained from above / continuation through 7880",
-   "quote": "Short a fail/LAAF of 7869-7872 is a B/B+. This includes joining a session downtrend if we see one to start Sunday night, looking for 53. Monitor for continuation from there.",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7869,
-     7872
-    ],
-    "tgt": [
-     7853,
-     [
-      7846,
-      7849
-     ],
-     [
-      7815,
-      7820
-     ]
-    ],
-    "invalid": [
-     7880
-    ],
-    "stop": [
-     7873.5
-    ],
-    "be": [
-     7864.5
-    ]
-   },
-   "risk": {
-    "entry": "7869",
-    "stop": "7873.5",
-    "stop_pts": "4.5",
-    "be": "7864.5",
-    "his": "7880",
-    "his_pts": "11",
-    "mic": "MES",
-    "ours": [
-     "22.2",
-     "44.4"
-    ],
-    "his_n": [
-     "9.1",
-     "18.2"
-    ],
-    "tgts": [
-     {
-      "p": "7853",
-      "ours": "3.6",
-      "his": "1.5"
-     },
-     {
-      "p": "7846-7849",
-      "ours": "4.4",
-      "his": "1.8"
-     },
-     {
-      "p": "7815-7820",
-      "ours": "10.9",
-      "his": "4.5"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
+  ],
+  "notes": "",
+  "source": "pharmdks",
+  "status": "approved",
+  "stop_floor": {
+    "ES": 4.5,
+    "NQ": 25.25
   },
-  {
-   "id": "es2",
-   "instrument": "ES",
-   "name": "Hold / LBAF of 7853",
-   "dir": "long",
-   "tag": "B- (lower first) · C/C+ (active LAAF of Fri high)",
-   "gate": "hold or LBAF of 53 (53-54), best if we trade lower first, e.g. Sunday night",
-   "tgt": "69-72",
-   "stop": "46-49 lost",
-   "quote": "Long a hold or LBAF of 53 is a B- if we trade lower first (perhaps Sunday night) and a C/C+ if we have an active LAAF of Friday's high.",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7852,
-     7854
-    ],
-    "tgt": [
-     [
-      7869,
-      7872
-     ]
-    ],
-    "invalid": [
-     7846
-    ],
-    "stop": [
-     7848.5
-    ],
-    "be": [
-     7857.5
-    ]
-   },
-   "risk": {
-    "entry": "7853",
-    "stop": "7848.5",
-    "stop_pts": "4.5",
-    "be": "7857.5",
-    "his": "7846",
-    "his_pts": "7",
-    "mic": "MES",
-    "ours": [
-     "22.2",
-     "44.4"
-    ],
-    "his_n": [
-     "14.3",
-     "28.6"
-    ],
-    "tgts": [
-     {
-      "p": "7869-7872",
-      "ours": "3.6",
-      "his": "2.3"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
-  },
-  {
-   "id": "es3",
-   "instrument": "ES",
-   "name": "Hold / LBAF of 7846-7849",
-   "dir": "long",
-   "tag": "B- / C+ — same trade as 53",
-   "gate": "hold or LBAF of 46-49; more likely seen with an active LAAF of Friday's high; needs 53 (arguably 54) reclaimed",
-   "tgt": "53-54 → 69-72",
-   "stop": "46-49 fails → 38-40 demand, then Friday's low",
-   "quote": "A hold or LBAF of 46-49 is essentially the same trade I'm just more likely to expect 46-49 with an active LAAF.",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7846,
-     7849
-    ],
-    "tgt": [
-     7853,
-     [
-      7869,
-      7872
-     ]
-    ],
-    "invalid": [
-     7838
-    ],
-    "stop": [
-     7844.5
-    ],
-    "be": [
-     7853.5
-    ]
-   },
-   "risk": {
-    "entry": "7849",
-    "stop": "7844.5",
-    "stop_pts": "4.5",
-    "be": "7853.5",
-    "his": "7838",
-    "his_pts": "11",
-    "mic": "MES",
-    "ours": [
-     "22.2",
-     "44.4"
-    ],
-    "his_n": [
-     "9.1",
-     "18.2"
-    ],
-    "tgts": [
-     {
-      "p": "7853",
-      "ours": "0.9",
-      "his": "0.4"
-     },
-     {
-      "p": "7869-7872",
-      "ours": "4.4",
-      "his": "1.8"
-     }
-    ],
-    "pick": 1,
-    "skip": false
-   }
-  },
-  {
-   "id": "es4",
-   "instrument": "ES",
-   "name": "LBAF of Friday's low 7826.75",
-   "dir": "long",
-   "tag": "B/B-",
-   "gate": "LBAF of 7826.75, whether from 7815-20 or otherwise; needs ~7832 reclaimed",
-   "tgt": "7832 → 46-49 → 53",
-   "stop": "persistent weakness below 7815-20",
-   "quote": "I don't love the profile for a long on a LBAF of Friday's low, but it is a valid trade and I'll rate it a B/B-",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7815,
-     7827
-    ],
-    "tgt": [
-     7832,
-     [
-      7846,
-      7849
-     ],
-     7853
-    ],
-    "invalid": [
-     7815
-    ],
-    "stop": [
-     7822.25
-    ],
-    "be": [
-     7831.25
-    ]
-   },
-   "risk": {
-    "entry": "7826.75",
-    "stop": "7822.25",
-    "stop_pts": "4.5",
-    "be": "7831.25",
-    "his": "7815",
-    "his_pts": "11.75",
-    "mic": "MES",
-    "ours": [
-     "22.2",
-     "44.4"
-    ],
-    "his_n": [
-     "8.5",
-     "17.0"
-    ],
-    "tgts": [
-     {
-      "p": "7832",
-      "ours": "1.2",
-      "his": "0.4"
-     },
-     {
-      "p": "7846-7849",
-      "ours": "4.3",
-      "his": "1.6"
-     },
-     {
-      "p": "7853",
-      "ours": "5.8",
-      "his": "2.2"
-     }
-    ],
-    "pick": 1,
-    "skip": false
-   }
-  },
-  {
-   "id": "es5",
-   "instrument": "ES",
-   "name": "True gap up that holds 7869-7872 from above",
-   "dir": "long",
-   "tag": "B+ (esp. if NQ has cleared 125-145)",
-   "gate": "true gap up holding 69-72 from above, rules of true gaps",
-   "tgt": "7880 → 7886-88 → 7893-96 / 7897.5",
-   "stop": "back below 69-72 (gap fails)",
-   "quote": "We can be long a true gap up which holds 7869-7872 from above, playing the rules of true gaps. This is probably the safest long and although I generally prefer buying dips I'll rate it a B+ especially if NQ has cleared 125-145.",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7869,
-     7872
-    ],
-    "tgt": [
-     7880,
-     [
-      7886,
-      7888
-     ],
-     [
-      7893,
-      7896
-     ]
-    ],
-    "invalid": [
-     7869
-    ],
-    "stop": [
-     7867.5
-    ],
-    "be": [
-     7876.5
-    ]
-   },
-   "risk": {
-    "entry": "7872",
-    "stop": "7867.5",
-    "stop_pts": "4.5",
-    "be": "7876.5",
-    "his": "7869",
-    "his_pts": "3",
-    "mic": "MES",
-    "ours": [
-     "22.2",
-     "44.4"
-    ],
-    "his_n": [
-     "33.3",
-     "66.7"
-    ],
-    "tgts": [
-     {
-      "p": "7880",
-      "ours": "1.8",
-      "his": "2.7"
-     },
-     {
-      "p": "7886-7888",
-      "ours": "3.1",
-      "his": "4.7"
-     },
-     {
-      "p": "7893-7896",
-      "ours": "4.7",
-      "his": "7.0"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
-  },
-  {
-   "id": "nq1",
-   "instrument": "NQ",
-   "name": "LAAF of 31125-31145",
-   "dir": "short",
-   "tag": "B+/A- (plain fail = lower grade)",
-   "gate": "LAAF of 125-145, incl. a LAAF of Friday's high 31180 that flips 125-145 back to resistance",
-   "tgt": "056-069 → Friday's low 30991 → 951-969 (monitor for continuation)",
-   "stop": "125-145 sustained / Friday's high taken with continuation",
-   "quote": "Short a LAAF of 125-145 is a B+/A- and can be played as a fail with a lower rating if Sunday opens flat/lower and 125-145 remains resistance. Target is 056-069 and monitor for continuation from there.",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     31125,
-     31145
-    ],
-    "tgt": [
-     [
-      31056,
-      31069
-     ],
-     30991,
-     [
-      30951,
-      30969
-     ]
-    ],
-    "invalid": [
-     31180
-    ],
-    "stop": [
-     31150.25
-    ],
-    "be": [
-     31099.75
-    ]
-   },
-   "risk": {
-    "entry": "31125",
-    "stop": "31150.2",
-    "stop_pts": "25.25",
-    "be": "31099.8",
-    "his": "31180",
-    "his_pts": "55",
-    "mic": "MNQ",
-    "ours": [
-     "9.9",
-     "19.8"
-    ],
-    "his_n": [
-     "4.5",
-     "9.1"
-    ],
-    "tgts": [
-     {
-      "p": "31056-31069",
-      "ours": "2.2",
-      "his": "1.0"
-     },
-     {
-      "p": "30991",
-      "ours": "5.3",
-      "his": "2.4"
-     },
-     {
-      "p": "30951-30969",
-      "ours": "6.2",
-      "his": "2.8"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
-  },
-  {
-   "id": "nq2",
-   "instrument": "NQ",
-   "name": "Hold / LBAF of 31056-31069",
-   "dir": "long",
-   "tag": "B (lower first) · C+/B- (active LAAF of 125-145)",
-   "gate": "hold or LBAF of 056-069, better if we trade lower first",
-   "tgt": "125-145 → Friday's high 31180",
-   "stop": "persistent weakness below 056-069 → Friday's low",
-   "quote": "Long a hold or LBAF of 31056-31069 is a B if we trade lower first, and a C+/B- if we have an active LAAF of 125-145",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     31056,
-     31069
-    ],
-    "tgt": [
-     [
-      31125,
-      31145
-     ],
-     31180
-    ],
-    "invalid": [
-     30991
-    ],
-    "stop": [
-     31043.75
-    ],
-    "be": [
-     31094.25
-    ]
-   },
-   "risk": {
-    "entry": "31069",
-    "stop": "31043.8",
-    "stop_pts": "25.25",
-    "be": "31094.2",
-    "his": "30991",
-    "his_pts": "78",
-    "mic": "MNQ",
-    "ours": [
-     "9.9",
-     "19.8"
-    ],
-    "his_n": [
-     "3.2",
-     "6.4"
-    ],
-    "tgts": [
-     {
-      "p": "31125-31145",
-      "ours": "2.2",
-      "his": "0.7"
-     },
-     {
-      "p": "31180",
-      "ours": "4.4",
-      "his": "1.4"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
-  },
-  {
-   "id": "nq3",
-   "instrument": "NQ",
-   "name": "Persistent weakness below 31056-31069 (implied)",
-   "dir": "short",
-   "tag": "implied · wants broad index weakness",
-   "gate": "persistent weakness below 056-069 with broad index weakness",
-   "tgt": "Friday's low 30991 → 951-969 → 883-906",
-   "stop": "056-069 reclaimed → 125-145",
-   "quote": "Shorting persistent weakness below 056-069 is implied by the commentary and I would add that I would probably want to see broad index weakness to consider initiating a new short in that situation.",
-   "unsure": true,
-   "decision": null,
-   "levels": {
-    "gate": [
-     31056,
-     31069
-    ],
-    "tgt": [
-     30991,
-     [
-      30951,
-      30969
-     ],
-     [
-      30883,
-      30906
-     ]
-    ],
-    "invalid": [
-     31125
-    ],
-    "stop": [
-     31081.25
-    ],
-    "be": [
-     31030.75
-    ]
-   },
-   "risk": {
-    "entry": "31056",
-    "stop": "31081.2",
-    "stop_pts": "25.25",
-    "be": "31030.8",
-    "his": "31125",
-    "his_pts": "69",
-    "mic": "MNQ",
-    "ours": [
-     "9.9",
-     "19.8"
-    ],
-    "his_n": [
-     "3.6",
-     "7.2"
-    ],
-    "tgts": [
-     {
-      "p": "30991",
-      "ours": "2.6",
-      "his": "0.9"
-     },
-     {
-      "p": "30951-30969",
-      "ours": "3.4",
-      "his": "1.3"
-     },
-     {
-      "p": "30883-30906",
-      "ours": "5.9",
-      "his": "2.2"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
-  },
-  {
-   "id": "nq4",
-   "instrument": "NQ",
-   "name": "LBAF of Friday's low 30991",
-   "dir": "long",
-   "tag": "B/B-",
-   "gate": "LBAF of 30991 with 951-969 right below (bulls may step in for a higher low vs Thursday's 30792)",
-   "tgt": "056-069 (key reclaim) → 125-145 → Friday's high",
-   "stop": "below 951-969 → 883-906",
-   "quote": "Long a LBAF of Friday's low is valid. With 30951-30969 and its importance sitting just below I have to be open to the possibility that bulls step in to produce a higher low relative to Thursday's low. The 31056-31069 level would be a key reclaim to open a move to 125-145 and potentially Friday's high. B/B-",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     30951,
-     30991
-    ],
-    "tgt": [
-     [
-      31056,
-      31069
-     ],
-     [
-      31125,
-      31145
-     ],
-     31180
-    ],
-    "invalid": [
-     30906
-    ],
-    "stop": [
-     30965.75
-    ],
-    "be": [
-     31016.25
-    ]
-   },
-   "risk": {
-    "entry": "30991",
-    "stop": "30965.8",
-    "stop_pts": "25.25",
-    "be": "31016.2",
-    "his": "30906",
-    "his_pts": "85",
-    "mic": "MNQ",
-    "ours": [
-     "9.9",
-     "19.8"
-    ],
-    "his_n": [
-     "2.9",
-     "5.9"
-    ],
-    "tgts": [
-     {
-      "p": "31056-31069",
-      "ours": "2.6",
-      "his": "0.8"
-     },
-     {
-      "p": "31125-31145",
-      "ours": "5.3",
-      "his": "1.6"
-     },
-     {
-      "p": "31180",
-      "ours": "7.5",
-      "his": "2.2"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
-  }
- ],
- "atr5": {
-  "ES": 2.98,
-  "NQ": 16.88
- },
- "stop_floor": {
-  "ES": 4.5,
-  "NQ": 25.25
- }
+  "trades": [
+    {
+      "chart": "/_blob/3dc4b726126c5966dd7abcb7f544dc49",
+      "chart_id": "3dc4b726126c5966dd7abcb7f544dc49",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "fail or LAAF of 69-72 (incl. a LAAF of Friday's high 7870.5); also joining a session downtrend Sunday night",
+      "id": "es1",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7864.5
+        ],
+        "gate": [
+          7869,
+          7872
+        ],
+        "invalid": [
+          7880
+        ],
+        "stop": [
+          7873.5
+        ],
+        "tgt": [
+          7853,
+          [
+            7846,
+            7849
+          ],
+          [
+            7815,
+            7820
+          ]
+        ]
+      },
+      "name": "Fail / LAAF of 7869-7872",
+      "quote": "Short a fail/LAAF of 7869-7872 is a B/B+. This includes joining a session downtrend if we see one to start Sunday night, looking for 53. Monitor for continuation from there.",
+      "risk": {
+        "be": "7864.5",
+        "entry": "7869",
+        "his": "7880",
+        "his_n": [
+          "9.1",
+          "18.2"
+        ],
+        "his_pts": "11",
+        "mic": "MES",
+        "ours": [
+          "22.2",
+          "44.4"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "7873.5",
+        "stop_pts": "4.5",
+        "tgts": [
+          {
+            "his": "1.5",
+            "ours": "3.6",
+            "p": "7853"
+          },
+          {
+            "his": "1.8",
+            "ours": "4.4",
+            "p": "7846-7849"
+          },
+          {
+            "his": "4.5",
+            "ours": "10.9",
+            "p": "7815-7820"
+          }
+        ]
+      },
+      "stop": "69-72 sustained from above / continuation through 7880",
+      "tag": "B/B+",
+      "tgt": "53 → 46-49 → 7815-20 (monitor for continuation)",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/ee3c52793613170388e2fc0712f98df5",
+      "chart_id": "ee3c52793613170388e2fc0712f98df5",
+      "decision": "keep",
+      "dir": "long",
+      "gate": "hold or LBAF of 53 (53-54), best if we trade lower first, e.g. Sunday night",
+      "id": "es2",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7857.5
+        ],
+        "gate": [
+          7852,
+          7854
+        ],
+        "invalid": [
+          7846
+        ],
+        "stop": [
+          7848.5
+        ],
+        "tgt": [
+          [
+            7869,
+            7872
+          ]
+        ]
+      },
+      "name": "Hold / LBAF of 7853",
+      "quote": "Long a hold or LBAF of 53 is a B- if we trade lower first (perhaps Sunday night) and a C/C+ if we have an active LAAF of Friday's high.",
+      "risk": {
+        "be": "7857.5",
+        "entry": "7853",
+        "his": "7846",
+        "his_n": [
+          "14.3",
+          "28.6"
+        ],
+        "his_pts": "7",
+        "mic": "MES",
+        "ours": [
+          "22.2",
+          "44.4"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "7848.5",
+        "stop_pts": "4.5",
+        "tgts": [
+          {
+            "his": "2.3",
+            "ours": "3.6",
+            "p": "7869-7872"
+          }
+        ]
+      },
+      "stop": "46-49 lost",
+      "tag": "B- (lower first) · C/C+ (active LAAF of Fri high)",
+      "tgt": "69-72",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/2812c00efa7ecd75524cc253597fbf49",
+      "chart_id": "2812c00efa7ecd75524cc253597fbf49",
+      "decision": "keep",
+      "dir": "long",
+      "gate": "hold or LBAF of 46-49; more likely seen with an active LAAF of Friday's high; needs 53 (arguably 54) reclaimed",
+      "id": "es3",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7853.5
+        ],
+        "gate": [
+          7846,
+          7849
+        ],
+        "invalid": [
+          7838
+        ],
+        "stop": [
+          7844.5
+        ],
+        "tgt": [
+          7853,
+          [
+            7869,
+            7872
+          ]
+        ]
+      },
+      "name": "Hold / LBAF of 7846-7849",
+      "quote": "A hold or LBAF of 46-49 is essentially the same trade I'm just more likely to expect 46-49 with an active LAAF.",
+      "risk": {
+        "be": "7853.5",
+        "entry": "7849",
+        "his": "7838",
+        "his_n": [
+          "9.1",
+          "18.2"
+        ],
+        "his_pts": "11",
+        "mic": "MES",
+        "ours": [
+          "22.2",
+          "44.4"
+        ],
+        "pick": 1,
+        "skip": false,
+        "stop": "7844.5",
+        "stop_pts": "4.5",
+        "tgts": [
+          {
+            "his": "0.4",
+            "ours": "0.9",
+            "p": "7853"
+          },
+          {
+            "his": "1.8",
+            "ours": "4.4",
+            "p": "7869-7872"
+          }
+        ]
+      },
+      "stop": "46-49 fails → 38-40 demand, then Friday's low",
+      "tag": "B- / C+ — same trade as 53",
+      "tgt": "53-54 → 69-72",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/e4c82e5de5a318266b88a9e971a7f0af",
+      "chart_id": "e4c82e5de5a318266b88a9e971a7f0af",
+      "decision": "keep",
+      "dir": "long",
+      "gate": "LBAF of 7826.75, whether from 7815-20 or otherwise; needs ~7832 reclaimed",
+      "id": "es4",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7831.25
+        ],
+        "gate": [
+          7815,
+          7827
+        ],
+        "invalid": [
+          7815
+        ],
+        "stop": [
+          7822.25
+        ],
+        "tgt": [
+          7832,
+          [
+            7846,
+            7849
+          ],
+          7853
+        ]
+      },
+      "name": "LBAF of Friday's low 7826.75",
+      "quote": "I don't love the profile for a long on a LBAF of Friday's low, but it is a valid trade and I'll rate it a B/B-",
+      "risk": {
+        "be": "7831.25",
+        "entry": "7826.75",
+        "his": "7815",
+        "his_n": [
+          "8.5",
+          "17.0"
+        ],
+        "his_pts": "11.75",
+        "mic": "MES",
+        "ours": [
+          "22.2",
+          "44.4"
+        ],
+        "pick": 1,
+        "skip": false,
+        "stop": "7822.25",
+        "stop_pts": "4.5",
+        "tgts": [
+          {
+            "his": "0.4",
+            "ours": "1.2",
+            "p": "7832"
+          },
+          {
+            "his": "1.6",
+            "ours": "4.3",
+            "p": "7846-7849"
+          },
+          {
+            "his": "2.2",
+            "ours": "5.8",
+            "p": "7853"
+          }
+        ]
+      },
+      "stop": "persistent weakness below 7815-20",
+      "tag": "B/B-",
+      "tgt": "7832 → 46-49 → 53",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/109608034d9255f5c7be6bb1079f79b1",
+      "chart_id": "109608034d9255f5c7be6bb1079f79b1",
+      "decision": "keep",
+      "dir": "long",
+      "gate": "true gap up holding 69-72 from above, rules of true gaps",
+      "id": "es5",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7876.5
+        ],
+        "gate": [
+          7869,
+          7872
+        ],
+        "invalid": [
+          7869
+        ],
+        "stop": [
+          7867.5
+        ],
+        "tgt": [
+          7880,
+          [
+            7886,
+            7888
+          ],
+          [
+            7893,
+            7896
+          ]
+        ]
+      },
+      "name": "True gap up that holds 7869-7872 from above",
+      "quote": "We can be long a true gap up which holds 7869-7872 from above, playing the rules of true gaps. This is probably the safest long and although I generally prefer buying dips I'll rate it a B+ especially if NQ has cleared 125-145.",
+      "risk": {
+        "be": "7876.5",
+        "entry": "7872",
+        "his": "7869",
+        "his_n": [
+          "33.3",
+          "66.7"
+        ],
+        "his_pts": "3",
+        "mic": "MES",
+        "ours": [
+          "22.2",
+          "44.4"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "7867.5",
+        "stop_pts": "4.5",
+        "tgts": [
+          {
+            "his": "2.7",
+            "ours": "1.8",
+            "p": "7880"
+          },
+          {
+            "his": "4.7",
+            "ours": "3.1",
+            "p": "7886-7888"
+          },
+          {
+            "his": "7.0",
+            "ours": "4.7",
+            "p": "7893-7896"
+          }
+        ]
+      },
+      "stop": "back below 69-72 (gap fails)",
+      "tag": "B+ (esp. if NQ has cleared 125-145)",
+      "tgt": "7880 → 7886-88 → 7893-96 / 7897.5",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/5c2f8a7aff6691a197a0e19cc9bea7ce",
+      "chart_id": "5c2f8a7aff6691a197a0e19cc9bea7ce",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "LAAF of 125-145, incl. a LAAF of Friday's high 31180 that flips 125-145 back to resistance",
+      "id": "nq1",
+      "instrument": "NQ",
+      "levels": {
+        "be": [
+          31099.75
+        ],
+        "gate": [
+          31125,
+          31145
+        ],
+        "invalid": [
+          31180
+        ],
+        "stop": [
+          31150.25
+        ],
+        "tgt": [
+          [
+            31056,
+            31069
+          ],
+          30991,
+          [
+            30951,
+            30969
+          ]
+        ]
+      },
+      "name": "LAAF of 31125-31145",
+      "quote": "Short a LAAF of 125-145 is a B+/A- and can be played as a fail with a lower rating if Sunday opens flat/lower and 125-145 remains resistance. Target is 056-069 and monitor for continuation from there.",
+      "risk": {
+        "be": "31099.8",
+        "entry": "31125",
+        "his": "31180",
+        "his_n": [
+          "4.5",
+          "9.1"
+        ],
+        "his_pts": "55",
+        "mic": "MNQ",
+        "ours": [
+          "9.9",
+          "19.8"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "31150.2",
+        "stop_pts": "25.25",
+        "tgts": [
+          {
+            "his": "1.0",
+            "ours": "2.2",
+            "p": "31056-31069"
+          },
+          {
+            "his": "2.4",
+            "ours": "5.3",
+            "p": "30991"
+          },
+          {
+            "his": "2.8",
+            "ours": "6.2",
+            "p": "30951-30969"
+          }
+        ]
+      },
+      "stop": "125-145 sustained / Friday's high taken with continuation",
+      "tag": "B+/A- (plain fail = lower grade)",
+      "tgt": "056-069 → Friday's low 30991 → 951-969 (monitor for continuation)",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/5fd14acc65c03406d1d66ca1ab6e144c",
+      "chart_id": "5fd14acc65c03406d1d66ca1ab6e144c",
+      "decision": "keep",
+      "dir": "long",
+      "gate": "hold or LBAF of 056-069, better if we trade lower first",
+      "id": "nq2",
+      "instrument": "NQ",
+      "levels": {
+        "be": [
+          31094.25
+        ],
+        "gate": [
+          31056,
+          31069
+        ],
+        "invalid": [
+          30991
+        ],
+        "stop": [
+          31043.75
+        ],
+        "tgt": [
+          [
+            31125,
+            31145
+          ],
+          31180
+        ]
+      },
+      "name": "Hold / LBAF of 31056-31069",
+      "quote": "Long a hold or LBAF of 31056-31069 is a B if we trade lower first, and a C+/B- if we have an active LAAF of 125-145",
+      "risk": {
+        "be": "31094.2",
+        "entry": "31069",
+        "his": "30991",
+        "his_n": [
+          "3.2",
+          "6.4"
+        ],
+        "his_pts": "78",
+        "mic": "MNQ",
+        "ours": [
+          "9.9",
+          "19.8"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "31043.8",
+        "stop_pts": "25.25",
+        "tgts": [
+          {
+            "his": "0.7",
+            "ours": "2.2",
+            "p": "31125-31145"
+          },
+          {
+            "his": "1.4",
+            "ours": "4.4",
+            "p": "31180"
+          }
+        ]
+      },
+      "stop": "persistent weakness below 056-069 → Friday's low",
+      "tag": "B (lower first) · C+/B- (active LAAF of 125-145)",
+      "tgt": "125-145 → Friday's high 31180",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/cae1b271eb5ccb82194c02ea79930d19",
+      "chart_id": "cae1b271eb5ccb82194c02ea79930d19",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "persistent weakness below 056-069 with broad index weakness",
+      "id": "nq3",
+      "instrument": "NQ",
+      "levels": {
+        "be": [
+          31030.75
+        ],
+        "gate": [
+          31056,
+          31069
+        ],
+        "invalid": [
+          31125
+        ],
+        "stop": [
+          31081.25
+        ],
+        "tgt": [
+          30991,
+          [
+            30951,
+            30969
+          ],
+          [
+            30883,
+            30906
+          ]
+        ]
+      },
+      "name": "Persistent weakness below 31056-31069 (implied)",
+      "quote": "Shorting persistent weakness below 056-069 is implied by the commentary and I would add that I would probably want to see broad index weakness to consider initiating a new short in that situation.",
+      "risk": {
+        "be": "31030.8",
+        "entry": "31056",
+        "his": "31125",
+        "his_n": [
+          "3.6",
+          "7.2"
+        ],
+        "his_pts": "69",
+        "mic": "MNQ",
+        "ours": [
+          "9.9",
+          "19.8"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "31081.2",
+        "stop_pts": "25.25",
+        "tgts": [
+          {
+            "his": "0.9",
+            "ours": "2.6",
+            "p": "30991"
+          },
+          {
+            "his": "1.3",
+            "ours": "3.4",
+            "p": "30951-30969"
+          },
+          {
+            "his": "2.2",
+            "ours": "5.9",
+            "p": "30883-30906"
+          }
+        ]
+      },
+      "stop": "056-069 reclaimed → 125-145",
+      "tag": "implied · wants broad index weakness",
+      "tgt": "Friday's low 30991 → 951-969 → 883-906",
+      "unsure": true
+    },
+    {
+      "chart": "/_blob/9b6157e7cf554d6cb377580085baef65",
+      "chart_id": "9b6157e7cf554d6cb377580085baef65",
+      "decision": "keep",
+      "dir": "long",
+      "gate": "LBAF of 30991 with 951-969 right below (bulls may step in for a higher low vs Thursday's 30792)",
+      "id": "nq4",
+      "instrument": "NQ",
+      "levels": {
+        "be": [
+          31016.25
+        ],
+        "gate": [
+          30951,
+          30991
+        ],
+        "invalid": [
+          30906
+        ],
+        "stop": [
+          30965.75
+        ],
+        "tgt": [
+          [
+            31056,
+            31069
+          ],
+          [
+            31125,
+            31145
+          ],
+          31180
+        ]
+      },
+      "name": "LBAF of Friday's low 30991",
+      "quote": "Long a LBAF of Friday's low is valid. With 30951-30969 and its importance sitting just below I have to be open to the possibility that bulls step in to produce a higher low relative to Thursday's low. The 31056-31069 level would be a key reclaim to open a move to 125-145 and potentially Friday's high. B/B-",
+      "risk": {
+        "be": "31016.2",
+        "entry": "30991",
+        "his": "30906",
+        "his_n": [
+          "2.9",
+          "5.9"
+        ],
+        "his_pts": "85",
+        "mic": "MNQ",
+        "ours": [
+          "9.9",
+          "19.8"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "30965.8",
+        "stop_pts": "25.25",
+        "tgts": [
+          {
+            "his": "0.8",
+            "ours": "2.6",
+            "p": "31056-31069"
+          },
+          {
+            "his": "1.6",
+            "ours": "5.3",
+            "p": "31125-31145"
+          },
+          {
+            "his": "2.2",
+            "ours": "7.5",
+            "p": "31180"
+          }
+        ]
+      },
+      "stop": "below 951-969 → 883-906",
+      "tag": "B/B-",
+      "tgt": "056-069 (key reclaim) → 125-145 → Friday's high",
+      "unsure": false
+    }
+  ],
+  "wildcard": "ES was strong vs NQ Friday purely on a YM 'moon mission' (framed higher every period until the last 30 min) — those moves usually get digested within a couple of days, so ES is fine only if NQ picks up the slack. NQ never traded above Friday's open after the first moments; the OR5 high was never breached and the OR5 mid capped the afternoon — Friday's premarket high 31266.5 is a potential 30-min lower high. Sunday night may trade lower first; several of his grades change depending on whether it does."
 }
