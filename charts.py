@@ -109,7 +109,7 @@ def draw(trade, bars, ref, pday, out):
     ax.tick_params(axis="y", labelsize=7, colors=MUTE)
     ax.set_xlim(-1, n + 1)
     lo, hi = bars.Low.min(), bars.High.max()
-    allv = [v for k in ("gate", "stop") for v in (lv.get(k) or [])] + [v for t in lv.get("tgt", []) for v in (t if isinstance(t, list) else [t])]
+    allv = [v for k in ("gate", "stop", "be", "invalid") for v in (lv.get(k) or [])] + [v for t in lv.get("tgt", []) for v in (t if isinstance(t, list) else [t])]
     lo = min([lo] + allv); hi = max([hi] + allv)
     pad = (hi - lo) * 0.06
     ax.set_ylim(lo - pad, hi + pad)
