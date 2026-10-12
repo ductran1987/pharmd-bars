@@ -1,0 +1,911 @@
+{
+ "source": "pharmdks",
+ "date": "2026-10-13",
+ "status": "draft",
+ "notes": "",
+ "bias": "Both traded higher first Sunday night: ES tagged the 7886-88 daily, NQ failed the weekly 269-288 — that put in the high and by the cash open the look-above-and-fail had triggered 'trading lower.' Absurdly low volume (bank holiday) that looked choppy and sloppy, but the levels and analysis were clean. No damage on ES — 7846-49 held. NQ looks worse but is still inside its multi-day balance. Sellers had a small window, took their shot, and haven't solidified technical damage yet. Hopefully volume returns Tuesday; bigger decisions make more sense after this week's data.",
+ "wildcard": "He stayed at the cabin an extra day and kept it 'as simple as that': ES is a box — today's RTH range 7846.25 to 7870, captured exactly by 46-49 and 69-72. NQ's low approached the bottom of the multi-day balance (last week's low 30792): sellers MUST break it with continuation or the area is a buy (box rules). Monday's A-period left single prints above 30980.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Overnight high 7887 (tagged 7886-88) → cash open 7863, high 7870 at the bell (into 69-72), sold to 7846.25 at 2:50 (46-49 held), closed 7856.75. Today's high and low were captured by the two weekly levels, so today's range is its own box. Honorable mention 7859-60 and maybe 51.5.",
+   "pivot": "Box: 7846-49 bottom, 7869-72 top. 7859-60 inside it — if sellers quickly cap pops there they can pressure the low.",
+   "higher": "Long a LBAF of today's low; long a break of today's high that sees continuation (→ 7886-88, 7893-96, 7897.5). Fish long near the bottom of the box.",
+   "lower": "Short a LAAF of today's high; short a breakdown below today's low with continuation (→ 38-40 demand, 7826-27, 7815-20). Join a downtrend on a LAAF of 59-60. Fish short near the top.",
+   "levels": [
+    {
+     "p": [
+      7897.5
+     ],
+     "label": "ATH",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7893,
+      7896
+     ],
+     "label": "",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7886,
+      7888
+     ],
+     "label": "daily · ON high 7887 tagged",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7870
+     ],
+     "label": "today's high · box top",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7869,
+      7872
+     ],
+     "label": "weekly · LAAF / breakout",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7859,
+      7860
+     ],
+     "label": "honorable mention · cap pops here",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7851.5
+     ],
+     "label": "maybe",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7846.25
+     ],
+     "label": "today's low · box bottom",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7846,
+      7849
+     ],
+     "label": "weekly · held · LBAF / breakdown",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7838,
+      7840
+     ],
+     "label": "daily · demand",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7826,
+      7827
+     ],
+     "label": "daily · Fri low",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7815,
+      7820
+     ],
+     "label": "weekly",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7800,
+      7802
+     ],
+     "label": "daily",
+     "kind": "down"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Overnight high 31289 failed the weekly 269-288 → cash open 31045, high 31048.75 at the bell just under 056-069, A-period dumped leaving single prints above 30980, low 30844.25 at 2:50 approaching last week's low 30792 (bottom of the multi-day balance), closed 30896. Looks worse than ES but still inside the balance.",
+   "pivot": "30951-969 (weekly) with his 30980 'ARH' just above and 928-936 just below; 860-870 near the bottom; last week's low 30792 is the line sellers must break.",
+   "higher": "Buyers need a firm base above 951-969, then lift 980 and Friday's 991 → today's open/high and 31056-69. Traction above there starts to look like a fumble; sellers had better defend by 125-145 or risk a cover rally to the overnight high in 269-288. Any LBAF of today's/last week's low must reclaim 860-870 bare minimum, really 883-906 and above.",
+   "lower": "Sellers defend pops by 928-936 (incl. a defense of 951-969 or a LAAF of 980 that flips 951-969 and 928-936 back to resistance) → pressure today's low. They MUST find traction below today's low AND last week's low 30792 — otherwise box rules: it's a buy.",
+   "levels": [
+    {
+     "p": [
+      31269,
+      31288
+     ],
+     "label": "ON high 31289 failed here",
+     "kind": "up"
+    },
+    {
+     "p": [
+      31125,
+      31145
+     ],
+     "label": "sellers must defend by here",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      31056,
+      31069
+     ],
+     "label": "weekly · today's high just under",
+     "kind": "up"
+    },
+    {
+     "p": [
+      31048.75
+     ],
+     "label": "today's high / open 31045",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30991
+     ],
+     "label": "Fri low · keep one more day",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30980
+     ],
+     "label": "ARH · singles above · LAAF watch",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      30951,
+      30969
+     ],
+     "label": "weekly · base or defend",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      30928,
+      30936
+     ],
+     "label": "honorable · cap pops here",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      30883,
+      30906
+     ],
+     "label": "real reclaim for buyers",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30860,
+      30870
+     ],
+     "label": "honorable · bare-min reclaim · fish long",
+     "kind": "down"
+    },
+    {
+     "p": [
+      30844.25
+     ],
+     "label": "today's low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30792
+     ],
+     "label": "LAST WEEK'S LOW · balance bottom",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      30706,
+      30725
+     ],
+     "label": "",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      30669,
+      30681
+     ],
+     "label": "daily",
+     "kind": "down"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of today's high 7870",
+   "dir": "short",
+   "tag": "A/A+",
+   "gate": "LAAF of 7870 / the 7869-72 weekly",
+   "tgt": "59-60 → 51.5 → today's low 7846.25",
+   "stop": "break of today's high that sees continuation (→ 7886-88)",
+   "quote": "Short a LAAF of today's high … The box trades are A/A+ for the LAAF/LBAF",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7869,
+     7872
+    ],
+    "tgt": [
+     [
+      7859,
+      7860
+     ],
+     7851.5,
+     7846.25
+    ],
+    "invalid": [
+     7886
+    ],
+    "stop": [
+     7874.0
+    ],
+    "be": [
+     7866.0
+    ]
+   },
+   "risk": {
+    "entry": "7870",
+    "stop": "7874",
+    "stop_pts": "4",
+    "be": "7866",
+    "his": "7886",
+    "his_pts": "16",
+    "mic": "MES",
+    "ours": [
+     "25.0",
+     "50.0"
+    ],
+    "his_n": [
+     "6.2",
+     "12.5"
+    ],
+    "tgts": [
+     {
+      "p": "7859-7860",
+      "ours": "2.5",
+      "his": "0.6"
+     },
+     {
+      "p": "7851.5",
+      "ours": "4.6",
+      "his": "1.2"
+     },
+     {
+      "p": "7846.25",
+      "ours": "5.9",
+      "his": "1.5"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of today's low 7846.25",
+   "dir": "long",
+   "tag": "A/A+",
+   "gate": "LBAF of 7846.25 / the 7846-49 weekly",
+   "tgt": "51.5 → 59-60 → today's high 7870",
+   "stop": "breakdown below today's low that sees continuation (→ 38-40)",
+   "quote": "long a LBAF of today's low … The box trades are A/A+ for the LAAF/LBAF",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7846,
+     7849
+    ],
+    "tgt": [
+     7851.5,
+     [
+      7859,
+      7860
+     ],
+     7870
+    ],
+    "invalid": [
+     7838
+    ],
+    "stop": [
+     7842.25
+    ],
+    "be": [
+     7850.25
+    ]
+   },
+   "risk": {
+    "entry": "7846.25",
+    "stop": "7842.25",
+    "stop_pts": "4",
+    "be": "7850.25",
+    "his": "7838",
+    "his_pts": "8.25",
+    "mic": "MES",
+    "ours": [
+     "25.0",
+     "50.0"
+    ],
+    "his_n": [
+     "12.1",
+     "24.2"
+    ],
+    "tgts": [
+     {
+      "p": "7851.5",
+      "ours": "1.3",
+      "his": "0.6"
+     },
+     {
+      "p": "7859-7860",
+      "ours": "3.2",
+      "his": "1.5"
+     },
+     {
+      "p": "7870",
+      "ours": "5.9",
+      "his": "2.9"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Break of today's high with continuation",
+   "dir": "long",
+   "tag": "B/B+",
+   "gate": "break of 7870 / 69-72 that sees continuation",
+   "tgt": "7886-88 → 7893-96 → 7897.5",
+   "stop": "back inside the box (LAAF)",
+   "quote": "long a break of today's high that sees continuation … B/B+ for breakout/breakdown",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7869,
+     7872
+    ],
+    "tgt": [
+     [
+      7886,
+      7888
+     ],
+     [
+      7893,
+      7896
+     ],
+     7897.5
+    ],
+    "invalid": [
+     7859
+    ],
+    "stop": [
+     7866.0
+    ],
+    "be": [
+     7874.0
+    ]
+   },
+   "risk": {
+    "entry": "7870",
+    "stop": "7866",
+    "stop_pts": "4",
+    "be": "7874",
+    "his": "7859",
+    "his_pts": "11",
+    "mic": "MES",
+    "ours": [
+     "25.0",
+     "50.0"
+    ],
+    "his_n": [
+     "9.1",
+     "18.2"
+    ],
+    "tgts": [
+     {
+      "p": "7886-7888",
+      "ours": "4.0",
+      "his": "1.5"
+     },
+     {
+      "p": "7893-7896",
+      "ours": "5.8",
+      "his": "2.1"
+     },
+     {
+      "p": "7897.5",
+      "ours": "6.9",
+      "his": "2.5"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Breakdown below today's low with continuation",
+   "dir": "short",
+   "tag": "B/B+",
+   "gate": "breakdown below 7846.25 / 46-49 that sees continuation",
+   "tgt": "38-40 → 7826-27 → 7815-20",
+   "stop": "back inside the box (LBAF)",
+   "quote": "short a breakdown below today's low which sees continuation … B/B+ for breakout/breakdown",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7846,
+     7849
+    ],
+    "tgt": [
+     [
+      7838,
+      7840
+     ],
+     [
+      7826,
+      7827
+     ],
+     [
+      7815,
+      7820
+     ]
+    ],
+    "invalid": [
+     7860
+    ],
+    "stop": [
+     7850.25
+    ],
+    "be": [
+     7842.25
+    ]
+   },
+   "risk": {
+    "entry": "7846.25",
+    "stop": "7850.25",
+    "stop_pts": "4",
+    "be": "7842.25",
+    "his": "7860",
+    "his_pts": "13.75",
+    "mic": "MES",
+    "ours": [
+     "25.0",
+     "50.0"
+    ],
+    "his_n": [
+     "7.3",
+     "14.5"
+    ],
+    "tgts": [
+     {
+      "p": "7838-7840",
+      "ours": "1.6",
+      "his": "0.5"
+     },
+     {
+      "p": "7826-7827",
+      "ours": "4.8",
+      "his": "1.4"
+     },
+     {
+      "p": "7815-7820",
+      "ours": "6.6",
+      "his": "1.9"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Join a downtrend on a LAAF of 7859-7860",
+   "dir": "short",
+   "tag": "C+/B-",
+   "gate": "LAAF of 59-60 inside the box; sellers capping pops there pressure the low",
+   "tgt": "51.5 → today's low 7846.25",
+   "stop": "today's high 7870 taken",
+   "quote": "one can perhaps join a downtrend on the short side on a LAAF of 7859-7860 … maybe a C+/B- in comparison.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7859,
+     7860
+    ],
+    "tgt": [
+     7851.5,
+     7846.25
+    ],
+    "invalid": [
+     7870
+    ],
+    "stop": [
+     7863.0
+    ],
+    "be": [
+     7855.0
+    ]
+   },
+   "risk": {
+    "entry": "7859",
+    "stop": "7863",
+    "stop_pts": "4",
+    "be": "7855",
+    "his": "7870",
+    "his_pts": "11",
+    "mic": "MES",
+    "ours": [
+     "25.0",
+     "50.0"
+    ],
+    "his_n": [
+     "9.1",
+     "18.2"
+    ],
+    "tgts": [
+     {
+      "p": "7851.5",
+      "ours": "1.9",
+      "his": "0.7"
+     },
+     {
+      "p": "7846.25",
+      "ours": "3.2",
+      "his": "1.2"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail of 951-969 / LAAF of 980",
+   "dir": "short",
+   "tag": "B/B+",
+   "gate": "fail of 30951-969, or a LAAF of 30980 (singles above) that flips 951-969 back to resistance",
+   "tgt": "928-936 → 860-870 → today's low 30844.25 → 30792",
+   "stop": "firm base above 951-969 that lifts 980 and 991 → 056-069",
+   "quote": "I'm open to short on fails of 928-936, 951-969, and on a LAAF of 980 that ends up triggering those anyway. B/B+",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30951,
+     30969
+    ],
+    "tgt": [
+     [
+      30928,
+      30936
+     ],
+     [
+      30860,
+      30870
+     ],
+     30844.25,
+     30792
+    ],
+    "invalid": [
+     31056
+    ],
+    "stop": [
+     30975.5
+    ],
+    "be": [
+     30926.5
+    ]
+   },
+   "risk": {
+    "entry": "30951",
+    "stop": "30975.5",
+    "stop_pts": "24.5",
+    "be": "30926.5",
+    "his": "31056",
+    "his_pts": "105",
+    "mic": "MNQ",
+    "ours": [
+     "10.2",
+     "20.4"
+    ],
+    "his_n": [
+     "2.4",
+     "4.8"
+    ],
+    "tgts": [
+     {
+      "p": "30928-30936",
+      "ours": "0.6",
+      "his": "0.1"
+     },
+     {
+      "p": "30860-30870",
+      "ours": "3.3",
+      "his": "0.8"
+     },
+     {
+      "p": "30844.2",
+      "ours": "4.4",
+      "his": "1.0"
+     },
+     {
+      "p": "30792",
+      "ours": "6.5",
+      "his": "1.5"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail of 928-936",
+   "dir": "short",
+   "tag": "B/B+",
+   "gate": "fail of 30928-936 (sellers defending pops)",
+   "tgt": "860-870 → today's low 30844.25 → 30792",
+   "stop": "951-969 reclaimed and held",
+   "quote": "I'm open to short on fails of 928-936, 951-969 … B/B+",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30928,
+     30936
+    ],
+    "tgt": [
+     [
+      30860,
+      30870
+     ],
+     30844.25,
+     30792
+    ],
+    "invalid": [
+     30980
+    ],
+    "stop": [
+     30952.5
+    ],
+    "be": [
+     30903.5
+    ]
+   },
+   "risk": {
+    "entry": "30928",
+    "stop": "30952.5",
+    "stop_pts": "24.5",
+    "be": "30903.5",
+    "his": "30980",
+    "his_pts": "52",
+    "mic": "MNQ",
+    "ours": [
+     "10.2",
+     "20.4"
+    ],
+    "his_n": [
+     "4.8",
+     "9.6"
+    ],
+    "tgts": [
+     {
+      "p": "30860-30870",
+      "ours": "2.4",
+      "his": "1.1"
+     },
+     {
+      "p": "30844.2",
+      "ours": "3.4",
+      "his": "1.6"
+     },
+     {
+      "p": "30792",
+      "ours": "5.6",
+      "his": "2.6"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Fish long against 860-870 (unrated)",
+   "dir": "long",
+   "tag": "valid, not rated",
+   "gate": "near the bottom of the multi-day balance if sellers can't get to today's low; needs a compelling session reason",
+   "tgt": "928-936 → 951-969",
+   "stop": "today's low 30844.25 taken → 30792",
+   "quote": "Fishing for longs against 860-870 is iffy but if given reason to be long it has to be valid so near the bottom of the multi-day balance if sellers can't get to today's low.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30860,
+     30870
+    ],
+    "tgt": [
+     [
+      30928,
+      30936
+     ],
+     [
+      30951,
+      30969
+     ]
+    ],
+    "invalid": [
+     30844
+    ],
+    "stop": [
+     30845.5
+    ],
+    "be": [
+     30894.5
+    ]
+   },
+   "risk": {
+    "entry": "30870",
+    "stop": "30845.5",
+    "stop_pts": "24.5",
+    "be": "30894.5",
+    "his": "30844",
+    "his_pts": "26",
+    "mic": "MNQ",
+    "ours": [
+     "10.2",
+     "20.4"
+    ],
+    "his_n": [
+     "9.6",
+     "19.2"
+    ],
+    "tgts": [
+     {
+      "p": "30928-30936",
+      "ours": "2.4",
+      "his": "2.2"
+     },
+     {
+      "p": "30951-30969",
+      "ours": "3.3",
+      "his": "3.1"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LBAF of today's low / last week's low",
+   "dir": "long",
+   "tag": "C+/B-",
+   "gate": "LBAF of 30844.25, with or without a sweep of 30792; must reclaim 860-870 bare minimum, really 883-906",
+   "tgt": "860-870 → 883-906 → 928-936",
+   "stop": "traction below 30792 with continuation → 706-725",
+   "quote": "Longing a LBAF of today's low including last week's low or not is just very tricky because of the required reclaims on today's profile. I can't rate it higher than a C+/B- because of that.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     30792,
+     30845
+    ],
+    "tgt": [
+     [
+      30860,
+      30870
+     ],
+     [
+      30883,
+      30906
+     ],
+     [
+      30928,
+      30936
+     ]
+    ],
+    "invalid": [
+     30725
+    ],
+    "stop": [
+     30819.75
+    ],
+    "be": [
+     30868.75
+    ]
+   },
+   "risk": {
+    "entry": "30844.2",
+    "stop": "30819.8",
+    "stop_pts": "24.5",
+    "be": "30868.8",
+    "his": "30725",
+    "his_pts": "119.25",
+    "mic": "MNQ",
+    "ours": [
+     "10.2",
+     "20.4"
+    ],
+    "his_n": [
+     "2.1",
+     "4.2"
+    ],
+    "tgts": [
+     {
+      "p": "30860-30870",
+      "ours": "0.6",
+      "his": "0.1"
+     },
+     {
+      "p": "30883-30906",
+      "ours": "1.6",
+      "his": "0.3"
+     },
+     {
+      "p": "30928-30936",
+      "ours": "3.4",
+      "his": "0.7"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 2.66,
+  "NQ": 16.25
+ },
+ "stop_floor": {
+  "ES": 4.0,
+  "NQ": 24.5
+ }
+}
