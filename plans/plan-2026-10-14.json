@@ -1,723 +1,815 @@
 {
- "source": "pharmdks",
- "date": "2026-10-14",
- "status": "draft",
- "notes": "",
- "bias": "CPI premarket — he's keeping it high level. A wild night turned into a boring day: relative strength flipped at the open, YM annihilated, NQ max bid off the 595-635 daily level (now tested multiple times and held — a demand distribution). Buyers still haven't secured the weekly reclaims, but sellers have done nothing except run into a brick wall at 595-635. ES does nothing while NQ and YM disperse around it: took out Monday's low to 38-40 and briefly below the overnight low, and Friday's low still hasn't been tested after a weak Monday and Tuesday. SPY volume at historic lows. He'd think (and hope) ES leaves this range after CPI.",
- "wildcard": "'There is really no excuse for sellers to not see 7815-7820 and even 7806-07' — ES is trapped back inside last week's value after a failed excursion higher, and they still can't get it done. NQ: 815-845 is today's bearish RTH gap; a reclaim traps overnight and Tuesday sellers and probably works back to 951-969. Nearly NQ's entire range is covered by one level or another — 'I don't trade everything level to level.'",
- "brief": [
-  {
-   "instrument": "ES",
-   "happened": "Sellers defended 7846-49 from below for the first time but made only a nominally lower low (7834.5 at 11:35, into 38-40 and briefly under the overnight low 7836). High 7863.25 at 9:40, closed 7856.25. Tight range as components oppose each other. New daily 7861-64 = this week's developing upper edge; 38-40 is the developing lower edge.",
-   "pivot": "7861-7864 above (and 7869-72 behind it), 7838-7840 below. 7846-49 in the middle, now resistance-then-support.",
-   "higher": "Sustain above 61-64, especially 69-72 → weekly 'trading higher' (7886-88, 7893-96, 7897.5). Buyers must defend dips near 38-40, or at worst defend it from above after a LBAF of today's low.",
-   "lower": "Sellers defend pops into 61-64 (incl. a LAAF) and get back through 38-40 and today's low 7834.5 → 26-27 / Friday's low 7826.75 → 7815-20 weekly, 7806-07. See the weekly trading-lower scenario beyond.",
-   "levels": [
+  "approvedAt": "2026-10-13T22:35:12.015Z",
+  "atr5": {
+    "ES": 3.95,
+    "NQ": 21.34
+  },
+  "bias": "CPI premarket — he's keeping it high level. A wild night turned into a boring day: relative strength flipped at the open, YM annihilated, NQ max bid off the 595-635 daily level (now tested multiple times and held — a demand distribution). Buyers still haven't secured the weekly reclaims, but sellers have done nothing except run into a brick wall at 595-635. ES does nothing while NQ and YM disperse around it: took out Monday's low to 38-40 and briefly below the overnight low, and Friday's low still hasn't been tested after a weak Monday and Tuesday. SPY volume at historic lows. He'd think (and hope) ES leaves this range after CPI.",
+  "brief": [
     {
-     "p": [
-      7886,
-      7888
-     ],
-     "label": "daily",
-     "kind": "up"
+      "chart": "/_blob/c278cdf3fe59f92932dbe62f8fc69699",
+      "chart_id": "c278cdf3fe59f92932dbe62f8fc69699",
+      "happened": "Sellers defended 7846-49 from below for the first time but made only a nominally lower low (7834.5 at 11:35, into 38-40 and briefly under the overnight low 7836). High 7863.25 at 9:40, closed 7856.25. Tight range as components oppose each other. New daily 7861-64 = this week's developing upper edge; 38-40 is the developing lower edge.",
+      "higher": "Sustain above 61-64, especially 69-72 → weekly 'trading higher' (7886-88, 7893-96, 7897.5). Buyers must defend dips near 38-40, or at worst defend it from above after a LBAF of today's low.",
+      "instrument": "ES",
+      "levels": [
+        {
+          "kind": "up",
+          "label": "daily",
+          "p": [
+            7886,
+            7888
+          ]
+        },
+        {
+          "kind": "up",
+          "label": "weekly · the real reclaim",
+          "p": [
+            7869,
+            7872
+          ],
+          "strong": true
+        },
+        {
+          "kind": "ref",
+          "label": "ON high",
+          "p": [
+            7864
+          ]
+        },
+        {
+          "kind": "pivot",
+          "label": "daily · developing upper edge",
+          "p": [
+            7861,
+            7864
+          ],
+          "strong": true
+        },
+        {
+          "kind": "pivot",
+          "label": "weekly · defended today",
+          "p": [
+            7846,
+            7849
+          ]
+        },
+        {
+          "kind": "pivot",
+          "label": "daily · developing lower edge",
+          "p": [
+            7838,
+            7840
+          ],
+          "strong": true
+        },
+        {
+          "kind": "ref",
+          "label": "today's low",
+          "p": [
+            7834.5
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "daily · Fri low (untested)",
+          "p": [
+            7826,
+            7827
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "weekly · 'no excuse' target",
+          "p": [
+            7815,
+            7820
+          ],
+          "strong": true
+        },
+        {
+          "kind": "down",
+          "label": "",
+          "p": [
+            7806,
+            7807
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "daily",
+          "p": [
+            7800,
+            7802
+          ]
+        }
+      ],
+      "lower": "Sellers defend pops into 61-64 (incl. a LAAF) and get back through 38-40 and today's low 7834.5 → 26-27 / Friday's low 7826.75 → 7815-20 weekly, 7806-07. See the weekly trading-lower scenario beyond.",
+      "pivot": "7861-7864 above (and 7869-72 behind it), 7838-7840 below. 7846-49 in the middle, now resistance-then-support."
     },
     {
-     "p": [
-      7869,
-      7872
-     ],
-     "label": "weekly · the real reclaim",
-     "kind": "up",
-     "strong": true
-    },
-    {
-     "p": [
-      7864
-     ],
-     "label": "ON high",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      7861,
-      7864
-     ],
-     "label": "daily · developing upper edge",
-     "kind": "pivot",
-     "strong": true
-    },
-    {
-     "p": [
-      7846,
-      7849
-     ],
-     "label": "weekly · defended today",
-     "kind": "pivot"
-    },
-    {
-     "p": [
-      7838,
-      7840
-     ],
-     "label": "daily · developing lower edge",
-     "kind": "pivot",
-     "strong": true
-    },
-    {
-     "p": [
-      7834.5
-     ],
-     "label": "today's low",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      7826,
-      7827
-     ],
-     "label": "daily · Fri low (untested)",
-     "kind": "down"
-    },
-    {
-     "p": [
-      7815,
-      7820
-     ],
-     "label": "weekly · 'no excuse' target",
-     "kind": "down",
-     "strong": true
-    },
-    {
-     "p": [
-      7806,
-      7807
-     ],
-     "label": "",
-     "kind": "down"
-    },
-    {
-     "p": [
-      7800,
-      7802
-     ],
-     "label": "daily",
-     "kind": "down"
+      "chart": "/_blob/f72776904d4abe81ab259b3ad4dcc5f1",
+      "chart_id": "f72776904d4abe81ab259b3ad4dcc5f1",
+      "happened": "Overnight sold to 30604.75; cash opened 30619, LOD 30591.25 at the bell into 595-635, max bid to 30814.75 by 10:00, late-morning pullback low 30635.5, closed 30789. 706-725 was clean S/R intraday. Today left a bearish RTH gap at 815-845 (Monday's low 30844.25 / today's high 30814.75).",
+      "higher": "Reclaim 815-845 (caution a LAAF, from 883-906 or otherwise) → traps overnight and Tuesday sellers → buyers work back to at least 951-969. Holds of 706-725 and 672-688 keep buyers fine as long as 706-725 is reclaimed off any hold.",
+      "instrument": "NQ",
+      "levels": [
+        {
+          "kind": "up",
+          "label": "weekly · gap-reclaim target",
+          "p": [
+            30951,
+            30969
+          ],
+          "strong": true
+        },
+        {
+          "kind": "ref",
+          "label": "ON high",
+          "p": [
+            30906
+          ]
+        },
+        {
+          "kind": "up",
+          "label": "LAAF source",
+          "p": [
+            30883,
+            30906
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "Mon low · gap top",
+          "p": [
+            30844.25
+          ]
+        },
+        {
+          "kind": "pivot",
+          "label": "KEY · bearish RTH gap",
+          "p": [
+            30815,
+            30845
+          ],
+          "strong": true
+        },
+        {
+          "kind": "ref",
+          "label": "today's high",
+          "p": [
+            30814.75
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "last wk low",
+          "p": [
+            30792
+          ]
+        },
+        {
+          "kind": "pivot",
+          "label": "weekly · clean S/R",
+          "p": [
+            30706,
+            30725
+          ],
+          "strong": true
+        },
+        {
+          "kind": "pivot",
+          "label": "daily · buyers fine above",
+          "p": [
+            30672,
+            30688
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "late-morning pullback low",
+          "p": [
+            30635.5
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "daily · demand · tested & held",
+          "p": [
+            30595,
+            30635
+          ],
+          "strong": true
+        },
+        {
+          "kind": "ref",
+          "label": "today's low",
+          "p": [
+            30591.25
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "weekly",
+          "p": [
+            30504,
+            30546
+          ],
+          "strong": true
+        }
+      ],
+      "lower": "Below 672-688 → retest of 595-635 (LOD 30591.25). It could hold again, but if 672-688 has flipped to firm resistance the risk of 504-546 and 30216.5 is elevated. Sellers still need traction through today's low to see 504-546.",
+      "pivot": "30815-30845 — the bearish RTH gap; sellers retain control for the week below it. 706-725 still key (door to 504-546); 672-688 (tweaked from 669-681) is where buyers are still fine; 595-635 is the demand brick wall."
     }
-   ]
-  },
-  {
-   "instrument": "NQ",
-   "happened": "Overnight sold to 30604.75; cash opened 30619, LOD 30591.25 at the bell into 595-635, max bid to 30814.75 by 10:00, late-morning pullback low 30635.5, closed 30789. 706-725 was clean S/R intraday. Today left a bearish RTH gap at 815-845 (Monday's low 30844.25 / today's high 30814.75).",
-   "pivot": "30815-30845 — the bearish RTH gap; sellers retain control for the week below it. 706-725 still key (door to 504-546); 672-688 (tweaked from 669-681) is where buyers are still fine; 595-635 is the demand brick wall.",
-   "higher": "Reclaim 815-845 (caution a LAAF, from 883-906 or otherwise) → traps overnight and Tuesday sellers → buyers work back to at least 951-969. Holds of 706-725 and 672-688 keep buyers fine as long as 706-725 is reclaimed off any hold.",
-   "lower": "Below 672-688 → retest of 595-635 (LOD 30591.25). It could hold again, but if 672-688 has flipped to firm resistance the risk of 504-546 and 30216.5 is elevated. Sellers still need traction through today's low to see 504-546.",
-   "levels": [
+  ],
+  "corrections": [],
+  "date": "2026-10-14",
+  "final": [
     {
-     "p": [
-      30951,
-      30969
-     ],
-     "label": "weekly · gap-reclaim target",
-     "kind": "up",
-     "strong": true
+      "added": false,
+      "dir": "short",
+      "gate": "fail or LAAF of 61-64 (ON high 7864 / today's high 7863.25)",
+      "id": "es1",
+      "name": "Fail / LAAF of 7861-7864",
+      "stop": "sustained above 61-64 → 69-72",
+      "tag": "B/B-",
+      "tgt": "46-49 → monitor for continuation to 38-40"
     },
     {
-     "p": [
-      30906
-     ],
-     "label": "ON high",
-     "kind": "ref"
+      "added": false,
+      "dir": "long",
+      "gate": "hold of 38-40 (today's low 7834.5 just under)",
+      "id": "es2",
+      "name": "Hold of 7838-7840",
+      "stop": "traction below today's low → 26-27",
+      "tag": "C+/B-",
+      "tgt": "46-49 → 61-64"
     },
     {
-     "p": [
-      30883,
-      30906
-     ],
-     "label": "LAAF source",
-     "kind": "up"
+      "added": false,
+      "dir": "long",
+      "gate": "46-49 proves to be firm support",
+      "id": "es3",
+      "name": "Work longs against 7846-7849 if it proves firm support",
+      "stop": "back below 46-49 → 38-40",
+      "tag": "C- ('a bit optimistic')",
+      "tgt": "61-64 → 69-72"
     },
     {
-     "p": [
-      30844.25
-     ],
-     "label": "Mon low · gap top",
-     "kind": "ref"
+      "added": false,
+      "dir": "short",
+      "gate": "fail or LAAF of 815-845 (the bearish RTH gap)",
+      "id": "nq1",
+      "name": "Fail / LAAF of 30815-30845",
+      "stop": "815-845 reclaimed → 883-906 / 951-969",
+      "tag": "B+",
+      "tgt": "706-725 → 672-688 → 595-635"
     },
     {
-     "p": [
-      30815,
-      30845
-     ],
-     "label": "KEY · bearish RTH gap",
-     "kind": "pivot",
-     "strong": true
+      "added": false,
+      "dir": "long",
+      "gate": "hold or LBAF of 706-725",
+      "id": "nq2",
+      "name": "Hold / LBAF of 30706-30725",
+      "stop": "672-688 lost",
+      "tag": "B/B-",
+      "tgt": "815-845 → 883-906"
     },
     {
-     "p": [
-      30814.75
-     ],
-     "label": "today's high",
-     "kind": "ref"
+      "added": false,
+      "dir": "long",
+      "gate": "hold or LBAF of 672-688; needs 706-725 reclaimed to be any good",
+      "id": "nq3",
+      "name": "Hold / LBAF of 30672-30688",
+      "stop": "672-688 flips to firm resistance → 595-635",
+      "tag": "C+/B-",
+      "tgt": "706-725 (required reclaim) → 815-845"
     },
     {
-     "p": [
-      30792
-     ],
-     "label": "last wk low",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      30706,
-      30725
-     ],
-     "label": "weekly · clean S/R",
-     "kind": "pivot",
-     "strong": true
-    },
-    {
-     "p": [
-      30672,
-      30688
-     ],
-     "label": "daily · buyers fine above",
-     "kind": "pivot"
-    },
-    {
-     "p": [
-      30635.5
-     ],
-     "label": "late-morning pullback low",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      30595,
-      30635
-     ],
-     "label": "daily · demand · tested & held",
-     "kind": "down",
-     "strong": true
-    },
-    {
-     "p": [
-      30591.25
-     ],
-     "label": "today's low",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      30504,
-      30546
-     ],
-     "label": "weekly",
-     "kind": "down",
-     "strong": true
+      "added": false,
+      "dir": "long",
+      "gate": "dip into 595-635; wants 635+ very quickly; supply overhead from today",
+      "id": "nq4",
+      "name": "Fish long in 595-635 again",
+      "stop": "traction through today's low 30591.25 → 504-546",
+      "tag": "C+/B-",
+      "tgt": "672-688 → 706-725"
     }
-   ]
-  }
- ],
- "trades": [
-  {
-   "id": "es1",
-   "instrument": "ES",
-   "name": "Fail / LAAF of 7861-7864",
-   "dir": "short",
-   "tag": "B/B-",
-   "gate": "fail or LAAF of 61-64 (ON high 7864 / today's high 7863.25)",
-   "tgt": "46-49 → monitor for continuation to 38-40",
-   "stop": "sustained above 61-64 → 69-72",
-   "quote": "Short a fail/LAQAF of 61-64 targeting 46-49 and monitor for continuation to 38-40 is a B/B-",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7861,
-     7864
-    ],
-    "tgt": [
-     [
-      7846,
-      7849
-     ],
-     [
-      7838,
-      7840
-     ]
-    ],
-    "invalid": [
-     7872
-    ],
-    "stop": [
-     7867.0
-    ],
-    "be": [
-     7855.0
-    ]
-   },
-   "risk": {
-    "entry": "7861",
-    "stop": "7867",
-    "stop_pts": "6",
-    "be": "7855",
-    "his": "7872",
-    "his_pts": "11",
-    "mic": "MES",
-    "ours": [
-     "16.7",
-     "33.3"
-    ],
-    "his_n": [
-     "9.1",
-     "18.2"
-    ],
-    "tgts": [
-     {
-      "p": "7846-7849",
-      "ours": "2.0",
-      "his": "1.1"
-     },
-     {
-      "p": "7838-7840",
-      "ours": "3.5",
-      "his": "1.9"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
+  ],
+  "notes": "",
+  "source": "pharmdks",
+  "status": "approved",
+  "stop_floor": {
+    "ES": 6,
+    "NQ": 32
   },
-  {
-   "id": "es2",
-   "instrument": "ES",
-   "name": "Hold of 7838-7840",
-   "dir": "long",
-   "tag": "C+/B-",
-   "gate": "hold of 38-40 (today's low 7834.5 just under)",
-   "tgt": "46-49 → 61-64",
-   "stop": "traction below today's low → 26-27",
-   "quote": "Long a hold of 38-40 is a C+/B-",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7838,
-     7840
-    ],
-    "tgt": [
-     [
-      7846,
-      7849
-     ],
-     [
-      7861,
-      7864
-     ]
-    ],
-    "invalid": [
-     7826
-    ],
-    "stop": [
-     7834.0
-    ],
-    "be": [
-     7846.0
-    ]
-   },
-   "risk": {
-    "entry": "7840",
-    "stop": "7834",
-    "stop_pts": "6",
-    "be": "7846",
-    "his": "7826",
-    "his_pts": "14",
-    "mic": "MES",
-    "ours": [
-     "16.7",
-     "33.3"
-    ],
-    "his_n": [
-     "7.1",
-     "14.3"
-    ],
-    "tgts": [
-     {
-      "p": "7846-7849",
-      "ours": "1.0",
-      "his": "0.4"
-     },
-     {
-      "p": "7861-7864",
-      "ours": "3.5",
-      "his": "1.5"
-     }
-    ],
-    "pick": 1,
-    "skip": false
-   }
-  },
-  {
-   "id": "es3",
-   "instrument": "ES",
-   "name": "Work longs against 7846-7849 if it proves firm support",
-   "dir": "long",
-   "tag": "C- ('a bit optimistic')",
-   "gate": "46-49 proves to be firm support",
-   "tgt": "61-64 → 69-72",
-   "stop": "back below 46-49 → 38-40",
-   "quote": "Working longs against 46-49 if it proves to be firm support is reasonable but feels a bit optimistic. C-",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7846,
-     7849
-    ],
-    "tgt": [
-     [
-      7861,
-      7864
-     ],
-     [
-      7869,
-      7872
-     ]
-    ],
-    "invalid": [
-     7838
-    ],
-    "stop": [
-     7843.0
-    ],
-    "be": [
-     7855.0
-    ]
-   },
-   "risk": {
-    "entry": "7849",
-    "stop": "7843",
-    "stop_pts": "6",
-    "be": "7855",
-    "his": "7838",
-    "his_pts": "11",
-    "mic": "MES",
-    "ours": [
-     "16.7",
-     "33.3"
-    ],
-    "his_n": [
-     "9.1",
-     "18.2"
-    ],
-    "tgts": [
-     {
-      "p": "7861-7864",
-      "ours": "2.0",
-      "his": "1.1"
-     },
-     {
-      "p": "7869-7872",
-      "ours": "3.3",
-      "his": "1.8"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
-  },
-  {
-   "id": "nq1",
-   "instrument": "NQ",
-   "name": "Fail / LAAF of 30815-30845",
-   "dir": "short",
-   "tag": "B+",
-   "gate": "fail or LAAF of 815-845 (the bearish RTH gap)",
-   "tgt": "706-725 → 672-688 → 595-635",
-   "stop": "815-845 reclaimed → 883-906 / 951-969",
-   "quote": "Short a fail/LAAF of 815-845 is a B+",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     30815,
-     30845
-    ],
-    "tgt": [
-     [
-      30706,
-      30725
-     ],
-     [
-      30672,
-      30688
-     ],
-     [
-      30595,
-      30635
-     ]
-    ],
-    "invalid": [
-     30906
-    ],
-    "stop": [
-     30847.0
-    ],
-    "be": [
-     30783.0
-    ]
-   },
-   "risk": {
-    "entry": "30815",
-    "stop": "30847",
-    "stop_pts": "32",
-    "be": "30783",
-    "his": "30906",
-    "his_pts": "91",
-    "mic": "MNQ",
-    "ours": [
-     "7.8",
-     "15.6"
-    ],
-    "his_n": [
-     "2.7",
-     "5.5"
-    ],
-    "tgts": [
-     {
-      "p": "30706-30725",
-      "ours": "2.8",
-      "his": "1.0"
-     },
-     {
-      "p": "30672-30688",
-      "ours": "4.0",
-      "his": "1.4"
-     },
-     {
-      "p": "30595-30635",
-      "ours": "5.6",
-      "his": "2.0"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
-  },
-  {
-   "id": "nq2",
-   "instrument": "NQ",
-   "name": "Hold / LBAF of 30706-30725",
-   "dir": "long",
-   "tag": "B/B-",
-   "gate": "hold or LBAF of 706-725",
-   "tgt": "815-845 → 883-906",
-   "stop": "672-688 lost",
-   "quote": "Long a hold/LBAF of 706-725 is a B/B-",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     30706,
-     30725
-    ],
-    "tgt": [
-     [
-      30815,
-      30845
-     ],
-     [
-      30883,
-      30906
-     ]
-    ],
-    "invalid": [
-     30672
-    ],
-    "stop": [
-     30693.0
-    ],
-    "be": [
-     30757.0
-    ]
-   },
-   "risk": {
-    "entry": "30725",
-    "stop": "30693",
-    "stop_pts": "32",
-    "be": "30757",
-    "his": "30672",
-    "his_pts": "53",
-    "mic": "MNQ",
-    "ours": [
-     "7.8",
-     "15.6"
-    ],
-    "his_n": [
-     "4.7",
-     "9.4"
-    ],
-    "tgts": [
-     {
-      "p": "30815-30845",
-      "ours": "2.8",
-      "his": "1.7"
-     },
-     {
-      "p": "30883-30906",
-      "ours": "4.9",
-      "his": "3.0"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
-  },
-  {
-   "id": "nq3",
-   "instrument": "NQ",
-   "name": "Hold / LBAF of 30672-30688",
-   "dir": "long",
-   "tag": "C+/B-",
-   "gate": "hold or LBAF of 672-688; needs 706-725 reclaimed to be any good",
-   "tgt": "706-725 (required reclaim) → 815-845",
-   "stop": "672-688 flips to firm resistance → 595-635",
-   "quote": "Long a hold/LBAF of 672-688 is a C+/B- because it requires a reclaim of 706-725 to be any good.",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     30672,
-     30688
-    ],
-    "tgt": [
-     [
-      30706,
-      30725
-     ],
-     [
-      30815,
-      30845
-     ]
-    ],
-    "invalid": [
-     30635
-    ],
-    "stop": [
-     30656.0
-    ],
-    "be": [
-     30720.0
-    ]
-   },
-   "risk": {
-    "entry": "30688",
-    "stop": "30656",
-    "stop_pts": "32",
-    "be": "30720",
-    "his": "30635",
-    "his_pts": "53",
-    "mic": "MNQ",
-    "ours": [
-     "7.8",
-     "15.6"
-    ],
-    "his_n": [
-     "4.7",
-     "9.4"
-    ],
-    "tgts": [
-     {
-      "p": "30706-30725",
-      "ours": "0.6",
-      "his": "0.3"
-     },
-     {
-      "p": "30815-30845",
-      "ours": "4.0",
-      "his": "2.4"
-     }
-    ],
-    "pick": 1,
-    "skip": false
-   }
-  },
-  {
-   "id": "nq4",
-   "instrument": "NQ",
-   "name": "Fish long in 595-635 again",
-   "dir": "long",
-   "tag": "C+/B-",
-   "gate": "dip into 595-635; wants 635+ very quickly; supply overhead from today",
-   "tgt": "672-688 → 706-725",
-   "stop": "traction through today's low 30591.25 → 504-546",
-   "quote": "It isn't unreasonable to fish for a long in the 595-635 area again, but I would want to see 635+ very quickly on any dip there and there would be a fair amount of supply overhead from today so C+/B-",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     30595,
-     30635
-    ],
-    "tgt": [
-     [
-      30672,
-      30688
-     ],
-     [
-      30706,
-      30725
-     ]
-    ],
-    "invalid": [
-     30546
-    ],
-    "stop": [
-     30603.0
-    ],
-    "be": [
-     30667.0
-    ]
-   },
-   "risk": {
-    "entry": "30635",
-    "stop": "30603",
-    "stop_pts": "32",
-    "be": "30667",
-    "his": "30546",
-    "his_pts": "89",
-    "mic": "MNQ",
-    "ours": [
-     "7.8",
-     "15.6"
-    ],
-    "his_n": [
-     "2.8",
-     "5.6"
-    ],
-    "tgts": [
-     {
-      "p": "30672-30688",
-      "ours": "1.2",
-      "his": "0.4"
-     },
-     {
-      "p": "30706-30725",
-      "ours": "2.2",
-      "his": "0.8"
-     }
-    ],
-    "pick": 1,
-    "skip": false
-   }
-  }
- ],
- "atr5": {
-  "ES": 3.95,
-  "NQ": 21.34
- },
- "stop_floor": {
-  "ES": 6.0,
-  "NQ": 32.0
- }
+  "trades": [
+    {
+      "chart": "/_blob/c9c5bd6d95d7b1adb8deb528d01e9053",
+      "chart_id": "c9c5bd6d95d7b1adb8deb528d01e9053",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "fail or LAAF of 61-64 (ON high 7864 / today's high 7863.25)",
+      "id": "es1",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7855
+        ],
+        "gate": [
+          7861,
+          7864
+        ],
+        "invalid": [
+          7872
+        ],
+        "stop": [
+          7867
+        ],
+        "tgt": [
+          [
+            7846,
+            7849
+          ],
+          [
+            7838,
+            7840
+          ]
+        ]
+      },
+      "name": "Fail / LAAF of 7861-7864",
+      "quote": "Short a fail/LAQAF of 61-64 targeting 46-49 and monitor for continuation to 38-40 is a B/B-",
+      "risk": {
+        "be": "7855",
+        "entry": "7861",
+        "his": "7872",
+        "his_n": [
+          "9.1",
+          "18.2"
+        ],
+        "his_pts": "11",
+        "mic": "MES",
+        "ours": [
+          "16.7",
+          "33.3"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "7867",
+        "stop_pts": "6",
+        "tgts": [
+          {
+            "his": "1.1",
+            "ours": "2.0",
+            "p": "7846-7849"
+          },
+          {
+            "his": "1.9",
+            "ours": "3.5",
+            "p": "7838-7840"
+          }
+        ]
+      },
+      "stop": "sustained above 61-64 → 69-72",
+      "tag": "B/B-",
+      "tgt": "46-49 → monitor for continuation to 38-40",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/d27d108b6502081e9370fe6b8e7681d0",
+      "chart_id": "d27d108b6502081e9370fe6b8e7681d0",
+      "decision": "keep",
+      "dir": "long",
+      "gate": "hold of 38-40 (today's low 7834.5 just under)",
+      "id": "es2",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7846
+        ],
+        "gate": [
+          7838,
+          7840
+        ],
+        "invalid": [
+          7826
+        ],
+        "stop": [
+          7834
+        ],
+        "tgt": [
+          [
+            7846,
+            7849
+          ],
+          [
+            7861,
+            7864
+          ]
+        ]
+      },
+      "name": "Hold of 7838-7840",
+      "quote": "Long a hold of 38-40 is a C+/B-",
+      "risk": {
+        "be": "7846",
+        "entry": "7840",
+        "his": "7826",
+        "his_n": [
+          "7.1",
+          "14.3"
+        ],
+        "his_pts": "14",
+        "mic": "MES",
+        "ours": [
+          "16.7",
+          "33.3"
+        ],
+        "pick": 1,
+        "skip": false,
+        "stop": "7834",
+        "stop_pts": "6",
+        "tgts": [
+          {
+            "his": "0.4",
+            "ours": "1.0",
+            "p": "7846-7849"
+          },
+          {
+            "his": "1.5",
+            "ours": "3.5",
+            "p": "7861-7864"
+          }
+        ]
+      },
+      "stop": "traction below today's low → 26-27",
+      "tag": "C+/B-",
+      "tgt": "46-49 → 61-64",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/8f75a591cd8281391b1d263267040d4a",
+      "chart_id": "8f75a591cd8281391b1d263267040d4a",
+      "decision": "keep",
+      "dir": "long",
+      "gate": "46-49 proves to be firm support",
+      "id": "es3",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7855
+        ],
+        "gate": [
+          7846,
+          7849
+        ],
+        "invalid": [
+          7838
+        ],
+        "stop": [
+          7843
+        ],
+        "tgt": [
+          [
+            7861,
+            7864
+          ],
+          [
+            7869,
+            7872
+          ]
+        ]
+      },
+      "name": "Work longs against 7846-7849 if it proves firm support",
+      "quote": "Working longs against 46-49 if it proves to be firm support is reasonable but feels a bit optimistic. C-",
+      "risk": {
+        "be": "7855",
+        "entry": "7849",
+        "his": "7838",
+        "his_n": [
+          "9.1",
+          "18.2"
+        ],
+        "his_pts": "11",
+        "mic": "MES",
+        "ours": [
+          "16.7",
+          "33.3"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "7843",
+        "stop_pts": "6",
+        "tgts": [
+          {
+            "his": "1.1",
+            "ours": "2.0",
+            "p": "7861-7864"
+          },
+          {
+            "his": "1.8",
+            "ours": "3.3",
+            "p": "7869-7872"
+          }
+        ]
+      },
+      "stop": "back below 46-49 → 38-40",
+      "tag": "C- ('a bit optimistic')",
+      "tgt": "61-64 → 69-72",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/7d3ca0b0d49949e1452527b3f1caa10c",
+      "chart_id": "7d3ca0b0d49949e1452527b3f1caa10c",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "fail or LAAF of 815-845 (the bearish RTH gap)",
+      "id": "nq1",
+      "instrument": "NQ",
+      "levels": {
+        "be": [
+          30783
+        ],
+        "gate": [
+          30815,
+          30845
+        ],
+        "invalid": [
+          30906
+        ],
+        "stop": [
+          30847
+        ],
+        "tgt": [
+          [
+            30706,
+            30725
+          ],
+          [
+            30672,
+            30688
+          ],
+          [
+            30595,
+            30635
+          ]
+        ]
+      },
+      "name": "Fail / LAAF of 30815-30845",
+      "quote": "Short a fail/LAAF of 815-845 is a B+",
+      "risk": {
+        "be": "30783",
+        "entry": "30815",
+        "his": "30906",
+        "his_n": [
+          "2.7",
+          "5.5"
+        ],
+        "his_pts": "91",
+        "mic": "MNQ",
+        "ours": [
+          "7.8",
+          "15.6"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "30847",
+        "stop_pts": "32",
+        "tgts": [
+          {
+            "his": "1.0",
+            "ours": "2.8",
+            "p": "30706-30725"
+          },
+          {
+            "his": "1.4",
+            "ours": "4.0",
+            "p": "30672-30688"
+          },
+          {
+            "his": "2.0",
+            "ours": "5.6",
+            "p": "30595-30635"
+          }
+        ]
+      },
+      "stop": "815-845 reclaimed → 883-906 / 951-969",
+      "tag": "B+",
+      "tgt": "706-725 → 672-688 → 595-635",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/3be424dfcfedf73365cb1c1c628c230c",
+      "chart_id": "3be424dfcfedf73365cb1c1c628c230c",
+      "decision": "keep",
+      "dir": "long",
+      "gate": "hold or LBAF of 706-725",
+      "id": "nq2",
+      "instrument": "NQ",
+      "levels": {
+        "be": [
+          30757
+        ],
+        "gate": [
+          30706,
+          30725
+        ],
+        "invalid": [
+          30672
+        ],
+        "stop": [
+          30693
+        ],
+        "tgt": [
+          [
+            30815,
+            30845
+          ],
+          [
+            30883,
+            30906
+          ]
+        ]
+      },
+      "name": "Hold / LBAF of 30706-30725",
+      "quote": "Long a hold/LBAF of 706-725 is a B/B-",
+      "risk": {
+        "be": "30757",
+        "entry": "30725",
+        "his": "30672",
+        "his_n": [
+          "4.7",
+          "9.4"
+        ],
+        "his_pts": "53",
+        "mic": "MNQ",
+        "ours": [
+          "7.8",
+          "15.6"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "30693",
+        "stop_pts": "32",
+        "tgts": [
+          {
+            "his": "1.7",
+            "ours": "2.8",
+            "p": "30815-30845"
+          },
+          {
+            "his": "3.0",
+            "ours": "4.9",
+            "p": "30883-30906"
+          }
+        ]
+      },
+      "stop": "672-688 lost",
+      "tag": "B/B-",
+      "tgt": "815-845 → 883-906",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/30daa700b16f4d68c0241c915e270696",
+      "chart_id": "30daa700b16f4d68c0241c915e270696",
+      "decision": "keep",
+      "dir": "long",
+      "gate": "hold or LBAF of 672-688; needs 706-725 reclaimed to be any good",
+      "id": "nq3",
+      "instrument": "NQ",
+      "levels": {
+        "be": [
+          30720
+        ],
+        "gate": [
+          30672,
+          30688
+        ],
+        "invalid": [
+          30635
+        ],
+        "stop": [
+          30656
+        ],
+        "tgt": [
+          [
+            30706,
+            30725
+          ],
+          [
+            30815,
+            30845
+          ]
+        ]
+      },
+      "name": "Hold / LBAF of 30672-30688",
+      "quote": "Long a hold/LBAF of 672-688 is a C+/B- because it requires a reclaim of 706-725 to be any good.",
+      "risk": {
+        "be": "30720",
+        "entry": "30688",
+        "his": "30635",
+        "his_n": [
+          "4.7",
+          "9.4"
+        ],
+        "his_pts": "53",
+        "mic": "MNQ",
+        "ours": [
+          "7.8",
+          "15.6"
+        ],
+        "pick": 1,
+        "skip": false,
+        "stop": "30656",
+        "stop_pts": "32",
+        "tgts": [
+          {
+            "his": "0.3",
+            "ours": "0.6",
+            "p": "30706-30725"
+          },
+          {
+            "his": "2.4",
+            "ours": "4.0",
+            "p": "30815-30845"
+          }
+        ]
+      },
+      "stop": "672-688 flips to firm resistance → 595-635",
+      "tag": "C+/B-",
+      "tgt": "706-725 (required reclaim) → 815-845",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/f7bbf135c874b630e24787320bcdd74d",
+      "chart_id": "f7bbf135c874b630e24787320bcdd74d",
+      "decision": "keep",
+      "dir": "long",
+      "gate": "dip into 595-635; wants 635+ very quickly; supply overhead from today",
+      "id": "nq4",
+      "instrument": "NQ",
+      "levels": {
+        "be": [
+          30667
+        ],
+        "gate": [
+          30595,
+          30635
+        ],
+        "invalid": [
+          30546
+        ],
+        "stop": [
+          30603
+        ],
+        "tgt": [
+          [
+            30672,
+            30688
+          ],
+          [
+            30706,
+            30725
+          ]
+        ]
+      },
+      "name": "Fish long in 595-635 again",
+      "quote": "It isn't unreasonable to fish for a long in the 595-635 area again, but I would want to see 635+ very quickly on any dip there and there would be a fair amount of supply overhead from today so C+/B-",
+      "risk": {
+        "be": "30667",
+        "entry": "30635",
+        "his": "30546",
+        "his_n": [
+          "2.8",
+          "5.6"
+        ],
+        "his_pts": "89",
+        "mic": "MNQ",
+        "ours": [
+          "7.8",
+          "15.6"
+        ],
+        "pick": 1,
+        "skip": false,
+        "stop": "30603",
+        "stop_pts": "32",
+        "tgts": [
+          {
+            "his": "0.4",
+            "ours": "1.2",
+            "p": "30672-30688"
+          },
+          {
+            "his": "0.8",
+            "ours": "2.2",
+            "p": "30706-30725"
+          }
+        ]
+      },
+      "stop": "traction through today's low 30591.25 → 504-546",
+      "tag": "C+/B-",
+      "tgt": "672-688 → 706-725",
+      "unsure": false
+    }
+  ],
+  "wildcard": "'There is really no excuse for sellers to not see 7815-7820 and even 7806-07' — ES is trapped back inside last week's value after a failed excursion higher, and they still can't get it done. NQ: 815-845 is today's bearish RTH gap; a reclaim traps overnight and Tuesday sellers and probably works back to 951-969. Nearly NQ's entire range is covered by one level or another — 'I don't trade everything level to level.'"
 }
