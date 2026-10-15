@@ -3,10 +3,10 @@ import charts, pandas as pd
 tz = "America/New_York"
 ES, NQ = charts.load_1h("ES"), charts.load_1h("NQ")
 ES5, NQ5 = charts.load("ES"), charts.load("NQ")
-s = pd.Timestamp("2026-09-28 09:30", tz=tz); e = pd.Timestamp("2026-10-14 16:15", tz=tz)
+s = pd.Timestamp("2026-09-28 09:30", tz=tz); e = pd.Timestamp("2026-10-15 16:15", tz=tz)
 w1 = ("wk 9/28", pd.Timestamp("2026-09-27 18:00", tz=tz), pd.Timestamp("2026-10-02 16:00", tz=tz))
 w2 = ("wk 10/5", pd.Timestamp("2026-10-04 18:00", tz=tz), pd.Timestamp("2026-10-09 16:00", tz=tz))
-w3 = ("Mon-Wed", pd.Timestamp("2026-10-11 18:00", tz=tz), e)
+w3 = ("Mon-Thu", pd.Timestamp("2026-10-11 18:00", tz=tz), e)
 
 es_lv = [
  {"p":[7917,7920],"label":"prior extension","kind":"up","strong":True},
@@ -33,9 +33,10 @@ es_marks = [
  {"t":pd.Timestamp("2026-10-09 15:00",tz=tz),"y":7870.5,"label":"FRI: YM moon mission; closed 7861 just under 69-72; abysmal volume","dy":12,"dx":-200},
  {"t":pd.Timestamp("2026-10-12 14:50",tz=tz),"y":7846.25,"label":"MON: box 7846-7870 between the weekly levels","dy":44,"dx":-60},
  {"t":pd.Timestamp("2026-10-13 11:35",tz=tz),"y":7834.5,"label":"TUE: 46-49 defended from below, nominal lower low 7834.5","dy":-62,"dx":-120},
- {"t":pd.Timestamp("2026-10-14 14:00",tz=tz),"y":7741.0,"label":"WED: hot CPI → true gap down, IB low 7800 defended → 7741 (gap filled). Box broke.","dy":-24,"dx":-150}]
+ {"t":pd.Timestamp("2026-10-14 14:00",tz=tz),"y":7741.0,"label":"WED: hot CPI → true gap down, IB low 7800 defended → 7741 (gap filled). Box broke.","dy":-24,"dx":-150},
+ {"t":pd.Timestamp("2026-10-15 09:55",tz=tz),"y":7717.25,"label":"THU: low 7717 at 9:55 → relief rally to 7801.75, closed 7791 above 80-84","dy":-44,"dx":-60}]
 charts.weekly("ES", es_lv, ES, s, e, "charts/2026-W42_ES_weekly.png",
-              "ES weekly  ·  9/28 – Wed 10/14  ·  week of 10/11 plan", profile_ranges=[w2, w3], marks=es_marks, d5prof=ES5)
+              "ES weekly  ·  9/28 – Thu 10/15  ·  week of 10/11 plan", profile_ranges=[w2, w3], marks=es_marks, d5prof=ES5)
 
 nq_lv = [
  {"p":[31646,31669],"label":"","kind":"up","strong":True},
@@ -61,7 +62,8 @@ nq_marks = [
  {"t":pd.Timestamp("2026-10-09 09:30",tz=tz),"y":31266.5,"label":"FRI: PM high 31266.5 failed under 269-288; never above its open; OR5 mid capped PM; closed 31112 INTO 125-145","dy":90,"dx":-215},
  {"t":pd.Timestamp("2026-10-12 14:50",tz=tz),"y":30844.25,"label":"MON: ON failed 269-288 → sold to 30844","dy":-90,"dx":-70},
  {"t":pd.Timestamp("2026-10-13 09:30",tz=tz),"y":30591.25,"label":"TUE: 595-635 held again, max bid to 30815","dy":-120,"dx":-100},
- {"t":pd.Timestamp("2026-10-14 15:05",tz=tz),"y":30078.0,"label":"WED: LAAF of 815-845 on CPI → liquidation to 30078 = 216.5 reached","dy":60,"dx":-215}]
+ {"t":pd.Timestamp("2026-10-14 15:05",tz=tz),"y":30078.0,"label":"WED: LAAF of 815-845 on CPI → liquidation to 30078 = 216.5 reached","dy":60,"dx":-215},
+ {"t":pd.Timestamp("2026-10-15 09:55",tz=tz),"y":29622.5,"label":"THU: 615-645 'didn't disappoint' — low 29622.5 → 30196.75, closed just under 216.5","dy":30,"dx":-235}]
 charts.weekly("NQ", nq_lv, NQ, s, e, "charts/2026-W42_NQ_weekly.png",
-              "NQ weekly  ·  9/28 – Wed 10/14  ·  week of 10/11 plan", profile_ranges=[w2, w3], marks=nq_marks, d5prof=NQ5)
+              "NQ weekly  ·  9/28 – Thu 10/15  ·  week of 10/11 plan", profile_ranges=[w2, w3], marks=nq_marks, d5prof=NQ5)
 print("ok")
