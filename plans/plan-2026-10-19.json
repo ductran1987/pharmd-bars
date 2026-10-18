@@ -1,1210 +1,1362 @@
 {
- "source": "pharmdks",
- "date": "2026-10-19",
- "status": "draft",
- "notes": "",
- "bias": "'My thoughts on the calls for Black Monday': enormous areas of interest both below and above, extremely juicy trades setting up. He gets LESS bearish as price trades lower, especially on capitulation — Friday gave a first brief glimpse. Whether Sunday/Monday trades lower or higher first decides whether he 'buys all the puts' (into 7780-84 / 29754-787) or ends up looking for longs. Friday's VIX move was wild: if vol has no reason to stay bid Sunday night it gets stepped on and a supportive bid comes into equities — watch VIX 18.69 / 16.69, VX 18.72 / ~18. Friday's range has very few clean rotations; a treacherous profile to work back up through. Longs are reactive only (join a session uptrend, quick to take profit) until the daily timeframe is brought to balance.",
- "wildcard": "The swing-short grades are not him being 'really bearish' down here — he added TQQQ Friday to partially hedge remaining puts. They reflect how strong 7780-84 and 29754-787 SHOULD be on first touch. He evaluates each session on its own: Asia has gone crazy one way several times only to give it all back by the cash open. While the 30-min downtrend persists (lower daily highs and lows) he holds runners on shorts and adds; increasingly risk-averse short into the stronger weekly areas below. 'Trading lower first and failing is more bullish than trading higher.'",
- "brief": [
-  {
-   "instrument": "ES",
-   "happened": "Friday: ETH high 7809.5, opened 7802.5 at the RTH high 7803.25, sold all day to 7676 at 3:05, closed 7702.75 just below 7706-12. Structural lower high 7809.5 ETH / 7803.25 RTH; all weekly downside targets met incl. the 7670s (beyond 2× the weekly straddle). 1:40 pop high 7727.75.",
-   "pivot": "7706-7712 (closed just under). 7669-73 / Friday's low 7676 below — LBAF watch. The short ladder above: 7723-26, 7739-43, 7753-54, 7760-65, 7780-84 (A+++), Friday's high 7797-7803, 7815-20 hard stop.",
-   "higher": "Can't plan longs trading higher — react and join a session uptrend, quick to take profit. To neutralize the 30-min downtrend bulls need a prior day high (7803.25 as of now) AND value overlapping higher. With an active LBAF week 7739-43 is the first key reclaim and has a much better shot at 7815-20. Above 7815-20 (aside from a LAAF) sellers are probably dead; 7838-41 → 7869-72.",
-   "lower": "Holding below 7706-12 = bearish consolidation → Friday's low 7676 / 7672.75 / 7669-73 (7659-63 daily as the LBAF reminder). Continuation → 7644-49 (white box top). Persistent weakness below that → 7631-34 (sellers never built time/volume below it in Sept), 7618-22, 7591-94 → 7575 Sept low → 7541-43, the major decision point. Breakdown shorts below Friday's low: tight leash.",
-   "levels": [
+  "approvedAt": "2026-10-18T20:35:52.656Z",
+  "atr5": {
+    "ES": 10.71,
+    "NQ": 59.16
+  },
+  "bias": "'My thoughts on the calls for Black Monday': enormous areas of interest both below and above, extremely juicy trades setting up. He gets LESS bearish as price trades lower, especially on capitulation — Friday gave a first brief glimpse. Whether Sunday/Monday trades lower or higher first decides whether he 'buys all the puts' (into 7780-84 / 29754-787) or ends up looking for longs. Friday's VIX move was wild: if vol has no reason to stay bid Sunday night it gets stepped on and a supportive bid comes into equities — watch VIX 18.69 / 16.69, VX 18.72 / ~18. Friday's range has very few clean rotations; a treacherous profile to work back up through. Longs are reactive only (join a session uptrend, quick to take profit) until the daily timeframe is brought to balance.",
+  "brief": [
     {
-     "p": [
-      7815,
-      7820
-     ],
-     "label": "sellers dead above · hard stop",
-     "kind": "up",
-     "strong": true
+      "chart": "/_blob/38410c8c716f5aedf165084408ae161b",
+      "chart_id": "38410c8c716f5aedf165084408ae161b",
+      "happened": "Friday: ETH high 7809.5, opened 7802.5 at the RTH high 7803.25, sold all day to 7676 at 3:05, closed 7702.75 just below 7706-12. Structural lower high 7809.5 ETH / 7803.25 RTH; all weekly downside targets met incl. the 7670s (beyond 2× the weekly straddle). 1:40 pop high 7727.75.",
+      "higher": "Can't plan longs trading higher — react and join a session uptrend, quick to take profit. To neutralize the 30-min downtrend bulls need a prior day high (7803.25 as of now) AND value overlapping higher. With an active LBAF week 7739-43 is the first key reclaim and has a much better shot at 7815-20. Above 7815-20 (aside from a LAAF) sellers are probably dead; 7838-41 → 7869-72.",
+      "instrument": "ES",
+      "levels": [
+        {
+          "kind": "up",
+          "label": "sellers dead above · hard stop",
+          "p": [
+            7815,
+            7820
+          ],
+          "strong": true
+        },
+        {
+          "kind": "ref",
+          "label": "ETH lower high",
+          "p": [
+            7809.5
+          ]
+        },
+        {
+          "kind": "up",
+          "label": "Fri high 7803.25",
+          "p": [
+            7797,
+            7803
+          ]
+        },
+        {
+          "kind": "pivot",
+          "label": "A+++ swing short",
+          "p": [
+            7780,
+            7784
+          ],
+          "strong": true
+        },
+        {
+          "kind": "pivot",
+          "label": "B+/A- short · LAAF watch",
+          "p": [
+            7760,
+            7765
+          ],
+          "strong": true
+        },
+        {
+          "kind": "pivot",
+          "label": "daily · B short",
+          "p": [
+            7753,
+            7754
+          ]
+        },
+        {
+          "kind": "pivot",
+          "label": "first reclaim · B/B- short",
+          "p": [
+            7739,
+            7743
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "1:40 pop",
+          "p": [
+            7727.75
+          ]
+        },
+        {
+          "kind": "pivot",
+          "label": "B- short",
+          "p": [
+            7723,
+            7726
+          ]
+        },
+        {
+          "kind": "pivot",
+          "label": "closed just below",
+          "p": [
+            7706,
+            7712
+          ],
+          "strong": true
+        },
+        {
+          "kind": "ref",
+          "label": "Fri low",
+          "p": [
+            7676
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "weekly · LBAF watch",
+          "p": [
+            7669,
+            7673
+          ],
+          "strong": true
+        },
+        {
+          "kind": "down",
+          "label": "daily · LBAF reminder",
+          "p": [
+            7659,
+            7663
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "white box top",
+          "p": [
+            7644,
+            7649
+          ],
+          "strong": true
+        },
+        {
+          "kind": "down",
+          "label": "never flipped in Sept",
+          "p": [
+            7631,
+            7634
+          ],
+          "strong": true
+        },
+        {
+          "kind": "down",
+          "label": "",
+          "p": [
+            7618,
+            7622
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "",
+          "p": [
+            7591,
+            7594
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "Sept low · LBAF",
+          "p": [
+            7569,
+            7575
+          ],
+          "strong": true
+        },
+        {
+          "kind": "down",
+          "label": "major decision point",
+          "p": [
+            7541,
+            7543
+          ],
+          "strong": true
+        }
+      ],
+      "lower": "Holding below 7706-12 = bearish consolidation → Friday's low 7676 / 7672.75 / 7669-73 (7659-63 daily as the LBAF reminder). Continuation → 7644-49 (white box top). Persistent weakness below that → 7631-34 (sellers never built time/volume below it in Sept), 7618-22, 7591-94 → 7575 Sept low → 7541-43, the major decision point. Breakdown shorts below Friday's low: tight leash.",
+      "pivot": "7706-7712 (closed just under). 7669-73 / Friday's low 7676 below — LBAF watch. The short ladder above: 7723-26, 7739-43, 7753-54, 7760-65, 7780-84 (A+++), Friday's high 7797-7803, 7815-20 hard stop."
     },
     {
-     "p": [
-      7809.5
-     ],
-     "label": "ETH lower high",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      7797,
-      7803
-     ],
-     "label": "Fri high 7803.25",
-     "kind": "up"
-    },
-    {
-     "p": [
-      7780,
-      7784
-     ],
-     "label": "A+++ swing short",
-     "kind": "pivot",
-     "strong": true
-    },
-    {
-     "p": [
-      7760,
-      7765
-     ],
-     "label": "B+/A- short · LAAF watch",
-     "kind": "pivot",
-     "strong": true
-    },
-    {
-     "p": [
-      7753,
-      7754
-     ],
-     "label": "daily · B short",
-     "kind": "pivot"
-    },
-    {
-     "p": [
-      7739,
-      7743
-     ],
-     "label": "first reclaim · B/B- short",
-     "kind": "pivot"
-    },
-    {
-     "p": [
-      7727.75
-     ],
-     "label": "1:40 pop",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      7723,
-      7726
-     ],
-     "label": "B- short",
-     "kind": "pivot"
-    },
-    {
-     "p": [
-      7706,
-      7712
-     ],
-     "label": "closed just below",
-     "kind": "pivot",
-     "strong": true
-    },
-    {
-     "p": [
-      7676
-     ],
-     "label": "Fri low",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      7669,
-      7673
-     ],
-     "label": "weekly · LBAF watch",
-     "kind": "down",
-     "strong": true
-    },
-    {
-     "p": [
-      7659,
-      7663
-     ],
-     "label": "daily · LBAF reminder",
-     "kind": "down"
-    },
-    {
-     "p": [
-      7644,
-      7649
-     ],
-     "label": "white box top",
-     "kind": "down",
-     "strong": true
-    },
-    {
-     "p": [
-      7631,
-      7634
-     ],
-     "label": "never flipped in Sept",
-     "kind": "down",
-     "strong": true
-    },
-    {
-     "p": [
-      7618,
-      7622
-     ],
-     "label": "",
-     "kind": "down"
-    },
-    {
-     "p": [
-      7591,
-      7594
-     ],
-     "label": "",
-     "kind": "down"
-    },
-    {
-     "p": [
-      7569,
-      7575
-     ],
-     "label": "Sept low · LBAF",
-     "kind": "down",
-     "strong": true
-    },
-    {
-     "p": [
-      7541,
-      7543
-     ],
-     "label": "major decision point",
-     "kind": "down",
-     "strong": true
+      "chart": "/_blob/3ba32c17d7ff4e3aa0ec456c757fe9df",
+      "chart_id": "3ba32c17d7ff4e3aa0ec456c757fe9df",
+      "happened": "Friday: ON high 30225 (into 210-237, the structural lower high), opened 30024 at the RTH high 30045.75 just under 069-103, sold to 29268.75 at 3:05 (through 29615-645 and 469-483), closed 29379.5. Breakout failed; more than 2× the weekly straddle.",
+      "higher": "Reactive longs only. Until a prior day high is taken out and value migrates higher he's fully short-biased on pops. Any weekly level below 210-237 can produce a 30-min lower high; supply above 615-645 and substantial supply above 754-787 for LAAFs. 210-237 taken → open to higher lows. Not until back above 30520-546 do sellers sweat.",
+      "instrument": "NQ",
+      "levels": [
+        {
+          "kind": "up",
+          "label": "structural lower high",
+          "p": [
+            30210,
+            30237
+          ],
+          "strong": true
+        },
+        {
+          "kind": "up",
+          "label": "",
+          "p": [
+            30069,
+            30103
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "Fri high",
+          "p": [
+            30045.75
+          ]
+        },
+        {
+          "kind": "up",
+          "label": "swing short invalid above",
+          "p": [
+            29932,
+            29969
+          ],
+          "strong": true
+        },
+        {
+          "kind": "pivot",
+          "label": "A+++ swing short",
+          "p": [
+            29754,
+            29787
+          ],
+          "strong": true
+        },
+        {
+          "kind": "pivot",
+          "label": "first reclaim · B/B+ short",
+          "p": [
+            29615,
+            29645
+          ],
+          "strong": true
+        },
+        {
+          "kind": "pivot",
+          "label": "daily · B/B+ short",
+          "p": [
+            29569,
+            29583
+          ]
+        },
+        {
+          "kind": "pivot",
+          "label": "C+/B- short",
+          "p": [
+            29469,
+            29483
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "Fri low",
+          "p": [
+            29268.75
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "weekly · LBAF watch",
+          "p": [
+            29269,
+            29303
+          ],
+          "strong": true
+        },
+        {
+          "kind": "down",
+          "label": "daily",
+          "p": [
+            29200,
+            29221
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "reactive · key reclaim",
+          "p": [
+            29038,
+            29069
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "reactive",
+          "p": [
+            28944,
+            28969
+          ]
+        },
+        {
+          "kind": "ref",
+          "label": "Sept RTH low",
+          "p": [
+            28878.75
+          ]
+        },
+        {
+          "kind": "down",
+          "label": "Sept ETH low 28816 · LBAF",
+          "p": [
+            28847,
+            28869
+          ],
+          "strong": true
+        },
+        {
+          "kind": "down",
+          "label": "quite strong",
+          "p": [
+            28684,
+            28722
+          ],
+          "strong": true
+        }
+      ],
+      "lower": "LBAF of last week's low needs 29615-645 as the first meaningful reclaim — anything but an immediate reclaim risks acceptance back into September's lower distribution → Sept low (RTH 28878.75 / ETH 28816.25). 29038-069 and 28944-969 were traded through in Sept but dips were bought aggressively; he won't be comfortable short near there. Massive first-pass effect below the Sept low — pauses shorts on a first pass. 28684-722 quite strong.",
+      "pivot": "30210-30237 above (clarity in weakness below it). Short ladder: 469-483, 569-583 / 615-645, 29754-787 (A+++). Friday's low 29268.75 with 269-303 and the 200-221 daily under it."
     }
-   ]
-  },
-  {
-   "instrument": "NQ",
-   "happened": "Friday: ON high 30225 (into 210-237, the structural lower high), opened 30024 at the RTH high 30045.75 just under 069-103, sold to 29268.75 at 3:05 (through 29615-645 and 469-483), closed 29379.5. Breakout failed; more than 2× the weekly straddle.",
-   "pivot": "30210-30237 above (clarity in weakness below it). Short ladder: 469-483, 569-583 / 615-645, 29754-787 (A+++). Friday's low 29268.75 with 269-303 and the 200-221 daily under it.",
-   "higher": "Reactive longs only. Until a prior day high is taken out and value migrates higher he's fully short-biased on pops. Any weekly level below 210-237 can produce a 30-min lower high; supply above 615-645 and substantial supply above 754-787 for LAAFs. 210-237 taken → open to higher lows. Not until back above 30520-546 do sellers sweat.",
-   "lower": "LBAF of last week's low needs 29615-645 as the first meaningful reclaim — anything but an immediate reclaim risks acceptance back into September's lower distribution → Sept low (RTH 28878.75 / ETH 28816.25). 29038-069 and 28944-969 were traded through in Sept but dips were bought aggressively; he won't be comfortable short near there. Massive first-pass effect below the Sept low — pauses shorts on a first pass. 28684-722 quite strong.",
-   "levels": [
+  ],
+  "corrections": [],
+  "date": "2026-10-19",
+  "final": [
     {
-     "p": [
-      30210,
-      30237
-     ],
-     "label": "structural lower high",
-     "kind": "up",
-     "strong": true
+      "added": false,
+      "dir": "long",
+      "gate": "LBAF of 7676, inclusive of the 69-73 weekly level",
+      "id": "es1",
+      "name": "LBAF of Friday's low 7676 (incl. 7669-7673)",
+      "stop": "continuation through 69-73 / 59-63 → 7644-49",
+      "tag": "B/B+",
+      "tgt": "7706-12 → 7723-26 → 7739-43"
     },
     {
-     "p": [
-      30069,
-      30103
-     ],
-     "label": "",
-     "kind": "up"
+      "added": false,
+      "dir": "short",
+      "gate": "fail or LAAF of 23-26, perhaps incl. the 7727.75 high from 1:40",
+      "id": "es2",
+      "name": "Fail / LAAF of 7723-7726",
+      "stop": "reclaimed → 7739-43",
+      "tag": "B-",
+      "tgt": "7706-12 → Friday's low 7676"
     },
     {
-     "p": [
-      30045.75
-     ],
-     "label": "Fri high",
-     "kind": "ref"
+      "added": false,
+      "dir": "short",
+      "gate": "fail or LAAF of 39-43 (potentially up to 7754)",
+      "id": "es3",
+      "name": "Fail / LAAF of 7739-7743",
+      "stop": "reclaimed → 7753-54 / 7760-65",
+      "tag": "B/B-",
+      "tgt": "7723-26 → 7706-12"
     },
     {
-     "p": [
-      29932,
-      29969
-     ],
-     "label": "swing short invalid above",
-     "kind": "up",
-     "strong": true
+      "added": false,
+      "dir": "short",
+      "gate": "fail or LAAF of 53-54 (the old 47-54 weekly)",
+      "id": "es4",
+      "name": "Fail / LAAF of 7753-7754",
+      "stop": "reclaimed → 7760-65",
+      "tag": "B",
+      "tgt": "7739-43 → 7723-26"
     },
     {
-     "p": [
-      29754,
-      29787
-     ],
-     "label": "A+++ swing short",
-     "kind": "pivot",
-     "strong": true
+      "added": false,
+      "dir": "short",
+      "gate": "fail or LAAF of 60-65",
+      "id": "es5",
+      "name": "Fail / LAAF of 7760-7765",
+      "stop": "reclaimed → 7780-84",
+      "tag": "B+/A-",
+      "tgt": "7753-54 → 7739-43 → 7723-26"
     },
     {
-     "p": [
-      29615,
-      29645
-     ],
-     "label": "first reclaim · B/B+ short",
-     "kind": "pivot",
-     "strong": true
+      "added": false,
+      "dir": "short",
+      "gate": "fail or LAAF of 80-84 (potentially as low as 75); strong sellers needed quickly, protecting Friday's high 7797-7803 (incl. a LAAF)",
+      "id": "es6",
+      "name": "Fail / LAAF of 7780-7784 — SWING SHORT",
+      "stop": "hard stop 7815-20, but any meaningful traction above Friday's high 7803.25 invalidates",
+      "tag": "A+++ · size · 'all the puts'",
+      "tgt": "7760-65 → 7739-43 → 7706-12 → Friday's low 7676 (runners)"
     },
     {
-     "p": [
-      29569,
-      29583
-     ],
-     "label": "daily · B/B+ short",
-     "kind": "pivot"
+      "added": false,
+      "dir": "short",
+      "gate": "continuation through 7676 / 69-73",
+      "id": "es7",
+      "name": "Breakdown short below Friday's low (implied, tight leash)",
+      "stop": "back above Friday's low (LBAF)",
+      "tag": "implied · tight leash",
+      "tgt": "7659-63 → 7644-49 → 7631-34"
     },
     {
-     "p": [
-      29469,
-      29483
-     ],
-     "label": "C+/B- short",
-     "kind": "pivot"
+      "added": false,
+      "dir": "long",
+      "gate": "LBAF of 29268.75, from the 200-221 daily or otherwise (269-303 weekly right there)",
+      "id": "nq1",
+      "name": "LBAF of Friday's low 29268.75",
+      "stop": "acceptance below 200-221 → 29038-069",
+      "tag": "B/B+",
+      "tgt": "469-483 → 569-583 → 615-645 (first meaningful reclaim)"
     },
     {
-     "p": [
-      29268.75
-     ],
-     "label": "Fri low",
-     "kind": "ref"
+      "added": false,
+      "dir": "short",
+      "gate": "fail or LAAF of 469-483",
+      "id": "nq2",
+      "name": "Fail / LAAF of 29469-29483",
+      "stop": "reclaimed → 569-583",
+      "tag": "C+/B-",
+      "tgt": "Friday's low 29268.75"
     },
     {
-     "p": [
-      29269,
-      29303
-     ],
-     "label": "weekly · LBAF watch",
-     "kind": "down",
-     "strong": true
+      "added": false,
+      "dir": "short",
+      "gate": "fail or LAAF of 569-583 (daily) or 615-645 (weekly); supply above 615-645",
+      "id": "nq3",
+      "name": "Fail / LAAF of 29569-29583 or 29615-29645",
+      "stop": "reclaimed → 754-787",
+      "tag": "B/B+",
+      "tgt": "469-483 → Friday's low"
     },
     {
-     "p": [
-      29200,
-      29221
-     ],
-     "label": "daily",
-     "kind": "down"
+      "added": false,
+      "dir": "short",
+      "gate": "fail or LAAF of 754-787; a ton of supply between here and 932-969",
+      "id": "nq4",
+      "name": "Fail / LAAF of 29754-29787 — SWING SHORT",
+      "stop": "above 932-969 and Friday's high 30045.75 the trade is invalid",
+      "tag": "A+++ · swing",
+      "tgt": "615-645 → 569-583 → 469-483 → Friday's low (runners)"
     },
     {
-     "p": [
-      29038,
-      29069
-     ],
-     "label": "reactive · key reclaim",
-     "kind": "down"
-    },
-    {
-     "p": [
-      28944,
-      28969
-     ],
-     "label": "reactive",
-     "kind": "down"
-    },
-    {
-     "p": [
-      28878.75
-     ],
-     "label": "Sept RTH low",
-     "kind": "ref"
-    },
-    {
-     "p": [
-      28847,
-      28869
-     ],
-     "label": "Sept ETH low 28816 · LBAF",
-     "kind": "down",
-     "strong": true
-    },
-    {
-     "p": [
-      28684,
-      28722
-     ],
-     "label": "quite strong",
-     "kind": "down",
-     "strong": true
+      "added": false,
+      "dir": "short",
+      "gate": "persistent weakness through 29268.75 / 269-303 / 200-221",
+      "id": "nq5",
+      "name": "Breakdown short below Friday's low (implied)",
+      "stop": "back above Friday's low (LBAF) → 615-645",
+      "tag": "implied · tight leash",
+      "tgt": "29038-069 → 28944-969 → Sept low 28878.75"
     }
-   ]
-  }
- ],
- "trades": [
-  {
-   "id": "es1",
-   "instrument": "ES",
-   "name": "LBAF of Friday's low 7676 (incl. 7669-7673)",
-   "dir": "long",
-   "tag": "B/B+",
-   "gate": "LBAF of 7676, inclusive of the 69-73 weekly level",
-   "tgt": "7706-12 → 7723-26 → 7739-43",
-   "stop": "continuation through 69-73 / 59-63 → 7644-49",
-   "quote": "Long a LBAF of Friday's low inclusive of the 69-73 level is a B/B+.",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7669,
-     7676
-    ],
-    "tgt": [
-     [
-      7706,
-      7712
-     ],
-     [
-      7723,
-      7726
-     ],
-     [
-      7739,
-      7743
-     ]
-    ],
-    "invalid": [
-     7659
-    ],
-    "stop": [
-     7660.0
-    ],
-    "be": [
-     7692.0
-    ]
-   },
-   "risk": {
-    "entry": "7676",
-    "stop": "7660",
-    "stop_pts": "16",
-    "be": "7692",
-    "his": "7659",
-    "his_pts": "17",
-    "mic": "MES",
-    "ours": [
-     "6.2",
-     "12.5"
-    ],
-    "his_n": [
-     "5.9",
-     "11.8"
-    ],
-    "tgts": [
-     {
-      "p": "7706-7712",
-      "ours": "1.9",
-      "his": "1.8"
-     },
-     {
-      "p": "7723-7726",
-      "ours": "2.9",
-      "his": "2.8"
-     },
-     {
-      "p": "7739-7743",
-      "ours": "3.9",
-      "his": "3.7"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
+  ],
+  "notes": "",
+  "source": "pharmdks",
+  "status": "approved",
+  "stop_floor": {
+    "ES": 16,
+    "NQ": 88.75
   },
-  {
-   "id": "es2",
-   "instrument": "ES",
-   "name": "Fail / LAAF of 7723-7726",
-   "dir": "short",
-   "tag": "B-",
-   "gate": "fail or LAAF of 23-26, perhaps incl. the 7727.75 high from 1:40",
-   "tgt": "7706-12 → Friday's low 7676",
-   "stop": "reclaimed → 7739-43",
-   "quote": "Short a fail/LAAF of 7723-7726 (perhaps inclusive of the 7727.75 from 1:40) is a B-.",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7723,
-     7728
-    ],
-    "tgt": [
-     [
-      7706,
-      7712
-     ],
-     7676
-    ],
-    "invalid": [
-     7743
-    ],
-    "stop": [
-     7739.0
-    ],
-    "be": [
-     7707.0
-    ]
-   },
-   "risk": {
-    "entry": "7723",
-    "stop": "7739",
-    "stop_pts": "16",
-    "be": "7707",
-    "his": "7743",
-    "his_pts": "20",
-    "mic": "MES",
-    "ours": [
-     "6.2",
-     "12.5"
-    ],
-    "his_n": [
-     "5.0",
-     "10.0"
-    ],
-    "tgts": [
-     {
-      "p": "7706-7712",
-      "ours": "0.7",
-      "his": "0.6"
-     },
-     {
-      "p": "7676",
-      "ours": "2.9",
-      "his": "2.4"
-     }
-    ],
-    "pick": 1,
-    "skip": false
-   }
-  },
-  {
-   "id": "es3",
-   "instrument": "ES",
-   "name": "Fail / LAAF of 7739-7743",
-   "dir": "short",
-   "tag": "B/B-",
-   "gate": "fail or LAAF of 39-43 (potentially up to 7754)",
-   "tgt": "7723-26 → 7706-12",
-   "stop": "reclaimed → 7753-54 / 7760-65",
-   "quote": "Short a fail/LAAF of 7739-7743 is a B/B-",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7739,
-     7743
-    ],
-    "tgt": [
-     [
-      7723,
-      7726
-     ],
-     [
-      7706,
-      7712
-     ]
-    ],
-    "invalid": [
-     7754
-    ],
-    "stop": [
-     7755.0
-    ],
-    "be": [
-     7723.0
-    ]
-   },
-   "risk": {
-    "entry": "7739",
-    "stop": "7755",
-    "stop_pts": "16",
-    "be": "7723",
-    "his": "7754",
-    "his_pts": "15",
-    "mic": "MES",
-    "ours": [
-     "6.2",
-     "12.5"
-    ],
-    "his_n": [
-     "6.7",
-     "13.3"
-    ],
-    "tgts": [
-     {
-      "p": "7723-7726",
-      "ours": "0.8",
-      "his": "0.9"
-     },
-     {
-      "p": "7706-7712",
-      "ours": "1.7",
-      "his": "1.8"
-     }
-    ],
-    "pick": 1,
-    "skip": false
-   }
-  },
-  {
-   "id": "es4",
-   "instrument": "ES",
-   "name": "Fail / LAAF of 7753-7754",
-   "dir": "short",
-   "tag": "B",
-   "gate": "fail or LAAF of 53-54 (the old 47-54 weekly)",
-   "tgt": "7739-43 → 7723-26",
-   "stop": "reclaimed → 7760-65",
-   "quote": "Short a fail/LAAF of 7753-7754 is a B",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7753,
-     7754
-    ],
-    "tgt": [
-     [
-      7739,
-      7743
-     ],
-     [
-      7723,
-      7726
-     ]
-    ],
-    "invalid": [
-     7765
-    ],
-    "stop": [
-     7769.0
-    ],
-    "be": [
-     7737.0
-    ]
-   },
-   "risk": {
-    "entry": "7753",
-    "stop": "7769",
-    "stop_pts": "16",
-    "be": "7737",
-    "his": "7765",
-    "his_pts": "12",
-    "mic": "MES",
-    "ours": [
-     "6.2",
-     "12.5"
-    ],
-    "his_n": [
-     "8.3",
-     "16.7"
-    ],
-    "tgts": [
-     {
-      "p": "7739-7743",
-      "ours": "0.6",
-      "his": "0.8"
-     },
-     {
-      "p": "7723-7726",
-      "ours": "1.7",
-      "his": "2.2"
-     }
-    ],
-    "pick": 1,
-    "skip": false
-   }
-  },
-  {
-   "id": "es5",
-   "instrument": "ES",
-   "name": "Fail / LAAF of 7760-7765",
-   "dir": "short",
-   "tag": "B+/A-",
-   "gate": "fail or LAAF of 60-65",
-   "tgt": "7753-54 → 7739-43 → 7723-26",
-   "stop": "reclaimed → 7780-84",
-   "quote": "Short a fail/LAAF of 7760-7765 is a B+/A-",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7760,
-     7765
-    ],
-    "tgt": [
-     [
-      7753,
-      7754
-     ],
-     [
-      7739,
-      7743
-     ],
-     [
-      7723,
-      7726
-     ]
-    ],
-    "invalid": [
-     7784
-    ],
-    "stop": [
-     7776.0
-    ],
-    "be": [
-     7744.0
-    ]
-   },
-   "risk": {
-    "entry": "7760",
-    "stop": "7776",
-    "stop_pts": "16",
-    "be": "7744",
-    "his": "7784",
-    "his_pts": "24",
-    "mic": "MES",
-    "ours": [
-     "6.2",
-     "12.5"
-    ],
-    "his_n": [
-     "4.2",
-     "8.3"
-    ],
-    "tgts": [
-     {
-      "p": "7753-7754",
-      "ours": "0.4",
-      "his": "0.2"
-     },
-     {
-      "p": "7739-7743",
-      "ours": "1.1",
-      "his": "0.7"
-     },
-     {
-      "p": "7723-7726",
-      "ours": "2.1",
-      "his": "1.4"
-     }
-    ],
-    "pick": 2,
-    "skip": false
-   }
-  },
-  {
-   "id": "es6",
-   "instrument": "ES",
-   "name": "Fail / LAAF of 7780-7784 — SWING SHORT",
-   "dir": "short",
-   "tag": "A+++ · size · 'all the puts'",
-   "gate": "fail or LAAF of 80-84 (potentially as low as 75); strong sellers needed quickly, protecting Friday's high 7797-7803 (incl. a LAAF)",
-   "tgt": "7760-65 → 7739-43 → 7706-12 → Friday's low 7676 (runners)",
-   "stop": "hard stop 7815-20, but any meaningful traction above Friday's high 7803.25 invalidates",
-   "quote": "Short a fail/LAAF of 7780-7784 is an A+++ and a swing short I will take with size. Strong sellers would need to be seen pretty quickly, at least protecting Friday's high in the 7797-7803 inclusive of a LAAF. I will probably buy all the puts up here and risk 7815-7820 as a hard stop but really any meaningful traction above Friday's high invalidates the trade.",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7780,
-     7784
-    ],
-    "tgt": [
-     [
-      7760,
-      7765
-     ],
-     [
-      7739,
-      7743
-     ],
-     [
-      7706,
-      7712
-     ],
-     7676
-    ],
-    "invalid": [
-     7803.25
-    ],
-    "stop": [
-     7796.0
-    ],
-    "be": [
-     7764.0
-    ]
-   },
-   "risk": {
-    "entry": "7780",
-    "stop": "7796",
-    "stop_pts": "16",
-    "be": "7764",
-    "his": "7803.25",
-    "his_pts": "23.25",
-    "mic": "MES",
-    "ours": [
-     "6.2",
-     "12.5"
-    ],
-    "his_n": [
-     "4.3",
-     "8.6"
-    ],
-    "tgts": [
-     {
-      "p": "7760-7765",
-      "ours": "0.9",
-      "his": "0.6"
-     },
-     {
-      "p": "7739-7743",
-      "ours": "2.3",
-      "his": "1.6"
-     },
-     {
-      "p": "7706-7712",
-      "ours": "4.2",
-      "his": "2.9"
-     },
-     {
-      "p": "7676",
-      "ours": "6.5",
-      "his": "4.5"
-     }
-    ],
-    "pick": 1,
-    "skip": false
-   }
-  },
-  {
-   "id": "es7",
-   "instrument": "ES",
-   "name": "Breakdown short below Friday's low (implied, tight leash)",
-   "dir": "short",
-   "tag": "implied · tight leash",
-   "gate": "continuation through 7676 / 69-73",
-   "tgt": "7659-63 → 7644-49 → 7631-34",
-   "stop": "back above Friday's low (LBAF)",
-   "quote": "A breakdown short below Friday's low is implied in the weekly commentary, but I would keep a tight leash on breakdown shorts.",
-   "unsure": true,
-   "decision": null,
-   "levels": {
-    "gate": [
-     7669,
-     7676
-    ],
-    "tgt": [
-     [
-      7659,
-      7663
-     ],
-     [
-      7644,
-      7649
-     ],
-     [
-      7631,
-      7634
-     ]
-    ],
-    "invalid": [
-     7676
-    ],
-    "stop": [
-     7692.0
-    ],
-    "be": [
-     7660.0
-    ]
-   },
-   "risk": {
-    "entry": "7676",
-    "stop": "7692",
-    "stop_pts": "16",
-    "be": "7660",
-    "his": "—",
-    "his_pts": "—",
-    "mic": "MES",
-    "ours": [
-     "6.2",
-     "12.5"
-    ],
-    "his_n": [
-     "—",
-     "—"
-    ],
-    "tgts": [
-     {
-      "p": "7659-7663",
-      "ours": "0.8",
-      "his": "—"
-     },
-     {
-      "p": "7644-7649",
-      "ours": "1.7",
-      "his": "—"
-     },
-     {
-      "p": "7631-7634",
-      "ours": "2.6",
-      "his": "—"
-     }
-    ],
-    "pick": 1,
-    "skip": false
-   }
-  },
-  {
-   "id": "nq1",
-   "instrument": "NQ",
-   "name": "LBAF of Friday's low 29268.75",
-   "dir": "long",
-   "tag": "B/B+",
-   "gate": "LBAF of 29268.75, from the 200-221 daily or otherwise (269-303 weekly right there)",
-   "tgt": "469-483 → 569-583 → 615-645 (first meaningful reclaim)",
-   "stop": "acceptance below 200-221 → 29038-069",
-   "quote": "Long a LBAF of Friday's low whether it comes from 200-221 or otherwise is a B/B+",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     29200,
-     29269
-    ],
-    "tgt": [
-     [
-      29469,
-      29483
-     ],
-     [
-      29569,
-      29583
-     ],
-     [
-      29615,
-      29645
-     ]
-    ],
-    "invalid": [
-     29200
-    ],
-    "stop": [
-     29180.0
-    ],
-    "be": [
-     29357.5
-    ]
-   },
-   "risk": {
-    "entry": "29268.8",
-    "stop": "29180",
-    "stop_pts": "88.75",
-    "be": "29357.5",
-    "his": "29200",
-    "his_pts": "68.75",
-    "mic": "MNQ",
-    "ours": [
-     "2.8",
-     "5.6"
-    ],
-    "his_n": [
-     "3.6",
-     "7.3"
-    ],
-    "tgts": [
-     {
-      "p": "29469-29483",
-      "ours": "2.3",
-      "his": "2.9"
-     },
-     {
-      "p": "29569-29583",
-      "ours": "3.4",
-      "his": "4.4"
-     },
-     {
-      "p": "29615-29645",
-      "ours": "3.9",
-      "his": "5.0"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
-  },
-  {
-   "id": "nq2",
-   "instrument": "NQ",
-   "name": "Fail / LAAF of 29469-29483",
-   "dir": "short",
-   "tag": "C+/B-",
-   "gate": "fail or LAAF of 469-483",
-   "tgt": "Friday's low 29268.75",
-   "stop": "reclaimed → 569-583",
-   "quote": "Short a fail/LAAF of 469-483 is a C+/B-",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     29469,
-     29483
-    ],
-    "tgt": [
-     29268.75
-    ],
-    "invalid": [
-     29569
-    ],
-    "stop": [
-     29557.75
-    ],
-    "be": [
-     29380.25
-    ]
-   },
-   "risk": {
-    "entry": "29469",
-    "stop": "29557.8",
-    "stop_pts": "88.75",
-    "be": "29380.2",
-    "his": "29569",
-    "his_pts": "100",
-    "mic": "MNQ",
-    "ours": [
-     "2.8",
-     "5.6"
-    ],
-    "his_n": [
-     "2.5",
-     "5.0"
-    ],
-    "tgts": [
-     {
-      "p": "29268.8",
-      "ours": "2.3",
-      "his": "2.0"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
-  },
-  {
-   "id": "nq3",
-   "instrument": "NQ",
-   "name": "Fail / LAAF of 29569-29583 or 29615-29645",
-   "dir": "short",
-   "tag": "B/B+",
-   "gate": "fail or LAAF of 569-583 (daily) or 615-645 (weekly); supply above 615-645",
-   "tgt": "469-483 → Friday's low",
-   "stop": "reclaimed → 754-787",
-   "quote": "Short a fail/LAAF of 569-583 or 615-645 is a B/B+",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     29569,
-     29645
-    ],
-    "tgt": [
-     [
-      29469,
-      29483
-     ],
-     29268.75
-    ],
-    "invalid": [
-     29754
-    ],
-    "stop": [
-     29657.75
-    ],
-    "be": [
-     29480.25
-    ]
-   },
-   "risk": {
-    "entry": "29569",
-    "stop": "29657.8",
-    "stop_pts": "88.75",
-    "be": "29480.2",
-    "his": "29754",
-    "his_pts": "185",
-    "mic": "MNQ",
-    "ours": [
-     "2.8",
-     "5.6"
-    ],
-    "his_n": [
-     "1.4",
-     "2.7"
-    ],
-    "tgts": [
-     {
-      "p": "29469-29483",
-      "ours": "1.0",
-      "his": "0.5"
-     },
-     {
-      "p": "29268.8",
-      "ours": "3.4",
-      "his": "1.6"
-     }
-    ],
-    "pick": 1,
-    "skip": false
-   }
-  },
-  {
-   "id": "nq4",
-   "instrument": "NQ",
-   "name": "Fail / LAAF of 29754-29787 — SWING SHORT",
-   "dir": "short",
-   "tag": "A+++ · swing",
-   "gate": "fail or LAAF of 754-787; a ton of supply between here and 932-969",
-   "tgt": "615-645 → 569-583 → 469-483 → Friday's low (runners)",
-   "stop": "above 932-969 and Friday's high 30045.75 the trade is invalid",
-   "quote": "Short a fail/LAAF of 29754-29787 is an A+++ and a swing short opportunity. There is a ton of supply between 754-787 and 932-969 so above 932-969 and Friday's high the trade is invalidated.",
-   "unsure": false,
-   "decision": null,
-   "levels": {
-    "gate": [
-     29754,
-     29787
-    ],
-    "tgt": [
-     [
-      29615,
-      29645
-     ],
-     [
-      29569,
-      29583
-     ],
-     [
-      29469,
-      29483
-     ],
-     29268.75
-    ],
-    "invalid": [
-     29969
-    ],
-    "stop": [
-     29842.75
-    ],
-    "be": [
-     29665.25
-    ]
-   },
-   "risk": {
-    "entry": "29754",
-    "stop": "29842.8",
-    "stop_pts": "88.75",
-    "be": "29665.2",
-    "his": "29969",
-    "his_pts": "215",
-    "mic": "MNQ",
-    "ours": [
-     "2.8",
-     "5.6"
-    ],
-    "his_n": [
-     "1.2",
-     "2.3"
-    ],
-    "tgts": [
-     {
-      "p": "29615-29645",
-      "ours": "1.2",
-      "his": "0.5"
-     },
-     {
-      "p": "29569-29583",
-      "ours": "1.9",
-      "his": "0.8"
-     },
-     {
-      "p": "29469-29483",
-      "ours": "3.1",
-      "his": "1.3"
-     },
-     {
-      "p": "29268.8",
-      "ours": "5.5",
-      "his": "2.3"
-     }
-    ],
-    "pick": 1,
-    "skip": false
-   }
-  },
-  {
-   "id": "nq5",
-   "instrument": "NQ",
-   "name": "Breakdown short below Friday's low (implied)",
-   "dir": "short",
-   "tag": "implied · tight leash",
-   "gate": "persistent weakness through 29268.75 / 269-303 / 200-221",
-   "tgt": "29038-069 → 28944-969 → Sept low 28878.75",
-   "stop": "back above Friday's low (LBAF) → 615-645",
-   "quote": "The September RTH and ETH lows are a natural target on any persistent weakness below this past week's low. … Sellers have had very little success below 29038-29069 and 28944-28969",
-   "unsure": true,
-   "decision": null,
-   "levels": {
-    "gate": [
-     29200,
-     29269
-    ],
-    "tgt": [
-     [
-      29038,
-      29069
-     ],
-     [
-      28944,
-      28969
-     ],
-     28878.75
-    ],
-    "invalid": [
-     29269
-    ],
-    "stop": [
-     29357.5
-    ],
-    "be": [
-     29180.0
-    ]
-   },
-   "risk": {
-    "entry": "29268.8",
-    "stop": "29357.5",
-    "stop_pts": "88.75",
-    "be": "29180",
-    "his": "29269",
-    "his_pts": "0.25",
-    "mic": "MNQ",
-    "ours": [
-     "2.8",
-     "5.6"
-    ],
-    "his_n": [
-     "1000.0",
-     "2000.0"
-    ],
-    "tgts": [
-     {
-      "p": "29038-29069",
-      "ours": "2.3",
-      "his": "799.0"
-     },
-     {
-      "p": "28944-28969",
-      "ours": "3.4",
-      "his": "1199.0"
-     },
-     {
-      "p": "28878.8",
-      "ours": "4.4",
-      "his": "1560.0"
-     }
-    ],
-    "pick": 0,
-    "skip": false
-   }
-  }
- ],
- "atr5": {
-  "ES": 10.71,
-  "NQ": 59.16
- },
- "stop_floor": {
-  "ES": 16.0,
-  "NQ": 88.75
- }
+  "trades": [
+    {
+      "chart": "/_blob/afd95fe7c722b4fcb710dde765f4dd5a",
+      "chart_id": "afd95fe7c722b4fcb710dde765f4dd5a",
+      "decision": "keep",
+      "dir": "long",
+      "gate": "LBAF of 7676, inclusive of the 69-73 weekly level",
+      "id": "es1",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7692
+        ],
+        "gate": [
+          7669,
+          7676
+        ],
+        "invalid": [
+          7659
+        ],
+        "stop": [
+          7660
+        ],
+        "tgt": [
+          [
+            7706,
+            7712
+          ],
+          [
+            7723,
+            7726
+          ],
+          [
+            7739,
+            7743
+          ]
+        ]
+      },
+      "name": "LBAF of Friday's low 7676 (incl. 7669-7673)",
+      "quote": "Long a LBAF of Friday's low inclusive of the 69-73 level is a B/B+.",
+      "risk": {
+        "be": "7692",
+        "entry": "7676",
+        "his": "7659",
+        "his_n": [
+          "5.9",
+          "11.8"
+        ],
+        "his_pts": "17",
+        "mic": "MES",
+        "ours": [
+          "6.2",
+          "12.5"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "7660",
+        "stop_pts": "16",
+        "tgts": [
+          {
+            "his": "1.8",
+            "ours": "1.9",
+            "p": "7706-7712"
+          },
+          {
+            "his": "2.8",
+            "ours": "2.9",
+            "p": "7723-7726"
+          },
+          {
+            "his": "3.7",
+            "ours": "3.9",
+            "p": "7739-7743"
+          }
+        ]
+      },
+      "stop": "continuation through 69-73 / 59-63 → 7644-49",
+      "tag": "B/B+",
+      "tgt": "7706-12 → 7723-26 → 7739-43",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/ab2d2a945b25859d313bfa0eac27cf8d",
+      "chart_id": "ab2d2a945b25859d313bfa0eac27cf8d",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "fail or LAAF of 23-26, perhaps incl. the 7727.75 high from 1:40",
+      "id": "es2",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7707
+        ],
+        "gate": [
+          7723,
+          7728
+        ],
+        "invalid": [
+          7743
+        ],
+        "stop": [
+          7739
+        ],
+        "tgt": [
+          [
+            7706,
+            7712
+          ],
+          7676
+        ]
+      },
+      "name": "Fail / LAAF of 7723-7726",
+      "quote": "Short a fail/LAAF of 7723-7726 (perhaps inclusive of the 7727.75 from 1:40) is a B-.",
+      "risk": {
+        "be": "7707",
+        "entry": "7723",
+        "his": "7743",
+        "his_n": [
+          "5.0",
+          "10.0"
+        ],
+        "his_pts": "20",
+        "mic": "MES",
+        "ours": [
+          "6.2",
+          "12.5"
+        ],
+        "pick": 1,
+        "skip": false,
+        "stop": "7739",
+        "stop_pts": "16",
+        "tgts": [
+          {
+            "his": "0.6",
+            "ours": "0.7",
+            "p": "7706-7712"
+          },
+          {
+            "his": "2.4",
+            "ours": "2.9",
+            "p": "7676"
+          }
+        ]
+      },
+      "stop": "reclaimed → 7739-43",
+      "tag": "B-",
+      "tgt": "7706-12 → Friday's low 7676",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/4a7ddde76ea1c8e9ac66cd9734e3bbf8",
+      "chart_id": "4a7ddde76ea1c8e9ac66cd9734e3bbf8",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "fail or LAAF of 39-43 (potentially up to 7754)",
+      "id": "es3",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7723
+        ],
+        "gate": [
+          7739,
+          7743
+        ],
+        "invalid": [
+          7754
+        ],
+        "stop": [
+          7755
+        ],
+        "tgt": [
+          [
+            7723,
+            7726
+          ],
+          [
+            7706,
+            7712
+          ]
+        ]
+      },
+      "name": "Fail / LAAF of 7739-7743",
+      "quote": "Short a fail/LAAF of 7739-7743 is a B/B-",
+      "risk": {
+        "be": "7723",
+        "entry": "7739",
+        "his": "7754",
+        "his_n": [
+          "6.7",
+          "13.3"
+        ],
+        "his_pts": "15",
+        "mic": "MES",
+        "ours": [
+          "6.2",
+          "12.5"
+        ],
+        "pick": 1,
+        "skip": false,
+        "stop": "7755",
+        "stop_pts": "16",
+        "tgts": [
+          {
+            "his": "0.9",
+            "ours": "0.8",
+            "p": "7723-7726"
+          },
+          {
+            "his": "1.8",
+            "ours": "1.7",
+            "p": "7706-7712"
+          }
+        ]
+      },
+      "stop": "reclaimed → 7753-54 / 7760-65",
+      "tag": "B/B-",
+      "tgt": "7723-26 → 7706-12",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/119cf7b768696902a5386bfcd2b6ea80",
+      "chart_id": "119cf7b768696902a5386bfcd2b6ea80",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "fail or LAAF of 53-54 (the old 47-54 weekly)",
+      "id": "es4",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7737
+        ],
+        "gate": [
+          7753,
+          7754
+        ],
+        "invalid": [
+          7765
+        ],
+        "stop": [
+          7769
+        ],
+        "tgt": [
+          [
+            7739,
+            7743
+          ],
+          [
+            7723,
+            7726
+          ]
+        ]
+      },
+      "name": "Fail / LAAF of 7753-7754",
+      "quote": "Short a fail/LAAF of 7753-7754 is a B",
+      "risk": {
+        "be": "7737",
+        "entry": "7753",
+        "his": "7765",
+        "his_n": [
+          "8.3",
+          "16.7"
+        ],
+        "his_pts": "12",
+        "mic": "MES",
+        "ours": [
+          "6.2",
+          "12.5"
+        ],
+        "pick": 1,
+        "skip": false,
+        "stop": "7769",
+        "stop_pts": "16",
+        "tgts": [
+          {
+            "his": "0.8",
+            "ours": "0.6",
+            "p": "7739-7743"
+          },
+          {
+            "his": "2.2",
+            "ours": "1.7",
+            "p": "7723-7726"
+          }
+        ]
+      },
+      "stop": "reclaimed → 7760-65",
+      "tag": "B",
+      "tgt": "7739-43 → 7723-26",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/0020085dabd7db432270ce0ee3002ed6",
+      "chart_id": "0020085dabd7db432270ce0ee3002ed6",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "fail or LAAF of 60-65",
+      "id": "es5",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7744
+        ],
+        "gate": [
+          7760,
+          7765
+        ],
+        "invalid": [
+          7784
+        ],
+        "stop": [
+          7776
+        ],
+        "tgt": [
+          [
+            7753,
+            7754
+          ],
+          [
+            7739,
+            7743
+          ],
+          [
+            7723,
+            7726
+          ]
+        ]
+      },
+      "name": "Fail / LAAF of 7760-7765",
+      "quote": "Short a fail/LAAF of 7760-7765 is a B+/A-",
+      "risk": {
+        "be": "7744",
+        "entry": "7760",
+        "his": "7784",
+        "his_n": [
+          "4.2",
+          "8.3"
+        ],
+        "his_pts": "24",
+        "mic": "MES",
+        "ours": [
+          "6.2",
+          "12.5"
+        ],
+        "pick": 2,
+        "skip": false,
+        "stop": "7776",
+        "stop_pts": "16",
+        "tgts": [
+          {
+            "his": "0.2",
+            "ours": "0.4",
+            "p": "7753-7754"
+          },
+          {
+            "his": "0.7",
+            "ours": "1.1",
+            "p": "7739-7743"
+          },
+          {
+            "his": "1.4",
+            "ours": "2.1",
+            "p": "7723-7726"
+          }
+        ]
+      },
+      "stop": "reclaimed → 7780-84",
+      "tag": "B+/A-",
+      "tgt": "7753-54 → 7739-43 → 7723-26",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/6626b3cde8cc8c9dd9df1b628bbc2e31",
+      "chart_id": "6626b3cde8cc8c9dd9df1b628bbc2e31",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "fail or LAAF of 80-84 (potentially as low as 75); strong sellers needed quickly, protecting Friday's high 7797-7803 (incl. a LAAF)",
+      "id": "es6",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7764
+        ],
+        "gate": [
+          7780,
+          7784
+        ],
+        "invalid": [
+          7803.25
+        ],
+        "stop": [
+          7796
+        ],
+        "tgt": [
+          [
+            7760,
+            7765
+          ],
+          [
+            7739,
+            7743
+          ],
+          [
+            7706,
+            7712
+          ],
+          7676
+        ]
+      },
+      "name": "Fail / LAAF of 7780-7784 — SWING SHORT",
+      "quote": "Short a fail/LAAF of 7780-7784 is an A+++ and a swing short I will take with size. Strong sellers would need to be seen pretty quickly, at least protecting Friday's high in the 7797-7803 inclusive of a LAAF. I will probably buy all the puts up here and risk 7815-7820 as a hard stop but really any meaningful traction above Friday's high invalidates the trade.",
+      "risk": {
+        "be": "7764",
+        "entry": "7780",
+        "his": "7803.25",
+        "his_n": [
+          "4.3",
+          "8.6"
+        ],
+        "his_pts": "23.25",
+        "mic": "MES",
+        "ours": [
+          "6.2",
+          "12.5"
+        ],
+        "pick": 1,
+        "skip": false,
+        "stop": "7796",
+        "stop_pts": "16",
+        "tgts": [
+          {
+            "his": "0.6",
+            "ours": "0.9",
+            "p": "7760-7765"
+          },
+          {
+            "his": "1.6",
+            "ours": "2.3",
+            "p": "7739-7743"
+          },
+          {
+            "his": "2.9",
+            "ours": "4.2",
+            "p": "7706-7712"
+          },
+          {
+            "his": "4.5",
+            "ours": "6.5",
+            "p": "7676"
+          }
+        ]
+      },
+      "stop": "hard stop 7815-20, but any meaningful traction above Friday's high 7803.25 invalidates",
+      "tag": "A+++ · size · 'all the puts'",
+      "tgt": "7760-65 → 7739-43 → 7706-12 → Friday's low 7676 (runners)",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/a66429826d63d48b2f22ad88ad65dce4",
+      "chart_id": "a66429826d63d48b2f22ad88ad65dce4",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "continuation through 7676 / 69-73",
+      "id": "es7",
+      "instrument": "ES",
+      "levels": {
+        "be": [
+          7660
+        ],
+        "gate": [
+          7669,
+          7676
+        ],
+        "invalid": [
+          7676
+        ],
+        "stop": [
+          7692
+        ],
+        "tgt": [
+          [
+            7659,
+            7663
+          ],
+          [
+            7644,
+            7649
+          ],
+          [
+            7631,
+            7634
+          ]
+        ]
+      },
+      "name": "Breakdown short below Friday's low (implied, tight leash)",
+      "quote": "A breakdown short below Friday's low is implied in the weekly commentary, but I would keep a tight leash on breakdown shorts.",
+      "risk": {
+        "be": "7660",
+        "entry": "7676",
+        "his": "—",
+        "his_n": [
+          "—",
+          "—"
+        ],
+        "his_pts": "—",
+        "mic": "MES",
+        "ours": [
+          "6.2",
+          "12.5"
+        ],
+        "pick": 1,
+        "skip": false,
+        "stop": "7692",
+        "stop_pts": "16",
+        "tgts": [
+          {
+            "his": "—",
+            "ours": "0.8",
+            "p": "7659-7663"
+          },
+          {
+            "his": "—",
+            "ours": "1.7",
+            "p": "7644-7649"
+          },
+          {
+            "his": "—",
+            "ours": "2.6",
+            "p": "7631-7634"
+          }
+        ]
+      },
+      "stop": "back above Friday's low (LBAF)",
+      "tag": "implied · tight leash",
+      "tgt": "7659-63 → 7644-49 → 7631-34",
+      "unsure": true
+    },
+    {
+      "chart": "/_blob/e48494a3446fe43b95858a43af0a7c8d",
+      "chart_id": "e48494a3446fe43b95858a43af0a7c8d",
+      "decision": "keep",
+      "dir": "long",
+      "gate": "LBAF of 29268.75, from the 200-221 daily or otherwise (269-303 weekly right there)",
+      "id": "nq1",
+      "instrument": "NQ",
+      "levels": {
+        "be": [
+          29357.5
+        ],
+        "gate": [
+          29200,
+          29269
+        ],
+        "invalid": [
+          29200
+        ],
+        "stop": [
+          29180
+        ],
+        "tgt": [
+          [
+            29469,
+            29483
+          ],
+          [
+            29569,
+            29583
+          ],
+          [
+            29615,
+            29645
+          ]
+        ]
+      },
+      "name": "LBAF of Friday's low 29268.75",
+      "quote": "Long a LBAF of Friday's low whether it comes from 200-221 or otherwise is a B/B+",
+      "risk": {
+        "be": "29357.5",
+        "entry": "29268.8",
+        "his": "29200",
+        "his_n": [
+          "3.6",
+          "7.3"
+        ],
+        "his_pts": "68.75",
+        "mic": "MNQ",
+        "ours": [
+          "2.8",
+          "5.6"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "29180",
+        "stop_pts": "88.75",
+        "tgts": [
+          {
+            "his": "2.9",
+            "ours": "2.3",
+            "p": "29469-29483"
+          },
+          {
+            "his": "4.4",
+            "ours": "3.4",
+            "p": "29569-29583"
+          },
+          {
+            "his": "5.0",
+            "ours": "3.9",
+            "p": "29615-29645"
+          }
+        ]
+      },
+      "stop": "acceptance below 200-221 → 29038-069",
+      "tag": "B/B+",
+      "tgt": "469-483 → 569-583 → 615-645 (first meaningful reclaim)",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/aac13bc5ce74f2b528eea94126c0a948",
+      "chart_id": "aac13bc5ce74f2b528eea94126c0a948",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "fail or LAAF of 469-483",
+      "id": "nq2",
+      "instrument": "NQ",
+      "levels": {
+        "be": [
+          29380.25
+        ],
+        "gate": [
+          29469,
+          29483
+        ],
+        "invalid": [
+          29569
+        ],
+        "stop": [
+          29557.75
+        ],
+        "tgt": [
+          29268.75
+        ]
+      },
+      "name": "Fail / LAAF of 29469-29483",
+      "quote": "Short a fail/LAAF of 469-483 is a C+/B-",
+      "risk": {
+        "be": "29380.2",
+        "entry": "29469",
+        "his": "29569",
+        "his_n": [
+          "2.5",
+          "5.0"
+        ],
+        "his_pts": "100",
+        "mic": "MNQ",
+        "ours": [
+          "2.8",
+          "5.6"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "29557.8",
+        "stop_pts": "88.75",
+        "tgts": [
+          {
+            "his": "2.0",
+            "ours": "2.3",
+            "p": "29268.8"
+          }
+        ]
+      },
+      "stop": "reclaimed → 569-583",
+      "tag": "C+/B-",
+      "tgt": "Friday's low 29268.75",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/be8f7b3b98fe7ecc32332aa527481c4c",
+      "chart_id": "be8f7b3b98fe7ecc32332aa527481c4c",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "fail or LAAF of 569-583 (daily) or 615-645 (weekly); supply above 615-645",
+      "id": "nq3",
+      "instrument": "NQ",
+      "levels": {
+        "be": [
+          29480.25
+        ],
+        "gate": [
+          29569,
+          29645
+        ],
+        "invalid": [
+          29754
+        ],
+        "stop": [
+          29657.75
+        ],
+        "tgt": [
+          [
+            29469,
+            29483
+          ],
+          29268.75
+        ]
+      },
+      "name": "Fail / LAAF of 29569-29583 or 29615-29645",
+      "quote": "Short a fail/LAAF of 569-583 or 615-645 is a B/B+",
+      "risk": {
+        "be": "29480.2",
+        "entry": "29569",
+        "his": "29754",
+        "his_n": [
+          "1.4",
+          "2.7"
+        ],
+        "his_pts": "185",
+        "mic": "MNQ",
+        "ours": [
+          "2.8",
+          "5.6"
+        ],
+        "pick": 1,
+        "skip": false,
+        "stop": "29657.8",
+        "stop_pts": "88.75",
+        "tgts": [
+          {
+            "his": "0.5",
+            "ours": "1.0",
+            "p": "29469-29483"
+          },
+          {
+            "his": "1.6",
+            "ours": "3.4",
+            "p": "29268.8"
+          }
+        ]
+      },
+      "stop": "reclaimed → 754-787",
+      "tag": "B/B+",
+      "tgt": "469-483 → Friday's low",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/8cc36f028afc550813abb3b7c698b272",
+      "chart_id": "8cc36f028afc550813abb3b7c698b272",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "fail or LAAF of 754-787; a ton of supply between here and 932-969",
+      "id": "nq4",
+      "instrument": "NQ",
+      "levels": {
+        "be": [
+          29665.25
+        ],
+        "gate": [
+          29754,
+          29787
+        ],
+        "invalid": [
+          29969
+        ],
+        "stop": [
+          29842.75
+        ],
+        "tgt": [
+          [
+            29615,
+            29645
+          ],
+          [
+            29569,
+            29583
+          ],
+          [
+            29469,
+            29483
+          ],
+          29268.75
+        ]
+      },
+      "name": "Fail / LAAF of 29754-29787 — SWING SHORT",
+      "quote": "Short a fail/LAAF of 29754-29787 is an A+++ and a swing short opportunity. There is a ton of supply between 754-787 and 932-969 so above 932-969 and Friday's high the trade is invalidated.",
+      "risk": {
+        "be": "29665.2",
+        "entry": "29754",
+        "his": "29969",
+        "his_n": [
+          "1.2",
+          "2.3"
+        ],
+        "his_pts": "215",
+        "mic": "MNQ",
+        "ours": [
+          "2.8",
+          "5.6"
+        ],
+        "pick": 1,
+        "skip": false,
+        "stop": "29842.8",
+        "stop_pts": "88.75",
+        "tgts": [
+          {
+            "his": "0.5",
+            "ours": "1.2",
+            "p": "29615-29645"
+          },
+          {
+            "his": "0.8",
+            "ours": "1.9",
+            "p": "29569-29583"
+          },
+          {
+            "his": "1.3",
+            "ours": "3.1",
+            "p": "29469-29483"
+          },
+          {
+            "his": "2.3",
+            "ours": "5.5",
+            "p": "29268.8"
+          }
+        ]
+      },
+      "stop": "above 932-969 and Friday's high 30045.75 the trade is invalid",
+      "tag": "A+++ · swing",
+      "tgt": "615-645 → 569-583 → 469-483 → Friday's low (runners)",
+      "unsure": false
+    },
+    {
+      "chart": "/_blob/564138cb7332e87b7fa5d0b3ef330ca5",
+      "chart_id": "564138cb7332e87b7fa5d0b3ef330ca5",
+      "decision": "keep",
+      "dir": "short",
+      "gate": "persistent weakness through 29268.75 / 269-303 / 200-221",
+      "id": "nq5",
+      "instrument": "NQ",
+      "levels": {
+        "be": [
+          29180
+        ],
+        "gate": [
+          29200,
+          29269
+        ],
+        "invalid": [
+          29269
+        ],
+        "stop": [
+          29357.5
+        ],
+        "tgt": [
+          [
+            29038,
+            29069
+          ],
+          [
+            28944,
+            28969
+          ],
+          28878.75
+        ]
+      },
+      "name": "Breakdown short below Friday's low (implied)",
+      "quote": "The September RTH and ETH lows are a natural target on any persistent weakness below this past week's low. … Sellers have had very little success below 29038-29069 and 28944-28969",
+      "risk": {
+        "be": "29180",
+        "entry": "29268.8",
+        "his": "29269",
+        "his_n": [
+          "1000.0",
+          "2000.0"
+        ],
+        "his_pts": "0.25",
+        "mic": "MNQ",
+        "ours": [
+          "2.8",
+          "5.6"
+        ],
+        "pick": 0,
+        "skip": false,
+        "stop": "29357.5",
+        "stop_pts": "88.75",
+        "tgts": [
+          {
+            "his": "799.0",
+            "ours": "2.3",
+            "p": "29038-29069"
+          },
+          {
+            "his": "1199.0",
+            "ours": "3.4",
+            "p": "28944-28969"
+          },
+          {
+            "his": "1560.0",
+            "ours": "4.4",
+            "p": "28878.8"
+          }
+        ]
+      },
+      "stop": "back above Friday's low (LBAF) → 615-645",
+      "tag": "implied · tight leash",
+      "tgt": "29038-069 → 28944-969 → Sept low 28878.75",
+      "unsure": true
+    }
+  ],
+  "wildcard": "The swing-short grades are not him being 'really bearish' down here — he added TQQQ Friday to partially hedge remaining puts. They reflect how strong 7780-84 and 29754-787 SHOULD be on first touch. He evaluates each session on its own: Asia has gone crazy one way several times only to give it all back by the cash open. While the 30-min downtrend persists (lower daily highs and lows) he holds runners on shorts and adds; increasingly risk-averse short into the stronger weekly areas below. 'Trading lower first and failing is more bullish than trading higher.'"
 }
