@@ -3,9 +3,10 @@ import charts, pandas as pd
 tz = "America/New_York"
 ES, NQ = charts.load_1h("ES"), charts.load_1h("NQ")
 ES5, NQ5 = charts.load("ES"), charts.load("NQ")
-s = pd.Timestamp("2026-10-05 09:30", tz=tz); e = pd.Timestamp("2026-10-16 16:15", tz=tz)
+s = pd.Timestamp("2026-10-05 09:30", tz=tz); e = pd.Timestamp("2026-10-19 16:15", tz=tz)
 w1 = ("wk 10/5", pd.Timestamp("2026-10-04 18:00", tz=tz), pd.Timestamp("2026-10-09 16:00", tz=tz))
 w2 = ("wk 10/12", pd.Timestamp("2026-10-11 18:00", tz=tz), pd.Timestamp("2026-10-16 16:00", tz=tz))
+w3 = ("Mon", pd.Timestamp("2026-10-18 18:00", tz=tz), e)
 
 es_lv = [
  {"p":[7869,7872],"label":"never traded above all week","kind":"up","strong":True},
@@ -31,9 +32,10 @@ es_marks = [
  {"t":pd.Timestamp("2026-10-12 14:50",tz=tz),"y":7846.25,"label":"MON: box 46-70","dy":-60,"dx":-60},
  {"t":pd.Timestamp("2026-10-14 14:00",tz=tz),"y":7741.0,"label":"WED: CPI → true gap down, box broke, 7741","dy":-30,"dx":-150},
  {"t":pd.Timestamp("2026-10-15 15:20",tz=tz),"y":7801.75,"label":"THU: relief to 7801.75 = back inside; closed above 80-84","dy":-60,"dx":-170},
- {"t":pd.Timestamp("2026-10-16 15:05",tz=tz),"y":7676.0,"label":"FRI: failed reclaim → 7676 (2x weekly straddle); glimpse of capitulation","dy":-70,"dx":-150}]
+ {"t":pd.Timestamp("2026-10-16 15:05",tz=tz),"y":7676.0,"label":"FRI: failed reclaim → 7676 (2x weekly straddle); glimpse of capitulation","dy":-70,"dx":-150},
+ {"t":pd.Timestamp("2026-10-19 11:35",tz=tz),"y":7773.25,"label":"MON: VIX crush rally → 7773 LAAF of ON/IB high; inside day, weak close 7734.75","dy":40,"dx":-120}]
 charts.weekly("ES", es_lv, ES, s, e, "charts/2026-W43_ES_weekly.png",
-              "ES weekly  ·  10/5 – Fri 10/16  ·  week of 10/18 plan", profile_ranges=[w1, w2], marks=es_marks, d5prof=ES5)
+              "ES weekly  ·  10/5 – Mon 10/19  ·  week of 10/18 plan", profile_ranges=[w2, w3], marks=es_marks, d5prof=ES5)
 
 nq_lv = [
  {"p":[30520,30546],"label":"sellers sweat above","kind":"up","strong":True},
@@ -58,7 +60,8 @@ nq_marks = [
  {"t":pd.Timestamp("2026-10-12 14:50",tz=tz),"y":30844.25,"label":"MON: ON failed 269-288 → LAAF of 125-145","dy":-150,"dx":-100},
  {"t":pd.Timestamp("2026-10-14 15:05",tz=tz),"y":30078.0,"label":"WED: LAAF 815-845 on CPI → 30078 (216.5)","dy":-90,"dx":-170},
  {"t":pd.Timestamp("2026-10-15 15:45",tz=tz),"y":30196.75,"label":"THU: 615-645 held → closed in a back-test of 216.5 from below","dy":80,"dx":-150},
- {"t":pd.Timestamp("2026-10-16 15:05",tz=tz),"y":29268.75,"label":"FRI: back-test → another leg to 29268.75 (YTD VPOC); breakout FAILED","dy":-200,"dx":-200}]
+ {"t":pd.Timestamp("2026-10-16 15:05",tz=tz),"y":29268.75,"label":"FRI: back-test → another leg to 29268.75 (YTD VPOC); breakout FAILED","dy":-200,"dx":-200},
+ {"t":pd.Timestamp("2026-10-19 11:35",tz=tz),"y":29983.5,"label":"MON: LBAF of Fri low at the open → +760 to 29983.5; inside day, closed 29722 under 754-787","dy":150,"dx":-150}]
 charts.weekly("NQ", nq_lv, NQ, s, e, "charts/2026-W43_NQ_weekly.png",
-              "NQ weekly  ·  10/5 – Fri 10/16  ·  week of 10/18 plan", profile_ranges=[w1, w2], marks=nq_marks, d5prof=NQ5)
+              "NQ weekly  ·  10/5 – Mon 10/19  ·  week of 10/18 plan", profile_ranges=[w2, w3], marks=nq_marks, d5prof=NQ5)
 print("ok")
