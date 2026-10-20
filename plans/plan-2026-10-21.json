@@ -1,0 +1,1031 @@
+{
+ "source": "pharmdks",
+ "date": "2026-10-21",
+ "status": "draft",
+ "notes": "",
+ "bias": "Wild, headline-heavy day, earnings after the bell. Both looked like clean breakdowns early — ES held 7706-12 (never reached the overnight low 7704.5), NQ nuked through its overnight low and held Friday's VPOC — then equities ripped as crude sold (mainstream news notably late). That triggered the LBAF scenario on both and a bullish engulfing day on ES. ES's high printed in the supply at/just above 80-84, protecting Friday's high; NQ's high just under 910 and short of Monday's high. After hours is 'absolutely ripping' on both. Friday's range is now the box as the 'mother bar' — everything since is inside it.",
+ "wildcard": "'This after hours float up absolutely ruined the setups, especially for longs.' Trading near today's high with a couple of resistances above, one is almost forced to chase — 'the night is dark and full of terrors (for both sides).' See where we are by morning. The LBAF longs that would have been A/A+ (ES 7746 APBL holding 39-43; NQ 656/653 holding 615-645) are downgraded after the float, more so if a LAAF of today's high is active. ES has an internal broadening formation on cash hours; Friday's ETH high 7809.5 is on the chart.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Opened 7726.75, low 7710.25 at 9:45 (7706-12 held; ON low 7704.5 untouched), ripped to 7791.5 at 10:30 into the supply above 80-84, closed 7759. Bullish engulfing of Monday. Primary distribution ~46-69; APBL 7746; honorable mention 7769; Monday's high 7773 stays on the chart.",
+   "pivot": "7769 must sustain after the AH float; 7773 is the first downside warning. Today's high 7791.5 → Friday's RTH high 7803.25 are the first targets up; 39-43 is the line below.",
+   "higher": "Today's high, then Friday's RTH high 7803.25. Sustain a break of it → cautious of 7815-20, but as long as that doesn't trigger a LAAF of Friday's high AND today's high, bulls regroup and try again for 15-20. A LAAF should come back to 43 (39-43), and below there probably today's low. Above 7815-20 → 7838-41, and big picture above that an ATH retest.",
+   "lower": "Inside today's range: 69 must sustain, 73 is the first warning (incl. any LAAF of today's high). Back below 69 → risk to 46, with 60-65 potentially supportive for another break of 69 back to 73 and the high. 39-43 lost and offered (especially after this move) → expect at least 23-26.",
+   "levels": [
+    {
+     "p": [
+      7838,
+      7841
+     ],
+     "label": "→ ATH retest above",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7815,
+      7820
+     ],
+     "label": "cautious · LAAF watch",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7809.5
+     ],
+     "label": "Fri ETH high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7803.25
+     ],
+     "label": "Fri RTH high · box top",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7797,
+      7803
+     ],
+     "label": "",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7791.5
+     ],
+     "label": "today's high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7780,
+      7784
+     ],
+     "label": "supply · HOD printed here",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7773
+     ],
+     "label": "Mon high · first warning",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7769
+     ],
+     "label": "honorable · must sustain",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7760,
+      7765
+     ],
+     "label": "probably supportive",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7753,
+      7754
+     ],
+     "label": "daily",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7746
+     ],
+     "label": "APBL · LBAF long spot",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7739,
+      7743
+     ],
+     "label": "weekly · offered → 23-26",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7723,
+      7726
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7710.25
+     ],
+     "label": "today's low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7706,
+      7712
+     ],
+     "label": "weekly · held",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7704.5
+     ],
+     "label": "ON low (untouched)",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7676
+     ],
+     "label": "Fri low · mother bar bottom",
+     "kind": "ref"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Opened 29594, nuked through the overnight low 29478.5 to 29391.75 at 9:45 (held Friday's VPOC), ripped to 29903.5 at 10:30 just under 910, short of Monday's high 29983.5, closed 29687.75. Volume contained between 803-822 at the top and just above Monday's 653 low / 615-645 at the bottom. APBL 656.",
+   "pivot": "Today's high 29903.5 → Monday's high 29983.5 → Friday's RTH high 30045.75, then the big test at 30210-237 (he DOES expect it traded through given Friday's ETH high there). 803-822 / 754-787 must hold after the float.",
+   "higher": "Today's high, Monday's high, Friday's RTH high, then 30210-237. 30210-237 to 30520-546 is an absolutely massive test point. A LAAF of 210-237 big-picture risks bearish consolidation, but for tomorrow it would need to lose Friday's, Monday's AND today's highs to be meaningfully bearish.",
+   "lower": "Any LAAF of today's high (incl. Monday's/Friday's) needs to hold 803-822, or 754-787 at worst. Back below 754-787 → likely 615-645 to sweep the 656 APBL. Below 615-645 maybe 569-583 holds, but it must trigger a reclaim of 615-645; holding below 569-583 → today's low and Friday's low, mindful of 469-483.",
+   "levels": [
+    {
+     "p": [
+      30520,
+      30546
+     ],
+     "label": "top of test zone",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      30440,
+      30454
+     ],
+     "label": "daily · failed-reclaim watch",
+     "kind": "up"
+    },
+    {
+     "p": [
+      30344,
+      30369
+     ],
+     "label": "",
+     "kind": "up"
+    },
+    {
+     "p": [
+      30210,
+      30237
+     ],
+     "label": "big test · trade-through",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      30069,
+      30103
+     ],
+     "label": "",
+     "kind": "up"
+    },
+    {
+     "p": [
+      30045.75
+     ],
+     "label": "Fri RTH high · box top",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29983.5
+     ],
+     "label": "Mon high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29932,
+      29969
+     ],
+     "label": "",
+     "kind": "up"
+    },
+    {
+     "p": [
+      29910
+     ],
+     "label": "honorable · HOD just under",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29903.5
+     ],
+     "label": "today's high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29803,
+      29822
+     ],
+     "label": "daily · value edge",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      29754,
+      29787
+     ],
+     "label": "weekly · at worst",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      29656
+     ],
+     "label": "APBL · Mon low 653",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29615,
+      29645
+     ],
+     "label": "weekly · LBAF spot",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      29569,
+      29583
+     ],
+     "label": "daily · needs 615-645 reclaim",
+     "kind": "down"
+    },
+    {
+     "p": [
+      29478.5
+     ],
+     "label": "ON low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29469,
+      29483
+     ],
+     "label": "",
+     "kind": "down"
+    },
+    {
+     "p": [
+      29391.75
+     ],
+     "label": "today's low · Fri VPOC",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29269,
+      29303
+     ],
+     "label": "weekly · Fri low 29268.75",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      29200,
+      29221
+     ],
+     "label": "daily",
+     "kind": "down"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of today's high 7791.5",
+   "dir": "short",
+   "tag": "his lead trade · unrated",
+   "gate": "LAAF of 7791.5, incl. coming from a LAAF of Friday's high 7803.25; needs to get through 73 and 69 to be any good",
+   "tgt": "Mon high 7773 → 7769 → 7746 / 39-43",
+   "stop": "sustained above Friday's high → 7815-20",
+   "quote": "Short a LAAF of today's high. This is inclusive of coming from a LAAF of Friday's high. It is safer to execute as a LAAF of today's high and needs to get through 73 and 69 to have a chance to be any good.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7791.5,
+     7803.25
+    ],
+    "tgt": [
+     7773,
+     7769,
+     [
+      7739,
+      7746
+     ]
+    ],
+    "invalid": [
+     7815
+    ],
+    "stop": [
+     7799.5
+    ],
+    "be": [
+     7783.5
+    ]
+   },
+   "risk": {
+    "entry": "7791.5",
+    "stop": "7799.5",
+    "stop_pts": "8",
+    "be": "7783.5",
+    "his": "7815",
+    "his_pts": "23.5",
+    "mic": "MES",
+    "ours": [
+     "12.5",
+     "25.0"
+    ],
+    "his_n": [
+     "4.3",
+     "8.5"
+    ],
+    "tgts": [
+     {
+      "p": "7773",
+      "ours": "2.3",
+      "his": "0.8"
+     },
+     {
+      "p": "7769",
+      "ours": "2.8",
+      "his": "1.0"
+     },
+     {
+      "p": "7739-7746",
+      "ours": "5.7",
+      "his": "1.9"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold of 7769 (inside today's range)",
+   "dir": "long",
+   "tag": "'okay' — buyers had no interest up there",
+   "gate": "hold of 69 if we stay inside today's range and trade lower first",
+   "tgt": "7773 → today's high 7791.5 → Friday's high",
+   "stop": "back below 69 → risk to 46",
+   "quote": "If we hold inside today's range and trade lower then a hold of 69 can be 'okay' but intraday buyers had no interest up there.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7769,
+     7773
+    ],
+    "tgt": [
+     7791.5,
+     7803.25
+    ],
+    "invalid": [
+     7760
+    ],
+    "stop": [
+     7761.0
+    ],
+    "be": [
+     7777.0
+    ]
+   },
+   "risk": {
+    "entry": "7769",
+    "stop": "7761",
+    "stop_pts": "8",
+    "be": "7777",
+    "his": "7760",
+    "his_pts": "9",
+    "mic": "MES",
+    "ours": [
+     "12.5",
+     "25.0"
+    ],
+    "his_n": [
+     "11.1",
+     "22.2"
+    ],
+    "tgts": [
+     {
+      "p": "7791.5",
+      "ours": "2.8",
+      "his": "2.5"
+     },
+     {
+      "p": "7803.25",
+      "ours": "4.3",
+      "his": "3.8"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold of 7760-7765",
+   "dir": "long",
+   "tag": "'probably supportive'",
+   "gate": "hold of 60-65 after a loss of 69",
+   "tgt": "69 → 73 → today's high",
+   "stop": "60-65 lost → 46 / 39-43",
+   "quote": "The 7760-7765 level probably should be supportive.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7760,
+     7765
+    ],
+    "tgt": [
+     7773,
+     7791.5
+    ],
+    "invalid": [
+     7746
+    ],
+    "stop": [
+     7757.0
+    ],
+    "be": [
+     7773.0
+    ]
+   },
+   "risk": {
+    "entry": "7765",
+    "stop": "7757",
+    "stop_pts": "8",
+    "be": "7773",
+    "his": "7746",
+    "his_pts": "19",
+    "mic": "MES",
+    "ours": [
+     "12.5",
+     "25.0"
+    ],
+    "his_n": [
+     "5.3",
+     "10.5"
+    ],
+    "tgts": [
+     {
+      "p": "7773",
+      "ours": "1.0",
+      "his": "0.4"
+     },
+     {
+      "p": "7791.5",
+      "ours": "3.3",
+      "his": "1.4"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LBAF of the 7746 APBL holding 7739-7743",
+   "dir": "long",
+   "tag": "was A/A+ → downgraded after the AH float (more if a LAAF is active)",
+   "gate": "LBAF of 7746 that holds the 39-43 weekly",
+   "tgt": "60-65 → 69-73 → today's high 7791.5",
+   "stop": "39-43 lost and offered → 23-26",
+   "quote": "A long on a LBAF of the 7746 APBL that holds the 39-43 weekly level would have been the top setup on the board. It would have been an A/A+ but I downgrade it if seen after this AH float. I would further downgrade it if a LAAF of today's high is active.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7739,
+     7746
+    ],
+    "tgt": [
+     [
+      7760,
+      7765
+     ],
+     7773,
+     7791.5
+    ],
+    "invalid": [
+     7726
+    ],
+    "stop": [
+     7738.0
+    ],
+    "be": [
+     7754.0
+    ]
+   },
+   "risk": {
+    "entry": "7746",
+    "stop": "7738",
+    "stop_pts": "8",
+    "be": "7754",
+    "his": "7726",
+    "his_pts": "20",
+    "mic": "MES",
+    "ours": [
+     "12.5",
+     "25.0"
+    ],
+    "his_n": [
+     "5.0",
+     "10.0"
+    ],
+    "tgts": [
+     {
+      "p": "7760-7765",
+      "ours": "1.8",
+      "his": "0.7"
+     },
+     {
+      "p": "7773",
+      "ours": "3.4",
+      "his": "1.4"
+     },
+     {
+      "p": "7791.5",
+      "ours": "5.7",
+      "his": "2.3"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Sustained break of Friday's RTH high 7803.25 (mother-bar breakout)",
+   "dir": "long",
+   "tag": "implied · chase risk",
+   "gate": "sustain a break of today's high and Friday's RTH high; cautious of 7815-20 unless it LAAFs both highs",
+   "tgt": "7815-20 → 7838-41 → ATH retest big picture",
+   "stop": "LAAF of Friday's high AND today's high → 39-43",
+   "quote": "Sustain a break of Friday's RTH high 7803.25 we'll be cautious of 7815-7820 but as long as that doesn't trigger a LAAF of Friday's high AND today's high, bulls can regroup and try again for 7815-7820.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7791.5,
+     7803.25
+    ],
+    "tgt": [
+     [
+      7815,
+      7820
+     ],
+     [
+      7838,
+      7841
+     ]
+    ],
+    "invalid": [
+     7773
+    ],
+    "stop": [
+     7795.25
+    ],
+    "be": [
+     7811.25
+    ]
+   },
+   "risk": {
+    "entry": "7803.25",
+    "stop": "7795.25",
+    "stop_pts": "8",
+    "be": "7811.25",
+    "his": "7773",
+    "his_pts": "30.25",
+    "mic": "MES",
+    "ours": [
+     "12.5",
+     "25.0"
+    ],
+    "his_n": [
+     "3.3",
+     "6.6"
+    ],
+    "tgts": [
+     {
+      "p": "7815-7820",
+      "ours": "1.5",
+      "his": "0.4"
+     },
+     {
+      "p": "7838-7841",
+      "ours": "4.3",
+      "his": "1.1"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LAAF of today's high 29903.5",
+   "dir": "short",
+   "tag": "his lead trade · unrated",
+   "gate": "LAAF of 29903.5, incl. from a LAAF of Friday's high; needs to get through 803-822 and 754-787 to be any good",
+   "tgt": "803-822 → 754-787 → 656 / 615-645",
+   "stop": "sustained above Friday's high 30045.75 → 069-103",
+   "quote": "Short a LAAF of today's high. This is inclusive of coming from a LAAF of Friday's high. It is safer to execute as a LAAF of today's high and needs to get through 803-822 and 754-787 to have a chance to be any good.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     29903.5,
+     29969
+    ],
+    "tgt": [
+     [
+      29803,
+      29822
+     ],
+     [
+      29754,
+      29787
+     ],
+     29656
+    ],
+    "invalid": [
+     30069
+    ],
+    "stop": [
+     29946.0
+    ],
+    "be": [
+     29861.0
+    ]
+   },
+   "risk": {
+    "entry": "29903.5",
+    "stop": "29946",
+    "stop_pts": "42.5",
+    "be": "29861",
+    "his": "30069",
+    "his_pts": "165.5",
+    "mic": "MNQ",
+    "ours": [
+     "5.9",
+     "11.8"
+    ],
+    "his_n": [
+     "1.5",
+     "3.0"
+    ],
+    "tgts": [
+     {
+      "p": "29803-29822",
+      "ours": "1.9",
+      "his": "0.5"
+     },
+     {
+      "p": "29754-29787",
+      "ours": "2.7",
+      "his": "0.7"
+     },
+     {
+      "p": "29656",
+      "ours": "5.8",
+      "his": "1.5"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold of 29803-29822",
+   "dir": "long",
+   "tag": "'ok' — above value, he doesn't love it",
+   "gate": "hold of 803-822 if we stay in today's range",
+   "tgt": "today's high 29903.5 → Mon high 29983.5",
+   "stop": "803-822 lost → 754-787",
+   "quote": "if we hold in today's range then a long on a hold of 803-822 can be 'ok' but it is above value for today so I don't love it.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     29803,
+     29822
+    ],
+    "tgt": [
+     29903.5,
+     29983.5
+    ],
+    "invalid": [
+     29754
+    ],
+    "stop": [
+     29779.5
+    ],
+    "be": [
+     29864.5
+    ]
+   },
+   "risk": {
+    "entry": "29822",
+    "stop": "29779.5",
+    "stop_pts": "42.5",
+    "be": "29864.5",
+    "his": "29754",
+    "his_pts": "68",
+    "mic": "MNQ",
+    "ours": [
+     "5.9",
+     "11.8"
+    ],
+    "his_n": [
+     "3.7",
+     "7.4"
+    ],
+    "tgts": [
+     {
+      "p": "29903.5",
+      "ours": "1.9",
+      "his": "1.2"
+     },
+     {
+      "p": "29983.5",
+      "ours": "3.8",
+      "his": "2.4"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold of 29754-29787",
+   "dir": "long",
+   "tag": "'okay' — should act supportive",
+   "gate": "hold of 754-787 (a ton of selling below there today)",
+   "tgt": "803-822 → today's high 29903.5",
+   "stop": "754-787 lost → 615-645 / 656 sweep",
+   "quote": "A hold of 754-787 can also be 'okay' as there was a ton of selling below there today and it should act supportive.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     29754,
+     29787
+    ],
+    "tgt": [
+     [
+      29803,
+      29822
+     ],
+     29903.5
+    ],
+    "invalid": [
+     29645
+    ],
+    "stop": [
+     29744.5
+    ],
+    "be": [
+     29829.5
+    ]
+   },
+   "risk": {
+    "entry": "29787",
+    "stop": "29744.5",
+    "stop_pts": "42.5",
+    "be": "29829.5",
+    "his": "29645",
+    "his_pts": "142",
+    "mic": "MNQ",
+    "ours": [
+     "5.9",
+     "11.8"
+    ],
+    "his_n": [
+     "1.8",
+     "3.5"
+    ],
+    "tgts": [
+     {
+      "p": "29803-29822",
+      "ours": "0.4",
+      "his": "0.1"
+     },
+     {
+      "p": "29903.5",
+      "ours": "2.7",
+      "his": "0.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LBAF of 656 / 653 holding 29615-29645",
+   "dir": "long",
+   "tag": "was A+ → downgraded after the float (more if a LAAF is active)",
+   "gate": "LBAF of the 656 APBL / Monday's 653 low that holds (or LBAFs) 615-645",
+   "tgt": "754-787 → 803-822 → today's high",
+   "stop": "615-645 lost without a reclaim → 569-583 / today's low",
+   "quote": "a long on a LBAF 656/653 which holds or sees an LBAF of 615-645 would have been the top setup for tomorrow, but it now gets a downgrade after this float higher, and would get more of a downgrade if a LAAF is active.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     29615,
+     29656
+    ],
+    "tgt": [
+     [
+      29754,
+      29787
+     ],
+     [
+      29803,
+      29822
+     ],
+     29903.5
+    ],
+    "invalid": [
+     29569
+    ],
+    "stop": [
+     29613.5
+    ],
+    "be": [
+     29698.5
+    ]
+   },
+   "risk": {
+    "entry": "29656",
+    "stop": "29613.5",
+    "stop_pts": "42.5",
+    "be": "29698.5",
+    "his": "29569",
+    "his_pts": "87",
+    "mic": "MNQ",
+    "ours": [
+     "5.9",
+     "11.8"
+    ],
+    "his_n": [
+     "2.9",
+     "5.7"
+    ],
+    "tgts": [
+     {
+      "p": "29754-29787",
+      "ours": "2.3",
+      "his": "1.1"
+     },
+     {
+      "p": "29803-29822",
+      "ours": "3.5",
+      "his": "1.7"
+     },
+     {
+      "p": "29903.5",
+      "ours": "5.8",
+      "his": "2.8"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Continuation through Friday's high → 30210-237",
+   "dir": "long",
+   "tag": "implied · chase risk",
+   "gate": "through today's, Monday's and Friday's highs with continuation",
+   "tgt": "069-103 → 30210-237 (expect a trade-through) → 344-369",
+   "stop": "LAAF that loses Friday's, Monday's and today's highs",
+   "quote": "Above there is the big test at 30210-30237. If anything I DO expect this to be traded through given the Friday ETH high in that range.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     29983.5,
+     30046
+    ],
+    "tgt": [
+     [
+      30069,
+      30103
+     ],
+     [
+      30210,
+      30237
+     ],
+     [
+      30344,
+      30369
+     ]
+    ],
+    "invalid": [
+     29903.5
+    ],
+    "stop": [
+     30003.25
+    ],
+    "be": [
+     30088.25
+    ]
+   },
+   "risk": {
+    "entry": "30045.8",
+    "stop": "30003.2",
+    "stop_pts": "42.5",
+    "be": "30088.2",
+    "his": "29903.5",
+    "his_pts": "142.25",
+    "mic": "MNQ",
+    "ours": [
+     "5.9",
+     "11.8"
+    ],
+    "his_n": [
+     "1.8",
+     "3.5"
+    ],
+    "tgts": [
+     {
+      "p": "30069-30103",
+      "ours": "0.5",
+      "his": "0.2"
+     },
+     {
+      "p": "30210-30237",
+      "ours": "3.9",
+      "his": "1.2"
+     },
+     {
+      "p": "30344-30369",
+      "ours": "7.0",
+      "his": "2.1"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 5.34,
+  "NQ": 28.39
+ },
+ "stop_floor": {
+  "ES": 8.0,
+  "NQ": 42.5
+ }
+}
