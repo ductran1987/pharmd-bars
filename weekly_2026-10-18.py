@@ -3,10 +3,10 @@ import charts, pandas as pd
 tz = "America/New_York"
 ES, NQ = charts.load_1h("ES"), charts.load_1h("NQ")
 ES5, NQ5 = charts.load("ES"), charts.load("NQ")
-s = pd.Timestamp("2026-10-05 09:30", tz=tz); e = pd.Timestamp("2026-10-21 16:15", tz=tz)
+s = pd.Timestamp("2026-10-05 09:30", tz=tz); e = pd.Timestamp("2026-10-22 16:15", tz=tz)
 w1 = ("wk 10/5", pd.Timestamp("2026-10-04 18:00", tz=tz), pd.Timestamp("2026-10-09 16:00", tz=tz))
 w2 = ("wk 10/12", pd.Timestamp("2026-10-11 18:00", tz=tz), pd.Timestamp("2026-10-16 16:00", tz=tz))
-w3 = ("Mon-Wed", pd.Timestamp("2026-10-18 18:00", tz=tz), e)
+w3 = ("Mon-Thu", pd.Timestamp("2026-10-18 18:00", tz=tz), e)
 
 es_lv = [
  {"p":[7869,7872],"label":"never traded above all week","kind":"up","strong":True},
@@ -19,7 +19,7 @@ es_lv = [
  {"p":[7739,7743],"label":"first key reclaim","kind":"pivot"},
  {"p":[7723,7726],"label":"","kind":"pivot"},
  {"p":[7706,7712],"label":"closed just below","kind":"pivot"},
- {"p":[7676],"label":"Fri low · 9/28 low 7672.75","kind":"ref"},
+ {"p":[7676],"label":"Fri low 7676 · Thu 7676.75","kind":"ref"},
  {"p":[7669,7673],"label":"prospective range low · LBAF","kind":"down","strong":True},
  {"p":[7644,7649],"label":"white box top","kind":"down","strong":True},
  {"p":[7631,7634],"label":"traded thru, never flipped","kind":"down","strong":True},
@@ -35,9 +35,10 @@ es_marks = [
  {"t":pd.Timestamp("2026-10-16 15:05",tz=tz),"y":7676.0,"label":"FRI: failed reclaim → 7676 (2x weekly straddle); glimpse of capitulation","dy":-70,"dx":-150},
  {"t":pd.Timestamp("2026-10-19 11:35",tz=tz),"y":7773.25,"label":"MON: VIX crush rally → 7773 LAAF of ON/IB high; inside day, weak close 7734.75","dy":40,"dx":-120},
  {"t":pd.Timestamp("2026-10-20 10:30",tz=tz),"y":7791.5,"label":"TUE: 7706-12 held → rip to 7791.5 (supply above 80-84); bullish engulfing; AH ripping","dy":60,"dx":-200},
- {"t":pd.Timestamp("2026-10-21 14:15",tz=tz),"y":7812.25,"label":"WED: higher high 7812.25 under 15-20; news flush to 7751 reverted; closed under Fri high","dy":-50,"dx":-250}]
+ {"t":pd.Timestamp("2026-10-21 14:15",tz=tz),"y":7812.25,"label":"WED: higher high 7812.25 under 15-20; news flush to 7751 reverted; closed under Fri high","dy":-50,"dx":-250},
+ {"t":pd.Timestamp("2026-10-22 15:00",tz=tz),"y":7676.75,"label":"THU: full box traverse → 7676.75, 3 ticks off Fri low; closed 7711.75","dy":-105,"dx":-150}]
 charts.weekly("ES", es_lv, ES, s, e, "charts/2026-W43_ES_weekly.png",
-              "ES weekly  ·  10/5 – Wed 10/21  ·  week of 10/18 plan", profile_ranges=[w2, w3], marks=es_marks, d5prof=ES5)
+              "ES weekly  ·  10/5 – Thu 10/22  ·  week of 10/18 plan", profile_ranges=[w2, w3], marks=es_marks, d5prof=ES5)
 
 nq_lv = [
  {"p":[30520,30546],"label":"sellers sweat above","kind":"up","strong":True},
@@ -65,7 +66,8 @@ nq_marks = [
  {"t":pd.Timestamp("2026-10-16 15:05",tz=tz),"y":29268.75,"label":"FRI: back-test → another leg to 29268.75 (YTD VPOC); breakout FAILED","dy":-200,"dx":-200},
  {"t":pd.Timestamp("2026-10-19 11:35",tz=tz),"y":29983.5,"label":"MON: LBAF of Fri low at the open → +760; inside day","dy":630,"dx":-105},
  {"t":pd.Timestamp("2026-10-20 09:45",tz=tz),"y":29391.75,"label":"TUE: nuked thru ON low to 29392 (Fri VPOC) → LBAF rip to 29903.5 under 910","dy":-95,"dx":-150},
- {"t":pd.Timestamp("2026-10-21 13:20",tz=tz),"y":30113.0,"label":"WED: excursion above 069-103 (30113); 754-787 held; 932-969 flipped supportive","dy":330,"dx":-170}]
+ {"t":pd.Timestamp("2026-10-21 13:20",tz=tz),"y":30113.0,"label":"WED: excursion above 069-103 (30113); 754-787 held; 932-969 flipped supportive","dy":330,"dx":-170},
+ {"t":pd.Timestamp("2026-10-22 15:45",tz=tz),"y":29033.0,"label":"THU: box BROKE → 29033 (YTD VWAP); singles 380-436; AH rally to 215","dy":-330,"dx":-250}]
 charts.weekly("NQ", nq_lv, NQ, s, e, "charts/2026-W43_NQ_weekly.png",
-              "NQ weekly  ·  10/5 – Wed 10/21  ·  week of 10/18 plan", profile_ranges=[w2, w3], marks=nq_marks, d5prof=NQ5)
+              "NQ weekly  ·  10/5 – Thu 10/22  ·  week of 10/18 plan", profile_ranges=[w2, w3], marks=nq_marks, d5prof=NQ5)
 print("ok")
