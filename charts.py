@@ -18,6 +18,53 @@ UP, DOWN = "#1f8a4c", "#c4383a"
 LONG, SHORT, PIVOT = "#1f8a4c", "#c4383a", "#1c4f9c"
 
 
+WEEK = "#7c3aed"      # weekly levels: purple, dotted edges, labelled "W" on the left - daily levels keep their solid bands
+
+
+def weekly_for(plan_date):
+    """The weekly plan (plans/weekly-<Sunday>.json) covering plan_date, or None."""
+    d = pd.Timestamp(plan_date).normalize()
+    sun = d - pd.Timedelta(days=(d.weekday() + 1) % 7)
+    f = pathlib.Path(__file__).with_name("plans") / f"weekly-{sun:%Y-%m-%d}.json"
+    return json.load(open(f, encoding="utf-8")) if f.exists() else None
+
+
+def weekly_marks(wk, sym, lo, hi):
+    """Weekly list levels + commentary zones inside [lo, hi], plus the nearest one beyond each side.
+    -> list of (lo, hi, label)"""
+    if not wk:
+        return []
+    items = [(min(l["zone"]), max(l["zone"]), "W " + "-".join(f"{v:g}" for v in dict.fromkeys(l["zone"])) + ("*" if l.get("strong") else ""))
+             for l in wk.get("levels", {}).get(sym, [])]
+    items += [(min(z["zone"]), max(z["zone"]), "W zone " + "-".join(f"{v:g}" for v in dict.fromkeys(z["zone"])))
+              for z in wk.get("zones", {}).get(sym, []) if z.get("type") == "zone"]
+    inside = [i for i in items if i[1] >= lo and i[0] <= hi]
+    above = sorted([i for i in items if i[0] > hi], key=lambda i: i[0])[:1]
+    below = sorted([i for i in items if i[1] < lo], key=lambda i: -i[1])[:1]
+    return inside + above + below
+
+
+def draw_weekly(ax, marks, x0, span):
+    """Dotted purple edges + faint fill, labels on the left edge, pushed apart so they don't overlap."""
+    labels = []
+    for lo, hi, txt in marks:
+        if hi > lo:
+            ax.axhspan(lo, hi, color=WEEK, alpha=0.05, lw=0, zorder=0.5)
+            ax.axhline(lo, color=WEEK, lw=0.8, ls=(0, (1, 2)), zorder=1.5)
+            ax.axhline(hi, color=WEEK, lw=0.8, ls=(0, (1, 2)), zorder=1.5)
+        else:
+            ax.axhline(lo, color=WEEK, lw=0.9, ls=(0, (1, 2)), zorder=1.5)
+        labels.append([(lo + hi) / 2, txt])
+    labels.sort(key=lambda l: l[0])
+    gap = span * 0.03
+    for i in range(1, len(labels)):
+        if labels[i][0] - labels[i - 1][0] < gap:
+            labels[i][0] = labels[i - 1][0] + gap
+    for y, txt in labels:
+        ax.text(x0, y, txt, va="center", ha="left", fontsize=6.3, color=WEEK, zorder=6,
+                bbox=dict(boxstyle="square,pad=0.1", fc="white", ec="none", alpha=0.7))
+
+
 def load(sym):
     d = pd.read_csv(f"bars/{sym}_5m.csv")
     d["time"] = pd.to_datetime(d["time"], utc=True).dt.tz_convert("America/New_York")
@@ -43,7 +90,7 @@ def window(d, plan_date, with_overnight=False):
     return w, ref, pd_
 
 
-def draw(trade, bars, ref, pday, out):
+def draw(trade, bars, ref, pday, out, wk=None):
     fig, ax = plt.subplots(figsize=(7.2, 4.6), dpi=170)
     fig.patch.set_facecolor("white")
     x = range(len(bars))
@@ -111,8 +158,14 @@ def draw(trade, bars, ref, pday, out):
     lo, hi = bars.Low.min(), bars.High.max()
     allv = [v for k in ("gate", "stop", "be", "invalid") for v in (lv.get(k) or [])] + [v for t in lv.get("tgt", []) for v in (t if isinstance(t, list) else [t])]
     lo = min([lo] + allv); hi = max([hi] + allv)
+    wm = weekly_marks(wk, trade["instrument"], lo, hi) if wk else []
+    if wm:
+        lo = min([lo] + [m[0] for m in wm]); hi = max([hi] + [m[1] for m in wm])
     pad = (hi - lo) * 0.06
     ax.set_ylim(lo - pad, hi + pad)
+    if wm:
+        draw_weekly(ax, wm, 0, hi - lo)
+        ax.text(n + 1, hi + pad * 0.9, "solid = daily · dotted W = weekly", fontsize=6, color=WEEK, va="top")
     for s in ("top", "right"):
         ax.spines[s].set_visible(False)
     for s in ("left", "bottom"):
@@ -134,7 +187,7 @@ def main(plan_path, outdir):
         t["instrument"] = sym
         bars, ref, pday = window(data[sym], plan["date"])
         out = outdir / f"{plan['date']}_{t['id']}.png"
-        draw(t, bars, ref, pday, out)
+        draw(t, bars, ref, pday, out, wk=weekly_for(plan["date"]))
         print(out)
 
 
@@ -165,7 +218,7 @@ def profile(d5, start, end, step):
 
 
 # ---------- roadmap chart: one per instrument, all key levels ----------
-def roadmap(sym, levels, bars, ref, pday, out, d5=None):
+def roadmap(sym, levels, bars, ref, pday, out, d5=None, wk=None):
     """levels: list of {p:[lo,hi]|[p], label, kind: up|down|pivot|ref}"""
     fig, ax = plt.subplots(figsize=(8.8, 6.0), dpi=170)
     fig.patch.set_facecolor("white")
@@ -237,7 +290,12 @@ def roadmap(sym, levels, bars, ref, pday, out, d5=None):
     ax.set_xlim(-1, n + 1.5 + prof_w + 1)
     allv = [v for L in levels for v in L["p"]]
     lo, hi = min([bars.Low.min()] + allv + prof_lo), max([bars.High.max()] + allv + prof_hi)
+    wm = weekly_marks(wk, sym, lo, hi) if wk else []
+    if wm:
+        lo = min([lo] + [m[0] for m in wm]); hi = max([hi] + [m[1] for m in wm])
     pad = (hi - lo) * 0.035; ax.set_ylim(lo - pad, hi + pad)
+    if wm:
+        draw_weekly(ax, wm, 0, hi - lo)
     for s in ("top", "right"): ax.spines[s].set_visible(False)
     for s in ("left", "bottom"): ax.spines[s].set_color(GRID)
     ax.grid(axis="y", color=GRID, lw=0.5, zorder=0)
@@ -254,7 +312,7 @@ def main_roadmaps(plan_path, outdir):
         d5 = load(sym)
         bars, ref, pday = window(d5, plan["date"], with_overnight=True)
         out = outdir / f"{plan['date']}_{sym}_roadmap.png"
-        roadmap(sym, b["levels"], bars, ref, pday, out, d5=d5); print(out)
+        roadmap(sym, b["levels"], bars, ref, pday, out, d5=d5, wk=weekly_for(plan["date"])); print(out)
 
 
 # ---------- weekly chart: multi-day candles, weekly ladder, week profile ----------

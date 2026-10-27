@@ -1,0 +1,1119 @@
+{
+ "source": "pharmdks",
+ "type": "weekly",
+ "week_of": "2026-10-25",
+ "title": "Market Analysis for the Week of 10/25",
+ "sent": "2026-10-24T19:29:43Z",
+ "url": "https://www.pharmdks.com/p/market-analysis-for-the-week-of-1025",
+ "status": "transcribed",
+ "contract": {
+  "ES": "ESZ6",
+  "NQ": "NQZ6"
+ },
+ "roll_note": "",
+ "ref_note": "ES list has 7733-7735 (monitor for LAAF) but the Trading Higher text writes 7731-7735; wes4/wes7 keep 7731-7735 as written. NQ text writes 29200-29226 for the daily level (Monday's daily plan uses 29194-29220). 'this past week's low' on ES has no number in the letter. NQ 870-960 resolved to 29870-29960 (supply around 903-932).",
+ "levels": {
+  "ES": [
+   {
+    "zone": [
+     7869,
+     7872
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "7869-7872*"
+   },
+   {
+    "zone": [
+     7838,
+     7841
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "7838-7841*"
+   },
+   {
+    "zone": [
+     7815,
+     7820
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "7815-7820*"
+   },
+   {
+    "zone": [
+     7784,
+     7788
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "7784-7788"
+   },
+   {
+    "zone": [
+     7769,
+     7772
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "7769-7772*"
+   },
+   {
+    "zone": [
+     7733,
+     7735
+    ],
+    "strong": true,
+    "tag": "monitor for laaf",
+    "line": "7733-7735* monitor for LAAF"
+   },
+   {
+    "zone": [
+     7712,
+     7717
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "7712-7717*"
+   },
+   {
+    "zone": [
+     7676,
+     7681
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "7676-7681*"
+   },
+   {
+    "zone": [
+     7644,
+     7649
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "7644-7649*"
+   },
+   {
+    "zone": [
+     7631,
+     7634
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "7631-7634*"
+   },
+   {
+    "zone": [
+     7618,
+     7622
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "7618-7622"
+   },
+   {
+    "zone": [
+     7591,
+     7594
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "7591-7594"
+   },
+   {
+    "zone": [
+     7569,
+     7575
+    ],
+    "strong": true,
+    "tag": "monitor for lbaf",
+    "line": "7569-7575* Monitor for LBAF"
+   },
+   {
+    "zone": [
+     7555,
+     7558
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "7555-7558"
+   },
+   {
+    "zone": [
+     7541,
+     7543
+    ],
+    "strong": true,
+    "tag": "monitor for lbaf",
+    "line": "7541-7543* Monitor for LBAF"
+   },
+   {
+    "zone": [
+     7514,
+     7517
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "7514-7517"
+   },
+   {
+    "zone": [
+     7497,
+     7504
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "7497-7504*"
+   },
+   {
+    "zone": [
+     7483,
+     7486
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "7483-7486*"
+   },
+   {
+    "zone": [
+     7459,
+     7462
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "7459-7462"
+   },
+   {
+    "zone": [
+     7446,
+     7449
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "7446-7449*"
+   },
+   {
+    "zone": [
+     7412,
+     7417
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "7412-7417*"
+   }
+  ],
+  "NQ": [
+   {
+    "zone": [
+     31056,
+     31069
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "31056-31069"
+   },
+   {
+    "zone": [
+     30951,
+     30969
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "30951-30969*"
+   },
+   {
+    "zone": [
+     30815,
+     30845
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "30815-30845*"
+   },
+   {
+    "zone": [
+     30669,
+     30691
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "30669-30691*"
+   },
+   {
+    "zone": [
+     30625,
+     30625
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "30625"
+   },
+   {
+    "zone": [
+     30520,
+     30546
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "30520-30546*"
+   },
+   {
+    "zone": [
+     30344,
+     30369
+    ],
+    "strong": true,
+    "tag": "monitor for laaf",
+    "line": "30344-30369* Monitor for LAAF"
+   },
+   {
+    "zone": [
+     30210,
+     30237
+    ],
+    "strong": true,
+    "tag": "monitor for laaf",
+    "line": "30210-30237* Monitor for LAAF"
+   },
+   {
+    "zone": [
+     30069,
+     30103
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "30069-30103"
+   },
+   {
+    "zone": [
+     29903,
+     29932
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "29903-29932*"
+   },
+   {
+    "zone": [
+     29754,
+     29787
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "29754-29787"
+   },
+   {
+    "zone": [
+     29623,
+     29656
+    ],
+    "strong": true,
+    "tag": "monitor for laaf",
+    "line": "29623-29656* Monitor for LAAF"
+   },
+   {
+    "zone": [
+     29380,
+     29436
+    ],
+    "strong": true,
+    "tag": "monitor for laaf",
+    "line": "29380-29436* Monitor for LAAF"
+   },
+   {
+    "zone": [
+     29269,
+     29303
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "29269-29303"
+   },
+   {
+    "zone": [
+     29038,
+     29069
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "29038-29069"
+   },
+   {
+    "zone": [
+     28944,
+     28969
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "28944-28969"
+   },
+   {
+    "zone": [
+     28847,
+     28869
+    ],
+    "strong": true,
+    "tag": "monitor for lbaf",
+    "line": "28847-28869* Monitor for LBAF"
+   },
+   {
+    "zone": [
+     28684,
+     28722
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "28684-28722*"
+   },
+   {
+    "zone": [
+     28500,
+     28524
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "28500-28524"
+   },
+   {
+    "zone": [
+     28369,
+     28394
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "28369-28394"
+   },
+   {
+    "zone": [
+     28269,
+     28299
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "28269-28299*"
+   },
+   {
+    "zone": [
+     28181,
+     28181
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "28181"
+   },
+   {
+    "zone": [
+     28080,
+     28100
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "28080-28100"
+   },
+   {
+    "zone": [
+     27890,
+     27917
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "27890-27917"
+   },
+   {
+    "zone": [
+     27592,
+     27622
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "27592-27622"
+   },
+   {
+    "zone": [
+     27409,
+     27440
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "27409-27440"
+   },
+   {
+    "zone": [
+     27313,
+     27339
+    ],
+    "strong": true,
+    "tag": "",
+    "line": "27313-27339*"
+   },
+   {
+    "zone": [
+     27201.5,
+     27201.5
+    ],
+    "strong": false,
+    "tag": "",
+    "line": "27201.5"
+   }
+  ]
+ },
+ "zones": {
+  "ES": [
+   {
+    "zone": [
+     7812.25,
+     7812.25
+    ],
+    "type": "ref",
+    "label": "this past week's high",
+    "quote": "High of week was 7812.25 on ES and 30113 on NQ."
+   },
+   {
+    "zone": [
+     7724.5,
+     7724.5
+    ],
+    "type": "ref",
+    "label": "Thursday afternoon rally high",
+    "quote": "Thursday’s afternoon rally high stopped at 7724.5."
+   },
+   {
+    "zone": [
+     7742.5,
+     7751
+    ],
+    "type": "zone",
+    "label": "bearish RTH gap · reactive on first test",
+    "quote": "We do have a bearish RTH gap 7742.5-7751. I would almost always use a bearish RTH gap as a weekly level but chose not to. It is likely to be reactive on first test and could possibly produce a look above and fail of Thursday’s high, but I’m not convinced it would be a durable weekly level."
+   },
+   {
+    "zone": [
+     7706,
+     7712
+    ],
+    "type": "zone",
+    "label": "old level (now 7712-7717)",
+    "quote": "I had been using 7706-7712 as a level for many weeks and decided to change it to 7712-7717 for this week based on some higher timeframe profiles."
+   },
+   {
+    "zone": [
+     7658,
+     7658
+    ],
+    "type": "ref",
+    "label": "possible daily level · failed-reclaim trigger",
+    "quote": "I may have a daily level around 7658 which could potentially trigger a failed reclaim in this scenario."
+   },
+   {
+    "zone": [
+     7460,
+     7520
+    ],
+    "type": "zone",
+    "label": "major HTF decision point",
+    "quote": "Structure is pretty thin below 7541-7543 down to about 7483-7486 but the entire 7460-7520 range is a major high time frame decision point."
+   }
+  ],
+  "NQ": [
+   {
+    "zone": [
+     30113,
+     30113
+    ],
+    "type": "ref",
+    "label": "this past week's high",
+    "quote": "High of week was 7812.25 on ES and 30113 on NQ."
+   },
+   {
+    "zone": [
+     29870,
+     29960
+    ],
+    "type": "zone",
+    "label": "supply around 903-932",
+    "quote": "There is some supply in and around it (say 30 points both sides so call is 870-960)"
+   },
+   {
+    "zone": [
+     29200,
+     29226
+    ],
+    "type": "zone",
+    "label": "daily level for Monday",
+    "quote": "We’ve previously had 29200-29226 give or take as a weekly level and it was used as a daily level all week. I’ll start this coming week with it as a daily level again."
+   },
+   {
+    "zone": [
+     28987,
+     28987
+    ],
+    "type": "ref",
+    "label": "this past week's low",
+    "quote": "A fresh fail/LAAF of 29269-29303 most likely resolves to 29069-29038 and this past week’s 28987 low, mindful of the 29200-29226 range or so which will be a daily level for Monday."
+   },
+   {
+    "zone": [
+     28878.75,
+     28878.75
+    ],
+    "type": "ref",
+    "label": "September RTH low",
+    "quote": "The 28878.75 September RTH low and 28816.25 September ETH low remain an obvious target below price, but until I see a clear change from sellers, I’ll remain wary of initiating any short near 29038-29069 and 28944-28969."
+   },
+   {
+    "zone": [
+     28816.25,
+     28816.25
+    ],
+    "type": "ref",
+    "label": "September ETH low",
+    "quote": "The 28878.75 September RTH low and 28816.25 September ETH low remain an obvious target below price, but until I see a clear change from sellers, I’ll remain wary of initiating any short near 29038-29069 and 28944-28969."
+   },
+   {
+    "zone": [
+     28419,
+     28419
+    ],
+    "type": "ref",
+    "label": "8/3 open",
+    "quote": "Seeing the 8/3 open (28419) and low (28313.3) would be roughly a full weekly straddle"
+   },
+   {
+    "zone": [
+     28313.3,
+     28313.3
+    ],
+    "type": "ref",
+    "label": "8/3 low",
+    "quote": "Seeing the 8/3 open (28419) and low (28313.3) would be roughly a full weekly straddle"
+   },
+   {
+    "zone": [
+     27200,
+     27200
+    ],
+    "type": "ref",
+    "label": "July low",
+    "quote": "The latter must be kept back of mind at all times as it carries a potential target of the July low at 27200."
+   }
+  ]
+ },
+ "trades": [
+  {
+   "id": "wes1",
+   "instrument": "ES",
+   "section": "Trading Lower",
+   "source": "commentary",
+   "name": "LBAF of this past week's low / 7644-7649",
+   "dir": "long",
+   "kind": "fade",
+   "gate": [
+    7644,
+    7649
+   ],
+   "tgt": [
+    [
+     7676,
+     7681
+    ]
+   ],
+   "mindful": [],
+   "condition": "",
+   "quote": "A LBAF of this past week’s low in the 7644-7649 range can rotate back to 7676-7681.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes2",
+   "instrument": "ES",
+   "section": "Trading Lower",
+   "source": "commentary",
+   "name": "continuation below 7644-7649 (box breakdown)",
+   "dir": "short",
+   "kind": "break",
+   "gate": [
+    7644,
+    7649
+   ],
+   "tgt": [
+    [
+     7569,
+     7575
+    ],
+    [
+     7541,
+     7543
+    ]
+   ],
+   "mindful": [],
+   "condition": "With continuation below this past week’s low and the 7644-7649 range",
+   "quote": "With continuation below this past week’s low and the 7644-7649 range we have confirmation of the multi-day box breakdown (the Friday mother bar box) and entry into the white box (the two pictures above). This is objectively a continuation short. The major target is 7569-7575 and then 7541-7543 (monitor for continuation from there).",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes3",
+   "instrument": "ES",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "fail/LAAF of 7712-7717",
+   "dir": "short",
+   "kind": "fade",
+   "gate": [
+    7712,
+    7717
+   ],
+   "tgt": [
+    [
+     7676,
+     7681
+    ]
+   ],
+   "mindful": [],
+   "condition": "",
+   "quote": "A fail or LAAF of 7712-7717 can come back to 7676-7681",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes4",
+   "instrument": "ES",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "hold of 7731-7735 after a gap failure",
+   "dir": "long",
+   "kind": "fade",
+   "gate": [
+    7731,
+    7735
+   ],
+   "tgt": [
+    [
+     7769,
+     7772
+    ]
+   ],
+   "mindful": [],
+   "condition": "after any failure in the gap",
+   "quote": "I generally expect if 7731-7735 holds after any failure in the gap that 7769-7772 trades.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes5",
+   "instrument": "ES",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "7769-7772 inflects back (if distributive)",
+   "dir": "short",
+   "kind": "fade",
+   "gate": [
+    7769,
+    7772
+   ],
+   "tgt": [
+    [
+     7731,
+     7735
+    ]
+   ],
+   "mindful": [],
+   "condition": "If this three-month range is distributive (limited evidence thus far to suggest that it is)",
+   "quote": "If this three-month range is distributive (limited evidence thus far to suggest that it is) then 7769-7772 is likely to inflect price back toward 7731-7735.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes6",
+   "instrument": "ES",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "firm base above 7769-7772",
+   "dir": "long",
+   "kind": "break",
+   "gate": [
+    7769,
+    7772
+   ],
+   "tgt": [
+    [
+     7815,
+     7820
+    ]
+   ],
+   "mindful": [
+    [
+     7784,
+     7788
+    ]
+   ],
+   "condition": "",
+   "quote": "At this point, a firm base above 7769-7772 is likely to resolve to 7815-7820, mindful of 7784-7788 in between.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes7",
+   "instrument": "ES",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "fresh loss of 7769-7772 after rejection at 7784-7788",
+   "dir": "short",
+   "kind": "break",
+   "gate": [
+    7769,
+    7772
+   ],
+   "tgt": [
+    [
+     7731,
+     7735
+    ]
+   ],
+   "mindful": [],
+   "condition": "following a rejection at 7784-7788",
+   "quote": "A fresh loss of 7769-7772 following a rejection at 7784-7788 likely resolves back to 7731-7735.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes8",
+   "instrument": "ES",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "hold of 7769-7772 after clearing supply",
+   "dir": "long",
+   "kind": "fade",
+   "gate": [
+    7769,
+    7772
+   ],
+   "tgt": [
+    7812.25,
+    [
+     7815,
+     7820
+    ]
+   ],
+   "mindful": [],
+   "condition": "after clearing supply",
+   "quote": "Holding 7769-7772 as support after clearing supply resolves to this past week’s 7812.25 high and the key 7815-7820 range.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wnq1",
+   "instrument": "NQ",
+   "section": "Trading Lower",
+   "source": "commentary",
+   "name": "LBAF of 28684-28722 (singles below)",
+   "dir": "long",
+   "kind": "fade",
+   "gate": [
+    28684,
+    28722
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "",
+   "quote": "I see 28684-28722 as quite strong with a set of single prints sitting below it which could produce a LBAF.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wnq2",
+   "instrument": "NQ",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "fresh fail/LAAF of 29269-29303",
+   "dir": "short",
+   "kind": "fade",
+   "gate": [
+    29269,
+    29303
+   ],
+   "tgt": [
+    [
+     29038,
+     29069
+    ],
+    28987
+   ],
+   "mindful": [
+    [
+     29200,
+     29226
+    ]
+   ],
+   "condition": "",
+   "quote": "A fresh fail/LAAF of 29269-29303 most likely resolves to 29069-29038 and this past week’s 28987 low, mindful of the 29200-29226 range or so which will be a daily level for Monday.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wnq3",
+   "instrument": "NQ",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "rejection/LAAF at 29380-29436 → loss of 269-303",
+   "dir": "short",
+   "kind": "fade",
+   "gate": [
+    29380,
+    29436
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "triggers a fresh loss of 269-303",
+   "quote": "If any rejection there (including a LAAF) triggers a fresh loss of 269-303 then the trading lower scenario is in play.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wnq4",
+   "instrument": "NQ",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "hold above 380-436 after seller defense",
+   "dir": "long",
+   "kind": "fade",
+   "gate": [
+    29380,
+    29436
+   ],
+   "tgt": [
+    [
+     29623,
+     29656
+    ]
+   ],
+   "mindful": [],
+   "condition": "after any meaningful defense from sellers",
+   "quote": "Holding above 380-436 after any meaningful defense from sellers, however, would be a good look. Generally, I see 623-656 as the first meaningful reclaim and opens a potential move to this past week’s high and 30210-30237.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wnq5",
+   "instrument": "NQ",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "above 623-656 magnets to 754-787",
+   "dir": "long",
+   "kind": "break",
+   "gate": [
+    29623,
+    29656
+   ],
+   "tgt": [
+    [
+     29754,
+     29787
+    ]
+   ],
+   "mindful": [],
+   "condition": "",
+   "quote": "Above 623-656 should magnet to 754-787.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wnq6",
+   "instrument": "NQ",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "sustain above 623-656 after 754-787 test",
+   "dir": "long",
+   "kind": "break",
+   "gate": [
+    29623,
+    29656
+   ],
+   "tgt": [
+    [
+     29903,
+     29932
+    ]
+   ],
+   "mindful": [],
+   "condition": "If bulls are able to sustain above 623-656 after a 754-787 test",
+   "quote": "If bulls are able to sustain above 623-656 after a 754-787 test then resolution to 903-932 is likely.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wnq7",
+   "instrument": "NQ",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "shorts if 30210-30237 trades",
+   "dir": "short",
+   "kind": "fade",
+   "gate": [
+    30210,
+    30237
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "I would reiterate that this level is likely to be traded through if seen",
+   "quote": "I still would be extremely cautious on the long side and am likely to look for shorts if 30210-30237 trades. I would reiterate that this level is likely to be traded through if seen, but I will start looking for fresh short setups.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes9",
+   "instrument": "ES",
+   "section": "levels",
+   "source": "level_tag",
+   "name": "LAAF of 7733-7735",
+   "dir": "short",
+   "kind": "fade",
+   "gate": [
+    7733,
+    7735
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "",
+   "quote": "7733-7735* monitor for LAAF",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes10",
+   "instrument": "ES",
+   "section": "levels",
+   "source": "level_tag",
+   "name": "LBAF of 7569-7575",
+   "dir": "long",
+   "kind": "fade",
+   "gate": [
+    7569,
+    7575
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "",
+   "quote": "7569-7575* Monitor for LBAF",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes11",
+   "instrument": "ES",
+   "section": "levels",
+   "source": "level_tag",
+   "name": "LBAF of 7541-7543",
+   "dir": "long",
+   "kind": "fade",
+   "gate": [
+    7541,
+    7543
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "",
+   "quote": "7541-7543* Monitor for LBAF",
+   "stop_hint": ""
+  },
+  {
+   "id": "wnq8",
+   "instrument": "NQ",
+   "section": "levels",
+   "source": "level_tag",
+   "name": "LAAF of 30344-30369",
+   "dir": "short",
+   "kind": "fade",
+   "gate": [
+    30344,
+    30369
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "",
+   "quote": "30344-30369* Monitor for LAAF",
+   "stop_hint": ""
+  },
+  {
+   "id": "wnq9",
+   "instrument": "NQ",
+   "section": "levels",
+   "source": "level_tag",
+   "name": "LAAF of 29623-29656",
+   "dir": "short",
+   "kind": "fade",
+   "gate": [
+    29623,
+    29656
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "",
+   "quote": "29623-29656* Monitor for LAAF",
+   "stop_hint": ""
+  },
+  {
+   "id": "wnq10",
+   "instrument": "NQ",
+   "section": "levels",
+   "source": "level_tag",
+   "name": "LBAF of 28847-28869",
+   "dir": "long",
+   "kind": "fade",
+   "gate": [
+    28847,
+    28869
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "",
+   "quote": "28847-28869* Monitor for LBAF",
+   "stop_hint": ""
+  }
+ ],
+ "cautions": [
+  {
+   "instrument": "NQ",
+   "side": "short",
+   "range": [
+    28944,
+    29069
+   ],
+   "zones": [
+    [
+     29038,
+     29069
+    ],
+    [
+     28944,
+     28969
+    ]
+   ],
+   "quote": "The 28878.75 September RTH low and 28816.25 September ETH low remain an obvious target below price, but until I see a clear change from sellers, I’ll remain wary of initiating any short near 29038-29069 and 28944-28969."
+  },
+  {
+   "instrument": "NQ",
+   "side": "short",
+   "range": [
+    null,
+    28816.25
+   ],
+   "zones": [],
+   "quote": "Once NQ trades below September’s low I will pause on initiating any shorts on a first pass and make an assessment."
+  },
+  {
+   "instrument": "NQ",
+   "side": "long",
+   "range": [
+    29380,
+    29656
+   ],
+   "zones": [
+    [
+     29380,
+     29436
+    ],
+    [
+     29623,
+     29656
+    ]
+   ],
+   "quote": "I will be extremely cautious on the long side between 29380-29436 and 29623-29656 on a first pass."
+  },
+  {
+   "instrument": "NQ",
+   "side": "long",
+   "range": [
+    30113,
+    null
+   ],
+   "zones": [],
+   "quote": "I still would be extremely cautious on the long side and am likely to look for shorts if 30210-30237 trades."
+  }
+ ]
+}
