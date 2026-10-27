@@ -64,21 +64,32 @@ references stay symbolic, never invent levels or trades, note anything ambiguous
 - **trades** — an if/then line that names a level and a direction:
   - commentary trades: "A LBAF of X can rotate back to Y", "A fail or LAAF of X can come back to Y", "Above X should magnet to Y",
     "a firm base above X is likely to resolve to Y", "X is likely to inflect price back toward Y", "if X holds ... Y trades",
-    "likely to look for shorts if X trades", "X ... could produce a LBAF". Plain "supply/resistance/sellers could be responsive"
-    mentions with no trade are NOT trades (they may be `zones`).
+    "likely to look for shorts if X trades", "X ... could produce a LBAF", "Holding below X (inclusive a fresh failed reclaim)
+    is objectively bearish" (short), "If X is reclaimed after a LBAF, then the trading higher scenario comes into play" (long),
+    "I would expect [that high] to be taken out above X" (long, tgt that high), "it would need to trigger a fresh loss of X to open
+    a move back to Y" (short), "It is possible X is strong enough to trigger a fresh loss of Y" (fade at X, condition "It is
+    possible"), "I see X as the first meaningful reclaim and opens a potential move to A and B" (long, tgt [A, B]).
+    **One trade per sentence** — never merge two sentences into one trade.
+    Plain "supply/resistance/sellers could be responsive" mentions with no trade are NOT trades (they may be `zones`), and
+    neither are requirements ("Any fresh loss of X must produce a loss of at least Y for sellers to have clear control").
+    Borderline lines you leave out go in `ref_note`.
   - kind: `fade` = LBAF / LAAF / fail / failed reclaim / hold / inflect / rejection; `break` = continuation, firm base above,
     sustain above, above X magnets to Y, fresh loss of X resolves to Y, breakdown.
   - gate: the level the trade fires from, as written in that sentence (full prices).
   - tgt: what he says it goes to, in his order. A target only implied ("the trading lower scenario comes into play") → [].
     "mindful of Z (in between)" → `mindful`, not `tgt`.
-  - condition: any qualifier verbatim ("after any failure in the gap", "following a rejection at 7784-7788",
+  - condition: a real qualifier only — never a restatement of the gate, never a caveat already in the quote — verbatim ("after any failure in the gap", "following a rejection at 7784-7788",
     "If this three-month range is distributive (limited evidence thus far to suggest that it is)", "on a first pass").
   - level_tag trades: every list level tagged "monitor for LAAF" (short) or "monitor for LBAF" (long) that has no commentary
     trade in the same direction at the same level → `source: "level_tag"`, `section: "levels"`, quote = the list line,
     tgt [], kind fade. If a commentary trade covers it, don't add a tag trade (the level's tag still shows in `levels`).
 - **cautions**: "I will be extremely cautious on the long side between X and Y on a first pass" → side long, range [X.lo, Y.hi],
   zones [X, Y]. "wary of initiating any short near X and Y" → side short, zones [X, Y], range spanning them.
-  "pause on initiating any shorts once below Z" → side short, range [null, Z]. Keep the quote verbatim.
+  "pause on initiating any shorts once below Z" → side short, range [null, Z]. "a bit cautious ... into X" counts too.
+  One caution per sentence; the range uses only numbers that sentence states (or one it names, like "the September ETH low
+  (28816.25)" just before) — never a number borrowed from a different sentence. Keep the quote verbatim.
+- zones also include spanning areas: "strong supply in the 7780-7784 up to 7815-7820 range" → the non-list part [7780, 7784];
+  "this general area (30210-30237 to 30520-30546 ...) ... higher time frame lower high" → [30210, 30546].
 - Both instruments always; GC/YM/SPY/QQQ are skipped.
 - **Daily corrections win.** If a later daily letter corrects a weekly level, the daily plan wins at run time; this file stays
   as the weekly letter wrote it.

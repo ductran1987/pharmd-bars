@@ -11,7 +11,7 @@
   "NQ": "NQZ6"
  },
  "roll_note": "",
- "ref_note": "ES list has 7733-7735 (monitor for LAAF) but the Trading Higher text writes 7731-7735; wes4/wes7 keep 7731-7735 as written. NQ text writes 29200-29226 for the daily level (Monday's daily plan uses 29194-29220). 'this past week's low' on ES has no number in the letter. NQ 870-960 resolved to 29870-29960 (supply around 903-932).",
+ "ref_note": "ES list has 7733-7735 (monitor for LAAF) but the Trading Higher text writes 7731-7735; wes4/wes5/wes7 and the ES caution keep 7731-7735 as written. NQ text writes 29200-29226 for the daily level (external: Monday's daily plan used 29194-29220). 'this past week's low' on ES has no number in the letter. NQ 870-960 resolved to 29870-29960 (supply around 903-932). 'September's low' in the pause-on-shorts caution read as the ETH low 28816.25 he names just before (RTH low is 28878.75). Not made trades (borderline): ES possible failed reclaim at a daily ~7658; ES look above and fail of Thursday's high (no number) in the 7742.5-7751 gap; ES move back to the ATH above 7815-7820 ('we'll respect range high until proven otherwise'); NQ swing low off the 8/3 open/low 28419/28313.3; 'Any fresh loss of 623-656 must produce a loss of at least 380-436' (a requirement, not a trade).",
  "levels": {
   "ES": [
    {
@@ -508,6 +508,15 @@
    },
    {
     "zone": [
+     7780,
+     7784
+    ],
+    "type": "zone",
+    "label": "last week's strong supply (7780-7784 up to 7815-7820)",
+    "quote": "Last week we had strong supply in the 7780-7784 up to 7815-7820 range and this past week dropped some fresh (not as strong) supply once again."
+   },
+   {
+    "zone": [
      7460,
      7520
     ],
@@ -591,6 +600,15 @@
    },
    {
     "zone": [
+     30210,
+     30546
+    ],
+    "type": "zone",
+    "label": "potential HTF lower high area",
+    "quote": "It will be a bit harder to do so if seen this week, but this general area (30210-30237 to 30520-30546 and maybe a tad higher) should be kept in mind moving forward as having the potential to produce a higher time frame lower high"
+   },
+   {
+    "zone": [
      27200,
      27200
     ],
@@ -629,6 +647,24 @@
    "instrument": "ES",
    "section": "Trading Lower",
    "source": "commentary",
+   "name": "reclaim of 7676-7681 after a LBAF",
+   "dir": "long",
+   "kind": "break",
+   "gate": [
+    7676,
+    7681
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "after a LBAF",
+   "quote": "If 7676-7681 is reclaimed after a LBAF, then the trading higher scenario comes into play.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes3",
+   "instrument": "ES",
+   "section": "Trading Lower",
+   "source": "commentary",
    "name": "continuation below 7644-7649 (box breakdown)",
    "dir": "short",
    "kind": "break",
@@ -647,12 +683,12 @@
     ]
    ],
    "mindful": [],
-   "condition": "With continuation below this past week’s low and the 7644-7649 range",
+   "condition": "",
    "quote": "With continuation below this past week’s low and the 7644-7649 range we have confirmation of the multi-day box breakdown (the Friday mother bar box) and entry into the white box (the two pictures above). This is objectively a continuation short. The major target is 7569-7575 and then 7541-7543 (monitor for continuation from there).",
    "stop_hint": ""
   },
   {
-   "id": "wes3",
+   "id": "wes4",
    "instrument": "ES",
    "section": "Trading Higher",
    "source": "commentary",
@@ -675,7 +711,50 @@
    "stop_hint": ""
   },
   {
-   "id": "wes4",
+   "id": "wes5",
+   "instrument": "ES",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "above 7712-7717 takes out 7724.5",
+   "dir": "long",
+   "kind": "break",
+   "gate": [
+    7712,
+    7717
+   ],
+   "tgt": [
+    7724.5
+   ],
+   "mindful": [],
+   "condition": "",
+   "quote": "I would expect that to be taken out above 7712-7717 and then I get a bit cautious there into 7731-7735 as there is some meaningful supply in and around that range.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes6",
+   "instrument": "ES",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "fresh loss of 7712-7717 → 7676-7681",
+   "dir": "short",
+   "kind": "break",
+   "gate": [
+    7712,
+    7717
+   ],
+   "tgt": [
+    [
+     7676,
+     7681
+    ]
+   ],
+   "mindful": [],
+   "condition": "",
+   "quote": "Either way it would need to trigger a fresh loss of 7712-7717 to open a move back to 7676-7681.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes7",
    "instrument": "ES",
    "section": "Trading Higher",
    "source": "commentary",
@@ -698,7 +777,7 @@
    "stop_hint": ""
   },
   {
-   "id": "wes5",
+   "id": "wes8",
    "instrument": "ES",
    "section": "Trading Higher",
    "source": "commentary",
@@ -721,7 +800,7 @@
    "stop_hint": ""
   },
   {
-   "id": "wes6",
+   "id": "wes9",
    "instrument": "ES",
    "section": "Trading Higher",
    "source": "commentary",
@@ -749,7 +828,7 @@
    "stop_hint": ""
   },
   {
-   "id": "wes7",
+   "id": "wes10",
    "instrument": "ES",
    "section": "Trading Higher",
    "source": "commentary",
@@ -772,7 +851,7 @@
    "stop_hint": ""
   },
   {
-   "id": "wes8",
+   "id": "wes11",
    "instrument": "ES",
    "section": "Trading Higher",
    "source": "commentary",
@@ -796,7 +875,79 @@
    "stop_hint": ""
   },
   {
+   "id": "wes12",
+   "instrument": "ES",
+   "section": "levels",
+   "source": "level_tag",
+   "name": "LAAF of 7733-7735",
+   "dir": "short",
+   "kind": "fade",
+   "gate": [
+    7733,
+    7735
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "",
+   "quote": "7733-7735* monitor for LAAF",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes13",
+   "instrument": "ES",
+   "section": "levels",
+   "source": "level_tag",
+   "name": "LBAF of 7569-7575",
+   "dir": "long",
+   "kind": "fade",
+   "gate": [
+    7569,
+    7575
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "",
+   "quote": "7569-7575* Monitor for LBAF",
+   "stop_hint": ""
+  },
+  {
+   "id": "wes14",
+   "instrument": "ES",
+   "section": "levels",
+   "source": "level_tag",
+   "name": "LBAF of 7541-7543",
+   "dir": "long",
+   "kind": "fade",
+   "gate": [
+    7541,
+    7543
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "",
+   "quote": "7541-7543* Monitor for LBAF",
+   "stop_hint": ""
+  },
+  {
    "id": "wnq1",
+   "instrument": "NQ",
+   "section": "Trading Lower",
+   "source": "commentary",
+   "name": "holding below 29269-29303 (incl. failed reclaim)",
+   "dir": "short",
+   "kind": "fade",
+   "gate": [
+    29269,
+    29303
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "(inclusive a fresh failed reclaim)",
+   "quote": "Holding below 269-303 (inclusive a fresh failed reclaim) is objectively bearish.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wnq2",
    "instrument": "NQ",
    "section": "Trading Lower",
    "source": "commentary",
@@ -814,7 +965,7 @@
    "stop_hint": ""
   },
   {
-   "id": "wnq2",
+   "id": "wnq3",
    "instrument": "NQ",
    "section": "Trading Higher",
    "source": "commentary",
@@ -843,7 +994,7 @@
    "stop_hint": ""
   },
   {
-   "id": "wnq3",
+   "id": "wnq4",
    "instrument": "NQ",
    "section": "Trading Higher",
    "source": "commentary",
@@ -861,7 +1012,7 @@
    "stop_hint": ""
   },
   {
-   "id": "wnq4",
+   "id": "wnq5",
    "instrument": "NQ",
    "section": "Trading Higher",
    "source": "commentary",
@@ -872,19 +1023,38 @@
     29380,
     29436
    ],
-   "tgt": [
-    [
-     29623,
-     29656
-    ]
-   ],
+   "tgt": [],
    "mindful": [],
    "condition": "after any meaningful defense from sellers",
-   "quote": "Holding above 380-436 after any meaningful defense from sellers, however, would be a good look. Generally, I see 623-656 as the first meaningful reclaim and opens a potential move to this past week’s high and 30210-30237.",
+   "quote": "Holding above 380-436 after any meaningful defense from sellers, however, would be a good look.",
    "stop_hint": ""
   },
   {
-   "id": "wnq5",
+   "id": "wnq6",
+   "instrument": "NQ",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "reclaim of 623-656 → week high / 30210-30237",
+   "dir": "long",
+   "kind": "break",
+   "gate": [
+    29623,
+    29656
+   ],
+   "tgt": [
+    30113,
+    [
+     30210,
+     30237
+    ]
+   ],
+   "mindful": [],
+   "condition": "",
+   "quote": "Generally, I see 623-656 as the first meaningful reclaim and opens a potential move to this past week’s high and 30210-30237.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wnq7",
    "instrument": "NQ",
    "section": "Trading Higher",
    "source": "commentary",
@@ -907,7 +1077,7 @@
    "stop_hint": ""
   },
   {
-   "id": "wnq6",
+   "id": "wnq8",
    "instrument": "NQ",
    "section": "Trading Higher",
    "source": "commentary",
@@ -925,12 +1095,30 @@
     ]
    ],
    "mindful": [],
-   "condition": "If bulls are able to sustain above 623-656 after a 754-787 test",
+   "condition": "after a 754-787 test",
    "quote": "If bulls are able to sustain above 623-656 after a 754-787 test then resolution to 903-932 is likely.",
    "stop_hint": ""
   },
   {
-   "id": "wnq7",
+   "id": "wnq9",
+   "instrument": "NQ",
+   "section": "Trading Higher",
+   "source": "commentary",
+   "name": "903-932 strong enough → fresh loss of 623-656",
+   "dir": "short",
+   "kind": "fade",
+   "gate": [
+    29903,
+    29932
+   ],
+   "tgt": [],
+   "mindful": [],
+   "condition": "It is possible",
+   "quote": "It is possible the 903-932 is strong enough to trigger a fresh loss of 623-656 and negate further upside.",
+   "stop_hint": ""
+  },
+  {
+   "id": "wnq10",
    "instrument": "NQ",
    "section": "Trading Higher",
    "source": "commentary",
@@ -943,66 +1131,12 @@
    ],
    "tgt": [],
    "mindful": [],
-   "condition": "I would reiterate that this level is likely to be traded through if seen",
+   "condition": "",
    "quote": "I still would be extremely cautious on the long side and am likely to look for shorts if 30210-30237 trades. I would reiterate that this level is likely to be traded through if seen, but I will start looking for fresh short setups.",
    "stop_hint": ""
   },
   {
-   "id": "wes9",
-   "instrument": "ES",
-   "section": "levels",
-   "source": "level_tag",
-   "name": "LAAF of 7733-7735",
-   "dir": "short",
-   "kind": "fade",
-   "gate": [
-    7733,
-    7735
-   ],
-   "tgt": [],
-   "mindful": [],
-   "condition": "",
-   "quote": "7733-7735* monitor for LAAF",
-   "stop_hint": ""
-  },
-  {
-   "id": "wes10",
-   "instrument": "ES",
-   "section": "levels",
-   "source": "level_tag",
-   "name": "LBAF of 7569-7575",
-   "dir": "long",
-   "kind": "fade",
-   "gate": [
-    7569,
-    7575
-   ],
-   "tgt": [],
-   "mindful": [],
-   "condition": "",
-   "quote": "7569-7575* Monitor for LBAF",
-   "stop_hint": ""
-  },
-  {
-   "id": "wes11",
-   "instrument": "ES",
-   "section": "levels",
-   "source": "level_tag",
-   "name": "LBAF of 7541-7543",
-   "dir": "long",
-   "kind": "fade",
-   "gate": [
-    7541,
-    7543
-   ],
-   "tgt": [],
-   "mindful": [],
-   "condition": "",
-   "quote": "7541-7543* Monitor for LBAF",
-   "stop_hint": ""
-  },
-  {
-   "id": "wnq8",
+   "id": "wnq11",
    "instrument": "NQ",
    "section": "levels",
    "source": "level_tag",
@@ -1020,7 +1154,7 @@
    "stop_hint": ""
   },
   {
-   "id": "wnq9",
+   "id": "wnq12",
    "instrument": "NQ",
    "section": "levels",
    "source": "level_tag",
@@ -1038,7 +1172,7 @@
    "stop_hint": ""
   },
   {
-   "id": "wnq10",
+   "id": "wnq13",
    "instrument": "NQ",
    "section": "levels",
    "source": "level_tag",
@@ -1058,6 +1192,21 @@
  ],
  "cautions": [
   {
+   "instrument": "ES",
+   "side": "long",
+   "range": [
+    7731,
+    7735
+   ],
+   "zones": [
+    [
+     7731,
+     7735
+    ]
+   ],
+   "quote": "I would expect that to be taken out above 7712-7717 and then I get a bit cautious there into 7731-7735 as there is some meaningful supply in and around that range."
+  },
+  {
    "instrument": "NQ",
    "side": "short",
    "range": [
@@ -1075,6 +1224,16 @@
     ]
    ],
    "quote": "The 28878.75 September RTH low and 28816.25 September ETH low remain an obvious target below price, but until I see a clear change from sellers, I’ll remain wary of initiating any short near 29038-29069 and 28944-28969."
+  },
+  {
+   "instrument": "NQ",
+   "side": "short",
+   "range": [
+    null,
+    28816.25
+   ],
+   "zones": [],
+   "quote": "A reminder from last week that I also get wary of potential seller exhaustion if/once we see the September ETH low (28816.25) this week."
   },
   {
    "instrument": "NQ",
@@ -1109,10 +1268,15 @@
    "instrument": "NQ",
    "side": "long",
    "range": [
-    30113,
+    30210,
     null
    ],
-   "zones": [],
+   "zones": [
+    [
+     30210,
+     30237
+    ]
+   ],
    "quote": "I still would be extremely cautious on the long side and am likely to look for shorts if 30210-30237 trades."
   }
  ]
