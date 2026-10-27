@@ -1,0 +1,579 @@
+{
+ "source": "pharmdks",
+ "date": "2026-10-28",
+ "status": "draft",
+ "notes": "",
+ "bias": "A pretty weird day ahead of FOMC. Shorts triggered early overnight until a LBAF of 7703-7704 set the ES low in the Euro session (NQ held 269-303 and reclaimed 380-436). The opening drive higher was stiffly rejected — a LAAF of the 3-day balance on ES — and the build was cleanly bearish until 7712-7717 held. Then the entire book instantly changed and buyers chased: the upside break of the 3-day range resolved all the way to the key weekly 7769-7772 before balancing (speculation about war/Israeli-election news). Markets park in a high-volume node into major events: NQ sits at the upper edge of its YTD HVN just above YTD VPOC; ES's high was YTD VPOC. 'I still believe ES 7815-7820 and NQ 30210-30237 matter most coming out of tomorrow.'",
+ "wildcard": "FOMC — he generally doesn't do setups ahead of it; these rotational trades will likely play out overnight or early. Crazy things happen on FOMC: a 1-minute close above 7815-7820 doesn't mean new highs, flipping it to firm support over hours/days should. Need to see the reaction to the entire press conference and even the next day — the last three FOMCs closed near their lows and rallied all night. Bulls own the short-term trend; manage expectations on shorts; 'while inside a prior day's range, the bid can turn on at a moment's notice.' Inside week so far inside a multi-week balance — the higher we go the more likely fresh sellers present. Daily adds: ES 7886-7888, 7861-7864, 7750-7751 (LBAF monitor), 7726-7728, 7697-7699, 7658-7659; NQ 30440-30454 (failed-reclaim monitor), 29569-29583, 29194-29220, 29089-29102.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "ON low 7699.75 at 4:00 (LBAF of 7703-7704), cash opened 7734.75, IB high 7745, rejected → low 7712.5 at 10:20 (7712-7717 held), then the book flipped and ES broke the 3-day box to 7772.75 at 15:45 (the 7769-7772 weekly level = YTD VPOC), afternoon rotation 7750-7751 ↔ 7769-7772, closed 7762.25. Fresh supply dropped in the 7780s-90s.",
+   "pivot": "Rotational between 7750-7751 (daily; price is in today's upper distribution above it) and the weekly 7769-7772: long an uptrend off/near 50-51, short a downtrend off/near 69-72; LAAF of 69-72 → short back down, LBAF of 50-51 → long back up. On a first pass into 7745 (IB high) / 7742.5 (Thu high, box top) / 7739.5 (Mon high) the LBAF of 50-51 is front of mind.",
+   "higher": "Sustained break of 7769-7772 → big picture 7815-7820 in play; supply in the 7780s-90s (7784-7788 as proxy) can inflect lower and would need to trigger a loss of 69-72 to open 50-51. 69-72 flipping to support after clearing supply → 7815-7820 likely. Above 15-20 most likely an ATH retest with 7838-7841 a major decision point between. A LAAF of 15-20 that also LAAFs last week's high AND today's high gets interesting, but a prior day's low would still need to go.",
+   "lower": "Monitor for a LBAF (or later reclaim) of 7750-7751 all day — it can produce a trip to 69-72. Cautious on a first pass below 50-51 (no breakdown shorts slapped on), but it invites 7731-7735 and potentially 7712-7717 with persistent weakness. Below today's low and 7712-7717: 7703-7704 (honorable mention), 7697-7699 (daily), then the weekly 7676-7681 and the week suddenly looks very different.",
+   "levels": [
+    {
+     "p": [
+      7838,
+      7841
+     ],
+     "label": "major decision point",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7815,
+      7820
+     ],
+     "label": "what matters most post-FOMC",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7812.25
+     ],
+     "label": "last wk high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7784,
+      7788
+     ],
+     "label": "supply proxy (80s-90s)",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7772.75
+     ],
+     "label": "today's high · YTD VPOC",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7769,
+      7772
+     ],
+     "label": "weekly · LAAF short · must flip",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7750,
+      7751
+     ],
+     "label": "daily · LBAF long",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7745
+     ],
+     "label": "IB high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7742.5
+     ],
+     "label": "Thu high · box top",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7739.5
+     ],
+     "label": "Mon high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7731,
+      7735
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7712.5
+     ],
+     "label": "today's low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7712,
+      7717
+     ],
+     "label": "weekly · held",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7703,
+      7704
+     ],
+     "label": "honorable mention",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7697,
+      7699
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7676,
+      7681
+     ],
+     "label": "weekly · week looks different below",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "ON low 29288 at 3:05 (269-303 held → reclaim of 380-436), cash opened 29561.25, IB high 29687.75, low 29494.5 at 10:15, ripped with ES to a spike high 29881.25 at 15:45 (spike base 29875.5 — 'a spike for ants'), afternoon two-way between 754-787 (deepest pullback 29755.75 at 2 pm) and the spike, closed 29835. Sits at the upper edge of the YTD HVN just above YTD VPOC.",
+   "pivot": "Two-way between 754-787 and today's spike 875.5-881.25: LAAF of today's high → 754-787; LBAF of 754-787 → back to the spike. Anything lower than 754-787 needs a LBAF of at least 755.75 and really the full level. Honorable mentions: 29739.5, 29716-29731, IB high 29687.75, 29969-29983 (supply top), 29869-29886 (old daily, today's spike).",
+   "higher": "29903-29932 sits just above today's high — monitor for a LAAF with potential for 754-787. Cautious up to ~969-983 (NQ is in supply from today's high to 984). Sustaining above 903-932 after clearing supply → 30069-30103 and really 30210-30237 — not hard resistance, but 210-237 up to 520-546 (30440-30454 daily, failed-reclaim monitor) can be problematic. Any fail there must LAAF last week's high AND today's high, and ultimately take out a prior day low, to mean anything.",
+   "lower": "Cautious on a first pass below 754-787 (possible LBAF) — the whole 623-656 ↔ 754-787 area is packed with demand, singles and support. Persistent weakness below 754-787 probably resolves to at least 687.75 (clean up today's singles) → 623-656 (demand inside; any failure up here must trigger a fresh loss of it and take out a prior day low) → 569-583 (daily; demand 515-540 protects today's low) → Thursday's 595 high → today's low → 380-436 (a LBAF of today's RTH low there wouldn't be terrible for bulls) → 269-303 (caught last night's low; below looks pretty bad).",
+   "levels": [
+    {
+     "p": [
+      30210,
+      30237
+     ],
+     "label": "what matters most post-FOMC",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      30069,
+      30103
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      29969,
+      29983
+     ],
+     "label": "supply top · honorable mention",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29903,
+      29932
+     ],
+     "label": "weekly · LAAF monitor",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      29875.5,
+      29881.25
+     ],
+     "label": "today's spike · LAAF short",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      29754,
+      29787
+     ],
+     "label": "weekly · held all PM · LBAF long",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      29739.5
+     ],
+     "label": "honorable mention",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29716,
+      29731
+     ],
+     "label": "honorable mention",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29687.75
+     ],
+     "label": "IB high · singles clean-up",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29623,
+      29656
+     ],
+     "label": "weekly · demand",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      29594.75
+     ],
+     "label": "Thu high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29569,
+      29583
+     ],
+     "label": "daily · demand 515-540 below",
+     "kind": "down"
+    },
+    {
+     "p": [
+      29494.5
+     ],
+     "label": "today's low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29380,
+      29436
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      29269,
+      29303
+     ],
+     "label": "weekly · caught ON low",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of 7769-7772",
+   "dir": "short",
+   "tag": "rotational · pre-FOMC · likely plays overnight/early",
+   "gate": "look above and fail of 7769-7772 (weekly; today's high 7772.75 = YTD VPOC)",
+   "tgt": "7750-7751 → 7731-7735 → 7712-7717",
+   "stop": "sustained break of 69-72 → 7784-7788",
+   "quote": "Short a LAAF of 7769-7772",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7769,
+     7772.75
+    ],
+    "tgt": [
+     [
+      7750,
+      7751
+     ],
+     [
+      7731,
+      7735
+     ],
+     [
+      7712,
+      7717
+     ]
+    ],
+    "invalid": [
+     7784
+    ],
+    "stop": [
+     7778.25
+    ],
+    "be": [
+     7767.25
+    ]
+   },
+   "risk": {
+    "entry": "7772.75",
+    "stop": "7778.25",
+    "stop_pts": "5.5",
+    "be": "7767.25",
+    "his": "7784",
+    "his_pts": "11.25",
+    "mic": "MES",
+    "ours": [
+     "18.2",
+     "36.4"
+    ],
+    "his_n": [
+     "8.9",
+     "17.8"
+    ],
+    "tgts": [
+     {
+      "p": "7750-7751",
+      "ours": "4.0",
+      "his": "1.9"
+     },
+     {
+      "p": "7731-7735",
+      "ours": "6.9",
+      "his": "3.4"
+     },
+     {
+      "p": "7712-7717",
+      "ours": "10.1",
+      "his": "5.0"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of 7750-7751",
+   "dir": "long",
+   "tag": "rotational · pre-FOMC · front of mind on a first pass into 7745 / 7742.5 / 7739.5",
+   "gate": "look below and fail of 7750-7751 (daily) — the sweep can reach the IB high 7745, Thursday's 7742.5 or Monday's 7739.5",
+   "tgt": "7769-7772 → 7784-7788 → 7815-7820",
+   "stop": "persistent weakness below 50-51 → 7731-7735",
+   "quote": "Long a LBAF of 7750-7751",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7739.5,
+     7751
+    ],
+    "tgt": [
+     [
+      7769,
+      7772
+     ],
+     [
+      7784,
+      7788
+     ],
+     [
+      7815,
+      7820
+     ]
+    ],
+    "invalid": [
+     7735
+    ],
+    "stop": [
+     7744.5
+    ],
+    "be": [
+     7755.5
+    ]
+   },
+   "risk": {
+    "entry": "7750",
+    "stop": "7744.5",
+    "stop_pts": "5.5",
+    "be": "7755.5",
+    "his": "7735",
+    "his_pts": "15",
+    "mic": "MES",
+    "ours": [
+     "18.2",
+     "36.4"
+    ],
+    "his_n": [
+     "6.7",
+     "13.3"
+    ],
+    "tgts": [
+     {
+      "p": "7769-7772",
+      "ours": "3.5",
+      "his": "1.3"
+     },
+     {
+      "p": "7784-7788",
+      "ours": "6.2",
+      "his": "2.3"
+     },
+     {
+      "p": "7815-7820",
+      "ours": "11.8",
+      "his": "4.3"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of 29754-29787",
+   "dir": "long",
+   "tag": "rotational · pre-FOMC · held all afternoon (deepest 755.75)",
+   "gate": "look below and fail of 754-787 — needs at least 755.75 taken out, really the full level",
+   "tgt": "today's spike 875.5-881.25 → 29903-29932",
+   "stop": "persistent weakness below 754-787 → 29687.75 (singles clean-up)",
+   "quote": "Long a LBAF of 754-787",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     29754,
+     29787
+    ],
+    "tgt": [
+     [
+      29875.5,
+      29881.25
+     ],
+     [
+      29903,
+      29932
+     ]
+    ],
+    "invalid": [
+     29687.75
+    ],
+    "stop": [
+     29720.5
+    ],
+    "be": [
+     29787.5
+    ]
+   },
+   "risk": {
+    "entry": "29754",
+    "stop": "29720.5",
+    "stop_pts": "33.5",
+    "be": "29787.5",
+    "his": "29687.8",
+    "his_pts": "66.25",
+    "mic": "MNQ",
+    "ours": [
+     "7.5",
+     "14.9"
+    ],
+    "his_n": [
+     "3.8",
+     "7.5"
+    ],
+    "tgts": [
+     {
+      "p": "29875.5-29881.2",
+      "ours": "3.6",
+      "his": "1.8"
+     },
+     {
+      "p": "29903-29932",
+      "ours": "4.4",
+      "his": "2.2"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of 29875-29881 (today's spike)",
+   "dir": "short",
+   "tag": "rotational · pre-FOMC · whether from 903-932 or otherwise",
+   "gate": "look above and fail of today's spike 875.5-881.25, whether the look comes from the weekly 903-932 or otherwise",
+   "tgt": "29754-29787 → 29687.75",
+   "stop": "sustained above 903-932 after clearing supply (cautious to 969-983)",
+   "quote": "Short a LAAF of 875-881 whether it comes from 903-932 or otherwise.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     29875.5,
+     29932
+    ],
+    "tgt": [
+     [
+      29754,
+      29787
+     ],
+     29687.75
+    ],
+    "invalid": [
+     29969
+    ],
+    "stop": [
+     29914.75
+    ],
+    "be": [
+     29847.75
+    ]
+   },
+   "risk": {
+    "entry": "29881.2",
+    "stop": "29914.8",
+    "stop_pts": "33.5",
+    "be": "29847.8",
+    "his": "29969",
+    "his_pts": "87.75",
+    "mic": "MNQ",
+    "ours": [
+     "7.5",
+     "14.9"
+    ],
+    "his_n": [
+     "2.8",
+     "5.7"
+    ],
+    "tgts": [
+     {
+      "p": "29754-29787",
+      "ours": "2.8",
+      "his": "1.1"
+     },
+     {
+      "p": "29687.8",
+      "ours": "5.8",
+      "his": "2.2"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 3.73,
+  "NQ": 22.25
+ },
+ "stop_floor": {
+  "ES": 5.5,
+  "NQ": 33.5
+ }
+}
