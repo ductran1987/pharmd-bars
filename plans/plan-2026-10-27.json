@@ -1,0 +1,974 @@
+{
+ "source": "pharmdks",
+ "date": "2026-10-27",
+ "status": "draft",
+ "notes": "",
+ "bias": "Sellers once again panic-covered below NQ 29038-29069, unable to reach Friday's low even with an active LAAF overnight; ES only briefly traded past 58-59 and also never saw Friday's low. Cash opened and held above 7676-7681; NQ saw only a brief wick below 194-220, and neither traded below its 5-minute OR low. NQ reclaimed 380-436 with very limited seller defense and buyers made it to the daily 569-583 for HOD; NQ then held 380-436 from above for about the 5th time, so resolution to today's high and 623-656 is likely. ES planted VPOC in 7712-7717 — now that we're mostly above it he mentally changes the level back to the OG 7706-7712. Both stalled HOD at the very top of the supply (NQ between 380-436 and 623-656; ES in and around 7733-7735). Friday now looks like a bit of a trap below the 10/16 mother-bar box — keep back of mind the potential to come all the way back to last week's high.",
+ "wildcard": "Fresh box chart: today formed a 3-day balance (yellow) — last week's low 7648.5 / 28987 to Thursday's high 7742.5 / 29594.75 — with the bearish RTH gap (7742.5-7751) sitting right above. Box trades: long an upside break with continuation, short a LAAF, short a breakdown with continuation (seems risky), long a LBAF. NQ popped today's high at ~8 pm ET, so any LAAF of today's high is now active; the 7:10 pm low 412 sits just off the 12:45 APBL 397 — a LBAF of 380-436 should take out both. Daily adds: ES 7726-7728, 7703-7704 (LBAF monitor), 7697-7699, 7658-7659; NQ 29569-29583, 29194-29220, 29089-29102. Late, brief plan (apologies).",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "ON LAAF to 7651.75 (past 58-59, short of Friday's 7648.5); cash opened 7683.5, low 7677 at the open (held 7676-7681 and the OR low), ripped to 7739.5 at 11:00 — just above 7733-7735 — then balanced between 7703-7704 and 7726-7728 after the IB, VPOC in 7712-7717, closed 7714.75. Last three days = a balance (yellow box) under the 7742.5-7751 bearish RTH gap.",
+   "pivot": "Rotational trading between 7703-7704 and 7726-7728 (incl. LAAF/LBAF). 7733-7735 and today's high 7739.5 cap the range; 7697-7699 (incl. Friday's high) is the floor — acceptance below it → 7676-7681 and today's low. 7712-7717 mentally back to 7706-7712.",
+   "higher": "Monitor for a LAAF of today's and Thursday's highs given the RTH gap just above, but a sustained break big-picture can come all the way back up to last week's high — monitor 7769-7772 and 7784-7788 in between.",
+   "lower": "Acceptance back below 7697-7699 → 7676-7681 and today's low 7677. A downside break of the yellow box (last week's low 7648.5) with continuation is covered by the weekly trading-lower scenario: 7644-7649 → 7569-7575 → 7541-7543.",
+   "levels": [
+    {
+     "p": [
+      7784,
+      7788
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7769,
+      7772
+     ],
+     "label": "weekly",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7742.5,
+      7751
+     ],
+     "label": "bearish RTH gap",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7742.5
+     ],
+     "label": "Thu high · box top",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7739.5
+     ],
+     "label": "today's high · LAAF monitor",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7733,
+      7735
+     ],
+     "label": "weekly · supply",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7726,
+      7728
+     ],
+     "label": "daily · LAAF short",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7712,
+      7717
+     ],
+     "label": "VPOC · mentally 7706-12",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7703,
+      7704
+     ],
+     "label": "daily · LBAF long",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7697,
+      7699
+     ],
+     "label": "daily · Fri high · weakness short",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7677
+     ],
+     "label": "today's low · OR low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7676,
+      7681
+     ],
+     "label": "weekly · held",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7658,
+      7659
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7648.5
+     ],
+     "label": "Fri low · box bottom",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7644,
+      7649
+     ],
+     "label": "weekly",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "ON LAAF to 29024.25 (below 038-069, short of Friday's 28987) — sellers panic-covered again; cash opened 29228.25, low 29165.25 at the open (brief wick below 194-220, OR low held), reclaimed 380-436 with little defense, HOD 29572 at 11:00 in the daily 569-583, rotational between 380-436 and 569-583 the rest of the day (APBL 29397 at 12:45), closed 29445.75. ETH held 412 then popped today's high around 8 pm.",
+   "pivot": "29380-29436 is the hold-or-LBAF long (held from above ~5 times today; a LBAF should take out 412 and 397). Rotational between 380-436 and 569-583; today's high / Thursday's 594 are the LAAF watch into 623-656. Sellers need to crack 380-436, flip it to resistance, and really take out today's low 29165 to assert anything.",
+   "higher": "Resolution to today's high and 623-656 is likely. Monitor for a LAAF of Thursday's 594 high into the weekly 623-656 (3-day balance with the bearish RTH gap above). Reclaiming 623-656 puts 29903-29932 in play — see the weekly for what sellers would need to negate it.",
+   "lower": "Persistent weakness back below 380-436 (now an active LAAF of today's high) → demand 320-350 just below the weekly level → 269-303 → demand 233-243 → 194-220 → today's low 29165. He needs a first pass to clear the demand and then sellers firmly offering 380-436 before considering sellers in control.",
+   "levels": [
+    {
+     "p": [
+      29903,
+      29932
+     ],
+     "label": "in play above 623-656",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      29754,
+      29787
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      29623,
+      29656
+     ],
+     "label": "weekly · LAAF · reclaim long",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      29594.75
+     ],
+     "label": "Thu high · box top · LAAF",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29572
+     ],
+     "label": "today's high · LAAF active",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29569,
+      29583
+     ],
+     "label": "daily · LAAF short",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      29412
+     ],
+     "label": "ETH low 7:10 pm",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29397
+     ],
+     "label": "APBL 12:45",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29380,
+      29436
+     ],
+     "label": "weekly · hold/LBAF · weakness short",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      29320,
+      29350
+     ],
+     "label": "demand",
+     "kind": "down"
+    },
+    {
+     "p": [
+      29269,
+      29303
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      29233,
+      29243
+     ],
+     "label": "demand",
+     "kind": "down"
+    },
+    {
+     "p": [
+      29194,
+      29220
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      29165.25
+     ],
+     "label": "today's low · sellers need it",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29089,
+      29102
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      29038,
+      29069
+     ],
+     "label": "weekly · panic covers below",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      28987
+     ],
+     "label": "Fri low · box bottom",
+     "kind": "ref"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of 7726-7728",
+   "dir": "short",
+   "tag": "rotational · unrated",
+   "gate": "look above and fail of 7726-7728 (daily; range top of today's post-IB balance)",
+   "tgt": "7712-7717 → 7703-7704 → 7697-7699",
+   "stop": "acceptance above 7733-7735 / today's high 7739.5",
+   "quote": "Short a LAAF 7726-7728",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7726,
+     7728
+    ],
+    "tgt": [
+     [
+      7712,
+      7717
+     ],
+     [
+      7703,
+      7704
+     ],
+     [
+      7697,
+      7699
+     ]
+    ],
+    "invalid": [
+     7735
+    ],
+    "stop": [
+     7735.5
+    ],
+    "be": [
+     7720.5
+    ]
+   },
+   "risk": {
+    "entry": "7728",
+    "stop": "7735.5",
+    "stop_pts": "7.5",
+    "be": "7720.5",
+    "his": "7735",
+    "his_pts": "7",
+    "mic": "MES",
+    "ours": [
+     "13.3",
+     "26.7"
+    ],
+    "his_n": [
+     "14.3",
+     "28.6"
+    ],
+    "tgts": [
+     {
+      "p": "7712-7717",
+      "ours": "1.5",
+      "his": "1.6"
+     },
+     {
+      "p": "7703-7704",
+      "ours": "3.2",
+      "his": "3.4"
+     },
+     {
+      "p": "7697-7699",
+      "ours": "3.9",
+      "his": "4.1"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of 7703-7704",
+   "dir": "long",
+   "tag": "rotational · unrated",
+   "gate": "look below and fail of 7703-7704, whether the sweep comes from 7697-7699 or otherwise",
+   "tgt": "7712-7717 → 7726-7728 → 7733-7735",
+   "stop": "acceptance below 7697-7699 → 7676-7681",
+   "quote": "Long a LBAF 7703-7704, whether it comes from 7697-7699 or otherwise",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7697,
+     7704
+    ],
+    "tgt": [
+     [
+      7712,
+      7717
+     ],
+     [
+      7726,
+      7728
+     ],
+     [
+      7733,
+      7735
+     ]
+    ],
+    "invalid": [
+     7697
+    ],
+    "stop": [
+     7695.5
+    ],
+    "be": [
+     7710.5
+    ]
+   },
+   "risk": {
+    "entry": "7703",
+    "stop": "7695.5",
+    "stop_pts": "7.5",
+    "be": "7710.5",
+    "his": "7697",
+    "his_pts": "6",
+    "mic": "MES",
+    "ours": [
+     "13.3",
+     "26.7"
+    ],
+    "his_n": [
+     "16.7",
+     "33.3"
+    ],
+    "tgts": [
+     {
+      "p": "7712-7717",
+      "ours": "1.2",
+      "his": "1.5"
+     },
+     {
+      "p": "7726-7728",
+      "ours": "3.1",
+      "his": "3.8"
+     },
+     {
+      "p": "7733-7735",
+      "ours": "4.0",
+      "his": "5.0"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Persistent weakness below 7703-7704 / 7697-7699",
+   "dir": "short",
+   "tag": "unrated · really needs 7697-7699",
+   "gate": "persistent weakness below at least 7703-7704 but really 7697-7699 (acceptance, not a sweep)",
+   "tgt": "7676-7681 → today's low 7677 → 7658-7659",
+   "stop": "reclaim of 7703-7704",
+   "quote": "Short persistent weakness below at least 7703-7704 but really 7697-7699.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7697,
+     7699
+    ],
+    "tgt": [
+     [
+      7676,
+      7681
+     ],
+     7677,
+     [
+      7658,
+      7659
+     ]
+    ],
+    "invalid": [
+     7704
+    ],
+    "stop": [
+     7704.5
+    ],
+    "be": [
+     7689.5
+    ]
+   },
+   "risk": {
+    "entry": "7697",
+    "stop": "7704.5",
+    "stop_pts": "7.5",
+    "be": "7689.5",
+    "his": "7704",
+    "his_pts": "7",
+    "mic": "MES",
+    "ours": [
+     "13.3",
+     "26.7"
+    ],
+    "his_n": [
+     "14.3",
+     "28.6"
+    ],
+    "tgts": [
+     {
+      "p": "7676-7681",
+      "ours": "2.1",
+      "his": "2.3"
+     },
+     {
+      "p": "7677",
+      "ours": "2.7",
+      "his": "2.9"
+     },
+     {
+      "p": "7658-7659",
+      "ours": "5.1",
+      "his": "5.4"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LAAF of today's / Thursday's high (3-day box top)",
+   "dir": "short",
+   "tag": "box trade · bearish RTH gap above",
+   "gate": "look above and fail of 7739.5 / 7742.5 — the top of the 3-day balance — with the 7742.5-7751 RTH gap reactive on first test",
+   "tgt": "7733-7735 → 7726-7728 → 7712-7717",
+   "stop": "sustained break above the gap → 7769-7772",
+   "quote": "Box trade on the 3-day box. Long an upside break that sees continuation. Short a LAAF. Short a breakdown that sees continuation (seems risky) and long a LBAF. … We'll need to monitor for a LAAF of today and Thursday's highs given the RTH gap just above",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7739.5,
+     7742.5
+    ],
+    "tgt": [
+     [
+      7733,
+      7735
+     ],
+     [
+      7726,
+      7728
+     ],
+     [
+      7712,
+      7717
+     ]
+    ],
+    "invalid": [
+     7751
+    ],
+    "stop": [
+     7750.0
+    ],
+    "be": [
+     7735.0
+    ]
+   },
+   "risk": {
+    "entry": "7742.5",
+    "stop": "7750",
+    "stop_pts": "7.5",
+    "be": "7735",
+    "his": "7751",
+    "his_pts": "8.5",
+    "mic": "MES",
+    "ours": [
+     "13.3",
+     "26.7"
+    ],
+    "his_n": [
+     "11.8",
+     "23.5"
+    ],
+    "tgts": [
+     {
+      "p": "7733-7735",
+      "ours": "1.0",
+      "his": "0.9"
+     },
+     {
+      "p": "7726-7728",
+      "ours": "1.9",
+      "his": "1.7"
+     },
+     {
+      "p": "7712-7717",
+      "ours": "3.4",
+      "his": "3.0"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "Upside break of the 3-day box with continuation",
+   "dir": "long",
+   "tag": "box trade · back to last week's high big picture",
+   "gate": "break above 7742.5 (Thursday's high / the RTH gap) that sees continuation — sustained, not a LAAF",
+   "tgt": "7769-7772 → 7784-7788 → last week's high 7812.25",
+   "stop": "LAAF of the box top → back inside 7733-7735",
+   "quote": "Long an upside break that sees continuation. … a sustained break big picture can come all the way back up. We must monitor the 7769-7772 and 7784-7788 weekly levels in between.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7742.5,
+     7751
+    ],
+    "tgt": [
+     [
+      7769,
+      7772
+     ],
+     [
+      7784,
+      7788
+     ],
+     7812.25
+    ],
+    "invalid": [
+     7733
+    ],
+    "stop": [
+     7735.0
+    ],
+    "be": [
+     7750.0
+    ]
+   },
+   "risk": {
+    "entry": "7742.5",
+    "stop": "7735",
+    "stop_pts": "7.5",
+    "be": "7750",
+    "his": "7733",
+    "his_pts": "9.5",
+    "mic": "MES",
+    "ours": [
+     "13.3",
+     "26.7"
+    ],
+    "his_n": [
+     "10.5",
+     "21.1"
+    ],
+    "tgts": [
+     {
+      "p": "7769-7772",
+      "ours": "3.5",
+      "his": "2.8"
+     },
+     {
+      "p": "7784-7788",
+      "ours": "5.5",
+      "his": "4.4"
+     },
+     {
+      "p": "7812.25",
+      "ours": "9.3",
+      "his": "7.3"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Dips that hold 29380-29436, incl. LBAF",
+   "dir": "long",
+   "tag": "mentally downgraded a tad · already played out · LAAF of today's high active",
+   "gate": "hold of 380-436 or a look below and fail — a LBAF should now take out both the 412 ETH low and the 397 APBL",
+   "tgt": "29569-29583 → today's high 29572 → 29623-29656",
+   "stop": "persistent weakness back below 380-436 → demand 320-350",
+   "quote": "Long dips that hold 29380-29436 on NQ, including a LBAF. This is now mentally downgraded a tad since it already played out and we would have an active LAAF today's high.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     29380,
+     29436
+    ],
+    "tgt": [
+     [
+      29569,
+      29583
+     ],
+     29572,
+     [
+      29623,
+      29656
+     ]
+    ],
+    "invalid": [
+     29320
+    ],
+    "stop": [
+     29337.75
+    ],
+    "be": [
+     29422.25
+    ]
+   },
+   "risk": {
+    "entry": "29380",
+    "stop": "29337.8",
+    "stop_pts": "42.25",
+    "be": "29422.2",
+    "his": "29320",
+    "his_pts": "60",
+    "mic": "MNQ",
+    "ours": [
+     "5.9",
+     "11.8"
+    ],
+    "his_n": [
+     "4.2",
+     "8.3"
+    ],
+    "tgts": [
+     {
+      "p": "29569-29583",
+      "ours": "4.5",
+      "his": "3.1"
+     },
+     {
+      "p": "29572",
+      "ours": "4.5",
+      "his": "3.2"
+     },
+     {
+      "p": "29623-29656",
+      "ours": "5.8",
+      "his": "4.0"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Persistent weakness below 29380-29436",
+   "dir": "short",
+   "tag": "needs today's low for comfort · cautious of demand 320-350 / 233-243",
+   "gate": "persistent weakness back below 380-436 (now representing an active LAAF of at least today's high); first pass must clear the demand and sellers must firmly offer 380-436",
+   "tgt": "29320-29350 → 29269-29303 → 29194-29220 → today's low 29165",
+   "stop": "reclaim of 380-436",
+   "quote": "I'm willing to short persistent weakness back below 380-436 (especially now that it would represent an active LAAF of at least today's high) but I really would need to see sellers get through today's low to have any sense of comfort. Be cautious the areas of demand outlined above.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     29380,
+     29436
+    ],
+    "tgt": [
+     [
+      29320,
+      29350
+     ],
+     [
+      29269,
+      29303
+     ],
+     [
+      29194,
+      29220
+     ],
+     29165.25
+    ],
+    "invalid": [
+     29436
+    ],
+    "stop": [
+     29422.25
+    ],
+    "be": [
+     29337.75
+    ]
+   },
+   "risk": {
+    "entry": "29380",
+    "stop": "29422.2",
+    "stop_pts": "42.25",
+    "be": "29337.8",
+    "his": "29436",
+    "his_pts": "56",
+    "mic": "MNQ",
+    "ours": [
+     "5.9",
+     "11.8"
+    ],
+    "his_n": [
+     "4.5",
+     "8.9"
+    ],
+    "tgts": [
+     {
+      "p": "29320-29350",
+      "ours": "0.7",
+      "his": "0.5"
+     },
+     {
+      "p": "29269-29303",
+      "ours": "1.8",
+      "his": "1.4"
+     },
+     {
+      "p": "29194-29220",
+      "ours": "3.8",
+      "his": "2.9"
+     },
+     {
+      "p": "29165.2",
+      "ours": "5.1",
+      "his": "3.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LAAF of today's high 29572 / 29569-29583",
+   "dir": "short",
+   "tag": "rotational · Thursday's 594 into 623-656 also a LAAF watch",
+   "gate": "look above and fail of today's high and 569-583 (extends to a LAAF of Thursday's 594 into the weekly 623-656)",
+   "tgt": "29380-29436; monitor for continuation (sellers still need to crack 380-436)",
+   "stop": "reclaim of 623-656",
+   "quote": "Generally rotational trades so any LAAF of today's high and 569-583 work. … We'll therefore monitor for a LAAF of Thursday's 594 high into the weekly 623-656 but sellers still need to crack 380-436 and flip it back to resistance to even attempt to assert control.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     29569,
+     29594.75
+    ],
+    "tgt": [
+     [
+      29380,
+      29436
+     ],
+     [
+      29320,
+      29350
+     ]
+    ],
+    "invalid": [
+     29656
+    ],
+    "stop": [
+     29625.25
+    ],
+    "be": [
+     29540.75
+    ]
+   },
+   "risk": {
+    "entry": "29583",
+    "stop": "29625.2",
+    "stop_pts": "42.25",
+    "be": "29540.8",
+    "his": "29656",
+    "his_pts": "73",
+    "mic": "MNQ",
+    "ours": [
+     "5.9",
+     "11.8"
+    ],
+    "his_n": [
+     "3.4",
+     "6.8"
+    ],
+    "tgts": [
+     {
+      "p": "29380-29436",
+      "ours": "3.5",
+      "his": "2.0"
+     },
+     {
+      "p": "29320-29350",
+      "ours": "5.5",
+      "his": "3.2"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Reclaim of 29623-29656",
+   "dir": "long",
+   "tag": "implied · box break with continuation",
+   "gate": "reclaim of 623-656 (upside break of the 3-day box that sees continuation)",
+   "tgt": "29754-29787 → 29903-29932",
+   "stop": "fresh loss of 623-656 (LAAF of the box top)",
+   "quote": "Reclaiming 623-656 puts 29903-29932 in play. See the weekly commentary about this and what sellers would need to do to negate it.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     29623,
+     29656
+    ],
+    "tgt": [
+     [
+      29754,
+      29787
+     ],
+     [
+      29903,
+      29932
+     ]
+    ],
+    "invalid": [
+     29594.75
+    ],
+    "stop": [
+     29613.75
+    ],
+    "be": [
+     29698.25
+    ]
+   },
+   "risk": {
+    "entry": "29656",
+    "stop": "29613.8",
+    "stop_pts": "42.25",
+    "be": "29698.2",
+    "his": "29594.8",
+    "his_pts": "61.25",
+    "mic": "MNQ",
+    "ours": [
+     "5.9",
+     "11.8"
+    ],
+    "his_n": [
+     "4.1",
+     "8.2"
+    ],
+    "tgts": [
+     {
+      "p": "29754-29787",
+      "ours": "2.3",
+      "his": "1.6"
+     },
+     {
+      "p": "29903-29932",
+      "ours": "5.8",
+      "his": "4.0"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 4.93,
+  "NQ": 28.09
+ },
+ "stop_floor": {
+  "ES": 7.5,
+  "NQ": 42.25
+ }
+}
