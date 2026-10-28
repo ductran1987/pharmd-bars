@@ -3,10 +3,10 @@ import charts, pandas as pd
 tz = "America/New_York"
 ES, NQ = charts.load_1h("ES"), charts.load_1h("NQ")
 ES5, NQ5 = charts.load("ES"), charts.load("NQ")
-s = pd.Timestamp("2026-10-12 09:30", tz=tz); e = pd.Timestamp("2026-10-27 16:15", tz=tz)
+s = pd.Timestamp("2026-10-12 09:30", tz=tz); e = pd.Timestamp("2026-10-28 18:15", tz=tz)
 w2 = ("wk 10/12", pd.Timestamp("2026-10-11 18:00", tz=tz), pd.Timestamp("2026-10-16 16:00", tz=tz))
 w3 = ("wk 10/19", pd.Timestamp("2026-10-18 18:00", tz=tz), pd.Timestamp("2026-10-23 16:00", tz=tz))
-w4 = ("Mon-Tue", pd.Timestamp("2026-10-25 18:00", tz=tz), e)
+w4 = ("Mon-Wed", pd.Timestamp("2026-10-25 18:00", tz=tz), e)
 
 es_lv = [
  {"p":[7869,7872],"label":"","kind":"up","strong":True},
@@ -38,13 +38,14 @@ es_marks = [
  {"t":pd.Timestamp("2026-10-14 14:00",tz=tz),"y":7741.0,"label":"WED: CPI gap down, box broke","dy":-35,"dx":-40},
  {"t":pd.Timestamp("2026-10-16 15:05",tz=tz),"y":7676.0,"label":"FRI 10/16: failed reclaim → 7676 = mother bar","dy":-70,"dx":-70},
  {"t":pd.Timestamp("2026-10-20 10:30",tz=tz),"y":7791.5,"label":"TUE: bullish engulf → 7791.5","dy":55,"dx":-60},
- {"t":pd.Timestamp("2026-10-21 14:15",tz=tz),"y":7812.25,"label":"WED: 7812.25 = wk high, failed under 15-20 → LAAF of Fri high","dy":45,"dx":-120},
+ {"t":pd.Timestamp("2026-10-21 14:15",tz=tz),"y":7812.25,"label":"WED: 7812.25 = wk high, failed under 15-20 → LAAF of Fri high","dy":70,"dx":-120},
  {"t":pd.Timestamp("2026-10-22 15:00",tz=tz),"y":7676.75,"label":"THU: risk-off, box traverse → 7676.75","dy":-95,"dx":-70},
  {"t":pd.Timestamp("2026-10-23 10:25",tz=tz),"y":7648.5,"label":"FRI: 7644-49 held (7648.5), closed 7662.75 below the box","dy":-140,"dx":-110},
- {"t":pd.Timestamp("2026-10-26 11:00",tz=tz),"y":7739.5,"label":"MON: held 76-81 → 7739.5 (stalled at 33-35); 3-day balance","dy":60,"dx":-110},
- {"t":pd.Timestamp("2026-10-27 15:45",tz=tz),"y":7772.75,"label":"TUE: LBAF 03-04 ON, 12-17 held → book flipped → box break to 7772.75 (YTD VPOC)","dy":45,"dx":-150}]
+ {"t":pd.Timestamp("2026-10-26 11:00",tz=tz),"y":7739.5,"label":"MON: held 76-81 → 7739.5 (stalled at 33-35); 3-day balance","dy":60,"dx":-80},
+ {"t":pd.Timestamp("2026-10-27 15:45",tz=tz),"y":7772.75,"label":"TUE: LBAF 03-04 ON, 12-17 held → book flipped → box break to 7772.75 (YTD VPOC)","dy":-45,"dx":-185},
+ {"t":pd.Timestamp("2026-10-28 16:00",tz=tz),"y":7819.5,"label":"WED FOMC: Iran headline → 7819.5 AH, 15-20 REJECTED → back to 7750","dy":55,"dx":-95}]
 charts.weekly("ES", es_lv, ES, s, e, "charts/2026-W44_ES_weekly.png",
-              "ES weekly  ·  10/12 – Tue 10/27  ·  week of 10/25 plan", profile_ranges=[w3, w4], marks=es_marks, d5prof=ES5)
+              "ES weekly  ·  10/12 – Wed 10/28  ·  week of 10/25 plan", profile_ranges=[w3, w4], marks=es_marks, d5prof=ES5)
 
 nq_lv = [
  {"p":[30520,30546],"label":"real clarity above","kind":"up","strong":True},
@@ -81,7 +82,8 @@ nq_marks = [
  {"t":pd.Timestamp("2026-10-22 15:45",tz=tz),"y":29033.0,"label":"THU: box BROKE → 29033, singles 380-436","dy":-200,"dx":-80},
  {"t":pd.Timestamp("2026-10-23 09:35",tz=tz),"y":28987.0,"label":"FRI: 28987 wk low → 29326 (just above 269-303), closed 29136","dy":-340,"dx":-120},
  {"t":pd.Timestamp("2026-10-26 11:00",tz=tz),"y":29572.0,"label":"MON: covered under 038-069 → reclaimed 380-436 → 29572","dy":300,"dx":-120},
- {"t":pd.Timestamp("2026-10-27 15:45",tz=tz),"y":29881.25,"label":"TUE: 269-303 held ON → 29881 spike into 903-932; 754-787 held all PM","dy":160,"dx":-130}]
+ {"t":pd.Timestamp("2026-10-27 15:45",tz=tz),"y":29881.25,"label":"TUE: 269-303 held ON → 29881 spike into 903-932; 754-787 held all PM","dy":160,"dx":-130},
+ {"t":pd.Timestamp("2026-10-28 16:00",tz=tz),"y":30178.0,"label":"WED FOMC: AH 30178, never saw 210-237 → thru Tue structure to 29674","dy":120,"dx":-150}]
 charts.weekly("NQ", nq_lv, NQ, s, e, "charts/2026-W44_NQ_weekly.png",
-              "NQ weekly  ·  10/12 – Tue 10/27  ·  week of 10/25 plan", profile_ranges=[w3, w4], marks=nq_marks, d5prof=NQ5)
+              "NQ weekly  ·  10/12 – Wed 10/28  ·  week of 10/25 plan", profile_ranges=[w3, w4], marks=nq_marks, d5prof=NQ5)
 print("ok")
