@@ -1,0 +1,736 @@
+<meta name="dash-one-writer">
+<style>
+.pl{max-width:76rem;margin-inline:auto;display:grid;gap:var(--cds-gap-xl);font-family:var(--font-anthropic-sans);color:var(--color-fg)}
+.pl b{font-weight:600}
+.pl-head{display:grid;gap:var(--cds-gap-sm)}
+.pl-title{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);line-height:1.15;margin:0;text-wrap:balance}
+.pl-lede{font-size:var(--cds-font-size-body);line-height:1.55;margin:0;max-width:72ch}
+.pl-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,14rem),1fr));gap:var(--cds-gap-md)}
+.pl-tile{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);display:grid;gap:var(--cds-gap-xs);align-content:start;min-width:0}
+.pl-tile-lab{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);line-height:1.35}
+.pl-tile-big{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);line-height:1.1;font-variant-numeric:tabular-nums}
+.pl-tile-sub{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);font-variant-numeric:tabular-nums;line-height:1.4}
+.pl-sec{display:grid;gap:var(--cds-gap-md)}
+.pl-sec-h{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:0;text-wrap:balance}
+.pl-card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);display:grid;gap:var(--cds-gap-sm);align-content:start;min-width:0}
+.pl-card-h{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:0;text-wrap:balance}
+.pl-note{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);line-height:1.5;margin:0;max-width:82ch}
+.pl-text{font-size:var(--cds-font-size-body);line-height:1.55;margin:0;max-width:74ch}
+.pl-grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,26rem),1fr));gap:var(--cds-gap-md)}
+.pl-chart{position:relative;width:100%;min-width:0}
+.pl-chart svg{display:block}
+.pl-h-reaction{min-height:290px}
+.pl-h-dots{min-height:930px}
+.pl-h-heat{min-height:250px}
+.pl-h-costs{min-height:300px}
+.pl-h-equity{min-height:320px}
+.pl-h-example{min-height:430px}
+.pl-h-anywhere{min-height:260px}
+.pl-h-exits{min-height:300px}
+.pl-tip{position:absolute;pointer-events:none;background:var(--cds-surface-popover);border:1px solid var(--cds-border);border-radius:var(--cds-radius);box-shadow:var(--cds-shadow-popover);padding:var(--cds-pad-xs) var(--cds-pad-sm);font-size:var(--cds-font-size-caption);line-height:1.45;white-space:nowrap;z-index:3;color:var(--color-fg);font-variant-numeric:tabular-nums}
+.pl-tip-h{color:var(--cds-text-secondary)}
+.pl-tip-sw{display:inline-block;width:.6rem;height:.6rem;border-radius:2px;margin-right:.35rem;vertical-align:-.03rem}
+.pl-tools{display:flex;flex-wrap:wrap;gap:var(--cds-gap-sm);align-items:center}
+.pl-seg{display:inline-flex;border:1px solid var(--color-border-line);border-radius:var(--cds-radius);overflow:hidden}
+.pl-seg-b{font:inherit;font-size:var(--cds-font-size-caption);padding:var(--cds-pad-xs) var(--cds-pad-sm);background:transparent;color:var(--color-fg-muted);border:0;cursor:pointer}
+.pl-seg-b[aria-pressed="true"]{background:var(--color-bg);color:var(--color-fg)}
+.pl-seg-b:focus-visible,.pl-sort:focus-visible,.pl-search:focus-visible{outline:2px solid var(--color-fg);outline-offset:1px}
+.pl-search{font:inherit;font-size:var(--cds-font-size-caption);padding:var(--cds-pad-xs) var(--cds-pad-sm);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);background:var(--color-bg);color:var(--color-fg);flex:1 1 12rem;max-width:22rem;min-width:0}
+.pl-legend{display:flex;flex-wrap:wrap;gap:var(--cds-gap-xs) var(--cds-gap-md);font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:0;padding:0;list-style:none}
+.pl-sw{display:inline-block;width:.7rem;height:.7rem;border-radius:2px;margin-right:.4rem;vertical-align:-.06rem;background:var(--cds-chart-muted)}
+.pl-tablewrap{overflow:auto;max-height:36rem;min-width:0}
+.pl-tablewrap-s{overflow-x:auto;min-width:0}
+.pl-table{border-collapse:collapse;width:100%;font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums}
+.pl-table th{position:sticky;top:0;background:var(--color-panel);text-align:right;font-weight:var(--cds-font-weight-medium);color:var(--color-fg-muted);padding:var(--cds-pad-xs) var(--cds-pad-sm);border-bottom:1px solid var(--color-border-line);white-space:nowrap;vertical-align:bottom}
+.pl-table td{text-align:right;padding:var(--cds-pad-xs) var(--cds-pad-sm);border-bottom:1px solid var(--color-border-line);white-space:nowrap}
+.pl-table .pl-l{text-align:left}
+.pl-table .pl-wrap{white-space:normal;min-width:14rem}
+.pl-sort{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:inherit}
+.pl-table th[aria-sort="ascending"] .pl-sort::after{content:" ↑"}
+.pl-table th[aria-sort="descending"] .pl-sort::after{content:" ↓"}
+.pl-neg{color:var(--color-bad)}
+.pl-pos{color:var(--color-ok)}
+.pl-list{margin:0;padding-left:1.15rem;display:grid;gap:var(--cds-gap-sm);font-size:var(--cds-font-size-body);line-height:1.55;max-width:80ch}
+.pl-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.92em}
+[data-dash-source-state=empty]{color:transparent}
+[data-dash-source-state=refreshing]{opacity:.5;transition:opacity var(--cds-dur-slow)}
+</style>
+
+<div class="pl">
+
+<header class="pl-head" id="top">
+  <h1 class="pl-title">PharmD level entry models</h1>
+  <p class="pl-lede">No entry trigger did meaningfully better than your current reclaim close at PharmD levels once fills and costs were realistic. I tested <b data-draw="num" data-source="scope" data-row="0" data-field="triggers" data-fmt="n">—</b> triggers, including RSI and MACD divergence on 5m to 60m bars. With realistic costs every trigger with at least <b data-draw="const" data-k="minn">—</b> trades lost money, and none beat a random entry at the same level by more than its error bars.</p>
+</header>
+
+<section class="pl-tiles" aria-label="Headline figures">
+  <div class="pl-tile">
+    <span class="pl-tile-lab">Your reclaim close, 5m: average R per trade</span>
+    <span class="pl-tile-big" data-draw="num" data-source="leaderboard" data-field="avgR" data-where="key=A|reclaim_5m" data-fmt="R">—</span>
+    <span class="pl-tile-sub"><span data-draw="num" data-source="leaderboard" data-field="n" data-where="key=A|reclaim_5m" data-fmt="n">—</span> trades · 95% CI <span data-draw="num" data-source="leaderboard" data-field="ci_lo" data-where="key=A|reclaim_5m" data-fmt="R">—</span> to <span data-draw="num" data-source="leaderboard" data-field="ci_hi" data-where="key=A|reclaim_5m" data-fmt="R">—</span></span>
+  </div>
+  <div class="pl-tile">
+    <span class="pl-tile-lab">MACD-line divergence, 5m, 2-bar confirm: average R per trade</span>
+    <span class="pl-tile-big" data-draw="num" data-source="leaderboard" data-field="avgR" data-where="key=A|macd_div_5m_R2" data-fmt="R">—</span>
+    <span class="pl-tile-sub"><span data-draw="num" data-source="leaderboard" data-field="n" data-where="key=A|macd_div_5m_R2" data-fmt="n">—</span> trades · 95% CI <span data-draw="num" data-source="leaderboard" data-field="ci_lo" data-where="key=A|macd_div_5m_R2" data-fmt="R">—</span> to <span data-draw="num" data-source="leaderboard" data-field="ci_hi" data-where="key=A|macd_div_5m_R2" data-fmt="R">—</span></span>
+  </div>
+  <div class="pl-tile">
+    <span class="pl-tile-lab">Random entry at the same levels: average R per trade</span>
+    <span class="pl-tile-big" data-draw="num" data-source="random_null" data-field="avgR" data-where="key=A|p0.25" data-fmt="R">—</span>
+    <span class="pl-tile-sub">Same levels, stops and targets; random timing</span>
+  </div>
+  <div class="pl-tile">
+    <span class="pl-tile-lab">Level fills where price moved one ATR15 your way first</span>
+    <span class="pl-tile-big" data-draw="num" data-source="level_reaction" data-field="p" data-where="key=A|1.0" data-fmt="p1">—</span>
+    <span class="pl-tile-sub">Random prices: <span data-draw="num" data-source="level_reaction" data-field="p" data-where="key=P|1.0" data-fmt="p1">—</span> · no information is <span data-draw="const" data-k="coin">—</span></span>
+  </div>
+</section>
+
+<section class="pl-sec" id="levels">
+  <h2 class="pl-sec-h">Do PharmD levels hold better than random prices?</h2>
+  <div class="pl-card">
+    <p class="pl-note">A resting limit at the level, filled when price trades a tick through it. Each point is the share of fills where price then moved k × ATR15 in the trade's direction before it moved k × ATR15 against it. Whiskers are 95% intervals. The random prices are plan levels shifted <span data-draw="num" data-source="scope" data-row="0" data-field="pseudo_lo" data-fmt="mult">—</span> to <span data-draw="num" data-source="scope" data-row="0" data-field="pseudo_hi" data-fmt="mult">—</span> ATR15 and kept only when clear of every real level, touched and filled the same way.</p>
+    <ul class="pl-legend">
+      <li><span class="pl-sw" data-sw="0"></span>PharmD trade levels</li>
+      <li><span class="pl-sw" data-sw="1"></span>All PharmD plan levels</li>
+      <li><span class="pl-sw" data-sw="m"></span>Random prices (control)</li>
+    </ul>
+    <div class="pl-chart pl-h-reaction dash-skeleton" data-draw="reaction" data-source="level_reaction" id="chart-reaction"></div>
+    <p class="pl-text">At one ATR15, fills at PharmD trade levels went your way first <b data-draw="num" data-source="level_reaction" data-field="p" data-where="key=A|1.0" data-fmt="p1">—</b> of the time and fills at all plan levels <b data-draw="num" data-source="level_reaction" data-field="p" data-where="key=B|1.0" data-fmt="p1">—</b>, against <b data-draw="num" data-source="level_reaction" data-field="p" data-where="key=P|1.0" data-fmt="p1">—</b> for random prices. The levels do not hold more often than chance, so any edge has to come from the trigger's timing.</p>
+  </div>
+</section>
+
+<section class="pl-sec" id="ranked">
+  <h2 class="pl-sec-h">Every trigger, ranked</h2>
+  <div class="pl-card">
+    <p class="pl-note">Average R per trade after costs (<span data-draw="num" data-source="scope" data-row="0" data-field="slip_ticks" data-fmt="n">—</span> ticks of slippage each way, $<span data-draw="num" data-source="scope" data-row="0" data-field="comm" data-fmt="f2">—</span> per micro round trip, $<span data-draw="num" data-source="scope" data-row="0" data-field="risk" data-fmt="n">—</span> risk a trade). Whiskers are 95% intervals that resample whole days. The shaded band spans the random-entry results. Your reclaim close and the 5m MACD-line divergence are highlighted.</p>
+    <div class="pl-tools">
+      <div class="pl-seg" role="group" aria-label="Which setups" data-redraw="dots">
+        <button type="button" class="pl-seg-b" value="A" aria-pressed="true" id="dots-a">Your PharmD fade trades</button>
+        <button type="button" class="pl-seg-b" value="B" aria-pressed="false" id="dots-b">Every plan level</button>
+      </div>
+    </div>
+    <div class="pl-chart pl-h-dots dash-skeleton" data-draw="dots" data-source="leaderboard random_null" id="chart-dots"></div>
+    <p class="pl-note">The 60m MACD-histogram divergence rests on <span data-draw="num" data-source="leaderboard" data-field="n" data-where="key=A|macdh_div_60m_R2" data-fmt="n">—</span> trades (2-bar confirm) and <span data-draw="num" data-source="leaderboard" data-field="n" data-where="key=A|macdh_div_60m_R1" data-fmt="n">—</span> trades (1-bar) on your setups. Its intervals run from a clear loss to a clear win, and both versions lose across every plan level (<span data-draw="num" data-source="leaderboard" data-field="avgR" data-where="key=B|macdh_div_60m_R2" data-fmt="R">—</span> and <span data-draw="num" data-source="leaderboard" data-field="avgR" data-where="key=B|macdh_div_60m_R1" data-fmt="R">—</span> R).</p>
+  </div>
+</section>
+
+<section class="pl-sec" id="timeframes">
+  <h2 class="pl-sec-h">RSI and MACD divergence by timeframe</h2>
+  <div class="pl-card">
+    <p class="pl-note">Average R per trade with the base exits and realistic costs; the small number in each cell is the trade count. Red cells lost, green cells made money.</p>
+    <div class="pl-grid2">
+      <div class="pl-chart pl-h-heat dash-skeleton" data-draw="heat" data-uni="A" data-source="leaderboard" id="chart-heat-a" aria-label="Your PharmD fade trades"></div>
+      <div class="pl-chart pl-h-heat dash-skeleton" data-draw="heat" data-uni="B" data-source="leaderboard" id="chart-heat-b" aria-label="Every plan level"></div>
+    </div>
+    <p class="pl-text">No oscillator or timeframe holds up in both tests. Some of the 30m and 60m cells look better on your trades, but they rest on small samples and they lose across every plan level.</p>
+  </div>
+</section>
+
+<section class="pl-sec" id="stacked">
+  <h2 class="pl-sec-h">Stacking timeframes</h2>
+  <div class="pl-card">
+    <p class="pl-note">Two signals at the same touch, entered on the later one, no more than an hour apart. "Then" means the higher-timeframe divergence had to come first.</p>
+    <div class="pl-tablewrap-s">
+      <table class="pl-table" data-source="mtf" data-row-key="key" id="table-mtf">
+        <thead><tr>
+          <th class="pl-l" data-field="universe">Setups</th>
+          <th class="pl-l" data-field="combo">Combination</th>
+          <th data-field="n">Trades</th>
+          <th data-field="win">Win rate</th>
+          <th data-field="avgR">Avg R</th>
+          <th data-field="ci_lo">95% CI low</th>
+          <th data-field="ci_hi">95% CI high</th>
+          <th data-field="fp1">Moved your way first</th>
+          <th data-field="h1R">Avg R, first half</th>
+          <th data-field="h2R">Avg R, second half</th>
+        </tr></thead>
+        <tbody data-draw="mtf_rows"></tbody>
+      </table>
+    </div>
+    <p class="pl-text">Confluence did not rescue it. The best combination, a 30m divergence followed by a 5m one, came out near zero in both tests and on a few hundred trades at most.</p>
+  </div>
+</section>
+
+<div class="pl-grid2">
+  <section class="pl-card" id="costs">
+    <h2 class="pl-card-h">What costs do</h2>
+    <p class="pl-note">The same trades, your PharmD fade setups, at three cost levels. Before costs most triggers make close to nothing, so friction decides the sign.</p>
+    <ul class="pl-legend">
+      <li><span class="pl-sw" data-sw="2"></span>No costs</li>
+      <li><span class="pl-sw" data-sw="1"></span><span data-draw="num" data-source="scope" data-row="0" data-field="light_slip_ticks" data-fmt="n">—</span> tick each way, $<span data-draw="num" data-source="scope" data-row="0" data-field="light_comm" data-fmt="f2">—</span></li>
+      <li><span class="pl-sw" data-sw="0"></span><span data-draw="num" data-source="scope" data-row="0" data-field="slip_ticks" data-fmt="n">—</span> ticks each way, $<span data-draw="num" data-source="scope" data-row="0" data-field="comm" data-fmt="f2">—</span></li>
+    </ul>
+    <div class="pl-chart pl-h-costs dash-skeleton" data-draw="costs" data-source="leaderboard random_null" id="chart-costs"></div>
+  </section>
+  <section class="pl-card" id="equity">
+    <h2 class="pl-card-h">Cumulative R on your PharmD trades</h2>
+    <p class="pl-note">Running sum of R per trade in date order, base exits, realistic costs.</p>
+    <ul class="pl-legend">
+      <li><span class="pl-sw" data-sw="0"></span>Reclaim close, 5m</li>
+      <li><span class="pl-sw" data-sw="1"></span>MACD-line divergence, 5m, 2-bar</li>
+      <li><span class="pl-sw" data-sw="m"></span>RSI divergence, 5m, 1-bar</li>
+      <li><span class="pl-sw" data-sw="m2"></span>Limit at the level</li>
+    </ul>
+    <div class="pl-chart pl-h-equity dash-skeleton" data-draw="equity" data-source="equity" id="chart-equity"></div>
+  </section>
+</div>
+
+<section class="pl-sec" id="example">
+  <h2 class="pl-sec-h">What a divergence entry looks like</h2>
+  <div class="pl-card">
+    <p class="pl-note"><span data-draw="num" data-source="example_trade" data-row="0" data-field="sym" data-fmt="x">—</span>, <span data-draw="num" data-source="example_trade" data-row="0" data-field="date" data-fmt="x">—</span>, PharmD's hold of <span data-draw="num" data-source="example_trade" data-row="0" data-field="level" data-fmt="f2">—</span>. Price undercut the earlier swing low (P1) at P2 while the MACD line made a higher low. The entry is the next 5m open after two bars held the low, the stop one tick under P2, the target PharmD's first level at least <span data-draw="num" data-source="scope" data-row="0" data-field="min_tgtR" data-fmt="mult">—</span>R away. This one hit its target for <span data-draw="num" data-source="example_trade" data-row="0" data-field="R" data-fmt="R">—</span> R. Most did not.</p>
+    <div class="pl-chart pl-h-example dash-skeleton" data-draw="example" data-source="example_bars example_trade" id="chart-example"></div>
+  </div>
+</section>
+
+<div class="pl-grid2">
+  <section class="pl-card" id="anywhere">
+    <h2 class="pl-card-h">The same triggers away from the levels</h2>
+    <p class="pl-note">Every signal of each trigger in the same sessions, <span data-draw="num" data-source="scope" data-row="0" data-field="anywhere_signals" data-fmt="n">—</span> in all, split by whether its swing low or high sat at a PharmD level. The share where price moved one ATR15 the trade's way first.</p>
+    <ul class="pl-legend">
+      <li><span class="pl-sw" data-sw="0"></span>At a PharmD level</li>
+      <li><span class="pl-sw" data-sw="m"></span>Away from levels</li>
+    </ul>
+    <div class="pl-chart pl-h-anywhere dash-skeleton" data-draw="anywhere" data-source="anywhere" id="chart-anywhere"></div>
+    <p class="pl-note">Divergences at a level moved the right way first a little more often than divergences elsewhere, but both stayed under <span data-draw="const" data-k="coin">—</span>.</p>
+  </section>
+  <section class="pl-card" id="exits">
+    <h2 class="pl-card-h">Other exits</h2>
+    <p class="pl-note">Average R per trade on your PharmD trades for six exit sets. Changing the stop floor, adding breakeven or using fixed targets moves results a little and never makes them reliably positive.</p>
+    <div class="pl-chart pl-h-exits dash-skeleton" data-draw="exits" data-uni="A" data-source="exits" id="chart-exits"></div>
+  </section>
+</div>
+
+<section class="pl-sec" id="all">
+  <h2 class="pl-sec-h">All results</h2>
+  <div class="pl-card">
+    <div class="pl-tools">
+      <div class="pl-seg" role="group" aria-label="Which setups" data-redraw="board_rows">
+        <button type="button" class="pl-seg-b" value="A" aria-pressed="true" id="all-a">Your PharmD fade trades</button>
+        <button type="button" class="pl-seg-b" value="B" aria-pressed="false" id="all-b">Every plan level</button>
+      </div>
+      <input type="search" class="pl-search" id="all-search" placeholder="Filter triggers, e.g. MACD or 15m" aria-label="Filter triggers">
+    </div>
+    <div class="pl-tablewrap">
+      <table class="pl-table" data-source="leaderboard" data-row-key="key" id="table-all">
+        <thead><tr>
+          <th class="pl-l" data-field="trigger" aria-sort="none"><button type="button" class="pl-sort">Trigger</button></th>
+          <th data-field="n" aria-sort="none"><button type="button" class="pl-sort">Trades</button></th>
+          <th data-field="win" aria-sort="none"><button type="button" class="pl-sort">Win rate</button></th>
+          <th data-field="avgR" aria-sort="descending"><button type="button" class="pl-sort">Avg R</button></th>
+          <th data-field="ci_lo" aria-sort="none"><button type="button" class="pl-sort">95% CI low</button></th>
+          <th data-field="ci_hi" aria-sort="none"><button type="button" class="pl-sort">95% CI high</button></th>
+          <th data-field="pf" aria-sort="none"><button type="button" class="pl-sort">Profit factor</button></th>
+          <th data-field="totalR" aria-sort="none"><button type="button" class="pl-sort">Total R</button></th>
+          <th data-field="maxddR" aria-sort="none"><button type="button" class="pl-sort">Max drawdown R</button></th>
+          <th data-field="fp1" aria-sort="none"><button type="button" class="pl-sort">Moved your way first</button></th>
+          <th data-field="h1R" aria-sort="none"><button type="button" class="pl-sort">First half</button></th>
+          <th data-field="h2R" aria-sort="none"><button type="button" class="pl-sort">Second half</button></th>
+          <th data-field="esR" aria-sort="none"><button type="button" class="pl-sort">ES</button></th>
+          <th data-field="nqR" aria-sort="none"><button type="button" class="pl-sort">NQ</button></th>
+          <th data-field="rthR" aria-sort="none"><button type="button" class="pl-sort">RTH</button></th>
+          <th data-field="ethR" aria-sort="none"><button type="button" class="pl-sort">Overnight</button></th>
+          <th data-field="longR" aria-sort="none"><button type="button" class="pl-sort">Longs</button></th>
+          <th data-field="shortR" aria-sort="none"><button type="button" class="pl-sort">Shorts</button></th>
+          <th data-field="lightR" aria-sort="none"><button type="button" class="pl-sort">Light costs</button></th>
+          <th data-field="grossR" aria-sort="none"><button type="button" class="pl-sort">No costs</button></th>
+          <th data-field="stop_atr5" aria-sort="none"><button type="button" class="pl-sort">Stop, ATR5</button></th>
+        </tr></thead>
+        <tbody data-draw="board_rows"></tbody>
+      </table>
+    </div>
+    <p class="pl-note">Avg R columns by slice (halves, ES/NQ, RTH/overnight, longs/shorts) use the realistic costs. "Moved your way first" is the share of entries where price moved one ATR15 in the trade's direction before one ATR15 against it.</p>
+  </div>
+</section>
+
+<div class="pl-grid2">
+  <section class="pl-card" id="method">
+    <h2 class="pl-card-h">How it was tested</h2>
+    <ul class="pl-list">
+      <li><b data-draw="num" data-source="scope" data-row="0" data-field="plan_days" data-fmt="n">—</b> plan days from <span data-draw="num" data-source="scope" data-row="0" data-field="first_day" data-fmt="x">—</span> to <span data-draw="num" data-source="scope" data-row="0" data-field="last_day" data-fmt="x">—</span>: your transcribed PharmD letters and the per-contract ES and NQ 5m bars in pharmd-bars, never spliced across a roll. Levels and symbolic refs are resolved on the contract the letter quotes.</li>
+      <li>Your PharmD fade trades (holds, LBAFs, LAAFs, failed reclaims): <span data-draw="num" data-source="scope" data-row="0" data-field="fade_setups" data-fmt="n">—</span> setups, <span data-draw="num" data-source="scope" data-row="0" data-field="fade_touched" data-fmt="n">—</span> touched after the letter was posted. Every plan level, faded from the side price came from: <span data-draw="num" data-source="scope" data-row="0" data-field="level_setups" data-fmt="n">—</span> setups, <span data-draw="num" data-source="scope" data-row="0" data-field="level_touched" data-fmt="n">—</span> touched.</li>
+      <li>Entries from the letter's posting time to <span data-draw="num" data-source="scope" data-row="0" data-field="cutoff" data-fmt="x">—</span> ET, flat at the <span data-draw="num" data-source="scope" data-row="0" data-field="flat" data-fmt="x">—</span> bar's close, one trade per setup per trigger.</li>
+      <li>A trigger is known only at the close of its own bar; the order goes in at the next 5m open plus <span data-draw="num" data-source="scope" data-row="0" data-field="slip_ticks" data-fmt="n">—</span> ticks. A resting limit fills only when price trades a tick through it. Stops sit one tick past the trigger's swing low or high, never closer than <span data-draw="num" data-source="scope" data-row="0" data-field="stop_floor" data-fmt="mult">—</span> × ATR5, and a bar that opens through the stop fills at its open.</li>
+      <li>Target: PharmD's first target at least <span data-draw="num" data-source="scope" data-row="0" data-field="min_tgtR" data-fmt="mult">—</span>R away; a trade with no target at <span data-draw="num" data-source="scope" data-row="0" data-field="skip_tgtR" data-fmt="mult">—</span>R or more is skipped, as in your rule. Targets need a tick of trade-through. The stop is checked before the target inside a bar.</li>
+      <li>At the level means the swing low or high sits no more than <span data-draw="num" data-source="scope" data-row="0" data-field="loc_depth" data-fmt="mult">—</span> × ATR5 past the far edge and no more than <span data-draw="num" data-source="scope" data-row="0" data-field="loc_tol" data-fmt="mult">—</span> × ATR5 short of the near edge.</li>
+      <li>Divergence: a swing low that undercuts the previous swing low (the lowest bar of five on each side), <span data-draw="num" data-source="scope" data-row="0" data-field="div_range_lo" data-fmt="n">—</span> to <span data-draw="num" data-source="scope" data-row="0" data-field="div_range_hi" data-fmt="n">—</span> bars back, while the oscillator makes a higher low; mirrored for shorts. RSI(14), the MACD(12,26,9) line and its histogram, confirmed by one or two bars that hold the low.</li>
+      <li>Random entry: at each 5m bar at the level, enter with probability <span data-draw="num" data-source="scope" data-row="0" data-field="null_p" data-fmt="mult">—</span>, first hit taken, same stops and targets. It needs no hindsight, so it is a fair benchmark for timing.</li>
+      <li>First half before <span data-draw="num" data-source="scope" data-row="0" data-field="split_day" data-fmt="x">—</span>, second half from that day.</li>
+    </ul>
+  </section>
+  <section class="pl-card" id="limits">
+    <h2 class="pl-card-h">Limits and next tests</h2>
+    <ul class="pl-list">
+      <li>5m bars only. The request to open your C:\SierraChart folder was blocked in this session, so 1m and 2m divergences and order-flow triggers (delta divergence, absorption) were not tested.</li>
+      <li>Most first touches happen overnight: <span data-draw="num" data-source="scope" data-row="0" data-field="touched_rth_share" data-fmt="p0">—</span> of PharmD fade touches came in RTH.</li>
+      <li>There are no letters for <span data-draw="num" data-source="scope" data-row="0" data-field="gap_letters" data-fmt="x">—</span> and no NQ bars for the <span data-draw="num" data-source="scope" data-row="0" data-field="gap_nq" data-fmt="x">—</span> contract. Posting times for letters from <span data-draw="num" data-source="scope" data-row="0" data-field="assumed_from" data-fmt="x">—</span> on were assumed at <span data-draw="num" data-source="scope" data-row="0" data-field="assumed_post" data-fmt="x">—</span>.</li>
+      <li>PharmD's grades did not help: A-graded trades did worse than ungraded ones across the pooled triggers (table below).</li>
+      <li>Next: order flow at the level from your Sierra tick data, the one input this test could not see; then 1m divergence from the same data. Both need the C:\SierraChart folder connected.</li>
+    </ul>
+    <div class="pl-tablewrap-s">
+      <table class="pl-table" data-source="grades" data-row-key="key" id="table-grades">
+        <thead><tr>
+          <th class="pl-l" data-field="grade">PharmD grade</th>
+          <th data-field="n">Trades, all triggers</th>
+          <th data-field="avgR">Avg R</th>
+          <th data-field="fp1">Moved your way first</th>
+        </tr></thead>
+        <tbody data-draw="grade_rows"></tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+</div>
+
+<script>
+(() => {
+  const fR = d3.format('+.2f'), fP0 = d3.format('.0%'), fP1 = d3.format('.1%'), fN = d3.format(','), f2 = d3.format('.2f'), fM = d3.format('.2~f');
+  const FMT = { R: fR, p0: fP0, p1: fP1, n: fN, f2: f2, mult: fM, x: (v) => String(v) };
+  const rows = (id) => { const d = dash.data(id); return d.status === 'ok' && Array.isArray(d.data) ? d.data : null; };
+  const pick = (el) => {
+    const rs = rows(el.dataset.source); if (!rs) return undefined;
+    if (el.dataset.row != null) return rs[+el.dataset.row];
+    const w = el.dataset.where; if (!w) return rs[0];
+    const conds = w.split('&').map((s) => { const i = s.indexOf('='); return [decodeURIComponent(s.slice(0, i)), decodeURIComponent(s.slice(i + 1))]; });
+    return rs.find((r) => conds.every(([c, v]) => String(r[c]) === v));
+  };
+  const color = (k) => (k === 'm' || k === 'm2') ? 'var(--cds-chart-muted)' : dash.colors[+k];
+  const signCls = (v) => v == null ? '' : (v < 0 ? 'pl-neg' : (v > 0 ? 'pl-pos' : ''));
+  const svgIn = (el, W, H) => d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img');
+  const textW = (svg, strings, size) => {
+    const t = svg.append('text').style('font-size', size || 'var(--cds-font-size-caption)').style('font-family', 'var(--font-anthropic-sans)');
+    let w = 0; for (const s of strings) { t.text(s); w = Math.max(w, t.node().getComputedTextLength()); }
+    t.remove(); return w;
+  };
+  const styleAxis = (g) => {
+    g.attr('font-size', null).attr('font-family', null);
+    g.selectAll('text').style('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)');
+    g.selectAll('.domain').style('stroke', 'var(--cds-chart-axis)');
+    g.selectAll('.tick line').style('stroke', 'var(--cds-chart-grid)');
+    return g;
+  };
+  const tip = (el) => { const t = document.createElement('div'); t.className = 'pl-tip'; t.hidden = true; el.appendChild(t); return t; };
+  const showTip = (el, t, x, y, head, lines) => {
+    t.replaceChildren();
+    const h = document.createElement('div'); h.className = 'pl-tip-h'; h.textContent = head; t.appendChild(h);
+    for (const ln of lines) {
+      const d = document.createElement('div');
+      if (ln.c) { const s = document.createElement('span'); s.className = 'pl-tip-sw'; s.style.background = ln.c; d.appendChild(s); }
+      d.appendChild(document.createTextNode(ln.t)); t.appendChild(d);
+    }
+    t.hidden = false;
+    const bw = el.clientWidth, tw = t.offsetWidth, th = t.offsetHeight;
+    let left = x + 12; if (left + tw > bw) left = Math.max(0, x - tw - 12);
+    let top = y - th - 8; if (top < 0) top = y + 12;
+    t.style.left = left + 'px'; t.style.top = top + 'px';
+  };
+  const ready = (el, ok) => { el.classList.toggle('dash-skeleton', !ok); };
+  const CONST = { coin: 0.5, minn: 100 };
+  window.PL = { CONST, FMT, rows, pick, color, signCls, svgIn, textW, styleAxis, tip, showTip, ready, fR, fP0, fP1, fN };
+})();
+</script>
+
+<script>
+document.querySelectorAll('[data-sw]').forEach((el) => {
+  const k = el.dataset.sw;
+  if (k === 'm2') { el.style.background = 'transparent'; el.style.border = '2px dashed var(--cds-chart-muted)'; }
+  else el.style.background = PL.color(k);
+});
+document.querySelectorAll('.pl-seg').forEach((seg) => {
+  seg.querySelectorAll('.pl-seg-b').forEach((b) => b.addEventListener('click', () => {
+    seg.querySelectorAll('.pl-seg-b').forEach((o) => o.setAttribute('aria-pressed', String(o === b)));
+    dash.draw(seg.dataset.redraw);
+  }));
+});
+document.querySelectorAll('#table-all th .pl-sort').forEach((btn) => btn.addEventListener('click', () => {
+  const th = btn.closest('th'); const cur = th.getAttribute('aria-sort');
+  const next = cur === 'descending' ? 'ascending' : 'descending';
+  document.querySelectorAll('#table-all th').forEach((o) => o.setAttribute('aria-sort', 'none'));
+  th.setAttribute('aria-sort', next);
+  dash.draw('board_rows');
+}));
+document.querySelectorAll('#all-search').forEach((inp) => inp.addEventListener('input', () => dash.draw('board_rows')));
+</script>
+
+<script>
+dash.draw('const', (el) => {
+  const v = PL.CONST[el.dataset.k];
+  el.textContent = v == null ? '—' : (el.dataset.k === 'coin' ? PL.fP0(v) : PL.fN(v));
+});
+
+dash.draw('num', (el) => {
+  const r = PL.pick(el); const v = r ? r[el.dataset.field] : undefined;
+  el.textContent = (v == null || v === '') ? '—' : (PL.FMT[el.dataset.fmt] || String)(v);
+});
+
+dash.draw('reaction', (el) => {
+  const rs = PL.rows('level_reaction');
+  el.replaceChildren(); PL.ready(el, !!rs); if (!rs) return;
+  const W = Math.max(320, el.clientWidth || 640), H = 290;
+  const sets = [['PharmD trade levels', '0'], ['All PharmD levels', '1'], ['Random prices (control)', 'm']];
+  const svg = PL.svgIn(el, W, H);
+  const yfmt = d3.format('.0%');
+  const lo = Math.min(0.4, d3.min(rs, (r) => r.lo)), hi = Math.max(0.6, d3.max(rs, (r) => r.hi));
+  const y0 = d3.scaleLinear([lo, hi], [H - 36, 10]).nice();
+  const ml = PL.textW(svg, y0.ticks(5).map(yfmt)) + 12;
+  const x = d3.scalePoint(['0.5', '1', '1.5', '2', '3'], [ml + 18, W - 18]);
+  const y = y0;
+  svg.append('g').attr('transform', `translate(${ml},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(yfmt).tickSize(-(W - ml - 6))).call(PL.styleAxis).call((g) => g.select('.domain').remove());
+  svg.append('g').attr('transform', `translate(0,${H - 36})`).call(d3.axisBottom(x).tickFormat((d) => `${d} × ATR15`)).call(PL.styleAxis);
+  svg.append('line').attr('x1', ml).attr('x2', W - 6).attr('y1', y(PL.CONST.coin)).attr('y2', y(PL.CONST.coin)).style('stroke', 'var(--cds-chart-reference)').style('stroke-dasharray', '4 3');
+  const kx = (k) => x(String(+k));
+  const pts = [];
+  sets.forEach(([name, ck], si) => {
+    const s = rs.filter((r) => r.set === name).sort((a, b) => a.k - b.k);
+    const off = (si - 1) * 6, c = PL.color(ck);
+    svg.append('path').attr('d', d3.line().x((r) => kx(r.k) + off).y((r) => y(r.p))(s)).style('fill', 'none').style('stroke', c).style('stroke-width', 2).style('stroke-linecap', 'round').style('stroke-linejoin', 'round').style('stroke-dasharray', ck === 'm' ? '5 4' : null);
+    s.forEach((r) => {
+      svg.append('line').attr('x1', kx(r.k) + off).attr('x2', kx(r.k) + off).attr('y1', y(r.lo)).attr('y2', y(r.hi)).style('stroke', c).style('stroke-width', 1.5);
+      svg.append('circle').attr('cx', kx(r.k) + off).attr('cy', y(r.p)).attr('r', 3.5).style('fill', c);
+      pts.push({ x: kx(r.k) + off, y: y(r.p), r, c, name });
+    });
+  });
+  const t = PL.tip(el);
+  svg.on('pointermove', (ev) => {
+    const [mx, my] = d3.pointer(ev);
+    const p = d3.least(pts, (q) => (q.x - mx) ** 2 + (q.y - my) ** 2);
+    if (!p) return;
+    PL.showTip(el, t, p.x * el.clientWidth / W, p.y * el.clientWidth / W, `${p.name} · ${p.r.k} × ATR15`,
+      [{ c: p.c, t: `Your way first ${PL.fP1(p.r.p)} (${PL.fP1(p.r.lo)} to ${PL.fP1(p.r.hi)})` }, { t: `${PL.fN(p.r.n)} fills` }]);
+  }).on('pointerleave', () => { t.hidden = true; });
+});
+
+dash.draw('dots', (el) => {
+  const L = PL.rows('leaderboard'), N = PL.rows('random_null');
+  el.replaceChildren(); PL.ready(el, !!(L && N)); if (!L || !N) return;
+  const btn = document.querySelector('.pl-seg[data-redraw="dots"] .pl-seg-b[aria-pressed="true"]');
+  const U = btn ? btn.value : 'A';
+  const rs = L.filter((r) => r.uni === U && r.avgR != null).sort((a, b) => d3.descending(a.avgR, b.avgR));
+  const nul = N.filter((r) => r.uni === U);
+  const hl = new Set([`${U}|reclaim_5m`, `${U}|macd_div_5m_R2`]);
+  const W = Math.max(340, el.clientWidth || 720), rowH = 16, top = 8, H = top + rs.length * rowH + 34;
+  const svg = PL.svgIn(el, W, H);
+  const narrow = W < 560;
+  const labels = rs.map((r) => r.trigger);
+  const ml = Math.min(PL.textW(svg, labels) + 10, narrow ? W * 0.48 : 300);
+  const vals = rs.map((r) => PL.fR(r.avgR) + ' · n ' + PL.fN(r.n));
+  const mr = narrow ? 8 : PL.textW(svg, vals) + 14;
+  const lo = Math.min(d3.min(rs, (r) => r.ci_lo ?? r.avgR), -0.5), hi = Math.max(d3.max(rs, (r) => r.ci_hi ?? r.avgR), 0.2);
+  const x = d3.scaleLinear([lo, hi], [ml, W - mr]).nice();
+  const y = d3.scaleBand(rs.map((r) => r.key), [top, top + rs.length * rowH]).padding(0.2);
+  svg.append('g').attr('transform', `translate(0,${top + rs.length * rowH})`).call(d3.axisBottom(x).ticks(narrow ? 4 : 7).tickFormat(d3.format('+.1f')).tickSize(-(rs.length * rowH))).call(PL.styleAxis).call((g) => g.select('.domain').remove());
+  const nlo = d3.min(nul, (r) => r.avgR), nhi = d3.max(nul, (r) => r.avgR);
+  svg.append('rect').attr('x', x(nlo)).attr('width', Math.max(2, x(nhi) - x(nlo))).attr('y', top).attr('height', rs.length * rowH).style('fill', 'var(--cds-chart-reference)').style('opacity', 0.18);
+  svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', top).attr('y2', top + rs.length * rowH).style('stroke', 'var(--cds-chart-axis)');
+  const g = svg.append('g');
+  rs.forEach((r) => {
+    const yy = y(r.key) + y.bandwidth() / 2, on = hl.has(r.key);
+    const c = on ? (r.key.endsWith('reclaim_5m') ? dash.colors[0] : dash.colors[1]) : 'var(--cds-chart-muted)';
+    const lab = r.trigger.length > 46 && narrow ? r.trigger.slice(0, 44) + '…' : r.trigger;
+    g.append('text').attr('x', ml - 8).attr('y', yy).attr('dy', '0.32em').attr('text-anchor', 'end').text(lab)
+      .style('font-size', 'var(--cds-font-size-caption)').style('fill', on ? 'var(--color-fg)' : 'var(--color-fg-muted)').style('font-weight', on ? 600 : null);
+    if (r.ci_lo != null && r.ci_hi != null) g.append('line').attr('x1', x(Math.max(lo, r.ci_lo))).attr('x2', x(Math.min(hi, r.ci_hi))).attr('y1', yy).attr('y2', yy).style('stroke', c).style('stroke-width', on ? 2 : 1.25).style('stroke-linecap', 'round');
+    g.append('circle').attr('cx', x(r.avgR)).attr('cy', yy).attr('r', on ? 4.5 : 3.5).style('fill', c);
+    if (!narrow) g.append('text').attr('x', W - mr + 8).attr('y', yy).attr('dy', '0.32em').text(PL.fR(r.avgR) + ' · n ' + PL.fN(r.n))
+      .style('font-size', 'var(--cds-font-size-caption)').style('fill', 'var(--color-fg-muted)').style('font-variant-numeric', 'tabular-nums');
+  });
+  const t = PL.tip(el);
+  svg.on('pointermove', (ev) => {
+    const [, my] = d3.pointer(ev);
+    const i = Math.floor((my - top) / rowH); const r = rs[i];
+    if (!r) { t.hidden = true; return; }
+    const s = el.clientWidth / W;
+    PL.showTip(el, t, x(r.avgR) * s, (y(r.key) + y.bandwidth() / 2) * s, r.trigger, [
+      { t: `Avg R ${PL.fR(r.avgR)} (95% CI ${PL.fR(r.ci_lo)} to ${PL.fR(r.ci_hi)})` },
+      { t: `${PL.fN(r.n)} trades · win rate ${PL.fP0(r.win)} · profit factor ${r.pf == null ? '—' : d3.format('.2f')(r.pf)}` },
+      { t: `First half ${PL.fR(r.h1R)} · second half ${PL.fR(r.h2R)}` }]);
+  }).on('pointerleave', () => { t.hidden = true; });
+});
+
+dash.draw('heat', (el) => {
+  const L = PL.rows('leaderboard');
+  el.replaceChildren(); PL.ready(el, !!L); if (!L) return;
+  const U = el.dataset.uni || 'A';
+  const by = new Map(L.filter((r) => r.uni === U).map((r) => [r.code, r]));
+  const rowsDef = [['RSI div · 1-bar', 'rsi_div_', '_R1'], ['RSI div · 2-bar', 'rsi_div_', '_R2'], ['RSI div from extreme · 1-bar', 'rsi_div_ext_', '_R1'],
+    ['MACD-line div · 1-bar', 'macd_div_', '_R1'], ['MACD-line div · 2-bar', 'macd_div_', '_R2'], ['MACD-hist div · 1-bar', 'macdh_div_', '_R1'], ['MACD-hist div · 2-bar', 'macdh_div_', '_R2']];
+  const tfs = ['5m', '10m', '15m', '30m', '60m'];
+  const W = Math.max(300, el.clientWidth || 460), top = 30, rowH = 30, H = top + rowsDef.length * rowH + 6;
+  const svg = PL.svgIn(el, W, H);
+  const ml = PL.textW(svg, rowsDef.map((d) => d[0])) + 10;
+  const cw = (W - ml) / tfs.length;
+  const title = U === 'A' ? 'Your PharmD fade trades' : 'Every plan level';
+  svg.append('text').attr('x', 0).attr('y', 12).text(title).style('font-size', 'var(--cds-font-size-caption)').style('fill', 'var(--color-fg)').style('font-weight', 600);
+  tfs.forEach((tf, j) => svg.append('text').attr('x', ml + j * cw + cw / 2).attr('y', top - 6).attr('text-anchor', 'middle').text(tf).style('font-size', 'var(--cds-font-size-caption)').style('fill', 'var(--color-fg-muted)'));
+  const cells = [];
+  rowsDef.forEach(([lab, pre, suf], i) => {
+    const yy = top + i * rowH;
+    svg.append('text').attr('x', ml - 8).attr('y', yy + rowH / 2).attr('dy', '0.32em').attr('text-anchor', 'end').text(lab).style('font-size', 'var(--cds-font-size-caption)').style('fill', 'var(--color-fg-muted)');
+    tfs.forEach((tf, j) => {
+      const r = by.get(`${pre}${tf}${suf}`);
+      const xx = ml + j * cw;
+      const v = r ? r.avgR : null;
+      const a = v == null ? 0 : Math.min(1, Math.abs(v) / 0.3) * 0.55 + 0.08;
+      svg.append('rect').attr('x', xx + 1).attr('y', yy + 1).attr('width', cw - 2).attr('height', rowH - 2).attr('rx', 3)
+        .style('fill', v == null ? 'var(--color-bg)' : (v < 0 ? 'var(--color-bad)' : 'var(--color-ok)')).style('fill-opacity', v == null ? 1 : a);
+      if (r) {
+        svg.append('text').attr('x', xx + cw / 2).attr('y', yy + rowH / 2 - 3).attr('text-anchor', 'middle').attr('dy', '0.32em').text(PL.fR(v)).style('font-size', 'var(--cds-font-size-caption)').style('fill', 'var(--color-fg)').style('font-variant-numeric', 'tabular-nums');
+        svg.append('text').attr('x', xx + cw / 2).attr('y', yy + rowH / 2 + 9).attr('text-anchor', 'middle').attr('dy', '0.32em').text(PL.fN(r.n)).style('font-size', '10px').style('fill', 'var(--color-fg-muted)').style('font-variant-numeric', 'tabular-nums');
+        cells.push({ x: xx, y: yy, w: cw, h: rowH, r });
+      }
+    });
+  });
+  const t = PL.tip(el);
+  svg.on('pointermove', (ev) => {
+    const [mx, my] = d3.pointer(ev);
+    const c = cells.find((q) => mx >= q.x && mx < q.x + q.w && my >= q.y && my < q.y + q.h);
+    if (!c) { t.hidden = true; return; }
+    const s = el.clientWidth / W, r = c.r;
+    PL.showTip(el, t, (c.x + c.w / 2) * s, c.y * s, r.trigger, [
+      { t: `Avg R ${PL.fR(r.avgR)} (95% CI ${PL.fR(r.ci_lo)} to ${PL.fR(r.ci_hi)})` }, { t: `${PL.fN(r.n)} trades · win rate ${PL.fP0(r.win)}` },
+      { t: `First half ${PL.fR(r.h1R)} · second half ${PL.fR(r.h2R)}` }]);
+  }).on('pointerleave', () => { t.hidden = true; });
+});
+
+dash.draw('mtf_rows', (tb) => {
+  const rs = PL.rows('mtf'); tb.replaceChildren(); if (!rs) return;
+  const sorted = rs.slice().sort((a, b) => d3.ascending(a.uni, b.uni) || d3.descending(a.avgR, b.avgR));
+  for (const r of sorted) {
+    const tr = document.createElement('tr'); tr.dataset.key = r.key;
+    const cells = [[r.universe, 'pl-l'], [r.combo, 'pl-l pl-wrap'], [PL.fN(r.n)], [PL.fP0(r.win)], [PL.fR(r.avgR), PL.signCls(r.avgR)], [PL.fR(r.ci_lo)], [PL.fR(r.ci_hi)], [PL.fP0(r.fp1)],
+      [r.h1R == null ? '—' : PL.fR(r.h1R), PL.signCls(r.h1R)], [r.h2R == null ? '—' : PL.fR(r.h2R), PL.signCls(r.h2R)]];
+    for (const [txt, cls] of cells) { const td = document.createElement('td'); td.textContent = txt; if (cls) td.className = cls; tr.appendChild(td); }
+    tb.appendChild(tr);
+  }
+});
+
+dash.draw('costs', (el) => {
+  const L = PL.rows('leaderboard'), N = PL.rows('random_null');
+  el.replaceChildren(); PL.ready(el, !!(L && N)); if (!L || !N) return;
+  const codes = ['reclaim_5m', 'macd_div_5m_R2', 'macd_div_10m_R2', 'rsi_div_5m_R1', 'macdh_div_5m_R1', 'engulf_5m', 'touch_limit'];
+  const by = new Map(L.filter((r) => r.uni === 'A').map((r) => [r.code, r]));
+  const items = codes.map((c) => by.get(c)).filter(Boolean).map((r) => ({ name: r.trigger, g: r.grossR, l: r.lightR, c: r.avgR }));
+  const nr = N.find((r) => r.key === 'A|p0.25');
+  if (nr) items.push({ name: 'Random entry at the level', g: nr.grossR, l: nr.lightR, c: nr.avgR });
+  const W = Math.max(300, el.clientWidth || 460), rowH = 34, top = 6, H = top + items.length * rowH + 30;
+  const svg = PL.svgIn(el, W, H);
+  const ml = Math.min(PL.textW(svg, items.map((d) => d.name)) + 10, W * 0.5);
+  const all = items.flatMap((d) => [d.g, d.l, d.c]).filter((v) => v != null);
+  const x = d3.scaleLinear([Math.min(-0.3, d3.min(all)), Math.max(0.2, d3.max(all))], [ml, W - 10]).nice();
+  svg.append('g').attr('transform', `translate(0,${top + items.length * rowH})`).call(d3.axisBottom(x).ticks(5).tickFormat(d3.format('+.1f')).tickSize(-(items.length * rowH))).call(PL.styleAxis).call((g) => g.select('.domain').remove());
+  svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', top).attr('y2', top + items.length * rowH).style('stroke', 'var(--cds-chart-axis)');
+  const pts = [];
+  items.forEach((d, i) => {
+    const yy = top + i * rowH + rowH / 2;
+    const lab = d.name.length > 40 && W < 460 ? d.name.slice(0, 38) + '…' : d.name;
+    svg.append('text').attr('x', ml - 8).attr('y', yy).attr('dy', '0.32em').attr('text-anchor', 'end').text(lab).style('font-size', 'var(--cds-font-size-caption)').style('fill', 'var(--color-fg-muted)');
+    const vs = [d.g, d.l, d.c].filter((v) => v != null);
+    svg.append('line').attr('x1', x(d3.min(vs))).attr('x2', x(d3.max(vs))).attr('y1', yy).attr('y2', yy).style('stroke', 'var(--cds-chart-muted)').style('stroke-width', 2);
+    [[d.g, dash.colors[2], 'No costs'], [d.l, dash.colors[1], 'Light costs'], [d.c, dash.colors[0], 'Realistic costs']].forEach(([v, c, nm]) => {
+      if (v == null) return;
+      svg.append('circle').attr('cx', x(v)).attr('cy', yy).attr('r', 4.5).style('fill', c);
+      pts.push({ x: x(v), y: yy, v, c, nm, name: d.name, d });
+    });
+  });
+  const t = PL.tip(el);
+  svg.on('pointermove', (ev) => {
+    const [, my] = d3.pointer(ev);
+    const i = Math.floor((my - top) / rowH); const d = items[i];
+    if (!d) { t.hidden = true; return; }
+    const s = el.clientWidth / W;
+    PL.showTip(el, t, x(d.c) * s, (top + i * rowH + rowH / 2) * s, d.name, [
+      { c: dash.colors[2], t: `No costs ${PL.fR(d.g)}` }, { c: dash.colors[1], t: `Light costs ${PL.fR(d.l)}` }, { c: dash.colors[0], t: `Realistic costs ${PL.fR(d.c)}` }]);
+  }).on('pointerleave', () => { t.hidden = true; });
+});
+
+dash.draw('equity', (el) => {
+  const rs = PL.rows('equity');
+  el.replaceChildren(); PL.ready(el, !!rs); if (!rs) return;
+  const parse = d3.utcParse('%Y-%m-%d');
+  const order = [['reclaim_5m', dash.colors[0], null], ['macd_div_5m_R2', dash.colors[1], null], ['rsi_div_5m_R1', 'var(--cds-chart-muted)', null], ['touch_limit', 'var(--cds-chart-muted)', '5 4']];
+  const series = order.map(([code, c, dash_]) => ({ code, c, dash_, pts: rs.filter((r) => r.code === code).sort((a, b) => a.i - b.i).map((r) => ({ t: parse(r.day), v: r.cumR, name: r.trigger })) })).filter((s) => s.pts.length);
+  const W = Math.max(300, el.clientWidth || 460), H = 320;
+  const svg = PL.svgIn(el, W, H);
+  const all = series.flatMap((s) => s.pts);
+  const y = d3.scaleLinear([Math.min(0, d3.min(all, (p) => p.v)), Math.max(0, d3.max(all, (p) => p.v))], [H - 30, 10]).nice();
+  const ml = PL.textW(svg, y.ticks(5).map(d3.format('+,'))) + 12;
+  const x = d3.scaleUtc(d3.extent(all, (p) => p.t), [ml, W - 12]);
+  svg.append('g').attr('transform', `translate(${ml},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(d3.format('+,')).tickSize(-(W - ml - 12))).call(PL.styleAxis).call((g) => g.select('.domain').remove());
+  svg.append('g').attr('transform', `translate(0,${H - 30})`).call(d3.axisBottom(x).ticks(W < 460 ? 4 : 7).tickFormat(d3.utcFormat('%b %y'))).call(PL.styleAxis);
+  svg.append('line').attr('x1', ml).attr('x2', W - 12).attr('y1', y(0)).attr('y2', y(0)).style('stroke', 'var(--cds-chart-axis)');
+  series.slice().reverse().forEach((s) => svg.append('path').attr('d', d3.line().x((p) => x(p.t)).y((p) => y(p.v))(s.pts)).style('fill', 'none').style('stroke', s.c).style('stroke-width', 2).style('stroke-linecap', 'round').style('stroke-linejoin', 'round').style('stroke-dasharray', s.dash_));
+  const t = PL.tip(el); const bis = d3.bisector((p) => p.t).right;
+  const rule = svg.append('line').attr('y1', 10).attr('y2', H - 30).style('stroke', 'var(--cds-chart-reference)').style('opacity', 0);
+  svg.on('pointermove', (ev) => {
+    const [mx] = d3.pointer(ev); const tt = x.invert(Math.max(ml, Math.min(W - 12, mx)));
+    rule.attr('x1', x(tt)).attr('x2', x(tt)).style('opacity', 1);
+    const lines = series.map((s) => { const i = bis(s.pts, tt) - 1; const p = s.pts[Math.max(0, i)]; return { c: s.c, t: `${p.name}: ${d3.format('+.1f')(i < 0 ? 0 : p.v)} R` }; });
+    const s = el.clientWidth / W;
+    PL.showTip(el, t, x(tt) * s, 40 * s, d3.utcFormat('%b %-d, %Y')(tt), lines);
+  }).on('pointerleave', () => { t.hidden = true; rule.style('opacity', 0); });
+});
+
+dash.draw('example', (el) => {
+  const B = PL.rows('example_bars'), T = PL.rows('example_trade');
+  el.replaceChildren(); PL.ready(el, !!(B && T && T.length)); if (!B || !T || !T.length) return;
+  const tr = T[0];
+  const W = Math.max(320, el.clientWidth || 760), H1 = 300, gap = 18, H2 = 100, H = H1 + gap + H2 + 26;
+  const svg = PL.svgIn(el, W, H);
+  const lows = B.map((b) => b.l).concat([tr.stop]), highs = B.map((b) => b.h).concat([tr.target]);
+  const y = d3.scaleLinear([d3.min(lows), d3.max(highs)], [H1, 8]).nice();
+  const ml = PL.textW(svg, y.ticks(6).map(d3.format(',.2f'))) + 10;
+  const x = d3.scaleBand(B.map((b) => b.i), [ml, W - 8]).padding(0.25);
+  const ym = d3.scaleLinear(d3.extent(B, (b) => b.macd), [H1 + gap + H2, H1 + gap + 6]).nice();
+  svg.append('g').attr('transform', `translate(${ml},0)`).call(d3.axisLeft(y).ticks(6).tickFormat(d3.format(',.2f')).tickSize(-(W - ml - 8))).call(PL.styleAxis).call((g) => g.select('.domain').remove());
+  svg.append('g').attr('transform', `translate(${ml},0)`).call(d3.axisLeft(ym).ticks(3).tickSize(-(W - ml - 8))).call(PL.styleAxis).call((g) => g.select('.domain').remove());
+  const every = Math.max(1, Math.round(B.length / (W < 500 ? 4 : 8)));
+  svg.append('g').attr('transform', `translate(0,${H1 + gap + H2})`).call(d3.axisBottom(x).tickValues(B.filter((b, i) => i % every === 0).map((b) => b.i)).tickFormat((i) => B[i] ? B[i].t : '')).call(PL.styleAxis);
+  // level
+  svg.append('line').attr('x1', ml).attr('x2', W - 8).attr('y1', y(tr.level)).attr('y2', y(tr.level)).style('stroke', 'var(--cds-chart-reference)').style('stroke-dasharray', '4 3');
+  svg.append('text').attr('x', ml + 4).attr('y', y(tr.level) - 4).text(`PharmD level ${d3.format(',.2f')(tr.level)}`).style('font-size', 'var(--cds-font-size-caption)').style('fill', 'var(--color-fg-muted)');
+  // candles
+  const bw = x.bandwidth();
+  B.forEach((b) => {
+    const cx = x(b.i) + bw / 2, up = b.c >= b.o, c = up ? 'var(--color-ok)' : 'var(--color-bad)';
+    svg.append('line').attr('x1', cx).attr('x2', cx).attr('y1', y(b.h)).attr('y2', y(b.l)).style('stroke', c);
+    svg.append('rect').attr('x', x(b.i)).attr('width', bw).attr('y', y(Math.max(b.o, b.c))).attr('height', Math.max(1, Math.abs(y(b.o) - y(b.c)))).style('fill', c);
+  });
+  // trade lines
+  const xe = x(tr.entry_i), xx = x(tr.exit_i) + bw;
+  [[tr.entry, 'var(--color-fg)', 'Entry'], [tr.stop, 'var(--color-bad)', 'Stop'], [tr.target, 'var(--color-ok)', 'Target']].forEach(([v, c, nm]) => {
+    svg.append('line').attr('x1', xe).attr('x2', xx).attr('y1', y(v)).attr('y2', y(v)).style('stroke', c).style('stroke-width', 1.5);
+    svg.append('text').attr('x', xx + 4 > W - 60 ? xe - 4 : xx + 4).attr('text-anchor', xx + 4 > W - 60 ? 'end' : 'start').attr('y', y(v)).attr('dy', '0.32em').text(`${nm} ${d3.format(',.2f')(v)}`).style('font-size', 'var(--cds-font-size-caption)').style('fill', c);
+  });
+  // P1, P2 on price and MACD
+  const ac = dash.colors[1];
+  [[tr.p1, 'P1'], [tr.p2, 'P2']].forEach(([i, nm]) => {
+    const b = B[i]; if (!b) return;
+    const cx = x(i) + bw / 2;
+    svg.append('circle').attr('cx', cx).attr('cy', y(b.l) + 8).attr('r', 4).style('fill', ac);
+    svg.append('text').attr('x', cx).attr('y', y(b.l) + 24).attr('text-anchor', 'middle').text(nm).style('font-size', 'var(--cds-font-size-caption)').style('fill', ac).style('font-weight', 600);
+    svg.append('circle').attr('cx', cx).attr('cy', ym(b.macd)).attr('r', 4).style('fill', ac);
+  });
+  const p1 = B[tr.p1], p2 = B[tr.p2];
+  if (p1 && p2) {
+    svg.append('line').attr('x1', x(tr.p1) + bw / 2).attr('x2', x(tr.p2) + bw / 2).attr('y1', y(p1.l) + 8).attr('y2', y(p2.l) + 8).style('stroke', ac).style('stroke-dasharray', '3 3');
+    svg.append('line').attr('x1', x(tr.p1) + bw / 2).attr('x2', x(tr.p2) + bw / 2).attr('y1', ym(p1.macd)).attr('y2', ym(p2.macd)).style('stroke', ac).style('stroke-dasharray', '3 3');
+  }
+  svg.append('path').attr('d', d3.line().x((b) => x(b.i) + bw / 2).y((b) => ym(b.macd))(B)).style('fill', 'none').style('stroke', dash.colors[0]).style('stroke-width', 2).style('stroke-linejoin', 'round');
+  svg.append('text').attr('x', ml + 4).attr('y', H1 + gap + 14).text('MACD line (12, 26, 9), 5m').style('font-size', 'var(--cds-font-size-caption)').style('fill', 'var(--color-fg-muted)');
+  const t = PL.tip(el);
+  svg.on('pointermove', (ev) => {
+    const [mx] = d3.pointer(ev);
+    const i = Math.round((mx - ml) / x.step() - 0.5); const b = B[Math.max(0, Math.min(B.length - 1, i))];
+    if (!b) return;
+    const s = el.clientWidth / W;
+    PL.showTip(el, t, (x(b.i) + bw / 2) * s, y(b.h) * s, `${b.t} ET`, [{ t: `O ${d3.format(',.2f')(b.o)}  H ${d3.format(',.2f')(b.h)}  L ${d3.format(',.2f')(b.l)}  C ${d3.format(',.2f')(b.c)}` }, { t: `MACD ${d3.format('.2f')(b.macd)}` }]);
+  }).on('pointerleave', () => { t.hidden = true; });
+});
+
+dash.draw('anywhere', (el) => {
+  const rs = PL.rows('anywhere');
+  el.replaceChildren(); PL.ready(el, !!rs); if (!rs) return;
+  const fams = Array.from(new Set(rs.map((r) => r.family)));
+  const items = fams.map((f) => ({ f, at: rs.find((r) => r.family === f && r.where === 'At a PharmD level'), away: rs.find((r) => r.family === f && r.where === 'Away from levels') }))
+    .filter((d) => d.at && d.away).sort((a, b) => d3.descending(a.at.fp1, b.at.fp1));
+  const W = Math.max(300, el.clientWidth || 460), rowH = 30, top = 6, H = top + items.length * rowH + 30;
+  const svg = PL.svgIn(el, W, H);
+  const ml = Math.min(PL.textW(svg, items.map((d) => d.f)) + 10, W * 0.5);
+  const vals = items.flatMap((d) => [d.at.fp1, d.away.fp1]);
+  const x = d3.scaleLinear([Math.min(0.4, d3.min(vals)), Math.max(0.52, d3.max(vals))], [ml, W - 10]).nice();
+  svg.append('g').attr('transform', `translate(0,${top + items.length * rowH})`).call(d3.axisBottom(x).ticks(5).tickFormat(d3.format('.0%')).tickSize(-(items.length * rowH))).call(PL.styleAxis).call((g) => g.select('.domain').remove());
+  svg.append('line').attr('x1', x(PL.CONST.coin)).attr('x2', x(PL.CONST.coin)).attr('y1', top).attr('y2', top + items.length * rowH).style('stroke', 'var(--cds-chart-reference)').style('stroke-dasharray', '4 3');
+  items.forEach((d, i) => {
+    const yy = top + i * rowH + rowH / 2;
+    svg.append('text').attr('x', ml - 8).attr('y', yy).attr('dy', '0.32em').attr('text-anchor', 'end').text(d.f).style('font-size', 'var(--cds-font-size-caption)').style('fill', 'var(--color-fg-muted)');
+    svg.append('line').attr('x1', x(d.away.fp1)).attr('x2', x(d.at.fp1)).attr('y1', yy).attr('y2', yy).style('stroke', 'var(--cds-chart-muted)').style('stroke-width', 2);
+    svg.append('circle').attr('cx', x(d.away.fp1)).attr('cy', yy).attr('r', 4.5).style('fill', 'var(--cds-chart-muted)');
+    svg.append('circle').attr('cx', x(d.at.fp1)).attr('cy', yy).attr('r', 4.5).style('fill', dash.colors[0]);
+  });
+  const t = PL.tip(el);
+  svg.on('pointermove', (ev) => {
+    const [, my] = d3.pointer(ev); const i = Math.floor((my - top) / rowH); const d = items[i];
+    if (!d) { t.hidden = true; return; }
+    const s = el.clientWidth / W;
+    PL.showTip(el, t, x(d.at.fp1) * s, (top + i * rowH + rowH / 2) * s, d.f, [
+      { c: dash.colors[0], t: `At a level: ${PL.fP1(d.at.fp1)} · ${PL.fN(d.at.n)} signals · avg R ${PL.fR(d.at.avgR)}` },
+      { c: 'var(--cds-chart-muted)', t: `Away: ${PL.fP1(d.away.fp1)} · ${PL.fN(d.away.n)} signals · avg R ${PL.fR(d.away.avgR)}` }]);
+  }).on('pointerleave', () => { t.hidden = true; });
+});
+
+dash.draw('exits', (el) => {
+  const rs = PL.rows('exits');
+  el.replaceChildren(); PL.ready(el, !!rs); if (!rs) return;
+  const U = el.dataset.uni || 'A';
+  const sub = rs.filter((r) => r.uni === U);
+  const trigs = Array.from(new Set(sub.map((r) => r.trigger)));
+  const exitOrder = ['base', 'floor0.5', 'floor1.5', 'be1R', 'fix2R', 'fix1.5R'];
+  const exName = new Map(sub.map((r) => [r.exit_code, r.exit]));
+  const cols = exitOrder.filter((e) => exName.has(e));
+  const W = Math.max(300, el.clientWidth || 460), top = 64, rowH = 28, H = top + trigs.length * rowH + 6;
+  const svg = PL.svgIn(el, W, H);
+  const ml = Math.min(PL.textW(svg, trigs) + 10, W * 0.42);
+  const cw = (W - ml) / cols.length;
+  cols.forEach((e, j) => {
+    const cx = ml + j * cw + cw / 2;
+    svg.append('text').attr('transform', `translate(${cx - 4},${top - 6}) rotate(-30)`).text(exName.get(e)).style('font-size', 'var(--cds-font-size-caption)').style('fill', 'var(--color-fg-muted)');
+  });
+  const cells = [];
+  trigs.forEach((tg, i) => {
+    const yy = top + i * rowH;
+    const lab = tg.length > 34 && W < 460 ? tg.slice(0, 32) + '…' : tg;
+    svg.append('text').attr('x', ml - 8).attr('y', yy + rowH / 2).attr('dy', '0.32em').attr('text-anchor', 'end').text(lab).style('font-size', 'var(--cds-font-size-caption)').style('fill', 'var(--color-fg-muted)');
+    cols.forEach((e, j) => {
+      const r = sub.find((q) => q.trigger === tg && q.exit_code === e); const xx = ml + j * cw;
+      const v = r ? r.avgR : null; const a = v == null ? 0 : Math.min(1, Math.abs(v) / 0.3) * 0.55 + 0.08;
+      svg.append('rect').attr('x', xx + 1).attr('y', yy + 1).attr('width', cw - 2).attr('height', rowH - 2).attr('rx', 3).style('fill', v == null ? 'var(--color-bg)' : (v < 0 ? 'var(--color-bad)' : 'var(--color-ok)')).style('fill-opacity', v == null ? 1 : a);
+      if (r) { svg.append('text').attr('x', xx + cw / 2).attr('y', yy + rowH / 2).attr('dy', '0.32em').attr('text-anchor', 'middle').text(PL.fR(v)).style('font-size', 'var(--cds-font-size-caption)').style('fill', 'var(--color-fg)').style('font-variant-numeric', 'tabular-nums'); cells.push({ x: xx, y: yy, w: cw, h: rowH, r }); }
+    });
+  });
+  const t = PL.tip(el);
+  svg.on('pointermove', (ev) => {
+    const [mx, my] = d3.pointer(ev); const c = cells.find((q) => mx >= q.x && mx < q.x + q.w && my >= q.y && my < q.y + q.h);
+    if (!c) { t.hidden = true; return; }
+    const s = el.clientWidth / W;
+    PL.showTip(el, t, (c.x + c.w / 2) * s, c.y * s, c.r.trigger, [{ t: c.r.exit }, { t: `Avg R ${PL.fR(c.r.avgR)} · ${PL.fN(c.r.n)} trades` }]);
+  }).on('pointerleave', () => { t.hidden = true; });
+});
+
+dash.draw('board_rows', (tb) => {
+  const rs = PL.rows('leaderboard'); tb.replaceChildren(); if (!rs) return;
+  const btn = document.querySelector('.pl-seg[data-redraw="board_rows"] .pl-seg-b[aria-pressed="true"]');
+  const U = btn ? btn.value : 'A';
+  const qEl = document.getElementById('all-search'); const q = qEl ? qEl.value.trim().toLowerCase() : '';
+  let sortField = 'avgR', dir = 'descending';
+  document.querySelectorAll('#table-all th').forEach((th) => { const s = th.getAttribute('aria-sort'); if (s && s !== 'none') { sortField = th.dataset.field; dir = s; } });
+  const out = rs.filter((r) => r.uni === U && (!q || `${r.trigger} ${r.family}`.toLowerCase().includes(q)));
+  out.sort((a, b) => {
+    const va = a[sortField], vb = b[sortField];
+    const c = (typeof va === 'string' || typeof vb === 'string') ? d3.ascending(String(va), String(vb)) : d3.ascending(va ?? -Infinity, vb ?? -Infinity);
+    return dir === 'descending' ? -c : c;
+  });
+  const fR = (v) => v == null ? '—' : PL.fR(v);
+  for (const r of out) {
+    const tr = document.createElement('tr'); tr.dataset.key = r.key;
+    const cells = [[r.trigger, 'pl-l'], [PL.fN(r.n)], [PL.fP0(r.win)], [fR(r.avgR), PL.signCls(r.avgR)], [fR(r.ci_lo)], [fR(r.ci_hi)], [r.pf == null ? '—' : d3.format('.2f')(r.pf)],
+      [r.totalR == null ? '—' : d3.format('+.1f')(r.totalR), PL.signCls(r.totalR)], [r.maxddR == null ? '—' : d3.format('.1f')(r.maxddR)], [PL.fP0(r.fp1)],
+      [fR(r.h1R), PL.signCls(r.h1R)], [fR(r.h2R), PL.signCls(r.h2R)], [fR(r.esR), PL.signCls(r.esR)], [fR(r.nqR), PL.signCls(r.nqR)], [fR(r.rthR), PL.signCls(r.rthR)],
+      [fR(r.ethR), PL.signCls(r.ethR)], [fR(r.longR), PL.signCls(r.longR)], [fR(r.shortR), PL.signCls(r.shortR)], [fR(r.lightR), PL.signCls(r.lightR)], [fR(r.grossR), PL.signCls(r.grossR)],
+      [r.stop_atr5 == null ? '—' : d3.format('.2f')(r.stop_atr5)]];
+    for (const [txt, cls] of cells) { const td = document.createElement('td'); td.textContent = txt; if (cls) td.className = cls; tr.appendChild(td); }
+    tb.appendChild(tr);
+  }
+});
+
+dash.draw('grade_rows', (tb) => {
+  const rs = PL.rows('grades'); tb.replaceChildren(); if (!rs) return;
+  const order = ['A', 'B', 'C', 'Ungraded'];
+  rs.slice().sort((a, b) => order.indexOf(a.grade) - order.indexOf(b.grade)).forEach((r) => {
+    const tr = document.createElement('tr'); tr.dataset.key = r.key;
+    [[r.grade, 'pl-l'], [PL.fN(r.n)], [PL.fR(r.avgR), PL.signCls(r.avgR)], [PL.fP0(r.fp1)]].forEach(([txt, cls]) => { const td = document.createElement('td'); td.textContent = txt; if (cls) td.className = cls; tr.appendChild(td); });
+    tb.appendChild(tr);
+  });
+});
+</script>
