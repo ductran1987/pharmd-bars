@@ -11,6 +11,7 @@ python entry_lab/run.py AB      # universes A (PharmD fade trades) and B (every 
 python entry_lab/run.py C       # the same triggers anywhere in the session (at-level vs away control)
 python entry_lab/reaction.py    # first-passage odds at PharmD levels vs pseudo-levels
 python entry_lab/mtf.py         # multi-timeframe / multi-oscillator confluence entries
+python entry_lab/nullmatch.py   # random-timing benchmark per trigger (same delays and stop sizes, no price signal)
 python entry_lab/analyze.py     # summaries (needs out/light and out/gross runs for the cost columns)
 python entry_lab/export_dash.py # JSON datasets for the report page (out/dash/)
 ```
@@ -23,6 +24,9 @@ Files
 - `run.py` — runs every trigger x exit; random-entry candidate pool; universe C.
 - `reaction.py` — does price move k x ATR15 the trade's way first after a level fill? Real levels vs pseudo-levels.
 - `mtf.py` — confluence combos (e.g. 30m divergence, then a 5m divergence).
+- `nullmatch.py` — the benchmark each trigger is judged against. (`run.py`'s first null pool and `paired.py` are kept
+  for reference but are biased: that pool only enters on bars whose own low is at the level, which over-samples
+  breakdowns, and the paired test conditions on a second low having formed.)
 - `analyze.py`, `paired.py`, `report_data.py`, `export_dash.py` — statistics, nulls, report datasets.
 
 Conventions (see the docstring at the top of `lab.py`): a trigger is known at the close of its own bar and fills at

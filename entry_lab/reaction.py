@@ -28,6 +28,7 @@ def passage(Fr, S, j, e):
 def run_level_set(setups):
     rows = []
     for S in setups:
+        S = dict(S, approach=True)   # a touch of the level from the side the fade expects (reviewer fix: P armed like B)
         Fr = lab.frames(S["sym"], S["contract"])
         arm = lab.arm_index(S, Fr)
         if arm is None: continue
@@ -41,7 +42,7 @@ def run_level_set(setups):
     return pd.DataFrame(rows)
 
 
-def pseudo_setups(days, per_day=10, seed=7):
+def pseudo_setups(days, per_day=30, seed=7):
     """Pseudo-levels from pre-session information only: a real plan level's price shifted by a random 1.5-4 ATR15
     up or down (keeps the same distance-from-price distribution as his levels), kept only if >= 1.5 ATR5 from every
     real plan level.  (Drawing from the session's own high-low range would leak the future: levels near the eventual

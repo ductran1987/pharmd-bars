@@ -247,7 +247,7 @@ def arm_index(S, Fr):
     rng = np.arange(s0, s1)
     if up: hit = L[s0:s1] <= S["zhi"]
     else: hit = H[s0:s1] >= S["zlo"]
-    if S["uni"] == "B":
+    if S["uni"] in ("B", "P") or S.get("approach"):
         prev = C[s0 - 1:s1 - 1]
         hit = hit & ((prev > S["zhi"]) if up else (prev < S["zlo"]))
     idx = np.flatnonzero(hit)
@@ -444,6 +444,8 @@ def simulate(S, Fr, ent, exit_name="base"):
     stp = min(stp, e - floor_k * a5) if up else max(stp, e + floor_k * a5)
     rk = (e - stp) * sg
     if rk < 0.2 * a15: rk = 0.2 * a15; stp = e - sg * rk
+    stp = (math.floor(stp / TICK + 1e-9) if up else math.ceil(stp / TICK - 1e-9)) * TICK   # on the tick grid, away from entry
+    rk = (e - stp) * sg
     if limit is None and (O[0] - stp) * sg <= 0: return None
     if trule == "pharmd":
         tg = [t for t in S["tg"] if (t - e) * sg > 0]
@@ -452,7 +454,7 @@ def simulate(S, Fr, ent, exit_name="base"):
         if (pick - e) * sg / rk < 1.0: return None
         tgt = pick
     else:
-        tgt = e + sg * float(trule[3:]) * rk
+        tgt = round((e + sg * float(trule[3:]) * rk) / TICK) * TICK
     # long-space arrays
     if up: Hs, Ls, Os, Cs, es, ss, ts = H, L, O, C, e, stp, tgt
     else: Hs, Ls, Os, Cs, es, ss, ts = -L, -H, -O, -C, -e, -stp, -tgt

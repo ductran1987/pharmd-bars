@@ -56,20 +56,22 @@ def dump(name, rows):
 
 if __name__ == "__main__":
     # leaderboard, both universes
+    from analyze import edges
     rows = []
-    nulls = []
     for U, uname in (("A", "PharmD fade trades"), ("B", "All PharmD levels")):
         b, n = board(U)
+        E = edges(U).set_index("trig")
         for r in b:
+            e = E.loc[r["trig"]] if (r["trig"] in E.index and r["trig"] != "touch_limit") else None
             rows.append(dict(key=f"{U}|{r['trig']}", uni=U, universe=uname, trigger=label(r["trig"]), family=FAM_LABEL[fam(r["trig"])],
                              tf=r["tf"], n=r["n"], win=r["win"], avgR=r["avgR"], ci_lo=r["lo"], ci_hi=r["hi"], pf=r["pf"],
                              totalR=r["totR"], maxddR=r["ddR"], fp1=r["fp1"], h1R=r["H1"], h2R=r["H2"], esR=r["ES"], nqR=r["NQ"],
                              rthR=r["RTH"], ethR=r["ETH"], n_rth=r["n_rth"], longR=r["long"], shortR=r["short"],
-                             lightR=r["avgR_light"], grossR=r["avgR_gross"], stop_atr5=r["risk_atr5"], tgtR=r["tgtR"], code=r["trig"]))
-        for p in ("1.0", "0.25", "0.05"):
-            nulls.append(dict(key=f"{U}|p{p}", uni=U, universe=uname, p=float(p), avgR=n["conservative"][p], lightR=n["light"][p],
-                              grossR=n["gross"][p], fp1=n["fp1"][p], h1R=n["H1"][p], h2R=n["H2"][p]))
-    dump("leaderboard", rows); dump("random_null", nulls)
+                             lightR=r["avgR_light"], grossR=r["avgR_gross"], stop_atr5=r["risk_atr5"], tgtR=r["tgtR"], code=r["trig"],
+                             randomR=None if e is None else e.null_R, edge=None if e is None else e.edge,
+                             edge_lo=None if e is None else e.edge_lo, edge_hi=None if e is None else e.edge_hi,
+                             random_fp1=None if e is None else e.null_fp1))
+    dump("leaderboard", rows)
 
     # level reaction (first passage)
     rx = reaction(); out = []

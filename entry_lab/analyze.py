@@ -83,3 +83,20 @@ if __name__ == "__main__":
             cols = ["trig", "n", "win", "avgR", "ci_lo", "ci_hi", "pf", "fp1", "R_H1", "R_H2", "R_ES", "R_NQ", "R_RTH", "R_ETH", "R_long", "R_short"]
             print(f"-- universe {U}, exit base (top 15 + nulls)")
             print(pd.concat([x[~x.trig.str.startswith("NULL")].head(15), x[x.trig.str.startswith("NULL")]])[cols].round(3).to_string(index=False))
+
+
+def edges(U, cost=""):
+    """Per trigger: avg R, timing-matched benchmark avg R (nullmatch.py), edge = difference, 95% CI of the edge
+    (days resampled for the trigger; the benchmark mean is taken as fixed: it averages many draws)."""
+    base = os.path.join(OUT, cost) if cost else OUT
+    T = pd.read_pickle(os.path.join(base, f"trades_{U}.pkl")); T = T[T.exit_rule == "base"]
+    N = pd.read_pickle(os.path.join(OUT, f"nullmatch_{U}.pkl"))
+    nm = N.groupby("trig").agg(null_R=("R", "mean"), null_fp1=("fp1", "mean"), null_n=("R", "size"))
+    out = []
+    for trig, d in T.groupby("trig"):
+        if trig not in nm.index: continue
+        m = nm.loc[trig]; lo, hi = boot_ci(d, "R", 1000)
+        out.append(dict(uni=U, trig=trig, n=len(d), avgR=d.R.mean(), ci_lo=lo, ci_hi=hi, null_R=m.null_R,
+                        edge=d.R.mean() - m.null_R, edge_lo=lo - m.null_R, edge_hi=hi - m.null_R,
+                        fp1=d.fp1.mean(), null_fp1=m.null_fp1, null_n=int(m.null_n)))
+    return pd.DataFrame(out)

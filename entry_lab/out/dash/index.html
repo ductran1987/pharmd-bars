@@ -60,7 +60,7 @@
 
 <header class="pl-head" id="top">
   <h1 class="pl-title">PharmD level entry models</h1>
-  <p class="pl-lede">No entry trigger did meaningfully better than your current reclaim close at PharmD levels once fills and costs were realistic. I tested <b data-draw="num" data-source="scope" data-row="0" data-field="triggers" data-fmt="n">—</b> triggers, including RSI and MACD divergence on 5m to 60m bars. With realistic costs every trigger with at least <b data-draw="const" data-k="minn">—</b> trades lost money, and none beat a random entry at the same level by more than its error bars.</p>
+  <p class="pl-lede">No entry trigger did meaningfully better than your current reclaim close at PharmD levels once fills and costs were realistic. I tested <b data-draw="num" data-source="scope" data-row="0" data-field="triggers" data-fmt="n">—</b> triggers, including RSI and MACD divergence on 5m to 60m bars. With realistic costs every trigger with at least <b data-draw="const" data-k="minn">—</b> trades lost money, and none beat random timing at the same levels by more than its error bars.</p>
 </header>
 
 <section class="pl-tiles" aria-label="Headline figures">
@@ -75,42 +75,42 @@
     <span class="pl-tile-sub"><span data-draw="num" data-source="leaderboard" data-field="n" data-where="key=A|macd_div_5m_R2" data-fmt="n">—</span> trades · 95% CI <span data-draw="num" data-source="leaderboard" data-field="ci_lo" data-where="key=A|macd_div_5m_R2" data-fmt="R">—</span> to <span data-draw="num" data-source="leaderboard" data-field="ci_hi" data-where="key=A|macd_div_5m_R2" data-fmt="R">—</span></span>
   </div>
   <div class="pl-tile">
-    <span class="pl-tile-lab">Random entry at the same levels: average R per trade</span>
-    <span class="pl-tile-big" data-draw="num" data-source="random_null" data-field="avgR" data-where="key=A|p0.25" data-fmt="R">—</span>
-    <span class="pl-tile-sub">Same levels, stops and targets; random timing</span>
+    <span class="pl-tile-lab">MACD divergence, 5m: edge over random timing, R per trade</span>
+    <span class="pl-tile-big" data-draw="num" data-source="leaderboard" data-field="edge" data-where="key=A|macd_div_5m_R2" data-fmt="R">—</span>
+    <span class="pl-tile-sub">95% CI <span data-draw="num" data-source="leaderboard" data-field="edge_lo" data-where="key=A|macd_div_5m_R2" data-fmt="R">—</span> to <span data-draw="num" data-source="leaderboard" data-field="edge_hi" data-where="key=A|macd_div_5m_R2" data-fmt="R">—</span> · random timing with the same delays and stops: <span data-draw="num" data-source="leaderboard" data-field="randomR" data-where="key=A|macd_div_5m_R2" data-fmt="R">—</span> R</span>
   </div>
   <div class="pl-tile">
     <span class="pl-tile-lab">Level fills where price moved one ATR15 your way first</span>
     <span class="pl-tile-big" data-draw="num" data-source="level_reaction" data-field="p" data-where="key=A|1.0" data-fmt="p1">—</span>
-    <span class="pl-tile-sub">Random prices: <span data-draw="num" data-source="level_reaction" data-field="p" data-where="key=P|1.0" data-fmt="p1">—</span> · no information is <span data-draw="const" data-k="coin">—</span></span>
+    <span class="pl-tile-sub">PharmD trade levels · random prices: <span data-draw="num" data-source="level_reaction" data-field="p" data-where="key=P|1.0" data-fmt="p1">—</span></span>
   </div>
 </section>
 
 <section class="pl-sec" id="levels">
   <h2 class="pl-sec-h">Do PharmD levels hold better than random prices?</h2>
   <div class="pl-card">
-    <p class="pl-note">A resting limit at the level, filled when price trades a tick through it. Each point is the share of fills where price then moved k × ATR15 in the trade's direction before it moved k × ATR15 against it. Whiskers are 95% intervals. The random prices are plan levels shifted <span data-draw="num" data-source="scope" data-row="0" data-field="pseudo_lo" data-fmt="mult">—</span> to <span data-draw="num" data-source="scope" data-row="0" data-field="pseudo_hi" data-fmt="mult">—</span> ATR15 and kept only when clear of every real level, touched and filled the same way.</p>
+    <p class="pl-note">A resting limit at the level, filled when price trades a tick through it. Each point is the share of fills where price then moved k × ATR15 in the trade's direction before it moved k × ATR15 against it. A limit fill sits a tick past the level and counts any further push against it, so the random-price line is the baseline, not a coin flip. Whiskers are 95% intervals. The random prices are plan levels shifted <span data-draw="num" data-source="scope" data-row="0" data-field="pseudo_lo" data-fmt="mult">—</span> to <span data-draw="num" data-source="scope" data-row="0" data-field="pseudo_hi" data-fmt="mult">—</span> ATR15 and kept only when clear of every real level, touched and filled the same way.</p>
     <ul class="pl-legend">
       <li><span class="pl-sw" data-sw="0"></span>PharmD trade levels</li>
       <li><span class="pl-sw" data-sw="1"></span>All PharmD plan levels</li>
       <li><span class="pl-sw" data-sw="m"></span>Random prices (control)</li>
     </ul>
     <div class="pl-chart pl-h-reaction dash-skeleton" data-draw="reaction" data-source="level_reaction" id="chart-reaction"></div>
-    <p class="pl-text">At one ATR15, fills at PharmD trade levels went your way first <b data-draw="num" data-source="level_reaction" data-field="p" data-where="key=A|1.0" data-fmt="p1">—</b> of the time and fills at all plan levels <b data-draw="num" data-source="level_reaction" data-field="p" data-where="key=B|1.0" data-fmt="p1">—</b>, against <b data-draw="num" data-source="level_reaction" data-field="p" data-where="key=P|1.0" data-fmt="p1">—</b> for random prices. The levels do not hold more often than chance, so any edge has to come from the trigger's timing.</p>
+    <p class="pl-text">At one ATR15, fills at PharmD trade levels went your way first <b data-draw="num" data-source="level_reaction" data-field="p" data-where="key=A|1.0" data-fmt="p1">—</b> of the time and fills at all plan levels <b data-draw="num" data-source="level_reaction" data-field="p" data-where="key=B|1.0" data-fmt="p1">—</b>, against <b data-draw="num" data-source="level_reaction" data-field="p" data-where="key=P|1.0" data-fmt="p1">—</b> for random prices. His trade levels hold a little more often than random prices, but the gap sits inside the error bars and is far smaller than trading costs, so a profitable fade would need a trigger that times the turn.</p>
   </div>
 </section>
 
 <section class="pl-sec" id="ranked">
   <h2 class="pl-sec-h">Every trigger, ranked</h2>
   <div class="pl-card">
-    <p class="pl-note">Average R per trade after costs (<span data-draw="num" data-source="scope" data-row="0" data-field="slip_ticks" data-fmt="n">—</span> ticks of slippage each way, $<span data-draw="num" data-source="scope" data-row="0" data-field="comm" data-fmt="f2">—</span> per micro round trip, $<span data-draw="num" data-source="scope" data-row="0" data-field="risk" data-fmt="n">—</span> risk a trade). Whiskers are 95% intervals that resample whole days. The shaded band spans the random-entry results. Your reclaim close and the 5m MACD-line divergence are highlighted.</p>
+    <p class="pl-note">Average R per trade after costs (<span data-draw="num" data-source="scope" data-row="0" data-field="slip_ticks" data-fmt="n">—</span> ticks of slippage each way, $<span data-draw="num" data-source="scope" data-row="0" data-field="comm" data-fmt="f2">—</span> per micro round trip, $<span data-draw="num" data-source="scope" data-row="0" data-field="risk" data-fmt="n">—</span> risk a trade). Whiskers are 95% intervals that resample whole days. The short grey bar on each row is that trigger's random-timing benchmark: entries on the same setups with the same delays after the touch and the same stop sizes, but no price signal. Your reclaim close and the 5m MACD-line divergence are highlighted.</p>
     <div class="pl-tools">
       <div class="pl-seg" role="group" aria-label="Which setups" data-redraw="dots">
         <button type="button" class="pl-seg-b" value="A" aria-pressed="true" id="dots-a">Your PharmD fade trades</button>
         <button type="button" class="pl-seg-b" value="B" aria-pressed="false" id="dots-b">Every plan level</button>
       </div>
     </div>
-    <div class="pl-chart pl-h-dots dash-skeleton" data-draw="dots" data-source="leaderboard random_null" id="chart-dots"></div>
+    <div class="pl-chart pl-h-dots dash-skeleton" data-draw="dots" data-source="leaderboard" id="chart-dots"></div>
     <p class="pl-note">The 60m MACD-histogram divergence rests on <span data-draw="num" data-source="leaderboard" data-field="n" data-where="key=A|macdh_div_60m_R2" data-fmt="n">—</span> trades (2-bar confirm) and <span data-draw="num" data-source="leaderboard" data-field="n" data-where="key=A|macdh_div_60m_R1" data-fmt="n">—</span> trades (1-bar) on your setups. Its intervals run from a clear loss to a clear win, and both versions lose across every plan level (<span data-draw="num" data-source="leaderboard" data-field="avgR" data-where="key=B|macdh_div_60m_R2" data-fmt="R">—</span> and <span data-draw="num" data-source="leaderboard" data-field="avgR" data-where="key=B|macdh_div_60m_R1" data-fmt="R">—</span> R).</p>
   </div>
 </section>
@@ -161,7 +161,7 @@
       <li><span class="pl-sw" data-sw="1"></span><span data-draw="num" data-source="scope" data-row="0" data-field="light_slip_ticks" data-fmt="n">—</span> tick each way, $<span data-draw="num" data-source="scope" data-row="0" data-field="light_comm" data-fmt="f2">—</span></li>
       <li><span class="pl-sw" data-sw="0"></span><span data-draw="num" data-source="scope" data-row="0" data-field="slip_ticks" data-fmt="n">—</span> ticks each way, $<span data-draw="num" data-source="scope" data-row="0" data-field="comm" data-fmt="f2">—</span></li>
     </ul>
-    <div class="pl-chart pl-h-costs dash-skeleton" data-draw="costs" data-source="leaderboard random_null" id="chart-costs"></div>
+    <div class="pl-chart pl-h-costs dash-skeleton" data-draw="costs" data-source="leaderboard" id="chart-costs"></div>
   </section>
   <section class="pl-card" id="equity">
     <h2 class="pl-card-h">Cumulative R on your PharmD trades</h2>
@@ -193,7 +193,7 @@
       <li><span class="pl-sw" data-sw="m"></span>Away from levels</li>
     </ul>
     <div class="pl-chart pl-h-anywhere dash-skeleton" data-draw="anywhere" data-source="anywhere" id="chart-anywhere"></div>
-    <p class="pl-note">Divergences at a level moved the right way first a little more often than divergences elsewhere, but both stayed under <span data-draw="const" data-k="coin">—</span>.</p>
+    <p class="pl-note">Divergences and RSI hooks at a level moved the right way first a little more often than the same signals elsewhere, but both stayed under <span data-draw="const" data-k="coin">—</span>. Rejection and engulfing candles did slightly better away from the levels.</p>
   </section>
   <section class="pl-card" id="exits">
     <h2 class="pl-card-h">Other exits</h2>
@@ -221,6 +221,8 @@
           <th data-field="avgR" aria-sort="descending"><button type="button" class="pl-sort">Avg R</button></th>
           <th data-field="ci_lo" aria-sort="none"><button type="button" class="pl-sort">95% CI low</button></th>
           <th data-field="ci_hi" aria-sort="none"><button type="button" class="pl-sort">95% CI high</button></th>
+          <th data-field="randomR" aria-sort="none"><button type="button" class="pl-sort">Random timing</button></th>
+          <th data-field="edge" aria-sort="none"><button type="button" class="pl-sort">Edge</button></th>
           <th data-field="pf" aria-sort="none"><button type="button" class="pl-sort">Profit factor</button></th>
           <th data-field="totalR" aria-sort="none"><button type="button" class="pl-sort">Total R</button></th>
           <th data-field="maxddR" aria-sort="none"><button type="button" class="pl-sort">Max drawdown R</button></th>
@@ -240,7 +242,7 @@
         <tbody data-draw="board_rows"></tbody>
       </table>
     </div>
-    <p class="pl-note">Avg R columns by slice (halves, ES/NQ, RTH/overnight, longs/shorts) use the realistic costs. "Moved your way first" is the share of entries where price moved one ATR15 in the trade's direction before one ATR15 against it.</p>
+    <p class="pl-note">Edge is the trigger's avg R minus its random-timing benchmark; the limit order has no comparable benchmark. Avg R columns by slice (halves, ES/NQ, RTH/overnight, longs/shorts) use the realistic costs. "Moved your way first" is the share of entries where price moved one ATR15 in the trade's direction before one ATR15 against it.</p>
   </div>
 </section>
 
@@ -255,7 +257,7 @@
       <li>Target: PharmD's first target at least <span data-draw="num" data-source="scope" data-row="0" data-field="min_tgtR" data-fmt="mult">—</span>R away; a trade with no target at <span data-draw="num" data-source="scope" data-row="0" data-field="skip_tgtR" data-fmt="mult">—</span>R or more is skipped, as in your rule. Targets need a tick of trade-through. The stop is checked before the target inside a bar.</li>
       <li>At the level means the swing low or high sits no more than <span data-draw="num" data-source="scope" data-row="0" data-field="loc_depth" data-fmt="mult">—</span> × ATR5 past the far edge and no more than <span data-draw="num" data-source="scope" data-row="0" data-field="loc_tol" data-fmt="mult">—</span> × ATR5 short of the near edge.</li>
       <li>Divergence: a swing low that undercuts the previous swing low (the lowest bar of five on each side), <span data-draw="num" data-source="scope" data-row="0" data-field="div_range_lo" data-fmt="n">—</span> to <span data-draw="num" data-source="scope" data-row="0" data-field="div_range_hi" data-fmt="n">—</span> bars back, while the oscillator makes a higher low; mirrored for shorts. RSI(14), the MACD(12,26,9) line and its histogram, confirmed by one or two bars that hold the low.</li>
-      <li>Random entry: at each 5m bar at the level, enter with probability <span data-draw="num" data-source="scope" data-row="0" data-field="null_p" data-fmt="mult">—</span>, first hit taken, same stops and targets. It needs no hindsight, so it is a fair benchmark for timing.</li>
+      <li>Random-timing benchmark, one per trigger: on every touched setup, enter at a delay after the touch and with a stop size drawn from that trigger's own trades, same targets and costs. Its only difference from the trigger is that it ignores price, so the gap between the two is what the trigger's timing is worth.</li>
       <li>First half before <span data-draw="num" data-source="scope" data-row="0" data-field="split_day" data-fmt="x">—</span>, second half from that day.</li>
     </ul>
   </section>
@@ -379,7 +381,6 @@ dash.draw('reaction', (el) => {
   const y = y0;
   svg.append('g').attr('transform', `translate(${ml},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(yfmt).tickSize(-(W - ml - 6))).call(PL.styleAxis).call((g) => g.select('.domain').remove());
   svg.append('g').attr('transform', `translate(0,${H - 36})`).call(d3.axisBottom(x).tickFormat((d) => `${d} × ATR15`)).call(PL.styleAxis);
-  svg.append('line').attr('x1', ml).attr('x2', W - 6).attr('y1', y(PL.CONST.coin)).attr('y2', y(PL.CONST.coin)).style('stroke', 'var(--cds-chart-reference)').style('stroke-dasharray', '4 3');
   const kx = (k) => x(String(+k));
   const pts = [];
   sets.forEach(([name, ck], si) => {
@@ -403,12 +404,11 @@ dash.draw('reaction', (el) => {
 });
 
 dash.draw('dots', (el) => {
-  const L = PL.rows('leaderboard'), N = PL.rows('random_null');
-  el.replaceChildren(); PL.ready(el, !!(L && N)); if (!L || !N) return;
+  const L = PL.rows('leaderboard');
+  el.replaceChildren(); PL.ready(el, !!L); if (!L) return;
   const btn = document.querySelector('.pl-seg[data-redraw="dots"] .pl-seg-b[aria-pressed="true"]');
   const U = btn ? btn.value : 'A';
   const rs = L.filter((r) => r.uni === U && r.avgR != null).sort((a, b) => d3.descending(a.avgR, b.avgR));
-  const nul = N.filter((r) => r.uni === U);
   const hl = new Set([`${U}|reclaim_5m`, `${U}|macd_div_5m_R2`]);
   const W = Math.max(340, el.clientWidth || 720), rowH = 16, top = 8, H = top + rs.length * rowH + 34;
   const svg = PL.svgIn(el, W, H);
@@ -421,8 +421,6 @@ dash.draw('dots', (el) => {
   const x = d3.scaleLinear([lo, hi], [ml, W - mr]).nice();
   const y = d3.scaleBand(rs.map((r) => r.key), [top, top + rs.length * rowH]).padding(0.2);
   svg.append('g').attr('transform', `translate(0,${top + rs.length * rowH})`).call(d3.axisBottom(x).ticks(narrow ? 4 : 7).tickFormat(d3.format('+.1f')).tickSize(-(rs.length * rowH))).call(PL.styleAxis).call((g) => g.select('.domain').remove());
-  const nlo = d3.min(nul, (r) => r.avgR), nhi = d3.max(nul, (r) => r.avgR);
-  svg.append('rect').attr('x', x(nlo)).attr('width', Math.max(2, x(nhi) - x(nlo))).attr('y', top).attr('height', rs.length * rowH).style('fill', 'var(--cds-chart-reference)').style('opacity', 0.18);
   svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', top).attr('y2', top + rs.length * rowH).style('stroke', 'var(--cds-chart-axis)');
   const g = svg.append('g');
   rs.forEach((r) => {
@@ -432,6 +430,7 @@ dash.draw('dots', (el) => {
     g.append('text').attr('x', ml - 8).attr('y', yy).attr('dy', '0.32em').attr('text-anchor', 'end').text(lab)
       .style('font-size', 'var(--cds-font-size-caption)').style('fill', on ? 'var(--color-fg)' : 'var(--color-fg-muted)').style('font-weight', on ? 600 : null);
     if (r.ci_lo != null && r.ci_hi != null) g.append('line').attr('x1', x(Math.max(lo, r.ci_lo))).attr('x2', x(Math.min(hi, r.ci_hi))).attr('y1', yy).attr('y2', yy).style('stroke', c).style('stroke-width', on ? 2 : 1.25).style('stroke-linecap', 'round');
+    if (r.randomR != null) g.append('line').attr('x1', x(r.randomR)).attr('x2', x(r.randomR)).attr('y1', yy - 5).attr('y2', yy + 5).style('stroke', 'var(--cds-chart-reference)').style('stroke-width', 2.5);
     g.append('circle').attr('cx', x(r.avgR)).attr('cy', yy).attr('r', on ? 4.5 : 3.5).style('fill', c);
     if (!narrow) g.append('text').attr('x', W - mr + 8).attr('y', yy).attr('dy', '0.32em').text(PL.fR(r.avgR) + ' · n ' + PL.fN(r.n))
       .style('font-size', 'var(--cds-font-size-caption)').style('fill', 'var(--color-fg-muted)').style('font-variant-numeric', 'tabular-nums');
@@ -445,6 +444,7 @@ dash.draw('dots', (el) => {
     PL.showTip(el, t, x(r.avgR) * s, (y(r.key) + y.bandwidth() / 2) * s, r.trigger, [
       { t: `Avg R ${PL.fR(r.avgR)} (95% CI ${PL.fR(r.ci_lo)} to ${PL.fR(r.ci_hi)})` },
       { t: `${PL.fN(r.n)} trades · win rate ${PL.fP0(r.win)} · profit factor ${r.pf == null ? '—' : d3.format('.2f')(r.pf)}` },
+      { t: r.randomR == null ? 'Random-timing benchmark: not comparable (limit order)' : `Random timing ${PL.fR(r.randomR)} · edge ${PL.fR(r.edge)} (${PL.fR(r.edge_lo)} to ${PL.fR(r.edge_hi)})` },
       { t: `First half ${PL.fR(r.h1R)} · second half ${PL.fR(r.h2R)}` }]);
   }).on('pointerleave', () => { t.hidden = true; });
 });
@@ -507,13 +507,11 @@ dash.draw('mtf_rows', (tb) => {
 });
 
 dash.draw('costs', (el) => {
-  const L = PL.rows('leaderboard'), N = PL.rows('random_null');
-  el.replaceChildren(); PL.ready(el, !!(L && N)); if (!L || !N) return;
+  const L = PL.rows('leaderboard');
+  el.replaceChildren(); PL.ready(el, !!L); if (!L) return;
   const codes = ['reclaim_5m', 'macd_div_5m_R2', 'macd_div_10m_R2', 'rsi_div_5m_R1', 'macdh_div_5m_R1', 'engulf_5m', 'touch_limit'];
   const by = new Map(L.filter((r) => r.uni === 'A').map((r) => [r.code, r]));
   const items = codes.map((c) => by.get(c)).filter(Boolean).map((r) => ({ name: r.trigger, g: r.grossR, l: r.lightR, c: r.avgR }));
-  const nr = N.find((r) => r.key === 'A|p0.25');
-  if (nr) items.push({ name: 'Random entry at the level', g: nr.grossR, l: nr.lightR, c: nr.avgR });
   const W = Math.max(300, el.clientWidth || 460), rowH = 34, top = 6, H = top + items.length * rowH + 30;
   const svg = PL.svgIn(el, W, H);
   const ml = Math.min(PL.textW(svg, items.map((d) => d.name)) + 10, W * 0.5);
@@ -714,7 +712,7 @@ dash.draw('board_rows', (tb) => {
   const fR = (v) => v == null ? '—' : PL.fR(v);
   for (const r of out) {
     const tr = document.createElement('tr'); tr.dataset.key = r.key;
-    const cells = [[r.trigger, 'pl-l'], [PL.fN(r.n)], [PL.fP0(r.win)], [fR(r.avgR), PL.signCls(r.avgR)], [fR(r.ci_lo)], [fR(r.ci_hi)], [r.pf == null ? '—' : d3.format('.2f')(r.pf)],
+    const cells = [[r.trigger, 'pl-l'], [PL.fN(r.n)], [PL.fP0(r.win)], [fR(r.avgR), PL.signCls(r.avgR)], [fR(r.ci_lo)], [fR(r.ci_hi)], [fR(r.randomR)], [fR(r.edge), PL.signCls(r.edge)], [r.pf == null ? '—' : d3.format('.2f')(r.pf)],
       [r.totalR == null ? '—' : d3.format('+.1f')(r.totalR), PL.signCls(r.totalR)], [r.maxddR == null ? '—' : d3.format('.1f')(r.maxddR)], [PL.fP0(r.fp1)],
       [fR(r.h1R), PL.signCls(r.h1R)], [fR(r.h2R), PL.signCls(r.h2R)], [fR(r.esR), PL.signCls(r.esR)], [fR(r.nqR), PL.signCls(r.nqR)], [fR(r.rthR), PL.signCls(r.rthR)],
       [fR(r.ethR), PL.signCls(r.ethR)], [fR(r.longR), PL.signCls(r.longR)], [fR(r.shortR), PL.signCls(r.shortR)], [fR(r.lightR), PL.signCls(r.lightR)], [fR(r.grossR), PL.signCls(r.grossR)],
