@@ -3,10 +3,10 @@ import charts, pandas as pd
 tz = "America/New_York"
 ES, NQ = charts.load_1h("ES"), charts.load_1h("NQ")
 ES5, NQ5 = charts.load("ES"), charts.load("NQ")
-s = pd.Timestamp("2026-10-19 09:30", tz=tz); e = pd.Timestamp("2026-11-02 16:15", tz=tz)
+s = pd.Timestamp("2026-10-19 09:30", tz=tz); e = pd.Timestamp("2026-11-03 16:15", tz=tz)
 w3 = ("wk 10/19", pd.Timestamp("2026-10-18 18:00", tz=tz), pd.Timestamp("2026-10-23 16:00", tz=tz))
 w4 = ("wk 10/26", pd.Timestamp("2026-10-25 18:00", tz=tz), pd.Timestamp("2026-10-30 16:00", tz=tz))
-w5 = ("Mon", pd.Timestamp("2026-11-01 18:00", tz=tz), e)
+w5 = ("Mon-Tue", pd.Timestamp("2026-11-01 18:00", tz=tz), e)
 
 es_lv = [
  {"p":[7838,7841],"label":"","kind":"up","strong":True},
@@ -41,9 +41,10 @@ es_marks = [
  {"t":pd.Timestamp("2026-10-28 16:00",tz=tz),"y":7819.5,"label":"WED FOMC: AH 7819.5 — 15-20 REJECTED, 'enormous trap'","dy":12,"dx":-95},
  {"t":pd.Timestamp("2026-10-29 18:45",tz=tz),"y":7693.75,"label":"THU: LAAF IB high → 7725; AH liquidation","dy":-60,"dx":-90},
  {"t":pd.Timestamp("2026-10-30 14:50",tz=tz),"y":7558.25,"label":"FRI: thru 7569-75 (Sept low) → 7558.25; monthly OTFU ENDED; closed 7615.75","dy":-60,"dx":-170},
- {"t":pd.Timestamp("2026-11-02 10:25",tz=tz),"y":7693.75,"label":"MON: 7693.75 (= Fri 5am lower high) → failed 44-49 → spike to 7570.75, 69-75 HELD","dy":112,"dx":-110}]
+ {"t":pd.Timestamp("2026-11-02 10:25",tz=tz),"y":7693.75,"label":"MON: 7693.75 (= Fri 5am lower high) → failed 44-49 → spike to 7570.75, 69-75 HELD","dy":112,"dx":-110},
+ {"t":pd.Timestamp("2026-11-03 02:05",tz=tz),"y":7546.0,"label":"TUE: ON 7546 = LBAF of Mon+Fri lows; 18-23 rejected 2x; box 7576.5-7623.75","dy":-85,"dx":-120}]
 charts.weekly("ES", es_lv, ES, s, e, "charts/2026-W45_ES_weekly.png",
-              "ES weekly  ·  10/19 – Mon 11/2  ·  week of 11/1 plan", profile_ranges=[w4, w5], marks=es_marks, d5prof=ES5)
+              "ES weekly  ·  10/19 – Tue 11/3  ·  week of 11/1 plan", profile_ranges=[w4, w5], marks=es_marks, d5prof=ES5)
 
 nq_lv = [
  {"p":[30210,30237],"label":"major test above · LAAF","kind":"up","strong":True},
@@ -83,7 +84,8 @@ nq_marks = [
  {"t":pd.Timestamp("2026-10-28 16:00",tz=tz),"y":30178.0,"label":"WED FOMC: AH 30178, failed under 210-237","dy":90,"dx":-120},
  {"t":pd.Timestamp("2026-10-29 18:45",tz=tz),"y":29043.25,"label":"THU: 623-656 gave way → 380-436 → AH 29043","dy":-250,"dx":-120},
  {"t":pd.Timestamp("2026-10-30 14:50",tz=tz),"y":28232.75,"label":"FRI: dip buyers let go → thru 684-722 → 28232.75 (June low, 0.382); closed 28542","dy":-210,"dx":-200},
- {"t":pd.Timestamp("2026-11-02 15:40",tz=tz),"y":28101.75,"label":"MON: 28891 → thru Fri low → 28101.75 (200d/VWAPs); spike base 28196.5","dy":-390,"dx":-130}]
+ {"t":pd.Timestamp("2026-11-02 15:40",tz=tz),"y":28101.75,"label":"MON: 28891 → thru Fri low → 28101.75 (200d/VWAPs); spike base 28196.5","dy":-390,"dx":-130},
+ {"t":pd.Timestamp("2026-11-03 02:20",tz=tz),"y":28038.25,"label":"TUE: ON 28038 held 200d/VWAPs = LBAF; box 200-233 ↔ 28443.5","dy":-470,"dx":-150}]
 charts.weekly("NQ", nq_lv, NQ, s, e, "charts/2026-W45_NQ_weekly.png",
-              "NQ weekly  ·  10/19 – Mon 11/2  ·  week of 11/1 plan", profile_ranges=[w4, w5], marks=nq_marks, d5prof=NQ5)
+              "NQ weekly  ·  10/19 – Tue 11/3  ·  week of 11/1 plan", profile_ranges=[w4, w5], marks=nq_marks, d5prof=NQ5)
 print("ok")
