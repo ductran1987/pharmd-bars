@@ -1,0 +1,719 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-05",
+ "status": "draft",
+ "notes": "",
+ "bias": "'An election night reversal for the ages. Now comes the real test.' After the early-evening LAAF both broke their boxes lower with continuation — ES to 7490 at the YTD-low AVWAP just under 7497-7504 (he'd warned against aggressive shorts into 7480-7520), NQ to the May low and 27592-27622 — then staged massive reversals as hedges were monetized and unwound (vol crush), ES opening RTH on a true gap higher; the first 5-minute OR set the RTH low in both and was never revisited. Both are now building upper distributions on the weekly profile; ES has made far more convincing progress and has a HTF bullish sequence in play (ATH retest possible if not given back), NQ remains trapped below the 29k reclaim — a meaningful divergence. 'I could find myself extremely bullish OR bearish on price by Friday.' Reserving bigger-picture judgment for a couple of days.",
+ "wildcard": "ES profile: primary distribution 7569-7575 → 7618-7623, thin secondary ~7634-7662, new upper distribution 7712 → 7741. Wednesday's high stalled just above 7738-7741 (stout resistance) and tagged the ATH VWAP and the September rate-hike VWAP (keep that one on indefinitely, plus the 7699 rate-hike high). NQ: 28444-28485 nearly perfectly separates its two distributions and held both pullbacks; SMH took out its July low — reclaiming it (esp. >~515.69) matters for NQ. Daily: ES 7738-7741, 7662, 7631-7634 (+7751 honorable mention); NQ 29194-29220, 28444-28485 (LBAF monitor).",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "ON low 7490 at 22:05 (YTD-low AVWAP, under 7497-7504) → massive reversal; cash opened 7683 on a true gap, OR low 7679.75 = RTH low, ripped to 7746.25 at 13:05 (just above 7738-7741, ATH VWAP, Sept rate-hike VWAP), consolidated 7725-7741 most of the session, pulled back into the close to the 7712.75 APBL and finished below 7725-7730 — 'largely indeterminate'. Massive bullish RTH gap 7623.75 → 7679.75.",
+   "pivot": "7725-7730 holds this week's VPOC; 7738-7741 must flip to support and Wednesday's high go with continuation for 7769-7772 (at least 7765). 7703-7712 / the 7712.75 APBL is the hold-or-LBAF long; Wednesday's low 7679.75 is the line below.",
+   "higher": "So much selling in 7738-7741 that bulls need it flipped to support and Wednesday's high taken out with continuation → 7765 / 7769-7772 (7751 honorable mention) → 7784-7788 for a fresh assessment (a failure there → back to 69-72, possibly Wednesday's high). A LAAF of Wednesday's high with 38-41 still resistance → 7725-7730 (VPOC) → 7703-7712 likely, particularly if 7725 is lost and re-offered.",
+   "lower": "Very often after a day like this a pullback sweeps the APBL then the rally resumes: hold/LBAF of 7703-7712 → VPOC 7725-7730 → 7738-7741 → Wednesday's high. Demand between Monday's 7693.75 high and the 7699 rate-hike high can trigger the LBAF; persistent weakness below 03-12 after clearing it → Wednesday's 7679.75 low / 7670-7677. Giving back Wednesday's low with continuation is a poor look; the bullish gap holds 7662 and 7631-7634 (dailies) — a responsive bid anywhere in it is only constructive if Wednesday's low and really 7703-7712 are reclaimed. A sustained move back into Tuesday's range = borderline catastrophic for the immediate bull case → 7569-7575.",
+   "levels": [
+    {
+     "p": [
+      7784,
+      7788
+     ],
+     "label": "fresh assessment",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7769,
+      7772
+     ],
+     "label": "weekly · target (≥7765)",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7751
+     ],
+     "label": "honorable mention",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7746.25
+     ],
+     "label": "Wed high · ATH VWAP · LAAF short B-",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7738,
+      7741
+     ],
+     "label": "daily · stout · must flip",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7725,
+      7730
+     ],
+     "label": "weekly · VPOC",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7712.75
+     ],
+     "label": "APBL · LBAF long B",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7703,
+      7712
+     ],
+     "label": "weekly · hold/LBAF",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7699
+     ],
+     "label": "Sept rate-hike high · keep forever",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7693.75
+     ],
+     "label": "Mon high · demand to 7699",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7679.75
+     ],
+     "label": "Wed low · LBAF long B/B-",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7670,
+      7677
+     ],
+     "label": "weekly",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7662
+     ],
+     "label": "daily · in the bull gap",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7631,
+      7634
+     ],
+     "label": "daily · in the bull gap",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7623.75
+     ],
+     "label": "Tue high · gap bottom · catastrophic below",
+     "kind": "ref"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "ON low 27615.75 at 22:05 (May low / 27592-27622) → massive reversal; cash opened 28430.25, OR low 28405 = RTH low (never revisited), high 28969 at 10:15 inside 28944-28969, considerably weaker than ES after the first 45 minutes (YM on a moon mission); consolidated lower, 28444-28485 held both pullbacks, closed ~28580s. Upper distribution building but still trapped below the 29k reclaim; the bearish RTH gap to Thursday's 29405 low remains only partially filled.",
+   "pivot": "'NQ needs to hold Wednesday's low. Period.' 28444-28485 separates the two distributions — a hold/LBAF keeps the upper distribution alive; anything other than a LBAF of it (Wednesday's low taken out or not) is an unmitigated disaster for bulls → back into Tuesday's range.",
+   "higher": "As long as 444-485 broadly holds, consolidation within the upper distribution; no clean rotation to Wednesday's high (three weekly levels plus the Sept ETH/RTH lows in between) but it's in play. Further consolidation and clear rejection of prices below 444-485 → better odds of cracking Wednesday's high in 28944-28969 and the critical 29038-29069. Stay alert for a LAAF of Wednesday's high given the partially filled bear gap to 29405.",
+   "lower": "Value still firmly gaps lower vs. last week even with the double distribution; rejecting the upper distribution would be completely demoralizing for bulls. 28369-28394 could trigger a LBAF of Wednesday's low, but 28200-28233 and likely 28080-28100 are the logical targets back within Tuesday's range.",
+   "levels": [
+    {
+     "p": [
+      29405
+     ],
+     "label": "Thu low · bear gap top",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      29038,
+      29069
+     ],
+     "label": "critical",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      28969
+     ],
+     "label": "Wed high · LAAF watch",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      28944,
+      28969
+     ],
+     "label": "weekly",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      28878.75
+     ],
+     "label": "Sept RTH low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      28847,
+      28869
+     ],
+     "label": "fail/LAAF short B (from 28816)",
+     "kind": "up"
+    },
+    {
+     "p": [
+      28816.25
+     ],
+     "label": "Sept ETH low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      28684,
+      28722
+     ],
+     "label": "weekly · target",
+     "kind": "up"
+    },
+    {
+     "p": [
+      28569,
+      28583
+     ],
+     "label": "weekly · first target",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      28444,
+      28485
+     ],
+     "label": "daily · distribution split · hold/LBAF B-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      28405
+     ],
+     "label": "Wed low · MUST hold",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      28369,
+      28394
+     ],
+     "label": "LBAF trigger",
+     "kind": "down"
+    },
+    {
+     "p": [
+      28200,
+      28233
+     ],
+     "label": "weekly · disaster target",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      28080,
+      28100
+     ],
+     "label": "weekly",
+     "kind": "down"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of the 7712.75 APBL (hold/LBAF of 7703-7712)",
+   "dir": "long",
+   "tag": "B · post-reversal APBL sweep then resume",
+   "gate": "look below and fail of Wednesday's 7712.75 afternoon pullback low — effectively a hold/LBAF of 7703-7712 (demand 7693.75-7699 can be the trigger)",
+   "tgt": "7725-7730 (VPOC) → 7738-7741 → Wednesday's high 7746.25",
+   "stop": "persistent weakness below 03-12 after clearing the 7693.75-7699 demand → 7679.75",
+   "quote": "Long — LBAF of 7712.75 APBL. Setup: LBAF of Wednesday's 7712.75 afternoon pullback low, effectively a hold/LBAF of 7703–7712. Grade: B",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7703,
+     7712.75
+    ],
+    "tgt": [
+     [
+      7725,
+      7730
+     ],
+     [
+      7738,
+      7741
+     ],
+     7746.25
+    ],
+    "invalid": [
+     7693.75
+    ],
+    "stop": [
+     7702.75
+    ],
+    "be": [
+     7722.75
+    ]
+   },
+   "risk": {
+    "entry": "7712.75",
+    "stop": "7702.75",
+    "stop_pts": "10",
+    "be": "7722.75",
+    "his": "7693.75",
+    "his_pts": "19",
+    "mic": "MES",
+    "ours": [
+     "10.0",
+     "20.0"
+    ],
+    "his_n": [
+     "5.3",
+     "10.5"
+    ],
+    "tgts": [
+     {
+      "p": "7725-7730",
+      "ours": "1.2",
+      "his": "0.6"
+     },
+     {
+      "p": "7738-7741",
+      "ours": "2.5",
+      "his": "1.3"
+     },
+     {
+      "p": "7746.25",
+      "ours": "3.4",
+      "his": "1.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of Wednesday's high 7746.25 (7738-7741 resistance)",
+   "dir": "short",
+   "tag": "B- · can also be a direct rejection from 38-41",
+   "gate": "look above and fail of Wednesday's high with 7738-7741 confirmed as resistance (a direct rejection from 38-41 also works, a LAAF gets the stronger response once back below 38-41)",
+   "tgt": "7725-7730 (VPOC) → 7703-7712",
+   "stop": "38-41 flipped to support, Wednesday's high taken out with continuation → 7765 / 7769-7772",
+   "quote": "Short — LAAF of Wednesday's high. Setup: LAAF of Wednesday's high, with 7738–7741 confirmed as resistance. Notes: This can also develop as a rejection directly from 7738–7741 without taking Wednesday's high, but a LAAF would likely elicit a stronger downside response once price returns below 7738–7741. Grade: B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7738,
+     7751
+    ],
+    "tgt": [
+     [
+      7725,
+      7730
+     ],
+     [
+      7703,
+      7712
+     ]
+    ],
+    "invalid": [
+     7765
+    ],
+    "stop": [
+     7756.25
+    ],
+    "be": [
+     7736.25
+    ]
+   },
+   "risk": {
+    "entry": "7746.25",
+    "stop": "7756.25",
+    "stop_pts": "10",
+    "be": "7736.25",
+    "his": "7765",
+    "his_pts": "18.75",
+    "mic": "MES",
+    "ours": [
+     "10.0",
+     "20.0"
+    ],
+    "his_n": [
+     "5.3",
+     "10.7"
+    ],
+    "tgts": [
+     {
+      "p": "7725-7730",
+      "ours": "1.6",
+      "his": "0.9"
+     },
+     {
+      "p": "7703-7712",
+      "ours": "3.4",
+      "his": "1.8"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of Wednesday's low 7679.75",
+   "dir": "long",
+   "tag": "B/B- · OR low never revisited",
+   "gate": "look below and fail of Wednesday's 7679.75 RTH low (a responsive bid inside the bullish gap is only constructive once Wednesday's low and really 7703-7712 are reclaimed)",
+   "tgt": "7693.75 → 7703-7712",
+   "stop": "giving back Wednesday's low with continuation → 7670-7677 → 7662",
+   "quote": "Long — LBAF of Wednesday's low. Setup: LBAF of Wednesday's 7679.75 low. Targets: 7693.75 initially, with potential to reach 7703–7712. Grade: B/B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7670,
+     7679.75
+    ],
+    "tgt": [
+     7693.75,
+     [
+      7703,
+      7712
+     ],
+     [
+      7725,
+      7730
+     ]
+    ],
+    "invalid": [
+     7662
+    ],
+    "stop": [
+     7669.75
+    ],
+    "be": [
+     7689.75
+    ]
+   },
+   "risk": {
+    "entry": "7679.75",
+    "stop": "7669.75",
+    "stop_pts": "10",
+    "be": "7689.75",
+    "his": "7662",
+    "his_pts": "17.75",
+    "mic": "MES",
+    "ours": [
+     "10.0",
+     "20.0"
+    ],
+    "his_n": [
+     "5.6",
+     "11.3"
+    ],
+    "tgts": [
+     {
+      "p": "7693.75",
+      "ours": "1.4",
+      "his": "0.8"
+     },
+     {
+      "p": "7703-7712",
+      "ours": "2.3",
+      "his": "1.3"
+     },
+     {
+      "p": "7725-7730",
+      "ours": "4.5",
+      "his": "2.5"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold / LBAF of 28444-28485",
+   "dir": "long",
+   "tag": "B- · the distribution split · upside could be choppy",
+   "gate": "hold or look below and fail of 28444-28485 (held both Wednesday pullbacks; 28369-28394 can trigger the LBAF)",
+   "tgt": "28569-28583 → 28684-28722; monitor for continuation beyond (choppy)",
+   "stop": "anything other than a LBAF — acceptance below 444-485 / Wednesday's low 28405 → 28200-28233",
+   "quote": "Long — Hold/LBAF of 28444–28485. Targets: 28569–28583 initially, with room to 28684–28722. Notes: Monitor for continuation beyond 28684–28722, but further upside could be choppy. Grade: B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28405,
+     28485
+    ],
+    "tgt": [
+     [
+      28569,
+      28583
+     ],
+     [
+      28684,
+      28722
+     ],
+     [
+      28847,
+      28869
+     ]
+    ],
+    "invalid": [
+     28369
+    ],
+    "stop": [
+     28378.25
+    ],
+    "be": [
+     28509.75
+    ]
+   },
+   "risk": {
+    "entry": "28444",
+    "stop": "28378.2",
+    "stop_pts": "65.75",
+    "be": "28509.8",
+    "his": "28369",
+    "his_pts": "75",
+    "mic": "MNQ",
+    "ours": [
+     "3.8",
+     "7.6"
+    ],
+    "his_n": [
+     "3.3",
+     "6.7"
+    ],
+    "tgts": [
+     {
+      "p": "28569-28583",
+      "ours": "1.9",
+      "his": "1.7"
+     },
+     {
+      "p": "28684-28722",
+      "ours": "3.7",
+      "his": "3.2"
+     },
+     {
+      "p": "28847-28869",
+      "ours": "6.1",
+      "his": "5.4"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail / LAAF of 28847-28869",
+   "dir": "short",
+   "tag": "B · potentially from as low as 28816 (Sept ETH low)",
+   "gate": "failure or look above and fail of 28847-28869 — the look can start from as low as the 28816.25 September ETH low",
+   "tgt": "28684-28722 → 28569-28583 → 28444-28485",
+   "stop": "acceptance above 847-869 / Sept RTH low 28878.75 → Wednesday's high 28944-28969",
+   "quote": "Short — Fail/LAAF of 28847–28869. Setup: Failure or LAAF of 28847–28869, potentially from as low as 28816 (September ETH low). Grade: B",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28816.25,
+     28869
+    ],
+    "tgt": [
+     [
+      28684,
+      28722
+     ],
+     [
+      28569,
+      28583
+     ],
+     [
+      28444,
+      28485
+     ]
+    ],
+    "invalid": [
+     28944
+    ],
+    "stop": [
+     28934.75
+    ],
+    "be": [
+     28803.25
+    ]
+   },
+   "risk": {
+    "entry": "28869",
+    "stop": "28934.8",
+    "stop_pts": "65.75",
+    "be": "28803.2",
+    "his": "28944",
+    "his_pts": "75",
+    "mic": "MNQ",
+    "ours": [
+     "3.8",
+     "7.6"
+    ],
+    "his_n": [
+     "3.3",
+     "6.7"
+    ],
+    "tgts": [
+     {
+      "p": "28684-28722",
+      "ours": "2.2",
+      "his": "2.0"
+     },
+     {
+      "p": "28569-28583",
+      "ours": "4.3",
+      "his": "3.8"
+     },
+     {
+      "p": "28444-28485",
+      "ours": "5.8",
+      "his": "5.1"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Breakdown below 28444-28485 / Wednesday's low 28405",
+   "dir": "short",
+   "tag": "implied · ungraded (breakdown shorts aren't his preferred type)",
+   "gate": "breakdown below 28444-28485, particularly Wednesday's low 28405, with continuation — not a LBAF",
+   "tgt": "28369-28394 → 28200-28233 → 28080-28100",
+   "stop": "quick LBAF of Wednesday's low + reclaim of 444-485",
+   "quote": "Short — Breakdown below 28444–28485. Setup: Breakdown below 28444–28485, particularly Wednesday's low. Notes: This trade is implied by the commentary. I rarely assign grades to breakdown shorts or breakout longs, as they are generally not my preferred types of trades.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28405,
+     28444
+    ],
+    "tgt": [
+     [
+      28369,
+      28394
+     ],
+     [
+      28200,
+      28233
+     ],
+     [
+      28080,
+      28100
+     ]
+    ],
+    "invalid": [
+     28485
+    ],
+    "stop": [
+     28470.75
+    ],
+    "be": [
+     28339.25
+    ]
+   },
+   "risk": {
+    "entry": "28405",
+    "stop": "28470.8",
+    "stop_pts": "65.75",
+    "be": "28339.2",
+    "his": "28485",
+    "his_pts": "80",
+    "mic": "MNQ",
+    "ours": [
+     "3.8",
+     "7.6"
+    ],
+    "his_n": [
+     "3.1",
+     "6.2"
+    ],
+    "tgts": [
+     {
+      "p": "28369-28394",
+      "ours": "0.2",
+      "his": "0.1"
+     },
+     {
+      "p": "28200-28233",
+      "ours": "2.6",
+      "his": "2.1"
+     },
+     {
+      "p": "28080-28100",
+      "ours": "4.6",
+      "his": "3.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 6.71,
+  "NQ": 43.91
+ },
+ "stop_floor": {
+  "ES": 10.0,
+  "NQ": 65.75
+ }
+}
