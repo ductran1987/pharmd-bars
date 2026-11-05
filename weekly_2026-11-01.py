@@ -3,10 +3,10 @@ import charts, pandas as pd
 tz = "America/New_York"
 ES, NQ = charts.load_1h("ES"), charts.load_1h("NQ")
 ES5, NQ5 = charts.load("ES"), charts.load("NQ")
-s = pd.Timestamp("2026-10-19 09:30", tz=tz); e = pd.Timestamp("2026-11-04 16:15", tz=tz)
+s = pd.Timestamp("2026-10-19 09:30", tz=tz); e = pd.Timestamp("2026-11-05 18:15", tz=tz)
 w3 = ("wk 10/19", pd.Timestamp("2026-10-18 18:00", tz=tz), pd.Timestamp("2026-10-23 16:00", tz=tz))
 w4 = ("wk 10/26", pd.Timestamp("2026-10-25 18:00", tz=tz), pd.Timestamp("2026-10-30 16:00", tz=tz))
-w5 = ("Mon-Wed", pd.Timestamp("2026-11-01 18:00", tz=tz), e)
+w5 = ("Mon-Thu", pd.Timestamp("2026-11-01 18:00", tz=tz), e)
 
 es_lv = [
  {"p":[7838,7841],"label":"","kind":"up","strong":True},
@@ -32,20 +32,32 @@ es_lv = [
  {"p":[7483,7486],"label":"cautious shorts","kind":"down","strong":True},
  {"p":[7459,7462],"label":"cautious shorts","kind":"down","strong":True},
  {"p":[7446,7449],"label":"","kind":"down"},
- {"p":[7412,7417],"label":"cautious shorts","kind":"down","strong":True}]
+ {"p":[7412,7417],"label":"cautious shorts","kind":"down","strong":True},
+ {"p":[7393,7399],"label":"","kind":"down"},
+ {"p":[7369,7372],"label":"","kind":"down"},
+ {"p":[7346],"label":"July RTH low","kind":"ref"},
+ {"p":[7326],"label":"July ETH low","kind":"ref"},
+ {"p":[7313,7317],"label":"new · 200d/VWAP cluster","kind":"down"},
+ {"p":[7292,7296],"label":"new","kind":"down"},
+ {"p":[7269,7275],"label":"new","kind":"down"},
+ {"p":[7236,7240],"label":"new","kind":"down"},
+ {"p":[7232.25],"label":"July low · trap door","kind":"ref"},
+ {"p":[7208,7214],"label":"new","kind":"down"},
+ {"p":[7169,7182],"label":"new","kind":"down","strong":True}]
 es_marks = [
  {"t":pd.Timestamp("2026-10-20 10:30",tz=tz),"y":7791.5,"label":"TUE 10/20: bullish engulf","dy":-85,"dx":-25},
- {"t":pd.Timestamp("2026-10-21 14:15",tz=tz),"y":7812.25,"label":"WED: failed under 15-20","dy":22,"dx":-40},
+ {"t":pd.Timestamp("2026-10-21 14:15",tz=tz),"y":7812.25,"label":"WED: failed under 15-20","dy":34,"dx":-80},
  {"t":pd.Timestamp("2026-10-23 10:25",tz=tz),"y":7648.5,"label":"FRI 10/23: 7644-49 held → trap below the box","dy":-55,"dx":-70},
- {"t":pd.Timestamp("2026-10-27 15:45",tz=tz),"y":7772.75,"label":"TUE: book flip → 7772.75 (YTD VPOC)","dy":48,"dx":-110},
- {"t":pd.Timestamp("2026-10-28 16:00",tz=tz),"y":7819.5,"label":"WED FOMC: AH 7819.5 — 15-20 REJECTED, 'enormous trap'","dy":12,"dx":-95},
+ {"t":pd.Timestamp("2026-10-27 15:45",tz=tz),"y":7772.75,"label":"TUE: book flip → 7772.75 (YTD VPOC)","dy":65,"dx":-80},
+ {"t":pd.Timestamp("2026-10-28 16:00",tz=tz),"y":7819.5,"label":"WED FOMC: AH 7819.5 — 15-20 REJECTED, 'enormous trap'","dy":22,"dx":-60},
  {"t":pd.Timestamp("2026-10-29 18:45",tz=tz),"y":7693.75,"label":"THU: LAAF IB high → 7725; AH liquidation","dy":-60,"dx":-90},
  {"t":pd.Timestamp("2026-10-30 14:50",tz=tz),"y":7558.25,"label":"FRI: thru 7569-75 (Sept low) → 7558.25; monthly OTFU ENDED; closed 7615.75","dy":-60,"dx":-170},
- {"t":pd.Timestamp("2026-11-02 10:25",tz=tz),"y":7693.75,"label":"MON: 7693.75 (= Fri 5am lower high) → failed 44-49 → spike to 7570.75, 69-75 HELD","dy":112,"dx":-110},
+ {"t":pd.Timestamp("2026-11-02 10:25",tz=tz),"y":7693.75,"label":"MON: 7693.75 → failed 44-49 → spike to 7570.75, 69-75 HELD","dy":95,"dx":-60},
  {"t":pd.Timestamp("2026-11-03 02:05",tz=tz),"y":7546.0,"label":"TUE: ON 7546 = LBAF of Mon+Fri lows; 18-23 rejected 2x; box 7576.5-7623.75","dy":-25,"dx":-250},
- {"t":pd.Timestamp("2026-11-03 22:05",tz=tz),"y":7490.0,"label":"WED ELECTION: ON 7490 (YTD-low AVWAP) → reversal, gap up, 7746.25 at 38-41","dy":-60,"dx":-200}]
+ {"t":pd.Timestamp("2026-11-03 22:05",tz=tz),"y":7490.0,"label":"WED ELECTION: ON 7490 (YTD-low AVWAP) → reversal, gap up, 7746.25 at 38-41","dy":-45,"dx":-180},
+ {"t":pd.Timestamp("2026-11-05 15:55",tz=tz),"y":7377.25,"label":"THU: bloodbath — singles 7539-7580.5, ARH 7457.75, spike to 7377.25; AH thru July lows","dy":-115,"dx":-150}]
 charts.weekly("ES", es_lv, ES, s, e, "charts/2026-W45_ES_weekly.png",
-              "ES weekly  ·  10/19 – Wed 11/4  ·  week of 11/1 plan", profile_ranges=[w4, w5], marks=es_marks, d5prof=ES5)
+              "ES weekly  ·  10/19 – Thu 11/5  ·  week of 11/1 plan", profile_ranges=[w4, w5], marks=es_marks, d5prof=ES5)
 
 nq_lv = [
  {"p":[30210,30237],"label":"major test above · LAAF","kind":"up","strong":True},
@@ -77,7 +89,20 @@ nq_lv = [
  {"p":[27592,27622],"label":"","kind":"down"},
  {"p":[27409,27440],"label":"","kind":"down"},
  {"p":[27313,27339],"label":"","kind":"down"},
- {"p":[27201.5],"label":"July low · 0.5 fib","kind":"ref"}]
+ {"p":[27358,27457],"label":"Thu singles · reclaim = improvement","kind":"ref"},
+ {"p":[27201.5],"label":"July ETH low · 0.5 fib","kind":"ref"},
+ {"p":[27150,27169],"label":"","kind":"down"},
+ {"p":[27041,27069],"label":"","kind":"down"},
+ {"p":[26969,26987],"label":"","kind":"down","strong":True},
+ {"p":[26885,26911],"label":"reclaim → covering rally","kind":"down","strong":True},
+ {"p":[26840],"label":"new","kind":"ref"},
+ {"p":[26787,26812],"label":"new","kind":"down"},
+ {"p":[26718],"label":"Thu RTH low","kind":"ref"},
+ {"p":[26600,26630],"label":"new","kind":"down"},
+ {"p":[26500,26523],"label":"new","kind":"down"},
+ {"p":[26390,26408],"label":"new · double-top back-test","kind":"down","strong":True},
+ {"p":[26258,26291],"label":"new","kind":"down","strong":True},
+ {"p":[26072,26102],"label":"new","kind":"down","strong":True}]
 nq_marks = [
  {"t":pd.Timestamp("2026-10-21 13:20",tz=tz),"y":30113.0,"label":"WED 10/21: 30113, never saw 210-237","dy":90,"dx":-20},
  {"t":pd.Timestamp("2026-10-23 09:35",tz=tz),"y":28987.0,"label":"FRI 10/23: 28987 → buyers again","dy":-180,"dx":-90},
@@ -87,7 +112,8 @@ nq_marks = [
  {"t":pd.Timestamp("2026-10-30 14:50",tz=tz),"y":28232.75,"label":"FRI: dip buyers let go → thru 684-722 → 28232.75 (June low, 0.382); closed 28542","dy":-210,"dx":-200},
  {"t":pd.Timestamp("2026-11-02 15:40",tz=tz),"y":28101.75,"label":"MON: 28891 → thru Fri low → 28101.75; spike base 28196.5","dy":-230,"dx":-190},
  {"t":pd.Timestamp("2026-11-03 02:20",tz=tz),"y":28038.25,"label":"TUE: ON 28038 held 200d/VWAPs = LBAF; box 200-233 ↔ 28443.5","dy":-330,"dx":-215},
- {"t":pd.Timestamp("2026-11-03 22:05",tz=tz),"y":27615.75,"label":"WED ELECTION: ON 27615.75 (May low) → 28969; 444-485 split the distributions","dy":-145,"dx":-150}]
+ {"t":pd.Timestamp("2026-11-03 22:05",tz=tz),"y":27615.75,"label":"WED ELECTION: ON 27615.75 (May low) → 28969; 444-485 split the distributions","dy":-145,"dx":-150},
+ {"t":pd.Timestamp("2026-11-05 15:55",tz=tz),"y":26718.0,"label":"THU: lost 444-485 → gap-down-and-go thru the July lows → 26718; AH 26488","dy":-200,"dx":-200}]
 charts.weekly("NQ", nq_lv, NQ, s, e, "charts/2026-W45_NQ_weekly.png",
-              "NQ weekly  ·  10/19 – Wed 11/4  ·  week of 11/1 plan", profile_ranges=[w4, w5], marks=nq_marks, d5prof=NQ5)
+              "NQ weekly  ·  10/19 – Thu 11/5  ·  week of 11/1 plan", profile_ranges=[w4, w5], marks=nq_marks, d5prof=NQ5)
 print("ok")

@@ -1,0 +1,802 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-06",
+ "status": "draft",
+ "notes": "",
+ "bias": "'An unmitigated disaster. Well, that escalated quickly.' Wednesday's vol-crush rally gave way to a bloodbath: NQ lost 28444-28485 premarket, delivered a textbook gap-down-and-go, annihilated level after level and exceeded the July low — the target of the multi-month LAAF he's discussed for weeks; ES tagged its July RTH low 7346 to the tick after hours; YM fell 2,500+ from its OR high. Both have reached major HTF downside objectives (NQ exceeded the lowest weekly levels — new ones added). The move is extraordinarily stretched (ES nearly 2× the weekly straddle, NQ beyond it): that doesn't mean a bottom, nor does it negate the damage, but it substantially raises the risk of violent inventory corrections. 'The challenge now isn't recognizing that the market is bearish. It's avoiding the temptation to chase an already historic liquidation while remaining alert for further downside.'",
+ "wildcard": "No long is particularly safe: ES until it reclaims at least 7580.5 (top of Thursday's B-period singles 7539-7580.5); NQ's first structural improvement is a reclaim of its singles 27358-27457. 'A market can be extremely oversold and still offer absolutely terrible long opportunities.' Trading lower first and failing offers a better foundation for a real rally than bouncing out of the gate (sequence matters more on ES than NQ). ES can rally 100+ handles just to reach the first spot savvy sellers step in — longs liquidating are not savvy sellers. He's not initiating intraday shorts down here either; remaining puts managed on the new weekly levels, may add TQQQ for a countertrend if sellers show exhaustion. Confluence below: ES 200-day / YTD VWAP / Jan-high AVWAP ~7305-7354; NQ approaching the late-2025/early-2026 double-top back-test ≈ 61.8% retrace. New weekly levels: ES 7313-7317, 7292-7296, 7269-7275, 7236-7240, 7208-7214, 7169-7182*; NQ 26840, 26787-26812, 26600-26630, 26500-26523, 26390-26408*, 26258-26291*, 26072-26102*. No daily levels.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Opened 7707.5 (RTH high 7712.5 at the open), B-period single prints 7539-7580.5, 7497-7504 / 7483-7486 gave way, 12:00 pullback high 7472.25, ARH 7457.75 at 14:xx just under 7459-7462, low 7388 at 14:05 then a downward spike into the close — spike base 7388, RTH low 7377.25; after hours bled to 7346, the July RTH low to the tick, closing AH at 7353.",
+   "pivot": "Mark 7388 (spike base) and 7377.25 (RTH low). Acceptance below the closing spike = continuation → 7346 → 7326 (July ETH) → 7232.25 (July low = the trap-door completion, then monitor for a durable low). Reclaim of 7388 → 7393-7399 → 7412-7417 could trigger a rally toward the ARH.",
+   "higher": "LAAF of the 7457.75 ARH = classic continuation short after a trend day down. 7483-7486 (incl. LAAF) is particularly attractive for sellers — ~38.2% retrace of Thursday's RTH high → AH low, a key intraday LVN, supply overhead. Short-covering rallies can travel much further than expected — let them exhaust rather than fade prematurely, but don't become a late bull. Even a LAAF of the 7514-7517 lower high meets more supply, still nowhere near the singles; 7541-7543 sits at the bottom of the singles. 'ES can rally massively from here and still be a short.'",
+   "lower": "Acceptance below 7388 / 7377.25 → 7346 → 7326 → 7232.25. Initiating fresh shorts into extended lows is poor form, yet that doesn't make longs safe. The 200-day / YTD VWAP / Jan-high AVWAP cluster ~7305-7354 could produce a meaningful response (NQ's did initially then rolled over) — an initial responsive bid is not a durable low; wait for evidence sellers are losing control.",
+   "levels": [
+    {
+     "p": [
+      7580.5
+     ],
+     "label": "top of B-period singles · longs 'safe' above",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7541,
+      7543
+     ],
+     "label": "bottom of singles · failed reclaim/LAAF short",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7514,
+      7517
+     ],
+     "label": "lower high · LAAF short",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7497,
+      7504
+     ],
+     "label": "weekly",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7483,
+      7486
+     ],
+     "label": "38.2% · LVN · failed reclaim/LAAF short",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7472.25
+     ],
+     "label": "12:00 pullback high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7459,
+      7462
+     ],
+     "label": "weekly",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7457.75
+     ],
+     "label": "ARH · LAAF short",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7412,
+      7417
+     ],
+     "label": "weekly · reclaim ladder",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7393,
+      7399
+     ],
+     "label": "weekly · reclaim ladder",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7388
+     ],
+     "label": "spike base",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7377.25
+     ],
+     "label": "RTH low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7369,
+      7372
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7346
+     ],
+     "label": "July RTH low · tagged AH",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7326
+     ],
+     "label": "July ETH low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7313,
+      7317
+     ],
+     "label": "new weekly · 200d/VWAP cluster 7305-7354",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7292,
+      7296
+     ],
+     "label": "new weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7269,
+      7275
+     ],
+     "label": "new weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7236,
+      7240
+     ],
+     "label": "new weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7232.25
+     ],
+     "label": "July low · trap door complete",
+     "kind": "ref"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Lost 28444-28485 premarket; gap-down-and-go from 28203, B-period singles 27358-27457, through the July lows (27317.5 RTH / 27201.5 ETH) to 26732 at 10:50, inventory bounces to 27358 (11:xx) and 27180 (14:50), downward spike into the close — spike base 26732, RTH low 26718 ('a spike for ants'). Beyond the lowest original weekly levels; approaching the back-test of the late-2025 / early-2026 double top ≈ the 61.8% retrace of the YTD-low → ATH advance.",
+   "pivot": "A terrible location to initiate fresh shorts — not that a low is in. Reclaim of 26840 and 26855-26911 (a substantial buyer sat in the 26800s — did he liquidate into the spike?) could trigger a short-covering rally; shorts then on a failed reclaim of 27201.5 (July ETH low) or 27313-27339 (July RTH low 27317.5), and especially at the 27358-27457 singles.",
+   "higher": "Less concerned about NQ trading higher first than ES given the proximity of major HTF references and the extent of the liquidation. The objective is to let the extended market correct inventory and evaluate whether sellers regain control at better locations — the singles 27358-27457 are the key spot; reclaiming them is the first major sign of structural improvement.",
+   "lower": "Break and continuation below 26718 is objectively a continuation short, but he has no intention of initiating down here; the new weekly levels (26840, 26787-26812, 26600-26630, 26500-26523, 26390-26408*, 26258-26291*, 26072-26102*) are for managing remaining puts. A partial back-test of the double top is anywhere in this region, a complete one just below. Constructive action there (sellers failing to generate downside with every opportunity) → he may keep a few XSP puts and add TQQQ for a countertrend rally.",
+   "levels": [
+    {
+     "p": [
+      27358,
+      27457
+     ],
+     "label": "B-period singles · failed reclaim short · reclaim = improvement",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      27317.5
+     ],
+     "label": "July RTH low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27313,
+      27339
+     ],
+     "label": "weekly · failed reclaim short",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      27201.5
+     ],
+     "label": "July ETH low · failed reclaim",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27180
+     ],
+     "label": "PM rally high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27150,
+      27169
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      27041,
+      27069
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      26969,
+      26987
+     ],
+     "label": "weekly",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      26885,
+      26911
+     ],
+     "label": "weekly · reclaim → covering rally",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      26840
+     ],
+     "label": "new weekly · reclaim · 26800s buyer",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      26787,
+      26812
+     ],
+     "label": "new weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      26732
+     ],
+     "label": "spike base",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      26718
+     ],
+     "label": "RTH low · continuation below",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      26600,
+      26630
+     ],
+     "label": "new weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      26500,
+      26523
+     ],
+     "label": "new weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      26390,
+      26408
+     ],
+     "label": "new weekly · double-top back-test area",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      26258,
+      26291
+     ],
+     "label": "new weekly",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      26072,
+      26102
+     ],
+     "label": "new weekly",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of Thursday's ARH 7457.75",
+   "dir": "short",
+   "tag": "classic continuation short after a trend day · from 7459-7462 or otherwise",
+   "gate": "look above and fail of the 7457.75 afternoon rally high, whether the look comes from the 7459-7462 weekly level or otherwise",
+   "tgt": "7412-7417 → 7393-7399 → spike base 7388 / RTH low 7377.25",
+   "stop": "acceptance above 7459-7462 → 7483-7486 (let a covering rally exhaust)",
+   "quote": "Short: LAAF of Thursday's afternoon rally high (ARH at 7457.75), whether from 7459–7462 or otherwise.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7457.75,
+     7462
+    ],
+    "tgt": [
+     [
+      7412,
+      7417
+     ],
+     [
+      7393,
+      7399
+     ],
+     7377.25
+    ],
+    "invalid": [
+     7483
+    ],
+    "stop": [
+     7485.5
+    ],
+    "be": [
+     7430.0
+    ]
+   },
+   "risk": {
+    "entry": "7457.75",
+    "stop": "7485.5",
+    "stop_pts": "27.75",
+    "be": "7430",
+    "his": "7483",
+    "his_pts": "25.25",
+    "mic": "MES",
+    "ours": [
+     "3.6",
+     "7.2"
+    ],
+    "his_n": [
+     "4.0",
+     "7.9"
+    ],
+    "tgts": [
+     {
+      "p": "7412-7417",
+      "ours": "1.5",
+      "his": "1.6"
+     },
+     {
+      "p": "7393-7399",
+      "ours": "2.1",
+      "his": "2.3"
+     },
+     {
+      "p": "7377.25",
+      "ours": "2.9",
+      "his": "3.2"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Failed reclaim / LAAF of 7483-7486",
+   "dir": "short",
+   "tag": "38.2% retrace · key intraday LVN · supply overhead · 'particularly attractive'",
+   "gate": "failed reclaim or look above and fail of 7483-7486 (≈38.2% of Thursday's RTH high → AH low)",
+   "tgt": "7459-7462 → 7412-7417 → 7393-7399",
+   "stop": "sustained above 83-86 → 7497-7504 / 7514-7517",
+   "quote": "Short: Failed reclaim/LAAF of 7483–7486. … It represents approximately a 38.2% retracement of Thursday's move from the RTH high to the after-hours low, sits within a key intraday LVN, and has additional supply overhead.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7483,
+     7486
+    ],
+    "tgt": [
+     [
+      7459,
+      7462
+     ],
+     [
+      7412,
+      7417
+     ],
+     [
+      7393,
+      7399
+     ]
+    ],
+    "invalid": [
+     7504
+    ],
+    "stop": [
+     7513.75
+    ],
+    "be": [
+     7458.25
+    ]
+   },
+   "risk": {
+    "entry": "7486",
+    "stop": "7513.75",
+    "stop_pts": "27.75",
+    "be": "7458.25",
+    "his": "7504",
+    "his_pts": "18",
+    "mic": "MES",
+    "ours": [
+     "3.6",
+     "7.2"
+    ],
+    "his_n": [
+     "5.6",
+     "11.1"
+    ],
+    "tgts": [
+     {
+      "p": "7459-7462",
+      "ours": "0.9",
+      "his": "1.3"
+     },
+     {
+      "p": "7412-7417",
+      "ours": "2.5",
+      "his": "3.8"
+     },
+     {
+      "p": "7393-7399",
+      "ours": "3.1",
+      "his": "4.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LAAF of 7514-7517",
+   "dir": "short",
+   "tag": "lower high · supply above · still below the singles",
+   "gate": "look above and fail of 7514-7517 (Thursday's lower high)",
+   "tgt": "7483-7486 → 7459-7462 → 7412-7417",
+   "stop": "acceptance above 14-17 → 7541-7543 (bottom of the singles)",
+   "quote": "Short: LAAF of 7514–7517. … Even a LAAF of the 7514–7517 lower high would encounter additional supply overhead, and we'd still be nowhere near Thursday's B-period single prints.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7514,
+     7517
+    ],
+    "tgt": [
+     [
+      7483,
+      7486
+     ],
+     [
+      7459,
+      7462
+     ],
+     [
+      7412,
+      7417
+     ]
+    ],
+    "invalid": [
+     7541
+    ],
+    "stop": [
+     7544.75
+    ],
+    "be": [
+     7489.25
+    ]
+   },
+   "risk": {
+    "entry": "7517",
+    "stop": "7544.75",
+    "stop_pts": "27.75",
+    "be": "7489.25",
+    "his": "7541",
+    "his_pts": "24",
+    "mic": "MES",
+    "ours": [
+     "3.6",
+     "7.2"
+    ],
+    "his_n": [
+     "4.2",
+     "8.3"
+    ],
+    "tgts": [
+     {
+      "p": "7483-7486",
+      "ours": "1.1",
+      "his": "1.3"
+     },
+     {
+      "p": "7459-7462",
+      "ours": "2.0",
+      "his": "2.3"
+     },
+     {
+      "p": "7412-7417",
+      "ours": "3.6",
+      "his": "4.2"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Failed reclaim / LAAF of 7541-7543 (inside the B-period singles)",
+   "dir": "short",
+   "tag": "short within Thursday's singles 7539-7580.5",
+   "gate": "failed reclaim or look above and fail of 7541-7543 — effectively a short within the 7539-7580.5 single prints",
+   "tgt": "7514-7517 → 7483-7486 → 7459-7462",
+   "stop": "reclaim of 7580.5 (top of the singles) — longs become 'safe'",
+   "quote": "Short: Failed reclaim/LAAF of 7541–7543, effectively looking for a short within Thursday's B-period single prints.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7541,
+     7580.5
+    ],
+    "tgt": [
+     [
+      7514,
+      7517
+     ],
+     [
+      7483,
+      7486
+     ],
+     [
+      7459,
+      7462
+     ]
+    ],
+    "invalid": [
+     7580.5
+    ],
+    "stop": [
+     7570.75
+    ],
+    "be": [
+     7515.25
+    ]
+   },
+   "risk": {
+    "entry": "7543",
+    "stop": "7570.75",
+    "stop_pts": "27.75",
+    "be": "7515.25",
+    "his": "7580.5",
+    "his_pts": "37.5",
+    "mic": "MES",
+    "ours": [
+     "3.6",
+     "7.2"
+    ],
+    "his_n": [
+     "2.7",
+     "5.3"
+    ],
+    "tgts": [
+     {
+      "p": "7514-7517",
+      "ours": "0.9",
+      "his": "0.7"
+     },
+     {
+      "p": "7483-7486",
+      "ours": "2.1",
+      "his": "1.5"
+     },
+     {
+      "p": "7459-7462",
+      "ours": "2.9",
+      "his": "2.2"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Failed reclaim of 27313-27339 (July RTH low)",
+   "dir": "short",
+   "tag": "only after a covering rally · 27201.5 (July ETH low) is the first version",
+   "gate": "a short-covering rally (needs 26840 and 26855-26911 reclaimed first) that then fails to reclaim 27313-27339 — a failed reclaim of 27201.5 is the earlier variant",
+   "tgt": "27150-27169 → 27041-27069 → 26969-26987",
+   "stop": "sustained above 27313-27339 → the 27358-27457 singles",
+   "quote": "If a covering rally develops, I'd potentially consider shorts on a failed reclaim of 27201.5, the July ETH low, or 27313–27339, which contains the July RTH low at 27317.5.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27201.5,
+     27339
+    ],
+    "tgt": [
+     [
+      27150,
+      27169
+     ],
+     [
+      27041,
+      27069
+     ],
+     [
+      26969,
+      26987
+     ]
+    ],
+    "invalid": [
+     27358
+    ],
+    "stop": [
+     27483.5
+    ],
+    "be": [
+     27194.5
+    ]
+   },
+   "risk": {
+    "entry": "27339",
+    "stop": "27483.5",
+    "stop_pts": "144.5",
+    "be": "27194.5",
+    "his": "27358",
+    "his_pts": "19",
+    "mic": "MNQ",
+    "ours": [
+     "1.7",
+     "3.5"
+    ],
+    "his_n": [
+     "13.2",
+     "26.3"
+    ],
+    "tgts": [
+     {
+      "p": "27150-27169",
+      "ours": "1.2",
+      "his": "8.9"
+     },
+     {
+      "p": "27041-27069",
+      "ours": "1.9",
+      "his": "14.2"
+     },
+     {
+      "p": "26969-26987",
+      "ours": "2.4",
+      "his": "18.5"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Failed reclaim of the 27358-27457 B-period singles",
+   "dir": "short",
+   "tag": "'particularly interested' · significant structural reference",
+   "gate": "a substantial recovery into the 27358-27457 single prints that fails to reclaim them (evaluate sellers there)",
+   "tgt": "27313-27339 → 27201.5 → 27041-27069",
+   "stop": "singles reclaimed and held — first major sign of structural improvement → 27592-27622",
+   "quote": "Short: Failed reclaim of 27313–27339 or 27358–27457 (B-period single prints). … I'm particularly interested in the 27358–27457 B-period single prints. That area represents a significant structural reference and could provide an attractive location to evaluate sellers if NQ stages a substantial recovery.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27358,
+     27457
+    ],
+    "tgt": [
+     [
+      27313,
+      27339
+     ],
+     27201.5,
+     [
+      27041,
+      27069
+     ]
+    ],
+    "invalid": [
+     27592
+    ],
+    "stop": [
+     27601.5
+    ],
+    "be": [
+     27312.5
+    ]
+   },
+   "risk": {
+    "entry": "27457",
+    "stop": "27601.5",
+    "stop_pts": "144.5",
+    "be": "27312.5",
+    "his": "27592",
+    "his_pts": "135",
+    "mic": "MNQ",
+    "ours": [
+     "1.7",
+     "3.5"
+    ],
+    "his_n": [
+     "1.9",
+     "3.7"
+    ],
+    "tgts": [
+     {
+      "p": "27313-27339",
+      "ours": "0.8",
+      "his": "0.9"
+     },
+     {
+      "p": "27201.5",
+      "ours": "1.8",
+      "his": "1.9"
+     },
+     {
+      "p": "27041-27069",
+      "ours": "2.7",
+      "his": "2.9"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 18.57,
+  "NQ": 96.25
+ },
+ "stop_floor": {
+  "ES": 27.75,
+  "NQ": 144.5
+ }
+}
