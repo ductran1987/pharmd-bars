@@ -65,16 +65,41 @@ def draw_weekly(ax, marks, x0, span):
                 bbox=dict(boxstyle="square,pad=0.1", fc="white", ec="none", alpha=0.7))
 
 
+def _clean(d):
+    """Clip first-tick glitches: a bar whose Open == High (or Low) sits far outside the neighbouring
+    bars (more than min(12x median bar range, 1.2%) beyond prev close / close / next open). The Open is
+    reset to the previous close and the High/Low pulled back to the body. Real wide bars (Open != extreme)
+    are left alone."""
+    if len(d) < 50:
+        return d
+    rng = (d.High - d.Low).rolling(200, min_periods=20).median().bfill()
+    prev_c = d.Close.shift(1).bfill(); next_o = d.Open.shift(-1).ffill()
+    body_hi = pd.concat([prev_c, d.Close, next_o], axis=1).max(axis=1)
+    body_lo = pd.concat([prev_c, d.Close, next_o], axis=1).min(axis=1)
+    thr = pd.concat([12 * rng, 0.012 * d.Close], axis=1).min(axis=1)
+    bad_hi = (d.High > body_hi + thr) & (d.Open == d.High)
+    bad_lo = (d.Low < body_lo - thr) & (d.Open == d.Low)
+    if bad_hi.any():
+        d.loc[bad_hi & (d.Open == d.High), "Open"] = prev_c[bad_hi & (d.Open == d.High)]
+        d.loc[bad_hi, "High"] = pd.concat([d.Open, d.Close], axis=1).max(axis=1)[bad_hi]
+        d.loc[bad_hi, "Low"] = pd.concat([d.Open, d.Low], axis=1).min(axis=1)[bad_hi]
+    if bad_lo.any():
+        d.loc[bad_lo & (d.Open == d.Low), "Open"] = prev_c[bad_lo & (d.Open == d.Low)]
+        d.loc[bad_lo, "Low"] = pd.concat([d.Open, d.Close], axis=1).min(axis=1)[bad_lo]
+        d.loc[bad_lo, "High"] = pd.concat([d.Open, d.High], axis=1).max(axis=1)[bad_lo]
+    return d
+
+
 def load(sym):
     d = pd.read_csv(f"bars/{sym}_5m.csv")
     d["time"] = pd.to_datetime(d["time"], utc=True).dt.tz_convert("America/New_York")
-    return d
+    return _clean(d)
 
 
 def load_1h(sym):
     d = pd.read_csv(f"bars/{sym}_1h.csv")
     d["time"] = pd.to_datetime(d["time"], utc=True).dt.tz_convert("America/New_York")
-    return d
+    return _clean(d)
 
 
 def window(d, plan_date, with_overnight=False):

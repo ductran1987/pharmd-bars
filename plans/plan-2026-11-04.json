@@ -1,0 +1,894 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-04",
+ "status": "draft",
+ "notes": "",
+ "bias": "'The Inception Box: breaking out doesn't mean escaping.' Both took out Monday's lows overnight (ES also Friday's) and found no acceptance — active LBAF sequences, which are an automatic mental downgrade for subsequent shorts (temper expectations for continuation, don't abandon shorts at resistance). NQ reclaimed 28200-28233 overnight and reached exactly 28443.5 (the 28444-28485 daily); ES reclaimed 7591-7594 and 7600, and 7618-7623 rejected twice — but neither retested its RTH low. Sellers had a chance to press a weakened market and couldn't; bulls haven't objectively accomplished anything either. Value is gapping lower this week for both; ES is trapped below 7618-7623, NQ below 28444-28485. He is not forcing a directional opinion — let the auction tell us.",
+ "wildcard": "Election results overnight — sharp two-way moves; a substantial excursion beyond Tuesday's range in either direction can return to the box, and a break alone doesn't resolve it. Only executing at the EDGES of Tuesday's RTH range — not the middle. Favored: long a LBAF of Tuesday's low, short a LAAF of Tuesday's high; cautious initiating longs on an upside breakout given the bearish context. Bull HTF note: ES has an active (ETH) LBAF of the 3-month balance — would carry more weight in RTH with 7541-7543 properly tagged; NQ held the 200-day / YTD VWAP / Jan-high AVWAP cluster with an active LBAF of last week's and Monday's lows. AMD reported after the close; NQ nearly back to 444-485. Daily: ES 7738-7741, 7662; NQ 29194-29220, 28608-28639, 28444-28485 (LAAF monitor).",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "ON took out Monday's and Friday's lows to 7546 at 2:05 (no acceptance → active LBAF), cash opened 7580, RTH low 7576.5 at the open, reclaimed 7591-7594 and 7600, 7618-7623 rejected twice (RTH high 7623.75 at 13:30; first rejection → 7600, second slightly below 91-94); never retested the RTH low.",
+   "pivot": "ES has settled into 7569-7575 ↔ 7618-7623, almost exactly Tuesday's RTH range — treat it as a box: short a LAAF of the high, long an upside break with continuation, long a LBAF of the low, short a downside break with continuation. Friday's + Monday's RTH ranges form the larger box around it (Inception Box).",
+   "higher": "A LAAF of Tuesday's high — even a meaningful excursion — can fail back into the range on election news; 7628 honorable mention, supply 7635-7638. Sustained trade above 18-23 after a stall there → 7644-7649; reclaiming 44-49 puts ES clearly back above the May/June/July 3-month balance — meaningful for bulls → at least 7662, likely 7670-7677, Monday's 7693.75 above. A rejection from 7662 or 70-77 can rotate all the way back to 18-23 — bulls must hold the ground they reclaim.",
+   "lower": "Continued failure below 7618-7623 (incl. a LAAF of Tuesday's high) → 7591-7594 → Tuesday's low / 7569-7575. A LBAF of Tuesday's RTH low → back to 91-94 → 18-23 (add 7609 as honorable mention in that scenario). A clean break of Tuesday's low and 69-75 (incl. Monday's low) with continuation → 7555-7558 (last week's low) → Tuesday's ETH low 7546 (invalidates the LBAF) → 7541-7543. A fresh LBAF of October's low from 41-43 or elsewhere is possible (more weight in RTH); a clean break below 41-43 would be 'suboptimal for bulls' — weekly scenarios below.",
+   "levels": [
+    {
+     "p": [
+      7693.75
+     ],
+     "label": "Mon high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7670,
+      7677
+     ],
+     "label": "weekly",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7662
+     ],
+     "label": "daily",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7644,
+      7649
+     ],
+     "label": "above = back over the 3-month balance",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7635,
+      7638
+     ],
+     "label": "supply",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7628
+     ],
+     "label": "honorable mention",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7623.75
+     ],
+     "label": "Tue RTH high · box top · LAAF short",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7618,
+      7623
+     ],
+     "label": "weekly · rejected twice",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7609
+     ],
+     "label": "honorable mention (LBAF scenario)",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7600
+     ],
+     "label": "daily",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7591,
+      7594
+     ],
+     "label": "weekly · middle",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7576.5
+     ],
+     "label": "Tue RTH low · box bottom · LBAF long",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7569,
+      7575
+     ],
+     "label": "weekly · Mon low 7570.75",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7555,
+      7558
+     ],
+     "label": "weekly · last wk low 7558.25",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7546
+     ],
+     "label": "Tue ETH low · LBAF invalidated below",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7541,
+      7543
+     ],
+     "label": "MAJOR decision · LBAF of Oct low",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "ON took out Monday's low to 28038.25 at 2:20 — held the 200-day / YTD VWAP / Jan-high AVWAP cluster → active LBAF of Monday's AND last week's lows; reclaimed 28200-28233 and rotated into 369-394 before the open; RTH low 28215.75 at the open inside 200-233, several attempts at 369-394, high 28443.5 at 11:00 = the 28444-28485 reference exactly, reversed through the intermediate levels back toward 200-233.",
+   "pivot": "NQ has settled into 28200-28233 ↔ 28444-28485 with Monday's spike as excess below. Bulls have the ETH LBAF to work with but must break away from the range to the upside and hold; continued trade below 444-485 is presumed bearish. 28608-28639 remains the necessary reclaim.",
+   "higher": "Fail/LAAF of Tuesday's high → back toward 200-233, mindful of 369-394 between. Above 444-485: supply 28512-28528 and the 28569-28583 weekly stand before 28608-28639; any rejection must retake 444-485 AND 369-394 before expecting 200-233. Sellers likely defend 608-639 (quick LAAF possible with supply overhead), but even that needs a move back below 444-485 to undermine bulls. 608-639 flipped to firm support → the relatively equal Friday/Monday highs near 28847-28869; LAAF of those → 684-722 / 608-639. Enormous bearish RTH gap still overhead.",
+   "lower": "Trapped in Tuesday's range (incl. a LAAF of its high) → 200-233 back in play, particularly once 369-394 is lost. A clean break of Tuesday's RTH low and 200-233 with continuation invalidates the LBAF of last week's low → Monday's low 28101.75 → Tuesday's ETH low 28038.25; bulls would have to defend the 200-day/VWAP cluster again with a fresh LBAF. Absent that, continued traction lower keeps the July low ~27200 in the picture.",
+   "levels": [
+    {
+     "p": [
+      28847,
+      28869
+     ],
+     "label": "weekly · Fri/Mon highs",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      28684,
+      28722
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      28608,
+      28639
+     ],
+     "label": "daily · necessary reclaim · LAAF watch",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      28569,
+      28583
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      28512,
+      28528
+     ],
+     "label": "supply",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      28444,
+      28485
+     ],
+     "label": "daily · box top · LAAF monitor",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      28443.5
+     ],
+     "label": "Tue RTH high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      28369,
+      28394
+     ],
+     "label": "weekly · middle",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      28336,
+      28346
+     ],
+     "label": "honorable mention",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      28215.75
+     ],
+     "label": "Tue RTH low · box bottom · LBAF long",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      28200,
+      28233
+     ],
+     "label": "weekly · reclaimed ON",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      28101.75
+     ],
+     "label": "Mon low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      28080,
+      28100
+     ],
+     "label": "weekly",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      28038.25
+     ],
+     "label": "Tue ETH low · 200d/VWAP cluster",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27969,
+      27996
+     ],
+     "label": "LBAF monitor",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of Tuesday's high 7623.75 (box top)",
+   "dir": "short",
+   "tag": "favored · edge of the box · election excursions can fail back in",
+   "gate": "look above and fail of Tuesday's RTH high 7623.75 / 7618-7623 — the excursion can reach 7628 or the 7635-7638 supply before failing back into the range",
+   "tgt": "7600 → 7591-7594 → Tuesday's low / 7569-7575",
+   "stop": "sustained trade above 18-23 after a stall → 7644-7649",
+   "quote": "My favored trades are a long on a LBAF of Tuesday's low or a short on a LAAF of Tuesday's high. … Continued failure below 7618-7623, including a potential LAAF of Tuesday's high, would favor a rotation toward 7591-7594, with potential to extend toward Tuesday's low and 7569-7575 just below.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7618,
+     7628
+    ],
+    "tgt": [
+     7600,
+     [
+      7591,
+      7594
+     ],
+     [
+      7569,
+      7576.5
+     ]
+    ],
+    "invalid": [
+     7644
+    ],
+    "stop": [
+     7633.75
+    ],
+    "be": [
+     7613.75
+    ]
+   },
+   "risk": {
+    "entry": "7623.75",
+    "stop": "7633.75",
+    "stop_pts": "10",
+    "be": "7613.75",
+    "his": "7644",
+    "his_pts": "20.25",
+    "mic": "MES",
+    "ours": [
+     "10.0",
+     "20.0"
+    ],
+    "his_n": [
+     "4.9",
+     "9.9"
+    ],
+    "tgts": [
+     {
+      "p": "7600",
+      "ours": "2.4",
+      "his": "1.2"
+     },
+     {
+      "p": "7591-7594",
+      "ours": "3.0",
+      "his": "1.5"
+     },
+     {
+      "p": "7569-7576.5",
+      "ours": "4.7",
+      "his": "2.3"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of Tuesday's low 7576.5 (box bottom)",
+   "dir": "long",
+   "tag": "favored · edge of the box · 7609 honorable mention in this scenario",
+   "gate": "look below and fail of Tuesday's RTH low 7576.5 / 7569-7575 (incl. Monday's 7570.75) — a sweep can reach 7555-7558 / the 7546 ETH low",
+   "tgt": "7591-7594 → 7609 → 7618-7623",
+   "stop": "clean break of 69-75 with continuation → 7555-7558 → 7546 (LBAF invalidated)",
+   "quote": "A LBAF of Tuesday's RTH low would instead favor a rotation back toward 7591-7594, with potential for 7618-7623 from there. In this scenario, I would add 7609 as an honorable mention level.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7569,
+     7576.5
+    ],
+    "tgt": [
+     [
+      7591,
+      7594
+     ],
+     7609,
+     [
+      7618,
+      7623
+     ]
+    ],
+    "invalid": [
+     7546
+    ],
+    "stop": [
+     7566.5
+    ],
+    "be": [
+     7586.5
+    ]
+   },
+   "risk": {
+    "entry": "7576.5",
+    "stop": "7566.5",
+    "stop_pts": "10",
+    "be": "7586.5",
+    "his": "7546",
+    "his_pts": "30.5",
+    "mic": "MES",
+    "ours": [
+     "10.0",
+     "20.0"
+    ],
+    "his_n": [
+     "3.3",
+     "6.6"
+    ],
+    "tgts": [
+     {
+      "p": "7591-7594",
+      "ours": "1.4",
+      "his": "0.5"
+     },
+     {
+      "p": "7609",
+      "ours": "3.2",
+      "his": "1.1"
+     },
+     {
+      "p": "7618-7623",
+      "ours": "4.2",
+      "his": "1.4"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Upside break of Tuesday's range with continuation",
+   "dir": "long",
+   "tag": "box trade · cautious initiating · must HOLD above the box",
+   "gate": "clean upside break of 7618-7623 / 7623.75 followed by sustained trade above it (stall at 7628 / 7635-7638 then hold) — not an election spike that fails back in",
+   "tgt": "7644-7649 → 7662 → 7670-7677",
+   "stop": "excursion fails back into Tuesday's range → sellers still in control",
+   "quote": "I'm particularly cautious about initiating longs on an upside breakout given the broader bearish context, even though a sustained break could certainly offer opportunity. … As long as ES can sustain trade above 7618-7623 (broadly Tuesday's high) following a stall at either of these areas, a move back toward 7644-7649 comes into play.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7623.75,
+     7638
+    ],
+    "tgt": [
+     [
+      7644,
+      7649
+     ],
+     7662,
+     [
+      7670,
+      7677
+     ]
+    ],
+    "invalid": [
+     7609
+    ],
+    "stop": [
+     7613.75
+    ],
+    "be": [
+     7633.75
+    ]
+   },
+   "risk": {
+    "entry": "7623.75",
+    "stop": "7613.75",
+    "stop_pts": "10",
+    "be": "7633.75",
+    "his": "7609",
+    "his_pts": "14.75",
+    "mic": "MES",
+    "ours": [
+     "10.0",
+     "20.0"
+    ],
+    "his_n": [
+     "6.8",
+     "13.6"
+    ],
+    "tgts": [
+     {
+      "p": "7644-7649",
+      "ours": "2.0",
+      "his": "1.4"
+     },
+     {
+      "p": "7662",
+      "ours": "3.8",
+      "his": "2.6"
+     },
+     {
+      "p": "7670-7677",
+      "ours": "4.6",
+      "his": "3.1"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Downside break of Tuesday's low / 7569-7575 with continuation",
+   "dir": "short",
+   "tag": "box trade · active LBAF = downgrade",
+   "gate": "clean break of Tuesday's low and 7569-7575 (incl. Monday's low) with sustained continuation",
+   "tgt": "7555-7558 → Tuesday's ETH low 7546 → 7541-7543",
+   "stop": "fresh LBAF of the lows → back to 7591-7594",
+   "quote": "A clean break of Tuesday's low and 7569-7575, which also includes Monday's low, with sustained continuation would once again target 7555-7558, inclusive of last week's low. Below there, sellers can make a run at Tuesday morning's ETH low of 7546, potentially invalidating the active LBAF sequence and opening the door to 7541-7543.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7569,
+     7576.5
+    ],
+    "tgt": [
+     [
+      7555,
+      7558
+     ],
+     7546,
+     [
+      7541,
+      7543
+     ]
+    ],
+    "invalid": [
+     7594
+    ],
+    "stop": [
+     7586.5
+    ],
+    "be": [
+     7566.5
+    ]
+   },
+   "risk": {
+    "entry": "7576.5",
+    "stop": "7586.5",
+    "stop_pts": "10",
+    "be": "7566.5",
+    "his": "7594",
+    "his_pts": "17.5",
+    "mic": "MES",
+    "ours": [
+     "10.0",
+     "20.0"
+    ],
+    "his_n": [
+     "5.7",
+     "11.4"
+    ],
+    "tgts": [
+     {
+      "p": "7555-7558",
+      "ours": "1.9",
+      "his": "1.1"
+     },
+     {
+      "p": "7546",
+      "ours": "3.0",
+      "his": "1.7"
+     },
+     {
+      "p": "7541-7543",
+      "ours": "3.4",
+      "his": "1.9"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LAAF of Tuesday's high 28443.5 / 28444-28485 (box top)",
+   "dir": "short",
+   "tag": "favored · edge of the box · LAAF monitor on 444-485",
+   "gate": "look above and fail of Tuesday's RTH high 28443.5 / the 28444-28485 daily — excursion can reach the 28512-28528 supply before failing back in",
+   "tgt": "28369-28394 → 28336-28346 → 28200-28233",
+   "stop": "sustained above 444-485 (sellers must retake 444-485 AND 369-394) → 28569-28583",
+   "quote": "Any failure or LAAF of Tuesday's high risks a rotation back toward 28200-28233, mindful of the 28369-28394 weekly level in between.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28443.5,
+     28485
+    ],
+    "tgt": [
+     [
+      28369,
+      28394
+     ],
+     [
+      28336,
+      28346
+     ],
+     [
+      28200,
+      28233
+     ]
+    ],
+    "invalid": [
+     28569
+    ],
+    "stop": [
+     28499.0
+    ],
+    "be": [
+     28388.0
+    ]
+   },
+   "risk": {
+    "entry": "28443.5",
+    "stop": "28499",
+    "stop_pts": "55.5",
+    "be": "28388",
+    "his": "28569",
+    "his_pts": "125.5",
+    "mic": "MNQ",
+    "ours": [
+     "4.5",
+     "9.0"
+    ],
+    "his_n": [
+     "2.0",
+     "4.0"
+    ],
+    "tgts": [
+     {
+      "p": "28369-28394",
+      "ours": "0.9",
+      "his": "0.4"
+     },
+     {
+      "p": "28336-28346",
+      "ours": "1.8",
+      "his": "0.8"
+     },
+     {
+      "p": "28200-28233",
+      "ours": "3.8",
+      "his": "1.7"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of Tuesday's low 28215.75 / 28200-28233 (box bottom)",
+   "dir": "long",
+   "tag": "favored · edge of the box · Monday's spike = excess below",
+   "gate": "look below and fail of Tuesday's RTH low 28215.75 / 28200-28233 — sweep can reach Monday's spike base 28196.5 or deeper",
+   "tgt": "28336-28346 → 28369-28394 → 28444-28485",
+   "stop": "clean break of 200-233 with continuation → Monday's low 28101.75 (LBAF of last week's low invalidated)",
+   "quote": "My favored trades are a long on a LBAF of Tuesday's low or a short on a LAAF of Tuesday's high.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28200,
+     28233
+    ],
+    "tgt": [
+     [
+      28336,
+      28346
+     ],
+     [
+      28369,
+      28394
+     ],
+     [
+      28444,
+      28485
+     ]
+    ],
+    "invalid": [
+     28101.75
+    ],
+    "stop": [
+     28160.25
+    ],
+    "be": [
+     28271.25
+    ]
+   },
+   "risk": {
+    "entry": "28215.8",
+    "stop": "28160.2",
+    "stop_pts": "55.5",
+    "be": "28271.2",
+    "his": "28101.8",
+    "his_pts": "114",
+    "mic": "MNQ",
+    "ours": [
+     "4.5",
+     "9.0"
+    ],
+    "his_n": [
+     "2.2",
+     "4.4"
+    ],
+    "tgts": [
+     {
+      "p": "28336-28346",
+      "ours": "2.2",
+      "his": "1.1"
+     },
+     {
+      "p": "28369-28394",
+      "ours": "2.8",
+      "his": "1.3"
+     },
+     {
+      "p": "28444-28485",
+      "ours": "4.1",
+      "his": "2.0"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Upside break of 28444-28485 with continuation",
+   "dir": "long",
+   "tag": "box trade · cautious initiating · 608-639 is the real reclaim",
+   "gate": "firm reclaim of 28444-28485 and hold above it (through the 28512-28528 supply and 28569-28583)",
+   "tgt": "28569-28583 → 28608-28639 → 28684-28722",
+   "stop": "rejection that re-loses 444-485 → 369-394",
+   "quote": "AMD just reported … and NQ is nearly back to 28444-28485. A firm reclaim of this range would be the first meaningful upside development. … For now, I continue to view 28608-28639 as a necessary reclaim, with bulls needing to hold that range as support to begin materially improving the bullish picture.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28485,
+     28528
+    ],
+    "tgt": [
+     [
+      28569,
+      28583
+     ],
+     [
+      28608,
+      28639
+     ],
+     [
+      28684,
+      28722
+     ]
+    ],
+    "invalid": [
+     28394
+    ],
+    "stop": [
+     28429.5
+    ],
+    "be": [
+     28540.5
+    ]
+   },
+   "risk": {
+    "entry": "28485",
+    "stop": "28429.5",
+    "stop_pts": "55.5",
+    "be": "28540.5",
+    "his": "28394",
+    "his_pts": "91",
+    "mic": "MNQ",
+    "ours": [
+     "4.5",
+     "9.0"
+    ],
+    "his_n": [
+     "2.7",
+     "5.5"
+    ],
+    "tgts": [
+     {
+      "p": "28569-28583",
+      "ours": "1.5",
+      "his": "0.9"
+     },
+     {
+      "p": "28608-28639",
+      "ours": "2.2",
+      "his": "1.4"
+     },
+     {
+      "p": "28684-28722",
+      "ours": "3.6",
+      "his": "2.2"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Downside break of Tuesday's low / 28200-28233 with continuation",
+   "dir": "short",
+   "tag": "box trade · active LBAF = downgrade · no initiating into fresh lows",
+   "gate": "clean break of Tuesday's RTH low and 28200-28233 with sustained continuation (invalidates the LBAF of last week's low)",
+   "tgt": "Monday's low 28101.75 / 28080-28100 → Tuesday's ETH low 28038.25 → 27969-27996",
+   "stop": "fresh LBAF at the 200-day / VWAP cluster → back above 200-233",
+   "quote": "A clean break of Tuesday's RTH low and 28200-28233 with sustained continuation would invalidate the active LBAF of last week's low and put Monday's low at risk, followed by Tuesday morning's ETH low at 28038.25.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28200,
+     28215.75
+    ],
+    "tgt": [
+     [
+      28080,
+      28101.75
+     ],
+     28038.25,
+     [
+      27969,
+      27996
+     ]
+    ],
+    "invalid": [
+     28336
+    ],
+    "stop": [
+     28271.25
+    ],
+    "be": [
+     28160.25
+    ]
+   },
+   "risk": {
+    "entry": "28215.8",
+    "stop": "28271.2",
+    "stop_pts": "55.5",
+    "be": "28160.2",
+    "his": "28336",
+    "his_pts": "120.25",
+    "mic": "MNQ",
+    "ours": [
+     "4.5",
+     "9.0"
+    ],
+    "his_n": [
+     "2.1",
+     "4.2"
+    ],
+    "tgts": [
+     {
+      "p": "28080-28101.8",
+      "ours": "2.1",
+      "his": "0.9"
+     },
+     {
+      "p": "28038.2",
+      "ours": "3.2",
+      "his": "1.5"
+     },
+     {
+      "p": "27969-27996",
+      "ours": "4.0",
+      "his": "1.8"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 6.66,
+  "NQ": 36.96
+ },
+ "stop_floor": {
+  "ES": 10.0,
+  "NQ": 55.5
+ }
+}
