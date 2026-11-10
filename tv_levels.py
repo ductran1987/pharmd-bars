@@ -1,5 +1,5 @@
 """PharmD levels -> TradingView Pine Script indicator.
-    python tv_levels.py                 # newest weekly + any daily plans dated after it
+    python tv_levels.py                 # newest weekly + the newest daily plan dated after it
     python tv_levels.py plans/weekly-2026-11-01.json plans/plan-2026-11-02.json
 Writes tradingview/pharmd_levels.pine: paste it into TradingView's Pine Editor and "Add to chart".
 One script for both instruments: it draws the ES block on ES/MES charts and the NQ block on NQ/MNQ charts."""
@@ -16,7 +16,7 @@ def latest_plans():
     weekly = sorted(glob.glob("plans/weekly-*.json"))[-1]
     wk = json.load(open(weekly))["week_of"]
     daily = [p for p in sorted(glob.glob("plans/plan-*.json")) if p[len("plans/plan-"):-5] > wk]
-    return [weekly] + daily
+    return [weekly] + daily[-1:]   # newest daily only: each letter supersedes the last
 
 
 def pstr(s):
