@@ -1,0 +1,764 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-10",
+ "status": "draft",
+ "notes": "",
+ "bias": "'The bulls have their opening. Now comes the hard part.' Monday delivered the first meaningful evidence that the market is rejecting lower value rather than accepting it: NQ defended 27313-27339 (July RTH low) at the open and ripped through Friday's high, filled Thursday's B-singles and advanced deep into the A-singles to 28080-28100; ES defended 7454-7458 premarket and at the OR5 low, reclaimed the August low 7539-7543, held it from above and tested the September low 7569-7575 (an Iran headline extended it to 7600.5), closing right at that reference and above the October low 7558.25. Monday's buying was distinctly different from last Wednesday's — broad, off a critical HTF location — so he's not fighting the developing bullish auction without compelling evidence sellers have regained control. At minimum that means Monday's RTH low taken out; convincingly, renewed acceptance back within Friday's range. 'A rejection from an overhead reference alone is insufficient.' Not out of the woods: both remain inside Thursday's enormous range.",
+ "wildcard": "CPI premarket — a binary event, so predefined setups are limited and the auction has to support them. A sell-side response may be more informative than a bullish one (does Monday's structure get defended?); a bullish response could carry both through several references — then the question is whether buyers hold them from above. NQ: Thursday's range is the mother bar (yellow box); Monday's high, Thursday's open and Thursday's high are collectively the upper boundary; the 200-day SMA sits just above Monday's high; regaining the prior four-day balance (white box) above Thursday's high is the first major accomplishment. ES: 7619-7624 (inside Thursday's A-singles) and 7645-7650 (June high 7648.75, white box top) are the two most important decisions above. Daily: ES 7662, 7631-7634, 7562-7563 (LBAF monitor), 7526-7531, 7514-7518, 7454-7458, 7412-7415; NQ 27798-27815 (LBAF monitor), 27689 (LBAF monitor), 27110-27123, 27057.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Beautiful two-way overnight (7385.5-7476.5); the premarket battle was a potential LAAF of 7469-7473, but buyers defended 7454-7458 premarket and at the OR5 low 7455.75, then a nearly uninterrupted rally: reclaimed 7539-7543 (B-period singles ~7526-7536), held it from above, struggled initially at 7569-7575, Iran headline → 7600.5 at 15:15, closed 7572.25 — back above the October low 7558.25 and essentially at the September low 7575. Still well inside Thursday's range; Thursday's A-singles (7603+) not yet reached.",
+   "pivot": "7562-7563 roughly preserves Monday's upper distribution: hold/LBAF → back toward Monday's high if 7569-7575 is firmly reclaimed; sustained below → 7539-7543 and 7526-7531 (the B-singles), where a responsive bid is another chance for buyers — then the retests of 62-63 and 69-75 from below decide. Acceptance below 7514-7518 (top of Monday's A-singles) materially raises the odds of a rotation to Monday's RTH low 7455.75.",
+   "higher": "7619-7624 (within Thursday's A-singles) and 7645-7650 (June high / white box top) are the two most important decision areas; the region ~7558 (broadly 7441) to 7648.75 is the overlap of the two major monthly ranges. How ES responds there, and whether buyers establish acceptance above, tells us about the durability of Monday's recovery. Above: 7662, 7670-7680, 7708-7713.",
+   "lower": "Pullbacks into Monday's structure are opportunities for buyers to reassert themselves unless sellers get meaningful traction below Monday's RTH low 7455.75 — and the truly bearish development is a failure to defend that low followed by renewed acceptance within Friday's range (7392-7469) and last week's lower distribution.",
+   "levels": [
+    {
+     "p": [
+      7662
+     ],
+     "label": "daily",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7645,
+      7650
+     ],
+     "label": "June high 7648.75 · white box top · key decision",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7631,
+      7634
+     ],
+     "label": "daily",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7619,
+      7624
+     ],
+     "label": "in Thu A-singles · fail/LAAF short B-",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7603
+     ],
+     "label": "Thu A-singles start",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7600.5
+     ],
+     "label": "Mon high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7569,
+      7575
+     ],
+     "label": "Sept low · closed here",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7562,
+      7563
+     ],
+     "label": "daily · upper distribution · hold/LBAF long B-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7558.25
+     ],
+     "label": "Oct low · 3-month balance bottom",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7539,
+      7543
+     ],
+     "label": "Aug low · reclaimed · hold/LBAF long C+/B-",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7526,
+      7531
+     ],
+     "label": "daily · B-singles",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7514,
+      7518
+     ],
+     "label": "daily · top of Mon A-singles",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7469,
+      7473
+     ],
+     "label": "Fri high",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7454,
+      7458
+     ],
+     "label": "daily · Mon low 7455.75 · sellers need it",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7412,
+      7415
+     ],
+     "label": "daily",
+     "kind": "down"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Two-way overnight (26751.25-27378), defended 27313-27339 at the open (RTH low 27316.25 = July RTH low), ripped through Friday's high, filled Thursday's B-singles (27425-27458) and advanced well into the A-singles — Monday's own A-singles sit below 27689, a small set of singles at 27798-27815 — to 28129.25 at 15:25, into 28080-28100 and just below the first major HTF decision at 28200-28233; closed 28004.75.",
+   "pivot": "Monday's high / Thursday's open / Thursday's high = the upper boundary of the developing range until proven otherwise; the 200-day SMA sits just above Monday's high. 27798-27815 preserves Monday's primary distribution (hold/LBAF = the conservative long); 27689 next (A-singles below; sustained below raises the risk of a liquidation break toward Monday's open/low, but watch for a quick LBAF that reclaims 798-815). Sellers need traction below Monday's RTH low to threaten anything.",
+   "higher": "A rejection/LAAF of Monday's high — whether or not Thursday's high is taken first — can produce weakness, but sellers must overcome Monday's structure to regain control. Reclaiming and accepting above 28200-28233 (June low) is the first major HTF reclaim; above Thursday's high = back inside the prior four-day balance and out of the mother bar. The September-low reclaim (28847-28869 / 29038-29069) is not yet achieved but increasingly in play.",
+   "lower": "Below 27689 → 27425-27458 (Friday's high) → 27313-27339 (July RTH low ≈ Monday's RTH low). Even a substantially deeper pullback doesn't invalidate the bull case as long as price rejects re-entry into last week's lower distribution below Monday's low; sustained acceptance below Monday's low = Monday failed to establish durable higher value → rotation through Friday's range.",
+   "levels": [
+    {
+     "p": [
+      28443,
+      28485
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      28200,
+      28233
+     ],
+     "label": "June low · first major HTF reclaim",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      28129.25
+     ],
+     "label": "Mon high · 200d just above · LAAF short B-",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      28080,
+      28100
+     ],
+     "label": "weekly · upper boundary",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      27798,
+      27815
+     ],
+     "label": "daily · singles · hold/LBAF long B+",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      27689
+     ],
+     "label": "daily · Mon A-singles below · LBAF monitor",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      27588,
+      27622
+     ],
+     "label": "weekly · election low",
+     "kind": "down"
+    },
+    {
+     "p": [
+      27425,
+      27458
+     ],
+     "label": "weekly · Fri high",
+     "kind": "down"
+    },
+    {
+     "p": [
+      27313,
+      27339
+     ],
+     "label": "July RTH low · Mon low 27316.25 · sellers need it",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      27110,
+      27123
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      27057
+     ],
+     "label": "daily",
+     "kind": "down"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Hold / LBAF of 7562-7563",
+   "dir": "long",
+   "tag": "B- · preserves Monday's upper distribution",
+   "gate": "hold or look below and fail of 7562-7563 (daily; LBAF monitor) with buyers then firmly reclaiming 7569-7575",
+   "tgt": "7569-7575 → Monday's high 7600.5 → 7619-7624",
+   "stop": "sustained trade below 62-63 → 7539-7543 / 7526-7531",
+   "quote": "Long — Hold/LBAF of 7562–7563 | B-. A successful defense of Monday's upper distribution would favor a reclaim of 7569–7575 and a potential retest of Monday's high.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7558.25,
+     7563
+    ],
+    "tgt": [
+     [
+      7569,
+      7575
+     ],
+     7600.5,
+     [
+      7619,
+      7624
+     ]
+    ],
+    "invalid": [
+     7539
+    ],
+    "stop": [
+     7550.25
+    ],
+    "be": [
+     7573.75
+    ]
+   },
+   "risk": {
+    "entry": "7562",
+    "stop": "7550.25",
+    "stop_pts": "11.75",
+    "be": "7573.75",
+    "his": "7539",
+    "his_pts": "23",
+    "mic": "MES",
+    "ours": [
+     "8.5",
+     "17.0"
+    ],
+    "his_n": [
+     "4.3",
+     "8.7"
+    ],
+    "tgts": [
+     {
+      "p": "7569-7575",
+      "ours": "0.6",
+      "his": "0.3"
+     },
+     {
+      "p": "7600.5",
+      "ours": "3.3",
+      "his": "1.7"
+     },
+     {
+      "p": "7619-7624",
+      "ours": "4.9",
+      "his": "2.5"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail / LAAF of 7619-7624",
+   "dir": "short",
+   "tag": "B- · tight leash until sellers are back below Monday's high",
+   "gate": "fail or look above and fail of 7619-7624 (inside Thursday's A-period singles); sellers must regain control below at least Monday's high 7600.5",
+   "tgt": "Monday's high 7600.5 → 7569-7575 → 7562-7563",
+   "stop": "acceptance above 19-24 → 7645-7650",
+   "quote": "Short — Fail/LAAF of 7619–7624 | B-. A potential short at an important overhead reference within Thursday's A-period singles. Keep a tight leash until sellers regain control below at least Monday's high. A reaction at resistance alone is insufficient.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7619,
+     7624
+    ],
+    "tgt": [
+     7600.5,
+     [
+      7569,
+      7575
+     ],
+     [
+      7562,
+      7563
+     ]
+    ],
+    "invalid": [
+     7645
+    ],
+    "stop": [
+     7635.75
+    ],
+    "be": [
+     7612.25
+    ]
+   },
+   "risk": {
+    "entry": "7624",
+    "stop": "7635.75",
+    "stop_pts": "11.75",
+    "be": "7612.25",
+    "his": "7645",
+    "his_pts": "21",
+    "mic": "MES",
+    "ours": [
+     "8.5",
+     "17.0"
+    ],
+    "his_n": [
+     "4.8",
+     "9.5"
+    ],
+    "tgts": [
+     {
+      "p": "7600.5",
+      "ours": "2.0",
+      "his": "1.1"
+     },
+     {
+      "p": "7569-7575",
+      "ours": "4.2",
+      "his": "2.3"
+     },
+     {
+      "p": "7562-7563",
+      "ours": "5.2",
+      "his": "2.9"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Sustained weakness below 7562-7563",
+   "dir": "short",
+   "tag": "C+ · tight leash · needs traction below Monday's low 7455.75 to mean anything",
+   "gate": "persistent weakness below 7562-7563 (acceptance, not a LBAF)",
+   "tgt": "7539-7543 → 7526-7531 → 7514-7518",
+   "stop": "reclaim of 7562-7563 and 7569-7575 → Monday's high",
+   "quote": "Short — Sustained weakness below 7562–7563 | C+. Persistent weakness below this level can support a short, but again, keep a tight leash. Sellers need meaningful traction below Monday's RTH low to threaten the bullish auction; otherwise, responsive buyers are likely to emerge.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7558.25,
+     7563
+    ],
+    "tgt": [
+     [
+      7539,
+      7543
+     ],
+     [
+      7526,
+      7531
+     ],
+     [
+      7514,
+      7518
+     ]
+    ],
+    "invalid": [
+     7575
+    ],
+    "stop": [
+     7573.75
+    ],
+    "be": [
+     7550.25
+    ]
+   },
+   "risk": {
+    "entry": "7562",
+    "stop": "7573.75",
+    "stop_pts": "11.75",
+    "be": "7550.25",
+    "his": "7575",
+    "his_pts": "13",
+    "mic": "MES",
+    "ours": [
+     "8.5",
+     "17.0"
+    ],
+    "his_n": [
+     "7.7",
+     "15.4"
+    ],
+    "tgts": [
+     {
+      "p": "7539-7543",
+      "ours": "1.6",
+      "his": "1.5"
+     },
+     {
+      "p": "7526-7531",
+      "ours": "2.6",
+      "his": "2.4"
+     },
+     {
+      "p": "7514-7518",
+      "ours": "3.7",
+      "his": "3.4"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Hold / LBAF of 7539-7543",
+   "dir": "long",
+   "tag": "C+/B- · the reclaimed August low",
+   "gate": "hold or look below and fail of 7539-7543 (sweep can reach the 7526-7531 B-singles); reassess at 7562-7563",
+   "tgt": "7562-7563 → 7569-7575 → Monday's high 7600.5",
+   "stop": "acceptance below 7514-7518 → Monday's RTH low 7455.75",
+   "quote": "Long — Hold/LBAF of 7539–7543 | C+/B-. A successful defense of this important structural reclaim would favor a rotation toward 7562–7563, where we'll reassess for potential continuation toward 7569–7575 and beyond.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7526,
+     7543
+    ],
+    "tgt": [
+     [
+      7562,
+      7563
+     ],
+     [
+      7569,
+      7575
+     ],
+     7600.5
+    ],
+    "invalid": [
+     7514
+    ],
+    "stop": [
+     7527.25
+    ],
+    "be": [
+     7550.75
+    ]
+   },
+   "risk": {
+    "entry": "7539",
+    "stop": "7527.25",
+    "stop_pts": "11.75",
+    "be": "7550.75",
+    "his": "7514",
+    "his_pts": "25",
+    "mic": "MES",
+    "ours": [
+     "8.5",
+     "17.0"
+    ],
+    "his_n": [
+     "4.0",
+     "8.0"
+    ],
+    "tgts": [
+     {
+      "p": "7562-7563",
+      "ours": "2.0",
+      "his": "0.9"
+     },
+     {
+      "p": "7569-7575",
+      "ours": "2.6",
+      "his": "1.2"
+     },
+     {
+      "p": "7600.5",
+      "ours": "5.2",
+      "his": "2.5"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Hold / LBAF of 27798-27815",
+   "dir": "long",
+   "tag": "B+ · preserves Monday's primary distribution · the conservative long",
+   "gate": "hold or look below and fail of 27798-27815 (Monday's small set of singles; LBAF monitor)",
+   "tgt": "28080-28100 → Monday's high 28129.25 → 28200-28233",
+   "stop": "sustained below 798-815 and 27689 → liquidation break toward Monday's open/low",
+   "quote": "Long — Hold/LBAF of 27798–27815 | B+. A hold or LBAF of this level would preserve Monday's primary distribution and favor another attempt at the overhead references.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27798,
+     27815
+    ],
+    "tgt": [
+     [
+      28080,
+      28100
+     ],
+     28129.25,
+     [
+      28200,
+      28233
+     ]
+    ],
+    "invalid": [
+     27689
+    ],
+    "stop": [
+     27733.25
+    ],
+    "be": [
+     27862.75
+    ]
+   },
+   "risk": {
+    "entry": "27798",
+    "stop": "27733.2",
+    "stop_pts": "64.75",
+    "be": "27862.8",
+    "his": "27689",
+    "his_pts": "109",
+    "mic": "MNQ",
+    "ours": [
+     "3.9",
+     "7.7"
+    ],
+    "his_n": [
+     "2.3",
+     "4.6"
+    ],
+    "tgts": [
+     {
+      "p": "28080-28100",
+      "ours": "4.4",
+      "his": "2.6"
+     },
+     {
+      "p": "28129.2",
+      "ours": "5.1",
+      "his": "3.0"
+     },
+     {
+      "p": "28200-28233",
+      "ours": "6.2",
+      "his": "3.7"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Fail / LAAF of 28080-28100 and/or Monday's high 28129.25",
+   "dir": "short",
+   "tag": "B- · safer on renewed weakness below 080-100 than anticipating the failure",
+   "gate": "fail or look above and fail of 28080-28100 / Monday's high — structurally valid if buyers can't reclaim and sustain above 28200-28233 after CPI; prefer renewed weakness back below 080-100",
+   "tgt": "27798-27815 → 27689",
+   "stop": "sustained trade above 28200-28233 → Thursday's high / prior four-day balance",
+   "quote": "Short — Fail/LAAF of 28080–28100 and/or Monday's high | B-. This is the upper boundary of the immediate range and an important area to monitor for seller response. If buyers cannot reclaim and sustain trade above 28200–28233 following CPI, a short becomes structurally valid. However, the safer opportunity would come with renewed weakness below 28080–28100, rather than anticipating the failure.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28080,
+     28129.25
+    ],
+    "tgt": [
+     [
+      27798,
+      27815
+     ],
+     27689
+    ],
+    "invalid": [
+     28233
+    ],
+    "stop": [
+     28194.0
+    ],
+    "be": [
+     28064.5
+    ]
+   },
+   "risk": {
+    "entry": "28129.2",
+    "stop": "28194",
+    "stop_pts": "64.75",
+    "be": "28064.5",
+    "his": "28233",
+    "his_pts": "103.75",
+    "mic": "MNQ",
+    "ours": [
+     "3.9",
+     "7.7"
+    ],
+    "his_n": [
+     "2.4",
+     "4.8"
+    ],
+    "tgts": [
+     {
+      "p": "27798-27815",
+      "ours": "4.9",
+      "his": "3.0"
+     },
+     {
+      "p": "27689",
+      "ours": "6.8",
+      "his": "4.2"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Sustained weakness below 27798-27815",
+   "dir": "short",
+   "tag": "C+ · tight leash · sellers need Monday's RTH low 27316 for anything real",
+   "gate": "persistent weakness below 27798-27815 (not a quick LBAF that reclaims it)",
+   "tgt": "27689 → 27425-27458 → Monday's low 27316.25",
+   "stop": "reclaim of 27798-27815 → 28080-28100",
+   "quote": "Short — Sustained weakness below 27798–27815 | C+. Persistent weakness below this level can support a short, but keep a tight leash. Sellers ultimately need to establish traction below Monday's RTH low, or responsive buyers are likely to step in and defend the developing bullish structure.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27798,
+     27815
+    ],
+    "tgt": [
+     27689,
+     [
+      27425,
+      27458
+     ],
+     27316.25
+    ],
+    "invalid": [
+     27854.75
+    ],
+    "stop": [
+     27862.75
+    ],
+    "be": [
+     27733.25
+    ]
+   },
+   "risk": {
+    "entry": "27798",
+    "stop": "27862.8",
+    "stop_pts": "64.75",
+    "be": "27733.2",
+    "his": "27854.8",
+    "his_pts": "56.75",
+    "mic": "MNQ",
+    "ours": [
+     "3.9",
+     "7.7"
+    ],
+    "his_n": [
+     "4.4",
+     "8.8"
+    ],
+    "tgts": [
+     {
+      "p": "27689",
+      "ours": "1.7",
+      "his": "1.9"
+     },
+     {
+      "p": "27425-27458",
+      "ours": "5.3",
+      "his": "6.0"
+     },
+     {
+      "p": "27316.2",
+      "ours": "7.4",
+      "his": "8.5"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 7.88,
+  "NQ": 43.09
+ },
+ "stop_floor": {
+  "ES": 11.75,
+  "NQ": 64.75
+ }
+}
