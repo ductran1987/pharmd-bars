@@ -1,0 +1,805 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-12",
+ "status": "draft",
+ "notes": "",
+ "bias": "'Buyers take control, but vulnerable structure and major overhead resistance leave the door open for sellers.' Wednesday finally delivered the missing upside initiative: both opened on substantial true gaps, defended the opening inventory correction and broke their IB highs, leaving bullish RTH gaps (NQ: Tue high 28090 → Wed low 28199, between 28080-28100 and 28200-28233; ES: Tue high 7566.25 → Wed low 7593.25, with Wed's low ≈ Monday's high 7600.5). The short-term trend belongs to buyers — but the HTF bearish trend is not defeated: NQ is still inside last week's range with the 29K test (28944-28969 / 29038-29069) waiting, ES is still inside Thursday's mother bar and closed just under 7645-7650 with unfinished business at 7670-7680. Wednesday's relatively light volume isn't bearish by itself but leaves parts of the new structure vulnerable if aggressive sellers return. 'Until and unless sellers can establish traction below a prior day's low, bulls remain in control of the short-term trend' — don't chase longs into resistance, but require sellers to prove control before treating an upside rejection as a reversal.",
+ "wildcard": "Sellers 'need to pitch a shutout': their first step is the prior day's low with continuation; the second is filling the bullish RTH gap and accepting back inside Tuesday's range. NQ can consolidate between Wed's high and RTH low without being bearish as long as the gap is broadly protected. Globex reopened sharply lower at 18:00 (ES ~7607-7619, NQ ~28156-28306 — single bar, verify): NQ already inside its gap, ES sitting on Mon high / Wed low. Daily: ES 7663-7664, 7633-7636, 7562-7563; NQ 29194-29220, 27869, 27689, 27110-27123.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "ON 7549.25-7620, true gap open 7612.5; opening inventory correction to 7593.25 at 09:45 (just under Mon high 7600.5) was defended, reclaimed 7619-7624, through the IB high 7624.75, extended through 7645-7650 to 7671.5 at 13:45 — sellers at 7670-7680 — pullback negated the potential singles, closed 7647 (5 PM 7642.25) just beneath 7645-7650. Globex reopen bar 7607-7619.",
+   "pivot": "Wed VPOC sits inside 7645-7650 with 7633-7636 just below and 7663-7664 above — three closely spaced references = a logical rotational area before the next directional decision. Bullish RTH gap 7566.25-7593.25; Wed low / Mon high overlap is the key lower reference.",
+   "higher": "Reclaim 7663-7664 → Wed high 7671.5 within 7670-7680 (HTF decision; alert for a LAAF) → ATH-anchored VWAP ~7690 / 7689-7694 → Thursday's open and high within 7708-7713.",
+   "lower": "Sustained loss of 7633-7636 raises questions; 7619-7624 is the first major reference with demand 7610-7612 and 7604-7606, then Mon high 7600.5 / Wed low 7593.25. Below: the week's developing VPOC 7569-7575 is a reasonable objective, then Tue high 7566 / 7562-7563 must hold for buyers; failure → 7539-7543 → Tue low; 7514-7518 secondary.",
+   "levels": [
+    {
+     "p": [
+      7708,
+      7713
+     ],
+     "label": "Thu open/high",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7689,
+      7694
+     ],
+     "label": "ATH-anchored VWAP ~7690",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7670,
+      7680
+     ],
+     "label": "Wed high 7671.5 · HTF · LAAF watch",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7663,
+      7664
+     ],
+     "label": "daily · LAAF short B-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7645,
+      7650
+     ],
+     "label": "Wed VPOC · closed just under",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7633,
+      7636
+     ],
+     "label": "daily · hold long B / weakness short B-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7619,
+      7624
+     ],
+     "label": "first major reference below",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7610,
+      7612
+     ],
+     "label": "demand",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7604,
+      7606
+     ],
+     "label": "demand",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7593.25,
+      7600.5
+     ],
+     "label": "Wed low / Mon high · LBAF long B-",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7569,
+      7575
+     ],
+     "label": "week VPOC · gap objective",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7562,
+      7566.25
+     ],
+     "label": "Tue high / 62-63 · must defend",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7539,
+      7543
+     ],
+     "label": "then Tue low 7493",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7514,
+      7518
+     ],
+     "label": "secondary",
+     "kind": "down"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "ON 27856-28406.25 — barely a wick below 27869 — then through Tue's and Mon's highs; true gap open 28352.75, inventory correction held 28200-28233 (RTH low 28199 at 09:50, OR5 low 28331.5), ripped through the IB high 28426 with continuation (singles 28426-28443), paused at last week's 28684-28722 (high 28697 at 13:45, ~1,180 pts off Tue's low); pullback nearly filled the singles, support near 28443-28485, closed 28463 (5 PM 28444.25). Globex reopen bar 28156-28306 — inside the gap.",
+   "pivot": "Remaining single prints 28426-28443 = primary area of interest; weekly 28443-28485 is the proxy. Bullish RTH gap 28090-28199 between 28080-28100 and 28200-28233 must be protected. Balance between Wed's high and RTH low would be entirely reasonable.",
+   "higher": "Acceptance above 28443-28485 keeps buyers in control: 28603, 28627, 28661 secondary → Wed high 28697 (sellers wanting another rotation should take control by ~28603) → follow the weekly levels → 28944-28969 / 29038-29069, the consequential 29K test; 29194-29220 added.",
+   "lower": "Holding below 28443-28485 / the singles opens Wed's low with demand 28369±, 28331.5 (OR5 low, LVN), 28293-28315 along the way — buyers must reclaim 28443-28485 to negate. Persistent weakness → 28200-28233 incl. Wed RTH low 28199 (step one); fill the gap and accept below 28080-28100 (step two, 'a terrible look') → Tue's low.",
+   "levels": [
+    {
+     "p": [
+      29194,
+      29220
+     ],
+     "label": "daily (new)",
+     "kind": "up"
+    },
+    {
+     "p": [
+      29038,
+      29069
+     ],
+     "label": "29K decision",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      28944,
+      28969
+     ],
+     "label": "29K decision",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      28684,
+      28722
+     ],
+     "label": "last wk level · Wed high 28697",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      28661
+     ],
+     "label": "secondary",
+     "kind": "up"
+    },
+    {
+     "p": [
+      28627
+     ],
+     "label": "secondary",
+     "kind": "up"
+    },
+    {
+     "p": [
+      28603
+     ],
+     "label": "sellers must take control by here",
+     "kind": "up"
+    },
+    {
+     "p": [
+      28443,
+      28485
+     ],
+     "label": "weekly · 5 PM close · reclaim → long",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      28426,
+      28443
+     ],
+     "label": "Wed singles · weakness short B+",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      28369
+     ],
+     "label": "demand",
+     "kind": "down"
+    },
+    {
+     "p": [
+      28331.5
+     ],
+     "label": "OR5 low · LVN",
+     "kind": "down"
+    },
+    {
+     "p": [
+      28293,
+      28315
+     ],
+     "label": "demand",
+     "kind": "down"
+    },
+    {
+     "p": [
+      28199,
+      28233
+     ],
+     "label": "Wed low · LBAF long B+/A-",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      28080,
+      28100
+     ],
+     "label": "gap bottom · Tue high 28090",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      27869
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      27516
+     ],
+     "label": "Tue low",
+     "kind": "ref"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Persistent weakness below 7633-7636, then loss of 7619-7624",
+   "dir": "short",
+   "tag": "B- · 'I generally dislike breakdown shorts'",
+   "gate": "persistent weakness below 7633-7636, particularly with a subsequent loss of 7619-7624",
+   "tgt": "7619-7624 → demand 7610-7612 / 7604-7606 → Wed low 7593.25 (Mon high 7600.5)",
+   "stop": "reclaim of 7645-7650",
+   "quote": "Short persistent weakness below 7633–7636, particularly with a subsequent loss of 7619–7624. This opens a potential rotation toward the intervening demand and Wednesday's low. I generally dislike breakdown shorts, so despite the reasonable downside potential, I cannot rate this higher than a B-.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7633,
+     7636
+    ],
+    "tgt": [
+     [
+      7619,
+      7624
+     ],
+     [
+      7604,
+      7612
+     ],
+     7593.25
+    ],
+    "invalid": [
+     7650
+    ],
+    "stop": [
+     7640.0
+    ],
+    "be": [
+     7626.0
+    ]
+   },
+   "risk": {
+    "entry": "7633",
+    "stop": "7640",
+    "stop_pts": "7",
+    "be": "7626",
+    "his": "7650",
+    "his_pts": "17",
+    "mic": "MES",
+    "ours": [
+     "14.3",
+     "28.6"
+    ],
+    "his_n": [
+     "5.9",
+     "11.8"
+    ],
+    "tgts": [
+     {
+      "p": "7619-7624",
+      "ours": "1.3",
+      "his": "0.5"
+     },
+     {
+      "p": "7604-7612",
+      "ours": "3.0",
+      "his": "1.2"
+     },
+     {
+      "p": "7593.25",
+      "ours": "5.7",
+      "his": "2.3"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold / LBAF of 7633-7636",
+   "dir": "long",
+   "tag": "B · rotation inside the three stacked references",
+   "gate": "hold or look below and fail of 7633-7636",
+   "tgt": "7645-7650 → 7663-7664",
+   "stop": "sustained loss of 7633-7636 → 7619-7624",
+   "quote": "Long a hold or LBAF of 7633–7636, targeting a rotation toward 7645–7650 and potentially 7663–7664. B",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7633,
+     7636
+    ],
+    "tgt": [
+     [
+      7645,
+      7650
+     ],
+     [
+      7663,
+      7664
+     ]
+    ],
+    "invalid": [
+     7619
+    ],
+    "stop": [
+     7626.0
+    ],
+    "be": [
+     7640.0
+    ]
+   },
+   "risk": {
+    "entry": "7633",
+    "stop": "7626",
+    "stop_pts": "7",
+    "be": "7640",
+    "his": "7619",
+    "his_pts": "14",
+    "mic": "MES",
+    "ours": [
+     "14.3",
+     "28.6"
+    ],
+    "his_n": [
+     "7.1",
+     "14.3"
+    ],
+    "tgts": [
+     {
+      "p": "7645-7650",
+      "ours": "1.7",
+      "his": "0.9"
+     },
+     {
+      "p": "7663-7664",
+      "ours": "4.3",
+      "his": "2.1"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Failure / LAAF of 7663-7664",
+   "dir": "short",
+   "tag": "B- · also alert for a LAAF of Wed's high 7671.5",
+   "gate": "failure or look above and fail of 7663-7664 (a LAAF of Wed's high within 7670-7680 followed by a loss of 7663-7664 is the fuller version)",
+   "tgt": "7645-7650 → 7633-7636",
+   "stop": "sustained continuation above Wed's high 7671.5 → 7689-7694",
+   "quote": "Short a failure or LAAF of 7663–7664, looking for sellers to regain control and initiate a rotation toward 7645–7650 and potentially 7633–7636. B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7663,
+     7664
+    ],
+    "tgt": [
+     [
+      7645,
+      7650
+     ],
+     [
+      7633,
+      7636
+     ]
+    ],
+    "invalid": [
+     7672
+    ],
+    "stop": [
+     7671.0
+    ],
+    "be": [
+     7657.0
+    ]
+   },
+   "risk": {
+    "entry": "7664",
+    "stop": "7671",
+    "stop_pts": "7",
+    "be": "7657",
+    "his": "7672",
+    "his_pts": "8",
+    "mic": "MES",
+    "ours": [
+     "14.3",
+     "28.6"
+    ],
+    "his_n": [
+     "12.5",
+     "25.0"
+    ],
+    "tgts": [
+     {
+      "p": "7645-7650",
+      "ours": "2.0",
+      "his": "1.8"
+     },
+     {
+      "p": "7633-7636",
+      "ours": "4.0",
+      "his": "3.5"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LBAF of Wednesday's low 7593.25",
+   "dir": "long",
+   "tag": "B- · bullish RTH gap · 'structurally less clean than NQ'",
+   "gate": "look below and fail of Wed's low 7593.25 (Mon high 7600.5 overlaps) with buyers defending the bullish RTH gap",
+   "tgt": "7604-7606 / 7610-7612 → 7619-7624 → 7633-7636",
+   "stop": "acceptance below the gap top → 7569-7575 / Tue high 7566",
+   "quote": "Long a LBAF of Wednesday's low, looking for buyers to defend the bullish RTH gap and reclaim the prior range boundary. This is structurally less clean than the equivalent NQ setup. B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7593.25,
+     7600.5
+    ],
+    "tgt": [
+     [
+      7604,
+      7612
+     ],
+     [
+      7619,
+      7624
+     ],
+     [
+      7633,
+      7636
+     ]
+    ],
+    "invalid": [
+     7575
+    ],
+    "stop": [
+     7586.25
+    ],
+    "be": [
+     7600.25
+    ]
+   },
+   "risk": {
+    "entry": "7593.25",
+    "stop": "7586.25",
+    "stop_pts": "7",
+    "be": "7600.25",
+    "his": "7575",
+    "his_pts": "18.25",
+    "mic": "MES",
+    "ours": [
+     "14.3",
+     "28.6"
+    ],
+    "his_n": [
+     "5.5",
+     "11.0"
+    ],
+    "tgts": [
+     {
+      "p": "7604-7612",
+      "ours": "1.5",
+      "his": "0.6"
+     },
+     {
+      "p": "7619-7624",
+      "ours": "3.7",
+      "his": "1.4"
+     },
+     {
+      "p": "7633-7636",
+      "ours": "5.7",
+      "his": "2.2"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Persistent weakness below 28443-28485 / singles 28426-28443",
+   "dir": "short",
+   "tag": "B+ · fresh assessment if the gap fills",
+   "gate": "persistent weakness below 28443-28485, particularly the remaining singles 28426-28443",
+   "tgt": "28369 → 28331.5 → 28293-28315 → Wed low 28199; monitor continuation into the gap",
+   "stop": "reclaim of 28443-28485",
+   "quote": "Short persistent weakness below 28443–28485, targeting Wednesday's low. Monitor for continuation into the bullish RTH gap, with a fresh assessment required if the gap is filled and sellers attempt to establish acceptance below it. B+",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28426,
+     28443
+    ],
+    "tgt": [
+     28369,
+     28331.5,
+     [
+      28293,
+      28315
+     ],
+     28199
+    ],
+    "invalid": [
+     28485
+    ],
+    "stop": [
+     28471.5
+    ],
+    "be": [
+     28380.5
+    ]
+   },
+   "risk": {
+    "entry": "28426",
+    "stop": "28471.5",
+    "stop_pts": "45.5",
+    "be": "28380.5",
+    "his": "28485",
+    "his_pts": "59",
+    "mic": "MNQ",
+    "ours": [
+     "5.5",
+     "11.0"
+    ],
+    "his_n": [
+     "4.2",
+     "8.5"
+    ],
+    "tgts": [
+     {
+      "p": "28369",
+      "ours": "1.3",
+      "his": "1.0"
+     },
+     {
+      "p": "28331.5",
+      "ours": "2.1",
+      "his": "1.6"
+     },
+     {
+      "p": "28293-28315",
+      "ours": "2.4",
+      "his": "1.9"
+     },
+     {
+      "p": "28199",
+      "ours": "5.0",
+      "his": "3.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LBAF of Wednesday's low 28199",
+   "dir": "long",
+   "tag": "B+/A- · bullish RTH gap + weekly 28200-28233 confluence",
+   "gate": "look below and fail of Wed's low 28199 / 28200-28233, buyers reclaim and defend the low",
+   "tgt": "28293-28315 → 28331.5 → 28369 → 28443-28485",
+   "stop": "gap filled with acceptance below 28080-28100",
+   "quote": "Long a LBAF of Wednesday's low, with the bullish RTH gap providing additional structural confluence. Buyers would ideally reclaim and defend the low, opening a rotation back toward 28443–28485. B+/A-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28199,
+     28233
+    ],
+    "tgt": [
+     [
+      28293,
+      28315
+     ],
+     28331.5,
+     [
+      28443,
+      28485
+     ]
+    ],
+    "invalid": [
+     28100
+    ],
+    "stop": [
+     28153.5
+    ],
+    "be": [
+     28244.5
+    ]
+   },
+   "risk": {
+    "entry": "28199",
+    "stop": "28153.5",
+    "stop_pts": "45.5",
+    "be": "28244.5",
+    "his": "28100",
+    "his_pts": "99",
+    "mic": "MNQ",
+    "ours": [
+     "5.5",
+     "11.0"
+    ],
+    "his_n": [
+     "2.5",
+     "5.1"
+    ],
+    "tgts": [
+     {
+      "p": "28293-28315",
+      "ours": "2.1",
+      "his": "0.9"
+     },
+     {
+      "p": "28331.5",
+      "ours": "2.9",
+      "his": "1.3"
+     },
+     {
+      "p": "28443-28485",
+      "ours": "5.4",
+      "his": "2.5"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Higher lows after a reclaim of 28443-28485",
+   "dir": "long",
+   "tag": "Unrated · dependent on developing structure",
+   "gate": "sustained reclaim and subsequent defense of 28443-28485 (5 PM close 28444 just inside it), then buy higher lows",
+   "tgt": "28603 → 28627 → 28661 → Wed high 28697",
+   "stop": "back below the singles 28426",
+   "quote": "Long higher lows following a reclaim of 28443–28485. Wednesday's 5 PM close was just below this area, making a sustained reclaim and subsequent defense particularly relevant. Initial upside references include 28603, 28627, 28661, and Wednesday's high. Unrated — dependent on developing structure.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28443,
+     28485
+    ],
+    "tgt": [
+     28603,
+     28627,
+     28661,
+     28697
+    ],
+    "invalid": [
+     28426
+    ],
+    "stop": [
+     28439.5
+    ],
+    "be": [
+     28530.5
+    ]
+   },
+   "risk": {
+    "entry": "28485",
+    "stop": "28439.5",
+    "stop_pts": "45.5",
+    "be": "28530.5",
+    "his": "28426",
+    "his_pts": "59",
+    "mic": "MNQ",
+    "ours": [
+     "5.5",
+     "11.0"
+    ],
+    "his_n": [
+     "4.2",
+     "8.5"
+    ],
+    "tgts": [
+     {
+      "p": "28603",
+      "ours": "2.6",
+      "his": "2.0"
+     },
+     {
+      "p": "28627",
+      "ours": "3.1",
+      "his": "2.4"
+     },
+     {
+      "p": "28661",
+      "ours": "3.9",
+      "his": "3.0"
+     },
+     {
+      "p": "28697",
+      "ours": "4.7",
+      "his": "3.6"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 4.75,
+  "NQ": 30.29
+ },
+ "stop_floor": {
+  "ES": 7.0,
+  "NQ": 45.5
+ }
+}
