@@ -3,10 +3,10 @@ import charts, pandas as pd
 tz = "America/New_York"
 ES, NQ = charts.load_1h("ES"), charts.load_1h("NQ")
 ES5, NQ5 = charts.load("ES"), charts.load("NQ")
-s = pd.Timestamp("2026-10-26 09:30", tz=tz); e = pd.Timestamp("2026-11-11 16:15", tz=tz)
+s = pd.Timestamp("2026-10-26 09:30", tz=tz); e = pd.Timestamp("2026-11-12 16:15", tz=tz)
 w4 = ("wk 10/26", pd.Timestamp("2026-10-25 18:00", tz=tz), pd.Timestamp("2026-10-30 16:00", tz=tz))
 w5 = ("wk 11/2", pd.Timestamp("2026-11-01 18:00", tz=tz), pd.Timestamp("2026-11-06 16:00", tz=tz))
-w6 = ("Mon-Wed", pd.Timestamp("2026-11-08 18:00", tz=tz), e)
+w6 = ("Mon-Thu", pd.Timestamp("2026-11-08 18:00", tz=tz), e)
 
 es_lv = [
  {"p":[7815,7820],"label":"","kind":"up","strong":True},
@@ -47,9 +47,10 @@ es_marks = [
  {"t":pd.Timestamp("2026-11-06 09:50",tz=tz),"y":7469.0,"label":"FRI: muted relief, 7392-7469 = Fri range; ETH low 7322.25","dy":55,"dx":-130},
  {"t":pd.Timestamp("2026-11-09 15:15",tz=tz),"y":7600.5,"label":"MON: 7454-58 defended → reclaimed Aug low 39-43 → 7600.5, closed at the Sept low","dy":60,"dx":-170},
  {"t":pd.Timestamp("2026-11-10 12:40",tz=tz),"y":7493.0,"label":"TUE CPI: thru 39-43 to 7493, Mon low held; rallied above value to 7544.75","dy":-95,"dx":-95},
- {"t":pd.Timestamp("2026-11-11 13:45",tz=tz),"y":7671.5,"label":"WED: true gap, 7593.25 defended → thru 19-24 and 45-50 to 7671.5 (70-80); closed just under 45-50","dy":48,"dx":-150}]
+ {"t":pd.Timestamp("2026-11-11 13:45",tz=tz),"y":7671.5,"label":"WED: true gap, 7593.25 defended → thru 19-24 and 45-50 to 7671.5 (70-80); closed just under 45-50","dy":48,"dx":-150},
+ {"t":pd.Timestamp("2026-11-12 11:20",tz=tz),"y":7674.75,"label":"THU: gap-down 7572 held → 7674.75, 2nd fail in 70-80; closed 7621.5","dy":120,"dx":-260}]
 charts.weekly("ES", es_lv, ES, s, e, "charts/2026-W46_ES_weekly.png",
-              "ES weekly  ·  10/26 – Wed 11/11  ·  week of 11/8 plan", profile_ranges=[w5, w6], marks=es_marks, d5prof=ES5)
+              "ES weekly  ·  10/26 – Thu 11/12  ·  week of 11/8 plan", profile_ranges=[w5, w6], marks=es_marks, d5prof=ES5)
 
 nq_lv = [
  {"p":[29038,29069],"label":"HTF decision · Sept low area","kind":"up","strong":True},
@@ -90,7 +91,8 @@ nq_marks = [
  {"t":pd.Timestamp("2026-11-06 09:50",tz=tz),"y":27425.0,"label":"FRI: relief to 27425 (B-singles), 26988.5 low; 313-339 capped","dy":110,"dx":-110},
  {"t":pd.Timestamp("2026-11-09 15:25",tz=tz),"y":28129.25,"label":"MON: 313-339 defended at the open → thru B- and A-singles to 28129 (080-100)","dy":420,"dx":-150},
  {"t":pd.Timestamp("2026-11-10 12:40",tz=tz),"y":27516.0,"label":"TUE CPI: 2nd fail at the top (28090) → 27516, Mon low held; P-shaped profile","dy":-420,"dx":-90},
- {"t":pd.Timestamp("2026-11-11 13:45",tz=tz),"y":28697.0,"label":"WED: gap open, 200-233 held → 28697 (last wk 684-722); singles 426-443","dy":430,"dx":-120}]
+ {"t":pd.Timestamp("2026-11-11 13:45",tz=tz),"y":28697.0,"label":"WED: gap open, 200-233 held → 28697 (last wk 684-722); singles 426-443","dy":430,"dx":-120},
+ {"t":pd.Timestamp("2026-11-12 11:20",tz=tz),"y":28652.25,"label":"THU: gap fill → 28044 held → 28652; gave back 443-485, singles negated","dy":-1150,"dx":-330}]
 charts.weekly("NQ", nq_lv, NQ, s, e, "charts/2026-W46_NQ_weekly.png",
-              "NQ weekly  ·  10/26 – Wed 11/11  ·  week of 11/8 plan", profile_ranges=[w5, w6], marks=nq_marks, d5prof=NQ5)
+              "NQ weekly  ·  10/26 – Thu 11/12  ·  week of 11/8 plan", profile_ranges=[w5, w6], marks=nq_marks, d5prof=NQ5)
 print("ok")

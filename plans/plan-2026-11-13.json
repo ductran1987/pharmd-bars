@@ -1,0 +1,746 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-13",
+ "status": "draft",
+ "notes": "",
+ "bias": "'Repeated failures at the highs, a potential shift in buyer participation, and PPI set to test the bulls' control.' Thursday: both opened on true gap-downs and sellers immediately lost control — neither could even trade below the second 5-minute candle's low; buyers reclaimed Wednesday's lows, defended the pullback (NQ held Wed low / 28200-28233 from above, ES held above Mon high 7600.5) and confirmed the LBAFs with excess at the lows. But for the second straight session substantial selling came off the highs: NQ surrendered 28443-28485 into the close and negated its upside singles; ES failed 'rather spectacularly' in 7670-7680 again and closed well below 7645-7650. His read of the tape: the large buyer who supported the recovery may have exited into Thursday's highs — an interpretation, not a fact, but if so the next downside attempt may meet considerably less resistance. Auction still broadly constructive above Thursday's lows and Tuesday's high; 'rejection from resistance is not the same thing as establishing downside control.' Bulls still have control, sellers may finally have an opportunity — neither is a prediction.",
+ "wildcard": "PPI premarket: fresh buyers of size could render Thursday's deterioration irrelevant, or sellers could finally find participation. End of an inside week in a broader downtrend — a Friday close near Thursday's high says buyers keep building; a close near Tuesday's low paints a very different picture. He's willing to consider shorts on failed attempts to reclaim resistance (ES 7645-7650) given the suspected buyer exit, but wants sellers to demonstrate control, not just react. Daily: ES 7689-7694, 7663-7664, 7641-7643 (replaces 7633-7636; keep 7633 = Thu IB high), 7600-7603, 7562-7563; NQ 29194-29220, 28590-28602 (new), 27869, 27689, 27110-27123; NQ honorable mentions 28552, 27920-27930; added Thu IB high 28398.5 and Wed IB high 28426.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "True gap-down: premarket low 7572 at 08:15 inside 7569-7575 (Wed's bullish RTH gap 7566-7593 left unfilled), opened 7584.25, RTH low 7581.5 on the first bar, straight up through Wed's low; the pullback held above Mon high 7600.5 (never near Wed's low) — LBAF confirmed with excess. IB high 7633, then through 7645-7650 to 7674.75 at 11:20 (Wed high 7671.5 taken), stiff rejection within 7670-7680, afternoon bleed to close 7621.5 (5 PM 7621.75) — at/just below 7619-7624, well under 7645-7650; Globex reopened 7619-7632.",
+   "pivot": "Thursday's failed distribution above 7645-7650 means sellers can be active anywhere from 7633 (IB high, honorable mention) to 7645-7650; 7641-7643 is the most likely reaction area. Analysis starts at 7619-7624, where ES closed just beneath.",
+   "higher": "Reclaim 7645-7650 → 7663-7664 and Thu high 7674.75 (another LAAF within 7670-7680 worth monitoring) → sustained continuation → 7689-7694 (ATH-anchored VWAP) → 7708-7713 (last Thu's open/high = mother-bar high; a LAAF there is only compelling if sellers trap price back below 7670-7680).",
+   "lower": "7600-7603 is the daily buyers must defend (incl. via LBAF); Wed low 7593.25 nearby; failure → Thu low 7581.5. Below: 7569-7575 (Thu premarket low), Tue high 7566.25, 7562-7563, Oct low 7558.25 — a particularly important demand cluster; he'd stay wary of a LBAF of Thu's low until 7558.25 goes. Sustained loss of 7558.25 → 7539-7543 (decision); flipped to resistance → 7497-7504 quickly, 7514-7518 honorable mention.",
+   "levels": [
+    {
+     "p": [
+      7708,
+      7713
+     ],
+     "label": "mother-bar high · LAAF needs trap <70-80",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7689,
+      7694
+     ],
+     "label": "ATH VWAP · first reaction",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7670,
+      7680
+     ],
+     "label": "Thu high 7674.75 · failed twice · LAAF short B-",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7663,
+      7664
+     ],
+     "label": "daily · sellers must regain",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7645,
+      7650
+     ],
+     "label": "failed distribution · failed reclaim short B/B-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7641,
+      7643
+     ],
+     "label": "daily (new) · likely reaction",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7633
+     ],
+     "label": "Thu IB high · supply above",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7619,
+      7624
+     ],
+     "label": "weekly · closed just under",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7600,
+      7603
+     ],
+     "label": "daily · hold/LBAF long B",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7593.25
+     ],
+     "label": "Wed low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7581.5
+     ],
+     "label": "Thu low · excess · LBAF long B-",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7569,
+      7575
+     ],
+     "label": "Thu premarket low 7572",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7558,
+      7566.25
+     ],
+     "label": "Tue high / 62-63 / Oct low 7558.25 · demand",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7539,
+      7543
+     ],
+     "label": "decision · flipped → 7497-7504",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7514,
+      7518
+     ],
+     "label": "honorable mention",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7497,
+      7504
+     ],
+     "label": "",
+     "kind": "down"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "True gap-down, overnight low 28013.75 at 08:15 — opened 28064 just inside Tuesday's range, completing the gap fill — then immediately higher: RTH low 28044.5 on the first bar, reclaimed Wed's low, pullback defended Wed low / 28200-28233 from above (LBAF solidified, excess at the low). IB high 28398.5, through 28443-28485 to 28652.25 at 11:20 (excess above the 28580s), then an afternoon decline back into the IB that negated the upside singles; closed 28432.75 (5 PM ~28400), back below 28443-28485 for the second day; Globex reopened 28394-28488.",
+   "pivot": "28443-28485 remains the primary reference but the decision area extends down to Thu IB high 28398.5 (Wed IB high 28426 inside); if the week ended today the more relevant resistance is 28400-28443. Constructive above 28080-28100 and 28200-28233; risk rises considerably with acceptance below Thursday's RTH (28044.5) and ETH (28013.75) lows.",
+   "higher": "Reclaim ~28460 and accept above 28443-28485 → 28552 (honorable mention) → 28590-28602 (new daily; buyers struggled above it Wed and Thu — evaluate seller participation there) → Thu high 28652.25 / Wed high 28697 → weekly levels, 28847-28869, last week's high 28969, the 29K area.",
+   "lower": "Weakness below 28443-28485 with acceptance below 28398.5 → 28200-28233 (responsive buyers possible from 28246) — a hold/LBAF there preserves the structure; failure → 28080-28100 and Thu low; 27920-27930 honorable mention, then 27869 → 27790s → 27689 → 27588-27622 (must defend) → at worst a convincing LBAF of Tue low 27516.",
+   "levels": [
+    {
+     "p": [
+      28847,
+      28869
+     ],
+     "label": "next major",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      28697
+     ],
+     "label": "Wed high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      28652.25
+     ],
+     "label": "Thu high · excess",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      28590,
+      28602
+     ],
+     "label": "daily (new) · struggled above",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      28552
+     ],
+     "label": "honorable mention",
+     "kind": "up"
+    },
+    {
+     "p": [
+      28443,
+      28485
+     ],
+     "label": "weekly · lost twice · fail short B-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      28398.5,
+      28426
+     ],
+     "label": "Thu IB high / Wed IB high · decision area",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      28246
+     ],
+     "label": "responsive buyers from here",
+     "kind": "down"
+    },
+    {
+     "p": [
+      28200,
+      28233
+     ],
+     "label": "weekly · hold/LBAF long B",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      28080,
+      28100
+     ],
+     "label": "weekly · Tue high",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      28013.75,
+      28044.5
+     ],
+     "label": "Thu ETH / RTH lows · excess",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      27920,
+      27930
+     ],
+     "label": "honorable mention",
+     "kind": "down"
+    },
+    {
+     "p": [
+      27869
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      27689
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      27588,
+      27622
+     ],
+     "label": "weekly · must defend",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      27516
+     ],
+     "label": "Tue low",
+     "kind": "ref"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Failed reclaim / LAAF of 7645-7650 (reaction 7641-7643, as low as 7633)",
+   "dir": "short",
+   "tag": "B/B- · suspected large buyer exited · wants sellers to show control",
+   "gate": "failed attempt to reclaim 7645-7650 including a LAAF; seller participation from 7633 up, favoring 7641-7643",
+   "tgt": "7619-7624 → 7600-7603 → Thu low 7581.5",
+   "stop": "successful reclaim of 7645-7650 → 7663-7664",
+   "quote": "Short failed attempts to reclaim 7645–7650, including a potential LAAF. I'll begin monitoring for seller participation as low as 7633, although I particularly favor 7641–7643 as a potential reaction area. B/B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7641,
+     7650
+    ],
+    "tgt": [
+     [
+      7619,
+      7624
+     ],
+     [
+      7600,
+      7603
+     ],
+     7581.5
+    ],
+    "invalid": [
+     7652
+    ],
+    "stop": [
+     7652.75
+    ],
+    "be": [
+     7633.25
+    ]
+   },
+   "risk": {
+    "entry": "7643",
+    "stop": "7652.75",
+    "stop_pts": "9.75",
+    "be": "7633.25",
+    "his": "7652",
+    "his_pts": "9",
+    "mic": "MES",
+    "ours": [
+     "10.3",
+     "20.5"
+    ],
+    "his_n": [
+     "11.1",
+     "22.2"
+    ],
+    "tgts": [
+     {
+      "p": "7619-7624",
+      "ours": "1.9",
+      "his": "2.1"
+     },
+     {
+      "p": "7600-7603",
+      "ours": "4.1",
+      "his": "4.4"
+     },
+     {
+      "p": "7581.5",
+      "ours": "6.3",
+      "his": "6.8"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Hold / LBAF of 7600-7603",
+   "dir": "long",
+   "tag": "B · important structural reference",
+   "gate": "hold or look below and fail of 7600-7603 (Wed low 7593.25 just beneath)",
+   "tgt": "7619-7624 → 7633 / 7641-7643 → 7645-7650",
+   "stop": "failure to hold → Thu low 7581.5",
+   "quote": "Long a hold or LBAF of 7600–7603, looking for buyers to defend this important structural reference and initiate a rotation higher. B",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7600,
+     7603
+    ],
+    "tgt": [
+     [
+      7619,
+      7624
+     ],
+     [
+      7641,
+      7643
+     ],
+     [
+      7645,
+      7650
+     ]
+    ],
+    "invalid": [
+     7581
+    ],
+    "stop": [
+     7590.25
+    ],
+    "be": [
+     7609.75
+    ]
+   },
+   "risk": {
+    "entry": "7600",
+    "stop": "7590.25",
+    "stop_pts": "9.75",
+    "be": "7609.75",
+    "his": "7581",
+    "his_pts": "19",
+    "mic": "MES",
+    "ours": [
+     "10.3",
+     "20.5"
+    ],
+    "his_n": [
+     "5.3",
+     "10.5"
+    ],
+    "tgts": [
+     {
+      "p": "7619-7624",
+      "ours": "1.9",
+      "his": "1.0"
+     },
+     {
+      "p": "7641-7643",
+      "ours": "4.2",
+      "his": "2.2"
+     },
+     {
+      "p": "7645-7650",
+      "ours": "4.6",
+      "his": "2.4"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LAAF of Thursday's high 7674.75",
+   "dir": "short",
+   "tag": "B- · third look at 7670-7680 · needs control below 7663-7664",
+   "gate": "look above and fail of Thu high 7674.75 within 7670-7680, with sellers regaining control below 7663-7664",
+   "tgt": "7645-7650 → 7641-7643 → 7619-7624",
+   "stop": "sustained continuation through 7670-7680 → 7689-7694",
+   "quote": "Short a LAAF of Thursday's high, particularly if sellers regain control below 7663–7664 following the failed upside attempt. B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7663,
+     7674.75
+    ],
+    "tgt": [
+     [
+      7645,
+      7650
+     ],
+     [
+      7641,
+      7643
+     ],
+     [
+      7619,
+      7624
+     ]
+    ],
+    "invalid": [
+     7680
+    ],
+    "stop": [
+     7673.75
+    ],
+    "be": [
+     7654.25
+    ]
+   },
+   "risk": {
+    "entry": "7664",
+    "stop": "7673.75",
+    "stop_pts": "9.75",
+    "be": "7654.25",
+    "his": "7680",
+    "his_pts": "16",
+    "mic": "MES",
+    "ours": [
+     "10.3",
+     "20.5"
+    ],
+    "his_n": [
+     "6.2",
+     "12.5"
+    ],
+    "tgts": [
+     {
+      "p": "7645-7650",
+      "ours": "1.4",
+      "his": "0.9"
+     },
+     {
+      "p": "7641-7643",
+      "ours": "2.2",
+      "his": "1.3"
+     },
+     {
+      "p": "7619-7624",
+      "ours": "4.1",
+      "his": "2.5"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LBAF of Thursday's low 7581.5",
+   "dir": "long",
+   "tag": "B- · demand cluster 7558-7575 beneath · wary until 7558.25 goes",
+   "gate": "look below and fail of Thu low 7581.5 (premarket low 7572 / 7569-7575, Tue high 7566, 62-63, Oct low 7558.25 beneath) with responsive buying",
+   "tgt": "7600-7603 → 7619-7624 → 7641-7643",
+   "stop": "meaningful traction below 7558.25 → 7539-7543",
+   "quote": "Long a LBAF of Thursday's low, looking for a failed downside auction and responsive buying from the lower end of Thursday's range. B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7569,
+     7581.5
+    ],
+    "tgt": [
+     [
+      7600,
+      7603
+     ],
+     [
+      7619,
+      7624
+     ],
+     [
+      7641,
+      7643
+     ]
+    ],
+    "invalid": [
+     7558
+    ],
+    "stop": [
+     7571.75
+    ],
+    "be": [
+     7591.25
+    ]
+   },
+   "risk": {
+    "entry": "7581.5",
+    "stop": "7571.75",
+    "stop_pts": "9.75",
+    "be": "7591.25",
+    "his": "7558",
+    "his_pts": "23.5",
+    "mic": "MES",
+    "ours": [
+     "10.3",
+     "20.5"
+    ],
+    "his_n": [
+     "4.3",
+     "8.5"
+    ],
+    "tgts": [
+     {
+      "p": "7600-7603",
+      "ours": "1.9",
+      "his": "0.8"
+     },
+     {
+      "p": "7619-7624",
+      "ours": "3.8",
+      "his": "1.6"
+     },
+     {
+      "p": "7641-7643",
+      "ours": "6.1",
+      "his": "2.5"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Failure within 28443-28485 / weakness below Thu IB high 28398.5",
+   "dir": "short",
+   "tag": "B- · below 28398.5 is the safer confirmation",
+   "gate": "failure within 28443-28485, or persistent weakness below 28398.5 (safer)",
+   "tgt": "28246 → 28200-28233; fresh assessment below",
+   "stop": "acceptance back above 28443-28485 → 28552",
+   "quote": "Short failures within 28443–28485, or persistent weakness below Thursday's IB high at 28398.5, with the latter offering a safer confirmation of seller control. Initial downside potential toward 28200–28233. B-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28398.5,
+     28443
+    ],
+    "tgt": [
+     28246,
+     [
+      28200,
+      28233
+     ]
+    ],
+    "invalid": [
+     28485
+    ],
+    "stop": [
+     28457.25
+    ],
+    "be": [
+     28339.75
+    ]
+   },
+   "risk": {
+    "entry": "28398.5",
+    "stop": "28457.2",
+    "stop_pts": "58.75",
+    "be": "28339.8",
+    "his": "28485",
+    "his_pts": "86.5",
+    "mic": "MNQ",
+    "ours": [
+     "4.3",
+     "8.5"
+    ],
+    "his_n": [
+     "2.9",
+     "5.8"
+    ],
+    "tgts": [
+     {
+      "p": "28246",
+      "ours": "2.6",
+      "his": "1.8"
+     },
+     {
+      "p": "28200-28233",
+      "ours": "2.8",
+      "his": "1.9"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Hold / LBAF of 28200-28233 (from 28246)",
+   "dir": "long",
+   "tag": "B · Thu's excess beneath makes this the critical defense",
+   "gate": "hold or look below and fail of 28200-28233, monitoring for responsive buyers from 28246",
+   "tgt": "28398.5 → 28443-28485 → 28552",
+   "stop": "failure to defend → 28080-28100 / Thu low 28044.5",
+   "quote": "Long a hold or LBAF of 28200–28233. I'll begin monitoring for responsive buyers as high as 28246, looking for a defense of this critical area and a subsequent rotation higher. B",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28200,
+     28246
+    ],
+    "tgt": [
+     28398.5,
+     [
+      28443,
+      28485
+     ],
+     28552
+    ],
+    "invalid": [
+     28100
+    ],
+    "stop": [
+     28141.25
+    ],
+    "be": [
+     28258.75
+    ]
+   },
+   "risk": {
+    "entry": "28200",
+    "stop": "28141.2",
+    "stop_pts": "58.75",
+    "be": "28258.8",
+    "his": "28100",
+    "his_pts": "100",
+    "mic": "MNQ",
+    "ours": [
+     "4.3",
+     "8.5"
+    ],
+    "his_n": [
+     "2.5",
+     "5.0"
+    ],
+    "tgts": [
+     {
+      "p": "28398.5",
+      "ours": "3.4",
+      "his": "2.0"
+     },
+     {
+      "p": "28443-28485",
+      "ours": "4.1",
+      "his": "2.4"
+     },
+     {
+      "p": "28552",
+      "ours": "6.0",
+      "his": "3.5"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 6.43,
+  "NQ": 39.16
+ },
+ "stop_floor": {
+  "ES": 9.75,
+  "NQ": 58.75
+ }
+}
