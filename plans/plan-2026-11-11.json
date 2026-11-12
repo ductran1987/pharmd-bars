@@ -1,0 +1,987 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-11",
+ "status": "draft",
+ "notes": "",
+ "bias": "'Two days of failed auctions, developing P-shaped profiles, and the potential for a major directional resolution.' CPI Tuesday was volatile and two-sided: sellers had a favorable chance to reverse Monday's recovery and liquidated hard intraday, but neither ES nor NQ took out Monday's low — and buyers haven't finished the job either (NQ twice failed to reclaim the upper boundary of its developing balance). Both weekly profiles are P-shaped (forced buying / short covering, then consolidation): the body of the P is a balance to rotate within; an upside break with acceptance starts a fresh distribution higher; a downside failure — acceptance below the body, then defended as resistance — risks liquidation down the thin stem. 'Neither side has finished the job.' Favor treating the body as a balance while staying prepared for the resolution.",
+ "wildcard": "Distinguish a brief excursion outside the balance from genuine acceptance — don't blindly trade every boundary break; a failed break is an excellent trade the other way. NQ: buyers reclaimed and defended the lower HTF inflection area but struggle beneath the next; developing supply 27910-27950 (already tested after hours to 27916). ES: the late rally carried price well above Tuesday's value area ('made little sense'); Tuesday's VAH sits effectively at 7539-7543; 7558-7566 (Oct low 7558 + the 7562-7563 daily) may be developing into an important decision area. Veterans Day (bond market closed). Daily: ES 7662, 7631-7634, 7562-7563, 7454-7458, 7412-7415; NQ 27869, 27689, 27110-27123, 27057.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "CPI: ON 7509-7598.75, cash opened 7523, high 7566.25 at 10:05, sellers traded well through 7539-7543 to 7493 at 12:40 — a brief excursion below 7497-7504 and Thursday's B-period low — but never reached Monday's 7455.75; responsive buyers drove it back to 7562-7563, closed 7544.75 (above the day's value area). After hours 7542-7559.",
+   "pivot": "The body of this week's P sits inside Thursday's B-period range; Thursday's A-singles start just above the week's high. 7539-7543 (Tuesday's VAH) is the key lower reference; 7558-7566 the immediate decision area; 7569-7575 the reclaim that invites Monday's high.",
+   "higher": "Reclaim 7569-7575 → another test of Monday's high 7600.5 → Thursday's A-singles from ~7603 → 7619-7624 (major decision) → sustained acceptance → 7670-7680 with 7645-7650 to negotiate.",
+   "lower": "Renewed loss of 7539-7543 with acceptance beneath Tuesday's value → the lower part of Tuesday's range; below Tuesday's low: 7469-7473 (Friday's high) then Monday's RTH open/low just beneath — sellers must negotiate both for a convincing breakdown of Monday's recovery → 7388-7396.",
+   "levels": [
+    {
+     "p": [
+      7645,
+      7650
+     ],
+     "label": "June high · must negotiate",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7619,
+      7624
+     ],
+     "label": "major decision · A-singles",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7603
+     ],
+     "label": "Thu A-singles start",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7600.5
+     ],
+     "label": "Mon high · LAAF short B",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7569,
+      7575
+     ],
+     "label": "Sept low · reclaim → Mon high",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7566.25
+     ],
+     "label": "Tue high · LAAF short B-",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7558,
+      7563
+     ],
+     "label": "Oct low 7558 + daily 62-63 · decision area",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7539,
+      7543
+     ],
+     "label": "Tue VAH · Aug low · hold C / weakness short B+",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7514,
+      7518
+     ],
+     "label": "first target below",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7497,
+      7504
+     ],
+     "label": "weekly · LBAF long B",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7493
+     ],
+     "label": "Tue low · P-body bottom",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7469,
+      7473
+     ],
+     "label": "Fri high",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7454,
+      7458
+     ],
+     "label": "Mon open/low 7455.75 · stem",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7388,
+      7396
+     ],
+     "label": "weekly · stem target",
+     "kind": "down"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "CPI: ON 27590-28109, cash opened 27743.75, high 28090 at 10:00 — second failed attempt at the upper boundary under Monday's 28129.25 — then liquidation to 27516 at 12:40 (through 27588-27622, never near Monday's 27316), recovered to close 27835.75; after hours tested the 27910-27950 supply (27916).",
+   "pivot": "Body of the P = the developing balance (roughly 27588-27622 to Tuesday's/Monday's highs). LBAF of the lower boundary (arguably already happened at Tuesday's low) = long; LAAF of the upper boundary = short; rotation inside; break with continuation either way is the bigger trade. 27869 (daily) is the trigger inside the body: weakness below it after a rejection, or reclaim of it after a hold.",
+   "higher": "Buyers defending the lower boundary and eventually accepting above the upper boundary (Monday's high / Thursday's open and high, 200-day above) → the higher inflection areas from the weekly: 28200-28233, 28443-28485.",
+   "lower": "Acceptance below the body, defended as resistance → liquidation down the stem — but 27425-27458 (Friday's high) and 27313-27339 (Monday's open/low) are significant responsive-buying areas sellers must overcome first.",
+   "levels": [
+    {
+     "p": [
+      28200,
+      28233
+     ],
+     "label": "June low · next inflection",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      28129.25
+     ],
+     "label": "Mon high · LAAF short A/A+",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      28090
+     ],
+     "label": "Tue high · 2nd failed attempt",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27910,
+      27950
+     ],
+     "label": "developing supply · tested AH",
+     "kind": "up"
+    },
+    {
+     "p": [
+      27869
+     ],
+     "label": "daily · trigger",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      27798,
+      27815
+     ],
+     "label": "Mon singles",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      27689
+     ],
+     "label": "daily",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      27588,
+      27622
+     ],
+     "label": "weekly · P-body bottom · hold long B/B+",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      27516
+     ],
+     "label": "Tue low · LBAF long A-",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27425,
+      27458
+     ],
+     "label": "Fri high · first stem decision",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      27313,
+      27339
+     ],
+     "label": "Mon open/low · stem decision",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of Monday's high 7600.5",
+   "dir": "short",
+   "tag": "B · if buyers can't sustain into Thursday's A-singles",
+   "gate": "look above and fail of Monday's high 7600.5 (the excursion can reach the A-singles from ~7603)",
+   "tgt": "7569-7575 → 7562-7563 → 7539-7543",
+   "stop": "sustained trade into the A-singles → 7619-7624",
+   "quote": "Short — LAAF of Monday's high | B. A look above and fail of Monday's high offers a short opportunity, particularly if buyers are unable to sustain trade into Thursday's A-period single prints. The initial objective would be a rotation back toward 7569–7575, with potential for a deeper move if sellers regain control.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7600.5,
+     7603
+    ],
+    "tgt": [
+     [
+      7569,
+      7575
+     ],
+     [
+      7562,
+      7563
+     ],
+     [
+      7539,
+      7543
+     ]
+    ],
+    "invalid": [
+     7619
+    ],
+    "stop": [
+     7610.75
+    ],
+    "be": [
+     7590.25
+    ]
+   },
+   "risk": {
+    "entry": "7600.5",
+    "stop": "7610.75",
+    "stop_pts": "10.25",
+    "be": "7590.25",
+    "his": "7619",
+    "his_pts": "18.5",
+    "mic": "MES",
+    "ours": [
+     "9.8",
+     "19.5"
+    ],
+    "his_n": [
+     "5.4",
+     "10.8"
+    ],
+    "tgts": [
+     {
+      "p": "7569-7575",
+      "ours": "2.5",
+      "his": "1.4"
+     },
+     {
+      "p": "7562-7563",
+      "ours": "3.7",
+      "his": "2.0"
+     },
+     {
+      "p": "7539-7543",
+      "ours": "5.6",
+      "his": "3.1"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of Tuesday's high 7566.25 / persistent weakness below 7562-7563",
+   "dir": "short",
+   "tag": "B- · inside the developing balance",
+   "gate": "failed attempt to reclaim Tuesday's high 7566.25, or persistent weakness beneath 7562-7563",
+   "tgt": "7539-7543; continuation if it fails → 7514-7518",
+   "stop": "reclaim of 7569-7575 → Monday's high",
+   "quote": "Short — LAAF of Tuesday's high or persistent weakness below 7562–7563 | B-. A failed attempt to reclaim Tuesday's high, or persistent weakness beneath 7562–7563, offers a short opportunity within the developing balance. The initial objective is 7539–7543, with potential for continuation if that area fails.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7562,
+     7566.25
+    ],
+    "tgt": [
+     [
+      7539,
+      7543
+     ],
+     [
+      7514,
+      7518
+     ]
+    ],
+    "invalid": [
+     7575
+    ],
+    "stop": [
+     7572.25
+    ],
+    "be": [
+     7551.75
+    ]
+   },
+   "risk": {
+    "entry": "7562",
+    "stop": "7572.25",
+    "stop_pts": "10.25",
+    "be": "7551.75",
+    "his": "7575",
+    "his_pts": "13",
+    "mic": "MES",
+    "ours": [
+     "9.8",
+     "19.5"
+    ],
+    "his_n": [
+     "7.7",
+     "15.4"
+    ],
+    "tgts": [
+     {
+      "p": "7539-7543",
+      "ours": "1.9",
+      "his": "1.5"
+     },
+     {
+      "p": "7514-7518",
+      "ours": "4.3",
+      "his": "3.4"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold of 7539-7543",
+   "dir": "long",
+   "tag": "C · 'frankly somewhat optimistic'",
+   "gate": "hold of 7539-7543 (Tuesday's VAH / the reclaimed August low) with buyers regaining initiative",
+   "tgt": "7562-7563 → Tuesday's high 7566.25 → 7569-7575",
+   "stop": "persistent weakness back below 39-43 → 7514-7518",
+   "quote": "Long — Hold of 7539–7543 | C. A long on a hold of 7539–7543 is possible, although frankly somewhat optimistic given that the late-session rally carried price well above Tuesday's value area. Nevertheless, 7562–7563 and Tuesday's high remain potential upside objectives if buyers can defend the area and regain initiative.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7539,
+     7543
+    ],
+    "tgt": [
+     [
+      7562,
+      7563
+     ],
+     7566.25,
+     [
+      7569,
+      7575
+     ]
+    ],
+    "invalid": [
+     7514
+    ],
+    "stop": [
+     7528.75
+    ],
+    "be": [
+     7549.25
+    ]
+   },
+   "risk": {
+    "entry": "7539",
+    "stop": "7528.75",
+    "stop_pts": "10.25",
+    "be": "7549.25",
+    "his": "7514",
+    "his_pts": "25",
+    "mic": "MES",
+    "ours": [
+     "9.8",
+     "19.5"
+    ],
+    "his_n": [
+     "4.0",
+     "8.0"
+    ],
+    "tgts": [
+     {
+      "p": "7562-7563",
+      "ours": "2.2",
+      "his": "0.9"
+     },
+     {
+      "p": "7566.25",
+      "ours": "2.7",
+      "his": "1.1"
+     },
+     {
+      "p": "7569-7575",
+      "ours": "2.9",
+      "his": "1.2"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Persistent weakness below 7539-7543",
+   "dir": "short",
+   "tag": "B+ · rejection of Tuesday's late rally raises the odds of a P breakdown",
+   "gate": "persistent weakness back below 7539-7543 (acceptance beneath Tuesday's value area)",
+   "tgt": "7514-7518 → 7497-7504 → Tuesday's low 7493; monitor for continuation through it",
+   "stop": "reclaim of 7539-7543 and 7558-7566",
+   "quote": "Short — Persistent weakness below 7539–7543 | B+. Persistent weakness back below 7539–7543 would likely resolve toward at least 7514–7518, if not 7497–7504. Monitor for continuation to and through Tuesday's low. I'm rating this a B+ … because rejection of Tuesday's late-session rally would increase the probability of a breakdown of the developing P-shaped profile.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7539,
+     7543
+    ],
+    "tgt": [
+     [
+      7514,
+      7518
+     ],
+     [
+      7497,
+      7504
+     ],
+     7493
+    ],
+    "invalid": [
+     7562
+    ],
+    "stop": [
+     7549.25
+    ],
+    "be": [
+     7528.75
+    ]
+   },
+   "risk": {
+    "entry": "7539",
+    "stop": "7549.25",
+    "stop_pts": "10.25",
+    "be": "7528.75",
+    "his": "7562",
+    "his_pts": "23",
+    "mic": "MES",
+    "ours": [
+     "9.8",
+     "19.5"
+    ],
+    "his_n": [
+     "4.3",
+     "8.7"
+    ],
+    "tgts": [
+     {
+      "p": "7514-7518",
+      "ours": "2.0",
+      "his": "0.9"
+     },
+     {
+      "p": "7497-7504",
+      "ours": "3.4",
+      "his": "1.5"
+     },
+     {
+      "p": "7493",
+      "ours": "4.5",
+      "his": "2.0"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "LBAF of Tuesday's low 7493 / 7497-7504",
+   "dir": "long",
+   "tag": "B · sellers failing again below the balance",
+   "gate": "look below and fail of Tuesday's low 7493 and 7497-7504 — sellers once again failing to accept beneath the developing balance",
+   "tgt": "7514-7518 → 7539-7543 → 7562-7563",
+   "stop": "acceptance below Tuesday's low → 7469-7473",
+   "quote": "Long — LBAF of Tuesday's low / 7497–7504 | B. A look below and fail of Tuesday's low and 7497–7504 offers a potential long, particularly if sellers once again fail to establish acceptance beneath the developing balance. Initial upside references include 7514–7518, 7539–7543, and potentially 7562–7563 if buyers regain control.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7493,
+     7504
+    ],
+    "tgt": [
+     [
+      7514,
+      7518
+     ],
+     [
+      7539,
+      7543
+     ],
+     [
+      7562,
+      7563
+     ]
+    ],
+    "invalid": [
+     7473
+    ],
+    "stop": [
+     7482.75
+    ],
+    "be": [
+     7503.25
+    ]
+   },
+   "risk": {
+    "entry": "7493",
+    "stop": "7482.75",
+    "stop_pts": "10.25",
+    "be": "7503.25",
+    "his": "7473",
+    "his_pts": "20",
+    "mic": "MES",
+    "ours": [
+     "9.8",
+     "19.5"
+    ],
+    "his_n": [
+     "5.0",
+     "10.0"
+    ],
+    "tgts": [
+     {
+      "p": "7514-7518",
+      "ours": "2.0",
+      "his": "1.1"
+     },
+     {
+      "p": "7539-7543",
+      "ours": "4.5",
+      "his": "2.3"
+     },
+     {
+      "p": "7562-7563",
+      "ours": "6.7",
+      "his": "3.5"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es6",
+   "instrument": "ES",
+   "name": "Breakdown below Tuesday's low with continuation",
+   "dir": "short",
+   "tag": "B- · execution risk (another LBAF) · wants acceptance, not the first excursion",
+   "gate": "sustained breakdown beneath Tuesday's low 7493 with sellers establishing acceptance below it — not the initial excursion",
+   "tgt": "7469-7473 → Monday's open/low 7455.75 → 7388-7396",
+   "stop": "LBAF of Tuesday's low → back into the body",
+   "quote": "Short — Breakdown below Tuesday's low with continuation | B-. A sustained breakdown beneath Tuesday's low offers a short opportunity with meaningful downside potential if the developing P begins to liquidate. This can be difficult to execute because of the risk of another LBAF. I would prefer to see sellers establish acceptance below the low rather than chase an initial excursion.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7493,
+     7497
+    ],
+    "tgt": [
+     [
+      7469,
+      7473
+     ],
+     [
+      7454,
+      7458
+     ],
+     [
+      7388,
+      7396
+     ]
+    ],
+    "invalid": [
+     7514
+    ],
+    "stop": [
+     7503.25
+    ],
+    "be": [
+     7482.75
+    ]
+   },
+   "risk": {
+    "entry": "7493",
+    "stop": "7503.25",
+    "stop_pts": "10.25",
+    "be": "7482.75",
+    "his": "7514",
+    "his_pts": "21",
+    "mic": "MES",
+    "ours": [
+     "9.8",
+     "19.5"
+    ],
+    "his_n": [
+     "4.8",
+     "9.5"
+    ],
+    "tgts": [
+     {
+      "p": "7469-7473",
+      "ours": "2.0",
+      "his": "1.0"
+     },
+     {
+      "p": "7454-7458",
+      "ours": "3.4",
+      "his": "1.7"
+     },
+     {
+      "p": "7388-7396",
+      "ours": "9.5",
+      "his": "4.6"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Rejection of 27910-27950 + persistent weakness below 27869",
+   "dir": "short",
+   "tag": "B+ · defined rotation with P-breakdown potential",
+   "gate": "another rejection of the developing 27910-27950 supply (already tested AH), confirmed by persistent weakness back below 27869",
+   "tgt": "27798-27815 → 27689 → 27588-27622; monitor for a P breakdown",
+   "stop": "acceptance above 27950 → Tuesday's/Monday's highs",
+   "quote": "Short — Rejection of 27910–27950 with persistent weakness below 27869 | B+. NQ has some developing supply in the 27910–27950 area, which was already tested after hours. Another rejection is possible, but I would prefer to see persistent weakness back below 27869 before engaging. Initial downside objectives are 27798–27815, followed by 27689 and 27588–27622.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27869,
+     27950
+    ],
+    "tgt": [
+     [
+      27798,
+      27815
+     ],
+     27689,
+     [
+      27588,
+      27622
+     ]
+    ],
+    "invalid": [
+     28016
+    ],
+    "stop": [
+     27932.75
+    ],
+    "be": [
+     27805.25
+    ]
+   },
+   "risk": {
+    "entry": "27869",
+    "stop": "27932.8",
+    "stop_pts": "63.75",
+    "be": "27805.2",
+    "his": "28016",
+    "his_pts": "147",
+    "mic": "MNQ",
+    "ours": [
+     "3.9",
+     "7.8"
+    ],
+    "his_n": [
+     "1.7",
+     "3.4"
+    ],
+    "tgts": [
+     {
+      "p": "27798-27815",
+      "ours": "0.8",
+      "his": "0.4"
+     },
+     {
+      "p": "27689",
+      "ours": "2.8",
+      "his": "1.2"
+     },
+     {
+      "p": "27588-27622",
+      "ours": "3.9",
+      "his": "1.7"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of Tuesday's high 28090 and/or Monday's high 28129.25",
+   "dir": "short",
+   "tag": "A/A+ · overhead supply + repeated failed attempts + liquidation potential",
+   "gate": "look above and fail of Tuesday's 28090 or Monday's 28129.25 high; a subsequent loss of 27869 strengthens it",
+   "tgt": "27869 → 27798-27815 → 27689 → Tuesday's low 27516 (P breakdown)",
+   "stop": "acceptance above Monday's high / Thursday's high → 28200-28233",
+   "quote": "Short — LAAF of Tuesday's and/or Monday's high | A/A+. A look above and fail of Tuesday's or Monday's high is among my preferred short opportunities. A subsequent loss of 27869 would strengthen the setup, with potential for a rotation toward Tuesday's low and, ultimately, a breakdown of the developing P-shaped profile.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28090,
+     28129.25
+    ],
+    "tgt": [
+     27869,
+     [
+      27798,
+      27815
+     ],
+     27689,
+     27516
+    ],
+    "invalid": [
+     28233
+    ],
+    "stop": [
+     28153.75
+    ],
+    "be": [
+     28026.25
+    ]
+   },
+   "risk": {
+    "entry": "28090",
+    "stop": "28153.8",
+    "stop_pts": "63.75",
+    "be": "28026.2",
+    "his": "28233",
+    "his_pts": "143",
+    "mic": "MNQ",
+    "ours": [
+     "3.9",
+     "7.8"
+    ],
+    "his_n": [
+     "1.7",
+     "3.5"
+    ],
+    "tgts": [
+     {
+      "p": "27869",
+      "ours": "3.5",
+      "his": "1.5"
+     },
+     {
+      "p": "27798-27815",
+      "ours": "4.3",
+      "his": "1.9"
+     },
+     {
+      "p": "27689",
+      "ours": "6.3",
+      "his": "2.8"
+     },
+     {
+      "p": "27516",
+      "ours": "9.0",
+      "his": "4.0"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of Tuesday's low 27516 (A-) / hold of 27588-27622 (B/B+)",
+   "dir": "long",
+   "tag": "A- for the LBAF · B/B+ for a plain hold",
+   "gate": "a fresh look below and fail of Tuesday's low 27516 (sellers again failing below the lower boundary) — or a straightforward hold of 27588-27622 (less confirmation)",
+   "tgt": "27689 → 27798-27815 → 27869 → upper portion of the P",
+   "stop": "acceptance below Tuesday's low → 27425-27458",
+   "quote": "Long — LBAF of Tuesday's low or hold of 27588–27622 | A- for LBAF; B/B+ for hold. A fresh LBAF of Tuesday's low is an A- opportunity, particularly if sellers again fail to sustain trade below the lower boundary of the developing balance. A straightforward hold of 27588–27622 is also a valid long … Initial upside references include 27689, 27798–27815, and 27869.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27516,
+     27622
+    ],
+    "tgt": [
+     27689,
+     [
+      27798,
+      27815
+     ],
+     27869
+    ],
+    "invalid": [
+     27458
+    ],
+    "stop": [
+     27524.25
+    ],
+    "be": [
+     27651.75
+    ]
+   },
+   "risk": {
+    "entry": "27588",
+    "stop": "27524.2",
+    "stop_pts": "63.75",
+    "be": "27651.8",
+    "his": "27458",
+    "his_pts": "130",
+    "mic": "MNQ",
+    "ours": [
+     "3.9",
+     "7.8"
+    ],
+    "his_n": [
+     "1.9",
+     "3.8"
+    ],
+    "tgts": [
+     {
+      "p": "27689",
+      "ours": "1.6",
+      "his": "0.8"
+     },
+     {
+      "p": "27798-27815",
+      "ours": "3.3",
+      "his": "1.6"
+     },
+     {
+      "p": "27869",
+      "ours": "4.4",
+      "his": "2.2"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Breakdown below Tuesday's low with continuation",
+   "dir": "short",
+   "tag": "B- · risky · LBAF concern · first objective nearby",
+   "gate": "sustained breakdown beneath Tuesday's low 27516 with acceptance — liquidation down the stem",
+   "tgt": "27425-27458 → 27313-27339",
+   "stop": "fresh LBAF → back above 27588-27622",
+   "quote": "Short — Breakdown below Tuesday's low with continuation | B-. A sustained breakdown beneath Tuesday's low could initiate liquidation down the stem of the developing P. However, this is a risky and potentially difficult trade to execute. A fresh LBAF remains a significant concern, and the first major downside objective at 27425–27458 is relatively nearby.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27516,
+     27588
+    ],
+    "tgt": [
+     [
+      27425,
+      27458
+     ],
+     [
+      27313,
+      27339
+     ]
+    ],
+    "invalid": [
+     27689
+    ],
+    "stop": [
+     27579.75
+    ],
+    "be": [
+     27452.25
+    ]
+   },
+   "risk": {
+    "entry": "27516",
+    "stop": "27579.8",
+    "stop_pts": "63.75",
+    "be": "27452.2",
+    "his": "27689",
+    "his_pts": "173",
+    "mic": "MNQ",
+    "ours": [
+     "3.9",
+     "7.8"
+    ],
+    "his_n": [
+     "1.4",
+     "2.9"
+    ],
+    "tgts": [
+     {
+      "p": "27425-27458",
+      "ours": "0.9",
+      "his": "0.3"
+     },
+     {
+      "p": "27313-27339",
+      "ours": "2.8",
+      "his": "1.0"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 6.89,
+  "NQ": 42.52
+ },
+ "stop_floor": {
+  "ES": 10.25,
+  "NQ": 63.75
+ }
+}
