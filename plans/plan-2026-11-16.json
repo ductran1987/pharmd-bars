@@ -1,0 +1,872 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-16",
+ "status": "draft",
+ "notes": "",
+ "bias": "'Friday's liquidation, the buyer's exit, and the battle for control of the lower distribution.' Friday's open was a spectacular selloff that looked like a liquidation break (late Wed/Thu longs stopped out with the big buyer gone) rather than sustained initiative selling: once the initial liquidation finished, sellers made little further progress, and after the LBAF of the IB low (the low of day) a persistent buy program turned on, pulling value higher into the close instead of leaving a clean b-shaped profile. 'A significant buyer exiting the market is not the same thing as a significant seller entering it.' Weekly frame unchanged: NQ failed its upper distribution and finished in the lower one (above 28200-28233 = upper, below 28096-28129 = lower, between = transition where he expects sellers to try to establish control — an expectation, not a prediction); ES sits inside one big balance 7490-7504 to 7670-7680; neither has resolved the Nov 5 mother bar. Friday's decline didn't even retrace 50% of the rally — a reasonable pullback where responsive buyers could emerge; 'equally premature to become overly bearish on the first meaningful pullback.' Monday's job: distinguish genuine initiative from temporary liquidation.",
+ "wildcard": "Futures sold off after Friday's cash close (FAA ground stop news): ES 5 PM 7561 in 7558-7563, NQ 5 PM 27927 just under 27953-27969 — both analyses start there. He evaluates each session with fresh eyes: an Asia excursion doesn't bind Europe/US. The LAAF-of-ARH shorts are structurally A-grade but discretionarily downgraded (NQ A-, ES B+) because Friday looked like liquidation and the afternoon buy program may return; reactive longs (dip holds above Friday's low → session uptrend) are implied but ungraded. Daily Mon: ES 7689-7694, 7641-7643, 7575, 7454-7458, 7412-7415 (keep 7566.25; 7530-7532 honorable mention); NQ 29194-29220, 27953-27969, 27110-27123, 27057, 26718-26732 (keep Thu RTH low 28044.5).",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Fri: ON 7598.5-7669.25, opened 7642.75 / high 7643.5 on the first bar, liquidation break straight to 7519.25 at 10:20 (through 7558-63, 7566.25, the Sept low 7575 — Wed's gap filled), then sellers stalled; chop 7524-7566 through midday, afternoon buy program lifted it to the 7590 ARH at 15:50 (A-period singles just above), closed 7567.5, 5 PM 7561, AH low 7535.25 after the FAA news. Value pulled up into the close instead of capping at 7558-7563. Week: high 7674.75, RTH low 7455.75, ETH low 7385.5 — an inside week inside the Nov 5 mother bar.",
+   "pivot": "Start at 7558-7563 (Oct low 7558.25; extend to the Nov 10 RTH high 7566.25 for Monday). Fri VPOC 7542; 7530-7532 (July open, lower edge of Fri value) honorable mention; Fri low 7519.25 with demand 7509-7513 / 7514-7518 and weekly 7490-7504 (Tue excess low 7493) beneath. Above: Sept low 7575, Fri ARH 7590 + weekly 7593-7600 + A-singles = the primary LAAF area; then 7628-7636, Fri open/high 7641-7643, the 7649 June ATH inside a HVN, 7670-7680 (balance top, LAAF monitor).",
+   "higher": "Firm base above 7558-7563 → 7575 → 7590 ARH / 7593-7600; sustained acceptance above → 7628-7636 → 7641-7643 (a reclaim of Fri's open/high could squeeze, but buyers struggled above 7649 all week — expect chop 7628-7680) → 7670-7680 → 7708-7713 (Thu 11/5 open/high) → 7746.25.",
+   "lower": "Persistent weakness below 7558-7563 → Fri VPOC 7542 → 7530-7532 → Fri low 7519.25 (LBAF watch). Continuation needs time and volume below 7490-7504, then 7469-7473 (Nov 6 high — trap location) and Mon's RTH open/low 7455.75 → 7412-7415 → 7388-7396 → 7377.25 / 7322.25 (Nov 1 week lows), 7369-7372 between. Until then a test or brief break of Friday's low is an opportunity for responsive buyers.",
+   "levels": [
+    {
+     "p": [
+      7670,
+      7680
+     ],
+     "label": "balance top · LAAF monitor",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7649
+     ],
+     "label": "June ATH · HVN",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7641,
+      7643
+     ],
+     "label": "Fri open/high · daily",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7628,
+      7636
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7590,
+      7600
+     ],
+     "label": "ARH + 93-600 · LAAF short B+",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7575
+     ],
+     "label": "Sept low · daily",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7558,
+      7566.25
+     ],
+     "label": "weekly / Nov 10 high · short C+/B-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7542
+     ],
+     "label": "Fri VPOC",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7530,
+      7532
+     ],
+     "label": "honorable mention · July open",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7519.25
+     ],
+     "label": "Fri low · LBAF long B+",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7509,
+      7518
+     ],
+     "label": "demand",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7490,
+      7504
+     ],
+     "label": "weekly · Tue low 7493",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7469,
+      7473
+     ],
+     "label": "weekly · trap",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7454,
+      7458
+     ],
+     "label": "daily · Mon low 7455.75",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7412,
+      7415
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7388,
+      7396
+     ],
+     "label": "weekly",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Fri: ON 28243-28607.75, opened 28390.5 / high 28399 on the first bar (28400-28443), liquidation break through 28200-28233 and 28096-28129 to the IB low 27719.75, a LBAF of it made the low 27695.25 at 11:20 (demand to 27643 / weekly 27588-27622 untouched), then a buy program: through 27953-27969 (where value 'should have been capped') to the ARH 28111.75 at 15:50 inside 28096-28129, closed 27948.5, 5 PM 27927 after the FAA-news selloff, AH low 27766.5. Week: high 28697, RTH low 27316.25 (27313-27339), ETH low 26751.25 — inside week; Fri closed back inside the Nov 5 RTH range.",
+   "pivot": "Lower distribution. Start at 27953-27969 (new daily, Fri's value cap). Transition zone 28096-28129 to 28200-28233 — sellers' must-defend area, 'certainly by 28200-28233'; Fri ARH 28111.75 with the weekly LVN above and supply ~28169±14 is 'particularly vulnerable to a LAAF'. Thu RTH low 28044.5 sits between. Fri VPOC 27810 is a magnet, not support; Fri low 27695.25 with demand to 27643 and 27588-27622 beneath.",
+   "higher": "Sustained buying above 27953-27969 → 28044.5 → 28096-28129 / ARH 28111.75 (LAAF watch) → a firm base above 28200-28233 in US hours would say Friday was liquidation, not initiative → 28400-28443 (Fri open/high; failed-reclaim risk until captured) → squeeze through 28583-28608 → 28684-28722 (week high 28697) → 28847-28869 → 28944-28969 (29K + bear gap to 29405 — fresh assessment there).",
+   "lower": "Sellers cap 27953-27969 → Fri VPOC 27810 → Fri low 27695.25 (LBAF watch; demand to 27643, weekly 27588-27622 expected to draw responsive buyers given Tue's excess low). For the bigger move sellers must make 27588-27622 resistance, take Tue's low 27516, and build value through 27313-27339 (week RTH low) → 27201.5 (July low) → 26969-26987 → retest of the Nov 1 week lows (second break of last quarter's low). Until the prior-ATH backtest (26366.5 ETH low) decisively fails, he won't dismiss a substantial bullish defense.",
+   "levels": [
+    {
+     "p": [
+      28583,
+      28608
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      28400,
+      28443
+     ],
+     "label": "Fri open/high · LAAF monitor",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      28200,
+      28233
+     ],
+     "label": "upper dist · must defend",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      28155,
+      28183
+     ],
+     "label": "Fri supply 28169±14",
+     "kind": "up"
+    },
+    {
+     "p": [
+      28096,
+      28129
+     ],
+     "label": "ARH 28111.75 · LAAF short A-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      28044.5
+     ],
+     "label": "Thu RTH low · keep",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27953,
+      27969
+     ],
+     "label": "daily · weakness short B/B-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      27810
+     ],
+     "label": "Fri VPOC · magnet",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27695.25
+     ],
+     "label": "Fri low · LBAF long B/B+",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27643
+     ],
+     "label": "demand extends to here",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27588,
+      27622
+     ],
+     "label": "weekly · LBAF monitor",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      27516
+     ],
+     "label": "Tue low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27425,
+      27458
+     ],
+     "label": "weekly · Nov 6 high",
+     "kind": "down"
+    },
+    {
+     "p": [
+      27313,
+      27339
+     ],
+     "label": "weekly · week RTH low 27316",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      27201.5
+     ],
+     "label": "July low · responsive bid watch",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27110,
+      27123
+     ],
+     "label": "daily",
+     "kind": "down"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Persistent weakness below 7558-7563 (incl. LAAF; extend to 7566.25)",
+   "dir": "short",
+   "tag": "C+/B- · could trigger the trading-lower scenario",
+   "gate": "sustained weakness below 7558-7563 including a LAAF or failed reclaim of the level (Nov 10 RTH high 7566.25 incorporated)",
+   "tgt": "Fri VPOC 7542 → 7530-7532 → Fri low 7519.25",
+   "stop": "firm base back above 7558-7566 → 7575",
+   "quote": "Short — Persistent weakness below 7558–7563 (C+/B−). Short sustained weakness below 7558–7563, including a LAAF of the level.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7558,
+     7566.25
+    ],
+    "tgt": [
+     7542,
+     [
+      7530,
+      7532
+     ],
+     7519.25
+    ],
+    "invalid": [
+     7575
+    ],
+    "stop": [
+     7568.25
+    ],
+    "be": [
+     7547.75
+    ]
+   },
+   "risk": {
+    "entry": "7558",
+    "stop": "7568.25",
+    "stop_pts": "10.25",
+    "be": "7547.75",
+    "his": "7575",
+    "his_pts": "17",
+    "mic": "MES",
+    "ours": [
+     "9.8",
+     "19.5"
+    ],
+    "his_n": [
+     "5.9",
+     "11.8"
+    ],
+    "tgts": [
+     {
+      "p": "7542",
+      "ours": "1.6",
+      "his": "0.9"
+     },
+     {
+      "p": "7530-7532",
+      "ours": "2.5",
+      "his": "1.5"
+     },
+     {
+      "p": "7519.25",
+      "ours": "3.8",
+      "his": "2.3"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of Friday's 7590 ARH / 7593-7600",
+   "dir": "short",
+   "tag": "B+ (structurally A/A-, discretionary downgrade) · ARH + weekly 93-600 + A-singles",
+   "gate": "look above and fail of the 7590 afternoon rally high — 7590-7600 is the primary area of interest",
+   "tgt": "7575 → 7558-7563 → 7542",
+   "stop": "sustained acceptance above 7593-7600 / in the A-singles → 7628-7636",
+   "quote": "Short — LAAF of Friday's 7590 ARH (B+). Structurally, this is an A/A− setup, but I'm applying a discretionary downgrade to B+ for essentially the same reasons outlined in the NQ setup. Friday appeared to be primarily a liquidation break, and the subsequent buying raises questions about whether sellers can sustain control. Nevertheless, the confluence of the 7590 ARH, weekly 7593–7600 level, and Friday's A-period single prints makes this an important setup to monitor.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7590,
+     7600
+    ],
+    "tgt": [
+     7575,
+     [
+      7558,
+      7563
+     ],
+     7542
+    ],
+    "invalid": [
+     7603
+    ],
+    "stop": [
+     7600.25
+    ],
+    "be": [
+     7579.75
+    ]
+   },
+   "risk": {
+    "entry": "7590",
+    "stop": "7600.25",
+    "stop_pts": "10.25",
+    "be": "7579.75",
+    "his": "7603",
+    "his_pts": "13",
+    "mic": "MES",
+    "ours": [
+     "9.8",
+     "19.5"
+    ],
+    "his_n": [
+     "7.7",
+     "15.4"
+    ],
+    "tgts": [
+     {
+      "p": "7575",
+      "ours": "1.5",
+      "his": "1.2"
+     },
+     {
+      "p": "7558-7563",
+      "ours": "2.6",
+      "his": "2.1"
+     },
+     {
+      "p": "7542",
+      "ours": "4.7",
+      "his": "3.7"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low 7519.25",
+   "dir": "long",
+   "tag": "B+ · demand 7509-7518, weekly 7490-7504 beneath",
+   "gate": "look below and fail of Fri low 7519.25 with responsive buyers from the demand / 7490-7504",
+   "tgt": "7530-7532 → 7542 → 7558-7563 → 7575",
+   "stop": "time and volume below 7490-7504",
+   "quote": "Long — LBAF of Friday's low (B+). Look for a LBAF of Friday's low, particularly with the important weekly 7490–7504 level and nearby demand providing potential support.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7509,
+     7519.25
+    ],
+    "tgt": [
+     [
+      7530,
+      7532
+     ],
+     7542,
+     [
+      7558,
+      7563
+     ]
+    ],
+    "invalid": [
+     7490
+    ],
+    "stop": [
+     7509.0
+    ],
+    "be": [
+     7529.5
+    ]
+   },
+   "risk": {
+    "entry": "7519.25",
+    "stop": "7509",
+    "stop_pts": "10.25",
+    "be": "7529.5",
+    "his": "7490",
+    "his_pts": "29.25",
+    "mic": "MES",
+    "ours": [
+     "9.8",
+     "19.5"
+    ],
+    "his_n": [
+     "3.4",
+     "6.8"
+    ],
+    "tgts": [
+     {
+      "p": "7530-7532",
+      "ours": "1.0",
+      "his": "0.4"
+     },
+     {
+      "p": "7542",
+      "ours": "2.2",
+      "his": "0.8"
+     },
+     {
+      "p": "7558-7563",
+      "ours": "3.8",
+      "his": "1.3"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Reactive long: dip holds above Friday's low, session uptrend develops",
+   "dir": "long",
+   "tag": "Ungraded · reactive, not a defined setup",
+   "gate": "a dip that fails to take out Fri low 7519.25 (e.g. holds 7530-7532 / Fri VPOC 7542) and then builds a session uptrend",
+   "tgt": "7558-7563 → 7575 → 7590",
+   "stop": "Fri low taken",
+   "quote": "Additional reactive long opportunity — Ungraded. As with NQ, a dip that fails to take out Friday's low and subsequently develops into a session uptrend could offer a reasonable long opportunity. I would treat this as a reactive trade rather than assign a grade in advance.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7530,
+     7542
+    ],
+    "tgt": [
+     [
+      7558,
+      7563
+     ],
+     7575,
+     7590
+    ],
+    "invalid": [
+     7519
+    ],
+    "stop": [
+     7531.75
+    ],
+    "be": [
+     7552.25
+    ]
+   },
+   "risk": {
+    "entry": "7542",
+    "stop": "7531.75",
+    "stop_pts": "10.25",
+    "be": "7552.25",
+    "his": "7519",
+    "his_pts": "23",
+    "mic": "MES",
+    "ours": [
+     "9.8",
+     "19.5"
+    ],
+    "his_n": [
+     "4.3",
+     "8.7"
+    ],
+    "tgts": [
+     {
+      "p": "7558-7563",
+      "ours": "1.6",
+      "his": "0.7"
+     },
+     {
+      "p": "7575",
+      "ours": "3.2",
+      "his": "1.4"
+     },
+     {
+      "p": "7590",
+      "ours": "4.7",
+      "his": "2.1"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Persistent weakness below 27953-27969 (incl. LAAF)",
+   "dir": "short",
+   "tag": "B/B- · Fri VPOC is a magnet, not support",
+   "gate": "sustained weakness below 27953-27969 including a LAAF of the level",
+   "tgt": "Fri VPOC 27810 → Fri low 27695.25",
+   "stop": "sustained buying back above 27953-27969 → 28044.5",
+   "quote": "Short — Persistent weakness below 27953–27969 (B/B−). Short sustained weakness below 27953–27969, including a LAAF of the level.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27953,
+     27969
+    ],
+    "tgt": [
+     27810,
+     27695.25
+    ],
+    "invalid": [
+     28045
+    ],
+    "stop": [
+     28014.5
+    ],
+    "be": [
+     27891.5
+    ]
+   },
+   "risk": {
+    "entry": "27953",
+    "stop": "28014.5",
+    "stop_pts": "61.5",
+    "be": "27891.5",
+    "his": "28045",
+    "his_pts": "92",
+    "mic": "MNQ",
+    "ours": [
+     "4.1",
+     "8.1"
+    ],
+    "his_n": [
+     "2.7",
+     "5.4"
+    ],
+    "tgts": [
+     {
+      "p": "27810",
+      "ours": "2.3",
+      "his": "1.6"
+     },
+     {
+      "p": "27695.2",
+      "ours": "4.2",
+      "his": "2.8"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of the ARH 28111.75 / 28096-28129",
+   "dir": "short",
+   "tag": "A- (structurally A/A+, discretionary downgrade) · weekly LVN above, supply 28169±14",
+   "gate": "look above and fail of Fri ARH 28111.75 / 28096-28129; sellers must then produce a fresh loss of 28096-28129 and 27953-27969",
+   "tgt": "28044.5 → 27953-27969 → 27810",
+   "stop": "firm base above 28200-28233 (US hours) → 28400-28443",
+   "quote": "Short — LAAF of the ARH / 28096–28129 (A−). Structurally, this is an A/A+ setup, but I'm applying an a priori discretionary downgrade to A−. The current body of evidence suggests Friday was primarily a liquidation break rather than the beginning of sustained initiative selling. The market has also undergone a reasonable retracement where fresh buyers could emerge, and Friday afternoon's persistent buy program may or may not return. These considerations don't invalidate the short setup, but they warrant some caution in assigning its grade.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     28096,
+     28129
+    ],
+    "tgt": [
+     28044.5,
+     [
+      27953,
+      27969
+     ],
+     27810
+    ],
+    "invalid": [
+     28233
+    ],
+    "stop": [
+     28173.25
+    ],
+    "be": [
+     28050.25
+    ]
+   },
+   "risk": {
+    "entry": "28111.8",
+    "stop": "28173.2",
+    "stop_pts": "61.5",
+    "be": "28050.2",
+    "his": "28233",
+    "his_pts": "121.25",
+    "mic": "MNQ",
+    "ours": [
+     "4.1",
+     "8.1"
+    ],
+    "his_n": [
+     "2.1",
+     "4.1"
+    ],
+    "tgts": [
+     {
+      "p": "28044.5",
+      "ours": "1.1",
+      "his": "0.6"
+     },
+     {
+      "p": "27953-27969",
+      "ours": "2.3",
+      "his": "1.2"
+     },
+     {
+      "p": "27810",
+      "ours": "4.9",
+      "his": "2.5"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low 27695.25",
+   "dir": "long",
+   "tag": "B/B+ · demand to 27643, weekly 27588-27622 beneath",
+   "gate": "look below and fail of Fri low 27695.25, responsive buyers from the demand / 27588-27622",
+   "tgt": "27810 → 27953-27969 → 28096-28129",
+   "stop": "27588-27622 firmly established as resistance",
+   "quote": "Long — LBAF of Friday's low (B/B+). Look for a LBAF of Friday's low, particularly given the nearby higher-timeframe demand and the potential for responsive buyers to defend the area.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27643,
+     27695.25
+    ],
+    "tgt": [
+     27810,
+     [
+      27953,
+      27969
+     ],
+     [
+      28096,
+      28129
+     ]
+    ],
+    "invalid": [
+     27588
+    ],
+    "stop": [
+     27633.75
+    ],
+    "be": [
+     27756.75
+    ]
+   },
+   "risk": {
+    "entry": "27695.2",
+    "stop": "27633.8",
+    "stop_pts": "61.5",
+    "be": "27756.8",
+    "his": "27588",
+    "his_pts": "107.25",
+    "mic": "MNQ",
+    "ours": [
+     "4.1",
+     "8.1"
+    ],
+    "his_n": [
+     "2.3",
+     "4.7"
+    ],
+    "tgts": [
+     {
+      "p": "27810",
+      "ours": "1.9",
+      "his": "1.1"
+     },
+     {
+      "p": "27953-27969",
+      "ours": "4.2",
+      "his": "2.4"
+     },
+     {
+      "p": "28096-28129",
+      "ours": "6.5",
+      "his": "3.7"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Reactive long: dip holds above Friday's low, session uptrend develops",
+   "dir": "long",
+   "tag": "Ungraded · reactive, not a defined setup",
+   "gate": "a dip that fails to take out Fri low 27695.25 (e.g. holds the 27810 VPOC) and then builds a session uptrend",
+   "tgt": "27953-27969 → 28044.5 → 28096-28129",
+   "stop": "Fri low taken",
+   "quote": "Additional reactive long opportunity — Ungraded. A dip that fails to take out Friday's low, followed by the development of a session uptrend, could also offer a reasonable long opportunity. This is somewhat implied by the commentary, but I consider it a reactive trade rather than a sufficiently defined setup to assign a grade in advance.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27810,
+     27850
+    ],
+    "tgt": [
+     [
+      27953,
+      27969
+     ],
+     28044.5,
+     [
+      28096,
+      28129
+     ]
+    ],
+    "invalid": [
+     27695
+    ],
+    "stop": [
+     27748.5
+    ],
+    "be": [
+     27871.5
+    ]
+   },
+   "risk": {
+    "entry": "27810",
+    "stop": "27748.5",
+    "stop_pts": "61.5",
+    "be": "27871.5",
+    "his": "27695",
+    "his_pts": "115",
+    "mic": "MNQ",
+    "ours": [
+     "4.1",
+     "8.1"
+    ],
+    "his_n": [
+     "2.2",
+     "4.3"
+    ],
+    "tgts": [
+     {
+      "p": "27953-27969",
+      "ours": "2.3",
+      "his": "1.2"
+     },
+     {
+      "p": "28044.5",
+      "ours": "3.8",
+      "his": "2.0"
+     },
+     {
+      "p": "28096-28129",
+      "ours": "4.7",
+      "his": "2.5"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 6.86,
+  "NQ": 40.98
+ },
+ "stop_floor": {
+  "ES": 10.25,
+  "NQ": 61.5
+ }
+}
