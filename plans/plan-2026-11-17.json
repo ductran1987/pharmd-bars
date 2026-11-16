@@ -1,0 +1,855 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-17",
+ "status": "draft",
+ "notes": "",
+ "bias": "'Seller control strengthens, but the November 5 mother bar remains unresolved as both markets approach critical downside references.' Sunday night's gap-up looked like a breakout and became a spectacular failure — NQ rejected from last week's upper distribution and opened near the bottom of the lower one (27588-27622, 'not an attractive location to initiate shorts'). Buyers' early rally barely cleared Friday's low before another wave of selling; NQ held 27313-27339 initially, reclaimed 27425-27458, tested 27588-27622 and was rejected from below (A-period singles intact), then made a marginal new low. ES showed no buying above its OR5 high, 7469-7473 held initially but a failed reclaim of 7490-7504 left A-singles intact and the IB-low break extended hard (YM and non-tech weighed). Friday's buy program was temporary — no comparable program overnight or Monday. Sellers now control the intermediate and HTF auctions with traction below 7490-7504 / 27588-27622 — but 'it would be equally dangerous to become aggressively bearish as price approaches the lower boundary' of the mother bar. 'The directional advantage belongs to sellers. Whether the remaining downside offers attractive trades is an entirely different question.'",
+ "wildcard": "Sellers stay in control until buyers take out Monday's high and base above 7490-7504 / 27588-27622 — doing so 'could produce a spectacular rally' but the burden of proof is on buyers. Monday's NQ low is 'particularly poor' (new LOD by three ticks in the last 30 min) with 27201.5 right below — a LBAF there is the key risk to sellers; a fresh LBAF beats a simple hold for upside. Below the mother bar's lower extreme (NQ 26718-26732 spike, ES 7388-7396 / 7377.25) sits the prior-ATH backtest — be cautious extrapolating continuation without evaluating buyers' response. Daily Tue: ES 7575, 7454-7458, 7412-7415, 7346 (keep Fri low 7519.25; add Mon ARH 7514); NQ 29194-29220, 27953-27969, 27110-27123, 27057, 26718-26732 (keep 27516).",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Sun/Mon ON 7520-7614.25 (18:45 high — the failed gap-up), opened 7537.75 = OR5 high 7538.75 with no buying above it; 7504.75 OR5 low, through 7490-7504 to the IB low 7473 (7469-7473 held initially), ARH 7514.25 at 10:35 = failed reclaim of 7490-7504 (A-singles ~7514-7538 intact), then the IB-low break ran: 7469.5 at 13:00, 7420.25 at 14:45 (7412-7415 untouched), closed 7440.25, 5 PM 7438.5; AH 7431-7444. Single prints 7461-7473 from consecutive periods.",
+   "pivot": "Sellers control until buyers take out Mon's high 7538.75 and base above 7490-7504. First upside test is 7454-7458 (last week's RTH low 7455.75 inside) — 'considerable clarity in continued weakness below it' and vulnerable to a failed reclaim/LAAF because of the 7461-7473 single prints (incl. weekly 7469-7473) above. Mon ARH 7514 / 7514-7519 with Mon's A-singles above; Fri low 7519.25.",
+   "higher": "Reclaim 7454-7458 → repair the 7461-7473 singles → sellers can still defend up to 7490-7504 if price resolves back below 7454-7458 → 7514-7519 would be a meaningful bullish accomplishment (A-singles a concern; a LAAF of the 7514 ARH needs at minimum a fresh loss of 7490-7504, ultimately 7454-7458) → Mon high 7538.75 with continuation → 7558-7563 (7490-7504 holding as support matters).",
+   "lower": "Sustained weakness below 7454-7458 → retest Mon's low ~7420 (LBAF watch) → 7412-7415 → 7388-7396 (Nov 5 spike base = mother-bar lower boundary; RTH low 7377.25) → follow the weekly levels (7369-7372, 7346 July RTH low added, 7313-7317, 7292-7296).",
+   "levels": [
+    {
+     "p": [
+      7558,
+      7563
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7538.75
+     ],
+     "label": "Mon high · buyers must take",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7514,
+      7519.25
+     ],
+     "label": "Mon ARH 7514 / Fri low · A-singles above",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7490,
+      7504
+     ],
+     "label": "weekly · fail/LAAF short B-",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7469,
+      7473
+     ],
+     "label": "weekly · fail/LAAF short B+",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7461,
+      7469
+     ],
+     "label": "single prints 7461-7473",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7454,
+      7458
+     ],
+     "label": "daily · wk low 7455.75 · fail/LAAF short B+/A-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7420.25
+     ],
+     "label": "Mon low · LBAF long B/B-",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7412,
+      7415
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7388,
+      7396
+     ],
+     "label": "weekly · Nov 5 spike base · mother-bar bottom",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7377.25
+     ],
+     "label": "Nov 5 RTH low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7369,
+      7372
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7346
+     ],
+     "label": "daily (new) · July RTH low",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7313,
+      7317
+     ],
+     "label": "weekly",
+     "kind": "down"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Sun/Mon ON 27554-28279.25 (18:55 high — gap-up into the upper distribution, rejected), opened 27669.25, high 27716.25 at 09:45 (a brief excursion above Fri's low 27695), then selling to the IB low 27339 (27313-27339 held), reclaim of 27425-27458, test of 27588-27622 (27621.5 at 11:30) rejected from below — A-singles intact — then 27235.5 at 13:30 and a marginal new low 27234.75 at 15:35 (three ticks, final 30 min). Closed 27300, 5 PM 27285; AH 27247-27315. Mon VPOC 27425.",
+   "pivot": "Sellers control until buyers take out Mon's high 27716.25 and base above 27588-27622. Monday's low is poor, with 27201.5 immediately below and last week's low (27316.25) in 27313-27339 just overhead. 27588-27622 (or a brief LAAF into Mon's A-singles) is sellers' must-defend; they can defend rallies within Mon's range but 'really cannot afford to surrender' it.",
+   "higher": "Failed reclaim of 27313-27339 → Mon's poor low likely gets cleaned up. Firm reclaim → 27425-27458 (upper edge relevant on Mon's profile; VPOC 27425) → supply near 27516 (last Tue's low) → 27588-27622 / LAAF into the A-singles = must-defend → failure opens Fri's low / Mon's high (~27695-27716) → with sustained acceptance above, a resolution back toward 28,000 is reasonable (not necessarily in one session).",
+   "lower": "LBAF of Mon's poor low (at 27201.5 or elsewhere) is the alert; a reclaim of 27313-27339 would be the stronger recovery trigger. Sustained continuation below Mon's low → the 27,000 area: 27110-27123 → 27057 → 26969-26987 (Nov 6 low) → 26805-26840 → last week's ETH low 26751 → 26718-26732 (Nov RTH low spike = mother-bar lower extreme), with the prior-ATH backtest below — evaluate buyers' response before extrapolating.",
+   "levels": [
+    {
+     "p": [
+      27953,
+      27969
+     ],
+     "label": "daily",
+     "kind": "up"
+    },
+    {
+     "p": [
+      27695.25,
+      27716.25
+     ],
+     "label": "Fri low / Mon high · buyers must take",
+     "kind": "up"
+    },
+    {
+     "p": [
+      27588,
+      27622
+     ],
+     "label": "weekly · must-defend · fail/LAAF short B+",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      27516
+     ],
+     "label": "last Tue low · supply",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27425,
+      27458
+     ],
+     "label": "weekly · Mon VPOC 27425 · fail/LAAF short B+",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      27313,
+      27339
+     ],
+     "label": "weekly · wk low 27316 · weakness short B-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      27234.75
+     ],
+     "label": "Mon low (poor) · LBAF long B/B-",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27201.5
+     ],
+     "label": "weekly · July low",
+     "kind": "down"
+    },
+    {
+     "p": [
+      27110,
+      27123
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      27057
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      26969,
+      26987
+     ],
+     "label": "weekly · Nov 6 low",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      26805,
+      26840
+     ],
+     "label": "weekly",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      26751.25
+     ],
+     "label": "last wk ETH low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      26718,
+      26732
+     ],
+     "label": "daily · Nov RTH low spike · mother-bar bottom",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of Monday's low 7420.25",
+   "dir": "long",
+   "tag": "B/B- · a fresh LBAF beats a simple hold",
+   "gate": "look below and fail of Mon low 7420.25 (7412-7415 just beneath)",
+   "tgt": "7454-7458 → monitor for continuation (7469-7473 → 7490-7504)",
+   "stop": "continued weakness below Mon's low and 7412-7415 → 7388-7396",
+   "quote": "Long — LBAF of Monday's low (B/B−). Long a LBAF of Monday's low, targeting 7454–7458 and monitoring for potential continuation higher from there.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7412,
+     7420.25
+    ],
+    "tgt": [
+     [
+      7454,
+      7458
+     ],
+     [
+      7469,
+      7473
+     ],
+     [
+      7490,
+      7504
+     ]
+    ],
+    "invalid": [
+     7410
+    ],
+    "stop": [
+     7406.25
+    ],
+    "be": [
+     7434.25
+    ]
+   },
+   "risk": {
+    "entry": "7420.25",
+    "stop": "7406.25",
+    "stop_pts": "14",
+    "be": "7434.25",
+    "his": "7410",
+    "his_pts": "10.25",
+    "mic": "MES",
+    "ours": [
+     "7.1",
+     "14.3"
+    ],
+    "his_n": [
+     "9.8",
+     "19.5"
+    ],
+    "tgts": [
+     {
+      "p": "7454-7458",
+      "ours": "2.4",
+      "his": "3.3"
+     },
+     {
+      "p": "7469-7473",
+      "ours": "3.5",
+      "his": "4.8"
+     },
+     {
+      "p": "7490-7504",
+      "ours": "5.0",
+      "his": "6.8"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Failed reclaim / LAAF of 7454-7458",
+   "dir": "short",
+   "tag": "B+/A- · single prints 7461-7473 above · not if the LBAF of Mon's low is already in play",
+   "gate": "failed reclaim or, preferably, a LAAF of 7454-7458 — provided the LBAF of Monday's low is not already in play",
+   "tgt": "Mon low 7420.25 → 7412-7415 → 7388-7396",
+   "stop": "singles 7461-7473 repaired / acceptance above 7469-7473",
+   "quote": "Short — Failed reclaim/LAAF of 7454–7458 (B+/A−). Short a failed reclaim or, preferably, a LAAF of 7454–7458, provided the LBAF of Monday's low is not already in play.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7454,
+     7458
+    ],
+    "tgt": [
+     7420.25,
+     [
+      7412,
+      7415
+     ],
+     [
+      7388,
+      7396
+     ]
+    ],
+    "invalid": [
+     7474
+    ],
+    "stop": [
+     7472.0
+    ],
+    "be": [
+     7444.0
+    ]
+   },
+   "risk": {
+    "entry": "7458",
+    "stop": "7472",
+    "stop_pts": "14",
+    "be": "7444",
+    "his": "7474",
+    "his_pts": "16",
+    "mic": "MES",
+    "ours": [
+     "7.1",
+     "14.3"
+    ],
+    "his_n": [
+     "6.2",
+     "12.5"
+    ],
+    "tgts": [
+     {
+      "p": "7420.25",
+      "ours": "2.7",
+      "his": "2.4"
+     },
+     {
+      "p": "7412-7415",
+      "ours": "3.1",
+      "his": "2.7"
+     },
+     {
+      "p": "7388-7396",
+      "ours": "4.4",
+      "his": "3.9"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Failed reclaim / LAAF of 7469-7473",
+   "dir": "short",
+   "tag": "B+ · insistent sellers would ideally defend the singles first",
+   "gate": "failed reclaim or look above and fail of 7469-7473 (top of the 7461-7473 single prints)",
+   "tgt": "7454-7458 → Mon low 7420.25 → 7412-7415",
+   "stop": "acceptance above 7490-7504",
+   "quote": "Short — Failed reclaim/LAAF of 7469–7473 (B+). Short a failed reclaim or LAAF of 7469–7473. I've assigned a slightly lower grade because more insistent sellers would ideally defend the single prints before price reaches this level.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7469,
+     7473
+    ],
+    "tgt": [
+     [
+      7454,
+      7458
+     ],
+     7420.25,
+     [
+      7412,
+      7415
+     ]
+    ],
+    "invalid": [
+     7504
+    ],
+    "stop": [
+     7487.0
+    ],
+    "be": [
+     7459.0
+    ]
+   },
+   "risk": {
+    "entry": "7473",
+    "stop": "7487",
+    "stop_pts": "14",
+    "be": "7459",
+    "his": "7504",
+    "his_pts": "31",
+    "mic": "MES",
+    "ours": [
+     "7.1",
+     "14.3"
+    ],
+    "his_n": [
+     "3.2",
+     "6.5"
+    ],
+    "tgts": [
+     {
+      "p": "7454-7458",
+      "ours": "1.1",
+      "his": "0.5"
+     },
+     {
+      "p": "7420.25",
+      "ours": "3.8",
+      "his": "1.7"
+     },
+     {
+      "p": "7412-7415",
+      "ours": "4.1",
+      "his": "1.9"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Failed reclaim / LAAF of 7490-7504",
+   "dir": "short",
+   "tag": "B- · sellers can defend as high as here, then must resolve back below 7454-7458",
+   "gate": "failed reclaim or look above and fail of 7490-7504 (Mon ARH 7514 / A-singles above)",
+   "tgt": "7469-7473 → 7454-7458 → Mon low 7420.25",
+   "stop": "acceptance above 7514-7519 / Mon high 7538.75",
+   "quote": "Short — Failed reclaim/LAAF of 7490–7504 (B−)",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7490,
+     7504
+    ],
+    "tgt": [
+     [
+      7469,
+      7473
+     ],
+     [
+      7454,
+      7458
+     ],
+     7420.25
+    ],
+    "invalid": [
+     7519
+    ],
+    "stop": [
+     7518.0
+    ],
+    "be": [
+     7490.0
+    ]
+   },
+   "risk": {
+    "entry": "7504",
+    "stop": "7518",
+    "stop_pts": "14",
+    "be": "7490",
+    "his": "7519",
+    "his_pts": "15",
+    "mic": "MES",
+    "ours": [
+     "7.1",
+     "14.3"
+    ],
+    "his_n": [
+     "6.7",
+     "13.3"
+    ],
+    "tgts": [
+     {
+      "p": "7469-7473",
+      "ours": "2.2",
+      "his": "2.1"
+     },
+     {
+      "p": "7454-7458",
+      "ours": "3.3",
+      "his": "3.1"
+     },
+     {
+      "p": "7420.25",
+      "ours": "6.0",
+      "his": "5.6"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of Monday's poor low 27234.75",
+   "dir": "long",
+   "tag": "B/B- · 27201.5 immediately below · a reclaim of 27313-27339 is the stronger trigger",
+   "gate": "look below and fail of Mon low 27234.75, whether it develops around 27201.5 or elsewhere",
+   "tgt": "27313-27339 → monitor for continuation (27425-27458)",
+   "stop": "sustained continuation below Mon's low / 27201.5 → 27110-27123",
+   "quote": "Long — LBAF of Monday's low (B/B−). Long a LBAF of Monday's low, targeting 27313–27339 and monitoring for potential continuation higher from there.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27201.5,
+     27234.75
+    ],
+    "tgt": [
+     [
+      27313,
+      27339
+     ],
+     [
+      27425,
+      27458
+     ]
+    ],
+    "invalid": [
+     27190
+    ],
+    "stop": [
+     27163.25
+    ],
+    "be": [
+     27306.25
+    ]
+   },
+   "risk": {
+    "entry": "27234.8",
+    "stop": "27163.2",
+    "stop_pts": "71.5",
+    "be": "27306.2",
+    "his": "27190",
+    "his_pts": "44.75",
+    "mic": "MNQ",
+    "ours": [
+     "3.5",
+     "7.0"
+    ],
+    "his_n": [
+     "5.6",
+     "11.2"
+    ],
+    "tgts": [
+     {
+      "p": "27313-27339",
+      "ours": "1.1",
+      "his": "1.7"
+     },
+     {
+      "p": "27425-27458",
+      "ours": "2.7",
+      "his": "4.3"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "Persistent weakness below 27313-27339",
+   "dir": "short",
+   "tag": "B- · 'I hesitate to initiate shorts' here · objectively valid",
+   "gate": "persistent weakness below 27313-27339 (a failed reclaim of it likely cleans up Mon's poor low)",
+   "tgt": "Mon low 27234.75 → 27201.5 → 27110-27123 → 27057",
+   "stop": "firm reclaim of 27313-27339 → 27425-27458",
+   "quote": "Short — Persistent weakness below 27313–27339 (B−). While I hesitate to initiate shorts on persistent weakness below 27313–27339, it remains an objectively valid short setup, rated B−.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27313,
+     27339
+    ],
+    "tgt": [
+     27234.75,
+     27201.5,
+     [
+      27110,
+      27123
+     ],
+     27057
+    ],
+    "invalid": [
+     27458
+    ],
+    "stop": [
+     27384.5
+    ],
+    "be": [
+     27241.5
+    ]
+   },
+   "risk": {
+    "entry": "27313",
+    "stop": "27384.5",
+    "stop_pts": "71.5",
+    "be": "27241.5",
+    "his": "27458",
+    "his_pts": "145",
+    "mic": "MNQ",
+    "ours": [
+     "3.5",
+     "7.0"
+    ],
+    "his_n": [
+     "1.7",
+     "3.4"
+    ],
+    "tgts": [
+     {
+      "p": "27234.8",
+      "ours": "1.1",
+      "his": "0.5"
+     },
+     {
+      "p": "27201.5",
+      "ours": "1.6",
+      "his": "0.8"
+     },
+     {
+      "p": "27110-27123",
+      "ours": "2.7",
+      "his": "1.3"
+     },
+     {
+      "p": "27057",
+      "ours": "3.6",
+      "his": "1.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Failed reclaim / LAAF of 27425-27458",
+   "dir": "short",
+   "tag": "B+ · Mon VPOC 27425 · upper edge relevant on Mon's profile",
+   "gate": "failed reclaim or look above and fail of 27425-27458",
+   "tgt": "27313-27339 → Mon low 27234.75",
+   "stop": "acceptance above 27516 supply → 27588-27622",
+   "quote": "Short — Failed reclaim/LAAF of 27425–27458 (B+)",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27425,
+     27458
+    ],
+    "tgt": [
+     [
+      27313,
+      27339
+     ],
+     27234.75
+    ],
+    "invalid": [
+     27520
+    ],
+    "stop": [
+     27529.5
+    ],
+    "be": [
+     27386.5
+    ]
+   },
+   "risk": {
+    "entry": "27458",
+    "stop": "27529.5",
+    "stop_pts": "71.5",
+    "be": "27386.5",
+    "his": "27520",
+    "his_pts": "62",
+    "mic": "MNQ",
+    "ours": [
+     "3.5",
+     "7.0"
+    ],
+    "his_n": [
+     "4.0",
+     "8.1"
+    ],
+    "tgts": [
+     {
+      "p": "27313-27339",
+      "ours": "1.7",
+      "his": "1.9"
+     },
+     {
+      "p": "27234.8",
+      "ours": "3.1",
+      "his": "3.6"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Failed reclaim / LAAF of 27588-27622 (sellers' must-defend)",
+   "dir": "short",
+   "tag": "B+ · a brief LAAF into Mon's A-singles counts",
+   "gate": "failed reclaim or look above and fail of 27588-27622, incl. a brief LAAF into Monday's A-period single prints",
+   "tgt": "27516 → 27425-27458 → 27313-27339",
+   "stop": "sustained acceptance above 27588-27622 and Mon's high 27716 → toward 28,000",
+   "quote": "Short — Failed reclaim/LAAF of 27588–27622 (B+)",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27588,
+     27622
+    ],
+    "tgt": [
+     27516,
+     [
+      27425,
+      27458
+     ],
+     [
+      27313,
+      27339
+     ]
+    ],
+    "invalid": [
+     27716
+    ],
+    "stop": [
+     27693.5
+    ],
+    "be": [
+     27550.5
+    ]
+   },
+   "risk": {
+    "entry": "27622",
+    "stop": "27693.5",
+    "stop_pts": "71.5",
+    "be": "27550.5",
+    "his": "27716",
+    "his_pts": "94",
+    "mic": "MNQ",
+    "ours": [
+     "3.5",
+     "7.0"
+    ],
+    "his_n": [
+     "2.7",
+     "5.3"
+    ],
+    "tgts": [
+     {
+      "p": "27516",
+      "ours": "1.5",
+      "his": "1.1"
+     },
+     {
+      "p": "27425-27458",
+      "ours": "2.3",
+      "his": "1.7"
+     },
+     {
+      "p": "27313-27339",
+      "ours": "4.0",
+      "his": "3.0"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 9.41,
+  "NQ": 47.61
+ },
+ "stop_floor": {
+  "ES": 14.0,
+  "NQ": 71.5
+ }
+}
