@@ -1,0 +1,956 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-18",
+ "status": "draft",
+ "notes": "",
+ "bias": "'A potential major swing low, the final trapdoor, and the prospect of a failed lower distribution.' Sellers remain firmly in control — Tuesday liquidated NQ through the Nov 5 RTH spike low (26718-26732) to 26658.5 before buyers responded aggressively and reclaimed it; ES fell to 7308 and value shifted sharply lower in both — but ES is nearing completion of the longstanding trapdoor setup (7230s-7240s) while NQ/QQQ approach backtests of their prior all-time highs (NQ proxy 26366.5; a full QQQ backtest of 637.01 implies NQ ~26261, inside 26258-26291). His 'nearly perfect' swing-low scenario: ES into the 7230s-40s, ideally a quick sweep below, while NQ/QQQ complete fresh backtests — 'if that scenario develops, I intend to take a meaningful shot on the long side.' Not calling a bottom: 'I'm identifying the conditions under which I would be particularly interested in buying one.' Both initially rallied on NVDA earnings and gave most of it back; a promising rally that lets one final seller exit, producing one last liquidation into the references, is his ideal. The mirror image of last week's failed upper distribution is now possible: a sustained reclaim of the higher distribution that leaves Tuesday's lower distribution behind would be a meaningful change.",
+ "wildcard": "Globex reopen (18:00-18:35 ET, after the letter): NQ ran to 27605 — into 27588-27622 — and ES to 7434.75, right at Tuesday's high; the 'promising rally' is already in progress overnight, so the gap-higher setups (es1/es2, nq1/nq2) are the live ones at the open and he evaluates each session with fresh eyes. Post-NVDA: setups kept general — the overnight auction could materially alter the open, so let developing price action dictate execution (nothing graded). QQQ nearly perfectly defended its Nov 5 close/low Tuesday; he'll give QQQ room to ~633-634 but won't initiate longs on continued weakness below that. 'At every major swing low, price is objectively bearish' — a sustained break of Tuesday's low is objectively a continuation short, while he actively looks for a reason to get long at the major references. The indices are near a point where they either establish a meaningful low (here or via the final liquidation) or the larger technical picture deteriorates considerably. Daily Wed: ES 7575, 7454-7458, 7420-7423 (LAAF monitor), 7346; NQ 29194-29220, 27953-27969, 27105-27131 (widened), 27057, 26718-26732; prior week's lower weekly levels re-added (Substack Chat/Discord).",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "ON 7395.25-7456.75, opened 7423.25, high 7437 at 09:55 (IB 7399.25-7437), then the IB-low break ran straight to 7308 at 10:50; chop 7317-7384 all afternoon with a lower value area, closed 7360. Post-NVDA AH rally tested and rejected 7388-7396 (inside Tuesday's C-period singles up to 7399); B-period singles 7406.5-7413.5. Substantial downward shift in value vs Monday.",
+   "pivot": "Start at 7369-7372. Weekly levels 'in nearly perfect locations': 7388-7396 / 7399 (C-singles) and 7406.5-7413.5 (B-singles) are resistance above, supply above daily 7420-7423 protects Tuesday's high 7437; 7346-7349 and 7313-7317 below. The trapdoor completes in the 7230s-7240s.",
+   "higher": "7369-7372 to Tuesday's high is a challenging auction (C-singles, B-singles, 7420-7423 supply). A sustained reclaim of 7420-7423 and a break through Tue's high 7437 with continuation returns ES to the week's central distribution and leaves a failed lower distribution → 7454-7458 natural target (Monday's singles 7461-7473 above; a LAAF of 7454-7458 → back toward Tue's high / 7420-7423). A rally into overhead supply is not proof buyers have control.",
+   "lower": "Acceptance below 7369-7372 → 7346 (area extends to ~7349) → the 7320s → 7313-7317; a return to 7313-7317 makes Tuesday's low 7308 considerably more likely to go. Then the trapdoor: 7230s-7240s, ideally with a quick sweep below — monitor for a LBAF of Tuesday's low or the larger move; a sustained break of Tue's low is objectively a continuation short.",
+   "levels": [
+    {
+     "p": [
+      7490,
+      7504
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7461,
+      7473
+     ],
+     "label": "Mon singles · weekly 69-73",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7454,
+      7458
+     ],
+     "label": "daily · target after Tue high · LAAF watch",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7437
+     ],
+     "label": "Tue high · failed lower dist if taken",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7420,
+      7423
+     ],
+     "label": "daily (new) · LAAF monitor · supply above",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7406.5,
+      7413.5
+     ],
+     "label": "Tue B-period singles",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7388,
+      7399
+     ],
+     "label": "weekly 88-96 / C-singles to 7399 · rejected post-NVDA",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7369,
+      7372
+     ],
+     "label": "weekly · start here · hold long / weakness short",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7346,
+      7349
+     ],
+     "label": "daily 7346 · area to 7349",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7313,
+      7317
+     ],
+     "label": "weekly · Tue low likely goes from here",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7308
+     ],
+     "label": "Tue low · LBAF watch",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7292,
+      7296
+     ],
+     "label": "weekly · LBAF monitor",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7230,
+      7245
+     ],
+     "label": "TRAPDOOR completion · 'meaningful shot' long",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "ON 27085-27498, opened 27338.5, high 27351 at 09:40 (IB 27131-27351), liquidation through 26969-26987, 26805-26840 and the Nov 5 RTH spike low (26718-26732) to 26658.5 at 10:50 — then aggressive responsive buying reclaimed it; afternoon chop 26841-27105, closed 27094.5. Post-NVDA AH rally rejected at the developing weekly VPOC; 5 PM 27126 — almost exactly inside 27105-27131. Fresh volume in a lower distribution on the weekly profile.",
+   "pivot": "27105-27131 (widened daily) is THE level: it almost perfectly separates the week's two developing distributions and Tuesday's VAH sits on it. Sustaining above it overnight and through RTH may be optimistic. Reclaim/hold = first step in repairing Tuesday's auction; acceptance below = sellers keep control.",
+   "higher": "Sustained acceptance above 27105-27131 (or a reclaim after an initial failure) → 27201.5 / Mon low 27234.75 → 27313-27339 → Tue high 27351 → 27425-27458 → Tue-night high 27461.5 → Nov 10 low 27516 → 27588-27622 (major decision) → above Mon's RTH high 27716.25, 28096-28129 can return. A move above 27105-27131 is a first step, not a neutralization of the bearish structure.",
+   "lower": "A brief excursion below 27105-27131 doesn't invalidate a recovery, but sustained acceptance below → 26969-26987 → 26805-26840 (a hold or quick LBAF there → recovery to 26969-26987 / 27105-27131) → 26718-26732 → Tue low 26658.5 (LBAF = valid long, esp. in the swing-low context; nearly equal lows on QQQ, well-defined box) → 26500-26523 → ETH low 26366.5 under 26369-26408 → 26258-26291 (QQQ 637.01 backtest ≈ NQ 26261). A responsive bounce is not confirmation of a major low: quality of the failed auction, buyers' response and reclaiming the broken references decide.",
+   "levels": [
+    {
+     "p": [
+      27588,
+      27622
+     ],
+     "label": "weekly · major decision",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      27516
+     ],
+     "label": "Nov 10 low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27425,
+      27461.5
+     ],
+     "label": "weekly 425-458 / Tue-night high 27461.5",
+     "kind": "up"
+    },
+    {
+     "p": [
+      27351
+     ],
+     "label": "Tue high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27313,
+      27339
+     ],
+     "label": "weekly",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      27201.5,
+      27234.75
+     ],
+     "label": "weekly 27201.5 / Mon low",
+     "kind": "up"
+    },
+    {
+     "p": [
+      27105,
+      27131
+     ],
+     "label": "daily · separates the two distributions · 5 PM 27126",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      27057
+     ],
+     "label": "daily",
+     "kind": "down"
+    },
+    {
+     "p": [
+      26969,
+      26987
+     ],
+     "label": "weekly",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      26805,
+      26840
+     ],
+     "label": "weekly · hold/LBAF long",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      26718,
+      26732
+     ],
+     "label": "daily · Nov 5 spike low · reclaimed Tue",
+     "kind": "down"
+    },
+    {
+     "p": [
+      26658.5
+     ],
+     "label": "Tue low · LBAF long",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      26500,
+      26523
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      26366.5,
+      26408
+     ],
+     "label": "ETH low / 26369-26408 · prior-ATH backtest proxy",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      26258,
+      26291
+     ],
+     "label": "QQQ 637.01 backtest ≈ 26261",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "True gap higher that holds — acceptance above Tuesday's range (7437)",
+   "dir": "long",
+   "tag": "Ungraded · post-NVDA, general · failed lower distribution",
+   "gate": "a true gap higher that holds, with buyers demonstrating acceptance above Tuesday's range",
+   "tgt": "7454-7458 → 7461-7473 → 7490-7504",
+   "stop": "gap fails back into Tuesday's range (below 7420-7423)",
+   "quote": "Long: A true gap higher that holds, with buyers demonstrating acceptance above Tuesday's range.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7437,
+     7454
+    ],
+    "tgt": [
+     [
+      7454,
+      7458
+     ],
+     [
+      7461,
+      7473
+     ],
+     [
+      7490,
+      7504
+     ]
+    ],
+    "invalid": [
+     7420
+    ],
+    "stop": [
+     7419.75
+    ],
+    "be": [
+     7454.25
+    ]
+   },
+   "risk": {
+    "entry": "7437",
+    "stop": "7419.75",
+    "stop_pts": "17.25",
+    "be": "7454.25",
+    "his": "7420",
+    "his_pts": "17",
+    "mic": "MES",
+    "ours": [
+     "5.8",
+     "11.6"
+    ],
+    "his_n": [
+     "5.9",
+     "11.8"
+    ],
+    "tgts": [
+     {
+      "p": "7454-7458",
+      "ours": "1.0",
+      "his": "1.0"
+     },
+     {
+      "p": "7461-7473",
+      "ours": "1.4",
+      "his": "1.4"
+     },
+     {
+      "p": "7490-7504",
+      "ours": "3.1",
+      "his": "3.1"
+     }
+    ],
+    "pick": 2,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "True gap higher that fails back into Tuesday's range",
+   "dir": "short",
+   "tag": "Ungraded · post-NVDA, general",
+   "gate": "a true gap higher that fails back into Tuesday's range (back below 7437 / 7420-7423)",
+   "tgt": "7420-7423 → 7399 / 7388-7396 → 7369-7372",
+   "stop": "acceptance back above Tuesday's high → 7454-7458",
+   "quote": "Short: A true gap higher that fails back into Tuesday's range, targeting 7388–7396, potentially as high as 7399.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7420,
+     7437
+    ],
+    "tgt": [
+     [
+      7420,
+      7423
+     ],
+     [
+      7388,
+      7399
+     ],
+     [
+      7369,
+      7372
+     ]
+    ],
+    "invalid": [
+     7458
+    ],
+    "stop": [
+     7454.25
+    ],
+    "be": [
+     7419.75
+    ]
+   },
+   "risk": {
+    "entry": "7437",
+    "stop": "7454.25",
+    "stop_pts": "17.25",
+    "be": "7419.75",
+    "his": "7458",
+    "his_pts": "21",
+    "mic": "MES",
+    "ours": [
+     "5.8",
+     "11.6"
+    ],
+    "his_n": [
+     "4.8",
+     "9.5"
+    ],
+    "tgts": [
+     {
+      "p": "7420-7423",
+      "ours": "0.8",
+      "his": "0.7"
+     },
+     {
+      "p": "7388-7399",
+      "ours": "2.2",
+      "his": "1.8"
+     },
+     {
+      "p": "7369-7372",
+      "ours": "3.8",
+      "his": "3.1"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Hold of 7369-7372",
+   "dir": "long",
+   "tag": "Ungraded · buyers must demonstrate a defense",
+   "gate": "a hold of 7369-7372, provided buyers demonstrate the ability to defend the level",
+   "tgt": "7388-7396 / 7399 → 7406.5-7413.5 → 7420-7423",
+   "stop": "acceptance below 7369-7372 → 7346-7349",
+   "quote": "Long: A hold of 7369–7372, provided buyers demonstrate the ability to defend the level.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7369,
+     7372
+    ],
+    "tgt": [
+     [
+      7388,
+      7399
+     ],
+     [
+      7406.5,
+      7413.5
+     ],
+     [
+      7420,
+      7423
+     ]
+    ],
+    "invalid": [
+     7349
+    ],
+    "stop": [
+     7351.75
+    ],
+    "be": [
+     7386.25
+    ]
+   },
+   "risk": {
+    "entry": "7369",
+    "stop": "7351.75",
+    "stop_pts": "17.25",
+    "be": "7386.25",
+    "his": "7349",
+    "his_pts": "20",
+    "mic": "MES",
+    "ours": [
+     "5.8",
+     "11.6"
+    ],
+    "his_n": [
+     "5.0",
+     "10.0"
+    ],
+    "tgts": [
+     {
+      "p": "7388-7399",
+      "ours": "1.1",
+      "his": "0.9"
+     },
+     {
+      "p": "7406.5-7413.5",
+      "ours": "2.2",
+      "his": "1.9"
+     },
+     {
+      "p": "7420-7423",
+      "ours": "3.0",
+      "his": "2.5"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Persistent weakness back below 7369-7372",
+   "dir": "short",
+   "tag": "Ungraded · continuation into the trapdoor · he's hunting a long down there",
+   "gate": "persistent weakness back below 7369-7372",
+   "tgt": "7346-7349 → 7320s / 7313-7317 → Tue low 7308 → 7230s-7240s (trapdoor)",
+   "stop": "reclaim of 7388-7396 / 7399",
+   "quote": "Short: Persistent weakness back below 7369–7372.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7369,
+     7372
+    ],
+    "tgt": [
+     [
+      7346,
+      7349
+     ],
+     [
+      7313,
+      7317
+     ],
+     7308,
+     [
+      7230,
+      7245
+     ]
+    ],
+    "invalid": [
+     7399
+    ],
+    "stop": [
+     7386.25
+    ],
+    "be": [
+     7351.75
+    ]
+   },
+   "risk": {
+    "entry": "7369",
+    "stop": "7386.25",
+    "stop_pts": "17.25",
+    "be": "7351.75",
+    "his": "7399",
+    "his_pts": "30",
+    "mic": "MES",
+    "ours": [
+     "5.8",
+     "11.6"
+    ],
+    "his_n": [
+     "3.3",
+     "6.7"
+    ],
+    "tgts": [
+     {
+      "p": "7346-7349",
+      "ours": "1.2",
+      "his": "0.7"
+     },
+     {
+      "p": "7313-7317",
+      "ours": "3.0",
+      "his": "1.7"
+     },
+     {
+      "p": "7308",
+      "ours": "3.5",
+      "his": "2.0"
+     },
+     {
+      "p": "7230-7245",
+      "ours": "7.2",
+      "his": "4.1"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "True gap higher that holds — acceptance above Tuesday's range (27351)",
+   "dir": "long",
+   "tag": "Ungraded · post-NVDA, general · failed lower distribution",
+   "gate": "a true gap higher that holds, with buyers demonstrating acceptance above Tuesday's range",
+   "tgt": "27425-27458 / 27461.5 → 27516 → 27588-27622",
+   "stop": "gap fails back into Tuesday's range (below 27313-27339)",
+   "quote": "Long: A true gap higher that holds, with buyers demonstrating acceptance above Tuesday's range.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27351,
+     27425
+    ],
+    "tgt": [
+     [
+      27425,
+      27461.5
+     ],
+     27516,
+     [
+      27588,
+      27622
+     ]
+    ],
+    "invalid": [
+     27300
+    ],
+    "stop": [
+     27264.25
+    ],
+    "be": [
+     27437.75
+    ]
+   },
+   "risk": {
+    "entry": "27351",
+    "stop": "27264.2",
+    "stop_pts": "86.75",
+    "be": "27437.8",
+    "his": "27300",
+    "his_pts": "51",
+    "mic": "MNQ",
+    "ours": [
+     "2.9",
+     "5.8"
+    ],
+    "his_n": [
+     "4.9",
+     "9.8"
+    ],
+    "tgts": [
+     {
+      "p": "27425-27461.5",
+      "ours": "0.9",
+      "his": "1.5"
+     },
+     {
+      "p": "27516",
+      "ours": "1.9",
+      "his": "3.2"
+     },
+     {
+      "p": "27588-27622",
+      "ours": "2.7",
+      "his": "4.6"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "True gap higher that fails back into Tuesday's range",
+   "dir": "short",
+   "tag": "Ungraded · post-NVDA, general",
+   "gate": "a true gap higher that fails back into Tuesday's range (back below 27351 / 27313-27339)",
+   "tgt": "27234.75 / 27201.5 → 27105-27131",
+   "stop": "acceptance back above Tuesday's high → 27461.5",
+   "quote": "Short: A true gap higher that fails back into Tuesday's range, targeting 27105–27131.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27313,
+     27351
+    ],
+    "tgt": [
+     27234.75,
+     27201.5,
+     [
+      27105,
+      27131
+     ]
+    ],
+    "invalid": [
+     27462
+    ],
+    "stop": [
+     27437.75
+    ],
+    "be": [
+     27264.25
+    ]
+   },
+   "risk": {
+    "entry": "27351",
+    "stop": "27437.8",
+    "stop_pts": "86.75",
+    "be": "27264.2",
+    "his": "27462",
+    "his_pts": "111",
+    "mic": "MNQ",
+    "ours": [
+     "2.9",
+     "5.8"
+    ],
+    "his_n": [
+     "2.3",
+     "4.5"
+    ],
+    "tgts": [
+     {
+      "p": "27234.8",
+      "ours": "1.3",
+      "his": "1.0"
+     },
+     {
+      "p": "27201.5",
+      "ours": "1.7",
+      "his": "1.3"
+     },
+     {
+      "p": "27105-27131",
+      "ours": "2.5",
+      "his": "2.0"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold of 27105-27131",
+   "dir": "long",
+   "tag": "Ungraded · the level separating the two distributions · buyers must defend it",
+   "gate": "a hold of 27105-27131, provided buyers demonstrate the ability to defend the level (a brief excursion below doesn't invalidate)",
+   "tgt": "27201.5 / 27234.75 → 27313-27339 → Tue high 27351",
+   "stop": "sustained acceptance below 27105-27131 → 27057 → 26969-26987",
+   "quote": "Long: A hold of 27105–27131, provided buyers demonstrate the ability to defend the level.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27105,
+     27131
+    ],
+    "tgt": [
+     [
+      27201.5,
+      27234.75
+     ],
+     [
+      27313,
+      27339
+     ],
+     27351
+    ],
+    "invalid": [
+     27057
+    ],
+    "stop": [
+     27018.25
+    ],
+    "be": [
+     27191.75
+    ]
+   },
+   "risk": {
+    "entry": "27105",
+    "stop": "27018.2",
+    "stop_pts": "86.75",
+    "be": "27191.8",
+    "his": "27057",
+    "his_pts": "48",
+    "mic": "MNQ",
+    "ours": [
+     "2.9",
+     "5.8"
+    ],
+    "his_n": [
+     "5.2",
+     "10.4"
+    ],
+    "tgts": [
+     {
+      "p": "27201.5-27234.8",
+      "ours": "1.1",
+      "his": "2.0"
+     },
+     {
+      "p": "27313-27339",
+      "ours": "2.4",
+      "his": "4.3"
+     },
+     {
+      "p": "27351",
+      "ours": "2.8",
+      "his": "5.1"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Persistent weakness below 27105-27131",
+   "dir": "short",
+   "tag": "Ungraded · toward 26969-26987 / 26805-26840",
+   "gate": "persistent weakness (sustained acceptance) below 27105-27131",
+   "tgt": "26969-26987 → 26805-26840 → 26718-26732 / Tue low 26658.5",
+   "stop": "reclaim of 27105-27131 → 27201.5",
+   "quote": "Short: Persistent weakness below 27105–27131, targeting 26969–26987 and potentially 26805–26840.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27105,
+     27131
+    ],
+    "tgt": [
+     [
+      26969,
+      26987
+     ],
+     [
+      26805,
+      26840
+     ],
+     [
+      26658.5,
+      26732
+     ]
+    ],
+    "invalid": [
+     27202
+    ],
+    "stop": [
+     27191.75
+    ],
+    "be": [
+     27018.25
+    ]
+   },
+   "risk": {
+    "entry": "27105",
+    "stop": "27191.8",
+    "stop_pts": "86.75",
+    "be": "27018.2",
+    "his": "27202",
+    "his_pts": "97",
+    "mic": "MNQ",
+    "ours": [
+     "2.9",
+     "5.8"
+    ],
+    "his_n": [
+     "2.6",
+     "5.2"
+    ],
+    "tgts": [
+     {
+      "p": "26969-26987",
+      "ours": "1.4",
+      "his": "1.2"
+     },
+     {
+      "p": "26805-26840",
+      "ours": "3.1",
+      "his": "2.7"
+     },
+     {
+      "p": "26658.5-26732",
+      "ours": "4.3",
+      "his": "3.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Fresh hold / LBAF of 26805-26840",
+   "dir": "long",
+   "tag": "Ungraded · swing-low context · LBAF of Tue low 26658.5 also valid",
+   "gate": "a fresh hold or look below and fail of 26805-26840 (below: a LBAF of Tue's low 26658.5 is a valid long given the nearly equal QQQ lows and the box)",
+   "tgt": "26969-26987 → 27105-27131",
+   "stop": "continued weakness below 26718-26732 / Tue low → 26500-26523",
+   "quote": "Long: A fresh hold or LBAF of 26805–26840.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     26805,
+     26840
+    ],
+    "tgt": [
+     [
+      26969,
+      26987
+     ],
+     [
+      27105,
+      27131
+     ]
+    ],
+    "invalid": [
+     26718
+    ],
+    "stop": [
+     26718.25
+    ],
+    "be": [
+     26891.75
+    ]
+   },
+   "risk": {
+    "entry": "26805",
+    "stop": "26718.2",
+    "stop_pts": "86.75",
+    "be": "26891.8",
+    "his": "26718",
+    "his_pts": "87",
+    "mic": "MNQ",
+    "ours": [
+     "2.9",
+     "5.8"
+    ],
+    "his_n": [
+     "2.9",
+     "5.7"
+    ],
+    "tgts": [
+     {
+      "p": "26969-26987",
+      "ours": "1.9",
+      "his": "1.9"
+     },
+     {
+      "p": "27105-27131",
+      "ours": "3.5",
+      "his": "3.4"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 11.54,
+  "NQ": 57.84
+ },
+ "stop_floor": {
+  "ES": 17.25,
+  "NQ": 86.75
+ }
+}
