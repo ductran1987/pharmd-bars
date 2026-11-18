@@ -3,10 +3,10 @@ import charts, pandas as pd
 tz = "America/New_York"
 ES, NQ = charts.load_1h("ES"), charts.load_1h("NQ")
 ES5, NQ5 = charts.load("ES"), charts.load("NQ")
-s = pd.Timestamp("2026-11-02 09:30", tz=tz); e = pd.Timestamp("2026-11-17 16:15", tz=tz)
+s = pd.Timestamp("2026-11-02 09:30", tz=tz); e = pd.Timestamp("2026-11-18 16:15", tz=tz)
 w5 = ("wk 11/2", pd.Timestamp("2026-11-01 18:00", tz=tz), pd.Timestamp("2026-11-06 16:00", tz=tz))
 w6 = ("wk 11/9", pd.Timestamp("2026-11-08 18:00", tz=tz), pd.Timestamp("2026-11-13 16:00", tz=tz))
-w7 = ("Mon-Tue", pd.Timestamp("2026-11-15 18:00", tz=tz), e)
+w7 = ("Mon-Wed", pd.Timestamp("2026-11-15 18:00", tz=tz), e)
 
 es_lv = [
  {"p":[7815,7820],"label":"","kind":"up","strong":True},
@@ -43,9 +43,10 @@ es_marks = [
  {"t":pd.Timestamp("2026-11-12 11:20",tz=tz),"y":7674.75,"label":"THU: gap-down LBAF → 7674.75, 2nd fail in 70-80; big buyer exits","dy":100,"dx":-40},
  {"t":pd.Timestamp("2026-11-13 10:20",tz=tz),"y":7519.25,"label":"FRI: liquidation 7643 → 7519.25, then buy program to 7590 ARH; 5 PM 7561","dy":-75,"dx":-95},
  {"t":pd.Timestamp("2026-11-16 14:45",tz=tz),"y":7420.25,"label":"MON: Sun gap-up to 7614 failed → failed reclaim of 7490-7504 → 7420.25","dy":-65,"dx":-110},
- {"t":pd.Timestamp("2026-11-17 10:50",tz=tz),"y":7308.0,"label":"TUE: IB-low break → 7308; value shifts down; NVDA AH rally rejected 7388-96","dy":85,"dx":-110}]
+ {"t":pd.Timestamp("2026-11-17 10:50",tz=tz),"y":7308.0,"label":"TUE: IB-low break → 7308; value shifts down; NVDA AH rally rejected 7388-96","dy":85,"dx":-110},
+ {"t":pd.Timestamp("2026-11-18 09:30",tz=tz),"y":7388.75,"label":"WED: NVDA gap 7434.75 sold → 7305.25; lower dist = Wed box","dy":112,"dx":-100}]
 charts.weekly("ES", es_lv, ES, s, e, "charts/2026-W47_ES_weekly.png",
-              "ES weekly  ·  11/2 – Tue 11/17  ·  week of 11/15 plan", profile_ranges=[w6, w7], marks=es_marks, d5prof=ES5)
+              "ES weekly  ·  11/2 – Wed 11/18  ·  week of 11/15 plan", profile_ranges=[w6, w7], marks=es_marks, d5prof=ES5)
 
 nq_lv = [
  {"p":[29038,29069],"label":"major accomplishment if reclaimed","kind":"up","strong":True},
@@ -81,7 +82,8 @@ nq_marks = [
  {"t":pd.Timestamp("2026-11-12 11:20",tz=tz),"y":28652.25,"label":"THU: 28652, lost 443-485; big buyer exits","dy":520,"dx":-20},
  {"t":pd.Timestamp("2026-11-13 11:20",tz=tz),"y":27695.25,"label":"FRI: liquidation → 27695 (LBAF of IB low), buy program to 28111.75 ARH; failed distribution","dy":-560,"dx":-150},
  {"t":pd.Timestamp("2026-11-16 15:35",tz=tz),"y":27234.75,"label":"MON: gap-up to 28279 rejected from the upper dist → 27588-622 rejected from below → poor low 27234.75","dy":-330,"dx":-200},
- {"t":pd.Timestamp("2026-11-17 10:50",tz=tz),"y":26658.5,"label":"TUE: thru the Nov 5 spike low to 26658.5, aggressive responsive buying; 5 PM 27126","dy":-250,"dx":-180}]
+ {"t":pd.Timestamp("2026-11-17 10:50",tz=tz),"y":26658.5,"label":"TUE: thru the Nov 5 spike low to 26658.5, aggressive responsive buying; 5 PM 27126","dy":-250,"dx":-180},
+ {"t":pd.Timestamp("2026-11-18 10:00",tz=tz),"y":27325.5,"label":"WED: NVDA gap 27609.75 sold; inside day, value overlapped Tue","dy":590,"dx":-60}]
 charts.weekly("NQ", nq_lv, NQ, s, e, "charts/2026-W47_NQ_weekly.png",
-              "NQ weekly  ·  11/2 – Tue 11/17  ·  week of 11/15 plan", profile_ranges=[w6, w7], marks=nq_marks, d5prof=NQ5)
+              "NQ weekly  ·  11/2 – Wed 11/18  ·  week of 11/15 plan", profile_ranges=[w6, w7], marks=nq_marks, d5prof=NQ5)
 print("ok")

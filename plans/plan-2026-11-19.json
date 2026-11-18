@@ -1,0 +1,891 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-19",
+ "status": "draft",
+ "notes": "",
+ "bias": "'A failed earnings rally, the battle for the lower distribution, and a potential major swing low.' The NVDA gap-up was a selling opportunity, as he suspected (Tuesday's value had gapped lower — a rally alone couldn't repair that); ES fell ~130 from its overnight high, NQ ~700, yet NQ printed an inside day in cash hours. Beneath the surface: NQ's value shifted higher and overlapped Tuesday's, and the overnight excursion may have cleared overhead supply — 'I would now find a sustained upside attempt more believable' (but the clean double distribution is gone, so 27100 is less of a pivot). ES built an exceptionally clean lower distribution matching Wednesday's RTH range (7305.25-7388.75): buyers must leave it behind to the upside (failed lower distribution = at least a short-term low); sellers must break below and accept lower, building another distribution. 'The most important information is likely to come from a successful break or failed break of Wednesday's range, rather than continued rotation within it.' Swing-low scenario still a scenario, not a prediction — ES trapdoor near completion, NQ/QQQ near prior-ATH backtests, YM now at a major HTF reference of its own. Sellers still control the larger auction.",
+ "wildcard": "Box day: ES — 'I have little interest in trading within this range outside of potentially fading its extremes'; engage near the extremes or after a decisive resolution. NQ — treat the inside day as a box; a downside break doesn't guarantee Tuesday's low (26805-26840 keeps attracting meaningful buying, 26718-26732 demand protects it); a failed upside break shorts to Wed's low, a failed downside break rotates to Wed's high. The LBAF of Wed's low in ES would ordinarily be A+ — capped at B+ by the bearish HTF context. Daily Thu: ES unchanged (7575, 7454-7458, 7420-7423 LAAF, 7346); NQ 29194-29220, 27953-27969, 27069-27099 (adjusted from 27105-27131; letter header says 27085-27110), 26718-26732.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "ON 7362.25-7434.75 (18:10 high on NVDA), opened 7371.25, high 7388.75 on the first bar (7388-7396 rejected again), sold to 7305.25 at 11:20 — three ticks under Tuesday's low, 7313-7317 demand held — then two-sided chop: responsive sellers above 7369-7372 (7378.25 at 12:30, 7376.25 at 13:30), 7332 lows late, closed 7338.75. Wednesday's RTH range = the week's clean lower distribution.",
+   "pivot": "Box Wednesday's RTH range 7305.25-7388.75. Demand at weekly 7313-7317 protects the low; sellers responsive on rallies above 7369-7372; 7388-7396 / C-singles to 7399 cap the high, B-singles 7406.5-7413.5 and daily 7420-7423 above. Developing weekly profile: failed lower distribution vs another leg down.",
+   "higher": "LAAF of Wed's high = the short; a sustained break with continuation above 7388.75 / 7399 → 7406.5-7413.5 → 7420-7423 → Tue high 7437 → 7454-7458 (Mon singles 7461-7473 above) — leaving the lower distribution behind.",
+   "lower": "LBAF of Wed's low = the long (ideally a meaningful push below creating excess, then a reclaim of the range). A sustained break with continuation → 7292-7296 → the trapdoor 7230s-7240s, where he wants to take a meaningful shot long if NQ/QQQ/YM references line up.",
+   "levels": [
+    {
+     "p": [
+      7454,
+      7458
+     ],
+     "label": "daily",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7437
+     ],
+     "label": "Tue high",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7420,
+      7423
+     ],
+     "label": "daily · LAAF monitor",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7406.5,
+      7413.5
+     ],
+     "label": "Tue B-singles",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7388,
+      7399
+     ],
+     "label": "Wed high 7388.75 / weekly 88-96 / C-singles · LAAF short B+/A-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7369,
+      7372
+     ],
+     "label": "weekly · responsive sellers · box-fade short",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7346,
+      7349
+     ],
+     "label": "daily",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7313,
+      7317
+     ],
+     "label": "weekly · demand · box-fade long",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7305.25
+     ],
+     "label": "Wed low · LBAF long B+",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7292,
+      7296
+     ],
+     "label": "weekly · LBAF monitor",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7230,
+      7245
+     ],
+     "label": "TRAPDOOR · 'meaningful shot' long",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "ON 27093-27609.75 (18:05 high on NVDA, into 27588-27622 — a selling opportunity), opened 27252.75, high 27325.5 at 10:00 (last week's RTH low 27316.25 / Tue high 27351 capped), sold to 26921.75 at 11:20 (26969-26987 gave little continuation), 27069-27099 defended repeatedly in the afternoon, closed 27184.25. Inside day (within Tue's 26658.5-27351) — but value shifted up and overlapped Tuesday's.",
+   "pivot": "Wednesday's inside day = the box (26921.75-27325.5). 27069-27099 (adjusted daily) is a checkpoint, not the distinct pivot it was; Wed/Tue highs (27325.5 / 27351) with 27313-27339 and last week's RTH low 27316.25 form one consolidated overhead area. 26969-26987 demand protects Wed's low; 26805-26840 exceptionally well bid; 26718-26732 protects Tue's low 26658.5.",
+   "higher": "Hold of 27069-27099 → 27201.5 → 27313-27339 / Wed high. Upside break with continuation through Wed's and Tue's highs → ON high 27609.75 / weekly 27588-27622. A failed upside break = short to Wed's low. A sustained upside attempt is now more believable than it was Tuesday night.",
+   "lower": "Downside break with continuation broadly targets Tue's low 26658.5 — but watch responsive buying at 26805-26840 and 26718-26732 first. LBAF of Wed's low must reclaim 26969-26987, then 27069-27099 for real evidence of a rotation back to the top of the box.",
+   "levels": [
+    {
+     "p": [
+      27588,
+      27622
+     ],
+     "label": "weekly · ON high 27609.75",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      27425,
+      27461.5
+     ],
+     "label": "weekly 425-458 / 27461.5",
+     "kind": "up"
+    },
+    {
+     "p": [
+      27313,
+      27351
+     ],
+     "label": "Wed high 27325.5 / Tue high 27351 / wk low 27316 · LAAF short B+/A-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      27201.5
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      27069,
+      27099
+     ],
+     "label": "daily (adjusted) · hold long B/B-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      26969,
+      26987
+     ],
+     "label": "weekly · demand · hold long B-",
+     "kind": "down"
+    },
+    {
+     "p": [
+      26921.75
+     ],
+     "label": "Wed low · LBAF long B/B-",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      26805,
+      26840
+     ],
+     "label": "weekly · exceptionally well bid · hold/LBAF long",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      26718,
+      26732
+     ],
+     "label": "daily · demand protecting Tue low",
+     "kind": "down"
+    },
+    {
+     "p": [
+      26658.5
+     ],
+     "label": "Tue low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      26500,
+      26523
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      26366.5,
+      26408
+     ],
+     "label": "prior-ATH backtest proxy",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      26258,
+      26291
+     ],
+     "label": "QQQ 637.01 backtest ≈ 26261",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of Wednesday's low 7305.25",
+   "dir": "long",
+   "tag": "B+ (would be A+ in a different HTF context) · wants a meaningful push below with solid excess",
+   "gate": "a meaningful push below Wed low 7305.25 that creates solid excess, then buyers reclaim the range (7313-7317)",
+   "tgt": "7346-7349 → 7369-7372 → Wed high 7388.75",
+   "stop": "sustained break with continuation below → 7292-7296",
+   "quote": "Long — LBAF of Wednesday's low (B+): Ideally, I'd like to see a meaningful push below the low that creates solid excess before buyers reclaim the range. Under different higher-timeframe conditions, this would ordinarily qualify as an A+ setup. Given the prevailing bearish context, however, I cannot justify grading it higher than B+.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7292,
+     7305.25
+    ],
+    "tgt": [
+     [
+      7346,
+      7349
+     ],
+     [
+      7369,
+      7372
+     ],
+     7388.75
+    ],
+    "invalid": [
+     7290
+    ],
+    "stop": [
+     7291.75
+    ],
+    "be": [
+     7318.75
+    ]
+   },
+   "risk": {
+    "entry": "7305.25",
+    "stop": "7291.75",
+    "stop_pts": "13.5",
+    "be": "7318.75",
+    "his": "7290",
+    "his_pts": "15.25",
+    "mic": "MES",
+    "ours": [
+     "7.4",
+     "14.8"
+    ],
+    "his_n": [
+     "6.6",
+     "13.1"
+    ],
+    "tgts": [
+     {
+      "p": "7346-7349",
+      "ours": "3.0",
+      "his": "2.7"
+     },
+     {
+      "p": "7369-7372",
+      "ours": "4.7",
+      "his": "4.2"
+     },
+     {
+      "p": "7388.75",
+      "ours": "6.2",
+      "his": "5.5"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of Wednesday's high 7388.75",
+   "dir": "short",
+   "tag": "B+/A- · 7388-7396 / C-singles to 7399 rejected three times",
+   "gate": "a failed upside break (look above 7388.75 / into 7388-7399) that returns price into Wednesday's range",
+   "tgt": "7369-7372 → 7346-7349 → Wed low 7305.25",
+   "stop": "acceptance above 7399 / the B-singles 7406.5-7413.5 → 7420-7423",
+   "quote": "Short — LAAF of Wednesday's high (B+/A-): A failed upside break that returns price into Wednesday's range.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7388.75,
+     7399
+    ],
+    "tgt": [
+     [
+      7369,
+      7372
+     ],
+     [
+      7346,
+      7349
+     ],
+     7305.25
+    ],
+    "invalid": [
+     7414
+    ],
+    "stop": [
+     7402.25
+    ],
+    "be": [
+     7375.25
+    ]
+   },
+   "risk": {
+    "entry": "7388.75",
+    "stop": "7402.25",
+    "stop_pts": "13.5",
+    "be": "7375.25",
+    "his": "7414",
+    "his_pts": "25.25",
+    "mic": "MES",
+    "ours": [
+     "7.4",
+     "14.8"
+    ],
+    "his_n": [
+     "4.0",
+     "7.9"
+    ],
+    "tgts": [
+     {
+      "p": "7369-7372",
+      "ours": "1.2",
+      "his": "0.7"
+     },
+     {
+      "p": "7346-7349",
+      "ours": "2.9",
+      "his": "1.6"
+     },
+     {
+      "p": "7305.25",
+      "ours": "6.2",
+      "his": "3.3"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Box fade: downside reversal from ~7369-7372 (fails to take Wed's high)",
+   "dir": "short",
+   "tag": "Ungraded · illustration of trading within the box · not the middle of the range",
+   "gate": "a downside reversal originating around 7369-7372, or from higher prices that fail to take out Wed's high",
+   "tgt": "7346-7349 → 7313-7317 → Wed low",
+   "stop": "Wed high 7388.75 taken with continuation",
+   "quote": "A downside reversal originating around 7369–7372, or from higher prices that fail to take out Wednesday's high, can offer a short opportunity.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7369,
+     7372
+    ],
+    "tgt": [
+     [
+      7346,
+      7349
+     ],
+     [
+      7313,
+      7317
+     ],
+     7305.25
+    ],
+    "invalid": [
+     7390
+    ],
+    "stop": [
+     7385.5
+    ],
+    "be": [
+     7358.5
+    ]
+   },
+   "risk": {
+    "entry": "7372",
+    "stop": "7385.5",
+    "stop_pts": "13.5",
+    "be": "7358.5",
+    "his": "7390",
+    "his_pts": "18",
+    "mic": "MES",
+    "ours": [
+     "7.4",
+     "14.8"
+    ],
+    "his_n": [
+     "5.6",
+     "11.1"
+    ],
+    "tgts": [
+     {
+      "p": "7346-7349",
+      "ours": "1.7",
+      "his": "1.3"
+     },
+     {
+      "p": "7313-7317",
+      "ours": "4.1",
+      "his": "3.1"
+     },
+     {
+      "p": "7305.25",
+      "ours": "4.9",
+      "his": "3.7"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Box fade: upside reversal near 7313-7317 (without taking Wed's low)",
+   "dir": "long",
+   "tag": "Ungraded · illustration of trading within the box",
+   "gate": "an upside reversal originating near 7313-7317 without first taking out Wed's low",
+   "tgt": "7346-7349 → 7369-7372 → Wed high",
+   "stop": "Wed low 7305.25 taken (then it's the LBAF setup, es1)",
+   "quote": "Conversely, an upside reversal originating near 7313–7317, without first taking out Wednesday's low, can offer a long opportunity.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7313,
+     7317
+    ],
+    "tgt": [
+     [
+      7346,
+      7349
+     ],
+     [
+      7369,
+      7372
+     ],
+     7388.75
+    ],
+    "invalid": [
+     7305
+    ],
+    "stop": [
+     7299.5
+    ],
+    "be": [
+     7326.5
+    ]
+   },
+   "risk": {
+    "entry": "7313",
+    "stop": "7299.5",
+    "stop_pts": "13.5",
+    "be": "7326.5",
+    "his": "7305",
+    "his_pts": "8",
+    "mic": "MES",
+    "ours": [
+     "7.4",
+     "14.8"
+    ],
+    "his_n": [
+     "12.5",
+     "25.0"
+    ],
+    "tgts": [
+     {
+      "p": "7346-7349",
+      "ours": "2.4",
+      "his": "4.1"
+     },
+     {
+      "p": "7369-7372",
+      "ours": "4.1",
+      "his": "7.0"
+     },
+     {
+      "p": "7388.75",
+      "ours": "5.6",
+      "his": "9.5"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of Wednesday's low 26921.75",
+   "dir": "long",
+   "tag": "B/B- · must reclaim 26969-26987, then 27069-27099 for real evidence",
+   "gate": "look below and fail of Wed low 26921.75 with a reclaim of 26969-26987",
+   "tgt": "26969-26987 → 27069-27099 → 27201.5",
+   "stop": "sustained continuation below → 26805-26840",
+   "quote": "Long — LBAF of Wednesday's low (B/B-).",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     26840,
+     26921.75
+    ],
+    "tgt": [
+     [
+      26969,
+      26987
+     ],
+     [
+      27069,
+      27099
+     ],
+     27201.5
+    ],
+    "invalid": [
+     26838
+    ],
+    "stop": [
+     26849.75
+    ],
+    "be": [
+     26993.75
+    ]
+   },
+   "risk": {
+    "entry": "26921.8",
+    "stop": "26849.8",
+    "stop_pts": "72",
+    "be": "26993.8",
+    "his": "26838",
+    "his_pts": "83.75",
+    "mic": "MNQ",
+    "ours": [
+     "3.5",
+     "6.9"
+    ],
+    "his_n": [
+     "3.0",
+     "6.0"
+    ],
+    "tgts": [
+     {
+      "p": "26969-26987",
+      "ours": "0.7",
+      "his": "0.6"
+     },
+     {
+      "p": "27069-27099",
+      "ours": "2.0",
+      "his": "1.8"
+     },
+     {
+      "p": "27201.5",
+      "ours": "3.9",
+      "his": "3.3"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of Wednesday's / Tuesday's highs (27325.5 / 27351)",
+   "dir": "short",
+   "tag": "B+/A- · consolidated overhead area incl. 27313-27339 and last week's RTH low 27316.25",
+   "gate": "a failed upside break of Wed high 27325.5 / Tue high 27351 that returns into Wednesday's range",
+   "tgt": "27201.5 → 27069-27099 → Wed low 26921.75",
+   "stop": "acceptance above Tue's high with continuation → 27425-27461.5",
+   "quote": "Short — LAAF of Wednesday's and Tuesday's highs (B+/A-).",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27325.5,
+     27351
+    ],
+    "tgt": [
+     27201.5,
+     [
+      27069,
+      27099
+     ],
+     26921.75
+    ],
+    "invalid": [
+     27400
+    ],
+    "stop": [
+     27397.5
+    ],
+    "be": [
+     27253.5
+    ]
+   },
+   "risk": {
+    "entry": "27325.5",
+    "stop": "27397.5",
+    "stop_pts": "72",
+    "be": "27253.5",
+    "his": "27400",
+    "his_pts": "74.5",
+    "mic": "MNQ",
+    "ours": [
+     "3.5",
+     "6.9"
+    ],
+    "his_n": [
+     "3.4",
+     "6.7"
+    ],
+    "tgts": [
+     {
+      "p": "27201.5",
+      "ours": "1.7",
+      "his": "1.7"
+     },
+     {
+      "p": "27069-27099",
+      "ours": "3.1",
+      "his": "3.0"
+     },
+     {
+      "p": "26921.8",
+      "ours": "5.6",
+      "his": "5.4"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Hold of 27069-27099",
+   "dir": "long",
+   "tag": "B/B- · checkpoint inside the box · provided neither extreme has been taken",
+   "gate": "another successful defense of 27069-27099 while Wed's range is intact",
+   "tgt": "27201.5 → 27313-27339 / Wed high",
+   "stop": "acceptance below → 26969-26987",
+   "quote": "Long — Hold of 27069–27099 (B/B-).",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     27069,
+     27099
+    ],
+    "tgt": [
+     27201.5,
+     [
+      27313,
+      27339
+     ]
+    ],
+    "invalid": [
+     26969
+    ],
+    "stop": [
+     26997.0
+    ],
+    "be": [
+     27141.0
+    ]
+   },
+   "risk": {
+    "entry": "27069",
+    "stop": "26997",
+    "stop_pts": "72",
+    "be": "27141",
+    "his": "26969",
+    "his_pts": "100",
+    "mic": "MNQ",
+    "ours": [
+     "3.5",
+     "6.9"
+    ],
+    "his_n": [
+     "2.5",
+     "5.0"
+    ],
+    "tgts": [
+     {
+      "p": "27201.5",
+      "ours": "1.8",
+      "his": "1.3"
+     },
+     {
+      "p": "27313-27339",
+      "ours": "3.4",
+      "his": "2.4"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Hold of 26969-26987",
+   "dir": "long",
+   "tag": "B- · demand protecting Wed's low · firm reclaim of 27069-27099 raises the odds",
+   "gate": "a successful defense of 26969-26987 (followed by a firm reclaim of 27069-27099)",
+   "tgt": "27069-27099 → 27201.5 → 27313-27339",
+   "stop": "Wed low 26921.75 taken (then it's the LBAF setup, nq1)",
+   "quote": "Long — Hold of 26969–26987 (B-).",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     26969,
+     26987
+    ],
+    "tgt": [
+     [
+      27069,
+      27099
+     ],
+     27201.5,
+     [
+      27313,
+      27339
+     ]
+    ],
+    "invalid": [
+     26921
+    ],
+    "stop": [
+     26897.0
+    ],
+    "be": [
+     27041.0
+    ]
+   },
+   "risk": {
+    "entry": "26969",
+    "stop": "26897",
+    "stop_pts": "72",
+    "be": "27041",
+    "his": "26921",
+    "his_pts": "48",
+    "mic": "MNQ",
+    "ours": [
+     "3.5",
+     "6.9"
+    ],
+    "his_n": [
+     "5.2",
+     "10.4"
+    ],
+    "tgts": [
+     {
+      "p": "27069-27099",
+      "ours": "1.4",
+      "his": "2.1"
+     },
+     {
+      "p": "27201.5",
+      "ours": "3.2",
+      "his": "4.8"
+     },
+     {
+      "p": "27313-27339",
+      "ours": "4.8",
+      "his": "7.2"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Hold / LBAF of 26805-26840 (below the prior day's low — exception)",
+   "dir": "long",
+   "tag": "Considered, ungraded · 'exceptionally well bid' · needs a continued meaningful response",
+   "gate": "a hold or look below and fail of 26805-26840 with buyers again demonstrating a meaningful response",
+   "tgt": "26969-26987 → 27069-27099",
+   "stop": "26718-26732 lost → Tue low 26658.5",
+   "quote": "I may also consider a long on a hold or LBAF of 26805–26840, provided buyers continue to demonstrate a meaningful response at this level. I generally avoid including planned longs below the prior day's low, but 26805–26840 has been exceptionally well bid, making it worthy of consideration despite that usual preference.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     26805,
+     26840
+    ],
+    "tgt": [
+     [
+      26969,
+      26987
+     ],
+     [
+      27069,
+      27099
+     ]
+    ],
+    "invalid": [
+     26718
+    ],
+    "stop": [
+     26733.0
+    ],
+    "be": [
+     26877.0
+    ]
+   },
+   "risk": {
+    "entry": "26805",
+    "stop": "26733",
+    "stop_pts": "72",
+    "be": "26877",
+    "his": "26718",
+    "his_pts": "87",
+    "mic": "MNQ",
+    "ours": [
+     "3.5",
+     "6.9"
+    ],
+    "his_n": [
+     "2.9",
+     "5.7"
+    ],
+    "tgts": [
+     {
+      "p": "26969-26987",
+      "ours": "2.3",
+      "his": "1.9"
+     },
+     {
+      "p": "27069-27099",
+      "ours": "3.7",
+      "his": "3.0"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 8.93,
+  "NQ": 48.0
+ },
+ "stop_floor": {
+  "ES": 13.5,
+  "NQ": 72.0
+ }
+}
