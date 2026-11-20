@@ -1,0 +1,261 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-20",
+ "status": "draft",
+ "notes": "NO PLANNED TRADES. 'I can't in good conscience assign planned trades after a session like Thursday's… Right now, the setups are trash. There is no reason to manufacture trades simply because the market is moving. Keep it small, keep it smart, and let's make it to the weekend in one piece.' He suggests Friday is a good day to reread the Starter Kit.",
+ "bias": "'The trapdoor finally opens, forced liquidation accelerates, and the ingredients for a meaningful swing low begin to emerge — but sellers remain firmly in control.' Another gap higher sold: his 7:01 AM references 'for all the marbles' — ES 7388-7396, NQ 27588-27622 — both failed; ES showed nothing above its OR5 high, NQ wicked above its overnight high and LAAF'd; Wednesday's ES box broke to the downside ('box is box') and the longstanding trapdoor setup completed — and substantially exceeded — its objective. NQ took Tuesday's low. Forced liquidation is now visible (NAAIM in the low 50s, lowest in ~18 months); the question is 'when is the last seller finished selling?' — when that happens 'the subsequent rally could be ferocious.' This is emphatically NOT a bottom call; sellers remain in complete control. He started longs Thursday against remaining puts ('I recognize that I'm early… it would still be smarter to wait'); he is done being swing short — flat or long from here, with short runners stabilizing P&L. 'The index is still objectively a short.'",
+ "wildcard": "No graded setups — both sides carry extraordinary risk (longs: further forced liquidation; shorts: violent reversal on exhaustion). He is unlikely to add shorts below Thursday's low and has 'no interest in initiating shorts into' the NQ HTF references. KOSPI 4890: a gap-lower sweep that gets bought would be one of the better signs of a developing local low; persistent weakness below it adds pressure. ES 7043-7232 is his broad zone for a partial prior-ATH backtest; the overnight low after the letter reached just below 7169-7170 (top of the April-breakout demand distribution — 'demand can matter very little in the middle of a broad liquidation'). Daily Fri: ES 7346, 7300-7305 (bottom of the former box + breakdown LVN), 7217-7221 (bare-minimum reclaim; letter header says 7217-7241); NQ 29194-29220, 27953-27969, 27085-27110, 26718-26732 (bare-minimum reclaim). Prior-week ES weekly levels re-added: 7269-7275, 7232-7240 (LBAF), 7208-7214, 7177-7186* (LBAF), 7169-7170*, 7144-7147, 7115-7121, 7078-7081 (LBAF), 7069-7070*, 7052-7056, 7042-7046*.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "ON rally to 7440.5 (06:55); opened 7411.25, OR5 7410.25-7436.5 with no interest above it; 7388-7396 defended at first but no retest of the OR5 high, then the LAAF of Wednesday's box: 7293 by 10:50, a recovery rejected into the B-period singles (7354 at 11:30), another liquidation leg through the box low 7305.25 to 7210.5 at 12:00 (7208-7214 produced an impressive intraday rally to 7299.75), then grinding lower all afternoon — poor RTH low 7192 (15:00-15:30), closed 7198.5; after hours the poor low was taken out and selling continued into the evening (overnight low just below 7169-7170). Trapdoor completed and exceeded. VIX ~29.",
+   "pivot": "'It is over when it is over.' Bare-minimum reclaim 7217-7221 (above weekly 7208-7214); first meaningful HTF reclaim is the bottom of the former box — 7305 / 7308 daily lows, 7300-7305 daily, 7313-7317 weekly right above, with trapped-buyer supply there (watch a failed reclaim). Below: 7177-7186 (LBAF monitor), 7169-7170 (top of the April-breakout demand distribution), 7144-7147, 7115-7121, 7078-7081, 7069-7070, 7052-7056, 7042-7046; 7043-7232 = broad partial prior-ATH backtest zone.",
+   "higher": "'No long is safe in the current environment', but a substantial retracement becomes likelier if sellers exhaust. Reclaim 7217-7221 → 7232-7240 (June lows; a reclaim introduces the first possibility of a more meaningful HTF setup — broadening formation like NQ's) → sustained acceptance above → 7269-7275 → expect violent two-way trade inside Thursday's range until 7300-7305 and especially 7313-7317 are reclaimed — those distinguish relief from repair → a close back above 7313-7317 brings 7388-7396 back into play (Friday or early next week).",
+   "lower": "Persistent weakness is objectively a continuation short with the weekly levels as checkpoints: 7177-7186 → 7169-7170 → 7144-7147 → 7115-7121 → 7078-7081 → 7069-7070 → 7052-7056 → 7042-7046 (prior ATH backtest possible directly). Any meaningful response from 7177-7186 or below first targets Thursday's 7192 RTH low and 7217-7221 / 7208-7214. He won't add shorts below Thursday's low.",
+   "levels": [
+    {
+     "p": [
+      7388,
+      7396
+     ],
+     "label": "weekly · back in play only above 7313-17",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7346
+     ],
+     "label": "daily",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7313,
+      7317
+     ],
+     "label": "weekly · relief vs repair · failed-reclaim watch",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7300,
+      7308
+     ],
+     "label": "daily 7300-05 · box bottom 7305/7308 · breakdown LVN",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7269,
+      7275
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7232,
+      7240
+     ],
+     "label": "weekly · June lows · LBAF · first HTF possibility",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7217,
+      7221
+     ],
+     "label": "daily (new) · bare-minimum reclaim",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7208,
+      7214
+     ],
+     "label": "weekly · impressive intraday rally Thu",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      7192
+     ],
+     "label": "Thu RTH low (poor, taken AH)",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7177,
+      7186
+     ],
+     "label": "weekly* · LBAF monitor",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7169,
+      7170
+     ],
+     "label": "weekly* · top of April-breakout demand · ON low just below",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7144,
+      7147
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7115,
+      7121
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7078,
+      7081
+     ],
+     "label": "weekly · LBAF monitor",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7069,
+      7070
+     ],
+     "label": "weekly*",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7042,
+      7056
+     ],
+     "label": "7052-56 / 7042-46* · prior-ATH backtest zone bottom",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "ON rally to 27830.5 (06:45); opened 27666.25, a brief wick above the overnight high (27838 at 09:50) then the failure back below it warned of reversal; 27588-27622 gave way and the overnight initiative was neutralized; recovery attempt failed in 27425-27458 (27429.75 at 11:30), then sellers drove it through Tuesday's low 26658.5 — RTH low 26559.25 at 15:00, closed 26593.5; after hours 26505.5, close to another backtest of the prior ATH. Developing weekly profile still relatively balanced: sellers must sustain the break or risk a meaningful reversion.",
+   "pivot": "Bare-minimum reclaim 26718-26732 (Nov 5 spike); the meaningful reference is 26805-26840 (substantial buying in and below it for two weeks). Below: 26500-26523 weekly, then the prior-ATH backtest inside 26369-26408 with the 26366.5 low right beneath, and 26258-26291 (QQQ 637 proportional backtest ≈ 26257). He has no interest in shorting into those.",
+   "higher": "Reclaim Thursday's 26559.25 RTH low → still must clear Tuesday's 26658.5 and 26718-26732 → retest 26805-26840; a firm reclaim there introduces meaningful reversion: 26969-26987 → 27069-27099 → sustained strength above raises the odds of 27313-27339 by early next week. Sellers can defend almost anywhere inside Thursday's range after a liquidation this size — bounce vs reclaim is the distinction.",
+   "lower": "Continuation below 26559.25 and 26500-26523 is objectively a continuation short — but the prior-ATH backtest sits in 26369-26408 / 26366.5 (annoyingly being approached in ETH), then 26258-26291 (QQQ-implied 26257). Monitor the weekly levels for continuation, failed auctions and responsive buying; the quality of any further extension matters more than the level.",
+   "levels": [
+    {
+     "p": [
+      27313,
+      27339
+     ],
+     "label": "weekly · early-next-week target if 27069-99 holds",
+     "kind": "up"
+    },
+    {
+     "p": [
+      27069,
+      27099
+     ],
+     "label": "daily · 'considerably more interesting'",
+     "kind": "up"
+    },
+    {
+     "p": [
+      26969,
+      26987
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      26805,
+      26840
+     ],
+     "label": "weekly · the meaningful reclaim",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      26718,
+      26732
+     ],
+     "label": "daily · Nov 5 spike · bare-minimum reclaim",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      26658.5
+     ],
+     "label": "Tue low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      26559.25
+     ],
+     "label": "Thu RTH low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      26500,
+      26523
+     ],
+     "label": "weekly · continuation short below",
+     "kind": "down"
+    },
+    {
+     "p": [
+      26366.5,
+      26408
+     ],
+     "label": "weekly 26369-408* · prior-ATH backtest · 26366.5 low",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      26258,
+      26291
+     ],
+     "label": "weekly* · QQQ 637 backtest ≈ 26257",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      26072,
+      26102
+     ],
+     "label": "weekly*",
+     "kind": "down"
+    }
+   ]
+  }
+ ],
+ "trades": [],
+ "atr5": {
+  "ES": 16.32,
+  "NQ": 83.25
+ },
+ "stop_floor": {
+  "ES": 24.5,
+  "NQ": 125.0
+ }
+}
