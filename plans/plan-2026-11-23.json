@@ -1,0 +1,1132 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-23",
+ "status": "draft",
+ "notes": "",
+ "bias": "'Friday's violent liquidation left sellers firmly in control, but critical structural references below and the potential for a ferocious cover rally make the next move anything but straightforward.' Friday was a violent trend day down that closed on downward spikes in both (ES 6954.25 → 6898, NQ 25199 → 24976.5). Both closed below their prior all-time highs and turned negative for the year. Weekly frame: 'Price has collapsed. Has value followed?' — the liquidation left very little volume behind it, so price moved but value has not been established lower; that is not a bottom and not yet a confirmed bear market. Not once since November 11 have RTH buyers initiated above a prior day's high; no credible swing low until they do and then break a multi-day balance to the upside. Friday's high is the upper boundary of any prospective balance. Trading lower first gives clarity: either a LBAF of Friday's low (possible ferocious cover rally) or a break with continuation (objective short). Opening and holding inside Friday's range is the murkiest case — and 'somehow therefore the most likely'.",
+ "wildcard": "Short setups are 'objectively excellent' but a cover rally can push through strong levels; if the A-grade shorts consistently fail, that failure is itself a clue that a real cover rally is underway. All shorts get an immediate mental downgrade with an active LBAF of Friday's low, and a smaller one if buyers repeatedly defend the spike base. Trading inside the spike is 'objectively indeterminate', slight edge to sellers. 'For roughly 100 handles below Friday's low, the market can remain objectively short while carrying extreme risk that sellers get their faces ripped off.' Poor short location does not make a long setup. He takes no swing positions this shortened holiday week — day trades only. 'NQ could be up or down 5% on Monday and neither outcome would particularly surprise me.' Daily Mon: ES 7454-7458, 7346, 7089-7097 (Fri D-period singles), 6809-6813 (Oct 10 2025 swing high); NQ 25199 (Fri spike base); honorable mention NQ 25388-25393 (Oct 10 2025 high). Keep ES 7031 / 7043 (Jan RTH high / ETH ATH) and the 2026 opens (ES 6927.75 RTH / 6902 ETH; NQ 25687 RTH / 25478.5 ETH) on the chart.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Fri: ON 7105-7199.25, opened 7168.75 — the open was bought to 7216.75 at 10:00 (inside 7211-7217), then a trend day down: IB low 7121.25, 7031.75 by 12:00, afternoon rally high 7071.75 at 13:55, then lower into a closing spike from 6954.25 to 6898 at 15:55 (the 2026 RTH open 6925-6928 held first, then the ETH open 6898-6902 was tagged). Closed 6962.75, 5 PM 6966.75. Singles 7001-7021; D-period singles in 7089-7097. Week: high 7614.25, low 6898 — below the 7043 prior ATH and negative for the year.",
+   "pivot": "First order of business is the spike base 6947-6955. Inside the spike (6954.25-6898) is indeterminate, slight edge to sellers. Holding above it implies possible rejection of the spike; holding below implies possible acceptance, confirmed only by taking Friday's low with continuation. Below the low: demand across 6837-6847 to 6878-6883, then 6817-6822 (last trappy back-test location for the 7043 ATH) and daily 6809-6813.",
+   "higher": "More durable with an active LBAF of Friday's low (ideally in cash hours). Hold above 6947-6955 → 6999-7003 (rotational; LAAF monitor because singles 7001-7021 start there) → fill the singles → supply above 7017-7024, with 7031 and 7043 just beyond → 7072-7078 (includes Fri ARH 7071.75 — classic continuation-short LAAF after a trend day; 7089-7097 singles add caution) → a firm base above → 7115-7121 (Fri IB low) → 7138-7149 (last reasonable seller defense) → 7177-7186 → Fri high 7211-7217 (top of a prospective multi-day balance). A rejection between 7017-7024 and 7072-7078 that loses 6999-7003 'could be damning for buyers'.",
+   "lower": "Objectively a short with continuation below Friday's low 6898, but with extreme caution: demand 6837-6883, 6817-6822, 6809-6813 — about 100 handles of trap risk. A LBAF of Friday's low must reclaim 6947-6955 and rotate to 6999-7003 to mean anything. Weekly: bullish RTH gap 6780 → 6659.5 further down, then 6514-6520, 6492-6497, YTD low 6359.5.",
+   "levels": [
+    {
+     "p": [
+      7211,
+      7217
+     ],
+     "label": "weekly* · Fri high 7216.75 · balance top",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7177,
+      7186
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7138,
+      7149
+     ],
+     "label": "weekly · last seller defense · short B+/A-",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7115,
+      7121
+     ],
+     "label": "weekly · Fri IB low · short B+/A-",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7089,
+      7097
+     ],
+     "label": "daily · Fri D-period singles",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7072,
+      7078
+     ],
+     "label": "weekly · Fri ARH 7071.75 · LAAF short A/A-",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7031,
+      7043
+     ],
+     "label": "Jan RTH high 7031 / ETH ATH 7043",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7017,
+      7024
+     ],
+     "label": "weekly* · fail/LAAF short A/A-",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      6999,
+      7003
+     ],
+     "label": "weekly · singles 7001-7021 · short A/A+",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      6947,
+      6955
+     ],
+     "label": "weekly · SPIKE BASE · start here",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      6925,
+      6928
+     ],
+     "label": "weekly* · 2026 RTH open",
+     "kind": "pivot"
+    },
+    {
+     "p": [
+      6898,
+      6902
+     ],
+     "label": "weekly* · Fri low 6898 · 2026 ETH open · LBAF long B/B-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      6878,
+      6883
+     ],
+     "label": "weekly* · LBAF monitor · demand",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      6864,
+      6869
+     ],
+     "label": "weekly*",
+     "kind": "down"
+    },
+    {
+     "p": [
+      6837,
+      6847
+     ],
+     "label": "weekly* · demand",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      6809,
+      6822
+     ],
+     "label": "weekly 6817-22* trappy back-test / daily 6809-13",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      6780
+     ],
+     "label": "weekly · gap top · LBAF monitor",
+     "kind": "down"
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Fri: ON 26000-26603.5, opened 26322 — a failed opening drive higher to 26504.25 at 10:00 (under the bearish RTH gap 26504-26559), then a trend day down: IB low 25955, 25493.25 by 13:00, afternoon rally high 25762.5 at 13:55, then lower into a closing spike from 25199 to 24976.5 at 15:55 — just above the April 7-8 bullish RTH gap (24926.5 → 24381). Closed 25244.75, 5 PM 25291. J-period singles 25438-25493. Week: high 28279.25, low 24976.5 — below the prior ATH and below the 2026 opens.",
+   "pivot": "Spike base 25199 (new daily); trading above 25245-25275 (the last trappy back-test location of the prior ATH) gives more clarity that the spike is rejected. Early trade around 25199 / 25245-25275 may be sloppy. Inside the spike (25199-24976.5) is indeterminate, slight edge to sellers. The April gap top 24926.5 sits just below Friday's low — a reason to watch for a LBAF.",
+   "higher": "Stronger with an active LBAF of Friday's low (ideally RTH). Firm base above 25245-25275 → 25388-25393 (Oct 10 2025 high, honorable mention) → 25438-25493 (first meaningful test; fail/LAAF → back to 25245-25275) → supply toward 25730-25769 (includes Fri ARH 25762.5 — classic continuation-short LAAF) → a firm base above → squeeze to 25990-26016 and 26069-26117 (important supply: Fri premarket low and A-period low of the failed opening drive — be cautious with longs into it) → Fri high 26504.25 = top of a prospective multi-day balance, with the bearish gap 26504-26559 above.",
+   "lower": "Hold below the spike base → possible acceptance; a break of Friday's low 24976.5 with continuation confirms. But the April gap is right there: price can react anywhere in it. LBAF of 24926.5 that protects the gap would be interesting; his weak lean is that the gap fills. Acceptance below 24369-24381 → 24134-24149 → 24030-24069 (24069 ±69 = major decision; meaningful volume below 24069 would confirm a cyclical bear market in his framework).",
+   "levels": [
+    {
+     "p": [
+      26504,
+      26569
+     ],
+     "label": "weekly* · bear gap · Fri high 26504.25 · balance top",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      26369,
+      26408
+     ],
+     "label": "weekly* · former ATH",
+     "kind": "up"
+    },
+    {
+     "p": [
+      26069,
+      26117
+     ],
+     "label": "weekly* · Fri A-period low · short B+/A-",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      25990,
+      26016
+     ],
+     "label": "weekly* · Fri premarket low · short B+/A-",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      25730,
+      25769
+     ],
+     "label": "weekly · Fri ARH 25762.5 · LAAF short A/A-",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      25687
+     ],
+     "label": "2026 RTH open",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      25438,
+      25493
+     ],
+     "label": "weekly* · J singles · fail/LAAF short A/A+",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      25388,
+      25393
+     ],
+     "label": "Oct 10 2025 high · honorable mention",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      25245,
+      25275
+     ],
+     "label": "weekly* · last trappy back-test · clarity above",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      25199
+     ],
+     "label": "daily · SPIKE BASE",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      25135,
+      25160
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      24969,
+      24984
+     ],
+     "label": "weekly* · Fri low 24976.5 · LBAF long B-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      24926
+     ],
+     "label": "weekly · April gap top 24926.5 · LBAF monitor",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      24769,
+      24796
+     ],
+     "label": "weekly · inside the gap",
+     "kind": "down"
+    },
+    {
+     "p": [
+      24691,
+      24709
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      24537,
+      24569
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      24369,
+      24381
+     ],
+     "label": "weekly* · April gap bottom 24381",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "Fail / LAAF of 6999-7003",
+   "dir": "short",
+   "tag": "A/A+ · singles 7001-7021 above · downgrade with an active LBAF of Fri's low",
+   "gate": "failure or look above and fail of 6999-7003 (bottom of Friday's 7001-7021 single prints)",
+   "tgt": "6947-6955 (spike base) → 6925-6928 → Fri low 6898",
+   "stop": "singles filled and 7017-7024 cleared → 7072-7078",
+   "quote": "Short a fail/LAAF of 6999–7003 — A/A+",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     6999,
+     7003
+    ],
+    "tgt": [
+     [
+      6947,
+      6955
+     ],
+     [
+      6925,
+      6928
+     ],
+     6898
+    ],
+    "invalid": [
+     7024
+    ],
+    "stop": [
+     7041.0
+    ],
+    "be": [
+     6965.0
+    ]
+   },
+   "risk": {
+    "entry": "7003",
+    "stop": "7041",
+    "stop_pts": "38",
+    "be": "6965",
+    "his": "7024",
+    "his_pts": "21",
+    "mic": "MES",
+    "ours": [
+     "2.6",
+     "5.3"
+    ],
+    "his_n": [
+     "4.8",
+     "9.5"
+    ],
+    "tgts": [
+     {
+      "p": "6947-6955",
+      "ours": "1.3",
+      "his": "2.3"
+     },
+     {
+      "p": "6925-6928",
+      "ours": "2.0",
+      "his": "3.6"
+     },
+     {
+      "p": "6898",
+      "ours": "2.8",
+      "his": "5.0"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "Fail / LAAF of 7017-7024",
+   "dir": "short",
+   "tag": "A/A- · meaningful supply above, 7031 / 7043 just beyond",
+   "gate": "failure or look above and fail of 7017-7024 (top of the singles; supply above; Jan RTH high 7031 / ATH 7043)",
+   "tgt": "6999-7003 → 6947-6955 → Fri low 6898",
+   "stop": "supply cleared and rotation to 7072-7078 with 7017-7024 flipped to support",
+   "quote": "Short a fail/LAAF of 7017–7024 — A/A-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7017,
+     7024
+    ],
+    "tgt": [
+     [
+      6999,
+      7003
+     ],
+     [
+      6947,
+      6955
+     ],
+     6898
+    ],
+    "invalid": [
+     7043
+    ],
+    "stop": [
+     7062.0
+    ],
+    "be": [
+     6986.0
+    ]
+   },
+   "risk": {
+    "entry": "7024",
+    "stop": "7062",
+    "stop_pts": "38",
+    "be": "6986",
+    "his": "7043",
+    "his_pts": "19",
+    "mic": "MES",
+    "ours": [
+     "2.6",
+     "5.3"
+    ],
+    "his_n": [
+     "5.3",
+     "10.5"
+    ],
+    "tgts": [
+     {
+      "p": "6999-7003",
+      "ours": "0.6",
+      "his": "1.1"
+     },
+     {
+      "p": "6947-6955",
+      "ours": "1.8",
+      "his": "3.6"
+     },
+     {
+      "p": "6898",
+      "ours": "3.3",
+      "his": "6.6"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LAAF of 7072-7078 (at least 7071.75 = Friday's ARH)",
+   "dir": "short",
+   "tag": "A/A- · classic continuation short after a trend day · 7089-7097 singles above",
+   "gate": "look above and fail of at least 7071.75 (Fri afternoon rally high) inside 7072-7078",
+   "tgt": "7017-7024 → 6999-7003 → 6947-6955",
+   "stop": "firm base above 7072-7078 → 7115-7121",
+   "quote": "Short a LAAF of at least 7071.75 (7072–7078) — A/A-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7071.75,
+     7078
+    ],
+    "tgt": [
+     [
+      7017,
+      7024
+     ],
+     [
+      6999,
+      7003
+     ],
+     [
+      6947,
+      6955
+     ]
+    ],
+    "invalid": [
+     7097
+    ],
+    "stop": [
+     7109.75
+    ],
+    "be": [
+     7033.75
+    ]
+   },
+   "risk": {
+    "entry": "7071.75",
+    "stop": "7109.75",
+    "stop_pts": "38",
+    "be": "7033.75",
+    "his": "7097",
+    "his_pts": "25.25",
+    "mic": "MES",
+    "ours": [
+     "2.6",
+     "5.3"
+    ],
+    "his_n": [
+     "4.0",
+     "7.9"
+    ],
+    "tgts": [
+     {
+      "p": "7017-7024",
+      "ours": "1.3",
+      "his": "1.9"
+     },
+     {
+      "p": "6999-7003",
+      "ours": "1.8",
+      "his": "2.7"
+     },
+     {
+      "p": "6947-6955",
+      "ours": "3.1",
+      "his": "4.6"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Fail / LAAF of 7115-7121 or 7138-7149",
+   "dir": "short",
+   "tag": "B+/A- · Fri IB low / last reasonable seller defense before 7211-7217",
+   "gate": "failure or look above and fail of 7115-7121 (Fri IB low 7121.25) or 7138-7149",
+   "tgt": "7089-7097 → 7072-7078 → 7017-7024",
+   "stop": "acceptance above 7138-7149 → 7177-7186 → Fri high 7216.75",
+   "quote": "Short a fail/LAAF of 7115–7121 or 7138–7149 — B+/A-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7115,
+     7149
+    ],
+    "tgt": [
+     [
+      7089,
+      7097
+     ],
+     [
+      7072,
+      7078
+     ],
+     [
+      7017,
+      7024
+     ]
+    ],
+    "invalid": [
+     7186
+    ],
+    "stop": [
+     7159.0
+    ],
+    "be": [
+     7083.0
+    ]
+   },
+   "risk": {
+    "entry": "7121",
+    "stop": "7159",
+    "stop_pts": "38",
+    "be": "7083",
+    "his": "7186",
+    "his_pts": "65",
+    "mic": "MES",
+    "ours": [
+     "2.6",
+     "5.3"
+    ],
+    "his_n": [
+     "1.5",
+     "3.1"
+    ],
+    "tgts": [
+     {
+      "p": "7089-7097",
+      "ours": "0.6",
+      "his": "0.4"
+     },
+     {
+      "p": "7072-7078",
+      "ours": "1.1",
+      "his": "0.7"
+     },
+     {
+      "p": "7017-7024",
+      "ours": "2.6",
+      "his": "1.5"
+     }
+    ],
+    "pick": 2,
+    "skip": false
+   }
+  },
+  {
+   "id": "es5",
+   "instrument": "ES",
+   "name": "LBAF of Friday's low 6898",
+   "dir": "long",
+   "tag": "B/B- at best · could trigger a meaningful cover rally · must reclaim 6947-6955",
+   "gate": "look below and fail of Fri low 6898 (demand 6837-6883, 6817-6822, 6809-6813 beneath), ideally in cash hours",
+   "tgt": "6925-6928 → 6947-6955 → 6999-7003",
+   "stop": "break of Friday's low with continuation (objective short)",
+   "quote": "Long a LBAF of Friday's low — B/B- at best, given the broader context, though I'm mindful of its potential to trigger a meaningful cover rally, particularly with the important structural references just below.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     6878,
+     6898
+    ],
+    "tgt": [
+     [
+      6925,
+      6928
+     ],
+     [
+      6947,
+      6955
+     ],
+     [
+      6999,
+      7003
+     ]
+    ],
+    "invalid": [
+     6837
+    ],
+    "stop": [
+     6860.0
+    ],
+    "be": [
+     6936.0
+    ]
+   },
+   "risk": {
+    "entry": "6898",
+    "stop": "6860",
+    "stop_pts": "38",
+    "be": "6936",
+    "his": "6837",
+    "his_pts": "61",
+    "mic": "MES",
+    "ours": [
+     "2.6",
+     "5.3"
+    ],
+    "his_n": [
+     "1.6",
+     "3.3"
+    ],
+    "tgts": [
+     {
+      "p": "6925-6928",
+      "ours": "0.7",
+      "his": "0.4"
+     },
+     {
+      "p": "6947-6955",
+      "ours": "1.3",
+      "his": "0.8"
+     },
+     {
+      "p": "6999-7003",
+      "ours": "2.7",
+      "his": "1.7"
+     }
+    ],
+    "pick": 2,
+    "skip": false
+   }
+  },
+  {
+   "id": "es6",
+   "instrument": "ES",
+   "name": "Repeated failures to break below the spike base 6947-6955",
+   "dir": "long",
+   "tag": "B- · cleaner than the NQ version · better with an active LBAF of Fri's low",
+   "gate": "repeated failures to break below 6947-6955 (rejection of Friday's spike)",
+   "tgt": "6999-7003 → 7017-7024",
+   "stop": "holding below the spike base → Fri low 6898",
+   "quote": "One can also consider longs on repeated failures to break below 6947–6955. This is a cleaner setup than its NQ counterpart and warrants a B- rating, particularly with an active LBAF of Friday's low.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     6947,
+     6955
+    ],
+    "tgt": [
+     [
+      6999,
+      7003
+     ],
+     [
+      7017,
+      7024
+     ]
+    ],
+    "invalid": [
+     6925
+    ],
+    "stop": [
+     6917.0
+    ],
+    "be": [
+     6993.0
+    ]
+   },
+   "risk": {
+    "entry": "6955",
+    "stop": "6917",
+    "stop_pts": "38",
+    "be": "6993",
+    "his": "6925",
+    "his_pts": "30",
+    "mic": "MES",
+    "ours": [
+     "2.6",
+     "5.3"
+    ],
+    "his_n": [
+     "3.3",
+     "6.7"
+    ],
+    "tgts": [
+     {
+      "p": "6999-7003",
+      "ours": "1.2",
+      "his": "1.5"
+     },
+     {
+      "p": "7017-7024",
+      "ours": "1.6",
+      "his": "2.1"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "Fail / LAAF of 25438-25493",
+   "dir": "short",
+   "tag": "A/A+ · J-period singles · first meaningful upside test",
+   "gate": "failure or look above and fail of 25438-25493",
+   "tgt": "25245-25275 → 25199 (spike base) → Fri low 24976.5",
+   "stop": "25438-25493 established as support / rotation to 25730-25769",
+   "quote": "Short a fail/LAAF of 25438–25493 — A/A+",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     25438,
+     25493
+    ],
+    "tgt": [
+     [
+      25245,
+      25275
+     ],
+     25199,
+     24976.5
+    ],
+    "invalid": [
+     25570
+    ],
+    "stop": [
+     25662.75
+    ],
+    "be": [
+     25323.25
+    ]
+   },
+   "risk": {
+    "entry": "25493",
+    "stop": "25662.8",
+    "stop_pts": "169.75",
+    "be": "25323.2",
+    "his": "25570",
+    "his_pts": "77",
+    "mic": "MNQ",
+    "ours": [
+     "1.5",
+     "2.9"
+    ],
+    "his_n": [
+     "3.2",
+     "6.5"
+    ],
+    "tgts": [
+     {
+      "p": "25245-25275",
+      "ours": "1.3",
+      "his": "2.8"
+     },
+     {
+      "p": "25199",
+      "ours": "1.7",
+      "his": "3.8"
+     },
+     {
+      "p": "24976.5",
+      "ours": "3.0",
+      "his": "6.7"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of 25730-25769 (Friday's ARH 25762.5)",
+   "dir": "short",
+   "tag": "A/A- · classic continuation short after a trend day",
+   "gate": "look above and fail of 25730-25769 incl. Fri afternoon rally high 25762.5",
+   "tgt": "25438-25493 → 25245-25275",
+   "stop": "firm base above 25730-25769 → squeeze to 25990-26016",
+   "quote": "Short a LAAF of 25730–25769 — A/A-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     25730,
+     25769
+    ],
+    "tgt": [
+     [
+      25438,
+      25493
+     ],
+     [
+      25245,
+      25275
+     ]
+    ],
+    "invalid": [
+     25850
+    ],
+    "stop": [
+     25932.25
+    ],
+    "be": [
+     25592.75
+    ]
+   },
+   "risk": {
+    "entry": "25762.5",
+    "stop": "25932.2",
+    "stop_pts": "169.75",
+    "be": "25592.8",
+    "his": "25850",
+    "his_pts": "87.5",
+    "mic": "MNQ",
+    "ours": [
+     "1.5",
+     "2.9"
+    ],
+    "his_n": [
+     "2.9",
+     "5.7"
+    ],
+    "tgts": [
+     {
+      "p": "25438-25493",
+      "ours": "1.6",
+      "his": "3.1"
+     },
+     {
+      "p": "25245-25275",
+      "ours": "2.9",
+      "his": "5.6"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Fail / LAAF of 25990-26016 or 26069-26117",
+   "dir": "short",
+   "tag": "B+/A- · Fri premarket low / A-period low of the failed opening drive",
+   "gate": "failure or look above and fail of 25990-26016 or 26069-26117",
+   "tgt": "25730-25769 → 25438-25493",
+   "stop": "acceptance above 26069-26117 → Fri high 26504.25",
+   "quote": "Short a fail/LAAF of 25990–26016 or 26069–26117 — B+/A-",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     25990,
+     26117
+    ],
+    "tgt": [
+     [
+      25730,
+      25769
+     ],
+     [
+      25438,
+      25493
+     ]
+    ],
+    "invalid": [
+     26200
+    ],
+    "stop": [
+     26185.75
+    ],
+    "be": [
+     25846.25
+    ]
+   },
+   "risk": {
+    "entry": "26016",
+    "stop": "26185.8",
+    "stop_pts": "169.75",
+    "be": "25846.2",
+    "his": "26200",
+    "his_pts": "184",
+    "mic": "MNQ",
+    "ours": [
+     "1.5",
+     "2.9"
+    ],
+    "his_n": [
+     "1.4",
+     "2.7"
+    ],
+    "tgts": [
+     {
+      "p": "25730-25769",
+      "ours": "1.5",
+      "his": "1.3"
+     },
+     {
+      "p": "25438-25493",
+      "ours": "3.1",
+      "his": "2.8"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "LBAF of Friday's low 24976.5",
+   "dir": "long",
+   "tag": "B- at best · April gap top 24926.5 just below · 25199 and 25245-25275 must become support",
+   "gate": "look below and fail of Fri low 24976.5 (April 7-8 gap top 24926.5 beneath), ideally RTH",
+   "tgt": "25199 → 25245-25275 → 25438-25493",
+   "stop": "break with continuation / acceptance inside the gap below 24926",
+   "quote": "Long a LBAF of Friday's low — B- at best, given the broader context, though I'm mindful of its potential to trigger a meaningful cover rally.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     24926,
+     24976.5
+    ],
+    "tgt": [
+     25199,
+     [
+      25245,
+      25275
+     ],
+     [
+      25438,
+      25493
+     ]
+    ],
+    "invalid": [
+     24796
+    ],
+    "stop": [
+     24806.75
+    ],
+    "be": [
+     25146.25
+    ]
+   },
+   "risk": {
+    "entry": "24976.5",
+    "stop": "24806.8",
+    "stop_pts": "169.75",
+    "be": "25146.2",
+    "his": "24796",
+    "his_pts": "180.5",
+    "mic": "MNQ",
+    "ours": [
+     "1.5",
+     "2.9"
+    ],
+    "his_n": [
+     "1.4",
+     "2.8"
+    ],
+    "tgts": [
+     {
+      "p": "25199",
+      "ours": "1.3",
+      "his": "1.2"
+     },
+     {
+      "p": "25245-25275",
+      "ours": "1.6",
+      "his": "1.5"
+     },
+     {
+      "p": "25438-25493",
+      "ours": "2.7",
+      "his": "2.6"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq5",
+   "instrument": "NQ",
+   "name": "Repeated failures to break below 25199 and 25245-25275",
+   "dir": "long",
+   "tag": "Ungraded · sloppier than ES · he prefers it with an active LBAF of Fri's low",
+   "gate": "repeated failures to break below 25199 and 25245-25275",
+   "tgt": "25388-25393 → 25438-25493",
+   "stop": "holding below the spike base 25199 → Fri low",
+   "quote": "One can also consider longs on repeated failures to break below 25199 and 25245–25275, although I would prefer to see this with an active LBAF of Friday's low.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     25199,
+     25275
+    ],
+    "tgt": [
+     [
+      25388,
+      25393
+     ],
+     [
+      25438,
+      25493
+     ]
+    ],
+    "invalid": [
+     25135
+    ],
+    "stop": [
+     25105.25
+    ],
+    "be": [
+     25444.75
+    ]
+   },
+   "risk": {
+    "entry": "25275",
+    "stop": "25105.2",
+    "stop_pts": "169.75",
+    "be": "25444.8",
+    "his": "25135",
+    "his_pts": "140",
+    "mic": "MNQ",
+    "ours": [
+     "1.5",
+     "2.9"
+    ],
+    "his_n": [
+     "1.8",
+     "3.6"
+    ],
+    "tgts": [
+     {
+      "p": "25388-25393",
+      "ours": "0.7",
+      "his": "0.8"
+     },
+     {
+      "p": "25438-25493",
+      "ours": "1.0",
+      "his": "1.2"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 25.29,
+  "NQ": 113.09
+ },
+ "stop_floor": {
+  "ES": 38.0,
+  "NQ": 169.75
+ }
+}
