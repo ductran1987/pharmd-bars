@@ -3,9 +3,10 @@ import charts, pandas as pd
 tz = "America/New_York"
 ES, NQ = charts.load_1h("ES"), charts.load_1h("NQ")
 ES5, NQ5 = charts.load("ES"), charts.load("NQ")
-s = pd.Timestamp("2026-11-09 09:30", tz=tz); e = pd.Timestamp("2026-11-20 16:15", tz=tz)
+s = pd.Timestamp("2026-11-09 09:30", tz=tz); e = pd.Timestamp("2026-11-23 16:15", tz=tz)
 w6 = ("wk 11/9", pd.Timestamp("2026-11-08 18:00", tz=tz), pd.Timestamp("2026-11-13 16:00", tz=tz))
 w7 = ("wk 11/16", pd.Timestamp("2026-11-15 18:00", tz=tz), pd.Timestamp("2026-11-20 16:00", tz=tz))
+w8 = ("Mon", pd.Timestamp("2026-11-22 18:00", tz=tz), e)
 
 es_lv = [
  {"p":[7670,7680],"label":"last wk: balance top","kind":"ref"},
@@ -46,9 +47,10 @@ es_marks = [
  {"t":pd.Timestamp("2026-11-17 10:50",tz=tz),"y":7308.0,"label":"TUE: 7308; value shifts down","dy":-120,"dx":-75},
  {"t":pd.Timestamp("2026-11-18 11:20",tz=tz),"y":7305.25,"label":"WED: NVDA gap sold; box 7305-7389","dy":-190,"dx":-70},
  {"t":pd.Timestamp("2026-11-19 15:15",tz=tz),"y":7192.0,"label":"THU: 7388-96 failed → box broke → trapdoor: 7192","dy":-170,"dx":-90},
- {"t":pd.Timestamp("2026-11-20 15:55",tz=tz),"y":6898.0,"label":"FRI: open bought to 7216.75, trend day down, spike 6954 → 6898 (2026 ETH open)","dy":-70,"dx":-95}]
+ {"t":pd.Timestamp("2026-11-20 15:55",tz=tz),"y":6898.0,"label":"FRI: open bought to 7216.75, trend day down, spike 6954 → 6898 (2026 ETH open)","dy":-70,"dx":-95},
+ {"t":pd.Timestamp("2026-11-23 10:30",tz=tz),"y":7313.25,"label":"MON: cover rally, news candle 7084 → 7313.25; failure to balance","dy":230,"dx":-75}]
 charts.weekly("ES", es_lv, ES, s, e, "charts/2026-W48_ES_weekly.png",
-              "ES weekly  ·  11/9 – 11/20  ·  week of 11/22 plan", profile_ranges=[w6, w7], marks=es_marks, d5prof=ES5)
+              "ES weekly  ·  11/9 – Mon 11/23  ·  week of 11/22 plan", profile_ranges=[w7, w8], marks=es_marks, d5prof=ES5)
 
 nq_lv = [
  {"p":[28684,28722],"label":"last wk high area","kind":"ref"},
@@ -88,7 +90,8 @@ nq_marks = [
  {"t":pd.Timestamp("2026-11-16 15:35",tz=tz),"y":27234.75,"label":"MON: gap-up to 28279 rejected → 27234.75","dy":-700,"dx":-95},
  {"t":pd.Timestamp("2026-11-17 10:50",tz=tz),"y":26658.5,"label":"TUE: 26658.5, responsive buying","dy":-420,"dx":-80},
  {"t":pd.Timestamp("2026-11-19 09:50",tz=tz),"y":27838.0,"label":"THU: gap to 27838 sold, 27588-622 failed → 26559","dy":330,"dx":-70},
- {"t":pd.Timestamp("2026-11-20 15:55",tz=tz),"y":24976.5,"label":"FRI: failed opening drive 26504, trend day down, spike 25199 → 24976.5 (above the April gap)","dy":-330,"dx":-105}]
+ {"t":pd.Timestamp("2026-11-20 15:55",tz=tz),"y":24976.5,"label":"FRI: failed opening drive 26504, trend day down, spike 25199 → 24976.5 (above the April gap)","dy":-330,"dx":-105},
+ {"t":pd.Timestamp("2026-11-23 09:30",tz=tz),"y":27137.0,"label":"MON: limit-up on news, 25863 → 27137 (just under the July low)","dy":1420,"dx":-45}]
 charts.weekly("NQ", nq_lv, NQ, s, e, "charts/2026-W48_NQ_weekly.png",
-              "NQ weekly  ·  11/9 – 11/20  ·  week of 11/22 plan", profile_ranges=[w6, w7], marks=nq_marks, d5prof=NQ5)
+              "NQ weekly  ·  11/9 – Mon 11/23  ·  week of 11/22 plan", profile_ranges=[w7, w8], marks=nq_marks, d5prof=NQ5)
 print("ok")

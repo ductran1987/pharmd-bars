@@ -1,0 +1,874 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-24",
+ "status": "draft",
+ "notes": "",
+ "bias": "'A failure to balance: Monday's violent reversal brings the bearish thesis to a critical crossroads.' Monday delivered the enormous cover rally he warned about; on the Jensen Huang reinstatement news NQ halted limit-up premarket. The bigger point: sellers never built volume and value at the lower prices before the market reversed. Instead of a multi-day balance under Friday's high, the market violently rejected those prices — a 'failure to balance', which here is a bullish development that 'sellers cannot simply ignore'. He tempers it: a big cover rally was likely anyway, and one session does not make a durable swing low or undo the technical damage. Both are now back-testing the breakdown: NQ's high 27137 fell just shy of the July low (lower boundary of the multi-month balance); ES is at the lower edge of its upper yearly range (low 7300s). A reclaim opens the possibility of a return toward the ATHs (as in April); a rejection does not by itself mean downside continuation. 'A rejection is not a downtrend, just as a violent rally is not necessarily a durable swing low.'",
+ "wildcard": "A hard location for both sides. He will not front-run a daily lower high; he wants a fresh multi-day balance to form and break DOWN before leaning bearish again, and he will not call the lows in after one session. Keep the news-candle lows marked: ES 7084, NQ 25862.75 — buyers should preserve them to keep the squeeze intact. Anchor a VWAP just before the news (or use the weekly VWAP) and one at Friday's low. If a LAAF of Monday's high develops and sellers then cannot reach Monday's RTH low, treat that as seller weakness (a nuanced bullish sign). An awkward multi-day balance between Monday's high and Friday's low is possible. VIX recently touched 40 — much volatility to work off. Daily Tue: ES 7454-7458, 7089-7097, 6809-6813, plus internal references 7288 and 7223; NQ 26948-26969 (new; the real reference was 26945), 25199; honorable mention 26639.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Mon: Globex low 6992 at Sunday's open, then higher all night; the 08:55 news candle ran 7083.75 → 7201.5; opened 7277, RTH low 7167 at 09:40, high 7313.25 at 10:30 inside 7305-7317 (not cleared), then the range tightened: 7222.75 and 7287.75 both traded between 11:10 and 11:40 and everything after stayed inside (7226-7284.25). Closed 7262.75, 5 PM 7270.5. From ~6900 on Friday to 7313 in one RTH session.",
+   "pivot": "The extremes of Monday's range matter most: RTH high 7313.25 (7305-7317 = minimum meaningful structural reclaim) and RTH low 7167. Inside it, 7223-7288 is its own box: a break with continuation retests that side's extreme; LBAF of 7223 (weekly 7211-7217 just below) → 7247 → 7269-7275 → 7288; LAAF of 7288 → 7269-7275 → 7247 → possibly 7223.",
+   "higher": "Watch for a LAAF of Monday's high (risk of a bearish engulfing day through Monday's RTH low; if sellers then fail to reach that low, it is seller weakness). A sustained break of 7305-7317 → 7346 (magnet) → 7372-7377 → 7388-7396 (Thursday's B-singles 7354-7390 make this area awkward; more caution into 7388-7396 but no arbitrary shorts) → follow the levels, extra caution into 7461-7469.",
+   "lower": "Few clean rotations. Taking Monday's low 7167 with continuation is suboptimal for buyers, not the end. If this is a true failure to balance, the daily timeframe should not return to balance before 7305-7317 is reclaimed. Risk of a return to Friday's low rises moderately below 7072-7078 and more below 7017-7024 (clean rotation between them). The news-candle low 7084 should hold. A LBAF of Monday's low must reclaim 7211-7217 and 7223 to reach 7247.",
+   "levels": [
+    {
+     "p": [
+      7388,
+      7396
+     ],
+     "label": "weekly* · more caution",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7372,
+      7377
+     ],
+     "label": "weekly · B-singles 7354-7390",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7346
+     ],
+     "label": "magnet above 7305-17",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7305,
+      7317
+     ],
+     "label": "weekly* · Mon high 7313.25 · LAAF short B+",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7288
+     ],
+     "label": "internal · box top · LAAF short B+",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7269,
+      7275
+     ],
+     "label": "weekly",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7247
+     ],
+     "label": "weekly · June RTH low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7223
+     ],
+     "label": "internal · box bottom · LBAF long B",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7211,
+      7217
+     ],
+     "label": "weekly* · Fri high",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7177,
+      7186
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7167
+     ],
+     "label": "Mon RTH low · LBAF long C+/B-",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7138,
+      7149
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7115,
+      7121
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7084,
+      7097
+     ],
+     "label": "news-candle low 7084 · daily 7089-97",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7072,
+      7078
+     ],
+     "label": "weekly · risk rises below",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7017,
+      7024
+     ],
+     "label": "weekly* · risk rises more below",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Mon: Globex low 25462 at Sunday's open; the 08:55 news candle ran 25862.75 → 26683 and NQ halted limit-up premarket; opened 26878.5, high 27137 on the first bar (just under the July low), low 26450.25 at 09:40, then a range: pullback low 26638.75 at 11:30, highs 26945 at 11:00 and 26948 late (the 26945 reference was swept late in the session). Closed 26801, 5 PM 26845. Back above the former ATH 26369-26408 and through the bearish gap 26504-26559.",
+   "pivot": "26948-26969 (new daily, like ES 7288) on top; weekly 26669-26732 with the pullback low 26639 (honorable mention) underneath, like ES 7223. Above 26948-26969 → 27069-27109 → Monday's high 27137 — he will not fade that strength without a real failure. Below 26669-26732 and 26639 → 26504-26569 → Monday's RTH low 26450.",
+   "higher": "Watch for a LAAF of Monday's 27137 high with the July low just above; sellers must then lose 26948-26969 to try for Monday's RTH low (failing to reach it = seller weakness). A firm base above 27069-27109 and Monday's high → 27313-27339 (magnet) → 27425-27458 → pause: Thursday's B-period singles overhead are more likely to react than the ES ones.",
+   "lower": "The massive 26369-26408 sits just under Monday's RTH low — be alert for a LBAF; a reclaim of 26504-26569 and 26669-26732 after it raises the odds of a return to Monday's high. A sustained break below Monday's low and 26369-26408 carries more technical risk than on ES (back under the prior ATH). Still, 26069-26117, 25990-26016 and the news-candle low 25862.75 must go before the risk of Friday's low rises meaningfully — moderately below 25730-25769, more below 25438-25493.",
+   "levels": [
+    {
+     "p": [
+      27425,
+      27458
+     ],
+     "label": "weekly* · pause · B-singles above",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      27313,
+      27339
+     ],
+     "label": "weekly* · magnet",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      27137
+     ],
+     "label": "Mon high · July low just above · LAAF watch",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      27069,
+      27109
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      26948,
+      26969
+     ],
+     "label": "daily (new) · LAAF short B- at best",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      26805,
+      26840
+     ],
+     "label": "weekly*",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      26669,
+      26732
+     ],
+     "label": "weekly · LBAF long B-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      26639
+     ],
+     "label": "Mon pullback low · honorable mention",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      26504,
+      26569
+     ],
+     "label": "weekly* · hold long C+",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      26450.25
+     ],
+     "label": "Mon RTH low · LBAF long B/B-",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      26369,
+      26408
+     ],
+     "label": "weekly* · former ATH · massive",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      26069,
+      26117
+     ],
+     "label": "weekly*",
+     "kind": "down"
+    },
+    {
+     "p": [
+      25990,
+      26016
+     ],
+     "label": "weekly*",
+     "kind": "down"
+    },
+    {
+     "p": [
+      25862.75
+     ],
+     "label": "news-candle low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      25730,
+      25769
+     ],
+     "label": "weekly · risk rises below",
+     "kind": "down"
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LAAF of 7288 (top of Monday's inner box)",
+   "dir": "short",
+   "tag": "B+ · inner box 7223-7288",
+   "gate": "look above and fail of 7288",
+   "tgt": "7269-7275 → 7247 → 7223",
+   "stop": "upside break of 7288 with continuation → Monday's high 7313.25",
+   "quote": "Short — LAAF of 7288 (B+): Target 7269–7275, followed by 7247 and 7223.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7288
+    ],
+    "tgt": [
+     [
+      7269,
+      7275
+     ],
+     7247,
+     7223
+    ],
+    "invalid": [
+     7305
+    ],
+    "stop": [
+     7309.5
+    ],
+    "be": [
+     7266.5
+    ]
+   },
+   "risk": {
+    "entry": "7288",
+    "stop": "7309.5",
+    "stop_pts": "21.5",
+    "be": "7266.5",
+    "his": "7305",
+    "his_pts": "17",
+    "mic": "MES",
+    "ours": [
+     "4.7",
+     "9.3"
+    ],
+    "his_n": [
+     "5.9",
+     "11.8"
+    ],
+    "tgts": [
+     {
+      "p": "7269-7275",
+      "ours": "0.6",
+      "his": "0.8"
+     },
+     {
+      "p": "7247",
+      "ours": "1.9",
+      "his": "2.4"
+     },
+     {
+      "p": "7223",
+      "ours": "3.0",
+      "his": "3.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LBAF of 7223 (bottom of Monday's inner box)",
+   "dir": "long",
+   "tag": "B · weekly 7211-7217 just below",
+   "gate": "look below and fail of 7223 (weekly 7211-7217 just beneath)",
+   "tgt": "7247 → 7269-7275 → 7288",
+   "stop": "downside break of 7223 with continuation → Monday's low 7167",
+   "quote": "Long — LBAF of 7223 (B).",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7211,
+     7223
+    ],
+    "tgt": [
+     7247,
+     [
+      7269,
+      7275
+     ],
+     7288
+    ],
+    "invalid": [
+     7186
+    ],
+    "stop": [
+     7201.5
+    ],
+    "be": [
+     7244.5
+    ]
+   },
+   "risk": {
+    "entry": "7223",
+    "stop": "7201.5",
+    "stop_pts": "21.5",
+    "be": "7244.5",
+    "his": "7186",
+    "his_pts": "37",
+    "mic": "MES",
+    "ours": [
+     "4.7",
+     "9.3"
+    ],
+    "his_n": [
+     "2.7",
+     "5.4"
+    ],
+    "tgts": [
+     {
+      "p": "7247",
+      "ours": "1.1",
+      "his": "0.6"
+     },
+     {
+      "p": "7269-7275",
+      "ours": "2.1",
+      "his": "1.2"
+     },
+     {
+      "p": "7288",
+      "ours": "3.0",
+      "his": "1.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "LAAF of Monday's RTH high 7313.25",
+   "dir": "short",
+   "tag": "B+ · 7305-7317, supply of the upper yearly distribution",
+   "gate": "look above and fail of Mon RTH high 7313.25 (inside 7305-7317)",
+   "tgt": "7288 → 7269-7275 → 7247 → 7223",
+   "stop": "sustained break of 7305-7317 → 7346",
+   "quote": "Short — LAAF of Monday's RTH high (B+).",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7305,
+     7317
+    ],
+    "tgt": [
+     7288,
+     [
+      7269,
+      7275
+     ],
+     7247
+    ],
+    "invalid": [
+     7346
+    ],
+    "stop": [
+     7334.75
+    ],
+    "be": [
+     7291.75
+    ]
+   },
+   "risk": {
+    "entry": "7313.25",
+    "stop": "7334.75",
+    "stop_pts": "21.5",
+    "be": "7291.75",
+    "his": "7346",
+    "his_pts": "32.75",
+    "mic": "MES",
+    "ours": [
+     "4.7",
+     "9.3"
+    ],
+    "his_n": [
+     "3.1",
+     "6.1"
+    ],
+    "tgts": [
+     {
+      "p": "7288",
+      "ours": "1.2",
+      "his": "0.8"
+     },
+     {
+      "p": "7269-7275",
+      "ours": "1.8",
+      "his": "1.2"
+     },
+     {
+      "p": "7247",
+      "ours": "3.1",
+      "his": "2.0"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "LBAF of Monday's RTH low 7167",
+   "dir": "long",
+   "tag": "C+/B- · must reclaim 7211-7217 and 7223",
+   "gate": "look below and fail of Mon RTH low 7167, then reclaim 7211-7217 and 7223",
+   "tgt": "7177-7186 → 7211-7217 / 7223 → 7247",
+   "stop": "Monday's low taken with continuation → 7138-7149 → 7084",
+   "quote": "Long — LBAF of Monday's RTH low (C+/B-).",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7149,
+     7167
+    ],
+    "tgt": [
+     [
+      7177,
+      7186
+     ],
+     [
+      7211,
+      7223
+     ],
+     7247
+    ],
+    "invalid": [
+     7138
+    ],
+    "stop": [
+     7145.5
+    ],
+    "be": [
+     7188.5
+    ]
+   },
+   "risk": {
+    "entry": "7167",
+    "stop": "7145.5",
+    "stop_pts": "21.5",
+    "be": "7188.5",
+    "his": "7138",
+    "his_pts": "29",
+    "mic": "MES",
+    "ours": [
+     "4.7",
+     "9.3"
+    ],
+    "his_n": [
+     "3.4",
+     "6.9"
+    ],
+    "tgts": [
+     {
+      "p": "7177-7186",
+      "ours": "0.5",
+      "his": "0.3"
+     },
+     {
+      "p": "7211-7223",
+      "ours": "2.0",
+      "his": "1.5"
+     },
+     {
+      "p": "7247",
+      "ours": "3.7",
+      "his": "2.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of 26669-26732 and 26639",
+   "dir": "long",
+   "tag": "B- · better if the weekly level is defended on a retest",
+   "gate": "look below and fail of 26669-26732 and the 26639 pullback low, reclaiming 26669-26732",
+   "tgt": "26805-26840 → 26948-26969 (at least 26920) → monitor for continuation",
+   "stop": "sustained break below 26669-26732 and 26639 → 26504-26569",
+   "quote": "Long — LBAF of 26669–26732 and 26639 (B-): Target 26805–26840, followed by 26948–26969 (at least 26920). Monitor for continuation higher from there.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     26639,
+     26732
+    ],
+    "tgt": [
+     [
+      26805,
+      26840
+     ],
+     26920,
+     [
+      26948,
+      26969
+     ]
+    ],
+    "invalid": [
+     26569
+    ],
+    "stop": [
+     26561.0
+    ],
+    "be": [
+     26777.0
+    ]
+   },
+   "risk": {
+    "entry": "26669",
+    "stop": "26561",
+    "stop_pts": "108",
+    "be": "26777",
+    "his": "26569",
+    "his_pts": "100",
+    "mic": "MNQ",
+    "ours": [
+     "2.3",
+     "4.6"
+    ],
+    "his_n": [
+     "2.5",
+     "5.0"
+    ],
+    "tgts": [
+     {
+      "p": "26805-26840",
+      "ours": "1.3",
+      "his": "1.4"
+     },
+     {
+      "p": "26920",
+      "ours": "2.3",
+      "his": "2.5"
+     },
+     {
+      "p": "26948-26969",
+      "ours": "2.6",
+      "his": "2.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of 26948-26969 (real reference 26945)",
+   "dir": "short",
+   "tag": "B- at best · arguably already underway; valid after a fresh sweep",
+   "gate": "a fresh sweep and failure of 26948-26969 (26945 was swept late Monday)",
+   "tgt": "26805-26840 → 26669-26732 (→ 26639)",
+   "stop": "sustained break above 26948-26969 → 27069-27109",
+   "quote": "Short — LAAF of 26948–26969 (B- at best): Target 26805–26840, followed by 26669–26732. The actual reference was 26945 rather than 26948, and that level was swept late in Monday's session, so this setup is arguably already underway. It remains valid following a fresh sweep, but carries a B- rating at best.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     26945,
+     26969
+    ],
+    "tgt": [
+     [
+      26805,
+      26840
+     ],
+     [
+      26669,
+      26732
+     ],
+     26639
+    ],
+    "invalid": [
+     27069
+    ],
+    "stop": [
+     27056.0
+    ],
+    "be": [
+     26840.0
+    ]
+   },
+   "risk": {
+    "entry": "26948",
+    "stop": "27056",
+    "stop_pts": "108",
+    "be": "26840",
+    "his": "27069",
+    "his_pts": "121",
+    "mic": "MNQ",
+    "ours": [
+     "2.3",
+     "4.6"
+    ],
+    "his_n": [
+     "2.1",
+     "4.1"
+    ],
+    "tgts": [
+     {
+      "p": "26805-26840",
+      "ours": "1.0",
+      "his": "0.9"
+     },
+     {
+      "p": "26669-26732",
+      "ours": "2.0",
+      "his": "1.8"
+     },
+     {
+      "p": "26639",
+      "ours": "2.9",
+      "his": "2.6"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "LBAF of Monday's RTH low 26450.25",
+   "dir": "long",
+   "tag": "B/B- · massive 26369-26408 just below",
+   "gate": "look below and fail of Mon RTH low 26450.25 (26369-26408 beneath), then reclaim 26504-26569 and 26669-26732",
+   "tgt": "26504-26569 → 26669-26732 → 26805-26840",
+   "stop": "sustained break below Monday's low and 26369-26408",
+   "quote": "Long — LBAF of Monday's RTH low (B/B-).",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     26369,
+     26450.25
+    ],
+    "tgt": [
+     [
+      26504,
+      26569
+     ],
+     [
+      26669,
+      26732
+     ],
+     [
+      26805,
+      26840
+     ]
+    ],
+    "invalid": [
+     26360
+    ],
+    "stop": [
+     26342.25
+    ],
+    "be": [
+     26558.25
+    ]
+   },
+   "risk": {
+    "entry": "26450.2",
+    "stop": "26342.2",
+    "stop_pts": "108",
+    "be": "26558.2",
+    "his": "26360",
+    "his_pts": "90.25",
+    "mic": "MNQ",
+    "ours": [
+     "2.3",
+     "4.6"
+    ],
+    "his_n": [
+     "2.8",
+     "5.5"
+    ],
+    "tgts": [
+     {
+      "p": "26504-26569",
+      "ours": "0.5",
+      "his": "0.6"
+     },
+     {
+      "p": "26669-26732",
+      "ours": "2.0",
+      "his": "2.4"
+     },
+     {
+      "p": "26805-26840",
+      "ours": "3.3",
+      "his": "3.9"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Hold of 26504-26569",
+   "dir": "long",
+   "tag": "C+ · needs a reclaim of 26669-26732 for more",
+   "gate": "a hold of 26504-26569",
+   "tgt": "26639 → 26669-26732 (reclaim needed to open more)",
+   "stop": "26504-26569 lost → Monday's RTH low 26450",
+   "quote": "Long — Hold of 26504–26569 (C+): A reclaim of 26669–26732 is needed to open additional upside.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     26504,
+     26569
+    ],
+    "tgt": [
+     26639,
+     [
+      26669,
+      26732
+     ]
+    ],
+    "invalid": [
+     26450
+    ],
+    "stop": [
+     26461.0
+    ],
+    "be": [
+     26677.0
+    ]
+   },
+   "risk": {
+    "entry": "26569",
+    "stop": "26461",
+    "stop_pts": "108",
+    "be": "26677",
+    "his": "26450",
+    "his_pts": "119",
+    "mic": "MNQ",
+    "ours": [
+     "2.3",
+     "4.6"
+    ],
+    "his_n": [
+     "2.1",
+     "4.2"
+    ],
+    "tgts": [
+     {
+      "p": "26639",
+      "ours": "0.6",
+      "his": "0.6"
+     },
+     {
+      "p": "26669-26732",
+      "ours": "0.9",
+      "his": "0.8"
+     }
+    ],
+    "pick": 1,
+    "skip": true
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 14.25,
+  "NQ": 72.02
+ },
+ "stop_floor": {
+  "ES": 21.5,
+  "NQ": 108.0
+ }
+}
