@@ -1,0 +1,829 @@
+{
+ "source": "pharmdks",
+ "date": "2026-11-25",
+ "status": "draft",
+ "notes": "Final daily plan of the week. Cash market closed Thursday (Thanksgiving); Friday is a short session (1 PM ET close). Expect thinner liquidity and sloppy trade. He gives a premarket update Wednesday, then he is off the desk.",
+ "bias": "'Bearish build, not yet bearish resolution: keeping it simple ahead of the holiday.' Monday's back-test (NQ under the July low, ES at 7305-7317) failed and gave some — not much — downside follow-through on Tuesday. NQ gapped value firmly lower and spent nearly the whole session below Monday's low; ES traded little below Monday's low but also gapped value lower. The developing weekly profiles now show bearish build: on NQ Monday's volume sits just inside the lower edge of last week's main distribution and Tuesday's sits distinctly lower, with a clean LVN between the two; on ES all of this week's build is below last week's main distribution, but the LVN between the two days is less convincing. Build is not resolution. If buyers reject the lower distribution and reclaim the upper one, the weekly profile turns reasonably bullish; if they cannot, or price is rejected from it, the bearish build gains credit; a sustained break of Tuesday's low with a third, lower distribution would confirm more. 'The evolution and eventual resolution of the developing weekly profile should be your guiding light.'",
+ "wildcard": "Treat Tuesday's range as a box on both; his preferred setups are the box-edge failures (LAAF / LBAF). Breakout and breakdown trades are implied but rate only C/C+ for his style. Any downside break MUST sustain — a return into Tuesday's range without a swift move back down risks the LBAF reversion. Both remain above Monday's news candle (ES low 7084; NQ open/low in the 25860s). Tuesday's low was about a 0.382 retracement of Friday's low → Monday's high on ES and about 0.5 on NQ. Risk to bulls accelerates below 7072-7078 then 7017-7024 (ES) and below 25730-25769 then 25438-25493 (NQ) — 'now more meaningfully given another day of bearish build'. He stays open to an awkward multi-day balance above Friday's low. Daily levels unchanged: ES 7454-7458, 7089-7097, 6809-6813; NQ 26948-26969, 25199; honorable mention NQ 26300.",
+ "brief": [
+  {
+   "instrument": "ES",
+   "happened": "Tue: ON high 7298.25 at 20:10 then lower, ON low 7144.75 at 08:15. Opened 7183, RTH low 7152.25 on the first bar (just under Monday's low 7167), high 7240.75 at 10:00, back to 7154.25 at 11:00, afternoon 7183-7238. Closed 7207.75, 5 PM 7210.75. Value gapped lower versus Monday.",
+   "pivot": "Box = Tuesday's RTH range 7152.25-7240.75. The developing weekly LVN sits just above Tuesday's high, arguably up to the weekly 7247 — watch for a LAAF there. 7211-7217 is a magnet inside the box.",
+   "higher": "Upside break of the box with continuation above 7247 → 7269-7275 → possibly 7305-7317 (Monday's high 7313.25).",
+   "lower": "LBAF of Tuesday's low → 7177-7186 → 7211-7217 (magnet) → monitor for continuation to and through Tuesday's high. Downside break with continuation → follow the levels: 7138-7149 → 7115-7121 → 7089-7097 / news-candle low 7084 → 7072-7078 (risk to bulls rises) → 7017-7024. The break must sustain; a return into the box risks reversion to 7177-7186 and 7211-7217.",
+   "levels": [
+    {
+     "p": [
+      7305,
+      7317
+     ],
+     "label": "weekly* · Mon high 7313.25",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      7269,
+      7275
+     ],
+     "label": "weekly",
+     "kind": "up"
+    },
+    {
+     "p": [
+      7240.75,
+      7247
+     ],
+     "label": "Tue high / weekly 7247 · weekly LVN · LAAF short B/B+",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7211,
+      7217
+     ],
+     "label": "weekly* · magnet",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7177,
+      7186
+     ],
+     "label": "weekly",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      7152.25
+     ],
+     "label": "Tue low · box bottom · LBAF long A-/B+",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      7138,
+      7149
+     ],
+     "label": "weekly · ON low 7144.75",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7115,
+      7121
+     ],
+     "label": "weekly",
+     "kind": "down"
+    },
+    {
+     "p": [
+      7084,
+      7097
+     ],
+     "label": "news-candle low 7084 · daily 7089-97",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7072,
+      7078
+     ],
+     "label": "weekly · risk to bulls rises below",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      7017,
+      7024
+     ],
+     "label": "weekly*",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  },
+  {
+   "instrument": "NQ",
+   "happened": "Tue: ON high 27036 at 20:10 then lower, ON low 26142.25. Opened 26364.25 below Monday's low, high 26509.75 at 10:00 (inside 26504-26569, under Monday's low 26450 only briefly reclaimed), low 25998 at 11:10 inside 25990-26016, afternoon 26126-26401. Closed 26229.75, 5 PM 26266 — back below the prior ATH 26369-26408. Value gapped firmly lower; a clean LVN separates Monday's and Tuesday's volume.",
+   "pivot": "Box = Tuesday's RTH range 25998-26509.75. Top is in 26504-26569 with 26369-26408 just inside; bottom is in 25990-26016 with 26069-26117 just inside. Honorable mention 26300.",
+   "higher": "An upside break of Tuesday's high stays vulnerable to failure until 26669-26732 is reclaimed. Above it → 26805-26840 (magnet) → 26948-26969 → Monday's high near 27069-27109.",
+   "lower": "LBAF of Tuesday's low must reclaim 26069-26117 → 26300 → 26369-26408 → Tuesday's high in 26504-26569. Downside break with continuation → news-candle open/low in the 25860s → 25730-25769 (increasingly important) → 25438-25493. The break must sustain; a reclaim of the box without a swift move back down risks the LBAF scenario.",
+   "levels": [
+    {
+     "p": [
+      27069,
+      27109
+     ],
+     "label": "weekly · Mon high 27137",
+     "kind": "up"
+    },
+    {
+     "p": [
+      26948,
+      26969
+     ],
+     "label": "daily",
+     "kind": "up"
+    },
+    {
+     "p": [
+      26805,
+      26840
+     ],
+     "label": "weekly* · magnet above 669-732",
+     "kind": "up"
+    },
+    {
+     "p": [
+      26669,
+      26732
+     ],
+     "label": "weekly · breakout vulnerable until reclaimed",
+     "kind": "up",
+     "strong": true
+    },
+    {
+     "p": [
+      26504,
+      26569
+     ],
+     "label": "weekly* · Tue high 26509.75 · LAAF short A/A-",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      26369,
+      26408
+     ],
+     "label": "weekly* · prior ATH · must flip to resistance",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      26300
+     ],
+     "label": "honorable mention",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      26069,
+      26117
+     ],
+     "label": "weekly* · must be reclaimed after a LBAF",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      25990,
+      26016
+     ],
+     "label": "weekly* · Tue low 25998 · LBAF long B/B+",
+     "kind": "pivot",
+     "strong": true
+    },
+    {
+     "p": [
+      25862.75
+     ],
+     "label": "news-candle low",
+     "kind": "ref"
+    },
+    {
+     "p": [
+      25730,
+      25769
+     ],
+     "label": "weekly · risk rises below",
+     "kind": "down",
+     "strong": true
+    },
+    {
+     "p": [
+      25438,
+      25493
+     ],
+     "label": "weekly*",
+     "kind": "down",
+     "strong": true
+    }
+   ]
+  }
+ ],
+ "trades": [
+  {
+   "id": "es1",
+   "instrument": "ES",
+   "name": "LBAF of Tuesday's low 7152.25",
+   "dir": "long",
+   "tag": "A-/B+ · box bottom · 0.382 retracement",
+   "gate": "look below and fail of Tue RTH low 7152.25 (weekly 7138-7149 beneath)",
+   "tgt": "7177-7186 → 7211-7217 (magnet) → Tue high 7240.75",
+   "stop": "downside break that sustains → 7115-7121 → 7084",
+   "quote": "Long a LBAF of today's low — A-/B+.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7138,
+     7152.25
+    ],
+    "tgt": [
+     [
+      7177,
+      7186
+     ],
+     [
+      7211,
+      7217
+     ],
+     7240.75
+    ],
+    "invalid": [
+     7121
+    ],
+    "stop": [
+     7135.0
+    ],
+    "be": [
+     7169.5
+    ]
+   },
+   "risk": {
+    "entry": "7152.25",
+    "stop": "7135",
+    "stop_pts": "17.25",
+    "be": "7169.5",
+    "his": "7121",
+    "his_pts": "31.25",
+    "mic": "MES",
+    "ours": [
+     "5.8",
+     "11.6"
+    ],
+    "his_n": [
+     "3.2",
+     "6.4"
+    ],
+    "tgts": [
+     {
+      "p": "7177-7186",
+      "ours": "1.4",
+      "his": "0.8"
+     },
+     {
+      "p": "7211-7217",
+      "ours": "3.4",
+      "his": "1.9"
+     },
+     {
+      "p": "7240.75",
+      "ours": "5.1",
+      "his": "2.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es2",
+   "instrument": "ES",
+   "name": "LAAF of Tuesday's high 7240.75 (weekly LVN up to 7247)",
+   "dir": "short",
+   "tag": "B/B+ · box top · developing weekly LVN",
+   "gate": "look above and fail of Tue RTH high 7240.75, LVN arguably up to 7247",
+   "tgt": "7211-7217 → 7177-7186 → Tue low 7152.25",
+   "stop": "upside break with continuation above 7247 → 7269-7275",
+   "quote": "Short a LAAF of today's high — B/B+.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7240.75,
+     7247
+    ],
+    "tgt": [
+     [
+      7211,
+      7217
+     ],
+     [
+      7177,
+      7186
+     ],
+     7152.25
+    ],
+    "invalid": [
+     7269
+    ],
+    "stop": [
+     7258.0
+    ],
+    "be": [
+     7223.5
+    ]
+   },
+   "risk": {
+    "entry": "7240.75",
+    "stop": "7258",
+    "stop_pts": "17.25",
+    "be": "7223.5",
+    "his": "7269",
+    "his_pts": "28.25",
+    "mic": "MES",
+    "ours": [
+     "5.8",
+     "11.6"
+    ],
+    "his_n": [
+     "3.5",
+     "7.1"
+    ],
+    "tgts": [
+     {
+      "p": "7211-7217",
+      "ours": "1.4",
+      "his": "0.8"
+     },
+     {
+      "p": "7177-7186",
+      "ours": "3.2",
+      "his": "1.9"
+     },
+     {
+      "p": "7152.25",
+      "ours": "5.1",
+      "his": "3.1"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es3",
+   "instrument": "ES",
+   "name": "Breakout: above Tuesday's high with continuation above 7247",
+   "dir": "long",
+   "tag": "C/C+ · implied, not his style",
+   "gate": "upside break of Tuesday's range with continuation above 7247",
+   "tgt": "7269-7275 → 7305-7317",
+   "stop": "failure back into the box (then it is the LAAF, es2)",
+   "quote": "As with NQ, breakout and breakdown trades are implied but rate a C/C+ for my personal trading style.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7247
+    ],
+    "tgt": [
+     [
+      7269,
+      7275
+     ],
+     [
+      7305,
+      7317
+     ]
+    ],
+    "invalid": [
+     7240
+    ],
+    "stop": [
+     7229.75
+    ],
+    "be": [
+     7264.25
+    ]
+   },
+   "risk": {
+    "entry": "7247",
+    "stop": "7229.75",
+    "stop_pts": "17.25",
+    "be": "7264.25",
+    "his": "7240",
+    "his_pts": "7",
+    "mic": "MES",
+    "ours": [
+     "5.8",
+     "11.6"
+    ],
+    "his_n": [
+     "14.3",
+     "28.6"
+    ],
+    "tgts": [
+     {
+      "p": "7269-7275",
+      "ours": "1.3",
+      "his": "3.1"
+     },
+     {
+      "p": "7305-7317",
+      "ours": "3.4",
+      "his": "8.3"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "es4",
+   "instrument": "ES",
+   "name": "Breakdown: below Tuesday's low with continuation",
+   "dir": "short",
+   "tag": "C/C+ · implied, not his style · MUST sustain",
+   "gate": "downside break of Tue low 7152.25 with continuation (through 7138-7149)",
+   "tgt": "7115-7121 → 7089-7097 / 7084 → 7072-7078",
+   "stop": "return into Tuesday's range without a swift move back down (then it is the LBAF, es1)",
+   "quote": "As with NQ, breakout and breakdown trades are implied but rate a C/C+ for my personal trading style.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     7138,
+     7152.25
+    ],
+    "tgt": [
+     [
+      7115,
+      7121
+     ],
+     [
+      7084,
+      7097
+     ],
+     [
+      7072,
+      7078
+     ]
+    ],
+    "invalid": [
+     7160
+    ],
+    "stop": [
+     7155.25
+    ],
+    "be": [
+     7120.75
+    ]
+   },
+   "risk": {
+    "entry": "7138",
+    "stop": "7155.25",
+    "stop_pts": "17.25",
+    "be": "7120.75",
+    "his": "7160",
+    "his_pts": "22",
+    "mic": "MES",
+    "ours": [
+     "5.8",
+     "11.6"
+    ],
+    "his_n": [
+     "4.5",
+     "9.1"
+    ],
+    "tgts": [
+     {
+      "p": "7115-7121",
+      "ours": "1.0",
+      "his": "0.8"
+     },
+     {
+      "p": "7084-7097",
+      "ours": "2.4",
+      "his": "1.9"
+     },
+     {
+      "p": "7072-7078",
+      "ours": "3.5",
+      "his": "2.7"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq1",
+   "instrument": "NQ",
+   "name": "LBAF of Tuesday's low 25998",
+   "dir": "long",
+   "tag": "B/B+ · 26069-26117 must be reclaimed quickly",
+   "gate": "look below and fail of Tue RTH low 25998 (inside 25990-26016), with a quick reclaim of 26069-26117",
+   "tgt": "26069-26117 → 26300 → 26369-26408 → Tue high",
+   "stop": "downside break that sustains → 25860s → 25730-25769",
+   "quote": "Long a LBAF of today's low — B/B+. Make sure 26069-26117 is quickly reclaimed.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     25990,
+     26016
+    ],
+    "tgt": [
+     [
+      26069,
+      26117
+     ],
+     26300,
+     [
+      26369,
+      26408
+     ]
+    ],
+    "invalid": [
+     25862
+    ],
+    "stop": [
+     25911.25
+    ],
+    "be": [
+     26084.75
+    ]
+   },
+   "risk": {
+    "entry": "25998",
+    "stop": "25911.2",
+    "stop_pts": "86.75",
+    "be": "26084.8",
+    "his": "25862",
+    "his_pts": "136",
+    "mic": "MNQ",
+    "ours": [
+     "2.9",
+     "5.8"
+    ],
+    "his_n": [
+     "1.8",
+     "3.7"
+    ],
+    "tgts": [
+     {
+      "p": "26069-26117",
+      "ours": "0.8",
+      "his": "0.5"
+     },
+     {
+      "p": "26300",
+      "ours": "3.5",
+      "his": "2.2"
+     },
+     {
+      "p": "26369-26408",
+      "ours": "4.3",
+      "his": "2.7"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq2",
+   "instrument": "NQ",
+   "name": "LAAF of Tuesday's high 26509.75",
+   "dir": "short",
+   "tag": "A/A- · 26369-26408 must flip back to resistance quickly",
+   "gate": "look above and fail of Tue RTH high 26509.75 (inside 26504-26569), with 26369-26408 quickly flipped back to resistance",
+   "tgt": "26300 → 26069-26117 → Tue low 25998 (25990-26016)",
+   "stop": "reclaim of 26669-26732 → 26805-26840",
+   "quote": "Short a LAAF of today's high — A/A-. Make sure 26369-26408 is quickly flipped back to resistance.",
+   "unsure": false,
+   "decision": null,
+   "levels": {
+    "gate": [
+     26504,
+     26569
+    ],
+    "tgt": [
+     26300,
+     [
+      26069,
+      26117
+     ],
+     [
+      25990,
+      26016
+     ]
+    ],
+    "invalid": [
+     26669
+    ],
+    "stop": [
+     26596.5
+    ],
+    "be": [
+     26423.0
+    ]
+   },
+   "risk": {
+    "entry": "26509.8",
+    "stop": "26596.5",
+    "stop_pts": "86.75",
+    "be": "26423",
+    "his": "26669",
+    "his_pts": "159.25",
+    "mic": "MNQ",
+    "ours": [
+     "2.9",
+     "5.8"
+    ],
+    "his_n": [
+     "1.6",
+     "3.1"
+    ],
+    "tgts": [
+     {
+      "p": "26300",
+      "ours": "2.4",
+      "his": "1.3"
+     },
+     {
+      "p": "26069-26117",
+      "ours": "4.5",
+      "his": "2.5"
+     },
+     {
+      "p": "25990-26016",
+      "ours": "5.7",
+      "his": "3.1"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq3",
+   "instrument": "NQ",
+   "name": "Breakout: above Tuesday's high with continuation",
+   "dir": "long",
+   "tag": "C/C+ · vulnerable until 26669-26732 is reclaimed",
+   "gate": "upside break of Tue high 26509.75 with continuation; vulnerable to failure until 26669-26732 is reclaimed",
+   "tgt": "26669-26732 → 26805-26840 → 26948-26969",
+   "stop": "failure back into the box (then it is the LAAF, nq2)",
+   "quote": "Breakout and breakdown trades with continuation are implied by the commentary above, though neither is particularly appealing to me given my personal trading style. Both rate a C/C+.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     26569
+    ],
+    "tgt": [
+     [
+      26669,
+      26732
+     ],
+     [
+      26805,
+      26840
+     ],
+     [
+      26948,
+      26969
+     ]
+    ],
+    "invalid": [
+     26504
+    ],
+    "stop": [
+     26482.25
+    ],
+    "be": [
+     26655.75
+    ]
+   },
+   "risk": {
+    "entry": "26569",
+    "stop": "26482.2",
+    "stop_pts": "86.75",
+    "be": "26655.8",
+    "his": "26504",
+    "his_pts": "65",
+    "mic": "MNQ",
+    "ours": [
+     "2.9",
+     "5.8"
+    ],
+    "his_n": [
+     "3.8",
+     "7.7"
+    ],
+    "tgts": [
+     {
+      "p": "26669-26732",
+      "ours": "1.2",
+      "his": "1.5"
+     },
+     {
+      "p": "26805-26840",
+      "ours": "2.7",
+      "his": "3.6"
+     },
+     {
+      "p": "26948-26969",
+      "ours": "4.4",
+      "his": "5.8"
+     }
+    ],
+    "pick": 1,
+    "skip": false
+   }
+  },
+  {
+   "id": "nq4",
+   "instrument": "NQ",
+   "name": "Breakdown: below Tuesday's low with continuation",
+   "dir": "short",
+   "tag": "C/C+ · implied, not his style · MUST sustain",
+   "gate": "downside break of Tue low 25998 / 25990-26016 with continuation",
+   "tgt": "25860s (news-candle open/low) → 25730-25769 → 25438-25493",
+   "stop": "reclaim of Tuesday's range without a swift move back down (then it is the LBAF, nq1)",
+   "quote": "Breakout and breakdown trades with continuation are implied by the commentary above, though neither is particularly appealing to me given my personal trading style. Both rate a C/C+.",
+   "unsure": true,
+   "decision": null,
+   "levels": {
+    "gate": [
+     25990
+    ],
+    "tgt": [
+     25862.75,
+     [
+      25730,
+      25769
+     ],
+     [
+      25438,
+      25493
+     ]
+    ],
+    "invalid": [
+     26069
+    ],
+    "stop": [
+     26076.75
+    ],
+    "be": [
+     25903.25
+    ]
+   },
+   "risk": {
+    "entry": "25990",
+    "stop": "26076.8",
+    "stop_pts": "86.75",
+    "be": "25903.2",
+    "his": "26069",
+    "his_pts": "79",
+    "mic": "MNQ",
+    "ours": [
+     "2.9",
+     "5.8"
+    ],
+    "his_n": [
+     "3.2",
+     "6.3"
+    ],
+    "tgts": [
+     {
+      "p": "25862.8",
+      "ours": "1.5",
+      "his": "1.6"
+     },
+     {
+      "p": "25730-25769",
+      "ours": "2.5",
+      "his": "2.8"
+     },
+     {
+      "p": "25438-25493",
+      "ours": "5.7",
+      "his": "6.3"
+     }
+    ],
+    "pick": 0,
+    "skip": false
+   }
+  }
+ ],
+ "atr5": {
+  "ES": 11.52,
+  "NQ": 57.88
+ },
+ "stop_floor": {
+  "ES": 17.25,
+  "NQ": 86.75
+ }
+}
